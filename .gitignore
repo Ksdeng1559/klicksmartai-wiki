@@ -1,0 +1,22 @@
+# Graphify output (regenerated on build)
+graphify-out/
+
+# Obsidian app config (local-only)
+.obsidian/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+*.swp
+*.swo
+*~
+
+# Large cache files
+__pycache__/
+*.pyc
+
+# Temp files
+tmp/
+temp/

@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        :root {
+            --primary: #1A1A1A;
+            --accent: #C5A059;
+            --text-main: #333333;
+            --text-light: #F5F5F5;
+        }
+        body {
+            font-family: 'Inter', 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+            background-color: #FFFFFF;
+        }
+        .page {
+            width: 210mm;
+            height: 297mm;
+            padding: 20mm;
+            box-sizing: border-box;
+            page-break-after: always;
+            position: relative;
+        }
+        .cover {
+            background-color: var(--primary);
+            color: var(--text-light);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .cover h1 {
+            font-size: 42pt;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+        .cover h2 {
+            font-size: 18pt;
+            font-weight: 400;
+            opacity: 0.8;
+            border-top: 1px solid var(--accent);
+            padding-top: 20px;
+        }
+        .section-title {
+            font-size: 24pt;
+            color: var(--primary);
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .card {
+            border: 1px solid #DDD;
+            padding: 20px;
+            border-left: 5px solid var(--accent);
+            background-color: #F9F9F9;
+        }
+        .card h3 {
+            color: var(--primary);
+            margin-top: 0;
+            font-size: 16pt;
+        }
+        .highlight-box {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 30px;
+            margin: 40px 0;
+            font-size: 14pt;
+            line-height: 1.6;
+            border-radius: 4px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20mm;
+            right: 20mm;
+            font-size: 10pt;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGE 1: COVER -->
+    <div class="page cover">
+        <h1>Sovereign Wealth Architecture</h1>
+        <h2>A Strategic Diversification Framework for Byron Chard</h2>
+        <div class="footer">Prepared by Westward Advisors | Confidential</div>
+    </div>
+
+    <!-- PAGE 2: THE CONCENTRATION PARADOX -->
+    <div class="page">
+        <div class="section-title">The Concentration Paradox</div>
+        <p>For institutional developers, success often creates a unique financial vulnerability. As your portfolio shifts from transactional condos to long-term Purpose-Built Rentals (PBR), your wealth becomes increasingly concentrated in a single asset class and a single geography.</p>
+        
+        <div class="highlight-box">
+            <strong>The Paradox:</strong> Your company has never been more stable, yet your personal balance sheet has never been more exposed.
+        </div>
+        
+        <p>While the cash-flow from 3,100+ units is a powerful engine, true <em>Sovereignty</em> requires the decoupling of personal security from professional footprint.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <h3>The Institutional Risk</h3>
+                <p>High sensitivity to BC provincial policy, interest rate shifts, and municipal zoning changes.</p>
+            </div>
+            <div class="card">
+                <h3>The Liquidity Trap</h3>
+                <p>Wealth tied up in equity that is high-value but low-velocity.</p>
+            </div>
+        </div>
+        <div class="footer">Page 2</div>
+    </div>
+
+    <!-- PAGE 3: THE STRATEGY MATRIX -->
+    <div class="page">
+        <div class="section-title">The Strategic Path Matrix</div>
+        <p>Depending on your primary objective for the next 24 months, we implement one of three distinct architectural frameworks:</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>1. The Hedge</h3>
+                <p><strong>Goal:</strong> Sovereign Preservation</p>
+                <p>Systematic migration of equity into non-correlated global assets to neutralize BC regional risk.</p>
+            </div>
+            <div class="card">
+                <h3>2. The Legacy</h3>
+                <p><strong>Goal:</strong> Intergenerational Wealth</p>
+                <p>Structuring the laCHESIS of your wealth to transition from 'Founder' to 'Dynasty' through trust architecture.</p>
+            </div>
+        </div>
+        <div style="margin-top: 20px;" class="card" style="border-left: 5px solid var(--accent);">
+            <h3>3. The Optimizer</h3>
+            <p><strong>Goal:</strong> Liquidity Engineering</p>
+            <p>Creating tax-efficient "bridges" that allow you to enjoy the luxury of your success without triggering prohibitive capital gains events.</p>
+        </div>
+
+        <div class="highlight-box" style="background-color: var(--accent); color: var(--primary); text-align: center;">
+            <strong>Which path aligns with your current vision for the family office?</strong>
+        </div>
+        <div class="footer">Page 3</div>
+    </div>
+
+</body>
+</html>
