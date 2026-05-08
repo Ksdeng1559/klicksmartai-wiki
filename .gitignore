@@ -20,3 +20,13 @@ __pycache__/
 # Temp files
 tmp/
 temp/
+# Embedded git repos (not submodules)
+agency-agents/
+tech-debt/github/graphify/
+tech-debt/github/hermes-agent/
+
+# API keys and credentials
+raw/transcripts/Groq.txt
+raw/transcripts/OpenRouterAPI.txt
+*.env
+.env
