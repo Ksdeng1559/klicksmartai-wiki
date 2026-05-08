@@ -46,7 +46,11 @@ Non-Hermes LLMs write to **feature branches only**. Open a PR for Hermes to revi
 └── hermes/           # Hermes operating directives
 ```
 
-## Key Files
+## Obsidian Vault
+
+**Vault ID:** `1b9c01d85dcfdeb7`
+
+The Obsidian vault at `~/wiki` is the live working copy. The GitHub repo is the sync layer — do not edit files directly on GitHub unless for emergency fixes.
 
 | File | Purpose |
 |------|---------|
