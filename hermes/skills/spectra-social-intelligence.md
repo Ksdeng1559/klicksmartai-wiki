@@ -49,14 +49,18 @@ It feeds all four deliverable types:
 
 ### Phase 1 — Search Engine Rotation
 
-Rotate across these engines to avoid rate limits and get diverse results:
+Rotate across these six engines to avoid rate limits and get diverse results:
 
-| Engine | Best For | Query Style |
-|--------|----------|-------------|
+| Engine | Best For | Notes |
+|--------|----------|-------|
 | **Brave Search** | Local news, community orgs, general web | `site:news <county> housing` |
 | **Serper (Google)** | News, press releases, political | `county state housing crisis 2024 2025` |
+| **Tavily MCP** | Deep research, cited reports, site extraction | `tavily_research` for full report; `tavily_search` for quick |
+| **Parallel.ai** | Agentic deep search, content extraction, entity discovery | `parallel-cli research run --processor pro` for full dossiers |
 | **Exa / Deep Search** | Academic, reports, long-form | `"<county>" housing affordability report` |
 | **SerpAPI** | Local search, Google Maps categories | `<county> housing nonprofit` |
+
+**Rotation rule:** Never call the same engine twice in a row. If one hits a rate limit, rotate immediately to the next. Never retry a credit-exhausted engine.
 
 ### Phase 2 — Intelligence Categories
 
@@ -64,11 +68,22 @@ For each category, run the appropriate search and web_extract key findings.
 
 #### Category 1 — Local News (all briefs)
 
-**Search:**
+**Brave / Serper surface search:**
 ```
 <county> <state> housing crisis 2024 2025
 <county> <state> affordable housing news
 <county> <state> eviction homelessness news
+```
+
+**Tavily deep search:**
+```
+tavily_search --query "<county> <state> housing crisis 2024" --search_depth advanced --topic general --max_results 10 --include_answer true
+tavily_search --query "<county> <state> affordable housing policy" --search_depth advanced --topic news --time_range month --max_results 8
+```
+
+**Parallel.ai agentic research:**
+```
+parallel-cli research run "<county> <state> local housing news ecosystem" --processor pro --json
 ```
 
 **Extract:**
@@ -248,6 +263,20 @@ exa_search --query "<county> <state> housing affordability report study" --num-r
 
 # SerpAPI local — Maps categories
 serpapi "<county> <state>" --category housing_nonprofit
+
+# Tavily — deep research with cited report
+tavily_search --query "<county> <state> housing crisis affordable" --search_depth advanced --max_results 10 --include_answer true
+
+tavily_research --query "<county> <state> community housing nonprofit ecosystem" --search_depth advanced --max_results 15
+
+tavily_extract --urls ["https://countywebsite.gov/housing", "https://housingcoalition.org"] --query "housing programs affordability data"
+
+# Parallel.ai — agentic deep search + extraction
+~/.hermes/hermes-agent/venv/bin/parallel-cli research run "<county> <state> housing ecosystem" --processor pro --json
+
+~/.hermes/hermes-agent/venv/bin/parallel-cli search "<county> <state> affordable housing nonprofit developer" --mode agentic --json
+
+~/.hermes/hermes-agent/venv/bin/parallel-cli extract https://housing-org.example.com --objective "Find housing programs, affordability data, contact info" --json
 ```
 
 ---
