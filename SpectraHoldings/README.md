@@ -67,6 +67,216 @@ The system must allow users of reports to:
 11. Public Finance Intelligence Engine
 12. Work in Progress Funding Engine
 
+## LLM Usage and Workflow Layer
+
+Different LLMs and coding agents should be used for different layers of the Spectra intelligence system.
+
+No single model is the system of record. The wiki and DuckDB / MotherDuck storage layer are the system of record.
+
+### ChatGPT
+
+Primary role:
+
+- executive reasoning
+- financial intelligence design
+- workflow architecture
+- agent specification
+- investor-ready narrative development
+- decision brief drafting
+- cross-functional synthesis
+
+Best used for:
+
+- turning messy inputs into structured plans
+- designing agent workflows
+- creating problem definition documents
+- drafting investor, county, and landowner narratives
+- converting strategy into wiki pages
+
+Outputs should be stored in:
+
+- `summaries/`
+- `decisions/`
+- `workflows/`
+- `agents/`
+- `prompts/`
+
+### Claude AI
+
+Primary role:
+
+- long-context synthesis
+- document analysis
+- transcript digestion
+- contradiction detection
+- narrative refinement
+- assumptions memo drafting
+
+Best used for:
+
+- reading long Spectra documents
+- comparing multiple transcripts or briefs
+- finding inconsistencies across materials
+- producing polished memos
+- preparing executive summaries
+
+Outputs should be stored in:
+
+- `summaries/`
+- `validations/`
+- `queries/`
+- `comparisons/`
+
+### Claude Code
+
+Primary role:
+
+- repository operations
+- code implementation
+- data pipeline creation
+- agent workflow implementation
+- schema and application development
+
+Best used for:
+
+- creating DuckDB / MotherDuck schemas
+- building ingestion scripts
+- creating report-generation pipelines
+- implementing validation checks
+- building dashboard or API layers
+- maintaining repository structure
+
+Outputs should be stored in:
+
+- `CODEX.md` or `CLAUDE.md` guidance files as applicable
+- `workflows/`
+- `_meta/`
+- implementation repositories outside the wiki when production code is required
+
+### Codex
+
+Primary role:
+
+- financial model coding
+- SQL generation
+- Python analysis scripts
+- testing and validation logic
+- model automation
+
+Best used for:
+
+- creating capital stack calculators
+- building IRR / DSCR / ROI models
+- writing DuckDB SQL
+- generating database migration scripts
+- building data validation tests
+- reviewing model code for correctness
+
+Outputs should be stored in:
+
+- `CODEX.md`
+- `workflows/`
+- `validations/`
+- DuckDB / MotherDuck schema files
+- production code repositories when applicable
+
+### Hermes
+
+Primary role:
+
+- autonomous research
+- scheduled monitoring
+- county intelligence gathering
+- signal detection
+- recurring data refresh
+- multi-source research orchestration
+
+Best used for:
+
+- monitoring target counties
+- collecting housing, migration, wage, and market signals
+- tracking municipal meetings, grants, incentives, and public finance opportunities
+- running recurring research jobs
+- feeding structured findings into the wiki and database
+
+Outputs should be stored in:
+
+- `HERMES.md`
+- `raw/`
+- `queries/`
+- `summaries/`
+- DuckDB / MotherDuck tables
+
+### Gemini
+
+Primary role:
+
+- multimodal analysis
+- document and image interpretation
+- Google ecosystem integration
+- map, location, and large context support
+- visual asset analysis
+
+Best used for:
+
+- reading maps, site images, aerials, and diagrams
+- analyzing presentation decks
+- extracting structured data from visual materials
+- supporting Google Drive / Workspace based workflows
+- assisting with county and site-level research where visuals matter
+
+Outputs should be stored in:
+
+- `raw/assets/`
+- `summaries/`
+- `queries/`
+- `validations/`
+
+## LLM Handoff Rules
+
+All LLM workflows must follow this sequence:
+
+```text
+Research / Source Collection
+    -> Synthesis
+    -> Structured Output
+    -> Validation
+    -> Storage
+    -> Decision Brief
+```
+
+Recommended handoff pattern:
+
+```text
+Hermes / Gemini
+    -> source collection and raw extraction
+
+Claude AI / ChatGPT
+    -> synthesis, reasoning, narrative, decision framing
+
+Codex / Claude Code
+    -> schemas, automation, models, tests, pipelines
+
+Validation Agent
+    -> assumptions, citations, risk, contradiction checks
+
+DuckDB / MotherDuck
+    -> structured storage
+
+SpectraHoldings Wiki
+    -> semantic memory and reusable knowledge
+```
+
+## LLM Governance Rules
+
+- Do not treat any LLM output as final without validation.
+- Every important claim must be tied to a source, assumption, or confidence score.
+- Every generated report must be stored as both a wiki artifact and a structured database record.
+- Contradictions must be logged rather than overwritten.
+- Financial models must be reviewed before investor use.
+- Investor return language must be reviewed for compliance sensitivity.
+- Public finance claims must distinguish confirmed, likely, possible, speculative, and rejected sources.
+
 ## Capital Formation System
 
 The capital formation layer determines how Spectra projects should be funded.
