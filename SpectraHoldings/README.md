@@ -16,7 +16,7 @@ Raw Inputs -> Structured Knowledge -> Agent Workflows -> Validation -> Stored In
 
 ## Mission
 
-Turn Spectra's raw documents, meeting transcripts, county research, capital assumptions, operating models, project reports, leadership explanations, and investor narratives into reusable institutional intelligence.
+Turn Spectra's raw documents, meeting transcripts, county research, capital assumptions, operating models, project reports, leadership explanations, investor narratives, and visual design inputs into reusable institutional intelligence.
 
 The wiki supports AI agents that help Spectra:
 
@@ -27,8 +27,9 @@ The wiki supports AI agents that help Spectra:
 - evaluate CDFI and municipal bond capital
 - optimize incentives including NMTC, LIHTC, and OBBBA-related opportunities
 - prepare investor-ready decision briefs
+- create structured inputs for HyperFrames, OpenDesign, and `design.md` outputs
 - preserve report outputs for future reuse
-- validate assumptions, citations, leadership explanations, and financial claims
+- validate assumptions, citations, leadership explanations, design claims, and financial claims
 
 ## Core Operating Principle
 
@@ -67,6 +68,7 @@ This includes:
 - public finance strategy
 - investor narratives
 - validation history
+- visual and design intelligence
 
 ## Goal 2: Standardize Project Evaluation
 
@@ -205,22 +207,22 @@ The wiki and DuckDB / MotherDuck storage layer are the system of record.
 | Claude Code | repo operations, pipeline implementation, schema development, automation |
 | Codex | financial model coding, SQL generation, Python analysis, validation tests |
 | Hermes | autonomous research, county monitoring, recurring signal collection |
-| Gemini | multimodal analysis, map/image/deck interpretation, Google ecosystem support |
+| Gemini | multimodal ingestion, map/image/deck interpretation, Google ecosystem support, design data extraction |
 
 Recommended handoff:
 
 ```text
 Hermes / Gemini
-    -> source collection and raw extraction
+    -> source collection, raw extraction, visual interpretation, and design input extraction
 
 Claude AI / ChatGPT
-    -> synthesis, reasoning, narrative, decision framing
+    -> synthesis, reasoning, narrative, decision framing, and design strategy
 
 Codex / Claude Code
-    -> schemas, automation, models, tests, pipelines
+    -> schemas, automation, models, tests, pipelines, and design-output implementation support
 
 Validation Agent
-    -> assumptions, citations, risk, contradiction checks
+    -> assumptions, citations, risk, contradiction checks, and design-claim checks
 
 DuckDB / MotherDuck
     -> structured storage
@@ -241,7 +243,80 @@ The system must protect against:
 - unverified public finance claims
 - overstated incentive availability
 - unvalidated build-cycle assumptions
+- unsupported design or visual claims
 - legal or tax-sensitive claims used without review
+
+## Goal 10: Create Design-Ready Intelligence for HyperFrames and OpenDesign
+
+The wiki must support conversion of Spectra intelligence into visual communication systems.
+
+This includes generating structured inputs for:
+
+- HyperFrames video outputs
+- OpenDesign outputs
+- `design.md` files
+- investor presentation design systems
+- advertorial landing pages
+- county pitch visuals
+- landowner presentation assets
+- capital stack explainer visuals
+- MCF explainer videos
+
+Gemini should be used to ingest and interpret multimodal inputs such as:
+
+- maps
+- aerial images
+- site photos
+- diagrams
+- mind maps
+- slide decks
+- architectural visuals
+- county planning images
+- screenshots
+- visual brand references
+
+Gemini outputs should be converted into structured design intelligence for LLMs to use.
+
+Required design intelligence outputs:
+
+- visual summary
+- key visual elements
+- stakeholder audience
+- emotional tone
+- visual hierarchy
+- call-to-action objective
+- proof points
+- narrative sequence
+- recommended scenes or sections
+- data points to visualize
+- claims requiring validation
+- assets required
+
+The design workflow must follow:
+
+```text
+Visual / Source Input
+    -> Gemini Extraction
+    -> Structured Design Intelligence
+    -> ChatGPT / Claude Design Strategy
+    -> design.md
+    -> OpenDesign Output
+    -> HyperFrames Output
+    -> Validation
+    -> Stored Artifact
+```
+
+## Design Governance Rule
+
+Design outputs must not invent claims, numbers, maps, project status, or funding availability.
+
+All visuals, captions, investor claims, county claims, and capital claims must trace back to:
+
+- a source document
+- a validated assumption
+- a leadership clarification
+- a report section
+- or a structured database record
 
 ## Core Intelligence Engines
 
@@ -259,6 +334,8 @@ The system must protect against:
 12. Work in Progress Funding Engine
 13. Incentive Optimization Engine
 14. Leadership Clarification Engine
+15. Design Intelligence Engine
+16. HyperFrames / OpenDesign Output Engine
 
 ## Data Architecture
 
@@ -272,7 +349,8 @@ Raw Sources
     -> DuckDB / MotherDuck
     -> Agent Workflows
     -> Report Outputs
-    -> User-Facing Reports / Dashboards
+    -> Design Outputs
+    -> User-Facing Reports / Dashboards / Presentations / Videos
 ```
 
 ## What Goes in the Wiki
@@ -293,6 +371,9 @@ The wiki stores human-readable and agent-readable intelligence:
 - concept definitions
 - relationship maps
 - leadership clarification memos
+- design briefs
+- design.md files
+- HyperFrames and OpenDesign instructions
 
 ## What Goes in DuckDB / MotherDuck
 
@@ -314,6 +395,9 @@ DuckDB or MotherDuck stores structured evidence and report data:
 - project incentive analysis
 - incentive stack placement
 - leadership clarifications
+- design assets
+- design briefs
+- visual source metadata
 - validation results
 - user access metadata
 
@@ -340,6 +424,7 @@ Every agent must:
 - store structured outputs in DuckDB / MotherDuck
 - preserve contradiction history
 - produce a decision-ready output
+- ensure design outputs use validated claims and traceable source material
 
 ## Current Wiki Map
 
@@ -370,6 +455,11 @@ SpectraHoldings/
 ├── validations/
 ├── comparisons/
 ├── queries/
+├── design/
+│   ├── design-briefs/
+│   ├── design-md/
+│   ├── hyperframes/
+│   └── opendesign/
 ├── _meta/
 └── _archive/
 ```
@@ -387,17 +477,21 @@ SpectraHoldings/
 
 ## Near-Term Build Priorities
 
-1. `DUCKDB-SCHEMA.md` — define storage tables for reports, assumptions, MCF draws, incentives, capital stack items, and leadership clarifications.
+1. `DUCKDB-SCHEMA.md` — define storage tables for reports, assumptions, MCF draws, incentives, capital stack items, leadership clarifications, and design assets.
 2. `CLAUDE.md` — define long-context ingestion and synthesis workflow.
-3. `CODEX.md` — define coding, SQL, and financial model implementation standards.
+3. `CODEX.md` — define coding, SQL, financial model, and design-output implementation standards.
 4. `HERMES.md` — define recurring research and county monitoring workflows.
-5. `agents/validation-agent.md` — define investor-readiness and assumption validation rules.
+5. `agents/validation-agent.md` — define investor-readiness, assumption validation, and design-claim validation rules.
 6. `workflows/capital-stack-workflow.md` — define the complete funding stack process.
 7. `workflows/mcf-deployment-workflow.md` — define facility draw, deployment, recycle, and reporting logic.
+8. `workflows/gemini-design-ingestion-workflow.md` — define Gemini visual extraction into design.md, OpenDesign, and HyperFrames inputs.
+9. `design/design-md/` — store generated `design.md` files.
+10. `design/hyperframes/` — store HyperFrames scene plans and output instructions.
+11. `design/opendesign/` — store OpenDesign-ready design instructions.
 
 ## Success Condition
 
-The SpectraHoldings wiki succeeds when every project, county, capital source, leadership clarification, and investor output can be:
+The SpectraHoldings wiki succeeds when every project, county, capital source, leadership clarification, investor output, and design output can be:
 
 - sourced
 - structured
@@ -405,7 +499,7 @@ The SpectraHoldings wiki succeeds when every project, county, capital source, le
 - stored
 - queried
 - reused
-- converted into a decision-ready report
+- converted into a decision-ready report or presentation asset
 
 ## Governance Rule
 
@@ -415,6 +509,11 @@ Every report must be both:
 
 1. readable by humans, and
 2. queryable by agents.
+
+Every design output must be both:
+
+1. visually usable by humans, and
+2. traceable to validated source material.
 
 Leadership explanations must be stored as structured institutional memory, not informal notes.
 
