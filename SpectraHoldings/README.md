@@ -208,11 +208,12 @@ The wiki and DuckDB / MotherDuck storage layer are the system of record.
 | Codex | financial model coding, SQL generation, Python analysis, validation tests |
 | Hermes | autonomous research, county monitoring, recurring signal collection |
 | Gemini | multimodal ingestion, map/image/deck interpretation, Google ecosystem support, design data extraction |
+| Multimodal LLMs such as MiniMax M2.7 | secondary multimodal extraction, visual comparison, document-to-design interpretation, redundancy check for Gemini outputs |
 
 Recommended handoff:
 
 ```text
-Hermes / Gemini
+Hermes / Gemini / Multimodal LLMs
     -> source collection, raw extraction, visual interpretation, and design input extraction
 
 Claude AI / ChatGPT
@@ -262,7 +263,7 @@ This includes generating structured inputs for:
 - capital stack explainer visuals
 - MCF explainer videos
 
-Gemini should be used to ingest and interpret multimodal inputs such as:
+Gemini and other multimodal LLMs, such as MiniMax M2.7, should be used to ingest and interpret multimodal inputs such as:
 
 - maps
 - aerial images
@@ -274,8 +275,23 @@ Gemini should be used to ingest and interpret multimodal inputs such as:
 - county planning images
 - screenshots
 - visual brand references
+- video frames
+- PDF visuals
+- scanned or photographed documents
 
-Gemini outputs should be converted into structured design intelligence for LLMs to use.
+Gemini should be treated as the primary Google ecosystem and multimodal ingestion tool.
+
+MiniMax M2.7 or similar multimodal LLMs may be used as secondary multimodal interpreters for:
+
+- cross-checking Gemini visual extraction
+- extracting visual structure from decks and PDFs
+- comparing multiple visual references
+- generating design-ready descriptions
+- producing scene-level observations for HyperFrames
+- identifying visual inconsistencies or unsupported visual claims
+- converting images into structured design intelligence
+
+Multimodal outputs should be converted into structured design intelligence for LLMs to use.
 
 Required design intelligence outputs:
 
@@ -291,13 +307,17 @@ Required design intelligence outputs:
 - data points to visualize
 - claims requiring validation
 - assets required
+- multimodal model used
+- extraction confidence
+- cross-check status
 
 The design workflow must follow:
 
 ```text
 Visual / Source Input
-    -> Gemini Extraction
+    -> Gemini or Multimodal LLM Extraction
     -> Structured Design Intelligence
+    -> Cross-Check if Needed
     -> ChatGPT / Claude Design Strategy
     -> design.md
     -> OpenDesign Output
@@ -316,7 +336,8 @@ All visuals, captions, investor claims, county claims, and capital claims must t
 - a validated assumption
 - a leadership clarification
 - a report section
-- or a structured database record
+- a structured database record
+- or a verified multimodal extraction record
 
 ## Core Intelligence Engines
 
@@ -336,6 +357,7 @@ All visuals, captions, investor claims, county claims, and capital claims must t
 14. Leadership Clarification Engine
 15. Design Intelligence Engine
 16. HyperFrames / OpenDesign Output Engine
+17. Multimodal Extraction Engine
 
 ## Data Architecture
 
@@ -374,6 +396,7 @@ The wiki stores human-readable and agent-readable intelligence:
 - design briefs
 - design.md files
 - HyperFrames and OpenDesign instructions
+- multimodal extraction summaries
 
 ## What Goes in DuckDB / MotherDuck
 
@@ -398,6 +421,7 @@ DuckDB or MotherDuck stores structured evidence and report data:
 - design assets
 - design briefs
 - visual source metadata
+- multimodal extraction records
 - validation results
 - user access metadata
 
@@ -425,6 +449,7 @@ Every agent must:
 - preserve contradiction history
 - produce a decision-ready output
 - ensure design outputs use validated claims and traceable source material
+- record which multimodal model produced visual or design extraction
 
 ## Current Wiki Map
 
@@ -477,7 +502,7 @@ SpectraHoldings/
 
 ## Near-Term Build Priorities
 
-1. `DUCKDB-SCHEMA.md` — define storage tables for reports, assumptions, MCF draws, incentives, capital stack items, leadership clarifications, and design assets.
+1. `DUCKDB-SCHEMA.md` — define storage tables for reports, assumptions, MCF draws, incentives, capital stack items, leadership clarifications, design assets, and multimodal extraction records.
 2. `CLAUDE.md` — define long-context ingestion and synthesis workflow.
 3. `CODEX.md` — define coding, SQL, financial model, and design-output implementation standards.
 4. `HERMES.md` — define recurring research and county monitoring workflows.
@@ -485,9 +510,10 @@ SpectraHoldings/
 6. `workflows/capital-stack-workflow.md` — define the complete funding stack process.
 7. `workflows/mcf-deployment-workflow.md` — define facility draw, deployment, recycle, and reporting logic.
 8. `workflows/gemini-design-ingestion-workflow.md` — define Gemini visual extraction into design.md, OpenDesign, and HyperFrames inputs.
-9. `design/design-md/` — store generated `design.md` files.
-10. `design/hyperframes/` — store HyperFrames scene plans and output instructions.
-11. `design/opendesign/` — store OpenDesign-ready design instructions.
+9. `workflows/multimodal-design-extraction-workflow.md` — define use of multimodal LLMs such as MiniMax M2.7 for visual extraction, cross-checking, and design-ready output creation.
+10. `design/design-md/` — store generated `design.md` files.
+11. `design/hyperframes/` — store HyperFrames scene plans and output instructions.
+12. `design/opendesign/` — store OpenDesign-ready design instructions.
 
 ## Success Condition
 
