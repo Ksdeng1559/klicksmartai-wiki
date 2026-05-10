@@ -6,7 +6,7 @@ This folder is the canonical Spectra knowledge and agent layer inside the KlickS
 
 ## Mission
 
-Turn Spectra's raw documents, meeting transcripts, county research, capital assumptions, operating models, project reports, and investor narratives into reusable, decision-ready intelligence.
+Turn Spectra's raw documents, meeting transcripts, county research, capital assumptions, operating models, project reports, leadership explanations, and investor narratives into reusable, decision-ready intelligence.
 
 The wiki supports AI agents that help Spectra:
 
@@ -15,9 +15,10 @@ The wiki supports AI agents that help Spectra:
 - structure capital stacks
 - model Master Credit Facility deployment
 - evaluate CDFI and municipal bond capital
+- optimize incentives including NMTC, LIHTC, and OBBBA-related opportunities
 - prepare investor-ready decision briefs
 - preserve report outputs for future reuse
-- validate assumptions, citations, and financial claims
+- validate assumptions, citations, leadership explanations, and financial claims
 
 ## Core Operating Principle
 
@@ -51,6 +52,7 @@ The system must allow users of reports to:
 - audit citations and validation status
 - reuse prior outputs in future capital formation work
 - track project, investor, and MCF funding progress over time
+- preserve leadership clarification as structured institutional memory
 
 ## Core Intelligence Engines
 
@@ -66,6 +68,44 @@ The system must allow users of reports to:
 10. Agent Orchestration Layer
 11. Public Finance Intelligence Engine
 12. Work in Progress Funding Engine
+13. Incentive Optimization Engine
+14. Leadership Clarification Engine
+
+## Leadership Clarification Layer
+
+Leadership explanations are primary internal source material but must be classified before being used in investor-ready outputs.
+
+The leadership clarification workflow captures explanations from:
+
+| Leader | Primary Validation Role |
+|---|---|
+| Willis Andrews | CEO / originator / strategic thesis / MCF vision / public-private narrative |
+| Eric Katz | finance / legal / capital structure / investor-risk logic / counsel review requirements |
+| Emmanuel Okoye | operations / execution / construction timeline / delivery capacity validation |
+
+The goal is to convert leadership discussions into:
+
+- source notes
+- assumptions
+- model implications
+- capital stack implications
+- operational constraints
+- legal / tax review items
+- contradiction logs
+- validation requirements
+- wiki updates
+- DuckDB / MotherDuck records
+
+Leadership statements must be classified as:
+
+- confirmed operating fact
+- strategic intent
+- projected assumption
+- hypothesis
+- requires third-party validation
+- investor-sensitive claim
+- legal / tax sensitive claim
+- operations-sensitive claim
 
 ## LLM Usage and Workflow Layer
 
@@ -312,6 +352,20 @@ The Capital Formation Agent must evaluate:
 - impact on funding gaps
 - impact on MCF deployment
 
+## Incentive Optimization Layer
+
+The incentive optimization layer evaluates how NMTC, LIHTC, OBBBA-related opportunities, grants, tax credits, and public-purpose benefits should be placed inside the capital stack.
+
+The agent must determine:
+
+- whether the project is eligible
+- which project component qualifies
+- where the incentive belongs in the stack
+- whether it supports predevelopment, infrastructure, construction, permanent financing, tax credit equity, or MCF liquidity
+- what timing and compliance requirements apply
+- whether legal, tax, bond counsel, CDE, or agency confirmation is required
+- whether the incentive belongs in the base case, upside case, or not at all
+
 ## Work in Progress Funding Model
 
 The Work in Progress Funding Model evaluates funding needs by project stage.
@@ -373,6 +427,7 @@ The wiki stores human-readable and agent-readable intelligence:
 - agent instructions
 - concept definitions
 - relationship maps
+- leadership clarification memos
 
 ## What Goes in DuckDB / MotherDuck
 
@@ -390,6 +445,10 @@ DuckDB or MotherDuck stores structured evidence and report data:
 - MCF draws
 - investor commitments
 - CDFI and municipal finance sources
+- incentive programs
+- project incentive analysis
+- incentive stack placement
+- leadership clarifications
 - validation results
 - user access metadata
 
@@ -411,6 +470,7 @@ Every agent must:
 - separate fact from interpretation
 - flag missing data
 - classify capital as committed, soft committed, likely, possible, speculative, or rejected
+- classify leadership statements by validation category
 - store human-readable outputs in the wiki
 - store structured outputs in DuckDB / MotherDuck
 - preserve contradiction history
@@ -432,11 +492,13 @@ SpectraHoldings/
 ├── raw/
 ├── entities/
 ├── concepts/
-│   └── cdfi-and-municipal-bond-capital.md
+│   ├── cdfi-and-municipal-bond-capital.md
+│   └── incentive-optimization-nmtc-lihtc-obbba.md
 ├── agents/
 │   └── capital-formation-agent.md
 ├── workflows/
-│   └── work-in-progress-funding-model.md
+│   ├── work-in-progress-funding-model.md
+│   └── leadership-clarification-workflow.md
 ├── prompts/
 ├── summaries/
 ├── decisions/
@@ -454,7 +516,9 @@ SpectraHoldings/
 - `DATA-ARCHITECTURE.md` — separation of wiki layer and DuckDB / MotherDuck storage layer
 - `agents/capital-formation-agent.md` — capital formation and capital stack agent specification
 - `concepts/cdfi-and-municipal-bond-capital.md` — public finance and CDFI capital concept
+- `concepts/incentive-optimization-nmtc-lihtc-obbba.md` — incentive and tax credit optimization concept
 - `workflows/work-in-progress-funding-model.md` — project-stage funding and MCF segment workflow
+- `workflows/leadership-clarification-workflow.md` — structured interview and validation workflow for Willis, Eric Katz, and Emmanuel
 
 ## Governance Rule
 
@@ -464,6 +528,8 @@ Every report must be both:
 
 1. readable by humans, and
 2. queryable by agents.
+
+Leadership explanations must be stored as structured institutional memory, not informal notes.
 
 ## Canonical Path
 
