@@ -1,0 +1,1 @@
+/home/denni/wiki/hermes/skills/spectra-census-research.md

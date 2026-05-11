@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/meeting-notes-template.md

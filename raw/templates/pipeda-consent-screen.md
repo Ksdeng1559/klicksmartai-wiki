@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/pipeda-consent-screen.md

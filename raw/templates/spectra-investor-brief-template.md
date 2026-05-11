@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/spectra-investor-brief-template.md

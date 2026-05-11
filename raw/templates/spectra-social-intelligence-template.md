@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/spectra-social-intelligence-template.md

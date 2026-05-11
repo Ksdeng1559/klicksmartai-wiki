@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/project-template.md

@@ -1,0 +1,1 @@
+/home/denni/wiki/templates/spectra-advertorial-template.md
