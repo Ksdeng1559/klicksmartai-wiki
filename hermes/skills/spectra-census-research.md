@@ -1,183 +1,285 @@
 ---
 name: spectra-census-research
-description: Research and compile county-level census + housing data for Spectra Holdings MCF pipeline. Outputs advertorial, investor brief, and internal brief formats.
-trigger: /spectra-census-research
+description: "SOP for Step 1 of the Spectra Holdings county pipeline: Census & Housing research for MCF county due diligence. Outputs census/<county>-<ST>.md. Depends on no other skills."
+owner: Dennis
+category: project
+triggers:
+  - /spectra-census-research
+  - run census on
+  - pull county census data
+  - Spectra county research
 ---
 
-# /spectra-census-research
+# spectra-census-research
 
-Research and compile county-level census and housing data for Spectra Holdings MCF pipeline.
+Execute Step 1 of the Spectra Holdings MCF county pipeline: produce a quantitative census and housing brief for a target county.
 
-## Usage
+**Output:** `census/<county>-<ST>.md` — feeds into Step 2 (social intelligence) and all downstream deliverables.
 
-```
-/spectra-census-research <county>, <state> --deliverable <type> [--focus <areas>]
-```
+---
 
-**Examples:**
-```
-/spectra-census-research Harris County, TX --deliverable investor-brief
-/spectra-census-research Maricopa County, AZ --deliverable advertorial --focus homelessness
-/spectra-census-research King County, WA --deliverable internal-brief
-```
+## Pre-Check: Enumerate Known County Facts First
 
-## Inputs
-
-| Input | Required | Description |
-|-------|----------|-------------|
-| `county` | Yes | Full county name | 
-| `state` | Yes | Two-letter state code |
-| `deliverable_type` | Yes | `investor-brief` \| `advertorial` \| `internal-brief` |
-| `focus_areas` | No | Comma-separated: `homelessness,eviction,affordability,income` |
-
-## Workflow
-
-### Phase 1 — Source Discovery
-
-Use sources in priority order:
+Before running any search, open the wiki census index and check whether this county already has a research file:
 
 ```
-1. U.S. Census QuickFacts → https://www.census.gov/quickfacts/fact/table/<county><state>
-2. Data USA → https://datausa.io/profile/geo/<county>-county-<state>
-3. ACS 5-Year Estimates → detailed demographics
-4. State housing finance agency reports
-5. Point-in-Time Count (CoC local reports)
-6. Local housing coalition / advocacy orgs
-7. NLIHC Gap Report → national context
+read_file: wiki/census/index.md
 ```
 
-Extract for each source: URL, access date, data vintage.
+If the county already exists, read the existing file and treat it as the baseline — patch only the sections that are stale or missing. Do not rewrite from scratch.
 
-### Phase 2 — Data Extraction
+---
 
-Extract these 8 sections (see `census/index.md` in wiki for full schema):
+## Source Priority Order
 
-**1. Population**
-- Total population (most recent estimate)
-- 5-year and 10-year growth rate
-- Foreign-born %
-- Median age
-- Persons per household
+| Priority | Source | What It Covers | Cost | Library / Tool |
+|----------|--------|---------------|------|----------------|
+| 1st | Wikipedia API via `wikipedia-api` lib | Historical census (2000/2010/2020), population, age, housing units | Free | `pip install wikipedia-api` |
+| 2nd | Exa deep search | ACS income, housing costs, rent, poverty — synthesized with citations | Free tier | `mcp_exa_deep_search_exa` |
+| 3rd | DataUSA | Cross-cut income, housing, employment by county | Free | Web search |
+| 4th | Census ACS 5-Year via curl | Income, rent, affordability — direct API call | Requires free Census API key | `curl` |
+| 5th | State portal / county open data | Supplemental housing / permit data | Free | Web search |
 
-**2. Demographics**
-- Racial/ethnic breakdown (%)
+**Wikipedia API setup:**
+```python
+import wikipediaapi
+wiki = wikipediaapi.Wikipedia(language='en', extract_format=wikipediaapi.ExtractFormat.WIKI)
+page = wiki.page(f"{county_name} County, Washington")
+print(page.text)  # full wiki section dump
+```
+
+**Wikipedia API failure mode:** Wikipedia County pages typically only have decennial census data (2000/2010/2020). For current-year ACS estimates (MHI 2024, rent burden, affordability), always fall through to Exa synthesis as the 2nd priority.
+
+**Do not use Firecrawl** — exhausts credits on government domains with no gain over Wikipedia API.
+
+---
+
+## Step-by-Step SOP
+
+### Step A — County FIPS + Wikipedia Baseline
+
+1. **Find the Wikipedia page** for the county:
+```
+web_search: {County Name} {State} county wikipedia demographics
+```
+
+2. **Extract via Wikipedia API:**
+```
+https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext&titles={County_Name},_{State}&format=json
+```
+
+3. **Extract via Wikipedia API for the county seat city** (richer housing data):
+```
+https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext&titles={City_Name},_{State}&format=json
+```
+
+4. **Parse the response** — pull:
+   - Population: 2020, 2010, 2000 (directionally check growth)
+   - Median age
+   - Housing units total
+   - Homeownership rate
+   - Median home value
+   - Median household income (MHI)
+
+### Step B — ACS Income + Housing (Exa)
+
+Run a single deep Exa search covering the county's current ACS profile:
+
+```
+search_queries:
+  - "{County Name} county {State} median household income 2023 2024"
+  - "{County Name} county {State} median home value 2024"
+  - "{County Name} county {State} housing affordability gap 2024"
+  - "{County Name} county {State} poverty rate rent burden 2024 ACS"
+```
+
+Synthesize results into structured data. Flag every figure with its source URL.
+
+### Step C — Affordability Gap Calculation
+
+If you have MHI and median rent or median home value, compute the ratio:
+
+**Rent-to-income ratio:**
+```
+rent burden % = (median rent × 12) / MHI × 100
+```
+
+If ratio > 30%: housing cost-burdened. If > 50%: severely cost-burdened.
+
+**Homeownership affordability (assuming 30-year, 7% conventional):**
+```
+Max affordable purchase price ≈ MHI × 3.0 (conventional rule of thumb)
+Gap = median home value − (MHI × 3.0)
+```
+
+### Step D — Corridor / Sub-Area Data (if applicable)
+
+For the Semiahmoo–Birch Bay–Blaine corridor or similar sub-areas:
+1. Search each city/CDP separately via Wikipedia API
+2. Search corridor-level data via Exa with "growth corridor" framing
+3. Aggregate at the corridor level — do not average; report the range
+
+### Step E — Homeless + Eviction Baseline
+
+Run Exa searches:
+```
+search_queries:
+  - "{County Name} county {State} point-in-time count homeless 2024"
+  - "{County Name} county {State} eviction rate filing 2023"
+```
+
+Pull from:
+- HUD Continuum of Care Point-in-Time Count (annual, late Jan)
+- Eviction Lab at Princeton (evictionrate.org) — free CSV download
+
+---
+
+## Output Format
+
+Write to: `census/<county>-<ST>.md`
+
+```markdown
+---
+county: Whatcom County
+state: WA
+fips: "53073"
+research-date: 2025-05-12
+sources: [Wikipedia API, DataUSA 2024, ACS 5-Year 2023, Exa synthesis]
+corridor: Semiahmoo-Birch Bay-Blaine
+---
+
+# Census Brief — Whatcom County, WA
+
+## 1. Population & Growth
+
+| Year | Population | Change | Source |
+|------|-----------|--------|--------|
+| 2020 | 234,954 | +7.2% from 2010 | Wikipedia/2020 Census |
+| 2010 | 219,189 | +9.1% from 2000 | Wikipedia/2010 Census |
+| 2000 | 200,798 | — | Wikipedia/2000 Census |
+
+**County seat:** Bellingham (92,314, 2020)
+
+## 2. Demographics
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Median age | 37.8 | 2020 Census |
+| Under 18 | 20.3% | 2020 Census |
+| Over 65 | 17.1% | 2020 Census |
+| Non-white | 18.6% | 2020 Census |
+
+## 3. Income & Economy
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| MHI (2023 ACS 5-yr) | $81,784 | DataUSA / Exa synthesis |
+| Per capita income | $38,250 | 2023 ACS 5-yr |
+| Poverty rate | 12.9% | 2023 ACS 5-yr |
+| Median home value | $585,800 | 2024 Exa synthesis |
+| Median gross rent | $1,465/mo | 2023 ACS 5-yr |
+| Rent burden (>30% income) | 21.7% | ACS-derived |
+
+## 4. Housing Stock
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Total housing units | 101,340 | 2020 Census |
+| Homeownership rate | 63.7% | 2023 ACS 5-yr |
+| Vacancy rate | 8.3% | 2020 Census |
+| Seasonal/recreation vacancy | ~25-26% in Birch Bay | Exa synthesis |
+
+## 5. Affordability Gap
+
+- **Max affordable purchase price** (MHI x 3.0 rule): $245,352
+- **Median home value:** $585,800
+- **Gap:** $340,448 -- homeownership gap is 2.4x the conventional threshold
+- **Rent-burdened households:** 21.7% of renters pay >30% income on rent
+- **Severe housing problems** (overcrowded, lacking kitchen/plumbing, cost-burdened): 19.2%
+
+## 6. Homelessness + Eviction
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| PIT Count (2024) | ~600-700 range | CoC report / Exa |
+| Eviction rate | ~2.1/1000 renter households | Eviction Lab |
+
+## 7. Corridor-Level Data — Semiahmoo-Birch Bay-Blaine
+
+| Place | Pop (2020) | Change since 2019 | MHI | Median Home |
+|-------|-----------|------------------|-----|-------------|
+| Blaine | 6,606 | +12.3% | ~$72,000 | ~$415,000 |
+| Birch Bay CDP | ~8,700 | +15%+ | $86,854 | $439,100 |
+| Semiahmoo Spit | -- | -- | -- | ~$500K+ (vacation) |
+
+**Key dynamic:** Short-term rental capture removes ~18% of Semiahmoo housing from long-term market. Birch Bay vacancy ~25-26% is seasonal second-home stock.
+
+## 8. Data Gaps
+
+- [ ] ACS 2023 5-year income/housing data requires Census Bureau API key (api.census.gov -- free) for direct pull
+- [ ] 2024 point-in-time homeless count requires local CoC report or HUD exchange
+- [ ] Sub-CDP (Birch Bay) has no separate Census block -- figures are approximations from CDPs and surveys
+
+## Source References
+
+[#1] Wikipedia -- Whatcom County, Washington (2020 Census data)
+[#2] DataUSA 2024 -- Whatcom County, WA (ACS cross-cuts)
+[#3] Exa synthesis -- ACS income, housing, rent burden 2023-2024
+[#4] World Population Review / Neilsberg -- Birch Bay CDP data
+```
+
+---
+
+## Required Data Points
+
+Every `census/<county>-<ST>.md` must contain:
+
+- Population: 2020, 2010, 2000 (with % change)
+- Median household income (with year and source)
+- Median home value (with year and source)
+- Median gross rent (with year)
+- Homeownership rate
+- Rent burden % (computed or sourced)
+- Affordability gap (home price vs. MHI x 3.0)
+- Vacancy rate (and seasonal/second-home note if applicable)
 - Poverty rate
-- Educational attainment
-- Language other than English
+- Homeless estimate (PIT count, year)
+- Any available sub-area / corridor data
 
-**3. Housing Stock**
-- Total housing units
-- Owner-occupied rate
-- Rental vacancy rate (flag if below 5%)
-- Building permits (recent year)
+If any field is unavailable, write `[DATA GAP -- source needed]` in that cell and add a note in Section 8 (Data Gaps).
 
-**4. Housing Costs & Affordability**
-- Median home value
-- Median gross rent
-- Rent by bedroom count
-- **Affordability gap** — calculate:
-  - Income needed for median rent vs. actual median individual wage
-  - Income needed for median home vs. actual median household income
-- % renters cost-burdened (≥30%)
-- % severely cost-burdened (≥50%)
+---
 
-**5. Income & Economy**
-- Median household income
-- Unemployment rate
-- Poverty rate
-- Income distribution by tier
+## Post-Write Protocol
 
-**6. Homelessness & Social Impact**
-- Point-in-Time Count (most recent)
-- Sheltered vs. unsheltered breakdown
-- YoY trend
-- K-12 homeless students
-- System performance metrics
+After writing the census file:
 
-**7. CDFI / Financing Landscape**
-- Active CDFIs in county
-- Recent bond/CMF awards
-- LIHTC activity
-- Opportunity Zone status
-
-**8. The Affordability Gap (narrative)**
-- Quantified gap narrative
-- Who's being priced out and why
-
-### Phase 3 — Deliverable Framing
-
-**Advertorial**
-- Lead with human impact story, not data
-- Weave census data as supporting evidence
-- Faith framing: Matthew 9:37, "the least of these" (Matt 25:35–46)
-- Call to action: community investment, prayer, CDFI partnership
-- Tone: hopeful, relational, kingdom-minded
-
-**Investor Brief**
-- Lead with market opportunity and scale of need
-- Quantified investment thesis: units gap, affordability gap, demand drivers
-- Risk factors honestly stated
-- Impact metrics that map to ESG / PRI reporting
-- Tone: professional, data-driven, fiduciary
-
-**Internal Brief**
-- Lead with project status and action items
-- Data in structured tables, less narrative
-- Delta flag: what changed since last brief
-- Decision points and recommendations
-- Tone: concise, operational, action-oriented
-
-### Phase 4 — Write to Wiki
-
-File naming: `census/<county-name>-<state-abbrev>.md`
-
-Follow frontmatter schema in `census/index.md`.
-
-After writing:
+1. **Write to wiki:** `wiki/census/<county>-<ST>.md` -- canonical source
+2. **Copy to clients:** `clients/spectra-holdings/research/census/<county>-<ST>.md` -- working copy
+3. **Git commit + push:**
+```bash
+cd ~/wiki && git add -A && git commit -m "census: {County Name}, {ST}" && git push origin master
 ```
-cd ~/wiki && graphify update .
-git add -A && git commit -m "census: <county> county, <state>" && git push origin master
-```
-
-Update `census/index.md` status tracker.
-
-### Phase 5 — Generate Output Doc
-
-| Deliverable | Output Path |
-|-------------|-------------|
-| Advertorial | `clients/spectra-holdings/deliverables/<county>-advertorial.md` |
-| Investor Brief | `clients/spectra-holdings/deliverables/<county>-investor-brief.md` |
-| Internal Brief | `clients/spectra-holdings/deliverables/<county>-internal-brief.md` |
+4. **Update the RYG test status** -- mark the census output test as YELLOW once file exists with partial data, GREEN once all Required Data Points are filled.
 
 ---
 
-## Pitfalls
+## Failure Modes
 
-- **Don't cite QuickFacts alone** — cross-reference with ACS and local sources
-- **Don't skip the affordability gap calculation** — core investor thesis
-- **Eviction data is county-level** — check county vs. city/county distinction
-- **PIT counts are undercounts** — note this explicitly
-- **Rental vacancy below 5% = supply shortage** — don't frame as healthy market
-- **Use county-specific income figures** — not regional/ metro medians for county-level analysis
-
----
-
-## Verification Steps
-
-1. All 8 sections populated from Phase 2
-2. Affordability gap calculated (not just stated)
-3. At least 5 sources cited
-4. Frontmatter complete (title, client, scope, audience, tags, sources)
-5. File saved to `census/<county>-<state>.md`
-6. `census/index.md` status tracker updated
-7. Graph updated (`graphify update .`)
-8. Git pushed to origin/master
-9. Deliverable document saved to correct output path
+| Symptom | Fix |
+|---------|-----|
+| Wikipedia page has no demographics section | Try the county page instead of the city page; fall back to Census QuickFacts |
+| Exa returns no income data for a small county | Use DataUSA directly; fallback to ACS via curl if key is available |
+| ACS income missing (Census API key not available) | Flag as data gap, use 2020 Census income as placeholder, note vintage |
+| No sub-area data for a corridor | Aggregate from individual city Wikipedia pages; note as approximation |
+| Gap calculation produces negative number | Median home value may be below MHI x 3.0 in rural counties -- report as "homeownership within reach" not a gap |
 
 ---
 
-## Related Skills
+## Integration with spectra-pipeline
 
-- `spectra-advertorial` — write advertorial from census data
-- `spectra-investor-brief` — write investor brief from census data  
-- `spectra-internal-brief` — write internal brief from census data
+This skill is Step 1. After completion:
+
+1. Mark test `test_county_census_file_exists` as YELLOW/GREEN
+2. Proceed to `spectra-social-intelligence` (Step 2) -- social intelligence file depends on this census file existing
+3. Do not run any deliverable skill (investor brief, advertorial, etc.) until both Step 1 and Step 2 are complete
