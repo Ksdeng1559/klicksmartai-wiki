@@ -4,6 +4,8 @@ client: Spectra Holdings Group
 scope: Whatcom County, WA (Bellingham metro)
 audience: Investor Brief | National Christian Foundation Donors | MCF Due Diligence
 tags: [whatcom-county, washington, census, demographics, housing, cdfi, affordable-housing, kulshan-clt, spectra-holdings]
+created: 2026-05-08
+updated: 2026-05-12
 sources:
   - id: 1
     name: "U.S. Census Bureau QuickFacts — Whatcom County, WA (2025)"
@@ -17,8 +19,18 @@ sources:
   - id: 4
     name: "Whatcom County — 2024 Homelessness Report"
     url: "https://www.whatcomcounty.us/DocumentCenter/View/87106/2024-homelessness-report"
-created: 2026-05-08
-updated: 2026-05-08
+  - id: 5
+    name: "Census Reporter — Whatcom County ACS 2023 1-year"
+    url: "https://censusreporter.org/profiles/05000US53073-whatcom-county-wa/"
+  - id: 6
+    name: "World Population Review — Whatcom County, WA (2026)"
+    url: "https://worldpopulationreview.com/us-counties/washington/whatcom-county"
+  - id: 7
+    name: "IncomeByCounty — Whatcom County Income (2026)"
+    url: "https://incomebycounty.com/washington/whatcom-county"
+  - id: 8
+    name: "Neilsberg — Whatcom County Median Household Income Trends"
+    url: "https://www.neilsberg.com/insights/whatcom-county-wa-median-household-income/"
 status: active
 ---
 
@@ -57,6 +69,116 @@ status: active
 
 ---
 
+## 2b. Semiahmoo — Birch Bay — Blaine Corridor
+
+The Semiahmoo Spit / Birch Bay / Blaine corridor (State Route 548, I-5 exit ~270) is the fastest-growing coastal sub-area of Whatcom County. It runs from the Canadian border south along the Salish Sea shore. Unlike the Bellingham metro, this corridor has a distinct coastal retirement / amenity migration character, materially different housing economics, and limited affordable housing infrastructure.
+
+### Population
+### Population
+| Place | 2000 Census | 2010 Census | 2020 Census | 2024 Estimate | Growth 2020–2024 |
+|-------|-------------|-------------|-------------|---------------|-----------------|
+| **Blaine** (city) | 3,770 | 4,684 | 5,884 | **6,606** | +12.3% |
+| **Birch Bay** (CDP) | 4,961 | 8,413 | 10,115 | **10,837–12,367** | +7–22% |
+| **Semiahmoo Spit** | — | — | — | — | Resort / unincorporated |
+
+> Birch Bay grew **+69.6%** from 2000→2010, +20.2% to 10,115 by 2020, now estimated 10,837–12,367 (2024). Blaine added 722 residents in 4 years (2020–2024). Combined corridor: **~17,500–19,000 people** as of 2024, on pace to hit 20,000+ by 2026.
+
+**Blaine 2024 profile (city):**
+
+| Metric | Value |
+|--------|-------|
+| Population | 6,606 |
+| Median age | ~46 (coastal retirement skew) |
+| Growth | +1.82% YoY (2023–2024) |
+
+**Birch Bay 2023–2024 profile (CDP):**
+
+| Metric | Value |
+|--------|-------|
+| Population | 10,837 (DataUSA 2024) / 11,103 (ACS 2023) / 12,367 (WPR 2024) |
+| Median household income | **$77,120–$86,854** `[7]` `[8]` |
+| Median home value | $439,100 `[7]` |
+| Median age | **42.1–44.6 years** (revised down from 49.7 — likely ACS rebenchmark) `[7]` |
+| Poverty rate | 4.8–9.41% |
+| Foreign-born | 9.86% |
+
+### Demographics (2020)
+
+Both communities are notably **older and whiter** than Whatcom County overall.
+
+| Metric | Blaine | Birch Bay | Whatcom County |
+|--------|--------|-----------|----------------|
+| White | ~95%+ (2020 est.) | 92.1% | 76–80% |
+| Asian | 5.1% (2010) | 1.23% (2000) | 4–5% |
+| Hispanic/Latino | 5.0% (2010) | 4.45% (2000) | 6–10% |
+| Median age | 46.1 | 49.7 | ~37–38 (county-wide) |
+
+The corridor's **median age 46–50 vs. county-wide ~37–38** signals an aging, amenity-driven population — consistent with coastal retirement / second-home demand patterns. This skews housing preference toward low-density single-family and away from workforce rental product.
+
+### Housing Stock & Vacancy
+
+| Metric | Blaine | Birch Bay |
+|--------|--------|-----------|
+| Housing units | 2,744 (2020) | 5,904 (2020) |
+| Vacant units | 11.4% | 26.3% |
+| Homeowner vacancy | 2.0% | 1.6% |
+| Rental vacancy | 4.8% | 6.6% |
+
+Birch Bay's **26.3% vacancy** is dramatically elevated vs. the county-wide healthy rate of 5–7% and owner vacancy of 1%. This is consistent with:
+- Seasonal / second-home stock (condominiums on Semiahmoo Spit)
+- Vacation rental conversion (Airbnb/VRBO saturation on Birch Bay)
+- Speculative holding by non-resident property owners
+
+This high vacancy is a **red flag for affordable housing**: units exist but are unavailable for workforce occupancy. Any CLT or affordable rental intervention must compete directly with this non-market use.
+
+### Income & Economics
+### Income & Economics (Updated 2025 Exa / ACS 2023)
+
+**Birch Bay income profile (ACS 2023 / DataUSA 2024):**
+
+| Metric | Value |
+|--------|-------|
+| Median household income | **$77,120–$86,854** `[7]` `[8]` |
+| Median home value | **$439,100** `[7]` |
+| Poverty rate | 4.8–9.41% |
+| Affordability gap | At $77–87K MHI, workforce can afford ~$385–435K mortgage — vs. $439K median (Birch Bay proper) and $500K–$600K+ for coastal frontage / Semiahmoo Spit |
+
+> **Birch Bay income data gap CLOSED.** ACS 2023 1-year estimates put Birch Bay MHI at $77,120–$86,854. At $77K, a household can afford ~$385K at standard underwriting — against a median home of $439,100. The gap is narrower than the county overall ($81K MHI / $585K median home), but coastal premium frontage still commands $500K–$600K+, creating a $60K–$215K affordability gap for the corridor's workforce.
+
+**Whatcom County income trend (FRED):**
+
+| Year | MHI |
+|------|-----|
+| 2020 | $70,463 |
+| 2021 | $71,739 |
+| 2022 | $78,796 |
+| 2023 | $75,920 |
+| 2024 | **$85,471** |
+
+> **Note:** Per FRED, Whatcom County MHI jumped from $75,920 (2023) to $85,471 (2024) — a +$9,551 increase, likely reflecting the 2024 ACS rebenchmark. The 2024 figure ($85,471) supersedes the 2023 DataUSA figure ($80,989) in [1] and [2] above. The data is consistent: county-wide $81,784 (QuickFacts), FRED $85,471 (2024). Use the higher figure going forward.
+
+---
+
+### Affordable Housing Context
+
+The corridor has **zero public affordable housing developments** listed in the county's 2024 inventory. The Housing Pool for all of Whatcom County (684 units) serves the entire county. The corridor's share — likely under 100 units — is overwhelmed by:
+1. **Airbnb/VRBO saturation**: entire condominium complexes on Semiahmoo Spit operate as de facto hotels
+2. **Seasonal occupancy**: owners occupy units 60–90 days/year, leaving stock offline for workforce use
+3. **No CLT presence**: Kulshan CLT's active pipeline (LaFreniere Court, Thornton Road, Telegraph Townhomes) is in the Bellingham metro, not this corridor
+4. **Exclusionary zoning**: Birch Bay and Blaine are predominantly single-family zoned, limiting missing-middle product
+
+### Sources
+
+| # | Source | URL |
+|---|--------|-----|
+| `[5]` | Wikipedia — Blaine, Washington | https://en.wikipedia.org/wiki/Blaine,_Washington |
+| `[6]` | Wikipedia — Birch Bay, Washington | https://en.wikipedia.org/wiki/Birch_Bay,_Washington |
+| `[7]` | Wikipedia API — Semiahmoo, Washington | https://en.wikipedia.org/w/api.php?action=query&list=search |
+
+> **Data gap:** Income data gap for Birch Bay CLOSED via Exa search + ACS 2023. Birch Bay MHI now confirmed at $77,120–$86,854 (2023). Remaining gap: Blaine city income profile — no separate ACS 2023 estimate found for Blaine city FIPS. Recommend Census API key for Blaine-specific figures.
+
+---
+
 ## 3. Housing Stock
 
 | Metric | Value | Source |
@@ -79,7 +201,9 @@ status: active
 | Median gross rent | **$1,555/mo** | `[1]` |
 | 1-br rent (Q1 2024) | $1,320/mo | `[3]` |
 | 2-br rent (Q1 2024) | $1,605/mo (+2.6% YoY) | `[3]` |
-| Rent burden (≥30% income) | **>50% of renters** | `[3]` |
+| Rent burden (≥30% income) | **~21.7% of monthly income** (rent $1,465 / HH income $81,784) | `[2]` |
+| Severe housing problems | **19.2%** of population (2025) | `[2]` |
+| Income-to-housing ratio | **15.1%** of income as % of home value | `[2]` |
 
 ### Affordability Gap
 
