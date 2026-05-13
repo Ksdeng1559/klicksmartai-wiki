@@ -49,18 +49,18 @@ It feeds all four deliverable types:
 
 ### Phase 1 — Search Engine Rotation
 
-Rotate across these six engines to avoid rate limits and get diverse results:
+**Brave Search is the primary workhorse.** Use it for all surface searches — local news, org discovery, sentiment, political context. Only rotate to other engines when Brave returns thin results, hits a rate limit, or you need a specific capability the others provide better.
 
-| Engine | Best For | Notes |
-|--------|----------|-------|
-| **Brave Search** | Local news, community orgs, general web | `site:news <county> housing` |
-| **Serper (Google)** | News, press releases, political | `county state housing crisis 2024 2025` |
-| **Tavily MCP** | Deep research, cited reports, site extraction | `tavily_research` for full report; `tavily_search` for quick |
-| **Parallel.ai** | Agentic deep search, content extraction, entity discovery | `parallel-cli research run --processor pro` for full dossiers |
-| **Exa / Deep Search** | Academic, reports, long-form | `"<county>" housing affordability report` |
-| **SerpAPI** | Local search, Google Maps categories | `<county> housing nonprofit` |
+| Engine | When to Use | Notes |
+|--------|------------|-------|
+| **Brave Search** | **DEFAULT — use first for everything** | Local news, community orgs, general web, sentiment, political context. `site:news <county> housing`, org searches, Reddit/Nextdoor |
+| Serper (Google) | Brave returns < 5 results, or need press releases / political | News, official press releases, political figures |
+| Tavily MCP | Need cited sources or full report extraction | `tavily_research` for deep dive; `tavily_search` for quick |
+| Parallel.ai | Brave + Serper both thin — need agentic discovery | Entity discovery, full org dossiers |
+| **Exa / Deep Search** | Last resort only — academic, reports, long-form | Expensive; use when everything else fails |
+| SerpAPI | Need Google Maps / local business categories | `<county> housing nonprofit` Maps layer |
 
-**Rotation rule:** Never call the same engine twice in a row. If one hits a rate limit, rotate immediately to the next. Never retry a credit-exhausted engine.
+**Rotation rule:** Start with Brave. If results are thin or rate-limited, rotate to Serper → Tavily → Parallel → Exa → SerpAPI. Never call the same engine twice in a row. Never retry a credit-exhausted engine. **Exa is never first — only use when Brave and Serper both come up empty.**
 
 ### Phase 2 — Intelligence Categories
 
@@ -248,35 +248,38 @@ Default is `standard`. Use `deep` when:
 ---
 
 ## Search Query Templates
-
-Copy and adapt these for each county:
+## Search Query Templates
+Copy and adapt these for each county. **Brave is first for every query type.**
 
 ```bash
-# Brave Search — local news
+# Brave Search — PRIMARY for everything
 brave "<county> <state> housing crisis 2024 2025" --json | jq .
+brave "<county> <state> affordable housing nonprofit" --json | jq .
+brave "<county> <state> church housing ministry" --json | jq .
+brave "<county> <state> housing authority board" --json | jq .
+brave "<county> <state> gentrification displacement" --json | jq .
+brave "<county> <state> housing coalition" --json | jq .
+brave site:reddit.com "<county> <state> housing" --json | jq .
+brave site:nextdoor.com "<county> <state> housing" --json | jq .
 
-# Serper — Google news + web
+# Serper — rotate here if Brave is thin
 serper "<county> <state> affordable housing nonprofit"
+serper "<county> <state> housing policy zoning 2024 2025"
 
-# Exa — deep/ semantic
+# Tavily — cited sources and reports
+tavily_search --query "<county> <state> housing crisis affordable" --search_depth advanced --max_results 10 --include_answer true
+tavily_research --query "<county> <state> community housing nonprofit ecosystem" --search_depth advanced --max_results 15
+tavily_extract --urls ["https://countywebsite.gov/housing"] --query "housing programs affordability data"
+
+# Parallel.ai — only if Brave + Serper are thin
+~/.hermes/hermes-agent/venv/bin/parallel-cli research run "<county> <state> housing ecosystem" --processor pro --json
+~/.hermes/hermes-agent/venv/bin/parallel-cli extract https://housing-org.example.com --objective "Find housing programs, contact info" --json
+
+# Exa — LAST RESORT — academic, reports, long-form only
 exa_search --query "<county> <state> housing affordability report study" --num-results 10
 
-# SerpAPI local — Maps categories
+# SerpAPI — Google Maps / local business categories only
 serpapi "<county> <state>" --category housing_nonprofit
-
-# Tavily — deep research with cited report
-tavily_search --query "<county> <state> housing crisis affordable" --search_depth advanced --max_results 10 --include_answer true
-
-tavily_research --query "<county> <state> community housing nonprofit ecosystem" --search_depth advanced --max_results 15
-
-tavily_extract --urls ["https://countywebsite.gov/housing", "https://housingcoalition.org"] --query "housing programs affordability data"
-
-# Parallel.ai — agentic deep search + extraction
-~/.hermes/hermes-agent/venv/bin/parallel-cli research run "<county> <state> housing ecosystem" --processor pro --json
-
-~/.hermes/hermes-agent/venv/bin/parallel-cli search "<county> <state> affordable housing nonprofit developer" --mode agentic --json
-
-~/.hermes/hermes-agent/venv/bin/parallel-cli extract https://housing-org.example.com --objective "Find housing programs, affordability data, contact info" --json
 ```
 
 ---
