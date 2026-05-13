@@ -47,20 +47,22 @@ It feeds all four deliverable types:
 
 ## Workflow
 
-### Phase 1 — Search Engine Rotation
+### Phase 1 — Three-Tier Search Architecture
 
-**Brave Search is the primary workhorse.** Use it for all surface searches — local news, org discovery, sentiment, political context. Only rotate to other engines when Brave returns thin results, hits a rate limit, or you need a specific capability the others provide better.
+Each engine has a clear, non-overlapping role. Use each for its specialty — don't substitute one for another.
 
-| Engine | When to Use | Notes |
-|--------|------------|-------|
-| **Brave Search** | **DEFAULT — use first for everything** | Local news, community orgs, general web, sentiment, political context. `site:news <county> housing`, org searches, Reddit/Nextdoor |
-| Serper (Google) | Brave returns < 5 results, or need press releases / political | News, official press releases, political figures |
-| Tavily MCP | Need cited sources or full report extraction | `tavily_research` for deep dive; `tavily_search` for quick |
-| Parallel.ai | Brave + Serper both thin — need agentic discovery | Entity discovery, full org dossiers |
-| **Exa / Deep Search** | Last resort only — academic, reports, long-form | Expensive; use when everything else fails |
-| SerpAPI | Need Google Maps / local business categories | `<county> housing nonprofit` Maps layer |
+| Engine | Role | What it finds |
+|--------|------|---------------|
+| **Brave Search** | Latest news surface | Real-time news, headlines, recent coverage — use first for all news queries |
+| **Serper.dev** | Social intelligence | Community orgs, advocacy groups, faith landscape, local context, political figures, sentiment |
+| **Exa.ai** | Deep research | Academic papers, reports, long-form studies, data-heavy documents |
 
-**Rotation rule:** Start with Brave. If results are thin or rate-limited, rotate to Serper → Tavily → Parallel → Exa → SerpAPI. Never call the same engine twice in a row. Never retry a credit-exhausted engine. **Exa is never first — only use when Brave and Serper both come up empty.**
+**Routing rule:**
+- News / recent coverage → **Brave first**
+- Org landscape / community context / faith / political → **Serper first**
+- Reports / academic / data studies / long-form → **Exa**
+
+If one engine returns < 5 results or hits a rate limit, rotate to the next in its lane. Never substitute Brave for Serper or vice versa.
 
 ### Phase 2 — Intelligence Categories
 
@@ -248,39 +250,49 @@ Default is `standard`. Use `deep` when:
 ---
 
 ## Search Query Templates
-## Search Query Templates
-Copy and adapt these for each county. **Brave is first for every query type.**
+Copy and adapt these for each county. Route by specialty — Brave for news, Serper for org/political/faith, Exa for deep research.
 
 ```bash
-# Brave Search — PRIMARY for everything
+# ── Brave Search ── LATEST NEWS / REAL-TIME ──────────────────────────────────
+# Use first for all news queries, headlines, recent developments
 brave "<county> <state> housing crisis 2024 2025" --json | jq .
-brave "<county> <state> affordable housing nonprofit" --json | jq .
-brave "<county> <state> church housing ministry" --json | jq .
-brave "<county> <state> housing authority board" --json | jq .
-brave "<county> <state> gentrification displacement" --json | jq .
-brave "<county> <state> housing coalition" --json | jq .
+brave "<county> <state> affordable housing news 2025" --json | jq .
+brave "<county> <state> housing authority meeting 2025" --json | jq .
 brave site:reddit.com "<county> <state> housing" --json | jq .
 brave site:nextdoor.com "<county> <state> housing" --json | jq .
 
-# Serper — rotate here if Brave is thin
+# ── Serper.dev ── SOCIAL INTELLIGENCE / ORG LANDSCAPE ───────────────────────
+# Community orgs, advocacy groups, faith landscape, political figures, sentiment
 serper "<county> <state> affordable housing nonprofit"
-serper "<county> <state> housing policy zoning 2024 2025"
+serper "<county> <state> housing coalition advocacy"
+serper "<county> <state> church housing ministry faith-based"
+serper "<county> <state> housing authority board officials"
+serper "<county> <state> gentrification displacement community"
+serper "<county> <state> CDFI community development financial institution"
+serper "<county> <state> zoning policy housing 2024 2025"
 
-# Tavily — cited sources and reports
+# ── Exa.ai ── DEEP RESEARCH / REPORTS / ACADEMIC ─────────────────────────────
+# Last resort — only when Brave + Serper both return thin results
+exa_search --query "<county> <state> housing affordability report study data" --num-results 10
+exa_search --query "<county> <state> housing policy academic research paper" --num-results 10
+
+# ── Tavily ── CITED SOURCES / REPORT EXTRACTION ─────────────────────────────
 tavily_search --query "<county> <state> housing crisis affordable" --search_depth advanced --max_results 10 --include_answer true
 tavily_research --query "<county> <state> community housing nonprofit ecosystem" --search_depth advanced --max_results 15
-tavily_extract --urls ["https://countywebsite.gov/housing"] --query "housing programs affordability data"
 
-# Parallel.ai — only if Brave + Serper are thin
+# ── Parallel.ai ── ENTITY DISCOVERY (only if Serper is thin) ─────────────────
 ~/.hermes/hermes-agent/venv/bin/parallel-cli research run "<county> <state> housing ecosystem" --processor pro --json
-~/.hermes/hermes-agent/venv/bin/parallel-cli extract https://housing-org.example.com --objective "Find housing programs, contact info" --json
 
-# Exa — LAST RESORT — academic, reports, long-form only
-exa_search --query "<county> <state> housing affordability report study" --num-results 10
-
-# SerpAPI — Google Maps / local business categories only
+# ── SerpAPI ── Google Maps / local business only ──────────────────────────────
 serpapi "<county> <state>" --category housing_nonprofit
 ```
+
+**Routing recap:**
+- News, headlines, recent coverage → **Brave**
+- Orgs, faith, political, community sentiment → **Serper**
+- Reports, academic, data studies → **Exa**
+- Cited source extraction → **Tavily**
+- Maps / business categories → **SerpAPI**
 
 ---
 
