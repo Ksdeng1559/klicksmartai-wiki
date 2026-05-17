@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spectra Holdings — Master Credit Facility</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;overflow:hidden}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0a1a;color:#f0f0f5}
+  .deck{width:100vw;height:100vh;position:relative}
+  .slide{display:none;width:100%;height:100%;flex-direction:column;justify-content:center;align-items:center;padding:60px 80px;text-align:center}
+  .slide.active{display:flex}
+  .slide h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:700;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:24px}
+  .slide h2{font-size:clamp(1.4rem,3vw,2.2rem);color:#e0e0f0;margin-bottom:20px;font-weight:600}
+  .slide p{font-size:clamp(1rem,2vw,1.3rem);color:#a0a0c0;max-width:800px;line-height:1.7}
+  .big-num{font-size:clamp(4rem,10vw,7rem);font-weight:800;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+  .big-num-sub{font-size:clamp(1.2rem,2.5vw,1.8rem);color:#a0a0c0;margin-top:8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;width:100%;max-width:900px;margin-top:32px}
+  .card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:28px 24px;text-align:left}
+  .card h3{font-size:1.1rem;color:#667eea;margin-bottom:8px;font-weight:600}
+  .card p{font-size:0.95rem;color:#a0a0c0;line-height:1.6}
+  .tag{background:rgba(102,126,234,0.2);color:#667eea;border-radius:8px;padding:6px 14px;font-size:0.85rem;font-weight:600;display:inline-block;margin-bottom:16px}
+  ul{list-style:none;text-align:left;max-width:700px}
+  ul li{font-size:1.1rem;color:#c0c0e0;margin-bottom:14px;padding-left:24px;position:relative;line-height:1.6}
+  ul li::before{content:'→';position:absolute;left:0;color:#667eea;font-weight:700}
+  .nav{display:flex;align-items:center;justify-content:center;gap:16px;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);z-index:100}
+  .nav span{font-size:0.85rem;color:#555;min-width:60px;text-align:center}
+  .nav button{background:rgba(102,126,234,0.2);border:1px solid rgba(102,126,234,0.4);color:#667eea;border-radius:8px;padding:8px 18px;cursor:pointer;font-size:0.9rem;font-weight:600;transition:all 0.2s}
+  .nav button:hover{background:rgba(102,126,234,0.35)}
+  .slide-counter{position:fixed;top:20px;right:28px;font-size:0.85rem;color:#555;font-weight:600}
+  .divider{width:80px;height:4px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:2px;margin:16px auto 0}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:40px;text-align:left;max-width:900px;margin-top:24px}
+  .two-col .col h3{color:#667eea;font-size:1.05rem;margin-bottom:12px;font-weight:600}
+  .two-col .col p{font-size:0.95rem;line-height:1.7}
+  .logo{font-size:1rem;font-weight:700;color:#667eea;letter-spacing:2px;text-transform:uppercase;position:fixed;top:20px;left:28px}
+</style>
+</head>
+<body>
+<div class="logo">SPECTRA</div>
+<div class="slide-counter"><span id="counter">1/10</span></div>
+
+<div class="deck">
+
+<!-- Slide 1 -->
+<div class="slide active">
+  <span class="tag">Investor Presentation</span>
+  <h1>Master Credit Facility</h1>
+  <p>A $300M revolving capital engine built to deploy up to $5 billion in disaster-resistant community housing — at scale, on mission.</p>
+  <div class="divider"></div>
+  <p style="margin-top:20px;font-size:0.9rem;color:#555">Spectra Holdings Group · Strategic Capital Network Corp</p>
+</div>
+
+<!-- Slide 2 -->
+<div class="slide">
+  <h2>The Opportunity</h2>
+  <div class="grid">
+    <div class="card"><h3>🏠 Housing Shortage</h3><p>Millions of families locked out of homeownership by down payment barriers and缺乏 disaster-resilient inventory</p></div>
+    <div class="card"><h3>💰 Capital Inefficiency</h3><p>Traditional real estate debt is project-by-project — same capital cannot be recycled across multiple developments</p></div>
+    <div class="card"><h3>🌍 CDFI Gap</h3><p>Community Development Financial Institutions need qualified vehicles to deploy mission-driven capital at scale</p></div>
+    <div class="card"><h3>🏗️ Speed to Market</h3><p>Pre-funding delays and construction risk are the #1 killer of affordable housing projects</p></div>
+  </div>
+</div>
+
+<!-- Slide 3 -->
+<div class="slide">
+  <h2>The $300M Master Credit Facility</h2>
+  <div style="margin:24px 0">
+    <div class="big-num">$300M</div>
+    <div class="big-num-sub">Senior Secured Debt · 5-Year Term · Capital Recycling</div>
+  </div>
+  <ul style="margin-top:8px">
+    <li>Revolving SPV structure through Strategic Capital Network Corp</li>
+    <li>Attracts participation from CDFIs, institutional & accredited investors</li>
+    <li>Capital recycled continuously — same dollars deployed across multiple SPEs simultaneously</li>
+    <li>Each county operates its own Special Purpose Entity for isolated risk</li>
+  </ul>
+</div>
+
+<!-- Slide 4 -->
+<div class="slide">
+  <h2>The Capital Recycling Model</h2>
+  <div class="grid" style="grid-template-columns:1fr 1fr;max-width:700px">
+    <div class="card"><h3>Year 1</h3><p>$300M deployed into SPEs across multiple counties. Homes break ground fully funded at 110%.</p></div>
+    <div class="card"><h3>Year 2–3</h3><p>Units sell. Principal returns to pool. Capital re-deployed into new SPEs immediately.</p></div>
+    <div class="card"><h3>Year 3–4</h3><p>Recycling compounds. More SPEs active. Cumulative deployment accelerates.</p></div>
+    <div class="card"><h3>Year 5</h3><p>Up to $5B cumulative deployment. Principal repaid, converted to equity, or extended.</p></div>
+  </div>
+  <p style="margin-top:28px;font-size:1rem;color:#667eea;font-weight:700">$300M × multiple deployment cycles = up to $5B in 5 years</p>
+</div>
+
+<!-- Slide 5 -->
+<div class="slide">
+  <h2>Financial Mechanics</h2>
+  <div class="grid">
+    <div class="card"><h3>110% Pre-Funding</h3><p>Each home fully funded before ground break — includes 10% contingency reserve. Zero schedule disruption.</p></div>
+    <div class="card"><h3>12% Flat Interest</h3><p>Interest accrues only on drawn & outstanding capital. No punitive prepayment penalties.</p></div>
+    <div class="card"><h3>Pay-As-We-Sell</h3><p>Interest paid directly from home sale proceeds. No quarterly payment burden on the borrower.</p></div>
+    <div class="card"><h3>Capital Recycling</h3><p>Sale proceeds → escrow → interest paid → principal returns to revolving pool instantly.</p></div>
+  </div>
+</div>
+
+<!-- Slide 6 -->
+<div class="slide">
+  <h2>Per-Home Economics</h2>
+  <div class="two-col" style="margin:32px auto 0">
+    <div style="text-align:center">
+      <div class="big-num" style="font-size:5rem">$250K</div>
+      <div class="big-num-sub">Avg. Capital Draw per Home</div>
+    </div>
+    <div style="text-align:center">
+      <div class="big-num" style="font-size:5rem">$30K</div>
+      <div class="big-num-sub">Profit Share per Home Sold</div>
+    </div>
+  </div>
+  <div class="divider" style="margin-top:40px"></div>
+  <p style="margin-top:20px;font-size:1rem;color:#a0a0c0">For every home sold, lenders earn ~12% on the draw — paid from proceeds, not cash flow. No home sold = no interest paid.</p>
+</div>
+
+<!-- Slide 7 -->
+<div class="slide">
+  <h2>Risk Mitigation: SPE Structure</h2>
+  <ul>
+    <li>Each county operates its own Special Purpose Entity — legally isolated from all others</li>
+    <li>A challenge in County A cannot compromise collateral in County B or the master facility</li>
+    <li>Vertically integrated subsidiaries control manufacturing, distribution & construction</li>
+    <li>Local General Contractors employed by county via Vertikal Builders Alliance</li>
+    <li>Strict control over timelines, costs, and quality — no reliance on third-party developers</li>
+    <li>~1,200 homes targeted simultaneously across multiple states</li>
+  </ul>
+</div>
+
+<!-- Slide 8 -->
+<div class="slide">
+  <h2>The Product: ICF Intelligent Homes</h2>
+  <div class="grid">
+    <div class="card"><h3>🌪️ Disaster Resilient</h3><p>Insulated Concrete Forms (ICF) exceed building codes — withstand hurricanes, tornadoes, fires & earthquakes</p></div>
+    <div class="card"><h3>⚡ 93% Energy Reduction</h3><p>Alternative Power Unit (APU) cuts residential electricity costs by up to 93% vs. standard homes</p></div>
+    <div class="card"><h3>🏥 Health-First Design</h3><p>Built under Spectra's Health pillar — air quality, thermal comfort, and accessibility standards</p></div>
+    <div class="card"><h3>🛡️ Insurance Savings</h3><p>Catastrophe-resilient construction lowers homeowner's insurance premiums significantly</p></div>
+  </div>
+</div>
+
+<!-- Slide 9 -->
+<div class="slide">
+  <h2>Community Impact & Mission</h2>
+  <div class="grid">
+    <div class="card"><h3>$0 Down Payment</h3><p>Subsidies, grants & developer credits eliminate the single biggest homeownership barrier</p></div>
+    <div class="card"><h3>Housing Authority Pipelines</h3><p>Pre-sales sourced from housing authority waitlists and nonprofit partner pipelines</p></div>
+    <div class="card"><h3>Local Job Creation</h3><p>Manufacturing, distribution & construction jobs stimulated at the county level</p></div>
+    <div class="card"><h3>Tax Base Expansion</h3><p>Public-private partnerships with municipalities grow local revenue without disaster risk</p></div>
+  </div>
+</div>
+
+<!-- Slide 10 -->
+<div class="slide">
+  <span class="tag">Investment Thesis</span>
+  <h2>5-Year Maturity Options</h2>
+  <ul style="margin-top:16px;max-width:600px">
+    <li><strong>Full Repayment</strong> — Return of principal at end of 5-year term</li>
+    <li><strong>Equity Conversion</strong> — Convert principal into equity shares of the SPV</li>
+    <li><strong>Term Extension</strong> — Extend participation for an additional term</li>
+  </ul>
+  <div style="margin-top:32px;padding:20px 32px;background:rgba(102,126,234,0.12);border:1px solid rgba(102,126,234,0.3);border-radius:12px;display:inline-block">
+    <p style="color:#e0e0f0;font-size:1rem;font-weight:600">Target: 20,000 homes · 5 states · $5B cumulative deployment</p>
+    <p style="color:#667eea;font-size:0.9rem;margin-top:8px">CDFIs · Institutional Investors · Accredited Investors</p>
+  </div>
+</div>
+
+</div>
+
+<div class="nav">
+  <button onclick="prev()">← Prev</button>
+  <span id="nav-counter">1 / 10</span>
+  <button onclick="next()">Next →</button>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+const total = slides.length;
+
+function show(n) {
+  slides[current].classList.remove('active');
+  current = (n + total) % total;
+  slides[current].classList.add('active');
+  document.getElementById('counter').textContent = `${current+1}/${total}`;
+  document.getElementById('nav-counter').textContent = `${current+1} / ${total}`;
+}
+function next() { show(current + 1); }
+function prev() { show(current - 1); }
+document.addEventListener('keydown', e => {
+  if(e.key==='ArrowRight'||e.key==='ArrowDown'||e.key===' ') next();
+  if(e.key==='ArrowLeft'||e.key==='ArrowUp') prev();
+});
+</script>
+</body>
+</html>
