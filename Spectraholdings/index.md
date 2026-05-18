@@ -38,3 +38,7 @@
 - incentive impact memo
 - capital stack package
 - executive decision brief
+
+## Reference Documents
+
+- [[san-antonio-housing-job-strategy|San Antonio Housing & Job Strategy — Final 5.15.26]] ← ingested from PDF (25 pages)
