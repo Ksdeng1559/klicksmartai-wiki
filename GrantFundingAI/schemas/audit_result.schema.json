@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrantFundingAI Audit Result",
+  "type": "object",
+  "properties": {
+    "company_name": { "type": "string" },
+    "website_url": { "type": "string" },
+    "audit_date": { "type": "string" },
+    "eligibility": {
+      "type": "object",
+      "properties": {
+        "us_based_entity": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] },
+        "for_profit": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] },
+        "small_business_signal": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] },
+        "rd_component": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] },
+        "commercialization_potential": { "type": "string", "enum": ["YES", "NO", "UNKNOWN"] }
+      }
+    },
+    "problem_statements": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "technology_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "agency_matches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "agency": { "type": "string" },
+          "reason": { "type": "string" },
+          "confidence": { "type": "number" }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "eligibility": { "type": "number" },
+        "problem_significance": { "type": "number" },
+        "innovation": { "type": "number" },
+        "commercialization": { "type": "number" },
+        "government_fit": { "type": "number" },
+        "community_fit": { "type": "number" },
+        "partnerships": { "type": "number" },
+        "total": { "type": "number" }
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["HIGH_PRIORITY", "STRONG_CANDIDATE", "NEEDS_DEVELOPMENT", "NOT_SBIR_READY"]
+    },
+    "missing_evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "recommended_next_action": { "type": "string" }
+  },
+  "required": ["company_name", "website_url", "eligibility", "scores", "decision", "missing_evidence"]
+}
