@@ -70,6 +70,8 @@ Shared knowledge layer for all KlickSmartAI agents and LLMs.
 
 ## What This Is
 
+master is memory infrastructure, not a workspace.
+
 This wiki is the **single source of truth** for all KlickSmartAI operations. Every LLM in the stack — Hermes, Claude, ChatGPT, Gemini — reads from and writes to this wiki. It is not a reference document. It is the actual knowledge layer.
 
 This wiki now also supports three strategic operating layers:
