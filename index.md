@@ -13,6 +13,12 @@
 |-----------|-------------|
 | project-portfolio | Master index of 30+ projects across agency, revenue intel, mortgage, solar, apps, SEO, content |
 
+## Capital Sources
+| entity-id | Description |
+|------------|-------------|
+| enterprise-community-loan-fund | CDFI — $3.27B invested, $648M AUM, AA-/AAA rated, 44+ yrs — loan products for affordable housing, healthcare, schools, food access across 8+ metro markets |
+| cdfi-underwriting-framework | 5-pillar risk mitigation framework for evaluating CDFI capital sources and structuring deals in the Spectra Holdings MCF county pipeline — covers capacity, collateral, capital, compliance, and covenants |
+
 ## Tools & Platforms
 | entity-id | Description |
 |-----------|-------------|
