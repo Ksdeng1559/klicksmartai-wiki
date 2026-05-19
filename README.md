@@ -1,5 +1,71 @@
 # KlickSmartAI Knowledge Wiki
 
+## Master Branch Governance Notice
+
+The `master` branch is the production memory source for KlickSmartAI.
+
+It is used or reserved for:
+
+- Hermes memory
+- wiki-llm memory
+- Graphify production graph indexing
+- Pinecone production vector database ingestion
+- future agent retrieval systems
+
+The `master` branch is production memory infrastructure, not a development workspace.
+
+All new research, workflow design, project-specific intelligence, drafts, experiments, and system builds should begin on non-master branches.
+
+Preferred branch families:
+
+- `workflow/*` for active project and system development
+- `research/*` for raw discovery and unverified research
+- `archive/*` for inactive or historical material
+
+Content should move toward `master` only after it has been reviewed, consolidated, and approved for production memory.
+
+### wiki-llm Read-and-Merge Gate
+
+Changes to `master` require wiki-llm review before promotion into production memory.
+
+A proposed merge into `master` should confirm that the content is:
+
+- stable
+- reusable
+- appropriate for Hermes default memory
+- appropriate for wiki-llm default retrieval
+- safe for Graphify production indexing
+- safe for Pinecone production vector ingestion
+- free of misleading semantic associations
+- not raw research
+- not workflow-specific material that should remain isolated
+
+Approved merges into `master` should include this statement:
+
+> wiki-llm has read and reviewed this change. This content is approved for production memory and may be merged into master.
+
+### Graphify and Pinecone Scope
+
+Graphify production indexing should use `master` as the clean production source.
+
+Workflow branches may have separate Graphify indexes for project-specific reasoning.
+
+Pinecone production ingestion should use a production namespace sourced from `master`.
+
+Workflow branches should use separate Pinecone namespaces when vector retrieval is needed for project-specific work.
+
+### Consolidation Path
+
+Research and project knowledge should follow this lifecycle:
+
+```text
+research branch
+→ workflow branch
+→ review
+→ approved production memory
+→ master
+→ Graphify update
+→ Pinecone ingestion
 Shared knowledge layer for all KlickSmartAI agents and LLMs.
 
 ## What This Is
