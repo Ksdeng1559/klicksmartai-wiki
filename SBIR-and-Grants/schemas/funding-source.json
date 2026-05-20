@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://klicksmartai.com/schemas/sbir-and-grants/funding-source.json",
+  "title": "Funding Source",
+  "description": "A structured funding source record for the SBIR and Grants Funding Intelligence Operating System.",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_name",
+    "source_type",
+    "url",
+    "applicant_types",
+    "funding_role",
+    "project_fit"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "description": "Unique internal identifier for the funding source."
+    },
+    "source_name": {
+      "type": "string",
+      "description": "Name of the funding source, portal, agency, or program."
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "SBIR_STTR",
+        "FEDERAL_GRANT",
+        "FEDERAL_CONTRACT",
+        "STATE_PROGRAM",
+        "COUNTY_PROGRAM",
+        "TRIBAL_PROGRAM",
+        "CDFI",
+        "FOUNDATION",
+        "DONOR_ADVISED_FUND",
+        "IMPACT_INVESTOR",
+        "PRIVATE_CAPITAL",
+        "ADVISORY_RESOURCE"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "agency_or_institution": {
+      "type": "string"
+    },
+    "program_office": {
+      "type": "string"
+    },
+    "applicant_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "SMALL_BUSINESS",
+          "COUNTY",
+          "CITY",
+          "STATE",
+          "TRIBE",
+          "NONPROFIT",
+          "UNIVERSITY",
+          "DEVELOPER",
+          "PUBLIC_PRIVATE_PARTNERSHIP",
+          "CDFI",
+          "FOUNDATION",
+          "OTHER"
+        ]
+      }
+    },
+    "funding_role": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "RESEARCH",
+          "FEASIBILITY",
+          "PLANNING",
+          "PILOT",
+          "IMPLEMENTATION",
+          "MATCHING_FUNDS",
+          "LEVERAGE",
+          "DEBT",
+          "EQUITY",
+          "FIRST_LOSS",
+          "CATALYTIC_CAPITAL",
+          "TECHNICAL_ASSISTANCE"
+        ]
+      }
+    },
+    "project_fit": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "HOUSING",
+          "ENERGY",
+          "WASTE_TO_ENERGY",
+          "SOLAR_STORAGE",
+          "INFRASTRUCTURE",
+          "AI",
+          "CLIMATE_RESILIENCE",
+          "ENVIRONMENTAL_JUSTICE",
+          "RURAL_DEVELOPMENT",
+          "TRIBAL_RESILIENCE",
+          "WORKFORCE",
+          "ECONOMIC_DEVELOPMENT",
+          "PROCUREMENT",
+          "OTHER"
+        ]
+      }
+    },
+    "funding_amount_min": {
+      "type": ["number", "null"]
+    },
+    "funding_amount_max": {
+      "type": ["number", "null"]
+    },
+    "match_required": {
+      "type": ["boolean", "null"]
+    },
+    "match_percentage": {
+      "type": ["number", "null"]
+    },
+    "deadline_type": {
+      "type": "string",
+      "enum": ["FIXED", "ROLLING", "FORECASTED", "UNKNOWN"]
+    },
+    "deadline_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "readiness_notes": {
+      "type": "string"
+    },
+    "capital_stack_notes": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
