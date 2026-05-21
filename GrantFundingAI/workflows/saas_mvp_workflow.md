@@ -77,6 +77,23 @@ Classify into domains:
 
 ## Step 6 — Agency Matching
 
+### Pre-Step — Community / County Intelligence
+
+Before running agency matching, the system ingests county-level data for the target community:
+
+| Field | Description |
+|-------|-------------|
+| Housing need | Housing shortage indicators |
+| Energy burden | Energy cost burden |
+| Waste burden | Waste management pressure |
+| Infrastructure gaps | Infrastructure deficiencies |
+| Economic development priorities | County EDP focus areas |
+| Tribal alignment | Tribal community presence |
+| Opportunity zones | Designated opportunity zones |
+| Local agency contacts | Key county contacts |
+
+Output: **County Opportunity Profile**
+
 ### Agency + Phase Guidance Table
 
 | Signal | Likely Agency / Path | Phase I Window | Phase III Path |
@@ -110,7 +127,6 @@ After the Eligibility Gate, first-time or low-score applicants are referred to a
 *GrantFundingAI generates a PTAC referral package (PDF export) at the Eligibility Gate output. The package includes all extracted evidence and eligibility signals so the counselor can proceed without re-doing discovery.*
 
 ## Step 7 — Missing Evidence Detector
-Examples:
 
 - U.S. incorporation not confirmed
 - Employee count not visible
