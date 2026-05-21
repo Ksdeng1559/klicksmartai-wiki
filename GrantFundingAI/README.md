@@ -1,135 +1,532 @@
-# SBIF & Grant Funding — Resource Index
+# GrantFundingAI — Master Index
 
-Federal and state grant/sBIR funding intelligence for the KlickSmartAI wiki. Sources include APEX Accelerator materials, govcon playbooks, and grant qualification frameworks.
+**System:** GrantFundingAI  
+**Repository:** KlickSmartAI Wiki  
+**Purpose:** Central operating framework for grant funding, SBIR/STTR readiness, government contracting readiness, non-dilutive capital strategy, APEX/SBDC advisory use, and client-specific funding intelligence packages.
 
 ---
 
-## APEX Accelerators
+## 1. Purpose of This Directory
 
-**apexaccelerators.us** — Find your local center (95 nationwide, DoD-funded, free services).
+GrantFundingAI is the master knowledge and workflow layer for helping clients identify, qualify, package, and pursue non-dilutive funding opportunities.
 
-**What APEX provides (7 pillars, free):**
+It is designed to support:
+
+- Federal grant research
+- State and county grant screening
+- SBIR / STTR readiness
+- Government contracting readiness
+- APEX Accelerator preparation
+- SBDC advisory preparation
+- Capability statement development
+- SAM.gov / UEI / CAGE / DSBS readiness
+- Agency target mapping
+- NOFO analysis
+- Proposal-readiness scoring
+- Partner and support-letter development
+- 24-month funding pipeline creation
+
+The goal is not simply to find grants. The goal is to create a repeatable system for determining:
+
+1. Is the applicant eligible?
+2. Is the project fundable?
+3. Which agency is the best fit?
+4. What evidence is missing?
+5. Which partner structure is required?
+6. What is the probability of success?
+7. What should be submitted first?
+8. What is the likely non-dilutive capital range?
+
+---
+
+## 2. Core Operating Philosophy
+
+GrantFundingAI should not chase generic grants.
+
+It should help convert a business or project into a fundable package by aligning:
+
+```text
+Public problem
+    ↓
+Eligible applicant
+    ↓
+Fundable work package
+    ↓
+Evidence and partners
+    ↓
+Agency-aligned narrative
+    ↓
+Submission pathway
+    ↓
+Non-dilutive capital outcome
+```
+
+---
+
+## 3. Master Workflow
+
+GrantFundingAI follows a seven-stage workflow.
+
+### Stage 1 — Assess
+
+Determine whether the company and project are grant-ready.
+
+Inputs:
+
+- Company/entity profile
+- Ownership and location
+- U.S. eligibility status
+- SAM.gov / UEI / CAGE status
+- Technical concept
+- Market and public problem
+- Past performance
+- Partner status
+- Financial stability
+
+Outputs:
+
+- Government readiness score
+- SBIR/STTR eligibility screen
+- Grant-readiness score
+- Missing evidence list
+- Go / no-go guidance
+
+---
+
+### Stage 2 — Market Research
+
+Identify which agencies, programs, and buyers fund this type of work.
+
+Research sources:
+
+- SAM.gov
+- Grants.gov
+- SBIR.gov
+- USAspending.gov
+- FPDS.gov
+- DSBS
+- State portals
+- County grant portals
+- EDA regional resources
+- DOE / EPA / USDA / NSF program pages
+- APEX / SBDC recommendations
+
+Outputs:
+
+- Agency target map
+- Funding source shortlist
+- Historical award analysis
+- Competitor / peer award examples
+- 24-month opportunity pipeline
+
+---
+
+### Stage 3 — Strategy
+
+Turn the research into a funding plan.
+
+Outputs:
+
+- Grant eligibility matrix
+- Non-dilutive capital plan
+- Funding pathway strategy
+- Capability statement
+- One-page concept paper
+- Agency-specific positioning
+- Partner strategy
+- Match-funding strategy
+
+---
+
+### Stage 4 — Capture Management
+
+Build relationships and prepare before applying.
+
+Actions:
+
+- Contact APEX
+- Contact SBDC
+- Contact SBIR/STTR program managers
+- Contact agency small business offices
+- Contact county / state / Tribal partners
+- Secure letters of support
+- Identify technical validation partners
+- Build grant calendar
+- Build pursuit tracker
+
+Outputs:
+
+- Partner outreach tracker
+- Letters of support
+- Technical validation pathway
+- Program manager feedback
+- Go / no-go decision log
+
+---
+
+### Stage 5 — Proposal Development
+
+Create application-ready materials.
+
+Outputs:
+
+- Problem statement
+- Technical approach
+- Work plan
+- Budget narrative
+- Commercialization plan
+- Community benefits plan
+- Team qualifications
+- Risk mitigation plan
+- Letters of support
+- Compliance checklist
+
+---
+
+### Stage 6 — Post-Submission Learning
+
+Track outcomes and improve the system.
+
+Actions:
+
+- Track submissions
+- Capture reviewer feedback
+- Debrief wins and losses
+- Update scoring rules
+- Improve templates
+- Reuse successful language
+
+Outputs:
+
+- Submission history
+- Reviewer feedback log
+- Win/loss analysis
+- Updated probability model
+
+---
+
+### Stage 7 — Growth
+
+Build an ongoing non-dilutive funding engine.
+
+Outputs:
+
+- 24-month funding pipeline
+- Grant + contract roadmap
+- Phase I → Phase II → Phase III path
+- Public-private partnership strategy
+- Government sales / procurement plan
+- Repeatable client funding package
+
+---
+
+## 4. Directory Map
+
+Recommended GrantFundingAI folder structure:
+
+```text
+GrantFundingAI/
+│
+├── README.md
+│
+├── docs/
+│   ├── product-requirements.md
+│   ├── grant-funding-playbook.md
+│   ├── government-readiness-guide.md
+│   ├── sbir-sttr-guide.md
+│   └── no-fee-assistance-guide.md
+│
+├── scoring/
+│   ├── readiness-scoring-rubric.md
+│   ├── grant-fit-scoring.md
+│   ├── sbir-scorecard.md
+│   └── probability-model.md
+│
+├── workflows/
+│   ├── intake-to-report-workflow.md
+│   ├── apex-consultation-workflow.md
+│   ├── grant-opportunity-screening-workflow.md
+│   ├── sbir-concept-paper-workflow.md
+│   └── proposal-readiness-workflow.md
+│
+├── schemas/
+│   ├── funding-source.schema.json
+│   ├── grant-readiness-audit.schema.json
+│   ├── opportunity-score.schema.json
+│   └── partner-tracker.schema.json
+│
+├── templates/
+│   ├── capability-statement-template.md
+│   ├── one-page-concept-paper-template.md
+│   ├── grant-eligibility-matrix-template.md
+│   ├── no-fee-assistance-directory-template.md
+│   ├── government-readiness-assessment-template.md
+│   └── letters-of-support-template.md
+│
+├── resources/
+│   ├── apex-accelerators.md
+│   ├── sbdc.md
+│   ├── score.md
+│   ├── sam-uei-cage-dsbs.md
+│   ├── fpds-usaspending-research.md
+│   └── certifications.md
+│
+└── native-american/
+    ├── native-american-apex-centers.md
+    └── tribal-grant-pathways.md
+```
+
+---
+
+## 5. APEX Accelerators
+
+**apexaccelerators.us** — Find your local center. APEX Accelerators are DoD-funded and provide no-cost government contracting and procurement assistance.
+
+### What APEX provides
+
 1. Suitability assessment
-2. SAM.gov / UEI / CAGE registration
-3. Market research (agency spending patterns)
-4. Bid opportunity matching (automated NAICS/PSC alerts)
-5. Networking (CO introductions, prime relationships)
-6. Proposal assistance (RFP shredding, compliance review)
+2. SAM.gov / UEI / CAGE registration guidance
+3. Market research using agency spending patterns
+4. Bid opportunity matching and NAICS / PSC alerts
+5. Networking with contracting officers and prime contractors
+6. Proposal assistance, RFP shredding, and compliance review
 7. Post-award contract support
 
-**2025 impact:** 92 centers, $55M federal investment → 26,232 new clients, 549,519 awards, **$64.9B** total contract value. Average APEX-assisted contract: **$118,231**. Average cost avoidance vs. private consultants: **$18,000+/yr**.
+### Professional boundaries
 
-**Professional boundaries:** APEX cannot write proposals for you, guarantee wins, expedite external certifications, or lobby.
+APEX can help review and guide, but generally cannot:
 
-**First meeting prep:** EIN, UEI (or DUNS), product/service list, certifications held, questions ready. Counselors work with beginners.
+- Write proposals for the client
+- Guarantee awards
+- Expedite external certifications
+- Lobby agencies
+
+### First meeting preparation
+
+Bring:
+
+- EIN
+- UEI or plan to obtain one
+- Product / service list
+- Certifications held
+- NAICS / PSC assumptions
+- Capability statement draft if available
+- Questions for counselor
 
 ---
 
-## Key Registrations
+## 6. Key Government Readiness Registrations
 
 | System | Purpose | Notes |
-|--------|---------|-------|
-| **SAM.gov / UEI** | Mandatory federal vendor registration | UEI replaced DUNS. No SAM = invisible to government buyers |
-| **CAGE Code** | Required for all DoD contracts | 5-char ID, essential for payment processing |
-| **DSBS (SBA)** | COs use to find small businesses | Keyword-optimize capabilities narrative for AI scraping |
-| **WEBS / State Portals** | SLED (State, Local, Education) access | e.g. MyFloridaMarketPlace |
-| **FPDS.gov** | DoD + federal contract award history | Track competitor pricing, win patterns |
-| **USAspending.gov** | Civilian agency spend data | Identify which agencies buy what you sell |
+|---|---|---|
+| SAM.gov / UEI | Mandatory federal vendor registration | UEI replaced DUNS. No SAM means reduced visibility to government buyers |
+| CAGE Code | Required for many federal / DoD contracts | 5-character identifier used for payment and procurement processing |
+| DSBS | SBA Dynamic Small Business Search | Contracting officers use this to find small businesses |
+| State procurement portals | State, local, education access | Required for many state and local opportunities |
+| FPDS.gov | Federal contract award history | Useful for competitor pricing and award pattern research |
+| USAspending.gov | Federal spending data | Useful for identifying which agencies fund similar work |
 
 ---
 
-## Certifications (Competitive Lanes)
+## 7. Certifications and Competitive Lanes
 
 | Program | Target | Key Benefit | Core Requirement |
-|---------|--------|-------------|-----------------|
-| **8(a) Business Development** | Socially/economically disadvantaged | 9-yr program, sole-source set-asides | 51% disadvantaged ownership |
-| **WOSB / EDWOSB** | Women-owned | Access to underrepresented industries | 5% annual agency spend goal |
-| **HUBZone** | Historically underutilized zones | 10% price evaluation preference | Office in HUBZone; 35% staff reside there |
-| **SDVOSB** | Service-disabled veterans | Vets First / VA set-asides | 51% SDV-owned |
-| **Native American** | Tribal-owned | 6 dedicated APEX centers with tribal law expertise | Varies by center |
+|---|---|---|---|
+| 8(a) Business Development | Socially/economically disadvantaged businesses | 9-year program and potential sole-source set-asides | 51% disadvantaged ownership |
+| WOSB / EDWOSB | Women-owned businesses | Access to underrepresented industries | Ownership and control requirements |
+| HUBZone | Historically underutilized business zones | Price evaluation preference and set-asides | Office in HUBZone and employee residency requirements |
+| SDVOSB | Service-disabled veteran-owned businesses | VA and federal set-aside opportunities | 51% SDV-owned |
+| Native American / Tribal-owned | Tribal-owned entities | Specialized procurement and grant pathways | Varies by structure and program |
 
 ---
 
-## SBIR / STTR ("America's Seed Fund")
+## 8. SBIR / STTR Framework
 
-**SBIR.gov** — Phase I (proof of concept), Phase II (development), Phase III (commercialization/novel制造). **Non-dilutive funding.** 14 Critical Technology Areas: AI, microelectronics, space, biotech, cybersecurity, etc.
+SBIR and STTR are non-dilutive seed funding pathways for research and development.
 
-**Key distinction from standard procurement:**
+### Typical stages
 
-| | SBIR/STTR | Standard Procurement |
-|--|-----------|---------------------|
-| Focus | R&D in 14 CTAs | Purchase of existing goods/services |
-| Funding | Non-dilutive seed money | Fixed-price / cost-reimbursable |
-| APEX role | Technical proposal review | Compliance + bid review |
+| Phase | Purpose | Typical Use |
+|---|---|---|
+| Phase I | Proof of concept / feasibility | Validate technical merit and commercial potential |
+| Phase II | Development / prototype | Build and test the technology |
+| Phase III | Commercialization | Private, government, or procurement-funded scale-up |
 
-**CMMC applies to SBIR/STTR too** — R&D output often classified as CUI. Higher-level NIST compliance may be required.
+### SBIR/STTR vs Standard Procurement
 
----
-
-## Government Marketing Toolkit
-
-**Baseline Capability Statement** — one-page "business resume." Must include:
-- Core competencies (top 3–5, not everything you *can* do)
-- Past performance with specific contract numbers
-- Company identifiers: CAGE, UEI, NAICS, PSC codes (must match SAM.gov exactly)
-- Dedicated procurement contact
-
-**Pro Tip:** Data fields must match SAM.gov and DSBS exactly — AI filters disqualify mismatches.
-
-**Reactive vs. Proactive strategy:**
-- Reactive: monitor SAM.gov bid boards (late to the game)
-- Proactive: engage Small Business Specialists directly; attend Reverse Trade Shows (typically March/August)
+| Category | SBIR/STTR | Standard Procurement |
+|---|---|---|
+| Focus | Research and development | Purchase of existing goods or services |
+| Funding type | Non-dilutive seed capital | Contract payment |
+| Review lens | Innovation, technical merit, commercialization | Compliance, price, past performance, capability |
+| APEX role | Technical proposal review and readiness support | Compliance and bid review |
 
 ---
 
-## 7-Step GIB Readiness Roadmap
+## 9. Government Marketing Toolkit
 
-1. **Assess** — SWOT/TOWS, financial stability, 2+ years commercial experience
-2. **Market Research** — FPDS, USAspending, DSBS, SubNet. Identify 3–5 target agencies
-3. **Strategy** — Draft Capability Statement, written GovCon marketing plan
-4. **Capture Management** — Register in agency portals, build CO call list
-5. **Bid Development** — "Shred" RFP line-by-line. Schedule APEX pre-submission review
-6. **Post Award** — Debrief on wins AND losses. Document performance metrics
-7. **Growth** — CMMC Level 1 self-assessment, populate 24-month pipeline
+### Baseline Capability Statement
+
+A one-page capability statement should include:
+
+- Core competencies
+- Differentiators
+- Past performance
+- Company data
+- UEI / CAGE / NAICS / PSC codes
+- Certifications
+- Contact information
+
+### Proactive strategy
+
+Do not only monitor bid boards.
+
+Also:
+
+- Contact Small Business Specialists
+- Attend agency industry days
+- Attend reverse trade shows
+- Request APEX market research support
+- Build a target agency list
+- Track 24-month pipeline opportunities
 
 ---
 
-## SBIF-Specific Resources
+## 10. Readiness Scoring Model
 
-### APEX + SBIF Integration
-SBIR/STTR proposals benefit from APEX technical review. APEX cannot write the proposal but can shred for compliance and competitiveness.
+Recommended high-level readiness score:
 
-### Key APEX SBIF Support
-- Technical proposal reviews (Phase I guidance)
-- R&D alignment with 14 CTAs
-- Connection to innovation units: DIU, DARPA
-- CMMC Level 1 self-assessments for R&D firms
-- Third-party audit referral for higher CMMC levels
+| Category | Max Points |
+|---|---:|
+| Applicant eligibility | 15 |
+| Government registration readiness | 15 |
+| Public problem clarity | 10 |
+| Technical merit / novelty | 15 |
+| Evidence and baseline data | 15 |
+| Partner readiness | 10 |
+| Commercialization path | 10 |
+| Community / public benefit | 5 |
+| Proposal timing and fit | 5 |
+| **Total** | **100** |
+
+Recommended interpretation:
+
+| Score | Readiness |
+|---:|---|
+| 0–39 | Not ready |
+| 40–59 | Strategy-ready, not application-ready |
+| 60–74 | Application-prep ready |
+| 75–84 | Competitive with gaps |
+| 85+ | Strong pursuit candidate |
 
 ---
 
-## Related Wiki Entries
+## 11. Probability of Success Model
+
+GrantFundingAI should estimate probability of success by combining:
+
+- Eligibility certainty
+- Program fit
+- Technical merit
+- Evidence readiness
+- Partner strength
+- Timing
+- Competition intensity
+- Match funding availability
+- Prior performance
+- Reviewer clarity
+
+### Example scoring bands
+
+| Probability | Meaning |
+|---:|---|
+| 0–20% | Weak fit or not eligible |
+| 21–40% | Possible but underdeveloped |
+| 41–60% | Plausible with gaps |
+| 61–75% | Competitive if executed well |
+| 76%+ | Strong fit / high readiness |
+
+---
+
+## 12. Client Package Pattern
+
+Each client grant-funding folder should ideally include:
+
+```text
+client-folder/
+│
+├── README.md
+├── problem-definition.md
+├── grant-eligibility-matrix.md
+├── gtm-strategy.md
+├── no-fee-assistance-directory.md
+├── government-readiness-assessment.md
+├── capability-statement.md
+├── one-page-concept-paper.md
+├── agency-target-map.md
+├── grant-calendar-and-nofo-tracker.md
+├── partner-outreach-tracker.md
+├── letters-of-support-templates.md
+├── non-dilutive-capital-plan.md
+└── risk-and-validation-gaps.md
+```
+
+---
+
+## 13. Intake Questions
+
+Use these intake questions before pursuing any grant:
+
+1. What is the public problem being solved?
+2. Who is the eligible applicant?
+3. Is the company registered in SAM.gov?
+4. Does the company have a UEI and CAGE code?
+5. Is this R&D, infrastructure, workforce, planning, or commercialization?
+6. What evidence already exists?
+7. What evidence is missing?
+8. What partners are required?
+9. Is there a match requirement?
+10. What is the deadline?
+11. Is this a direct application, subrecipient role, or contractor role?
+12. What is the realistic award size?
+13. What is the probability of success?
+14. What is the cost of applying?
+15. What is the next-best alternative if rejected?
+
+---
+
+## 14. Related Wiki Entries
 
 - `wiki/sbir/` — SBIR/STTR intelligence layer
 - `wiki/grantfunding/` — GrantFunding intelligence layer
 - `wiki/GrantFundingAI/` — GrantFundingAI product system
 - `wiki/entities/sbir-and-grants.md` — SBIR and grants entity index
+- `clients/breakthrough-mgmt/` — Breakthrough Management circular carbon infrastructure grant package
 
 ---
 
-## GrantFundingAI System
+## 15. Source Notes and Prior Research Inputs
 
-`docs/` — Product requirements, specifications, and funding source reference
-`scoring/` — Eligibility and readiness scoring rubric (aligned to SBIF reviewer criteria)
-`workflows/` — End-to-end funding intelligence workflow (intake → report)
-`schemas/` — Structured data schemas for audit results and funding sources
-`native-american/` — Native American APEX centers reference
+This directory incorporates concepts and source notes from:
+
+- Government Procurement Strategy Plan: Leveraging APEX Accelerator Resources for Sustainable Growth
+- Government Readiness Assessment & Strategic Contracting Roadmap
+- Native American APEX Accelerator Locator and Resource Guide
+- Navigating Your First APEX Counseling Session
+- The Beginner's Guide to Government Contracting Certifications
+- The Entrepreneur's Roadmap to Government Contracting
+- Breakthrough Management circular carbon infrastructure grant research
 
 ---
 
-- *Government Procurement Strategy Plan: Leveraging APEX Accelerator Resources for Sustainable Growth* — NotebookLM BreakThrough client (2026-05-21)
-- *Government Readiness Assessment & Strategic Contracting Roadmap* — NotebookLM BreakThrough client
-- *Native American APEX Accelerator Locator and Resource Guide* — NotebookLM BreakThrough client
-- *Navigating Your First APEX Counseling Session* — NotebookLM BreakThrough client
-- *The Beginner's Guide to Government Contracting Certifications* — NotebookLM BreakThrough client
-- *The Entrepreneur's Roadmap to Government Contracting* — NotebookLM BreakThrough client
+## 16. Operating Rule
+
+Every GrantFundingAI document should support at least one of the following outcomes:
+
+1. Improve eligibility clarity
+2. Improve program fit
+3. Improve evidence readiness
+4. Improve partner readiness
+5. Improve proposal quality
+6. Improve probability of non-dilutive funding success
+7. Improve long-term grant and government contracting pipeline quality
