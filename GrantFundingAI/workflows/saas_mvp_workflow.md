@@ -77,16 +77,37 @@ Classify into domains:
 
 ## Step 6 — Agency Matching
 
-| Signal | Likely Agency / Path |
-|---|---|
-| Energy, grid, storage, resilience | DOE |
-| Recycling, remediation, pollution | EPA |
-| Rural systems, agriculture, food, water | USDA |
-| Broad deep technology | NSF |
-| Housing/community development | HUD / CDBG / CDFI |
-| Manufacturing/jobs | EDA |
-| Defense/dual-use | DOD |
-| Health/biotech | NIH |
+### Agency + Phase Guidance Table
+
+| Signal | Likely Agency / Path | Phase I Window | Phase III Path |
+|--------|----------------------|----------------|----------------|
+| Energy, grid, storage, resilience | DOE | Opens Sept 2026 | OCIO procurement |
+| Recycling, remediation, pollution | EPA | Opens Aug 2026 | Tribal land set-aside |
+| Rural systems, agriculture, food, water | USDA | Rolling | Rural development grants |
+| Broad deep technology | NSF | Opens Jan 2026 | Fast-track review |
+| Housing/community development | HUD / CDBG / CDFI | Rolling | CDFI gap financing |
+| Manufacturing/jobs | EDA | Rolling | Economic adjustment assistance |
+| Defense/dual-use | DOD | Invitational | SBIR C-sUAS contract |
+| Health/biotech | NIH | Standard 3-cycle | NIAID tribal set-aside |
+
+### APEX Counselor Step (between Eligibility Gate and Problem Classification)
+
+```
+Eligibility Gate
+  → APEX Counselor Step    ← NEW
+  → Problem Classification
+```
+
+**APEX Counselor Step Details**
+
+After the Eligibility Gate, first-time or low-score applicants are referred to an APEX counselor for:
+
+- **Registration support** — SAM/UEI/CAGE setup walkthrough
+- **Proposal writing mentorship** — technical narrative structure and merit framing
+- **Program manager relationships** — SBIR Road Tour introductions
+- **Certification navigation** — 8(a)/WOSB/HUBZone/SDVOSB eligibility review
+
+*GrantFundingAI generates a PTAC referral package (PDF export) at the Eligibility Gate output. The package includes all extracted evidence and eligibility signals so the counselor can proceed without re-doing discovery.*
 
 ## Step 7 — Missing Evidence Detector
 Examples:
