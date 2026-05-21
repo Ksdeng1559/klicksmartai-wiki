@@ -62,6 +62,35 @@ Company website URL
 - MineTeck: e-waste / critical mineral recovery / environmental impact
 - Spectra Holdings: county development / community infrastructure / capital stack alignment
 
+## SBIF Applicant Personas
+
+### Persona 1: First-Time SBIF Applicant
+**Profile:** Early-stage founder or researcher with a novel tech solution and limited GovCon experience.
+
+| Dimension | Detail |
+|-----------|--------|
+| Barriers | No SAM/UEI/CAGE registration, unfamiliar with technical merit scoring, no existing relationship with a program manager |
+| GrantFundingAI Role | Intake engine surfaces SBIF eligibility gaps; agency matching recommends NSF or DOE as Phase I onramps |
+| APEX Integration | APEX counselor provides proposal writing mentorship; connects to local SBDC for registration support |
+
+### Persona 2: Growth-Stage GovCon
+**Profile:** Established small business with 1–2 prior SBIR awards seeking Phase II or Phase III expansion.
+
+| Dimension | Detail |
+|-----------|--------|
+| Barriers | Transitioning from R&D to commercialization pathway; Phase III dual-procurement strategy unfamiliar |
+| GrantFundingAI Role | Crawl + AI Extraction maps existing award history; Missing Evidence module flags Phase III pitch deck gaps |
+| APEX Integration | APEX Government Marketing Toolkit supports Phase III market penetration; SBIR Road Tour unlocks program manager relationships |
+
+### Persona 3: County / Tribal Economic Development
+**Profile:** County economic development office or tribal council seeking SBIF-aligned programs to fund infrastructure or community tech.
+
+| Dimension | Detail |
+|-----------|--------|
+| Barriers | Regulatory complexity, CDFI alignment, narrative framing for merit review |
+| GrantFundingAI Role | Classification engine maps community need → agency program; report module generates evidence Brief |
+| APEX Integration | APEX counselor provides CDFI navigator introduction; 8(a)/WOSB certification guidance; Native American APEX centers (Muscogee Creek, Cherokee, Oglala Sioux, etc.) |
+
 ## Success Metrics
 
 | Metric | Target |

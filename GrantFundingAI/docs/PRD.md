@@ -498,9 +498,135 @@ For KlickSmartAI, it becomes a Venture Studio intake engine:
 
 ```text
 Company website
-  → Opportunity score
-  → Funding path
-  → Proposal
-  → Pilot
-  → Venture
+  → Audit run
+  → Readiness score
+  → Agency matches
+  → Missing evidence
+  → Report output
 ```
+
+---
+
+## 15. SBIF Phase Requirements
+
+The Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs fund R&D in three sequential phases. GrantFundingAI assesses readiness and generates guidance for each phase.
+
+---
+
+### Phase I — Technical Merit
+
+**Purpose:** Establish technical feasibility and scientific merit.
+
+**Duration:** 1 year (6–12 months)
+
+**Funding Amount:** Up to $275,000 (DOE, NSF, NIH, USDA) — varies by agency
+
+**Eligibility Requirements:**
+
+- U.S.-based for-profit small business (500 employees or fewer)
+- Principal investigator must be employed by the company (≥51% time)
+- R&D must be performed in the U.S.
+- Business must have the technical and managerial capability to complete the project
+
+**Submission Requirements:**
+
+- Company registration in SAM.gov and SBA SBIR/STTR company registry
+- Project description (no more than 12 pages, excluding appendices)
+- Technical objectives and key milestones
+- Innovation statement — what is new/unproven compared to existing knowledge
+- Commercialization plan — how the results will lead to a marketable product
+- Budget and budget justification
+- List of key personnel and their qualifications
+- Letters of intent or preliminary data (if required by agency)
+
+**GrantFundingAI Assessment Triggers:**
+
+- Missing: evidence of U.S. incorporation or small business status
+- Missing: team credentials or R&D employment signals
+- Missing: technical approach description or innovation claims
+- Missing: commercialization path signals
+
+---
+
+### Phase II — Development & Demonstration
+
+**Purpose:** Continue R&D and demonstrate commercial potential based on Phase I results.
+
+**Duration:** 2 years (24 months)
+
+**Funding Amount:** Up to $1,100,000 (varies by agency and topic)
+
+**Eligibility Requirements:**
+
+- Must have successfully completed Phase I
+- Phase I contract must be in good standing (no extensions, no termination)
+- Company must demonstrate technical progress against Phase I milestones
+- Must show clear commercial market potential
+
+**Submission Requirements:**
+
+- Phase I results summary and technical progress report
+- Phase II project description with detailed technical work plan
+- Detailed commercialization plan with market analysis
+- Updated budget reflecting full Phase II scope
+- Evidence of Phase I technical success (data, prototypes, preliminary results)
+- List of Phase II anticipated deliverables and milestones
+- Letters of support or intent from potential customers or partners
+- IP ownership documentation (if applicable)
+
+**GrantFundingAI Assessment Triggers:**
+
+- Missing: Phase I completion confirmation
+- Missing: prototype or technical demonstration evidence
+- Missing: customer discovery or market validation signals
+- Missing: pilot customers, LOIs, or commercial interest evidence
+- Missing: IP/patent status or technology advantage documentation
+
+---
+
+### Phase III — Commercialization
+
+**Purpose:** Bring the technology to market. No SBIR/STTR funds are available for this phase.
+
+**Funding:** Must come from private capital, non-SBIR federal grants, or commercial revenue
+
+**Eligibility Requirements:**
+
+- Must have completed Phase II (or in rare cases, Phase I with agency agreement)
+- Technology must be positioned for commercial deployment
+- Company must be investment-ready or revenue-generating
+
+**Submission Requirements:**
+
+- Private investment documentation or commercial contracts
+- Non-SBIR federal funding (e.g., TSP, PRIME, MCEP, DOE loan programs)
+- Evidence of market traction: revenue, LOIs, pilot contracts, or strategic partnerships
+
+**GrantFundingAI Assessment Triggers:**
+
+- Missing: investor or capital stack signals
+- Missing: commercial contracts or pilot revenue evidence
+- Missing: follow-on grant opportunities (DOE MCEP, EPA STAR, USDARural)
+
+---
+
+### Agency-Specific Variations
+
+| Agency | Phase I | Phase II | Phase III Requirement |
+|---|---|---|---|
+| DOE | $275K / 1 yr | $1.1M / 2 yr | Must show energy market pathway |
+| NSF | $275K / 1 yr | $1.1M / 2 yr | Must show research/commercial potential |
+| NIH | $275K / 1 yr | $1.1M / 2 yr | Must show health/clinical application |
+| USDA | $275K / 1 yr | $1.1M / 2 yr | Must show agricultural or rural impact |
+| DOD | Varies | Varies | Must show defense or dual-use pathway |
+
+---
+
+### GrantFundingAI Phase Guidance Output
+
+For each audit, the system will indicate:
+
+- Which phase(s) the company appears most likely to qualify for
+- What evidence is present supporting Phase I/II/III readiness
+- What evidence gaps exist before attempting submission
+- Recommended next steps for building toward the next phase

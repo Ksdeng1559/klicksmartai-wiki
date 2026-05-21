@@ -1,184 +1,127 @@
-# GrantFundingAI
+# SBIF & Grant Funding — Resource Index
 
-GrantFundingAI is a KlickSmartAI Venture Studio initiative for auditing company websites and qualifying them for SBIR, STTR, federal grants, county programs, tribal opportunities, and capital-stack pathways.
+Federal and state grant/sBIR funding intelligence for the KlickSmartAI wiki. Sources include APEX Accelerator materials, govcon playbooks, and grant qualification frameworks.
 
-## Core Promise
+---
 
-Paste a company website URL and receive an evidence-based funding readiness report.
+## APEX Accelerators
 
-```text
-Website URL
-  → Website extraction
-  → SBIR eligibility screen
-  → Problem + technology classification
-  → Agency matching
-  → County/community fit
-  → Missing evidence detector
-  → Funding readiness report
-```
+**apexaccelerators.us** — Find your local center (95 nationwide, DoD-funded, free services).
 
-## Strategic Positioning
+**What APEX provides (7 pillars, free):**
+1. Suitability assessment
+2. SAM.gov / UEI / CAGE registration
+3. Market research (agency spending patterns)
+4. Bid opportunity matching (automated NAICS/PSC alerts)
+5. Networking (CO introductions, prime relationships)
+6. Proposal assistance (RFP shredding, compliance review)
+7. Post-award contract support
 
-GrantFundingAI is not just a grant search tool. It is an opportunity qualification and funding intelligence system for innovation companies, counties, tribal partners, grant consultants, economic development organizations, and venture studios.
+**2025 impact:** 92 centers, $55M federal investment → 26,232 new clients, 549,519 awards, **$64.9B** total contract value. Average APEX-assisted contract: **$118,231**. Average cost avoidance vs. private consultants: **$18,000+/yr**.
 
-For KlickSmartAI, GrantFundingAI becomes a Venture Studio intake engine:
+**Professional boundaries:** APEX cannot write proposals for you, guarantee wins, expedite external certifications, or lobby.
 
-```text
-Company website
-  → Opportunity score
-  → Funding path
-  → Proposal
-  → Pilot
-  → Venture
-```
+**First meeting prep:** EIN, UEI (or DUNS), product/service list, certifications held, questions ready. Counselors work with beginners.
 
-## Initial Focus
+---
 
-The initial version focuses on:
+## Key Registrations
 
-- SBIR/STTR readiness
-- Clean energy
-- Waste recovery
-- Critical materials
-- Community infrastructure
-- Rural development
-- Tribal/community resilience
-- County opportunity matching
+| System | Purpose | Notes |
+|--------|---------|-------|
+| **SAM.gov / UEI** | Mandatory federal vendor registration | UEI replaced DUNS. No SAM = invisible to government buyers |
+| **CAGE Code** | Required for all DoD contracts | 5-char ID, essential for payment processing |
+| **DSBS (SBA)** | COs use to find small businesses | Keyword-optimize capabilities narrative for AI scraping |
+| **WEBS / State Portals** | SLED (State, Local, Education) access | e.g. MyFloridaMarketPlace |
+| **FPDS.gov** | DoD + federal contract award history | Track competitor pricing, win patterns |
+| **USAspending.gov** | Civilian agency spend data | Identify which agencies buy what you sell |
 
-This focus supports early use cases around Spectra Holdings, Tiyo Energy, MineTeck, DOE, EPA, USDA, county development, and tribal/community funding pathways.
+---
 
-## Current Wiki Structure
+## Certifications (Competitive Lanes)
 
-```text
-GrantFundingAI/
-│
-├── README.md
-│
-├── docs/
-│   ├── PDD.md
-│   ├── PSD.md
-│   └── PRD.md
-│
-├── prompts/
-│   └── website_extraction_prompt.md
-│
-├── schemas/
-│   └── audit_result.schema.json
-│
-├── scoring/
-│   └── sbir_readiness_rubric.md
-│
-└── workflows/
-    └── saas_mvp_workflow.md
-```
+| Program | Target | Key Benefit | Core Requirement |
+|---------|--------|-------------|-----------------|
+| **8(a) Business Development** | Socially/economically disadvantaged | 9-yr program, sole-source set-asides | 51% disadvantaged ownership |
+| **WOSB / EDWOSB** | Women-owned | Access to underrepresented industries | 5% annual agency spend goal |
+| **HUBZone** | Historically underutilized zones | 10% price evaluation preference | Office in HUBZone; 35% staff reside there |
+| **SDVOSB** | Service-disabled veterans | Vets First / VA set-asides | 51% SDV-owned |
+| **Native American** | Tribal-owned | 6 dedicated APEX centers with tribal law expertise | Varies by center |
 
-## Current Files
+---
 
-| File | Purpose |
-|---|---|
-| `docs/PDD.md` | Defines the problem, users, current state, desired state, and success metrics |
-| `docs/PSD.md` | Defines the solution architecture, modules, data flow, and MVP scope |
-| `docs/PRD.md` | Defines product requirements, user stories, features, screens, and acceptance criteria |
-| `workflows/saas_mvp_workflow.md` | Defines the end-to-end SaaS MVP workflow |
-| `scoring/sbir_readiness_rubric.md` | Defines the SBIR readiness scoring model |
-| `prompts/website_extraction_prompt.md` | Defines the AI extraction prompt for website analysis |
-| `schemas/audit_result.schema.json` | Defines the structured output schema for an audit result |
+## SBIR / STTR ("America's Seed Fund")
 
-## Planned Files
+**SBIR.gov** — Phase I (proof of concept), Phase II (development), Phase III (commercialization/novel制造). **Non-dilutive funding.** 14 Critical Technology Areas: AI, microelectronics, space, biotech, cybersecurity, etc.
 
-```text
-prompts/
-├── sbir_scoring_prompt.md
-├── missing_evidence_prompt.md
-└── report_generation_prompt.md
+**Key distinction from standard procurement:**
 
-schemas/
-├── company_profile.schema.json
-└── scoring_model.schema.json
+| | SBIR/STTR | Standard Procurement |
+|--|-----------|---------------------|
+| Focus | R&D in 14 CTAs | Purchase of existing goods/services |
+| Funding | Non-dilutive seed money | Fixed-price / cost-reimbursable |
+| APEX role | Technical proposal review | Compliance + bid review |
 
-scoring/
-├── agency_match_rules.md
-└── county_fit_score.md
+**CMMC applies to SBIR/STTR too** — R&D output often classified as CUI. Higher-level NIST compliance may be required.
 
-reports/
-├── sample_grant_readiness_report.md
-└── executive_summary_template.md
+---
 
-workflows/
-├── website_audit_workflow.md
-└── founder_interview_workflow.md
+## Government Marketing Toolkit
 
-examples/
-├── tiyo_energy_audit.md
-├── mineteck_audit.md
-└── spectra_county_use_case.md
-```
+**Baseline Capability Statement** — one-page "business resume." Must include:
+- Core competencies (top 3–5, not everything you *can* do)
+- Past performance with specific contract numbers
+- Company identifiers: CAGE, UEI, NAICS, PSC codes (must match SAM.gov exactly)
+- Dedicated procurement contact
 
-## MVP Definition
+**Pro Tip:** Data fields must match SAM.gov and DSBS exactly — AI filters disqualify mismatches.
 
-The MVP is complete when a user can submit a company website and receive a structured report containing:
+**Reactive vs. Proactive strategy:**
+- Reactive: monitor SAM.gov bid boards (late to the game)
+- Proactive: engage Small Business Specialists directly; attend Reverse Trade Shows (typically March/August)
 
-- Company summary
-- Problem statement
-- Technology classification
-- SBIR eligibility status
-- SBIR readiness score
-- Agency matches
-- Missing evidence
-- County/community fit
-- Recommended next action
+---
 
-## MVP Workflow
+## 7-Step GIB Readiness Roadmap
 
-```text
-User submits website URL
-  → System crawls priority pages
-  → System extracts structured evidence
-  → System scores SBIR readiness
-  → System identifies likely agencies
-  → System detects missing evidence
-  → System generates a structured report
-```
+1. **Assess** — SWOT/TOWS, financial stability, 2+ years commercial experience
+2. **Market Research** — FPDS, USAspending, DSBS, SubNet. Identify 3–5 target agencies
+3. **Strategy** — Draft Capability Statement, written GovCon marketing plan
+4. **Capture Management** — Register in agency portals, build CO call list
+5. **Bid Development** — "Shred" RFP line-by-line. Schedule APEX pre-submission review
+6. **Post Award** — Debrief on wins AND losses. Document performance metrics
+7. **Growth** — CMMC Level 1 self-assessment, populate 24-month pipeline
 
-## Scoring Model
+---
 
-| Category | Weight |
-|---|---:|
-| Eligibility | 20 |
-| Problem significance | 15 |
-| Innovation | 15 |
-| Commercialization | 15 |
-| Government fit | 15 |
-| Community fit | 10 |
-| Partnerships | 10 |
+## SBIF-Specific Resources
 
-## Decision Thresholds
+### APEX + SBIF Integration
+SBIR/STTR proposals benefit from APEX technical review. APEX cannot write the proposal but can shred for compliance and competitiveness.
 
-| Score | Decision |
-|---:|---|
-| 85–100 | High Priority |
-| 70–84 | Strong Candidate |
-| 40–69 | Needs Development |
-| 0–39 | Not SBIR Ready |
+### Key APEX SBIF Support
+- Technical proposal reviews (Phase I guidance)
+- R&D alignment with 14 CTAs
+- Connection to innovation units: DIU, DARPA
+- CMMC Level 1 self-assessments for R&D firms
+- Third-party audit referral for higher CMMC levels
 
-## Key Principle
+---
 
-GrantFundingAI should distinguish between:
+## Related Wiki Entries
 
-```text
-Evidence found
-Inference made
-Unknown / missing evidence
-```
+- `wiki/sbir/` — SBIR/STTR intelligence layer
+- `wiki/grantfunding/` — GrantFunding intelligence layer
+- `wiki/GrantFundingAI/` — GrantFundingAI product system
+- `wiki/entities/sbir-and-grants.md` — SBIR and grants entity index
 
-UNKNOWN should trigger founder interview questions, not automatic rejection.
+---
 
-## Next Build Priorities
+## Source Files Ingested
 
-1. Add agency match rules
-2. Add missing evidence prompt
-3. Add report generation prompt
-4. Add company profile schema
-5. Add sample audits for Tiyo, MineTeck, and Spectra
-6. Create Lovable / Claude Code build prompt
-7. Convert PRD requirements into implementation tasks
+- *Government Procurement Strategy Plan: Leveraging APEX Accelerator Resources for Sustainable Growth* — NotebookLM BreakThrough client (2026-05-21)
+- *Government Readiness Assessment & Strategic Contracting Roadmap* — NotebookLM BreakThrough client
+- *Native American APEX Accelerator Locator and Resource Guide* — NotebookLM BreakThrough client
+- *Navigating Your First APEX Counseling Session* — NotebookLM BreakThrough client
+- *The Beginner's Guide to Government Contracting Certifications* — NotebookLM BreakThrough client
+- *The Entrepreneur's Roadmap to Government Contracting* — NotebookLM BreakThrough client
