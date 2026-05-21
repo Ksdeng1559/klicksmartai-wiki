@@ -117,7 +117,15 @@ SBIR/STTR proposals benefit from APEX technical review. APEX cannot write the pr
 
 ---
 
-## Source Files Ingested
+## GrantFundingAI System
+
+`docs/` — Product requirements, specifications, and funding source reference
+`scoring/` — Eligibility and readiness scoring rubric (aligned to SBIF reviewer criteria)
+`workflows/` — End-to-end funding intelligence workflow (intake → report)
+`schemas/` — Structured data schemas for audit results and funding sources
+`native-american/` — Native American APEX centers reference
+
+---
 
 - *Government Procurement Strategy Plan: Leveraging APEX Accelerator Resources for Sustainable Growth* — NotebookLM BreakThrough client (2026-05-21)
 - *Government Readiness Assessment & Strategic Contracting Roadmap* — NotebookLM BreakThrough client

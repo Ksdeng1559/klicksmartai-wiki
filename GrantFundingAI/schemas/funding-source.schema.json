@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://klicksmartai.com/schemas/sbir-and-grants/funding-source.json",
+  "$id": "https://klicksmartai.com/schemas/GrantFundingAI/funding-source.json",
   "title": "Funding Source",
-  "description": "A structured funding source record for the SBIR and Grants Funding Intelligence Operating System.",
+  "description": "A structured funding source record for the GrantFundingAI Funding Intelligence Operating System.",
   "type": "object",
   "required": [
     "source_id",
