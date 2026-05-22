@@ -1,0 +1,1775 @@
+
+--- PAGE 1 ---
+
+--- PAGE 2 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Table of Contents
+Letter from Cascadia Innovation Corridor Co-Chairs .................................................. 3
+Acknowledgements .............................................................................................. 4
+Executive Summary .............................................................................................. 5
+Definitions ........................................................................................................... 8
+The Growing Crisis: A Widening Housing Supply Gap ................................................ 9
+A Roadmap to Build 3 Million Housing Units ............................................................ 12
+⊲ Land ............................................................................................................. 13
+⊲ Economics ..................................................................................................... 17
+⊲ Permitting ..................................................................................................... 20
+⊲
+Innovation .....................................................................................................24
+Foundational Elements for Success ........................................................................27
+⊲
+The Necessity of Public-Private Partnership .......................................................27
+⊲
+Tracking Progress and Creating Accountability ...................................................27
+Build, Baby, Build: Unlocking 1.4 Million New Homes in Cascadia .............................. 29
+Call to Action...................................................................................................... 33
+Sources ............................................................................................................. 34
+2
+--- PAGE 3 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Letter from Cascadia Innovation
+Corridor Co-Chairs
+T he Cascadia Innovation Corridor is built on the belief that British Columbia, Oregon, and Washington
+can work together to create one of the most dynamic, inclusive, and sustainable mega-regions in the
+world. At the heart of this vision is a simple truth: everyone deserves access to safe, affordable housing. But
+our housing crisis has reached a breaking point. Home prices and rents have skyrocketed 2-4 times faster than
+incomes since 2019, and British Columbia, Oregon, and Washington now have some of the tightest housing
+markets in North America. We simply don’t have enough housing. The time for bold thinking, bold action, and
+bold execution is now—before it’s too late.
+We are proud to introduce “Build, Baby, Build: Unlocking 1.4 Million New Homes in Cascadia,” a comprehensive
+set of policies designed to tackle this challenge head-on. While good strides have been made across all three
+jurisdictions, particularly in addressing homelessness and investing in affordable housing, we need to double
+down on workforce housing. The housing shortage is a complex issue, and there is no single solution. However,
+forward-looking policy and actions along with a public-private partnership can solve this crisis and ensure that
+Cascadia remains a place where everyone can thrive. Smart investments in workforce housing today will build
+the infrastructure we need for tomorrow. That tomorrow is coming fast—by 2050, an additional 3-4 million
+people will call Cascadia home. The time to act is now.
+This report builds on progress in housing for those who are homeless and low-income. It outlines the actions
+we must take to address the growing crisis of workforce housing. To meet the housing demand of the next
+20 years, Cascadia needs to build approximately 3 million new housing units, but we are on track to miss that
+target by about 1 million units. Addressing this gap will require a significant ramp-up in housing production,
+far exceeding historical rates. Achieving this ambitious goal will require public-private partnership and a
+combination of strategies: expanding zoning for higher-density development along underutilized commercial
+corridors, streamlining permitting and other local processes to cut through red tape, and ensuring that financing
+is available to make housing projects viable.
+O ur ultimate recommendation is comprehensive action to address the need for land, financing, and
+efficient and effective government permitting, along with a culture of openness to new ideas in
+technology and housing construction. California has taken such an approach and, if we work together, we
+have the potential of building up to 1.4 million new housing units in Cascadia.
+This challenge is immense, but we have the power to confront it head-on. Public sector leaders must take bold,
+transformative action to create a landscape that truly supports increased housing production. But this isn’t just a
+government issue—it demands a united effort from all of us. Governments, businesses, and residents must rally
+together with an unwavering commitment to tackle this crisis with the urgency and determination it demands.
+The future of our communities depends on it, and the very qualities that make Cascadia an attractive place to
+live and work are at risk.
+We urge you to join us in this essential effort. Thank you to those who have been doing this hard work already.
+The future of Cascadia hangs in the balance, and the choices we make today will determine whether our
+region thrives or falters. Together, we have the power to ensure Cascadia remains a place where everyone
+can prosper.
+Gov. Chris Gregoire Laura Jones
+Co-Chair, Cascadia Innovation Corridor Co-Chair, Cascadia Innovation Corridor
+CEO, Challenge Seattle CEO, Business Council of British Columbia
+3
+--- PAGE 4 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Acknowledgements
+W e thank the team at Boston Consulting Group (BCG), whose rigorous approach and dedication to solving
+our community’s most intractable challenges was instrumental to the success of this project. We also
+want to thank our Cascadia housing roadmap advisory group, who provided invaluable input and guidance
+throughout this process. Comprised of outstanding regional leaders, they dedicated their time and insights
+to this report, and we are grateful to each of them for their commitment to ensuring safe, affordable housing
+is accessible to everyone in Cascadia. We thank the team at HDR that put together thoughtful, data-driven
+analysis on the commercial corridor rezoning opportunity in Cascadia, and whose findings form the foundation
+for the comprehensive recommendation in this report. Finally, we express our thanks to the many other experts
+consulted by BCG, who lent their time and expertise to this project.
+Andrea Bell Jane Broom
+Executive Director Senior Director
+Oregon Housing and Community Services Microsoft Philanthropies
+Andrew Colas Jill Atkey
+CEO CEO
+Colas Construction BC Nonprofit Housing Association
+Armin Amrolia Lorelei Juntunen / Ian Carlton
+Deputy City Manager President & CEO / Senior Economic Advisor
+City of Vancouver EcoNorthwest
+Brandon Morgan Mark Riker
+Director, Residential Development Executive Secretary
+Vulcan WA State Building & Construction Trades
+Council
+Damien Hall
+Partner Michael Fong / Anne Fritzel
+Dunn Carney LLP Director / Housing Programs Manager
+Washington State Department of Commerce
+Denny Heck
+Lieutenant Governor Nick Federici
+Washington State Government Relations Consultant
+Nick Federici Government Relations
+Eric Engstrom
+Director Steve Walker
+City of Portland Bureau of Planning and Executive Director
+Sustainability Washington State Housing Finance Commission
+Gregg Colburn
+Professor
+University of Washington
+4
+--- PAGE 5 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Executive Summary
+A cross our region individuals and families
+feel the impacts of our housing crisis every
+day. When affordable housing is out of reach, it
+affects everything: traffic worsens, families have
+less money to spend on groceries and childcare,
+and communities become less inclusive and more
+fragmented. Adequate housing is critical to the
+vibrancy of local economies and communities. It’s not
+just about providing shelter—it’s about ensuring that
+families can put down roots, teachers, nurses, and
+first responders can live near those they serve, and
+businesses can attract and retain the talent they need
+to grow. Without timely action to build more housing,
+economic inequality will deepen, and our region’s ⊲ The share of housing stock affordable to
+competitiveness will erode. households earning less than 120% Area
+Median Income (AMI) in Washington and
+This crisis extends across the entire Cascadia region.
+Oregon has decreased from 80%-85% in 2019
+This roadmap builds on two previous reports by
+to 45% in 2024.
+Challenge Seattle—”The Invisible Crisis: A Call to
+Action on Middle-Income Housing Affordability” (2019) Over the last several decades, housing production
+and “The Conspicuous Crisis: Addressing Housing has been cyclical, with a major building boom
+Affordability in Washington” (2022)—and provides preceding the Great Recession and a huge slowdown
+fresh insights into the worsening housing crisis. It also in the years following 2007. Today’s estimates indicate
+offers tactical guidance to boost workforce housing that Cascadia currently faces a deficit of at least
+supply over the next two decades. Government 250,000 housing units.
+efforts to end homelessness and expand low-income
+Now, just as building started to approach pre-
+housing are vital and must continue. Now is the time
+recession levels, permits requested in 2023 and the
+to build on this strong foundation and address the
+first half of 2024 suggest that we may see production
+housing crisis affecting the majority of Cascadians.
+falling once again. Estimating average production
+This is the moment to commit to strong public-private
+across the last 20 years smooths these highs and lows
+partnerships and unleash the private sector to tackle
+to allow us to realistically understand what is likely to
+the housing crisis for middle-income families. The
+be built and the future gap. Simply put: We need to
+longer we delay bold action, the more precarious
+build 130,000 units annually across Cascadia to meet
+economic and housing security becomes.
+demand, but we are currently only building 85,000
+The Growing Crisis: every year, and even this is not a guarantee. Status
+quo production—with annual fluctuations in housing
+A Widening Housing Supply Gap
+starts and completions due to market conditions and
+Despite heavy emphasis from policymakers and other factors—will produce roughly 2 million housing
+billions of dollars of public and private investment, the units over the next 20 years, but our region needs 3
+lack of affordable housing has worsened dramatically million to house everyone2, creating a deficit of about
+over the last five years. By all accounts, our affordable 1 million homes by 2044.
+housing crunch has deteriorated further over the last
+Cascadia’s current shortage and the widening gap
+several years:
+in available units will have dramatic impacts for
+⊲ Vancouver, BC leads Canadian cities for highest
+individuals, families, and our economy. And this
+average two-bedroom rental price, with the
+shortfall persists and will continue to grow despite
+lowest vacancy rates.1
+historic efforts by policymakers to build low-
+⊲ Washington and Oregon have the two tightest income housing, support missing middle and infill
+housing markets in the U.S. in terms of housing development, address homelessness, and ease
+availability. affordability concerns for Cascadia residents.
+5
+--- PAGE 6 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Executive Summary (cont’d)
+Why are we underbuilding now? The path forward includes these key recommendations
+to increase production to fill our housing gap:
+Three factors drive the root causes of our production
+challenges:
+⊲ Land—Unlock developable land through zoning
+1. The cost of an average multifamily development reform: Sweeping zoning reforms, particularly
+has skyrocketed by 36% since 2019, which means by rezoning commercial corridors for mixed-use
+only luxury units “pencil” for developers, financing development—a move that could unlock capacity
+for workforce developments is difficult to compile, for 5 million new housing units, with 1.4 million
+and investments for affordable housing don’t go as new units considered developable by 2044.
+far. We cannot scale to meet the crisis by building California’s recent bipartisan effort to rezone
+multifamily homes at $525,000 a unit when they commercial corridors, strip retail, and big-box sites
+need to be built at a cost below $370,000 to be paved the way for 1.6 to 2.4 million new housing
+affordable to 80% AMI household. units. Additional efforts, including transit-oriented
+development and building on underutilized
+2. Restrictive and outdated zoning limits access
+government and religious properties, can unlock
+to developable land. Scarcity drives higher land
+tens of thousands of additional units
+costs, which typically make up 10% of the cost of
+development. ⊲ Economics—Deploy low-cost capital and
+incentivize workforce housing development: In
+3. State and local policies and permitting processes
+recent years, there have been new, innovative
+create additional timing uncertainty, risk, and costs.
+financing models developed through public-private
+Statewide in Washington, the average permit delay
+collaboration. We recommend building on this
+adds an additional 6.5 months to a project, with
+work to address the financing constraints that
+delays of 17-18 months in some jurisdictions.
+hinder development by deploying low-cost capital,
+Roadmap to Build 3 Million including leveraging local governments’ bonding
+capacity and providing time-limited tax exemptions
+Housing Units
+to workforce housing projects. These programs—
+Building 3 million homes over the next 20 years which reduce development costs, fill funding gaps,
+will cost at least $1.5 trillion—far more than the and help simplify developers’ capital stacks—could
+government or private sector alone can handle. unlock 65,000 units that are affordable to an 80%
+Solving this crisis demands an unprecedented public- AMI household over 20 years.
+private partnership and aggressive policy changes to
+⊲ Permitting—Remove barriers to development,
+address land, economics, and permitting challenges.
+including timely, standardized permitting across
+To meet our housing goals, we need a culture of land use and building permits: Prioritization
+of affordable and workforce housing, including
+partnership that fosters strong collaboration between
+ministerial review, and the use of preapproved plans
+government and the private sector. This will require
+for multifamily development could contribute to the
+breaking through any historical distrust to establish
+creation of roughly 120,000 units over the next two
+the regulatory conditions necessary to unleash
+decades. One Vancouver developer estimated that
+development of workforce housing, recognizing
+he could sell duplex units for $100,000 less if six
+that we all share the goal of increasing housing
+months were shaved off the permitting process.3
+affordability and access for the Cascadia residents of
+today and tomorrow. ⊲ Innovation—Adopt supportive strategies, including
+technology solutions and innovative construction
+Success also hinges on robust tracking and
+methods, to improve process efficiency and bring
+accountability mechanisms at the state and provincial
+down development costs: Additional strategies,
+level to ensure local jurisdictions are meeting their
+such as implementing technology solutions across
+housing targets. This includes detailed, transparent
+the development lifecycle and adopting modular
+progress reporting, with regular assessments of
+and offsite construction methods, offer further
+housing production relative to established goals.
+opportunities to add tens of thousands of units.
+6
+--- PAGE 7 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Executive Summary (cont’d)
+Build, Baby, Build: Unlocking
+1.4 Million New Homes in Cascadia
+Cascadia’s housing crisis cannot be solved with
+piecemeal efforts or incremental changes. We
+need a comprehensive, all-in approach that tackles
+every aspect of the problem simultaneously—
+anything less will fall short. Our best opportunity
+to close our widening housing supply gap is to act
+comprehensively, addressing land, economics,
+and permitting in a coordinated, self-reinforcing
+way. Such action creates the potential to redevelop
+underutilized commercial properties for 1.4 million
+new housing units over the next 20 years, which
+provides a needed buffer to meet our 1-million unit
+gap. 1.4 million new units represent high-potential
+parcels for redevelopment, but not every parcel
+may be viable for redevelopment due to the market
+conditions, ownership, or economic viability.
+To unlock this potential, we recommend a
+comprehensive, statewide or provincial approach
+that includes:
+⊲ LAND
+Rezoning underutilized or vacant commercial
+areas such as parking lots, office parks, strip
+malls, and big box retail, which are best prepared
+to absorb density and typically have good transit
+connectivity.
+⊲ ECONOMICS
+Lowering the cost of housing using creative
+financing mechanisms like bonds and incentives
+such as the reduction of parking minimums and C ascadia has the unique opportunity to integrate
+time-limited tax exemptions. these solutions and build on innovative policies
+implemented elsewhere, such as commercial corridor
+⊲ PERMITTING
+rezoning undertaken in California. By upzoning
+Prioritizing affordable and workforce housing
+undervalued strip commercial lands, mixed-income
+development and creating a fast-track permitting
+housing would be integrated in locations close to
+process for projects that meet affordability criteria,
+existing services and jobs, away from climate hazard
+such as by exempting projects from certain
+zones, and along transit-rich corridors.
+discretionary review processes, creating a by-
+right or ministerial review process, or developing This requires a united public-private partnership,
+a catalog of preapproved plans that can be bold action from every level of government, and
+automatically approved. collaboration across sectors. The stakes couldn’t be
+⊲ INNOVATION higher, and the urgency for action is critical.
+Supporting innovation and adoption of technology Only by working together and implementing these
+solutions and novel construction methods and solutions as a cohesive strategy can we close the
+materials, which create opportunities to lower costs housing supply gap and secure Cascadia’s future
+and increase timeliness of development projects. growth and prosperity.
+7
+--- PAGE 8 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Definitions
+Affordable Housing: Affordable housing is generally defined as housing on which the occupant is paying no
+more than 30% of gross income for housing costs, including utilities.
+Area Median Income (AMI): The midpoint of a region’s income distribution. Half of the households in an area
+earn more than the AMI, and half earn less. AMI in Cascadia ranges from $72,000 USD in British Columbia to
+$77,000 USD in Oregon to $90,000 USD in Washington in 2022.
+Housing Cost: Monthly costs of housing for a household, which includes rent and utilities for renter households,
+and mortgage, insurance, taxes, and utilities for owner households.
+Housing Unit: A residential space used as a dwelling by one or more individuals and used synonymously
+with the word “home.” It encompasses a variety of residential structures including apartments, condominiums,
+single-family homes, accessory dwelling units (ADUs), and other similar forms of housing.
+Housing Cost-Burdened: A household that spends more than 30% of gross monthly income on housing costs.
+Workforce Housing: For purposes the report, we define workforce housing as housing for moderate-income
+households making between 60%-120% AMI. These households often earn too much to qualify for traditional
+affordable housing subsidies. Some other sources may refer to housing for households in these income bands as
+“middle-income housing.” Housing includes ownership and rental opportunities and a variety of housing types.
+Scope of this Report
+While supporting the production of all housing is critical, this report has a particular focus on the 60-120%
+AMI bracket, which this report defines as “workforce housing.” In the current market environment, developing
+housing for below 60% AMI typically requires subsidies. Roughly 30-35% of households in Cascadia fall within
+the 60-120% AMI income brackets, yet there have been more limited mechanisms and programs to support
+housing development affordable for these income levels.
+Profiles: Retail Construction School Dental Computer
+Cashier Worker Teacher Hygienist Systems
+Analyst
+The scope of this She manages a As a fourth- A second-grade She works at a
+report covers department store year electrician teacher, in his clinic in Surrey, He works at a
+middle-income in downtown apprentice who third year of has a Diploma in tech company
+households that
+Vancouver and grew up near teaching in Dental Hygiene, in Bellevue,
+are essential to
+is a part-time Seattle, she Portland Public and lives in a has a degree
+the fabric of our
+Management is hoping to Schools, he studio apartment in Computer
+society
+student living move out of her enjoys hiking on walking distance Science, and lives
+with two parents’ house to the weekends from her office. in Redmond.
+roommates. have more space and is an avid
+for her dog. reader.
+Estimated
+Household Income ~$45,000 ~$60,000 ~$64,000 ~$78,000 ~$110,000
+(USD)
+As a % of
+median household ~60% ~70% ~80% ~100% ~120%
+income
+8
+--- PAGE 9 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Growing Crisis:
+A Widening Housing Supply Gap
+F acing record home prices and some of out of major metro areas and are moving further away.
+the highest rents in our countries, housing In Portland, just one in five residents can afford to
+affordability continues to be the top concern facing buy a home in the area, forcing decisions between
+our region. Even as policymakers pursue myriad home ownership and manageable commute times.5
+solutions to address the crisis, housing costs have In Washington, a minimum wage worker would need
+continued to skyrocket, with the problem exacerbating to work 99 hours per week to afford a two-bedroom
+an already challenging situation. Rent and home rental property; in Oregon, he or she would need
+prices have increased at a higher rate compared to to work 88 hours per week.6 We cannot expect our
+incomes since 2019 across Cascadia, and between neighbors to continue making these quality-of-life
+a third and half of households are housing cost tradeoffs if we aspire to remain a desirable place to
+burdened across the three jurisdictions.4 At the same live and a globally competitive mega-region.
+time, changing demographics, such as later marriages
+But why is affordability continuing to plummet and
+and smaller family sizes, are reshaping housing
+forcing families to make these tradeoffs? To put it
+demand with a growing need for multifamily housing
+plainly: We simply do not have enough housing units,
+options that are accessible and affordable. As more
+and in recent years, it has become too expensive for
+people seek smaller, centrally located homes that
+developers to build more. Our affordability crisis is
+align with evolving lifestyle and financial priorities,
+due to an undersupply of housing units, and this gap
+demand has surged for urban multifamily housing
+is only set to widen over the coming two decades. As
+designed to meet these needs affordably.
+our economy and population have grown, our limited
+In today’s housing-constricted environment, housing supply has been stretched thin, and new
+worsening affordability is forcing people to pay production cannot keep up with growing demand. In
+more and make difficult sacrifices, with many making 2022, Washington and Oregon had the two tightest
+do with less space or making tradeoffs between housing markets in the country when comparing the
+critical household expenses, such as gas, groceries, ratio of housing units to households.
+childcare, and paying off other debt. Some are priced
+“It’s never been as expensive to own a
+home anywhere, anytime in Canada
+as it was in Vancouver in the fourth
+quarter [of 2023]. At a staggering
+106.4%, the share of a median income
+needed to cover ownership costs
+means that only a select few high-
+income earners can afford to buy.”
+Royal Bank of Canada Report
+9
+--- PAGE 10 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Growing Crisis (cont’d)
+To Meet Housing Needs, Cascadia Needs to Increase Baseline Production by Estimated x1.5-2
+WA housing needs and gap OR housing needs and gap BC housing needs and gap
+(approximate units per year) (approximate units per year) (approximate units per year)
+15-20k
+10k or 10-15k
+or 60%
+70% or 40%
+GAP 50- GAP ~25k GAP 45-
+-2k
+-3k TO 55k TO TO 50k
+-2k
+MEET MEET 35- Loss MEET
+4 3 0 5 k - f L r o o s m s 35k NEEDS 15- f L r o o s m s 15k NEEDS 37k dem fr o o l m iti on 35k NEEDS
+demolition 20k
+demolition
+Base Base Housing Base Base Housing Base Base Housing
+Production Production needs Production Production needs Production Production needs
+Including 2024 Including 2024 Including 2024
+Demolition Demolition Demolition
+Understanding Our scarcity of affordable, developable land to local
+permitting processes that create delay, risk, and
+Housing Supply Crisis
+added costs for developers.
+To fill our existing housing gap of 250,000 units
+across Cascadia, accommodate 3-4 million new The High Cost of Every Unit of Housing
+residents over the next 20 years, and replace units
+Cascadia is facing some of the highest per unit costs
+lost to demolition, we need to build approximately
+of development, and since 2019, the cost per unit for
+130,000 homes every year. Yet we are building just
+a typical multifamily development has grown from
+85,000, a number averaged across the last two
+approximately $385,000 to $525,0007—or 36%.
+decades to account for the cyclical nature of the
+housing production industry. It is simply not enough. In places like Arizona, Michigan, or Virginia, the
+We need to build over 50% more housing units than cost of housing is significantly lower. Nationally, the
+we are currently building every year across Cascadia. cost per unit of housing in a multifamily building is
+closer to $232,000-$280,000.8 These differences
+Without action, every year, we are falling further
+in development costs have a direct impact on
+behind and the crisis worsens. By 2044, we need
+households’ ability to rent or buy a unit. Nationwide,
+roughly 3 million additional housing units, yet we
+for each $1,000 added to the cost of constructing a
+are likely to only build 2 million, leaving a gap of
+home, it’s estimated that 465 households are priced-
+approximately 1 million homes.
+out of their ability to purchase a home.9
+Our current undersupply problem has been years
+in the making. Housing production plummeted in
+the wake of the Great Recession. Building slowly
+increased over the next decade, but it only began The major costs of building housing include:
+to reach pre-Great Recession levels when it was
+• Land acquisition and holding
+once again slowed by the COVID-19 pandemic
+and its impacts. Rising material costs, supply chain • Construction, primarily comprised of
+issues, labor shortages, and economic uncertainty materials and labor and the cost of
+suppressed new construction. Coming out of the constructing parking
+pandemic, inflation further exacerbated material • Financing (e.g., interest, fees)
+and labor cost challenges, and rising interest rates
+• Regulatory costs (e.g., permitting fees,
+increased the cost of financing for developers.
+impact fees, cost of delays)
+At the same time, we have failed to address some of • Other soft costs, including professional
+the underlying cost drivers that make development services, sales tax, and developer overhead
+so costly, from outdated land use policy that creates
+10
+--- PAGE 11 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Growing Crisis (cont’d)
+Development costs have grown 36% since 2019, which
+means developers are now producing units that are 1.5-2x There are three main issues to address
+the affordable level for 80% AMI households. to bring down development costs and
+increase supply:
+Affordable level for 80% AMI HH
+~36% jump Land: Limited developable metro
+land and NIMBYism hinder multi-
+~$525k
+family housing projects
+~1.5-2x
+~$430k higher
+~$386k Economics: Banks are less
+willing to lend or are lending at
+~$370k
+~$350k
++2pts higher rates (2022-24)
+Permitting: Cascadia’s
+permitting process can take 1-5
+years vs. ~1 year in other regions
+2019 2022 2024
+Estimated total development cost per unit from 2019 to 2024
+H ow can we meaningfully bring down the cost of ⊲ On her first full day in office, Oregon Gov. Tina
+development to encourage more production? Kotek signed Executive Order 23-04, which set
+The key is to bring costs down to a point that we an ambitious housing production goal of 36,000
+can unleash the private sector on development homes per year and established an expert Housing
+of housing for 60-120% AMI without heavy public Production Advisory Council to develop an action
+subsidy. Developers have expressed that they are plan to meet the state’s targets.
+eager to build more housing if they can make the
+economics work, but that they feel that policymakers ⊲ In Washington, the 2023 legislative session was
+dubbed the “Year of Housing,” with notable bills
+often take an adversarial position, viewing them as
+including House Bill 1110 (2023), which requires
+part of the problem rather than the solution. This lack
+cities of certain sizes to allow for “middle housing”
+of a collaborative approach, as well as regulations
+(i.e., multiple dwelling units per lot), and House
+that add time and cost and uncertainty in how future
+Bill 1337 (2023), which legalized two ADUs per lot
+policy changes will impact development economics,
+while removing local regulatory barriers. Other
+will need to be addressed to see a meaningful uptick
+bills, passed in 2023 and 2024, require clear
+in new housing starts.10
+and objective standards for local design review,
+Progress So Far but More to be Done introduced reforms to condominium liability law,
+and provided builders with great flexibility in local
+Across Cascadia, state, provincial, and local
+parking compliance, among other things.
+governments have recognized the housing crisis and
+acted to increase supply. These efforts have led to Even with these actions, however, a large production
+meaningful change in state and provincial laws to gap remains in all three jurisdictions. To build more
+encourage the production of additional housing and housing, we must make more land available, bring
+provide a strong foundation for future action: down the cost of development, and remove barriers
+that prevent developers from building more housing
+⊲ In February 2024, the British Columbia’s provincial
+in our cities and towns. Importantly, these policy shifts
+government announced the BC Builds program,
+must translate into tangible, on-the-ground results—
+an initiative delivered through BC Housing that
+ensuring that new housing is constructed swiftly
+leverages government, community, and non-profit
+and efficiently to meet the growing demand, rather
+owned and under-used land to speed up the
+than being delayed by the lack of full and timely
+delivery and affordability of housing. The program is
+implementation.
+funded by a $950 million CAD investment from the
+Province, a $2 billion CAD provincial fund for low-
+cost financing, and $2 billion CAD in financing from
+the Government of Canada.
+11
+--- PAGE 12 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Roadmap to Build 3 Million Housing Units
+elsewhere or in Cascadia, how much capital
+investment is required, and how time-consuming and
+“I really think the focus has to be difficult implementation would be.
+on the supply side. The challenge
+By focusing on these metrics, we have identified
+is that there’s not a lot that the federal
+the most actionable and high-impact steps to solve
+government can do. A lot of it is sort of
+Cascadia’s housing shortage. However, none of
+local zoning, local regulatory hurdles.” these alone can bridge our housing supply gap – we
+must pursue all in concert if we hope to address the
+Mark Fleming, Chief Economist, First
+critical housing needs of our region. The individual
+American Financial Corp.
+components of this strategy are outlined here, with
+a recommendation for a comprehensive solution
+that integrates these opportunities described in the
+T here is no single solution to solving Cascadia’s following section.
+housing supply crisis, but there are identified
+1. Land: Unlock developable land through zoning
+key policy changes—focused on land, economics,
+reform
+permitting, and innovation—that could make the
+biggest impact at the state and local levels. These 2. Economics: Deploy low-cost capital and
+recommendations are designed to generate the incentivize workforce housing development
+highest return on housing supply over the next
+3. Permitting: Remove barriers to development,
+20 years—without them, we cannot meet our
+including timely, standardized permitting
+region’s needs.
+across land use and building permits
+To zero in on the most effective solutions, two main 4. Innovation: Adopt supportive strategies,
+criteria were used to identify the most effective including technology solutions and innovative
+solutions: impact to housing supply and feasibility. construction methods, to improve process
+Impact was analyzed by looking at how many units efficiency and bring down development costs
+could be added with the policy change, as well as how
+All of these opportunities should be supported by
+the policy lowers per unit development costs, which
+public-private partnerships and robust tracking
+directly impacts affordability for renters or buyers.
+and accountability mechanisms to ensure they are
+Feasibility was assessed by looking at whether the
+implemented thoughtfully, thoroughly, and efficiently.
+policy or solution had been successfully implemented
+12
+--- PAGE 13 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Build Up of Potential Impact from Baseline Housing Production to 2044 Housing Needs Target
+Housing baseline production to needs — individual contribution of key actions, 2024-2044 directional
+Innovation:
+LAND: Permitting: Housing
+Economics: ~25k
+~1.4M ~110k ~125k Needs by
+2044:
+Baseline Redevelopment Expand bond Accelerate permit Adopt additional
+~3M
+potential issuance and approvals and supportive
+Production
+from rezoning waive fees/ pre-approved strategies to
+2024:
+commercial costs/taxes for plans for bring down costs
+corridors affordable housing affordable and speed up
+~2M
+projects housing projects development
+Radical zoning changes are necessary to bridge the supply gap yet not sufficient to meet 2044 housing need; additional
+policy changes enabling to decrease cost of developing affordable housing units are equally critical.
+LAND stores surrounded by empty parking lots, strip malls
+with shuttered storefronts, and abandoned shopping
+Commercial Corridor Rezoning and
+centers on city outskirts. Zoned solely for commercial
+Transit-Oriented Development use, these spaces are left blighted and wasted as
+consumer habits shift away from brick-and-mortar
+Goal: Expand access to developable land
+retail, accelerated by the Great Recession and COVID
+Summary: Allow mixed-use, high-density pandemic. This is not just a Cascadia issue; it is a
+developments in underutilized commercial areas and nationwide problem. The US has six times more retail
+near transit hubs, and support building housing on space per capita than Europe, and both Canada and
+idle or underused religious and government property the US lead the world in retail space per capita. This
+overbuilding of retail capacity is leading to decaying
+Housing Units Unlocked: Up to 1,440,000 across
+properties, falling commercial real estate values, and
+Cascadia by 2044
+shrinking local tax revenues as shopping increasingly
+moves online.
+A cross Cascadia, developable land is scarce and
+one of the most expensive components of any
+project. Topographical constraints like mountains,
+forests, and bodies of water limit options, while
+restrictive zoning laws and environmental regulations
+further reduce the pool of suitable sites. Even when
+land is identified, the lack of necessary infrastructure
+such as roads, utilities, and public services can delay
+projects and inflate costs, rendering many potential
+developments financially unfeasible. Rezoning
+commercial corridors and upzoning near mass
+transit are among the most impactful ways to unlock
+underutilized land for much-needed housing.
+Commercial Corridor Rezoning
+Communities grappling with a lack of affordable
+housing are also plagued by a surplus of vacant, Shuttered and vacant retail space and parking lots are the types of
+underused retail spaces. These eyesores are commercial properties that could be strong candidates for mixed use
+everywhere: empty Toys R Us and other big box redevelopment.
+13
+--- PAGE 14 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+E stimates for Cascadia, focused on the corridor across all eligible parcels was 20 times greater than
+surrounding I-5, indicate that rezoning of the existing assessed values. This indicates cities can
+commercial corridors on main streets in small towns, expect to see an increase in property taxes in rezoned
+strip retail, office parks, big-box sites on the edges and redeveloped commercial corridors.
+of town, and other underutilized commercial areas—
+Broad rezoning of commercial areas allows market
+not including any industrial lands, which would be
+forces to determine the areas that make the most
+excluded from rezoning—could unlock capacity for
+financial sense for redevelopment. For example,
+up to 5.1 million housing units across the Cascadia
+vibrant stretches of retail or hubs of community
+corridor. Of these units, we expect that roughly 1.4
+activity would remain, while redevelopment of a
+million have redevelopment potential, which means
+shuttered strip mall in a suburban area would likely
+those units are most likely to be economically viable
+“pencil” for a developer.
+for redevelopment. This was done by examining which
+parcels have a land value that exceeds the building
+Analysis also shows that multifamily developments
+value, with twofold benefits to this methodology: First,
+in rezoned commercial corridors have the potential
+it excludes those properties that are already occupied
+to have lower environmental impacts than average
+by productive businesses, and second, it indicates
+household use, ranging from 45% lower energy use
+where rezoning has the greatest potential to increase
+to 60% lower water use.11 These corridors also tend to
+property values. For example, when similar estimates
+be located away from climate hazard zones such as
+were done in California, it was found that the value
+flooding and wildfires, increasing their resilience.
+of all market-feasible development opportunities
+Redevelopment Potential
+Total 12,938 Acres
+Total 1,443,180 DU
+Seattle Area 674,958 du
+Portland Area 400,272 du
+Metro Vancouver, BC 367,950 du
+14
+--- PAGE 15 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Transit-Oriented Development near transit. Portland has seen significant growth in
+transit-oriented projects, with incentives designed to
+While commercial corridor rezoning is one piece of the
+boost housing supply and affordability near transit
+puzzle in unlocking more developable land for new
+corridors. British Columbia offers another model.
+housing units, Cascadia’s jurisdictions can also learn
+The province’s approach focuses on TOD through
+from one another on how to increase density in the
+its Metro Vancouver 2040 strategy, which integrates
+places best equipped to support it. Transit-oriented
+transit planning with housing development. Key transit
+development (TOD) presents a significant opportunity
+corridors have been rezoned to prioritize mixed-use
+to encourage and support housing growth near mass
+and higher-density housing, contributing to both
+transit options like light rail and bus rapid transit.
+housing affordability and environmental sustainability.
+By increasing density near transit hubs, Cascadia
+can unlock thousands of new housing units while Washington has begun taking steps in this direction
+reducing reliance on cars and promoting sustainable with policies aimed at streamlining zoning and
+urban growth. TOD supports the creation of vibrant, permitting processes near transit corridors. The
+walkable communities where residents can live, work, University of Washington Mobility Innovation
+and access essential services without the need for Center’s 2023 Report, “Finding Common Ground:
+long commutes. Best Practices for State Policies Supporting
+Transit-Oriented Development,” shares detailed
+Oregon and British Columbia have already taken bold
+recommendations for how Washington can take
+steps to encourage TOD. In 2019, Oregon passed
+advantage of the low-hanging fruit offered by
+legislation eliminating single-family zoning in many
+thoughtfully implemented TOD policies.
+cities and promoting higher-density development
+15
+--- PAGE 16 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Redeveloping Underutilized Government
+and Religious Property
+In addition to broad rezoning of commercial corridors
+and supporting transit-oriented development,
+underutilized government and religious properties offer
+a prime—though less scalable—opportunity for housing
+development. Land, which comprises about 10% of
+developments costs, is finite and scarce in centrally
+located and desirable urban areas, driving up expenses
+and limiting development opportunities. In a post-
+COVID, hybrid work environment, about 20-30% of
+government buildings are vacant in Washington State.12
+At the same time, declining birth rates and public
+School converted to senior housing.
+school enrollment have led to 0.5-1.5% of schools
+closing every year,13 and religious congregations
+The BC Builds program offers a roadmap for how
+are shrinking. Church leaders across Cascadia have
+government property can be put to its best use. BC
+expressed interest in repurposing their large properties
+Builds identifies underutilized government, community,
+and land holdings for affordable housing, which
+and non-profit properties, partners with developers,
+many religious leaders view as aligned with their
+and facilitates financing to optimize land use and
+organization’s mission. In Seattle, religious groups own
+provide affordable housing to low and middle-income
+roughly 1% of all land in the city,14 and Vancouver has at
+households. Washington State ranks third in the US
+least 323 lots owned by faith-based groups.15
+for the number of government-owned parcels in
+transit accessible urban areas,16 and redeveloping
+Examples of successful redevelopments and existing
+just a fraction of these could yield thousands of
+policies:
+additional housing units. Using conservative estimates
+⊲ Government office redevelopment: Ireland’s Land for vacancy rates and feasibility, government offices,
+Development Agency identified vacant government schools, and church properties could be converted or
+properties that could be converted into affordable redeveloped to create 1,700-2,000 new housing units
+housing units. In 2022, approximately 5,500 were across Cascadia every year. These conversions and
+created across ten sites. new developments are aligned with the missions of
+government and religious landowners and allow us to
+⊲ Schools: The NY Housing Plan has created 39
+optimize existing infrastructure and utilities, which can
+apartments in the former Bryant School in Hornell,
+be another barrier to new development.
+NY, for households earning 60% AMI or below. The
+project used $14.3 million sourced from federal and
+To streamline the conversion of unused government
+state tax credits, subsidies, and local agreements,
+and religiously owned property into residential
+with a focus on sustainability. The property
+housing, government agencies at all levels will need
+contains studios, 1-bedroom and 2-bedroom units,
+to collaborate with community organizations and
+a community kitchen, fitness center, laundry room,
+religious institutions to identify potential structures. A
+storage facilities, playground, and green space.
+proactive feasibility assessment focusing on structural
+⊲ Churches: Washington HB 1377 allows municipalities integrity, zoning allowances, and layout suitability is a
+to provide a density bonus for housing on church- prerequisite for development. For eligible government
+owned properties that is affordable for households parcels, standardized guidelines for redevelopment,
+making up to 80% AMI. The City of Bellevue including affordability expectations, need to be
+amended its land use code to allow properties developed and supported by clear public bidding
+owned by religious organizations and located in processes. Additionally, expedited permitting should
+single family land use districts to be rezoned to also be applied to these conversion projects, with
+permit permanently affordable multifamily housing. progress tracked through annual reports detailing
+costs, timelines, and outcomes.
+16
+--- PAGE 17 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+ECONOMICS provide low-cost loans to developers and expand the
+pool of available capital for 60-120% AMI housing.
+Provide Low-Cost Capital and Incentives
+Microsoft pioneered this effort with Renton Housing
+to Help Finance Workforce Housing Authority, and taxable bonds for housing purposes
+have been implemented in many municipalities in
+Goal: Help make projects “pencil” by increasing
+the U.S. (e.g., New York, Denver, Philadelphia) and
+access to low-cost financing and reducing
+internationally. State-level legislative action to support
+development costs
+local governments and housing authorities to leverage
+Summary: Expand bond issuance to fund new and their bonding authority for this purpose could include
+existing government programs with relevant expertise funding or technical assistance to cover or reduce
+and track records to provide low-cost loans to bond issuance costs or matching funds for housing
+developers across the project lifecycle. Deploy other bonds for affordable and workforce housing.
+incentives, including time-limited tax exemptions,
+reduction of parking minimums, and reduction
+of impact fees to reduce development costs and
+“Securing financing is incredibly
+encourage new construction
+challenging right now due to high interest
+Housing Units Unlocked: 110,000 units across
+rates and lenders’ low risk tolerance. Affordable
+Cascadia by 2044
+housing developers often need to obtain
+funding from up to 15 different sources.”
+T he complexity of securing funding for affordable
+and workforce housing projects, combined with Developer
+the challenges of making a pro forma “pencil,” further
+restrict housing production. Capital stacks often
+involve multiple layers of financing, each with its own
+To launch a successful bond-financed housing initiative,
+set of requirements, timelines, and risks. Today’s high
+it is essential to pinpoint the right intermediaries and
+interest rates and the conservative lending practices of
+fund managers. Large urban housing authorities—
+commercial banks add another layer of difficulty. This
+like Metro Vancouver Housing, King County Housing
+challenging environment underscores the need for new
+Authority, and Home Forward in Multnomah County—
+innovative financing solutions that streamline funding
+are ideally positioned to lead these efforts, thanks
+processes and reduce reliance on traditional capital
+to their ability to integrate local policy changes that
+markets, which are ill-suited to the current demands of
+maximize the effectiveness of funding. State and local
+affordable and workforce housing development.
+housing authorities will act as key intermediaries,
+issuing bonds, managing debt repayment, and
+Deploy Low-Cost Capital
+directing funds to developers. Financial institutions can
+Providing additional low-cost capital to developers help facilitate bond sales, while large companies with
+would help them circumvent the burden of high an interest in housing (e.g., Microsoft, Amazon) may
+financing costs, especially as construction loan invest in bonds directly. Private developers can team
+interest rates have risen by 2 percentage points up with nonprofits to ensure capital raised turns into
+between 2022 and 2024. This need is amplified by housing on the ground.
+the over-subscription of programs like the Low-Income
+Establishing clear criteria for bond proceeds—such
+Housing Tax Credit (LIHTC) program and tax-exempt
+as 60-120% AMI and requirements around the
+bonds. At the same time, private companies are
+inclusion of family-sized units—and aligning projects
+increasingly drawn to safer investment vehicles. The
+with local market needs, will ensure a streamlined,
+challenge is further compounded by the timing issues
+effective rollout. Incentives like tax exemptions for
+related to pre-development funding, which is critical
+local institutional investors will further accelerate
+for getting projects off the ground but is often the
+investment, ensuring the success of this critical
+hardest to secure.
+housing strategy. Recently, King County in Washington
+One key mechanism for raising additional capital is has considered issuing $1 billion in bonds to fund
+to expand the use of taxable housing bonds issued affordable housing, which could provide a proof point
+by housing authorities or local governments to for other local governments and housing authorities.
+17
+--- PAGE 18 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+CASE STUDY
+Philadelphia’s Neighborhood Preservation Initiative
+Funded by several rounds of social bond issuances by the City of Philadelphia, the
+Neighborhood Preservation Initiative (NPI) is investing $400 Million in programs
+that expand and protect affordable housing options, keep Philadelphia owners and
+renters in their homes, improve housing quality, and promote homeownership.
+The Philadelphia Housing Development Corporation (PHDC) is responsible for
+administering many of the housing programs funded by NPI.
+Capital Units Households
+Raised Created Benefited
+$400 million 1,500 12,800
+Local government mobilizes private & public resources to lower cost of financing to
+developers.
+Investors Social Bonds Intermediary Developers
+(e.g., public, & Social (e.g.,
+private, Philadelphia’s
+Impact Bonds
+philanthropy) NPI run by
+Short term
+PHDC)
+(3-5 years)
+investment
+vehicles
+18
+--- PAGE 19 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Provide Incentives to Build
+Workforce Housing
+Beyond financing housing development directly, we
+also have a suite of tools we can use to incentivize
+production of affordable and workforce housing
+and further bring down development costs. Pairing
+these tax exemptions with additional state or local
+incentives—such as reducing fees for projects that
+meet affordability benchmarks or simplifying the
+permitting process—could create a holistic framework
+to make these developments financially feasible. Key
+opportunities for action include, but are not limited to: areas. By further reducing parking minimums—or
+eliminating them entirely—we can allow developers to
+Time-limited tax exemptions: Property tax build the parking needed by the local market without
+exemptions – often referred to as incentives or hewing to outdated parking mandates.
+abatement – for multifamily housing is a key tool
+for production of housing. Some jurisdictions in Waiving, reducing, or adjusting impact fees: Impact
+Washington State already use multi-family tax fees, also called development charges, are one-
+exemptions (MFTE) to provide time-limited property time charges imposed by local governments on
+tax exemptions to affordable housing projects. new development projects to address the increased
+Reconfiguring MFTE programs or exploring other demand for services created by new residents. Fees
+options or configurations for property tax abatement vary significantly by jurisdiction, and in some areas,
+(e.g., to fund inclusionary zoning) could also help can exceed $20,000 per unit, particularly in high-
+incentivize affordable and workforce housing demand regions. Metro Vancouver recently approved
+production. Understanding the high cost of housing an increase to development charges that will bring
+in New York City, the state has long had a robust the cost per unit for a townhome and an apartment
+tax abatement program. In 2024, the state updated unit to over $30,000 and $20,000, respectively.19
+their program to include 100% exemption for 35- High fees often disincentivize development, especially
+40 years while adding additional affordability and in areas where density is crucial to meet housing
+labor requirements. In 2024, Baltimore enacted new targets. To mitigate these adverse impacts, impact
+inclusionary zoning requirements that mandate a fees can be capped at a more manageable level or
+certain number of affordable units in buildings with the cost of growth can be spread across broader
+more than 20 units, with the city offsetting the actual tax bases, rather than disproportionately burdening
+lost rent (i.e., the difference between market rate and new developments. Another option is to adjust when
+affordable rent) for each calendar year as a property impact fees are assessed, as some developers
+tax credit on the following year’s tax bill.17 have suggested that tying payment to receipt of the
+certificate of occupancy could ease some financing
+Waiving or reducing parking minimums: A single constraints. These approaches would help balance
+surface parking stall can cost $20,000-$60,000 infrastructure needs with the necessity of accelerating
+to build, adding 5-10% to the cost of construction housing production.
+and over $200 to monthly rent for tenants.18 At the
+same time, transit connectivity in urban centers has Sales tax exemptions: Sales tax exemptions for
+continued to improve, while car ownership rates have affordable and workforce housing can be used to
+continued to decline in parts of the mega-region. further reduce the cost of development, allowing
+Cascadia has made some progress on reducing new construction to “pencil” for developers. They
+parking minimums. Oregon mandates the elimination have been used in Washington State to encourage
+of parking minimums in 48 cities and 8 metropolitan office-to-residential conversion and building
+regions, especially near high-frequency transit—one of affordable housing on state land. A broader
+the most progressive parking policies in the country. exemption, tied to inclusionary requirements,
+British Columbia restricts local governments from could help increase development at desired
+imposing parking requirements in transit-oriented affordability levels.
+19
+--- PAGE 20 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+PERMITTING
+Remove Barriers to Development “Current timelines are roughly four years
+from design review to occupancy – this
+Goal: Ensure local governments use a timely and
+eviscerates our supply cycle. Every day you’re
+appropriate review process for housing projects for
+not building you’re just paying to hold land.”
+both land use and building permits
+Developer
+Summary: Expedite permitting by implementing
+standardized, fast-track review processes for
+affordable and workforce housing, using pre-
+approved building designs, allowing auto-approvals
+found that a six-month longer approval timeline for
+for compliant projects, and offering self-certification
+residential development is associated with an almost
+programs to accelerate housing development and
+4 percentage point decrease in housing production.22
+remove unnecessary delays
+The root cause of these inefficiencies lies in outdated,
+Housing Units Unlocked: 125,000 units across overburdened regulatory frameworks and insufficient
+Cascadia by 2044 staffing in permitting offices, which are unable to
+keep pace with the urgency of the housing crisis.
+G overnment requirements have a direct and With meaningful reforms, government regulations can
+often negative impact on the overall cost of boost production.
+housing development. Lengthy permitting processes
+For developers, time is money. Permitting delays are
+for land use and building permits, coupled with the
+costly for developers because they increase financing
+unpredictability of environmental and design reviews,
+costs due to extended loan periods and interest
+introduce significant delays that can impair project
+payments. Developers must also continue to pay other
+timelines and budgets. These delays not only increase
+holding costs, like property taxes and security costs.
+direct costs but also inject a level of uncertainty that
+These delays can drive up overall project expenses
+can deter investment altogether. Costs associated
+as labor and material costs escalate over time and
+with regulations are estimated to comprise 30-
+market conditions shift, making developments
+43% of the cost of multifamily development.20 In a
+less financially viable. In fact, the cost of delays is
+comparison between the cost of development in
+six times greater than the cost of permitting fees
+Portland and Denver, soft costs were estimated to
+themselves—up to $45,000 per unit in a typical 120-
+be 16% lower in Denver due to a transparent and
+unit multifamily development. Additionally, uncertainty
+fast permitting approval process.21 A Canadian study
+around permit timelines increases risk for developers,
+potentially deterring investment or leading to project
+cancellations.
+Litigation during the land use permitting process, such
+as under Washington’s State Environmental Policy
+Act (SEPA) or Oregon’s Statewide Planning Goals,
+can significantly delay the approval and development
+of housing projects. Environmental regulations are
+critical to managing sustainability and conservation
+goals, but opponents of a project, such as community
+groups or environmental organizations, sometimes
+use state environmental and planning laws to file
+lawsuits or appeals for the intended purpose of
+slowing down the permitting process by months
+or even years. Such lengthy delays can increase
+costs for developers, and in some cases, prolonged
+litigation may deter developers from pursuing projects
+altogether, exacerbating the housing shortage.
+20
+--- PAGE 21 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Understanding the Permitting Process
+Land use permits govern how a piece of land can be developed or used. They ensure that the
+proposed development aligns with local zoning laws, environmental regulations, and urban
+planning strategies. This process often includes reviews of site plans, environmental impact
+assessments, and adherence to zoning restrictions like height limits or density requirements.
+Public input and hearings may be required, and the timeline for approval can vary widely
+depending on the jurisdiction and complexity of the project.
+Building permits focus on the technical aspects of construction. These permits ensure that the
+building design meets local safety codes and standards, covering areas like structural integrity,
+fire safety, electrical systems, plumbing, and accessibility. The building permit phase includes
+reviews of architectural drawings and engineering plans to verify compliance with building codes
+and regulations. Once the permit is issued, inspections are conducted throughout the construction
+process to ensure adherence to the approved plans.
+The key difference between these two permits is that land use permits address what can be
+built and where, while building permits deal with how the construction is carried out in a safe
+and compliant manner. Delays in either phase can slow down housing development, with many
+jurisdictions struggling to manage prolonged review timelines.
+Several revision cycles occur between multiple departments from start to finish in the entitlement
+and permitting processes (~12-36 months total permitting timeline in many jurisdictions)
+Land use permit (i.e., entitlement) Building permit
+~6-12 months ~6-24 months
+Land Use Building
+Land Use Building
+Project Permit Permit
+Permit Permit
+Initiation application application
+Key approval approval
+review review
+Stakeholders
+Developer receives
+Developer proposes land use and building
+Developer
+new project permits and moves to
+construction phase
+Architect produces Architect produces
+Developer hires
+Architects/ architect to draft plans planning documents, planning documents,
+submits application for submits application for
+Engineers and manage permit permit, and addresses permit, and addresses
+documents
+comments comments
+Planning department Planning department
+Once all comments Once all comments
+Planning reviews application are closed, planning reviews application are closed, planning
+documents and notifies documents and notifies
+Department other stakeholders for department approves other stakeholders for department approves
+land use permit building permit
+comment comment
+Public Departments review Departments review
+documents, provide documents, provide
+Departments comments comments
+Environmental
+Special Interest (e.g., SEPA), historical
+preservation, and other
+Groups interest groups review
+documents
+Public hearings are
+conducted via design
+Community
+review boards (if
+required)
+21
+--- PAGE 22 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+W hile permitting is the mandate of local housing developments that include affordable units
+governments, both local jurisdictions and state/ from the city’s design review process, which is
+provincial governments can take action that could estimated to save nine months during the permitting
+expedite review processes to encourage additional process,24 and other jurisdictions could follow suit to
+housing production. We have successful precedents on shave time off development timelines and increase
+the West Coast and beyond, and Oregon has already the speed to occupancy for new housing.
+taken state-level action to ensure local governments
+Pre-approved building plans: While preapproved
+are issuing final decisions on land use permits within
+building plans for accessory dwelling units
+120 days of receiving a complete application. However,
+(ADUs) have become popular policy in many local
+more can be done, and key opportunities include:
+jurisdictions, policymakers can extend this to
+Ministerial review process: A state-level ministerial multifamily development, too. Kelowna and North
+review process provides an administrative evaluation Okanagan, British Columbia have adopted pre-
+of development projects based on objective, approved building plans for multiplexes up to six-
+established criteria without requiring discretionary plexes as part of their efforts to densify via infill
+judgment by local officials. In this process, if a development. An early version of the program was
+project complies with all relevant zoning, building so popular in Kelowna that they stopped offering
+codes, and other regulations, it must be approved fast-track approval for preapproved designs
+as a matter of right. This type of review contrasts because planners were concerned about increasing
+with discretionary review, where decision-makers homogeneity in infill development. Now, the program
+can exercise judgment and take public input, often has relaunched, and as developers submit new
+resulting in longer approval times and the potential plans for approval, they are added to the binder
+for rejection. Removal of discretionary processes can of preapproved options for future development to
+also help reduce workloads for overburdened local ensure increasing diversity and variety of designs.
+permitting offices, freeing up capacity for other work. The state and provincial governments could support
+In California, SB 35 established a ministerial review local jurisdictions by offering preapproved designs
+for the entitlement process, which applies to infill for multifamily developments that could be easily
+affordable housing projects in jurisdictions that are not adopted by local jurisdictions to accelerate building
+meeting state affordable housing goals. The process permit review.
+expedited the entitlement process for 156 projects
+Self-certification of building plans: Outside of
+between 2018 and 2023, allowing for the creation
+Cascadia, some jurisdictions—including Phoenix and
+of 18,000 new housing units, and it was extended
+New York City—have instituted programs to allow
+to 2036 and expanded to include mixed-income
+qualified architects and engineers to self-certify
+development by follow-up legislation.23
+that building plans comply with municipal building
+Other examples take ministerial review a step further, construction codes. Phoenix’s self-certification
+offering auto-approval for projects that meet certain program, in place since 2010 and expanded in
+criteria. Minnesota has default approval on certain types 2012 to include all buildings except high-rises and
+of zoning variance and land use permits, while Japan stadiums, has successfully reduced the burden on
+has a “by-right” system: if a plan satisfies the standards, public departments while accelerating building permit
+project is permitted without discretionary review. issuance. Right now, processing of self-certified
+building plans is averaging 14 calendar days. The
+Design review changes: Design review is a process
+program includes both random and required audits
+in which development projects are evaluated for
+depending on the nature and complexity of each
+their aesthetic, architectural, and environmental
+project. Permit submission requirements include
+impact before approval. This review ensures that new
+structural and electrical peer reviews, and failure to
+buildings and developments align with the design
+submit corrections to building violations may result
+standards, visual character, and overall goals of the
+in loss of self-certification privileges.25 Funding from
+community or city. However, design review processes
+state or provincial government sources could support
+are often highly subjective and create a high level
+the development of a pilot self-certification program in
+of timing uncertainty during the permitting process.
+select Cascadia jurisdictions.
+The City of Seattle has temporarily exempted some
+22
+--- PAGE 23 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+CASE STUDY
+Los Angeles Mayor Karen Bass’s Executive Directive 1
+to Fast-Track Entitlement
+Mayor Karen Bass’s Executive Directive 1 (ED 1), introduced in December 2022, is a bold effort
+to expedite affordable housing development in Los Angeles by streamlining the permitting
+process for 100% affordable housing projects. ED 1 aims to reduce delays by cutting through
+bureaucratic red tape, prioritizing projects, and offering a 60-day timeline for approvals on
+eligible developments. This initiative addresses LA’s housing crisis by removing barriers such
+as discretionary reviews and California Environmental Quality Act (CEQA) processes for
+qualifying projects, allowing developers to accelerate their affordable housing plans.
+To qualify for the expedited review process, submitted projects must have specific
+affordability requirements, meet overall design standards, and adhere to environmental
+safety measures, among other key requirements.
+As of summer 2024, over 18,000 affordable housing units have been approved under this
+directive in its first 18 months, with a median approval timeline of 96 days—above the target
+timeline but still substantially better than non-fast tracked projects.26 This is more than three
+times the number of approved affordable units in 2020, 2021, or 2022. Projects are typically
+eligible for a state-level density bonus or city-level transit-oriented communities program,
+and 85% of projects utilize incentives under one of these two programs. However, between
+65-75% of projects approved under ED 1 do not require direct public investment.27
+By eliminating bottlenecks and creating clear timelines, ED 1 provides a powerful model for
+other cities seeking to address their housing crises through expedited permitting processes.
+23
+--- PAGE 24 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+INNOVATION meet zoning and building code requirements, which
+accelerates the approval of routine permits. Self-
+Adopt Additional Supportive Strategies
+certification programs, enabled by digital platforms,
+to Bring Down Building Costs and Speed also empower developers to submit pre-approved
+Up Development plans without requiring exhaustive manual review,
+freeing up staff to focus on more complex cases.
+Goal: Reduce development costs and improve
+Customer service within permitting offices can benefit
+development processes by holistically addressing the
+from technology-driven solutions such as digital
+largest costs and most time-consuming processes for
+chatbots or AI-powered response systems to handle
+developers.
+routine inquiries and guide applicants through the
+Summary: Construction costs, including materials
+process. This reduces the strain on staff, allowing them
+and labor, are one of the largest cost drivers for
+to focus on higher-value tasks, and provides quicker
+developers. It is an area ripe for innovation to
+response times to developers, speeding up project
+speed up processes and reduce costs. At the same
+progress. Additionally, integrated online portals allow
+time, technology can be applied throughout the
+developers to track permit progress, pay fees, and
+development process to improve timeliness, address
+submit required documentation, reducing bottlenecks
+labor shortages, and streamline processes for all
+caused by paperwork and in-person meetings.
+stakeholders.
+Housing Units Unlocked: 25,000 units across
+Cascadia by 2044.
+T he lack of advanced technology in housing
+development across Cascadia presents a
+significant challenge to addressing the region’s
+growing housing crisis. Outdated permitting
+processes, reliant on manual paper-based
+workflows, slow down project approvals and add
+costly delays. Without integrated systems that
+streamline communication between developers, local
+governments, and regulatory bodies, housing projects
+Example: Kelowna’s Chatbot
+are bogged down by inefficiencies and inconsistent
+reviews. In areas like modular construction and mass Kelowna has implemented an AI chatbot
+timber, the adoption of tech-driven innovations is to streamline its permitting processes,
+critical to reducing construction timelines and costs, significantly speeding up application reviews.
+but the region has been slow to scale these methods. Partnering with Microsoft, the city has piloted
+an AI-powered bot that processes digital
+Adopt Technology Solutions that permit applications in minutes, rather than
+Increase Efficiency throughout the weeks, by automatically checking submissions
+for compliance with zoning bylaws, community
+Development Process
+plans, and lot specifications. This allows
+Technology can be a game-changer in the housing the system to quickly approve compliant
+development process by streamlining permitting, applications or flag non-compliant ones
+improving manufacturing efficiency, and supporting with detailed feedback for corrections. This
+customer service in permitting offices. It can also be technology reduces the workload on human
+critical to supporting local governments struggling staff, allowing them to focus on more complex
+with adequate resourcing. Deploying digital tools permits and inspections. This approach not
+such as automated permit review systems, artificial only cuts down on waiting times but also
+intelligence (AI), and cloud-based platforms allows reduces the costs associated with prolonged
+permitting offices to manage their backlog and development timelines.
+approve compliant projects more quickly. For example,
+automated software can flag areas where projects
+24
+--- PAGE 25 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+I n the manufacturing stage, the integration of our regulatory framework lacks elements supporting
+technology such as prefabrication and modular modular/panelized construction (e.g., design codes
+construction methods can drastically reduce build are not adapted for mass timber). On the financing
+times by up to 50% and construction costs by up side, some banks are unfamiliar with the modular
+to 20%. These methods use offsite construction in construction process and unwilling to risk financing
+controlled environments, allowing for faster assembly less familiar development methods. Local funding
+on-site. Advanced construction technologies, such as opportunities often do not include modular/panelized
+robotics and 3D printing, can also help reduce labor construction methods in their requests for proposals
+demands in the field, addressing ongoing workforce (RFPs), while insurers are unclear on the long-term
+shortages in the construction industry. These durability of the structures.
+techniques not only speed up production but also
+By leveraging these technologies across various
+result in more consistent quality and reduced waste,
+stages of development—from permitting to
+offering cost efficiencies to developers and reducing
+construction—municipalities and developers
+overall project timelines.
+can increase project timeliness and lower costs.
+Right now, modular and panelized construction Success will require standardized and streamlined
+in Cascadia holds the most promise for reducing regulation to provide clear, consistent guidelines
+construction costs but faces two key barriers: across jurisdictions, which can reduce confusion and
+regulatory gaps in supporting these construction encourage the widespread use of new technologies.
+methods, and lack of scalability primarily due to the Facilitation of data sharing across platforms and
+difficulty in securing financing and insurance. Local between public and private entities can also help
+authorities have limited understanding of how to optimize technology usage.
+inspect the quality and safety of modular units, and
+Example: Autovol’s Robotic Manufacturing
+Autovol, based in Nampa, Idaho, uses an innovative
+manufacturing technique dubbed automated
+volumetric modular construction. This process uses
+advanced robotics to assemble six-sided modular
+units in a controlled environment, complete with
+appliances, fixtures, and mechanical, electrical,
+plumbing (MEP) systems. Once these modules
+are built, they are shipped to the job site for final
+assembly.
+The use of robotics has significantly accelerated
+construction timelines while reducing costs. For
+example, Autovol’s Virginia Street Studios project
+in San Jose, which used 160 modules to create 301
+affordable housing units, was completed 40% faster
+than traditional methods. Additionally, the cost per
+square foot for this project was reduced by $100,
+yielding a 20% savings compared to conventional
+construction in high-cost areas like the Bay Area.
+By integrating technology, Autovol not only addresses
+the construction labor shortage but also makes it
+possible to scale affordable housing more efficiently.
+25
+--- PAGE 26 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+The Roadmap to Build (cont’d)
+Support Use of Innovative Mass timber is an innovative construction material
+made from layers of wood that are compressed and
+Construction Materials
+bonded together to create large, strong panels. It
+Materials make up roughly 25% of the cost of offers a sustainable alternative to steel and concrete,
+development for new housing units on average, with a significantly lower carbon footprint. Oregon,
+with labor comprising another 23%. These costs Washington, and British Columbia—known for their
+are typically difficult to change without sacrificing vast forestry resources—have already embraced
+quality, but novel construction materials—paired mass timber as a key component of their housing and
+with technological innovation and new construction construction strategies, but it has not yet achieved
+methods—offer an opportunity to do just that. widespread adoption. Oregon and British Columbia
+have led by incorporating mass timber into both public
+Modular and panelized construction can make use
+and private developments, positioning the region as a
+of one of the most exciting materials innovations and
+global leader in sustainable construction.
+an area where Cascadia is a leader: mass timber.
+Benefits of Mass Timber Prefabrication
+High strength- Prefabricated as large Biophilic structure Time and cost savings
+to-weight ratio but light weight panels Low carbon footprint Rapid onsite assembly
+Best suited for Easier to handle materials with & efficient factory
+mid-rise projects and requires less natural aesthetics manufacturing help
+up to 18 stories foundational support reduce labor cost
+Examples of Affordable Multi-Family Mass Timber Buildings
+1510 Webster, Oakland, CA
+Key figures
+⊲ 19 stories with 222 units
+⊲ 35 are affordable to households at 80% AMI
+⊲ Comparable concrete option would have cost $30M more
+Key facts
+⊲ The light weight yet structurally strong mass timber reduced the
+foundation needs and supporting columns (-47 per floor)
+⊲ All 16 floors of mass timber were installed in <4 months, with the entire
+project finished 1-month earlier than scheduled
+1470 Block Line Road, Ontario, BC
+Key figures
+⊲ 4 stories, 23K sq ft, 41-unit residential to support women who experienced
+homelessness
+Key facts
+⊲ A core requirement of the funding is that the project is built quickly
+⊲ Mass timber concept outbid all other affordable designs
+⊲ Design, approval and construction were completed in 1 year of contract
+award, where the assembly itself was 20 days
+⊲ Won 2 city awards for innovation and sustainability
+26
+--- PAGE 27 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Foundational Elements for Success
+A chieving Cascadia’s ambitious housing targets investors, and communities—work toward the
+will require more than just policy changes; it common goal of increasing housing supply.
+will require a strong foundation of public-private
+partnership and robust accountability measures. Tracking Progress and Ensuring
+Governments can create favorable policy conditions, Accountability
+reduce barriers, and provide financial incentives,
+Accountability is essential to ensure leaders at all
+while private developers, investors, and nonprofits
+levels of government deliver on our housing targets.
+can deliver housing solutions with efficiency and
+To solve Cascadia’s housing crisis, we must strike the
+innovation. At the same time, tracking progress,
+right balance between incentives and enforcement—
+evaluating outcomes, and holding each stakeholder
+using both carrots and sticks to drive progress.
+accountable to their commitments will be critical in
+Transparent tracking of housing production and
+closing the housing gap on time and within budget.
+policy outcomes will hold governments accountable,
+maintaining urgency to meet our ambitious goals.
+The Necessity of Public-Private
+This is not a set-it-and-forget-it challenge; we must
+Partnership
+regularly evaluate our efforts, be willing to course-
+Too often, government stakeholders, developers, and correct when needed, and ensure no jurisdiction
+community members view one another as adversaries falls behind.
+in managing land use policy and addressing our
+British Columbia, Washington, and Oregon have
+region’s need for more housing to accommodate
+each set housing targets at the local level, either
+a growing population. However, the scale of the
+by county or municipality. Local governments are
+problem necessitates a cultural shift and reemphasis
+expected and encouraged to develop comprehensive
+on true public-private collaboration and partnership
+plans to meet their targets, but effective tracking
+if we hope to achieve the housing production scale
+mechanisms are still emerging or in development,
+required to increase affordability for current and
+and reinforcement of these efforts is critical to ensure
+future Cascadians.
+we are making progress. Objective housing targets
+Public-private partnership takes a variety of forms. and shared reporting standards are important tools
+One clear example of their power is the use of to provide clarity to jurisdictions on desired and
+government-provided low-cost capital and tax-exempt expected outcomes, and incentive and enforcement
+bond financing, which can make housing projects mechanisms are also needed to ensure delivery on
+financially feasible for developers. At the same housing goals.
+time, private sector innovation—in everything from
+So far, Washington, Oregon, and British Columbia have
+technological solutions to construction methods—
+largely used incentives or voluntary, opt-in policies
+can help speed up housing production, while public
+to encourage development-friendly local regulations
+entities provide the necessary legal and regulatory
+in local jurisdictions. The depth of our affordability
+framework to facilitate large-scale developments.
+challenges and the wide gap between our current
+This collaborative approach also fosters a culture of
+housing production levels and the targets we’ve set
+shared responsibility across sectors, ensuring that all
+indicate the need for better tracking and enforcement.
+stakeholders—including governments, developers,
+27
+--- PAGE 28 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Foundational Elements to Success (cont’d)
+O ne effective mechanism used elsewhere is a governments implement policies that will increase
+builder’s remedy, which allows developers to housing supply. California’s Housing Accountability
+bypass certain local zoning regulations if a jurisdiction Unit, created during the 2021-2022 budget cycle,
+is not meeting its housing production targets. By is composed of a team of housing policy experts
+removing obstacles, a builder’s remedy can fast-track that help local planning departments and other
+housing development, increasing supply in regions stakeholder navigate new policies. Developers and
+where local restrictions have historically stalled local governments can appeal to the unit to advise
+progress. Support for adequate resourcing for local on projects and assess policy compliance, and the
+governments—such as via investments in technology Housing Accountability Unit acts as a mediator to
+that can reduce the workload for overburdened review projects and provide recommendations. The
+permitting staff—are critical to ensuring that the Unit also has the power to refer unresolved issues to
+builder’s remedy is used as an effective policy tool the state Attorney General if corrective actions are
+to encourage compliance with state housing law. not taken.
+The builder’s remedy has been successfully used in
+Oregon’s new Housing Accountability and Production
+California to spur local jurisdictions into compliance,
+Office, launching in July 2025, aims to bridge
+most notably in Santa Monica, where some 16 projects
+the gap between state housing laws and local
+with over 4,500 housing units secured their approvals
+implementation by providing critical partnership,
+under the builder’s remedy before the city came into
+funding, and technical support to reduce barriers to
+compliance with state requirements.28
+housing production. This office will play a key role in
+Yet, enforcement requires a robust, timely helping local governments navigate regulations, share
+understanding of how local jurisdictions are doing in best practices, and stay on track to meet housing
+meeting their housing targets. Some jurisdictions, like production targets by ensuring compliance with
+Kirkland, Washington, already use effective online state policies.
+dashboards to track progress, including metrics like
+Tracking, enforcement, and accountability are
+the gap to target affordable housing units, breakdown
+essential to making sure that jurisdictions stay on
+of housing supply neighborhood, and breakdown of
+course to meet their housing targets. By transparently
+new housing permits by type (e.g., multifamily, single-
+monitoring housing progress and ensuring adherence
+family, ADU). The State of California also provides
+to targets, the state will be able to quickly identify
+a statewide exemplar that leverages standardized,
+issues, make necessary adjustments, and guarantee
+mandatory housing reporting requirements to provide
+that housing policies lead to measurable outcomes.
+additional granularity and oversight.
+This model fosters stronger state-local partnerships,
+Beyond tracking progress, California and Oregon have aligning both levels of government to meet the
+set up housing accountability offices to help local pressing housing needs across the state.
+Example: California’s Housing
+Elements Annual Progress
+Report Data Dashboard
+California’s APR dashboard
+provides a robust example of
+how well-organized, granular
+data tools can improve housing
+reporting requirements. Cascadia
+could improve on this tool by
+making the tools more visually
+intuitive.
+https://www.hcd.ca.gov/planning-and-community-development/housing-element-implementation-and-apr-dashboard
+28
+--- PAGE 29 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Build, Baby, Build: Unlocking
+1.4 Million New Homes in Cascadia
+F illing Cascadia’s projected housing gap of roughly
+1 million units over the next 20 years will require
+an integrated strategy that brings together multiple
+solutions to unlock developable land, streamline
+permitting, improve the economics of housing
+development, and support adoption of innovative
+technology. We need to start with a bold, public
+commitment to prioritize for affordable and workforce
+housing and break down barriers to development.
+To realize this commitment, we recommend a
+comprehensive, statewide or provincial approach that
+includes:
+LAND: Rezoning underutilized and vacant
+commercial areas such as parking lots, office
+parks, strip malls, and big box retail, which are
+best prepared to absorb density and typically
+have good transit connectivity
+Across the region, idle commercially zoned parcels—
+overbuilt in today’s era of e-commerce—presents our
+greatest opportunity for unlocking developable land PERMITTING: Prioritizing affordable and
+for new housing. These corridors, consisting primarily workforce housing development and creating
+of properties such as parking lots, strip malls, and a fast-track permitting process for projects that
+outdated office parks, can be transformed into lively, meet affordability criteria, such as by exempting
+mixed-income, mixed-use boulevards, with preexisting projects from certain discretionary review
+connectivity to transit, jobs, and amenities. processes, creating a by-right or ministerial review
+process, or developing a catalog of preapproved
+ECONOMICS: Addressing the challenging cost
+plans that can be automatically approved
+structure of workforce housing development
+using creative financing mechanisms, such as By pairing zoning with streamlined building and
+bonds, and incentives such as the reduction affordability guidelines and fast-track land use
+of parking minimums and time-limited tax permitting process, jurisdictions can accelerate housing
+exemptions production on underutilized parcels and reduce costly
+bottlenecks and discretionary reviews in the process. A
+This comprehensive solution would need strong
+by-right or a ministerial approval process can fast-track
+public-private partnerships to provide low-cost capital
+land-use permits, allowing developers to avoid costly
+for these projects, ensuring developers have the
+delays and NIMBY opposition accelerating the time it
+financial tools needed to succeed. Taxable bonds, tax
+takes to break ground on new housing. Jurisdictions
+exemptions, or direct government support, as well
+could also expand the use of preapproved building
+as partnerships with private firms, could help fund
+plans or creating a self-certification program for
+projects, particularly in high-demand urban areas.
+qualified architects and developers.
+Incentives, such as density bonuses, reducing
+INNOVATION: Supporting innovation and
+parking minimums, waiving impact fees, and offering
+adoption of technology solutions and novel
+time-limited tax exemptions, can further improve
+construction methods and materials, which
+the economics of redevelopment, making housing
+create opportunities to lower costs and increase
+production a more viable endeavor for developers.
+timeliness of development projects
+29
+--- PAGE 30 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Unlocking 1.4 Million New Homes (cont’d)
+F inally, support for technology that can provide each of the parcels considered developable, the land
+additional capacity for local governments (e.g., in is worth more than the commercial buildings sitting on
+the form of software to support permitting processes the parcels, indicating that even with some time-limited
+and customer service) and help reduce costs of tax exemptions, property tax revenue would increase
+development while reducing construction time can after redevelopment. Together, these strategies could
+improve the feasibility of new development pursued significantly increase the housing supply in Cascadia
+under this strategy. while maintaining affordability and creating vibrant
+communities.
+Cascadia has the unique opportunity to integrate these
+solutions and build on innovative policies implemented This requires a united public-private partnership,
+elsewhere, such as commercial corridor rezoning bold action from every level of government, and
+undertaken in California. Throughout Cascadia, roughly collaboration across sectors. The stakes couldn’t be
+1.4 million units are likely to be developed via this higher, and the urgency for action is critical. Only by
+comprehensive strategy, which is built on a foundation working together and implementing these solutions
+of commercial corridor rezoning but—critically— as a cohesive strategy can we close the housing
+incorporates opportunities to increase the timeliness supply gap and secure Cascadia’s future growth and
+of permit approvals and improve the economic viability prosperity.
+of workforce housing development for developers. For
+30
+--- PAGE 31 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+CASE STUDY
+California’s AB 2011 – The Affordable Housing
+and High Road Jobs Act29
+In 2022, California enacted Assembly Bill 2011 (AB 2011), the Affordable Housing and High
+Road Jobs Act, a pivotal and comprehensive approach aimed at addressing the state’s critical
+housing shortage. AB 2011 was designed to unlock underutilized commercial land for housing
+development, streamline the approval process for projects, and ensure that new developments
+meet both affordability and labor standards.
+The Challenge
+Like Cascadia, California faces a severe housing deficit, with a current shortage of hundreds
+of thousands of homes.30 High development costs, restrictive zoning laws, and lengthy
+approval processes have slowed housing production. As a result, valuable land in commercial
+corridors often sits idle while housing shortages worsen, particularly for affordable units.
+The Solution
+AB 2011 provides a clear pathway to transform underused commercial land into affordable
+housing. The law allows for by-right development of housing projects on land zoned for
+commercial uses, such as retail spaces and parking lots, which have historically been off-
+limits for residential construction. By bypassing discretionary reviews—including limiting
+challenges under the California Environmental Quality Act (CEQA)—AB 2011 cuts through
+the red tape that typically delays projects. This streamlined process sets fixed timelines for
+land use permit issuance—requiring land use permits issued in 90 days for buildings with
+<150 units and 180 days for 150+ unit buildings—ensuring that developers receive swift,
+predictable outcomes.
+The legislation provides for a range of housing types and densities based on road
+infrastructure and includes a provision that projects include no parking minimums. AB 2011
+includes affordability requirements for both mixed-income and 100% affordable housing
+projects. (Continued on next page)
+Timeline of Permit Review AB 2011 Process
+# of days 0 30 60 90 120 150 180
+Inform of inconsistencies with
+qualifying criteria within 60 days
+150 units
+or less
+Processing, Ministerial Review, and Objective
+Design Standards Review within 90 days
+Inform of inconsistencies with
+qualifying criteria within 90 days
+More than
+150 units
+Processing, Ministerial Review, and Objective
+Design Standards Review within 180 days
+If applicants are not notified of inconsistencies within applicable timeline, then project is deemed compliant with qualifying criteria
+31
+--- PAGE 32 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+CASE STUDY (cont’d)
+California’s AB 2011 – The Affordable Housing
+and High Road Jobs Act
+The Impact
+AB 2011 has the potential to significantly increase housing production across California. By
+repurposing commercial land, the legislation is expected to unlock the potential for over
+2 million new housing units, including hundreds of thousands of affordable homes. This
+repurposed land is often located near transit and job centers, allowing for more sustainable,
+transit-oriented developments that reduce car dependency and lower greenhouse gas
+emissions.
+Example Project
+A mixed-use development in South Los Angeles, which combines a Costco store with 800
+residential units, was the first project to advance under AB 2011 and highlights its impact.
+Located at former site on a 5-acre lot in the Baldwin Hills neighborhood, the project sits less
+than a half-mile south of the Expo/La Brea Station, which is served by Los Angeles Metro
+Rail’s E Line. The development includes 184 units designated for low-income residents—
+households making under $41,610 per year—and the remaining units are dedicated to
+nonsubsidized affordable and workforce housing.31 AB 2011’s fast-track ministerial approval
+process allowed the development to proceed roughly 30% more quickly through the
+entitlement process, with a predictable and appropriate timeline for receiving land use
+permits, according to estimates from Costco representatives. The development (artist’s
+rendering below) broke ground in September 2024 and will be composed of prefabricated
+modular units.
+32
+--- PAGE 33 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Call to Action
+B uild, Baby, Build: Unlocking 1.4 Million New Homes
+in Cascadia” offers a comprehensive, actionable
+path forward to tackle the region’s workforce housing
+crisis. However, achieving success requires more than
+isolated policies or piecemeal efforts. It demands a
+holistic approach and coordinated effort across public,
+private, and nonprofit sectors. Government agencies,
+developers, investors, housing advocates, and
+community groups must align to create the conditions
+necessary for substantial housing development.
+This starts with bold policy change: commercial
+corridor rezoning accompanied by a fast-track
+permitting process and thoughtful financial incentives
+that will unlock up to 1.4 million new housing units
+across our region. A comprehensive, holistic solution
+can jumpstart housing production despite challenging
+market conditions, and we can continue to work
+collaboratively to identify, refine, and implement
+creative solutions that unlock additional housing supply.
+Public-private partnership is the backbone of
+the solution to our affordable housing shortfall.
+Collaboration across stakeholders is essential to
+mobilizing the necessary resources and expertise
+from all sectors—government, private industry,
+and nonprofits—working together to scale housing
+development across Cascadia. By aligning public
+policies and private investment, we can create solutions access to safe and affordable housing, whether they
+that not only increase housing supply but also ensure are part of the workforce or facing the challenges of
+affordability and long-term viability. Whether through homelessness.
+joint ventures in financing, streamlined permitting
+In recent years, state, provincial, and local governments
+processes, or shared innovation in building techniques,
+have made progress through legislative reforms and
+public-private partnerships provide the muscle needed
+financial investments. However, the housing crisis
+to overcome the barriers that have historically slowed
+has intensified in the face of rising costs, economic
+down housing production.
+uncertainty, and a slowdown in development. We
+These partnerships foster an environment in which cannot afford to lose momentum. Policymakers must
+developers, policymakers, and housing advocates continue to prioritize housing solutions, and the private
+approach barriers to increasing housing supply with a sector must play an essential role in delivering the units
+unified vision. The roadmap calls for collective action, necessary to meet our ambitious targets.
+ensuring that governments create the conditions
+The time to act is now. We must unite around this
+for success while the private sector delivers on
+shared goal, leverage every available resource, and
+development at scale, making this a truly collaborative
+implement a comprehensive policy solution with
+solution to a shared regional challenge.
+urgency. Only by working together can we ensure
+This roadmap is just one part of a broader strategy to Cascadia remains a place where everyone—regardless
+address the region’s housing needs, complementing of income—can find a home and thrive. Let this
+ongoing efforts to expand permanent supportive roadmap be our guide as we embark on this critical
+housing and homelessness services. These initiatives journey to build the housing infrastructure necessary
+must work in tandem to ensure every individual has for a vibrant and inclusive future.
+33
+--- PAGE 34 ---
+BUILD BABY BUILD Unlocking 1.4 Million New Homes in Cascadia
+Sources
+1. CBC, 2024: https://www.cbc.ca/news/canada/british-columbia/chmc-rental-housing-report-2024-1.7100498
+2. Includes the housing units necessary to close the current shortfall, accommodate future population growth, and replace units lost
+due to demolition.
+3. BIV, 2023: https://www.biv.com/news/real-estate/why-its-taking-10-months-issue-building-permit-vancouver-8273487
+4. Harvard University Joint Center for Housing Studies: https://www.jchs.harvard.edu/son-2023-cost-burdens-map
+Royal Bank of Canada: https://thoughtleadership.rbc.com/wp-content/uploads/Housing-Affordability_0621-final_v2.pdf
+5. Willamette Week, 2022: https://www.wweek.com/news/state/2022/06/21/with-mortgage-rates-rising-four-in-five-portlanders-cant-
+afford-a-home/
+6. National Low Income Housing Coalition, 2024: https://nlihc.org/oor
+7. BCG analysis, based on Seattle area development costs.
+8. The Center Square, 2023: https://www.thecentersquare.com/national/article_ce383744-36e8-11ee-9104-bbe77bfa9198.html
+Willowdale Equity, 2024: https://willowdaleequity.com/blog/cost-to-build-an-apartment-complex/
+9. Building Industry Association of Washington, 2024: https://www.biaw.com/research-center/washington-states-housing-
+affordability-index/#:~:text=In%20this%20study%2C%20we%20find,afford%20a%20home%20of%20%24425%2C700.
+10. CBRE survey data, 2024
+11. HDR analysis, 2024
+12. Washington State Standard, 2023: https://washingtonstatestandard.com/2023/05/24/state-looks-to-dump-leased-real-estate-as-
+remote-work-leaves-offices-empty/
+13. National Center for Education Statistics: https://nces.ed.gov/fastfacts/display.asp?id=619
+14. Seattle Times, 2024: https://www.seattletimes.com/business/real-estate/seattle-churches-want-to-build-affordable-housing-face-
+testing-times/
+15. Vancouver Sun, 2019: https://vancouversun.com/business/real-estate/0323-housing-partnerships
+16. Center for Geospatial Solutions, 2024: https://cgsearth.org/cgs-who-owns-america-government-land-report
+17. Ballard Spahr, 2023: https://www.ballardspahr.com/insights/alerts-and-articles/2023/12/new-inclusionary-housing-mandates-for-
+baltimore-city
+18. BCG Analysis
+19. The Tyee, 2024: https://thetyee.ca/Opinion/2024/02/15/Metro-Vancouver-Development-Charges-Driving-Up-Housing-Costs/
+20. National Association of Home Builders and National Multifamily Housing Council, 2018: https://www.nmhc.org/
+contentassets/60365effa073432a8a168619e0f30895/nmhc-nahb-cost-of-regulations.pdf
+21. BAE Urban Economics, 2024: https://www.portland.gov/phb/documents/residential-development-cost-study-2024/download
+22. Fraser Institute, 2016: https://www.fraserinstitute.org/sites/default/files/impact-of-land-use-regulation-on-housing-supply-in-
+canada.pdf
+23. Terner Center, 2023: https://ternercenter.berkeley.edu/wp-content/uploads/2023/08/Terner-Center-SB-35-Paper-August-2023-
+Final.pdf
+24. The Urbanist, 2024: https://www.theurbanist.org/2024/09/06/downtown-design-review-moratorium-gets-mixed-reception-from-
+seattle-council/
+25. City of Phoenix, 2024: https://www.phoenix.gov/pdd/self-certification-program
+26. ACT Research, 2024: https://atcresearch.co/guest-blog/how-executive-directive-1-ed1-is-shaping-las-future/
+27. LA Department of City Planning, 2024: https://planning.lacity.gov/plndoc/Staff_Reports/2023/11-16-2023/CPC_2023_5273_
+Commission_Packet_11.16.23.pdf
+28. The Urbanist, 2023: https://www.theurbanist.org/2023/04/14/explainer-what-is-a-builders-remedy/
+29. Association of Bay Area Governments, 2023: https://abag.ca.gov/sites/default/files/documents/2023-07/AB-2011-SB-6-Summary-
+Key-Details-7.28.2023.pdf
+30. California Construction News, 2023: https://www.californiaconstructionnews.com/2023/10/06/3-5-million-new-homes-needed-to-
+end-shortage-by-2025-california-yimby/
+31. CBS News, 2024: https://www.cbsnews.com/losangeles/news/a-mixed-use-costco-low-income-housing-development-breaks-
+ground-in-south-la/
+34
+--- PAGE 35 ---
+ConnectCascadia.com
