@@ -7,6 +7,7 @@
 | klicksmartai | System Outcome Agency — services, stack, positioning, channels |
 | ncf-national-christian-foundation | NCF org profile — mission, values, audience, language patterns, outreach angles, DAF market context; capital source for Spectra Holdings Group |
 | spectra-holdings-group | Spectra Holdings Group — faith-aligned holdings, Master Credit Facility, missionary work; NCF is target capital source |
+| capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
 
 ## Projects
 | entity-id | Description |
