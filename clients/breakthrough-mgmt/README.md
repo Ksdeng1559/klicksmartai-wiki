@@ -41,6 +41,11 @@ Preferred positioning:
 
 | File | Purpose | Primary Use |
 |---|---|---|
+| [`urban-mining/`](./urban-mining/INDEX.md) | Urban Mining intelligence — e-waste gold recovery, AI super-grade feedstock, Green Gold premium, I-TEC/I-MAT carbon inset framework | Grant intelligence, competitive positioning, market sizing |
+
+| [`urban-mining/sources/`](./urban-mining/sources/) | 4 NotebookLM source files | Primary research corpus for urban mining topic |
+
+|| [`problem-definition.md`](./problem-definition.md) |
 | [`problem-definition.md`](./problem-definition.md) | Defines the grant-fundable problem, work packages, 5-year roadmap, risks, and evidence requirements | Master source document for grant writers and advisors |
 | [`grant-eligibility-matrix.md`](./grant-eligibility-matrix.md) | Screens funding programs by eligibility, fit, partners, evidence needs, probability, and go/no-go status | Grant opportunity prioritization |
 | [`gtm-strategy.md`](./gtm-strategy.md) | Defines the grant-led go-to-market strategy, target segments, offers, funnel, messaging, and 12-month roadmap | Execution strategy for funding and partner development |

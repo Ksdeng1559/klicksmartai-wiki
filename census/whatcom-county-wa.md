@@ -31,6 +31,10 @@ sources:
   - id: 8
     name: "Neilsberg — Whatcom County Median Household Income Trends"
     url: "https://www.neilsberg.com/insights/whatcom-county-wa-median-household-income/"
+  - id: 9
+    name: "Cascadia Daily News — Priced Out (Whatcom County housing)"
+    url: "https://www.cascadiadaily.com/priced-out/"
+    note: "Local news covering Whatcom County housing affordability crisis"
 status: active
 ---
 
