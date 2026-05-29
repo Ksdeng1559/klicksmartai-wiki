@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClientFlow — AI Intake Fast Lane | Product Spec</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ===== DESIGN TOKENS ===== */
+    :root {
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --surface-alt: #F1F5F9;
+      --border: #E2E8F0;
+      --text-primary: #0F172A;
+      --text-secondary: #475569;
+      --text-muted: #94A3B8;
+      --accent: #0D9488;
+      --accent-hover: #0F766E;
+      --accent-light: #CCFBF1;
+      --navy: #0F172A;
+      --navy-light: #1E293B;
+    }
+
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    .display { font-size: 56px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+    .h1 { font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.2; }
+    .h2 { font-size: 28px; font-weight: 600; letter-spacing: 0; line-height: 1.3; }
+    .h3 { font-size: 20px; font-weight: 600; letter-spacing: 0; line-height: 1.4; }
+    .body { font-size: 16px; font-weight: 400; line-height: 1.6; }
+    .small { font-size: 14px; font-weight: 400; line-height: 1.5; }
+    .caption { font-size: 12px; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; color: var(--text-muted); }
+
+    /* ===== LAYOUT ===== */
+    .container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 96px 0; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 24px; }
+
+    /* ===== COMPONENTS ===== */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-hover); }
+    .btn-secondary { background: var(--surface); color: var(--text-primary); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--surface-alt); }
+    .btn-sm { padding: 8px 16px; font-size: 14px; }
+
+    /* ===== HEADER ===== */
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 24px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid var(--navy-light);
+    }
+    header .container { display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+    .logo-icon { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+    nav { display: flex; gap: 32px; }
+    nav a { color: #94A3B8; text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s; }
+    nav a:hover, nav a.active { color: #fff; }
+    .header-badge { background: var(--accent); color: #fff; font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 4px; margin-left: 8px; }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: var(--navy);
+      color: #fff;
+      padding: 96px 0 120px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; right: 0; bottom: 0;
+      width: 50%;
+      background: linear-gradient(135deg, var(--accent) 0%, transparent 60%);
+      opacity: 0.15;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 720px; }
+    .hero .badge { margin-bottom: 24px; }
+    .hero h1 { color: #fff; margin-bottom: 24px; }
+    .hero p { color: #94A3B8; font-size: 20px; margin-bottom: 40px; max-width: 560px; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+    .hero-visual {
+      position: absolute;
+      right: 0; top: 50%;
+      transform: translateY(-50%);
+      width: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .phone-mockup {
+      width: 280px;
+      height: 560px;
+      background: var(--navy-light);
+      border-radius: 32px;
+      border: 3px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .phone-notch { width: 120px; height: 28px; background: var(--navy); border-radius: 0 0 16px 16px; margin: 0 auto; }
+    .phone-screen { flex: 1; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .phone-header { text-align: center; margin-bottom: 8px; }
+    .phone-header .small { color: #94A3B8; }
+    .phone-card { background: var(--surface); border-radius: 8px; padding: 12px; }
+    .phone-card .h3 { font-size: 14px; color: var(--text-primary); }
+    .phone-card .small { color: var(--text-muted); }
+    .phone-indicator { display: flex; align-items: center; gap: 8px; padding: 8px 0; }
+    .phone-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+    .phone-dot.pending { background: #F59E0B; }
+
+    /* ===== INTRO SECTION ===== */
+    .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+    .intro-content .badge { margin-bottom: 16px; }
+    .intro-content .h2 { margin-bottom: 16px; }
+    .intro-content .body { color: var(--text-secondary); margin-bottom: 32px; }
+    .intro-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .stat { text-align: center; }
+    .stat-value { font-size: 40px; font-weight: 700; color: var(--accent); }
+    .stat-label { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+
+    /* ===== PROBLEM/SOLUTION ===== */
+    .ps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .ps-card { padding: 40px; }
+    .ps-card.problem { border-left: 4px solid #EF4444; }
+    .ps-card.solution { border-left: 4px solid var(--accent); }
+    .ps-card h3 { margin-bottom: 16px; display: flex; align-items: center; gap: 12px; }
+    .ps-card .body { color: var(--text-secondary); }
+    .icon-circle { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .icon-circle.red { background: #FEE2E2; }
+    .icon-circle.teal { background: var(--accent-light); }
+
+    /* ===== FEATURES ===== */
+    .features-header { text-align: center; margin-bottom: 64px; }
+    .features-header .badge { margin-bottom: 16px; }
+    .features-header .h2 { margin-bottom: 16px; }
+    .features-header p { color: var(--text-secondary); max-width: 560px; margin: 0 auto; }
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .feature-card { padding: 32px; }
+    .feature-card:hover { border-color: var(--accent); }
+    .feature-icon { width: 48px; height: 48px; background: var(--accent-light); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; font-size: 24px; }
+    .feature-card h3 { margin-bottom: 12px; }
+    .feature-card .body { color: var(--text-secondary); font-size: 14px; }
+
+    /* ===== HOW IT WORKS ===== */
+    .how-it-works { background: var(--surface-alt); }
+    .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; position: relative; }
+    .step { text-align: center; position: relative; }
+    .step-number {
+      width: 56px; height: 56px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0 auto 20px;
+    }
+    .step h3 { margin-bottom: 8px; }
+    .step .small { color: var(--text-secondary); }
+    .step-connector {
+      position: absolute;
+      top: 28px;
+      right: -16px;
+      width: 32px;
+      height: 2px;
+      background: var(--border);
+    }
+
+    /* ===== USER FLOWS ===== */
+    .flow-section { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .flow-card { padding: 40px; }
+    .flow-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 24px; }
+    .flow-title h3 { margin-bottom: 4px; }
+    .flow-title .small { color: var(--text-muted); }
+    .flow-steps { display: flex; flex-direction: column; gap: 16px; }
+    .flow-step { display: flex; gap: 16px; align-items: flex-start; }
+    .flow-step-num {
+      width: 28px; height: 28px;
+      background: var(--accent-light);
+      color: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+    .flow-step p { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+
+    /* ===== API DESIGN ===== */
+    .api-section { background: var(--navy); color: #fff; }
+    .api-section .badge { background: rgba(13, 148, 136, 0.2); color: var(--accent-light); margin-bottom: 16px; }
+    .api-section h2 { color: #fff; margin-bottom: 16px; }
+    .api-section p { color: #94A3B8; margin-bottom: 48px; }
+    .api-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .api-card { background: var(--navy-light); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; overflow: hidden; }
+    .api-endpoint {
+      padding: 20px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .api-method {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .api-method.get { background: #059669; color: #fff; }
+    .api-method.post { background: #2563EB; color: #fff; }
+    .api-method.put { background: #D97706; color: #fff; }
+    .api-path { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 14px; color: #E2E8F0; }
+    .api-body { padding: 20px 24px; font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; color: #94A3B8; line-height: 1.6; white-space: pre; }
+
+    /* ===== DATA MODEL ===== */
+    .data-model { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    .model-card { padding: 32px; }
+    .model-card h3 { font-size: 16px; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; }
+    .model-fields { display: flex; flex-direction: column; gap: 12px; }
+    .model-field { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); }
+    .model-field:last-child { border-bottom: none; }
+    .field-name { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; color: var(--accent); }
+    .field-type { font-size: 12px; color: var(--text-muted); }
+    .field-desc { font-size: 12px; color: var(--text-secondary); }
+
+    /* ===== REQUIREMENTS ===== */
+    .req-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .req-card { padding: 32px; }
+    .req-card h3 { margin-bottom: 20px; font-size: 16px; }
+    .req-list { list-style: none; }
+    .req-list li { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 12px; font-size: 14px; color: var(--text-secondary); }
+    .req-list li::before { content: '→'; color: var(--accent); font-weight: 600; }
+
+    /* ===== MILESTONES ===== */
+    .timeline { display: flex; gap: 0; }
+    .milestone { flex: 1; position: relative; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; }
+    .milestone:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -24px;
+      width: 48px;
+      height: 2px;
+      background: var(--border);
+    }
+    .milestone-date { font-size: 12px; font-weight: 600; color: var(--accent); margin-bottom: 8px; }
+    .milestone h3 { font-size: 16px; margin-bottom: 8px; }
+    .milestone .small { color: var(--text-secondary); }
+
+    /* ===== CTA ===== */
+    .cta-section { background: var(--accent); color: #fff; text-align: center; }
+    .cta-section h2 { color: #fff; margin-bottom: 16px; }
+    .cta-section p { color: rgba(255,255,255,0.8); margin-bottom: 40px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .cta-section .btn { background: #fff; color: var(--accent); }
+    .cta-section .btn:hover { background: var(--accent-light); }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--navy);
+      color: #94A3B8;
+      padding: 48px 0;
+      text-align: center;
+    }
+    footer p { font-size: 14px; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .features-grid { grid-template-columns: repeat(2, 1fr); }
+      .steps { grid-template-columns: repeat(2, 1fr); }
+      .step-connector { display: none; }
+    }
+    @media (max-width: 768px) {
+      .section { padding: 64px 0; }
+      .display { font-size: 40px; }
+      .h1 { font-size: 32px; }
+      .h2 { font-size: 24px; }
+      .intro-grid, .ps-grid, .flow-section, .api-grid, .data-model { grid-template-columns: 1fr; }
+      .features-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .hero-visual { display: none; }
+      .hero { padding: 64px 0 80px; }
+      .hero-content { max-width: 100%; }
+      .timeline { flex-direction: column; gap: 16px; }
+      .milestone:not(:last-child)::after { display: none; }
+      nav { display: none; }
+    }
+
+    /* ===== TOC ===== */
+    .toc {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 48px;
+    }
+    .toc h2 { font-size: 18px; margin-bottom: 20px; }
+    .toc-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; list-style: none; }
+    .toc-list a { color: var(--text-secondary); text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+    .toc-list a:hover { color: var(--accent); }
+    .toc-list a::before { content: '#'; color: var(--accent); }
+
+    /* ===== SECTION DIVIDERS ===== */
+    .section-label {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .section-title { margin-bottom: 16px; }
+    .section-desc { color: var(--text-secondary); max-width: 640px; }
+
+    /* ===== TABLES ===== */
+    .spec-table { width: 100%; border-collapse: collapse; }
+    .spec-table th, .spec-table td { padding: 16px; text-align: left; border-bottom: 1px solid var(--border); }
+    .spec-table th { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); background: var(--surface-alt); }
+    .spec-table td { font-size: 14px; color: var(--text-secondary); }
+    .spec-table td:first-child { font-family: 'SF Mono', 'Fira Code', monospace; color: var(--accent); font-size: 13px; }
+
+    /* ===== CALLOUT ===== */
+    .callout {
+      background: var(--accent-light);
+      border: 1px solid var(--accent);
+      border-radius: 8px;
+      padding: 20px 24px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin: 24px 0;
+    }
+    .callout-icon { font-size: 20px; }
+    .callout-content { font-size: 14px; color: var(--text-primary); }
+    .callout-content strong { display: block; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <div class="logo">
+      <div class="logo-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+        </svg>
+      </div>
+      ClientFlow
+    </div>
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#features">Features</a>
+      <a href="#flows">User Flows</a>
+      <a href="#api">API</a>
+      <a href="#data">Data Model</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#requirements">Requirements <span class="header-badge">v1.0</span></a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <span class="badge">Product Requirements — v1.0</span>
+      <h1 class="display">ClientFlow — AI Intake Fast Lane</h1>
+      <p>Transform how your firm captures and qualifies leads. AI-powered intake that converts prospects into qualified opportunities in under 90 seconds.</p>
+      <div class="hero-actions">
+        <a href="#overview" class="btn btn-primary">Explore Spec →</a>
+        <a href="#api" class="btn btn-secondary">View API Design</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="phone-header">
+            <div class="h3" style="color:#fff;">New Intake</div>
+            <span class="small" style="color:#94A3B8;">Lightwave Financial</span>
+          </div>
+          <div class="phone-card">
+            <div class="h3">John Martinez</div>
+            <div class="small">CPA, 12 years exp</div>
+            <div class="phone-indicator">
+              <div class="phone-dot"></div>
+              <span class="small" style="color:#0D9488;">Qualified → 94% match</span>
+            </div>
+          </div>
+          <div class="phone-card">
+            <div class="h3">Sarah Chen</div>
+            <div class="small">RIA, $50M AUM target</div>
+            <div class="phone-indicator">
+              <div class="phone-dot pending"></div>
+              <span class="small" style="color:#F59E0B;">Review needed</span>
+            </div>
+          </div>
+          <div class="phone-card">
+            <div class="h3">Marcus Webb</div>
+            <div class="small">Estate planning focus</div>
+            <div class="phone-indicator">
+              <div class="phone-dot"></div>
+              <span class="small" style="color:#0D9488;">Qualified → 87% match</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTRO / OVERVIEW -->
+<section id="overview" class="section" style="background: var(--bg);">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-content">
+        <span class="badge">Overview</span>
+        <h2 class="h1">The fastest path from prospect to qualified lead</h2>
+        <p class="body">ClientFlow replaces clunky intake forms and endless email back-and-forth with an intelligent, conversational interface that qualifies leads instantly and routes them to the right advisors.</p>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+          <a href="#features" class="btn btn-primary btn-sm">Core Features</a>
+          <a href="#flows" class="btn btn-secondary btn-sm">User Flows</a>
+        </div>
+      </div>
+      <div class="intro-stats">
+        <div class="stat">
+          <div class="stat-value">90s</div>
+          <div class="stat-label">Avg. intake time</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">4×</div>
+          <div class="stat-label">Faster qualification</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">95%</div>
+          <div class="stat-label">Lead capture rate</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM / SOLUTION -->
+<section class="section" style="background: var(--surface-alt);">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: 48px;">
+      <span class="section-label">Problem & Solution</span>
+      <h2 class="h2">Why intake is broken — and how we fix it</h2>
+    </div>
+    <div class="ps-grid">
+      <div class="card ps-card problem">
+        <h3><span class="icon-circle red">✕</span> The Problem</h3>
+        <ul style="list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 16px;">
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: #EF4444; font-weight: 700;">01.</span> Generic forms capture bare minimum data, killing qualification accuracy</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: #EF4444; font-weight: 700;">02.</span> Manual follow-up creates 24–72 hour delays that kill urgency</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: #EF4444; font-weight: 700;">03.</span> No firm-wide visibility into lead pipeline or intake status</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: #EF4444; font-weight: 700;">04.</span> Human bias in qualification leads to missed opportunities</li>
+        </ul>
+      </div>
+      <div class="card ps-card solution">
+        <h3><span class="icon-circle teal">✓</span> The Solution</h3>
+        <ul style="list-style: none; margin-top: 20px; display: flex; flex-direction: column; gap: 16px;">
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: var(--accent); font-weight: 700;">01.</span> Dynamic AI conversations adapt questions based on role and context</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: var(--accent); font-weight: 700;">02.</span> Instant qualification the moment a lead submits their info</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: var(--accent); font-weight: 700;">03.</span> Real-time pipeline dashboard with complete lead visibility</li>
+          <li style="font-size: 14px; color: var(--text-secondary); display: flex; gap: 12px;"><span style="color: var(--accent); font-weight: 700;">04.</span> Consistent, bias-free scoring based on firm-defined criteria</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="section">
+  <div class="container">
+    <div class="features-header">
+      <span class="badge">Core Features</span>
+      <h2 class="h2">Everything your team needs to capture and convert</h2>
+      <p>From first tap to matched advisor — every step of the intake journey, optimized.</p>
+    </div>
+    <div class="features-grid">
+      <div class="card feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Smart Qualification</h3>
+        <p>AI-driven question branching adapts to each prospect's role and firm type, ensuring you capture exactly what you need — no more, no less.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Instant Scoring</h3>
+        <p>Every lead gets a fit-score the moment they submit. Thresholds are configurable per firm priority. Qualified leads surface instantly.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">🔗</div>
+        <h3>CRM Sync</h3>
+        <p>Bi-directional sync with Salesforce, HubSpot, and custom CRM endpoints. Data flows in real-time — no Zapier delays, no manual exports.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Mobile-First Intake</h3>
+        <p>Fully responsive, native-feeling experience on any device. Works offline and syncs when connection returns.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Compliance-Ready</h3>
+        <p>SOC 2 Type II certified. All data encrypted at rest and in transit. Configurable data retention policies per jurisdiction.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Analytics Dashboard</h3>
+        <p>Track conversion rates, drop-off points, and qualification trends. Identify bottlenecks and iterate on intake flow performance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how-it-works">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: 64px;">
+      <span class="section-label">How It Works</span>
+      <h2 class="h2">From prospect to qualified in 4 steps</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h3>Capture</h3>
+        <p class="small">Lead scans QR or taps link. Branded intake page loads instantly on any device.</p>
+        <div class="step-connector"></div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h3>Qualify</h3>
+        <p class="small">AI asks dynamic questions. Branching logic adapts to role and firm type for maximum relevance.</p>
+        <div class="step-connector"></div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h3>Score</h3>
+        <p class="small">Firm-defined criteria applied. Lead receives match score and routing tag automatically.</p>
+        <div class="step-connector"></div>
+      </div>
+      <div class="step">
+        <div class="step-number">4</div>
+        <h3>Route</h3>
+        <p class="small">Qualified leads routed to assigned advisor. Notification sent. CRM updated in real-time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- USER FLOWS -->
+<section id="flows" class="section">
+  <div class="container">
+    <div style="margin-bottom: 48px;">
+      <span class="section-label">User Flows</span>
+      <h2 class="h2">Two primary journeys, zero friction</h2>
+    </div>
+    <div class="flow-section">
+      <div class="card flow-card">
+        <div class="flow-header">
+          <div class="flow-title">
+            <h3 class="h3">Prospect Intake Flow</h3>
+            <span class="small">For leads entering the funnel</span>
+          </div>
+          <span class="badge">Primary</span>
+        </div>
+        <div class="flow-steps">
+          <div class="flow-step">
+            <div class="flow-step-num">1</div>
+            <p><strong>Landing page loads</strong> — Branded, mobile-optimized intake form appears. Timer starts (avg. 90s).</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">2</div>
+            <p><strong>Role detection</strong> — "What best describes you?" initial question branches to CPA, RIA, Attorney, or Exec path.</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">3</div>
+            <p><strong>Dynamic Q&A</strong> — 5–8 role-specific questions. AI skips irrelevant sections. 73% fewer fields than traditional forms.</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">4</div>
+            <p><strong>Instant results</strong> — Fit score displayed. "You're a 94% match!" CTA to book call or add to waitlist.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card flow-card">
+        <div class="flow-header">
+          <div class="flow-title">
+            <h3 class="h3">Advisor Review Flow</h3>
+            <span class="small">For your team qualifying leads</span>
+          </div>
+          <span class="badge">Internal</span>
+        </div>
+        <div class="flow-steps">
+          <div class="flow-step">
+            <div class="flow-step-num">1</div>
+            <p><strong>Notification lands</strong> — Slack/email alert with lead summary, score, and key signals. No app switching required.</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">2</div>
+            <p><strong>Quick review</strong> — Lead card shows full profile, conversation transcript, and flagged items needing attention.</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">3</div>
+            <p><strong>One-click actions</strong> — "Accept & Book", "Request More Info", or "Nurture" buttons. CRM updates in real-time.</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-num">4</div>
+            <p><strong>Auto-escalation</strong> — Unreviewed leads after 4 hours auto-escalate. No hot lead goes cold.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- API DESIGN -->
+<section id="api" class="section api-section">
+  <div class="container">
+    <span class="badge">API Design</span>
+    <h2 class="h2">REST API — 9 endpoints, full CRUD</h2>
+    <p>JSON over HTTPS. JWT Bearer auth. All timestamps UTC. Pagination via cursor.</p>
+    <div class="api-grid">
+      <div class="api-card">
+        <div class="api-endpoint">
+          <span class="api-method post">POST</span>
+          <span class="api-path">/v1/intake</span>
+        </div>
+        <div class="api-body">{
+  "prospect_email": "j.martinez@lwfa.com",
+  "prospect_name": "John Martinez",
+  "firm_type": "cpa",
+  "firm_name": "Lightwave Financial",
+  "answers": [
+    {"q": "aum_managed", "a": "25000000"},
+    {"q": "client_type", "a": "high_net"},
+    {"q": "primary_goal", "a": "tax_efficiency"}
+  ],
+  "source": "organic_search",
+  "utm_params": {"utm_campaign": "q1-lead-gen"}
+}</div>
+      </div>
+      <div class="api-card">
+        <div class="api-endpoint">
+          <span class="api-method post">POST</span>
+          <span class="api-path">/v1/intake/{id}/qualify</span>
+        </div>
+        <div class="api-body">{
+  "fit_score": 94,
+  "match_tags": ["tax-efficiency", "high-net", "growth-oriented"],
+  "recommended_route": "senior-advisor",
+  "routing_priority": "high",
+  "enrichment": {
+    "linkedin_verified": true,
+    "firm_size_confirmed": true
+  }
+}</div>
+      </div>
+      <div class="api-card">
+        <div class="api-endpoint">
+          <span class="api-method get">GET</span>
+          <span class="api-path">/v1/intake/{id}</span>
+        </div>
+        <div class="api-body">{
+  "id": "int_8a3f2c",
+  "status": "qualified",
+  "prospect": {
+    "name": "John Martinez",
+    "email": "j.martinez@lwfa.com",
+    "role": "cpa",
+    "firm": "Lightwave Financial"
+  },
+  "score_breakdown": {...},
+  "assigned_to": "adv_9x2k1",
+  "created_at": "2026-05-28T14:32:00Z"
+}</div>
+      </div>
+      <div class="api-card">
+        <div class="api-endpoint">
+          <span class="api-method put">PUT</span>
+          <span class="api-path">/v1/intake/{id}/route</span>
+        </div>
+        <div class="api-body">{
+  "advisor_id": "adv_9x2k1",
+  "route_reason": "score_90plus_category_match",
+  "sla_target": "respond_within_2h",
+  "notify_prospect": true
+}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DATA MODEL -->
+<section id="data" class="section" style="background: var(--surface-alt);">
+  <div class="container">
+    <div style="margin-bottom: 48px;">
+      <span class="section-label">Data Model</span>
+      <h2 class="h2">Core entities — 4 primary objects</h2>
+    </div>
+    <div class="data-model">
+      <div class="card model-card">
+        <h3>📋 Intake</h3>
+        <div class="model-fields">
+          <div class="model-field">
+            <span class="field-name">id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">prospect_email</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">prospect_name</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">firm_type</span>
+            <span class="field-type">enum</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">answers</span>
+            <span class="field-type">array</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">fit_score</span>
+            <span class="field-type">integer</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">status</span>
+            <span class="field-type">enum</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">assigned_advisor_id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">created_at</span>
+            <span class="field-type">timestamp</span>
+          </div>
+        </div>
+      </div>
+      <div class="card model-card">
+        <h3>👤 Prospect</h3>
+        <div class="model-fields">
+          <div class="model-field">
+            <span class="field-name">id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">name</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">email</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">phone</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">role</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">firm_id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">intakes_total</span>
+            <span class="field-type">integer</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">last_activity_at</span>
+            <span class="field-type">timestamp</span>
+          </div>
+        </div>
+      </div>
+      <div class="card model-card">
+        <h3>🏢 Firm</h3>
+        <div class="model-fields">
+          <div class="model-field">
+            <span class="field-name">id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">name</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">type</span>
+            <span class="field-type">enum</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">aum</span>
+            <span class="field-type">currency</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">advisor_count</span>
+            <span class="field-type">integer</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">intake_source</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">verified</span>
+            <span class="field-type">boolean</span>
+          </div>
+        </div>
+      </div>
+      <div class="card model-card">
+        <h3>📊 Advisor</h3>
+        <div class="model-fields">
+          <div class="model-field">
+            <span class="field-name">id</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">name</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">email</span>
+            <span class="field-type">string</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">specializations</span>
+            <span class="field-type">array</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">current_capacity</span>
+            <span class="field-type">integer</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">active_intakes</span>
+            <span class="field-type">integer</span>
+          </div>
+          <div class="model-field">
+            <span class="field-name">slack_notify_id</span>
+            <span class="field-type">string</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section id="requirements" class="section">
+  <div class="container">
+    <div style="margin-bottom: 48px;">
+      <span class="section-label">Requirements</span>
+      <h2 class="h2">Non-negotiable — all must ship</h2>
+    </div>
+    <div class="req-grid">
+      <div class="card req-card">
+        <h3>⚡ Performance</h3>
+        <ul class="req-list">
+          <li>Intake form loads in &lt; 1.5s on 4G</li>
+          <li>Qualification completes in &lt; 800ms</li>
+          <li>API response time &lt; 200ms p95</li>
+          <li>99.9% uptime SLA</li>
+        </ul>
+      </div>
+      <div class="card req-card">
+        <h3>🔒 Security</h3>
+        <ul class="req-list">
+          <li>SOC 2 Type II certified at launch</li>
+          <li>All data encrypted at rest (AES-256)</li>
+          <li>TLS 1.3 for all connections</li>
+          <li>Configurable data retention per jurisdiction</li>
+        </ul>
+      </div>
+      <div class="card req-card">
+        <h3>🔗 Integrations</h3>
+        <ul class="req-list">
+          <li>Salesforce bi-directional sync</li>
+          <li>HubSpot bi-directional sync</li>
+          <li>Slack notifications for new leads</li>
+          <li>Webhook support for custom flows</li>
+        </ul>
+      </div>
+      <div class="card req-card">
+        <h3>📱 Accessibility</h3>
+        <ul class="req-list">
+          <li>WCAG 2.1 AA compliant</li>
+          <li>Keyboard navigable flows</li>
+          <li>Screen reader tested</li>
+          <li>Works on iOS Safari, Chrome, Firefox</li>
+        </ul>
+      </div>
+      <div class="card req-card">
+        <h3>🌍 Localization</h3>
+        <ul class="req-list">
+          <li>English + Spanish at launch</li>
+          <li>Currency formatting per locale</li>
+          <li>Date format auto-detected</li>
+          <li>RTL-ready architecture</li>
+        </ul>
+      </div>
+      <div class="card req-card">
+        <h3>📈 Analytics</h3>
+        <ul class="req-list">
+          <li>Real-time conversion funnel</li>
+          <li>Drop-off rate per question</li>
+          <li>Time-to-qualify trends</li>
+          <li>Advisor performance metrics</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline" class="section" style="background: var(--surface-alt);">
+  <div class="container">
+    <div style="margin-bottom: 48px;">
+      <span class="section-label">Go-to-Market</span>
+      <h2 class="h2">Phase 1 timeline — 12 weeks to launch</h2>
+    </div>
+    <div class="timeline">
+      <div class="milestone">
+        <div class="milestone-date">Weeks 1–2</div>
+        <h3>Foundation</h3>
+        <p class="small">API scaffolding, data model, auth layer. Design system implemented in code.</p>
+      </div>
+      <div class="milestone">
+        <div class="milestone-date">Weeks 3–5</div>
+        <h3>Intake Flow</h3>
+        <p class="small">Dynamic form builder, question branching engine, scoring algorithm.</p>
+      </div>
+      <div class="milestone">
+        <div class="milestone-date">Weeks 6–8</div>
+        <h3>Routing & CRM</h3>
+        <p class="small">Advisor matching, Slack/email notifications, Salesforce + HubSpot sync.</p>
+      </div>
+      <div class="milestone">
+        <div class="milestone-date">Weeks 9–11</div>
+        <h3>Polish & QA</h3>
+        <p class="small">Performance tuning, accessibility audit, load testing, security review.</p>
+      </div>
+      <div class="milestone">
+        <div class="milestone-date">Week 12</div>
+        <h3>🚀 Launch</h3>
+        <p class="small">Beta cohort (10 firms). Monitoring dashboards. Support rotation staffed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CALLOUT -->
+<div class="container" style="margin: -32px auto 0; max-width: 1120px; padding: 0 24px;">
+  <div class="callout">
+    <div class="callout-icon">💡</div>
+    <div class="callout-content">
+      <strong>Design Note</strong>
+      This spec targets a mobile-first, high-converting intake experience. The 90-second target is non-negotiable — every second beyond that drops qualification rates by 12%. QA must time every flow path from landing to score display.
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="section cta-section">
+  <div class="container">
+    <h2 class="h1">Ready to build?</h2>
+    <p>Save this spec, share it with your team, and start scoping the sprint. Questions? Open an issue in the repo.</p>
+    <a href="#" class="btn">View in Repo →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <p>ClientFlow — AI Intake Fast Lane · Product Spec v1.0 · May 2026</p>
+  </div>
+</footer>
+
+</body>
+</html>
