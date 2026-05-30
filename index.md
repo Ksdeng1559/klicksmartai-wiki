@@ -5,6 +5,8 @@
 |-----------|-------------|
 | dennis-eng | Founder & Owner — identity, family, working style, instruction rules |
 | klicksmartai | System Outcome Agency — services, stack, positioning, channels |
+| [GTM Engineer Resources](./gtm-engineer-resources/) | Curated tools + data sources forming the GTM Engineering stack — signal intelligence, enrichment, outbound automation, and workflow orchestration. Includes Explorium, EnrichLayer, Clay, Apollo, Apify, Bright Data, Instantly, Phantombuster, n8n. Categorized by Spectra Holdings use case. |
+| klick2client-os | B2B client acquisition OS — LinkedIn + Email lifecycle engine, 360-day parallel tracks, Sales Battlecards, GTM Engineering product |
 | ncf-national-christian-foundation | NCF org profile — mission, values, audience, language patterns, outreach angles, DAF market context; capital source for Spectra Holdings Group |
 | spectra-holdings-group | Spectra Holdings Group — faith-aligned holdings, Master Credit Facility, missionary work; NCF is target capital source |
 | capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
@@ -13,6 +15,9 @@
 | entity-id | Description |
 |-----------|-------------|
 | project-portfolio | Master index of 30+ projects across agency, revenue intel, mortgage, solar, apps, SEO, content |
+| mortgage-broker-os | Klick2Client OS vertical — lead-to-funded automation for mortgage brokers (proposal pack v1.0) |
+| commercial-mortgage-os | Klick2Client OS vertical — commercial mortgage pipeline intelligence (deal stalls, maturity wall, CMBS servicing) |
+| rios-mortgage-intelligence-exchange | RIOS tech stack — residential + commercial mortgage intelligence (32-task tracker live) |
 
 ## Capital Sources
 | entity-id | Description |
@@ -47,6 +52,11 @@
 |----------|-------------|
 | deliverability-audit-idc | Email deliverability audit for Insurance Direct Canada |
 | idc-gamma-blueprint | IDC Gamma content blueprint |
+
+## GTM Engineer Resources
+| resource-id | Description |
+|-------------|-------------|
+| explorium-ai | B2B data enrichment + GTM Engineering platform — agentic data layer, CRM hygiene, custom signal generation, OpenClaw/Claude Code integration guide (97.8% accuracy) |
 
 ## Playbooks
 | playbook-id | Description |
