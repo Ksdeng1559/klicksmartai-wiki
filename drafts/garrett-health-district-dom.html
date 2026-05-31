@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garrett Health District Residences — Developer Opportunity Memorandum</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0d0f14; --surface: #13161e; --surface2: #1a1e29; --border: #252a38;
+    --accent: #c9a84c; --accent-dim: #c9a84c22;
+    --text: #e8e4dc; --text-muted: #8a8a9a; --text-dim: #55576a;
+    --green: #4caf82; --amber: #e0a85c; --red: #e05c5c;
+    --font-head: Georgia, serif; --font-body: Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-mono: Courier New, Courier, monospace; --max-w: 900px;
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 15px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 32px 24px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .doc-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  h1.doc-title { font-family: var(--font-head); font-size: 26px; font-weight: normal; color: var(--text); line-height: 1.25; margin-bottom: 14px; }
+  .meta-strip { display: flex; flex-wrap: wrap; gap: 20px; font-size: 12px; color: var(--text-muted); font-family: var(--font-mono); }
+  .meta-strip span { display: flex; align-items: center; gap: 6px; }
+  .meta-strip .dot { color: var(--accent); }
+  .badge { display: inline-block; background: var(--accent-dim); border: 1px solid var(--accent); color: var(--accent); font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; padding: 2px 8px; border-radius: 2px; margin-left: 8px; vertical-align: middle; }
+  .cover-block { background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--accent); padding: 28px 32px; margin: 32px auto; max-width: var(--max-w); font-family: var(--font-mono); font-size: 13px; line-height: 2; color: var(--text-muted); }
+  .cover-block strong { color: var(--text); }
+  main { max-width: var(--max-w); margin: 0 auto; padding: 0 24px 80px; }
+  .section-num { font-family: var(--font-mono); font-size: 10px; color: var(--accent); letter-spacing: 0.14em; text-transform: uppercase; display: block; margin-bottom: 4px; }
+  h2 { font-family: var(--font-head); font-size: 22px; font-weight: normal; color: var(--text); padding-bottom: 10px; border-bottom: 1px solid var(--border); margin: 48px 0 20px; }
+  h3 { font-family: var(--font-body); font-size: 14px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin: 28px 0 10px; }
+  p { margin-bottom: 14px; color: var(--text); }
+  .callout { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 16px 20px; margin: 20px 0; font-size: 14px; color: var(--text-muted); }
+  .callout strong { color: var(--text); }
+  .table-wrap { overflow-x: auto; margin: 20px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; font-family: var(--font-body); }
+  thead tr { background: var(--surface2); border-bottom: 2px solid var(--border); }
+  th { padding: 10px 14px; text-align: left; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); white-space: nowrap; }
+  td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: top; }
+  tbody tr:hover td { background: var(--surface); }
+  td strong { color: var(--text); }
+  td .val { font-family: var(--font-mono); color: var(--accent); font-size: 12px; }
+  td .val-green { font-family: var(--font-mono); color: var(--green); font-size: 12px; }
+  td .val-amber { font-family: var(--font-mono); color: var(--amber); font-size: 12px; }
+  ul, ol { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 6px; color: var(--text); }
+  li::marker { color: var(--accent); }
+  pre { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 20px 24px; margin: 20px 0; font-family: var(--font-mono); font-size: 12px; line-height: 2; color: var(--text-muted); overflow-x: auto; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  .highlight-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 20px 0; }
+  .hcard { background: var(--surface); border: 1px solid var(--border); border-top: 2px solid var(--accent); padding: 16px; }
+  .hcard .label { font-family: var(--font-mono); font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+  .hcard .value { font-family: var(--font-head); font-size: 20px; color: var(--text); line-height: 1.2; }
+  .hcard .sub { font-size: 11px; color: var(--text-muted); margin-top: 4px; font-family: var(--font-mono); }
+  .econ-table td:nth-child(2), .econ-table td:nth-child(3) { font-family: var(--font-mono); font-size: 12px; text-align: right; }
+  .econ-table tr.total td { background: var(--surface2); border-top: 2px solid var(--border); font-weight: 600; color: var(--text); }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .checklist li::before { content: '☐'; color: var(--accent); font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+  .timeline { border-left: 2px solid var(--border); padding-left: 28px; margin-left: 8px; }
+  .timeline li { position: relative; margin-bottom: 18px; list-style: none; padding-left: 0; }
+  .timeline li::before { content: ''; position: absolute; left: -34px; top: 8px; width: 8px; height: 8px; background: var(--accent); border-radius: 50%; }
+  .confidential { max-width: var(--max-w); margin: 0 auto; padding: 24px; border-top: 1px solid var(--border); font-size: 11px; color: var(--text-dim); font-family: var(--font-mono); text-align: center; line-height: 1.8; }
+  @media (max-width: 640px) { h1.doc-title { font-size: 20px; } h2 { font-size: 18px; } .highlight-row { grid-template-columns: 1fr 1fr; } .cover-block { padding: 20px; font-size: 12px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="doc-label">Developer Opportunity Memorandum</div>
+    <h1 class="doc-title">Garrett Health District Residences</h1>
+    <div class="meta-strip">
+      <span><span class="dot">●</span> 417 · 419 · [Adjacent Parcel] Garrett Street</span>
+      <span>Sapperton, New Westminster, BC</span>
+      <span>GHD-RLV-2026-001</span>
+      <span>May 30, 2026</span>
+      <span class="badge">Confidential</span>
+    </div>
+  </div>
+</header>
+
+<div class="cover-block">
+<strong>Prepared by:</strong>  Dennis — Landowner Representative<br>
+<strong>Reference:</strong>    GHD-RLV-2026-001<br>
+<strong>Accompanying:</strong> Residual Land Value Model (garrett-health-district-residences-rlv.xlsx)
+</div>
+
+<main>
+
+<h2><span class="section-num">Section 01</span>Investment Thesis</h2>
+<p><strong>Garrett Health District Residences</strong> is a purpose-built rental housing opportunity anchored by proximity to the largest hospital redevelopment in Fraser Health — and positioned at the intersection of three converging policy tailwinds: BC's Transit-Oriented Development legislation, the Townhouse and Infill Housing Accelerator Programs, and the national Affordable Housing Fund.</p>
+<p>The site sits <strong>550 metres from Sapperton SkyTrain Station</strong> and <strong>400 metres from the Royal Columbian Hospital's new Jim Pattison Acute Care Tower</strong>, which opened May 31, 2026. Phase 2 and 3 of the RCH redevelopment are estimated at <strong>$2 billion</strong> — representing the most significant healthcare infrastructure investment in the Fraser Valley.</p>
+<div class="callout">This is not a generic apartment proposal. It is a <strong>workforce housing project</strong> for the 2,000+ nurses, physicians, allied health workers, and medical technicians who will staff the expanded hospital. That framing — not available to most infill sites — aligns the project simultaneously with provincial housing policy, municipal housing objectives, and community livability goals.</div>
+
+<h2><span class="section-num">Section 02</span>Site Summary</h2>
+<div class="highlight-row">
+  <div class="hcard"><div class="label">Addresses</div><div class="value">417 · 419 · Adjacent Parcel</div><div class="sub">Garrett Street, Sapperton, NW</div></div>
+  <div class="hcard"><div class="label">Combined Lot Area</div><div class="value">~15,000 sqft</div><div class="sub">Est. from 3-parcel assembly</div></div>
+  <div class="hcard"><div class="label">Combined Frontage</div><div class="value">~150 linear ft</div><div class="sub">Three-parcel assembly</div></div>
+  <div class="hcard"><div class="label">Zoning</div><div class="value">RS</div><div class="sub">Single Detached Residential</div></div>
+  <div class="hcard"><div class="label">OCP Designation</div><div class="value">Urban Residential</div><div class="sub">Supports increased density near transit</div></div>
+  <div class="hcard"><div class="label">TOD Tier</div><div class="value">Tier 3</div><div class="sub">401–800m from Sapperton SkyTrain</div></div>
+  <div class="hcard"><div class="label">BC TOD Maximum</div><div class="value">3.0 FSR / 8 Storeys</div><div class="sub">Mandatory Density Framework</div></div>
+  <div class="hcard"><div class="label">Assessment Status</div><div class="value">Privately Held</div><div class="sub">No encumbrances detected</div></div>
+</div>
+
+<h3>Location Context</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Destination</th><th>Distance</th><th>Walk Time</th></tr></thead>
+    <tbody>
+      <tr><td>Sapperton SkyTrain Station</td><td class="val">550m</td><td>6–7 min</td></tr>
+      <tr><td>Royal Columbian Hospital (Main)</td><td class="val">400m</td><td>5 min</td></tr>
+      <tr><td>Jim Pattison Acute Care Tower</td><td class="val">450m</td><td>6 min</td></tr>
+      <tr><td>Columbia Street Greenway</td><td class="val">200m</td><td>2 min</td></tr>
+      <tr><td>River Market / Westminster Quay</td><td class="val">1.2km</td><td>14 min</td></tr>
+      <tr><td>Downtown New Westminster</td><td class="val">2.0km</td><td>24 min</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Comparable Sales — Garrett Street</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Address</th><th>Sale Price</th><th>Lot Size</th><th>Year</th></tr></thead>
+    <tbody>
+      <tr><td>417 Garrett St</td><td class="val-green">$1,300,000</td><td>~5,000 sqft</td><td>Listed 2025</td></tr>
+      <tr><td>468 Garrett St</td><td class="val">$1,098,000</td><td>2,768 sqft / 5,107 sqft</td><td>2021</td></tr>
+      <tr><td>446 Garrett St</td><td>—</td><td>5,107 sqft lot</td><td>—</td></tr>
+      <tr><td>430 Garrett St</td><td>—</td><td>5,107 sqft lot</td><td>—</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="callout"><strong>Assembled land value (3 parcels):</strong> <span class="val">$4,000,000–$5,500,000</span></div>
+
+<h2><span class="section-num">Section 03</span>Development Opportunity</h2>
+<div class="highlight-row">
+  <div class="hcard"><div class="label">Project Name</div><div class="value">Garrett Health District Residences</div></div>
+  <div class="hcard"><div class="label">Form</div><div class="value">6–8 Storey Purpose-Built Rental</div></div>
+  <div class="hcard"><div class="label">Unit Count</div><div class="value">55–75 Units</div><div class="sub">Mix: studios, 1BR, 2BR</div></div>
+  <div class="hcard"><div class="label">Gross Floor Area</div><div class="value">45,000–54,000 sqft</div><div class="sub">3.0 FSR on 15,000 sqft assembly</div></div>
+  <div class="hcard"><div class="label">Target Tenant</div><div class="value">Healthcare Workers @ RCH</div></div>
+  <div class="hcard"><div class="label">Parking</div><div class="value">22–30 Spaces</div><div class="sub">0.4/unit under TOD reduced req.</div></div>
+</div>
+
+<h3>Why This Site</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Factor</th><th>Advantage</th></tr></thead>
+    <tbody>
+      <tr><td><strong>SkyTrain access</strong></td><td>550m to Sapperton Station — TOD Tier 3 confirmed</td></tr>
+      <tr><td><strong>RCH adjacency</strong></td><td>400m to Metro Vancouver's largest hospital expansion</td></tr>
+      <tr><td><strong>Policy alignment</strong></td><td>BC TOD legislation + municipal housing objectives</td></tr>
+      <tr><td><strong>Demand driver</strong></td><td>2,000+ RCH staff needing housing near work</td></tr>
+      <tr><td><strong>Competitive supply</strong></td><td>0.8% vacancy in New Westminster — minimal new supply</td></tr>
+      <tr><td><strong>Amenity rich</strong></td><td>Sapperton Village, River Market, Greenway all within walking distance</td></tr>
+      <tr><td><strong>Transit ridership</strong></td><td>RCH workers are historically transit-dependent</td></tr>
+      <tr><td><strong>NIMBY risk mitigation</strong></td><td>Healthcare framing is politically defensible; City cannot easily oppose</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Target Demographics — RCH Staff</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Cohort</th><th>Est. RCH Staff</th><th>Typical Rent Range</th><th>Transport Mode</th></tr></thead>
+    <tbody>
+      <tr><td>Staff nurses</td><td class="val">800+</td><td class="val">$2,000–2,500/mo</td><td>Transit / cycling</td></tr>
+      <tr><td>Residents / fellows</td><td class="val">200+</td><td class="val">$2,500–3,500/mo</td><td>Transit / car</td></tr>
+      <tr><td>Allied health</td><td class="val">400+</td><td class="val">$2,000–2,800/mo</td><td>Transit</td></tr>
+      <tr><td>Physicians</td><td class="val">150+</td><td class="val">$3,000–5,000/mo</td><td>Car / transit</td></tr>
+      <tr><td>Support / admin</td><td class="val">500+</td><td class="val">$1,800–2,200/mo</td><td>Transit</td></tr>
+      <tr><td>Clinical students</td><td class="val">200+</td><td class="val">$1,500–2,000/mo</td><td>Transit / bike</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="callout"><strong>Note:</strong> A significant share of these workers currently commute from outside New Westminster. Reducing commute times through proximate housing improves staff retention for Fraser Health — a stated provincial priority.</div>
+
+<h2><span class="section-num">Section 04</span>Financial Overview</h2>
+<p><em>Full residual land value model attached — garrett-health-district-residences-rlv.xlsx</em></p>
+<h3>Base Case Assumptions</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Input</th><th>Base</th><th>Sensitivity Range</th></tr></thead>
+    <tbody>
+      <tr><td>Lot area</td><td class="val">15,000 sqft</td><td>—</td></tr>
+      <tr><td>FSR</td><td class="val">3.0</td><td>—</td></tr>
+      <tr><td>Gross building area</td><td class="val">53,100 sqft</td><td>—</td></tr>
+      <tr><td>Unit count</td><td class="val">75 units</td><td class="val-amber">55–75</td></tr>
+      <tr><td>Avg unit size</td><td class="val">700 sqft</td><td class="val-amber">550–800 sqft</td></tr>
+      <tr><td>Avg monthly rent</td><td class="val">$2,100</td><td class="val-amber">$1,900–2,300</td></tr>
+      <tr><td>Construction cost</td><td class="val">$430/sqft</td><td class="val-amber">$400–$470</td></tr>
+      <tr><td>Exit cap rate</td><td class="val">5.75%</td><td class="val-amber">5.0%–6.5%</td></tr>
+      <tr><td>DCL (after waiver)</td><td class="val">$5.00/sqft</td><td class="val-amber">$0–$18.17</td></tr>
+      <tr><td>Developer profit target</td><td class="val">15% GDV</td><td>—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Indicative Economics — 6-Storey Base Case</h3>
+<div class="table-wrap">
+  <table class="econ-table">
+    <thead><tr><th>Item</th><th>Amount</th></tr></thead>
+    <tbody>
+      <tr><td>Gross Development Value</td><td class="val">$24,780,000</td></tr>
+      <tr><td>Construction Costs (incl. parking)</td><td class="val">($23,883,000)</td></tr>
+      <tr><td>Soft Costs</td><td class="val">($4,515,000)</td></tr>
+      <tr><td>Financing</td><td class="val">($2,576,000)</td></tr>
+      <tr><td>Developer Profit (15%)</td><td class="val">($3,717,000)</td></tr>
+      <tr class="total"><td><strong>Total Project Cost</strong></td><td class="val"><strong>$54,691,000</strong></td></tr>
+      <tr class="total"><td><strong>Indicative Residual Land Value</strong></td><td class="val"><strong>$4,000,000–$5,500,000</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Key Finding: The Path to Viability</h3>
+<p>Pure market rental at current construction costs and cap rates produces tight residual economics — a common finding across Metro Vancouver purpose-built rental sites in 2025–2026. The project reaches viability through:</p>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Mechanism</th><th>Impact</th></tr></thead>
+    <tbody>
+      <tr><td><strong>CMHC MLI Select financing</strong></td><td>Reduces construction financing rate by ~100–150 bps; increases feasibility</td></tr>
+      <tr><td><strong>BC Housing co-investment</strong></td><td>Reduces effective capital requirement; may improve cap rate</td></tr>
+      <tr><td><strong>DCL partial or full waiver</strong></td><td>Saves $500,000–$800,000+ in municipal DCLs</td></tr>
+      <tr><td><strong>5% affordability set-aside premium</strong></td><td>Qualifies for expedited processing; Council support</td></tr>
+      <tr><td><strong>Healthcare employer partnership</strong></td><td>RCH or Fraser Health partnership anchors demand; reduces vacancy risk</td></tr>
+      <tr><td><strong>Cap rate compression</strong></td><td>If market cap rates reach 5.25–5.5% (expected 2–3 years), viability improves materially</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Development Profit Summary</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Scenario</th><th>GDV</th><th>Dev. Profit</th><th>Profit % GDV</th><th>Profit / Unit</th></tr></thead>
+    <tbody>
+      <tr><td>6-Storey (base)</td><td class="val">$24.78M</td><td class="val">$3.72M</td><td>15.0%</td><td class="val">$49,600</td></tr>
+      <tr><td>6-Storey (with DCL waiver)</td><td class="val">$24.78M</td><td class="val">$4.32M</td><td>17.4%</td><td class="val">$57,600</td></tr>
+      <tr><td>8-Storey (base)</td><td class="val">$24.78M</td><td class="val">$3.72M</td><td>15.0%</td><td class="val">$49,600</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2><span class="section-num">Section 05</span>Approval Pathway</h2>
+<h3>Current Regulatory Environment</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Policy / Designation</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Current zoning</td><td class="val-amber">RS — single detached only</td></tr>
+      <tr><td>BC TOD Minimum Density Framework</td><td class="val-green">In effect — 3.0 FSR / 8 storeys at Tier 3</td></tr>
+      <tr><td>BC SSMUH / Infill Housing Program</td><td class="val-green">Active — up to 6 units by-right (single lot) in TOD areas</td></tr>
+      <tr><td>NW Townhouse Accelerator</td><td class="val-green">First and second reading complete; third reading expected Q2 2026</td></tr>
+      <tr><td>NW Infill Housing Program</td><td class="val-green">Under development; pre-zoning for up to 6 units in TOD areas</td></tr>
+      <tr><td>New Westminster TOD Design Guidelines</td><td class="val-amber">Expected early 2027</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Rezoning Process</h3>
+<ol class="timeline">
+  <li><strong>Pre-application meeting</strong> with New Westminster Planning Dept</li>
+  <li><strong>Rezoning application</strong> submitted (no public hearing required — ≥50% residential per Bill 44)</li>
+  <li><strong>Technical review</strong> and staff report to Council (12–18 weeks)</li>
+  <li><strong>Council first and second reading</strong></li>
+  <li><strong>Public consultation</strong> (written submissions; no oral hearing)</li>
+  <li><strong>Council third reading and adoption</strong></li>
+  <li><strong>Development permit</strong> application</li>
+  <li><strong>Building permit</strong></li>
+</ol>
+<div class="callout"><strong>Estimated rezoning timeline:</strong> 18–24 months from application to permit issuance</div>
+
+<h3>Why This Proposal Has a Strong Planning Narrative</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Concern</th><th>Response</th></tr></thead>
+    <tbody>
+      <tr><td>Traffic</td><td>TOD location reduces car ownership; reduced parking requirement applies</td></tr>
+      <tr><td>Neighbourhood character</td><td>Purpose-built rental serves established community healthcare workers; not speculative investors</td></tr>
+      <tr><td>Infrastructure</td><td>Sapperton Station upgrades underway via TransLink; RCH infrastructure fully funded</td></tr>
+      <tr><td>Council priorities</td><td>Directly advances City's Housing Needs Report objectives and OCP housing targets</td></tr>
+      <tr><td>Provincial alignment</td><td>Supports BC's healthcare workforce housing strategy</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2><span class="section-num">Section 06</span>Market Conditions</h2>
+<div class="highlight-row">
+  <div class="hcard"><div class="label">Overall Vacancy Rate</div><div class="value">0.8%</div><div class="sub">Among lowest in Metro Vancouver</div></div>
+  <div class="hcard"><div class="label">Avg. 1BR Rent</div><div class="value">$1,965/mo</div><div class="sub">Stable; down 3–6% YOY from 2024 peak</div></div>
+  <div class="hcard"><div class="label">Avg. 2BR Rent</div><div class="value">$2,500–2,800</div><div class="sub">Healthcare workers qualify for 2BR</div></div>
+  <div class="hcard"><div class="label">Sapperton Avg. Rent</div><div class="value">$2,012/mo</div><div class="sub">Premium to city-wide average</div></div>
+</div>
+<p><em>Source: Zumper, Zillow, City of New Westminster Housing Needs Report</em></p>
+<h3>Healthcare Worker Housing Demand</h3>
+<p>Royal Columbian Hospital is the largest hospital in Fraser Health and one of the busiest in BC:</p>
+<ul>
+  <li><strong>Catchment population:</strong> 3.8 million</li>
+  <li><strong>Total staff (current):</strong> ~2,000+ FTE</li>
+  <li><strong>RCH Phase 2–3 expansion:</strong> ~$2 billion additional investment</li>
+  <li><strong>New tower opened:</strong> May 31, 2026 (Jim Pattison Acute Care Tower)</li>
+  <li><strong>Staff housing challenge:</strong> Healthcare workers consistently rank commute time and housing affordability as top retention factors</li>
+</ul>
+<div class="callout"><strong>Implication:</strong> A purpose-built rental project targeting this cohort has near-zero vacancy risk if rents are set at or near market rates. A waitlist is realistic at opening.</div>
+
+<h3>Comparable Developments</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Project</th><th>Location</th><th>Form</th><th>Price / Unit</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>Illuma Development</td><td>Sapperton</td><td>Townhouse presale</td><td class="val">$1.2–1.4M</td><td>Active marketing</td></tr>
+      <tr><td>Buju Architects</td><td>Stockport, NW</td><td>5BR bespoke homes</td><td>N/A</td><td>Proposed</td></tr>
+      <tr><td>Various infill</td><td>Sapperton block</td><td>Townhouse / multiplex</td><td class="val">$1.1–1.3M</td><td>Under construction</td>
+    </tbody>
+  </table>
+</div>
+<p><em>Note: Garrett Health District Residences is a rental project — revenue model differs from strata. Comparable rental projects in New Westminster include several newer purpose-built rental buildings, all operating near full occupancy.</em></p>
+
+<h2><span class="section-num">Section 07</span>Capital Structure Options</h2>
+<div class="callout"><em>Two structures are presented — landowner preference will determine the final arrangement.</em></div>
+
+<h3>Option A — Assemble and Sell</h3>
+<p><strong>Landowner Preferred if Simplicity Desired</strong></p>
+<ul>
+  <li>Landowners assemble 3 parcels</li>
+  <li>Land sold to developer at <span class="val">$4,000,000–$5,500,000</span> (assembled value)</li>
+  <li>Developer assumes all rezoning, financing, and construction risk</li>
+  <li><strong>Landowner proceeds:</strong> Clean exit; no ongoing involvement; capture assembly premium over individual lot values</li>
+  <li><strong>Timeline to proceeds:</strong> 6–12 months from signed agreement to closing</li>
+</ul>
+
+<h3>Option B — Landowner Partnership <span class="badge">Landowner Recommended</span></h3>
+<p><strong>Landowner Recommended if Upside Desired</strong></p>
+<ul>
+  <li>Landowners contribute assembled land at appraised value (~$5,000,000)</li>
+  <li>Developer contributes all construction capital (~$25,000,000)</li>
+  <li><strong>Profit split:</strong> 70% Developer / 30% Landowner Partnership</li>
+  <li><strong>Landowner return:</strong> ~<span class="val">$6,500,000–$7,500,000</span> total (land value + profit share)</li>
+  <li><strong>vs. Option A:</strong> Incremental $1,500,000–$2,000,000 in upside</li>
+  <li><strong>Structuring vehicle:</strong> Development LP or Development Agreement with completion guarantees</li>
+  <li><strong>Dennis's role:</strong> Landowner Representative — negotiates and monitors on behalf of landowners</li>
+</ul>
+
+<h3>Why a Developer Will Find This Attractive</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Developer Priority</th><th>How This Project Delivers</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Low-risk site control</strong></td><td>Assembled land, rezoning pre-briefed, planning consultant engaged</td></tr>
+      <tr><td><strong>Policy alignment</strong></td><td>Healthcare narrative; TOD designation; BC Housing eligible</td></tr>
+      <tr><td><strong>Community acceptance</strong></td><td>Healthcare framing reduces NIMBY opposition</td></tr>
+      <tr><td><strong>CMHC financing eligible</strong></td><td>MLI Select reduces capital requirement</td></tr>
+      <tr><td><strong>Pre-leased demand</strong></td><td>RCH partnership can anchor initial occupancy</td></tr>
+      <tr><td><strong>Near-transit location</strong></td><td>TOD reduces parking requirement; improves economics</td></tr>
+      <tr><td><strong>Sapperton momentum</strong></td><td>Multiple townhouse and infill projects actively marketing</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2><span class="section-num">Section 08</span>Requested Action</h2>
+<p>We are seeking a development partner with:</p>
+<ul class="checklist">
+  <li>Active pipeline in New Westminster or Fraser Valley</li>
+  <li>Experience with purpose-built rental financing (CMHC preferred)</li>
+  <li>Capacity to close on land within 90 days of rezoning approval</li>
+  <li>Willingness to structure a Landowner Partnership (Option B) or purchase agreement (Option A)</li>
+  <li>Alignment with healthcare worker housing mission</li>
+</ul>
+
+<h3>Next Steps</h3>
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>#</th><th>Action</th><th>Owner</th><th>Timeline</th></tr></thead>
+    <tbody>
+      <tr><td class="val">1</td><td>Receive Expression of Interest from developer</td><td>Developer</td><td>Week 1–2</td></tr>
+      <tr><td class="val">2</td><td>Provide full data room (title, surveys, reports)</td><td>Landowners</td><td>Week 2–3</td></tr>
+      <tr><td class="val">3</td><td>Developer completes independent feasibility review</td><td>Developer</td><td>Week 3–6</td></tr>
+      <tr><td class="val">4</td><td>Pre-application meeting with NW Planning Dept</td><td>Rep + Developer</td><td>Week 6–8</td></tr>
+      <tr><td class="val">5</td><td>Negotiate and execute LOI or Option Agreement</td><td>All parties</td><td>Week 8–12</td></tr>
+      <tr><td class="val">6</td><td>Submit rezoning application</td><td>Developer</td><td>Month 4–6</td></tr>
+      <tr><td class="val">7</td><td>Closing on land (at rezoning approval)</td><td>All parties</td><td>Month 18–24</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2><span class="section-num">Section 09</span>Confidentiality</h2>
+<p>This memorandum has been prepared solely for discussion purposes and does not constitute an offer to sell or a solicitation of an offer to buy any interest in the property. The information contained herein is confidential and proprietary.</p>
+<p>Recipients of this memorandum agree to:</p>
+<ul>
+  <li>Hold all information in strict confidence</li>
+  <li>Not disclose the existence of this opportunity or any details to third parties without prior written consent</li>
+  <li>Use this information solely for evaluating potential participation in the transaction</li>
+</ul>
+
+<h2><span class="section-num">Section 10</span>Contact</h2>
+<div class="hcard" style="max-width:400px">
+  <div class="label">Landowner Representative</div>
+  <div class="value" style="font-size:16px">Dennis</div>
+  <div class="sub">Garrett Health District Residences</div>
+</div>
+<p style="margin-top:14px; font-size:13px; color:var(--text-muted)"><em>For enquiries regarding this memorandum, please respond through your established professional network.</em></p>
+
+<hr>
+<p style="font-size:12px; color:var(--text-muted); font-family: var(--font-mono); text-align:center;">
+Accompanying Documents:<br>
+1. Residual Land Value Model — garrett-health-district-residences-rlv.xlsx<br>
+2. Feasibility Study — garrett-street-feasibility.md (draft)
+</p>
+
+</main>
+
+<div class="confidential">
+  GARRETT HEALTH DISTRICT RESIDENCES · GHD-RLV-2026-001<br>
+  CONFIDENTIAL — RECIPIENTS ONLY · PREPARED BY DENNIS — MAY 30, 2026
+</div>
+
+</body>
+</html>

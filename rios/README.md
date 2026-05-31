@@ -45,6 +45,10 @@ Signal
 - Meeting
 - Policy
 - Funding Source
+- Lead *(ClientFlow intake)*
+- Advisor
+- IntakeSession
+- Subscriber *(MIX pipeline)*
 
 ## Stack
 

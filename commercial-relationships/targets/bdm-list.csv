@@ -1,0 +1,11 @@
+id,first_name,last_name,title,company,location,linkedin_url,email,source,persona_tier,last_contact_date,contact_method,response_status,notes
+1,John,Smith,BDM Commercial Real Estate,RBC,Toronto,https://linkedin.com/in/johnsmith,john.smith@rbc.com,LinkedIn Search,Tier 1,2026-05-30,LinkedIn Connection,Sent,"Interested in healthcare projects"
+2,Sarah,Chen,Director Commercial Real Estate,TD,Vancouver,https://linkedin.com/in/sarahchen,sarah.chen@td.com,LinkedIn Search,Tier 1,2026-05-30,Email,Sent,"Specializes in purpose-built rental"
+3,Michael,Wong,Senior Manager Commercial Mortgage,CIBC,Calgary,https://linkedin.com/in/michaelwong,michael.wong@cibc.com,LinkedIn Search,Tier ppuid,2026-05-29,LinkedIn Connection,Pending,"CMHC experience noted"
+4,Emma,Johnson,Vice President CRE,BMO,Toronto,https://linkedin.com/in/emmajohnson,emma.johnson@bmo.com,LinkedIn Search,Tier 1,2026-05-28,Email,Responded,"Requested full credit memo"
+5,David,Lee,Business Development Manager,Scotiabank,Vancouver,https://linkedin.com/in/davidlee,david.lee@scotiabank.com,LinkedIn Search,Tier 1,2026-05-27,LinkedIn Connection,Sent,"Healthcare focus noted"
+6,Lisa,Patel,Associate Director Commercial Real Estate,NBC,Calgary,https://linkedin.com/in/lisapatel,lisa.patel@nbc.ca,LinkedIn Search,Tier 1,2026-05-26,Email,No Response,""
+7,Robert,Brown,Commercial Real Estate Manager,RBC,Vancouver,https://linkedin.com/in/robertbrown,robert.brown@rbc.com,Directory,Tier 2,2026-05-25,LinkedIn Connection,Sent,""
+8,Jennifer,Taylor,BDM Commercial Mortgage,TD,Toronto,https://linkedin.com/in/jennifertaylor,jennifer.taylor@td.com,Directory,Tier 2,2026-05-24,Email,Pending,""
+9,James,Wilson,Senior BDM,CIBC,Vancouver,https://linkedin.com/in/jameswilson,james.wilson@cibc.com,Directory,Tier 2,2026-05-23,LinkedIn Connection,Responded,"Setting up call"
+10,Maria,Garcia,Director Real Estate Finance,BMO,Calgary,https://linkedin.com/in/mariagarcia,maria.garcia@bmo.com,Directory,Tier 2,2026-05-22,Email,Sent,""

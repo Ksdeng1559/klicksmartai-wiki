@@ -1,0 +1,17 @@
+services:
+  ghdr-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ghdr-app
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

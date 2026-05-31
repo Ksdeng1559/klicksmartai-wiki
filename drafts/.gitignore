@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.env
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Build artifacts (these are generated)
+static/gen/
