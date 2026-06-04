@@ -555,3 +555,5 @@ If the owners want to proceed with Scenario C (Healthcare Housing), Dennis's val
 *Prepared by: Hermes Agent (KlickSmartAI)*
 *Date: May 30, 2026*
 *Status: Internal working draft — not for external distribution*
+
+---
