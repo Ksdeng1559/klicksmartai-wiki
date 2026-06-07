@@ -1,32 +1,10 @@
-# Graphify output (regenerated on build)
-graphify-out/
+# Sensitive — Icarus session fabric
+fabric/
 
-# Obsidian app config (local-only)
-.obsidian/
+# SQLite lock files
+*.db-wal
+*.db-shm
 
-# OS noise
+# OS
 .DS_Store
 Thumbs.db
-
-# Editor noise
-*.swp
-*.swo
-*~
-
-# Large cache files
-__pycache__/
-*.pyc
-
-# Temp files
-tmp/
-temp/
-# Embedded git repos (not submodules)
-agency-agents/
-tech-debt/github/graphify/
-tech-debt/github/hermes-agent/
-
-# API keys and credentials
-raw/transcripts/Groq.txt
-raw/transcripts/OpenRouterAPI.txt
-*.env
-.env
