@@ -1,0 +1,755 @@
+{
+  nodes: [
+    {
+      id: wwr_hermes_agent_pipeline,
+      label: WWR Hermes Agent Pipeline Architecture,
+      file_type: document,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: null,
+      source_url: null,
+      captured_at: 2026-04-15,
+      author: Dennis E.,
+      contributor: KlickSmart AI
+    },
+    {
+      id: wwr_battle_card_sample,
+      label: WWR Battle Card Sample Format,
+      file_type: document,
+      source_file: templates/battlecard-sample.md,
+      source_location: null,
+      source_url: null,
+      captured_at: 2026-04-15,
+      author: Dennis E.,
+      contributor: KlickSmart AI
+    },
+    {
+      id: hermes_agent_research,
+      label: Hermes Agent Research — Brave Search Results,
+      file_type: document,
+      source_file: articles/hermes-agent-research.md,
+      source_location: null,
+      source_url: null,
+      captured_at: 2026-04-15,
+      author: null,
+      contributor: null
+    },
+    {
+      id: groq_transcript,
+      label: Groq Transcript,
+      file_type: document,
+      source_file: transcripts/Groq.txt,
+      source_location: null,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: hermes_agent,
+      label: Hermes Agent,
+      file_type: framework,
+      source_file: articles/hermes-agent-research.md,
+      source_location: line 13,
+      source_url: https://hermes-agent.nousResearch.com/,
+      captured_at: null,
+      author: NousResearch,
+      contributor: null
+    },
+    {
+      id: dennis_e,
+      label: Dennis E.,
+      file_type: person,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: klicksmart_ai,
+      label: KlickSmart AI,
+      file_type: organization,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wealth_wire_radar,
+      label: Wealth Wire Radar,
+      file_type: project,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_search,
+      label: wwr_search,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: signal_parser,
+      label: signal_parser,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 22,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_classify,
+      label: wwr_classify,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 29,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_map_pv,
+      label: wwr_map_pv,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 36,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_resolve_identity,
+      label: wwr_resolve_identity,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 44,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_generate_brief,
+      label: wwr_generate_brief,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 51,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: wwr_store_signal,
+      label: wwr_store_signal,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 65,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: motherduck,
+      label: MotherDuck Database,
+      file_type: database,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 73,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: fastapi_backend,
+      label: FastAPI Backend,
+      file_type: service,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 76,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: crm_frontend,
+      label: CRM Frontend,
+      file_type: application,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 79,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: nousresearch,
+      label: NousResearch,
+      file_type: organization,
+      source_file: articles/hermes-agent-research.md,
+      source_location: line 13,
+      source_url: https://github.com/nousresearch/hermes-agent,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: james_kirkland,
+      label: James Kirkland,
+      file_type: person,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 14,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: kirkland_civil_contracting,
+      label: Kirkland Civil Contracting Ltd,
+      file_type: company,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 15,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: serper,
+      label: Serper,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: tavily,
+      label: Tavily,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: brave_search,
+      label: Brave Search,
+      file_type: tool,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: battle_card,
+      label: Battle Card,
+      file_type: concept,
+      source_file: templates/battlecard-sample.md,
+      source_location: null,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: pv_profile,
+      label: PV Profile,
+      file_type: concept,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 41,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: icp,
+      label: Ideal Customer Profile (ICP),
+      file_type: concept,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 31,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: signal_classifier,
+      label: signal_classifier.py,
+      file_type: code,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 52,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: battlecard_generator,
+      label: battlecard_generator.py,
+      file_type: code,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 61,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: coi_mapper,
+      label: coi_mapper.py,
+      file_type: code,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 63,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: david_morrison,
+      label: David Morrison, CPA,
+      file_type: person,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 40,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: railway,
+      label: Railway,
+      file_type: platform,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 76,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    },
+    {
+      id: claude_sonnet,
+      label: Claude Sonnet,
+      file_type: model,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 61,
+      source_url: null,
+      captured_at: null,
+      author: null,
+      contributor: null
+    }
+  ],
+  edges: [
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: hermes_agent,
+      relation: implements,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 11,
+      weight: 1.0
+    },
+    {
+      source: dennis_e,
+      target: wwr_hermes_agent_pipeline,
+      relation: author,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      weight: 1.0
+    },
+    {
+      source: klicksmart_ai,
+      target: wwr_hermes_agent_pipeline,
+      relation: contributor,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      weight: 1.0
+    },
+    {
+      source: wealth_wire_radar,
+      target: wwr_hermes_agent_pipeline,
+      relation: rationalizes,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 5,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_search,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 14-18,
+      weight: 1.0
+    },
+    {
+      source: wwr_search,
+      target: serper,
+      relation: uses,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      weight: 1.0
+    },
+    {
+      source: wwr_search,
+      target: tavily,
+      relation: uses,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      weight: 1.0
+    },
+    {
+      source: wwr_search,
+      target: brave_search,
+      relation: uses,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: signal_parser,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 21-25,
+      weight: 1.0
+    },
+    {
+      source: signal_parser,
+      target: signal_parser_blocking,
+      relation: rationale_for,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 91,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_classify,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 28-32,
+      weight: 1.0
+    },
+    {
+      source: wwr_classify,
+      target: icp,
+      relation: references,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 31,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_map_pv,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 35-40,
+      weight: 1.0
+    },
+    {
+      source: wwr_map_pv,
+      target: pv_profile,
+      relation: implements,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 36,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_resolve_identity,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 43-47,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_generate_brief,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 50-61,
+      weight: 1.0
+    },
+    {
+      source: wwr_generate_brief,
+      target: battle_card,
+      relation: generates,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 51,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: wwr_store_signal,
+      relation: calls,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 64-69,
+      weight: 1.0
+    },
+    {
+      source: wwr_store_signal,
+      target: motherduck,
+      relation: writes_to,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 65,
+      weight: 1.0
+    },
+    {
+      source: motherduck,
+      target: fastapi_backend,
+      relation: feeds,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 73-76,
+      weight: 1.0
+    },
+    {
+      source: fastapi_backend,
+      target: railway,
+      relation: deploys_on,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 76,
+      weight: 1.0
+    },
+    {
+      source: fastapi_backend,
+      target: crm_frontend,
+      relation: serves,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 76-79,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: james_kirkland,
+      relation: references,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 14,
+      weight: 1.0
+    },
+    {
+      source: james_kirkland,
+      target: kirkland_civil_contracting,
+      relation: leads,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 15,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: wwr_generate_brief,
+      relation: describes_output_of,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 51-65,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: signal_classifier,
+      relation: cites,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 52,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: battlecard_generator,
+      relation: cites,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 61,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: claude_sonnet,
+      relation: uses,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 61,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: coi_mapper,
+      relation: cites,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 63,
+      weight: 1.0
+    },
+    {
+      source: wwr_battle_card_sample,
+      target: david_morrison,
+      relation: references,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 40,
+      weight: 1.0
+    },
+    {
+      source: hermes_agent_research,
+      target: hermes_agent,
+      relation: references,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: articles/hermes-agent-research.md,
+      source_location: line 13,
+      weight: 1.0
+    },
+    {
+      source: hermes_agent,
+      target: nousresearch,
+      relation: created_by,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: articles/hermes-agent-research.md,
+      source_location: line 13,
+      weight: 1.0
+    },
+    {
+      source: wwr_hermes_agent_pipeline,
+      target: battle_card_design_rationale,
+      relation: rationale_for,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 66-73,
+      weight: 1.0
+    },
+    {
+      source: battle_card,
+      target: ascii_format_rationale,
+      relation: rationale_for,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 68,
+      weight: 1.0
+    },
+    {
+      source: wwr_classify,
+      target: hot_warm_developing_tiers,
+      relation: implements,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 30,
+      weight: 1.0
+    }
+  ],
+  hyperedges: [
+    {
+      nodes: [wwr_search, signal_parser, wwr_classify, wwr_map_pv, wwr_resolve_identity, wwr_generate_brief, wwr_store_signal],
+      relation: pipeline_sequence,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 11-83
+    },
+    {
+      nodes: [motherduck, fastapi_backend, railway, crm_frontend],
+      relation: infrastructure_stack,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 73-83
+    },
+    {
+      nodes: [serper, tavily, brave_search],
+      relation: search_provider_cluster,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/wwr-hermes-agent-pipeline.md,
+      source_location: line 15
+    },
+    {
+      nodes: [signal_classifier, battlecard_generator, coi_mapper],
+      relation: battle_card_generation_toolset,
+      confidence: EXTRACTED,
+      confidence_score: 1.0,
+      source_file: templates/battlecard-sample.md,
+      source_location: line 52-63
+    }
+  ],
+  input_tokens: 0,
+  output_tokens: 0
+}

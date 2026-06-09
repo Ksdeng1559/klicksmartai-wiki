@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "owner": "KlickSmartAI",
+  "operator": "Dennis",
+  "description": "MCP server wiring for KlickSmartAI Open Cowork instance. Aligned with Hermes Agent stack (Brave/Serper/Exa/DataForSEO) and Google Workspace + GitHub integrations used by KlickSmartAI OS Schematic, Chief of Staff Briefing, and Spectra Census Research skills.",
+  "servers": {
+    "tavily": {
+      "type": "http",
+      "url": "https://mcp.tavily.com/mcp/",
+      "description": "Primary web search. Use for general research, news, and fast lookups. Rate limit: 20 req/min on research endpoint.",
+      "auth": {
+        "type": "api_key",
+        "header": "Authorization",
+        "prefix": "Bearer ",
+        "env": "TAVILY_API_KEY"
+      },
+      "enabled": true
+    },
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp",
+      "description": "Deep semantic search. Use for financial services, CDFI, investment, and complex multi-angle research. Use 'deep' (4-12s) or 'deep-reasoning' (12-50s) modes.",
+      "auth": {
+        "type": "api_key",
+        "header": "x-api-key",
+        "env": "EXA_API_KEY"
+      },
+      "enabled": true,
+      "use_for": [
+        "cdfis",
+        "investment",
+        "faith-framed-research",
+        "complex-multi-angle"
+      ]
+    },
+    "firecrawl": {
+      "type": "http",
+      "url": "https://mcp.firecrawl.dev/v1/mcp",
+      "description": "Web scraping and crawling. Use for full-page extraction, structured data pulls, and bulk crawling with anti-bot bypass.",
+      "auth": {
+        "type": "api_key",
+        "header": "Authorization",
+        "prefix": "Bearer ",
+        "env": "FIRECRAWL_API_KEY"
+      },
+      "enabled": true
+    },
+    "dataforseo": {
+      "type": "http",
+      "url": "https://mcp.dataforseo.com/mcp",
+      "description": "SEO intelligence. Use for client SEO audits and competitive research.",
+      "auth": {
+        "type": "basic",
+        "username_env": "DATAFORSEO_LOGIN",
+        "password_env": "DATAFORSEO_PASSWORD"
+      },
+      "enabled": true,
+      "use_for": [
+        "seo-audit",
+        "keyword-research",
+        "competitor-analysis",
+        "backlink-audit"
+      ]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "description": "GitHub integration for KlickSmartAI-wiki repo operations, PR workflows, and code review. Authenticated as Ksdeng1559.",
+      "auth": {
+        "type": "pat",
+        "header": "Authorization",
+        "prefix": "token ",
+        "env": "GITHUB_PAT",
+        "file_fallback": "~/.hermes/github-pat.txt"
+      },
+      "enabled": true,
+      "repos": [
+        "KlickSmartAI/klicksmartai-wiki"
+      ]
+    },
+    "google_workspace": {
+      "type": "http",
+      "url": "https://mcp.google.com/workspace/v1",
+      "description": "Google Workspace integration. Sheets, Calendar, Gmail, Drive, Docs. Cowork-managed OAuth for token refresh.",
+      "auth": {
+        "type": "oauth2",
+        "flow": "cowork-managed",
+        "scopes": [
+          "https://www.googleapis.com/auth/spreadsheets",
+          "https://www.googleapis.com/auth/calendar.readonly",
+          "https://www.googleapis.com/auth/gmail.modify",
+          "https://www.googleapis.com/auth/gmail.compose",
+          "https://www.googleapis.com/auth/drive",
+          "https://www.googleapis.com/auth/documents"
+        ]
+      },
+      "enabled": true,
+      "resource_ids": {
+        "task_sheet": "1gZdR1MdNlCjjHiLE29dML4EeK-y6F56zuf9LcwtzTuQ",
+        "drive_folder": "1uscboXl45xn6SOrXa9Rc7FeUMa2kJthx",
+        "briefing_template": "1xwr0fnQhzvVq_Rkf38YUMXaf3IwWOfR1ahvwqctKIrY"
+      }
+    }
+  },
+  "search_rotation_policy": {
+    "description": "KlickSmartAI search engine rotation. Never retry a credit-exhausted engine. Rotation triggered on 429/402 or explicit credit error.",
+    "priority_order": [
+      "brave",
+      "serper",
+      "tavily",
+      "exa"
+    ],
+    "vertical_overrides": {
+      "google-specific": "serper",
+      "faith-framed": "serper",
+      "political": "serper",
+      "cdfis": "exa",
+      "investment": "exa",
+      "complex-research": "exa",
+      "news-fast": "tavily"
+    },
+    "never_retry_on_credit_exhausted": true
+  },
+  "skill_mcp_mapping": {
+    "klicksmartai-os-schematic": [
+      "tavily",
+      "exa",
+      "firecrawl",
+      "github",
+      "google_workspace"
+    ],
+    "chief-of-staff-briefing": [
+      "google_workspace",
+      "github"
+    ],
+    "spectra-census-research": [
+      "tavily",
+      "exa",
+      "firecrawl",
+      "github",
+      "google_workspace"
+    ]
+  },
+  "notes": [
+    "Consumed by Open Cowork MCP discovery, which scans .claude/mcp_servers.json in the project root.",
+    "API keys are stored in Cowork encrypted credentials store, NOT in this file. The env field references variable names in Cowork env config.",
+    "Token refresh for Google Workspace is handled by Cowork OAuth UI.",
+    "GitHub PAT fallback: if GITHUB_PAT env is not set, Cowork reads from ~/.hermes/github-pat.txt (Windows: C:\\Users\\denni\\.hermes\\github-pat.txt).",
+    "If a server API key is not configured, set enabled to false rather than removing the block."
+  ]
+}
