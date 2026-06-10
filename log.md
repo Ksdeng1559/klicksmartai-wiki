@@ -127,3 +127,23 @@ Type: research entity
 Action: Ingested live research into entities/ + updated index.md
 Source: Live web research (Cascadia Daily, cityofbellingham.gov, whatcomcounty.us)
 Notes: 5 CDFI-aligned affordable housing developers in Whatcom County with active projects + contact intel. Ready for outbound pipeline.
+
+[2026-06-10] create | context7
+Action: Ingested Upstash Context7 repo (github.com/upstash/context7) for future Hermes Agent installations. Captures: purpose, trigger phrases, operating modes (CLI+Skills vs MCP), one-command setup, manual MCP config for Hermes, all 5 npm packages, auto-trigger rules. Cross-linked to hermes-agent, exa, tavily, serper, brave-search.
+Source: github.com/upstash/context7 (v0.5.1, 57k stars)
+Notes: Recommended for all future Hermes installs to prevent hallucinated APIs.
+
+[2026-06-10] create | klicksmartai-wiki-architecture
+Action: Ingested full README + AGENTS.md + SCHEMA.md + hermes/directives.md + hermes/memory-architecture.md + klick2client-os.md from github.com/Ksdeng1559/klicksmartai-wiki. Captures: branch governance (master=memory, workflow/research/archive for development), wiki-llm read-and-merge gate, knowledge consolidation lifecycle, tech stack (Hermes, wiki-llm, Claude, ChatGPT, Gemini, Graphify, Pinecone, DuckDB, MotherDuck), full directory structure, sync sequence, Hermes operating directives (2-layer memory, multi-LLM shared knowledge, daily 8PM PST cron), upgrade triggers, Klick2Client OS 6-layer architecture with PSQ scoring, future install reference. Cross-linked to context7, klicksmartai, dennis-eng, graphify, pinecone, hermes-agent.
+Source: github.com/Ksdeng1559/klicksmartai-wiki (1 star, 1 contributor, last push 2026-06-10)
+Notes: Critical reference for any future Hermes install that needs to join this ecosystem. Also documents the local working copy at G:\AI-Applications\Hermes Agent\wiki\ as the Obsidian vault.
+
+[2026-06-10] create | entities-and-projects-index
+Action: Ingested full contents of entities/ (51 files) and projects/ (7 files) from github.com/Ksdeng1559/klicksmartai-wiki. Built a single searchable index grouped by category: People, Companies/Orgs, AI Models/Agents, Search/Data APIs, Data/Memory Infra, Business/Sales Tools, Real Estate/Finance, Frameworks. Captured detail pages for Signal Intelligence Agent (3-stage pipeline, 5-engine search, MiniMax via Ollama), IDC Insurance Direct Canada (client details, stakeholders, $2B+ coverage scale), and KlickSmartAI Agent Squad (6-agent framework mapped to Shubham Saboo model with status indicators). Documented project subdirectories: commercial-mortgage-os (4 files), mortgage-broker-os (6 files), klicksmartai-com-gtm-site (SPEC), rios-mortgage-intelligence-exchange (architecture).
+Source: github.com/Ksdeng1559/klicksmartai-wiki/entities and /projects
+Notes: Use this index for fast lookups without GitHub. Individual entity pages are still on GitHub - this page provides the discoverability layer.
+
+[2026-06-10] create | wiki-folders-index
+Action: Pulled and indexed all wiki subfolders from github.com/Ksdeng1559/klicksmartai-wiki: clients/ (4 active + 2 historical with full file lists), concepts/ (13 files - capital-stack 22.5K is largest, WWR pipeline 9-step, First 100 Clients playbook), reference/ (2 files), architecture/agents/ (division-based architecture), spectra/ (capital-stack + whatcom-county), hermes/ (directives + 6 skills), operations/, ops/outreach/, queries/. Captured Spectra Holdings corporate detail (ICF construction 28-45 days, Revvo APU 93% electricity reduction, 20K+ home pipeline), Breakthrough Management grant funding focus, WWR 9-step pipeline with engine fan-out, and Division-Based Agent Architecture (Intelligence → Strategy → Execution → Quality).
+Source: github.com/Ksdeng1559/klicksmartai-wiki (all subfolders)
+Notes: Complete folder inventory. Use this for navigation; individual files still on GitHub. Last 24 folders listed as TBD - can be pulled in future sessions.
