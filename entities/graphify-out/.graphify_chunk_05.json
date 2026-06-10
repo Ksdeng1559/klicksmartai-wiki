@@ -1,0 +1,1170 @@
+{
+  "nodes": [
+    {
+      "id": "marketing_wechat_oa_manager",
+      "label": "WeChat Official Account Manager",
+      "file_type": "document",
+      "source_file": "agency-agents/marketing/marketing-wechat-official-account-manager.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "marketing_weibo_strategist",
+      "label": "Weibo Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "marketing_xiaohongshu_specialist",
+      "label": "Xiaohongshu Specialist",
+      "file_type": "document",
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "marketing_zhihu_strategist",
+      "label": "Zhihu Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_account_strategist",
+      "label": "Account Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_coach",
+      "label": "Sales Coach",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-coach.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_deal_strategist",
+      "label": "Deal Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_discovery_coach",
+      "label": "Discovery Coach",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_engineer",
+      "label": "Sales Engineer",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_outbound_strategist",
+      "label": "Outbound Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_pipeline_analyst",
+      "label": "Pipeline Analyst",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "sales_proposal_strategist",
+      "label": "Proposal Strategist",
+      "file_type": "document",
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_sina_weibo",
+      "label": "Sina Weibo Platform",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_xiaohongshu_platform",
+      "label": "Xiaohongshu (Red) Platform",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_zhihu_platform",
+      "label": "Zhihu Knowledge Platform",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_meddpicc",
+      "label": "MEDDPICC Qualification Framework",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_challenger_sale",
+      "label": "Challenger Sale Methodology",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_spin_selling",
+      "label": "SPIN Selling Framework",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_gap_selling",
+      "label": "Gap Selling Methodology",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_sandler_pain_funnel",
+      "label": "Sandler Pain Funnel",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_pipeline_velocity",
+      "label": "Pipeline Velocity Metric",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_nrr",
+      "label": "Net Revenue Retention (NRR)",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_signal_based_selling",
+      "label": "Signal-Based Selling Framework",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_poc_scoping",
+      "label": "Proof of Concept (POC) Scoping",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_win_themes",
+      "label": "Win Theme Development",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_kol_strategy",
+      "label": "KOL/KOC Partnership Strategy",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_super_topic",
+      "label": "Weibo Super Topic Community Management",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_trending_topic_ops",
+      "label": "Trending Topic Operations",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_zhihu_column",
+      "label": "Zhihu Column (thought leadership series)",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_competitive_battlecard",
+      "label": "Competitive Battlecard",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_icp_definition",
+      "label": "Ideal Customer Profile (ICP) Definition",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_qbr",
+      "label": "Quarterly Business Review (QBR)",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_stakeholder_mapping",
+      "label": "Stakeholder Mapping",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_land_and_expand",
+      "label": "Land-and-Expand Execution",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_multi_channel_sequence",
+      "label": "Multi-Channel Outreach Sequence",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_deal_health_scoring",
+      "label": "Deal Health Scoring",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_fia_framework",
+      "label": "FIA Competitive Framework (Fact-Impact-Act)",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_three_act_proposal",
+      "label": "Three-Act Proposal Narrative",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_china_marketing_cluster",
+      "label": "China Social Media Marketing (WeChat/Weibo/XHS/Zhihu)",
+      "file_type": "concept",
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_b2b_sales_cluster",
+      "label": "B2B Sales Methodology Cluster",
+      "file_type": "concept",
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "graph_report_md",
+      "label": "Graph Report (GRAPH_REPORT.md)",
+      "file_type": "document",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-16",
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "klicksmartai_company",
+      "label": "KlickSmartAI",
+      "file_type": "concept",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "denniseng_person",
+      "label": "Dennis Eng",
+      "file_type": "concept",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "projectportfolio_index",
+      "label": "KlickSmartAI Project Portfolio",
+      "file_type": "concept",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "onyx_framework",
+      "label": "Onyx AI Framework",
+      "file_type": "concept",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "ncf_foundation",
+      "label": "National Christian Foundation (NCF)",
+      "file_type": "concept",
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "concept_sina_weibo",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "concept_kol_strategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "concept_super_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "concept_trending_topic_ops",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "concept_china_marketing_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "marketing_xiaohongshu_specialist",
+      "target": "concept_xiaohongshu_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_xiaohongshu_specialist",
+      "target": "concept_kol_strategy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_xiaohongshu_specialist",
+      "target": "concept_china_marketing_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "marketing_zhihu_strategist",
+      "target": "concept_zhihu_platform",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_zhihu_strategist",
+      "target": "concept_zhihu_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "marketing_zhihu_strategist",
+      "target": "concept_china_marketing_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/marketing/marketing-zhihu-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "marketing_wechat_oa_manager",
+      "target": "concept_china_marketing_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "agency-agents/marketing/marketing-wechat-official-account-manager.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "marketing_xiaohongshu_specialist",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "marketing_weibo_strategist",
+      "target": "marketing_zhihu_strategist",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "marketing_xiaohongshu_specialist",
+      "target": "marketing_zhihu_strategist",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/marketing/marketing-xiaohongshu-specialist.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "concept_meddpicc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "concept_challenger_sale",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "concept_competitive_battlecard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_discovery_coach",
+      "target": "concept_spin_selling",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_discovery_coach",
+      "target": "concept_gap_selling",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_discovery_coach",
+      "target": "concept_sandler_pain_funnel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_discovery_coach",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_coach",
+      "target": "concept_meddpicc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-coach.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_coach",
+      "target": "concept_challenger_sale",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-coach.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_coach",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-coach.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_pipeline_analyst",
+      "target": "concept_pipeline_velocity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_pipeline_analyst",
+      "target": "concept_meddpicc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_pipeline_analyst",
+      "target": "concept_deal_health_scoring",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_pipeline_analyst",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "concept_nrr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "concept_qbr",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "concept_stakeholder_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "concept_land_and_expand",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_outbound_strategist",
+      "target": "concept_signal_based_selling",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_outbound_strategist",
+      "target": "concept_icp_definition",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_outbound_strategist",
+      "target": "concept_multi_channel_sequence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_outbound_strategist",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_engineer",
+      "target": "concept_poc_scoping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_engineer",
+      "target": "concept_fia_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_engineer",
+      "target": "concept_competitive_battlecard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_engineer",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_proposal_strategist",
+      "target": "concept_win_themes",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_proposal_strategist",
+      "target": "concept_three_act_proposal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "sales_proposal_strategist",
+      "target": "concept_b2b_sales_cluster",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "agency-agents/sales/sales-proposal-strategist.md",
+      "source_location": null,
+      "weight": 0.9
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "sales_pipeline_analyst",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "sales_coach",
+      "target": "sales_discovery_coach",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agency-agents/sales/sales-coach.md",
+      "source_location": null,
+      "weight": 0.8
+    },
+    {
+      "source": "sales_deal_strategist",
+      "target": "sales_engineer",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "sales_account_strategist",
+      "target": "sales_pipeline_analyst",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/sales/sales-account-strategist.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "sales_outbound_strategist",
+      "target": "sales_discovery_coach",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "agency-agents/sales/sales-outbound-strategist.md",
+      "source_location": null,
+      "weight": 0.7
+    },
+    {
+      "source": "graph_report_md",
+      "target": "klicksmartai_company",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_md",
+      "target": "denniseng_person",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_md",
+      "target": "projectportfolio_index",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_md",
+      "target": "onyx_framework",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "graph_report_md",
+      "target": "ncf_foundation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "denniseng_person",
+      "target": "klicksmartai_company",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "klicksmartai_company",
+      "target": "projectportfolio_index",
+      "relation": "owns",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "klicksmartai_company",
+      "target": "onyx_framework",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "graphify-out/GRAPH_REPORT.md",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "concept_meddpicc",
+      "target": "concept_deal_health_scoring",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "agency-agents/sales/sales-pipeline-analyst.md",
+      "source_location": null,
+      "weight": 0.85
+    },
+    {
+      "source": "concept_spin_selling",
+      "target": "concept_gap_selling",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "concept_spin_selling",
+      "target": "concept_sandler_pain_funnel",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "agency-agents/sales/sales-discovery-coach.md",
+      "source_location": null,
+      "weight": 0.75
+    },
+    {
+      "source": "concept_competitive_battlecard",
+      "target": "concept_fia_framework",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "agency-agents/sales/sales-engineer.md",
+      "source_location": null,
+      "weight": 0.8
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "hyperedge_china_marketing_agents",
+      "label": "China Social Media Agent Cluster: WeChat + Weibo + Xiaohongshu + Zhihu as coordinated China market presence strategy",
+      "members": ["marketing_wechat_oa_manager", "marketing_weibo_strategist", "marketing_xiaohongshu_specialist", "marketing_zhihu_strategist"],
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "agency-agents/marketing/marketing-weibo-strategist.md"
+    },
+    {
+      "id": "hyperedge_b2b_sales_methodology_core",
+      "label": "B2B Sales Methodology Core: MEDDPICC + Challenger + SPIN + Gap Selling as integrated deal qualification and discovery system",
+      "members": ["concept_meddpicc", "concept_challenger_sale", "concept_spin_selling", "concept_gap_selling", "sales_deal_strategist", "sales_discovery_coach"],
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "agency-agents/sales/sales-deal-strategist.md"
+    },
+    {
+      "id": "hyperedge_sales_agent_cluster",
+      "label": "Sales Agent Cluster: Account Strategist + Coach + Deal Strategist + Discovery Coach + Engineer + Outbound + Pipeline Analyst + Proposal Strategist as full-cycle B2B sales capability",
+      "members": ["sales_account_strategist", "sales_coach", "sales_deal_strategist", "sales_discovery_coach", "sales_engineer", "sales_outbound_strategist", "sales_pipeline_analyst", "sales_proposal_strategist"],
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "agency-agents/sales/sales-account-strategist.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

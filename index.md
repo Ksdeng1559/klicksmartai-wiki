@@ -8,8 +8,12 @@
 | [GTM Engineer Resources](./gtm-engineer-resources/) | Curated tools + data sources forming the GTM Engineering stack — signal intelligence, enrichment, outbound automation, and workflow orchestration. Includes Explorium, EnrichLayer, Clay, Apollo, Apify, Bright Data, Instantly, Phantombuster, n8n. Categorized by Spectra Holdings use case. |
 | klick2client-os | B2B client acquisition OS — LinkedIn + Email lifecycle engine, 360-day parallel tracks, Sales Battlecards, GTM Engineering product |
 | ncf-national-christian-foundation | NCF org profile — mission, values, audience, language patterns, outreach angles, DAF market context; capital source for Spectra Holdings Group |
+<<<<<<< Updated upstream
 | spectra-holdings-group | Spectra Holdings Group — faith-aligned holdings, Master Credit Facility, missionary work; NCF is target capital source |
 | capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
+=======
+| spectra-holdings-group | Spectra Holdings Group — 7-module intelligence profile (L3 complete); 19-division community dev holding company; KlickSmartAI 92%, WWR 82%, NCF 88% fit; MCF + CDFI + missionary work capital targets |
+>>>>>>> Stashed changes
 
 ## Projects
 | entity-id | Description |
@@ -53,12 +57,38 @@
 | deliverability-audit-idc | Email deliverability audit for Insurance Direct Canada |
 | idc-gamma-blueprint | IDC Gamma content blueprint |
 
+<<<<<<< Updated upstream
 ## GTM Engineer Resources
 | resource-id | Description |
 |-------------|-------------|
 | explorium-ai | B2B data enrichment + GTM Engineering platform — agentic data layer, CRM hygiene, custom signal generation, OpenClaw/Claude Code integration guide (97.8% accuracy) |
+=======
+## Workflows
+| workflow-id | Description |
+|-------------|-------------|
+| org-profile-intelligence | Reusable 7-stage pipeline: scrape → AI extract → synthesize → market research → report → NotebookLM analysis → wiki + graph |
+| ncf-pilot-run-log | NCF/Spectra pilot execution of org-profile-intelligence — stages 1–5 done, stage 6 proposed |
+>>>>>>> Stashed changes
 
 ## Playbooks
 | playbook-id | Description |
 |-------------|-------------|
 | idc-group-benefits-outreach | Strategy for using Scott's Directories to drive IDC Group Benefits sales |
+
+## Concepts
+| concept-id | Description |
+|------------|-------------|
+| klicksmartai-wiki-architecture | Master repo architecture - branch governance, sync sequence, hermes directives, memory architecture, Klick2Client OS overview, future install reference |
+| context7 | Upstash Context7 - real-time library docs for LLMs via CLI/MCP; one-command setup `npx ctx7 setup` |
+| entities-and-projects-index | Master index of 51 entity pages + 7 project pages from github.com/Ksdeng1559/klicksmartai-wiki, with Signal Intelligence Agent and IDC client details |
+| wiki-folders-index | Complete inventory of all wiki folders (clients, concepts, reference, spectra, hermes, operations, ops) with key files, Spectra Holdings detail, First 100 Clients Playbook, WWR 9-step pipeline, Division-Based Agent Architecture |
+
+## Tools & Platforms (Extended)
+| entity-id | Description |
+|-----------|-------------|
+| context7 | Upstash Context7 — real-time library docs for LLMs via CLI/MCP; one-command setup `npx ctx7 setup` |
+| exa | Exa — AI-native web search and content extraction (already configured as web.extract_backend) |
+| tavily | Tavily — AI search engine with real-time info and citations (configured as alternate search backend) |
+| serper | Serper.dev — Google Search API (custom Hermes plugin, active search backend) |
+| brave-search | Brave Search (free tier) — 2000 queries/mo, search-only, configured as alternate |
+
