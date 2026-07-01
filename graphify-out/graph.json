@@ -9,7 +9,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_drafts_app_py",
-      "community": 2,
+      "community": 3,
       "norm_label": "app.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L18",
       "id": "app_calculate_rlv",
-      "community": 2,
+      "community": 3,
       "norm_label": "calculate_rlv()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L122",
       "id": "app_sensitivity_table",
-      "community": 2,
+      "community": 3,
       "norm_label": "sensitivity_table()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L148",
       "id": "app_index",
-      "community": 2,
+      "community": 3,
       "norm_label": "index()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L152",
       "id": "app_api_calculate",
-      "community": 2,
+      "community": 3,
       "norm_label": "api_calculate()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L166",
       "id": "app_api_sensitivity",
-      "community": 2,
+      "community": 3,
       "norm_label": "api_sensitivity()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L179",
       "id": "app_download_xlsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "download_xlsx()"
     },
     {
@@ -71,9 +71,9 @@
       "file_type": "rationale",
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\app.py",
       "source_location": "L1",
-      "id": "app_rationale_1",
-      "community": 2,
-      "norm_label": "garrett health district \u2014 web app flask app serving the dom + interactive rlv c"
+      "community": 3,
+      "norm_label": "garrett health district \u2014 web app flask app serving the dom + interactive rlv c",
+      "id": "app_rationale_1"
     },
     {
       "label": "build_rlv_model.py",
@@ -90,7 +90,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L32",
       "id": "build_rlv_model_make_fill",
-      "community": 0,
+      "community": 1,
       "norm_label": "make_fill()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L41",
       "id": "build_rlv_model_thin_border",
-      "community": 0,
+      "community": 1,
       "norm_label": "thin_border()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L62",
       "id": "build_rlv_model_header_row",
-      "community": 0,
+      "community": 1,
       "norm_label": "header_row()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L72",
       "id": "build_rlv_model_data_row",
-      "community": 0,
+      "community": 1,
       "norm_label": "data_row()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L83",
       "id": "build_rlv_model_section_header",
-      "community": 0,
+      "community": 1,
       "norm_label": "section_header()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L90",
       "id": "build_rlv_model_label_cell",
-      "community": 0,
+      "community": 1,
       "norm_label": "label_cell()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L97",
       "id": "build_rlv_model_value_cell",
-      "community": 0,
+      "community": 1,
       "norm_label": "value_cell()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L108",
       "id": "build_rlv_model_input_label_value",
-      "community": 0,
+      "community": 1,
       "norm_label": "input_label_value()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L116",
       "id": "build_rlv_model_calc_model",
-      "community": 4,
+      "community": 0,
       "norm_label": "calc_model()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L261",
       "id": "build_rlv_model_sensitivity_land_value",
-      "community": 3,
+      "community": 0,
       "norm_label": "sensitivity_land_value()"
     },
     {
@@ -251,36 +251,36 @@
       "file_type": "rationale",
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L1",
-      "id": "build_rlv_model_rationale_1",
       "community": 0,
-      "norm_label": "residual land value excel model garrett health district residences - new westmi"
+      "norm_label": "residual land value excel model garrett health district residences - new westmi",
+      "id": "build_rlv_model_rationale_1"
     },
     {
       "label": "Write a label + yellow input cell pair",
       "file_type": "rationale",
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L109",
-      "id": "build_rlv_model_rationale_109",
-      "community": 0,
-      "norm_label": "write a label + yellow input cell pair"
+      "community": 1,
+      "norm_label": "write a label + yellow input cell pair",
+      "id": "build_rlv_model_rationale_109"
     },
     {
       "label": "Calculate residual land value.     height_premium: multiplier on construction c",
       "file_type": "rationale",
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L117",
-      "id": "build_rlv_model_rationale_117",
-      "community": 4,
-      "norm_label": "calculate residual land value.     height_premium: multiplier on construction c"
+      "community": 0,
+      "norm_label": "calculate residual land value.     height_premium: multiplier on construction c",
+      "id": "build_rlv_model_rationale_117"
     },
     {
       "label": "Calculate residual land value for given cap rate and construction cost",
       "file_type": "rationale",
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\build_rlv_model.py",
       "source_location": "L262",
-      "id": "build_rlv_model_rationale_262",
-      "community": 3,
-      "norm_label": "calculate residual land value for given cap rate and construction cost"
+      "community": 0,
+      "norm_label": "calculate residual land value for given cap rate and construction cost",
+      "id": "build_rlv_model_rationale_262"
     },
     {
       "label": "app.js",
@@ -288,7 +288,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_drafts_static_js_app_js",
-      "community": 1,
+      "community": 2,
       "norm_label": "app.js"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L3",
       "id": "app_fmt",
-      "community": 1,
+      "community": 2,
       "norm_label": "fmt()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L11",
       "id": "app_fmtunits",
-      "community": 1,
+      "community": 2,
       "norm_label": "fmtunits()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L16",
       "id": "app_fmtcap",
-      "community": 1,
+      "community": 2,
       "norm_label": "fmtcap()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L21",
       "id": "app_rlvclass",
-      "community": 1,
+      "community": 2,
       "norm_label": "rlvclass()"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L29",
       "id": "app_rlvcolor",
-      "community": 1,
+      "community": 2,
       "norm_label": "rlvcolor()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L38",
       "id": "app_runcalculate",
-      "community": 1,
+      "community": 2,
       "norm_label": "runcalculate()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L82",
       "id": "app_renderresults",
-      "community": 1,
+      "community": 2,
       "norm_label": "renderresults()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\drafts\\static\\js\\app.js",
       "source_location": "L125",
       "id": "app_rendersensitivity",
-      "community": 1,
+      "community": 2,
       "norm_label": "rendersensitivity()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\entities\\graphify-out\\build_graph.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_entities_graphify_out_build_graph_py",
-      "community": 5,
+      "community": 4,
       "norm_label": "build_graph.py"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\entities\\graphify-out\\cache_and_merge.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_entities_graphify_out_cache_and_merge_py",
-      "community": 6,
+      "community": 5,
       "norm_label": "cache_and_merge.py"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\entities\\graphify-out\\check_chunk.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_entities_graphify_out_check_chunk_py",
-      "community": 7,
+      "community": 6,
       "norm_label": "check_chunk.py"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\entities\\graphify-out\\merge_and_rebuild.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_entities_graphify_out_merge_and_rebuild_py",
-      "community": 8,
+      "community": 7,
       "norm_label": "merge_and_rebuild.py"
     },
     {
@@ -405,8 +405,17 @@
       "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\entities\\graphify-out\\render.py",
       "source_location": "L1",
       "id": "g_ai_applications_hermes_agent_wiki_entities_graphify_out_render_py",
-      "community": 9,
+      "community": 8,
       "norm_label": "render.py"
+    },
+    {
+      "label": "main.js",
+      "file_type": "code",
+      "source_file": "G:\\AI-Applications\\Hermes Agent\\wiki\\js\\main.js",
+      "source_location": "L1",
+      "id": "g_ai_applications_hermes_agent_wiki_js_main_js",
+      "community": 9,
+      "norm_label": "main.js"
     },
     {
       "label": "wattbricks_whatcom_may12.py",

@@ -1,11 +1,11 @@
-# Graph Report - G:\AI-Applications\Hermes Agent\wiki  (2026-06-28)
+# Graph Report - G:\AI-Applications\Hermes Agent\wiki  (2026-06-29)
 
 ## Corpus Check
-- 9 files · ~1,105,468 words
+- 10 files · ~2,030,473 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 16888 nodes · 55 edges · 16853 communities detected
+- 16889 nodes · 55 edges · 16853 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
@@ -16882,24 +16882,24 @@
 ## Communities
 
 ### Community 0 - "Community 0"
-Cohesion: 0.16
-Nodes (10): data_row(), header_row(), input_label_value(), label_cell(), make_fill(), Residual Land Value Excel Model Garrett Health District Residences - New Westmi, Write a label + yellow input cell pair, section_header() (+2 more)
+Cohesion: 0.14
+Nodes (5): calc_model(), Residual Land Value Excel Model Garrett Health District Residences - New Westmi, Calculate residual land value.     height_premium: multiplier on construction c, Calculate residual land value for given cap rate and construction cost, sensitivity_land_value()
 
 ### Community 1 - "Community 1"
-Cohesion: 0.36
-Nodes (6): fmt(), fmtUnits(), renderResults(), renderSensitivity(), rlvClass(), runCalculate()
+Cohesion: 0.31
+Nodes (9): data_row(), header_row(), input_label_value(), label_cell(), make_fill(), Write a label + yellow input cell pair, section_header(), thin_border() (+1 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.36
-Nodes (5): api_calculate(), api_sensitivity(), calculate_rlv(), Garrett Health District — Web App Flask app serving the DOM + interactive RLV c, sensitivity_table()
+Nodes (6): fmt(), fmtUnits(), renderResults(), renderSensitivity(), rlvClass(), runCalculate()
 
 ### Community 3 - "Community 3"
-Cohesion: 1.0
-Nodes (2): Calculate residual land value for given cap rate and construction cost, sensitivity_land_value()
+Cohesion: 0.36
+Nodes (5): api_calculate(), api_sensitivity(), calculate_rlv(), Garrett Health District — Web App Flask app serving the DOM + interactive RLV c, sensitivity_table()
 
 ### Community 4 - "Community 4"
 Cohesion: 1.0
-Nodes (2): calc_model(), Calculate residual land value.     height_premium: multiplier on construction c
+Nodes (0): 
 
 ### Community 5 - "Community 5"
 Cohesion: 1.0
@@ -84296,19 +84296,17 @@ Nodes (1): Target the reclaim race specifically.  Workers claim tasks with a 1s 
 ## Knowledge Gaps
 - **16831 isolated node(s):** `Garrett Health District — Web App Flask app serving the DOM + interactive RLV c`, `Residual Land Value Excel Model Garrett Health District Residences - New Westmi`, `Write a label + yellow input cell pair`, `Calculate residual land value.     height_premium: multiplier on construction c`, `Calculate residual land value for given cap rate and construction cost` (+16826 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 3`** (2 nodes): `Calculate residual land value for given cap rate and construction cost`, `sensitivity_land_value()`
+- **Thin community `Community 4`** (1 nodes): `build_graph.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 4`** (2 nodes): `calc_model()`, `Calculate residual land value.     height_premium: multiplier on construction c`
+- **Thin community `Community 5`** (1 nodes): `cache_and_merge.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 5`** (1 nodes): `build_graph.py`
+- **Thin community `Community 6`** (1 nodes): `check_chunk.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 6`** (1 nodes): `cache_and_merge.py`
+- **Thin community `Community 7`** (1 nodes): `merge_and_rebuild.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 7`** (1 nodes): `check_chunk.py`
+- **Thin community `Community 8`** (1 nodes): `render.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 8`** (1 nodes): `merge_and_rebuild.py`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 9`** (1 nodes): `render.py`
+- **Thin community `Community 9`** (1 nodes): `main.js`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 10`** (1 nodes): `wattbricks_whatcom_may12.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -118000,5 +117998,9 @@ Nodes (1): Target the reclaim race specifically.  Workers claim tasks with a 1s 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `input_label_value()` connect `Community 1` to `Community 0`?**
+  _High betweenness centrality (0.000) - this node is a cross-community bridge._
 - **What connects `Garrett Health District — Web App Flask app serving the DOM + interactive RLV c`, `Residual Land Value Excel Model Garrett Health District Residences - New Westmi`, `Write a label + yellow input cell pair` to the rest of the system?**
   _16831 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
