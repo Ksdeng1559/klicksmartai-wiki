@@ -190,3 +190,12 @@ operable program or batch file.
 [2026-07-04 20:00:52 ] git fetch origin
 [2026-07-04 20:00:52 ] No incoming changes
 [2026-07-04 20:00:52 ] Local changes detected. Committing and pushing...
+[2026-07-04 20:00:52 ] Push successful
+[2026-07-04 20:00:52 ] Running graphify update...
+[2026-07-04 20:00:52 ] graphify failed (non-fatal): Nothing to update or rebuild failed — check output above.
+
+[2026-07-04 20:00:52 ] === Sync complete ===
+[2026-07-05 20:00:24 ] === Starting daily wiki sync ===
+[2026-07-05 20:00:24 ] git fetch origin
+[2026-07-05 20:00:24 ] No incoming changes
+[2026-07-05 20:00:24 ] Local changes detected. Committing and pushing...
