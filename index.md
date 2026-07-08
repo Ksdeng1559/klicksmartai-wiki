@@ -30,6 +30,7 @@
 | tiyo-energy | Active client — waste-to-energy / circular economy / biogas (anaerobic digestion) — Jakarta market — aligning with municipal organic waste valorization and circular city transition |
 | cdfi-underwriting-framework | 5-pillar risk mitigation framework for evaluating CDFI capital sources and structuring deals in the Spectra Holdings MCF county pipeline — covers capacity, collateral, capital, compliance, and covenants |
 | capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
+| eng-and-company | BC Missing-Middle / TOA Tier 3 land-assembly client (Edward Eng). Wholly-assignable option strategy; active deal thread 417 & 419 Garrett Street, Sapperton, New Westminster. Canonical brief `clients/eng-and-company/executive-brief-missing-middle-infill.md` (7 Jul 2026) |
 
 ## Federal & State Funding Resources
 || resource-id | Description |
