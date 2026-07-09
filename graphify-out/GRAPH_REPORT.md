@@ -1,7 +1,7 @@
 # Graph Report - G:\AI-Applications\Hermes Agent\wiki  (2026-07-07)
 
 ## Corpus Check
-- 10 files · ~2,036,874 words
+- 10 files · ~2,036,933 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -16896,11 +16896,11 @@ Nodes (5): api_calculate(), api_sensitivity(), calculate_rlv(), Garrett Health D
 
 ### Community 3 - "Community 3"
 Cohesion: 1.0
-Nodes (2): calc_model(), Calculate residual land value.     height_premium: multiplier on construction c
+Nodes (2): Calculate residual land value for given cap rate and construction cost, sensitivity_land_value()
 
 ### Community 4 - "Community 4"
 Cohesion: 1.0
-Nodes (2): Calculate residual land value for given cap rate and construction cost, sensitivity_land_value()
+Nodes (2): calc_model(), Calculate residual land value.     height_premium: multiplier on construction c
 
 ### Community 5 - "Community 5"
 Cohesion: 1.0
@@ -84301,9 +84301,9 @@ Nodes (1): Target the reclaim race specifically.  Workers claim tasks with a 1s 
 ## Knowledge Gaps
 - **16831 isolated node(s):** `Garrett Health District — Web App Flask app serving the DOM + interactive RLV c`, `Residual Land Value Excel Model Garrett Health District Residences - New Westmi`, `Write a label + yellow input cell pair`, `Calculate residual land value.     height_premium: multiplier on construction c`, `Calculate residual land value for given cap rate and construction cost` (+16826 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `Community 3`** (2 nodes): `calc_model()`, `Calculate residual land value.     height_premium: multiplier on construction c`
+- **Thin community `Community 3`** (2 nodes): `Calculate residual land value for given cap rate and construction cost`, `sensitivity_land_value()`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 4`** (2 nodes): `Calculate residual land value for given cap rate and construction cost`, `sensitivity_land_value()`
+- **Thin community `Community 4`** (2 nodes): `calc_model()`, `Calculate residual land value.     height_premium: multiplier on construction c`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 5`** (1 nodes): `build_graph.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
