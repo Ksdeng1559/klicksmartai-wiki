@@ -1,0 +1,17 @@
+# graphify ignore — junk, artifacts, vendored repos, mirrors
+tech-debt/
+graphify-out/
+cron_outputs/
+comparisons/
+_meta/
+.hermes/
+.memory/
+clips/
+css/
+js/
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.pyc
