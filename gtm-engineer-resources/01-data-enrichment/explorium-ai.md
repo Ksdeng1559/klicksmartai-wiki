@@ -108,6 +108,8 @@ Explorium is the **data layer** in the GTM stack — the strategies that decide 
 
 **Stack position (per swan architecture):** Explorium = layer 1 (data/signals). It is NOT the decision layer — strategy selection, qualification, and governance happen in the GTM skills layer on top.
 
+**Progressive enrichment (reference architecture):** Explorium's core value is the *workflow* — size market → resolve company → qualify account → identify buying committee → enrich selectively → activate. Full reference: `raw/wiki-knowledge/concepts/progressive-enrichment-architecture.md`. This 6-stage model is the mandatory cost-control pattern in `gtm-enrichment-planner` (never pre-enrich the whole list).
+
 **Credit governance:** any Explorium/Deepline enrichment spend runs through `gtm-enrichment-planner` — pilot → credit estimate → HITL approval before full runs.
 
 ## GTM Engineer Relevance

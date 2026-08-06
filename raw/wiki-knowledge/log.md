@@ -130,3 +130,6 @@
 - [[entities/swan-gtm-gtm-skills]] — Swan GTM skills library ingested: full mirror at raw/swan-gtm/ (267 SKILL.md, 45 authors), Notion summary + category inventory + KlickSmartAI vertical curation
 - [[entities/leadsniper-sgi-prd]] — LeadSniper SGI PRD documented from Notion: AI domain audit app, Organic Gap Sprint IVO, 8-step journey, scoring weights, module specs
 - Sources: GitHub swan-gtm/gtm-skills @ d31ef43; Notion pages (swan-gtm/gtm-skills summary, LeadSniper SGI PRD)
+
+## [2026-08-06] create | Progressive Enrichment Architecture
+- [[concepts/progressive-enrichment-architecture]] — Explorium reference: 6-stage progressive enrichment (market size → company resolve → account qualify → buying committee → selective contact enrich → activate). Wired into gtm-enrichment-planner as mandatory cost-control model. Source: user-provided Explorium Quick Starts + Data Catalog reference.
