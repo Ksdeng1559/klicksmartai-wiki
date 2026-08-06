@@ -1,115 +1,178 @@
+---
+title: Hermes Agent Skills Hub
+created: 2026-04-26
+updated: 2026-08-05
+type: summary
+tags: [how-to, technology, guide]
+sources: [https://hermes-agent.nousresearch.com/docs/reference/skills-catalog, https://hermes-agent.nousresearch.com/docs/skills]
+---
+
 # Hermes Agent Skills Hub
 
-Ingested from [hermes-agent.nousresearch.com/docs/skills](https://hermes-agent.nousresearch.com/docs/skills)
-Count: 60 skills total | Updated: 2026-04-26
+Source: [hermes-agent.nousresearch.com/docs/skills](https://hermes-agent.nousresearch.com/docs/skills) — live hub (88k+ skills across registries, client-rendered) + [Bundled Skills Catalog](https://hermes-agent.nousresearch.com/docs/reference/skills-catalog) (server-rendered, canonical).
 
----
+**Bundled catalog:** 71 skills · 13 categories (2026-08-05 snapshot)
+**Local install (`~/.hermes/skills/`):** 474 skills · 21 categories
 
-## Creative (14)
+The docs hub is a dynamic SPA that fetches its catalog client-side from the live registry — it does not expose a static API. `agentskills.io` is a separate Mintlify doc site (its `/.well-known/skills/index.json` lists only its own 1 skill). The **Bundled Skills Catalog** reference page is the authoritative server-rendered source.
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| architecture-diagram | Built-in | — | Dark-themed SVG architecture/cloud/infra diagrams as HTML. |
-| ascii-art | Built-in | — | ASCII art: pyfiglet, cowsay, boxes, image-to-ascii. |
-| ascii-video | Built-in | — | ASCII video pipeline: any format -> console frames. |
-| baoyu-comic | Built-in | — | Knowledge comic creator. Multi-style art + panel layouts. |
-| baoyu-infographic | Built-in | — | Professional infographics with 21 layout types and auto-styling. |
-| design-md | Built-in | — | Author, validate, diff, export DESIGN.md files. Google Fonts + color extraction. |
-| excalidraw | Built-in | — | Hand-drawn style diagrams via Excalidraw JSON. |
-| ideation | Built-in | — | Generate project ideas via creative constraint prompts. |
-| manim-video | Built-in | — | Math/technical animations with Manim pipeline. |
-| p5js | Built-in | — | Interactive/generative visuals with p5.js sketches. |
-| pixel-art | Built-in | — | Retro pixel art conversion with hardware-accurate palettes. |
-| popular-web-designs | Built-in | — | 54 production design systems extracted from real-world sites. |
-| songwriting-and-ai-music | Built-in | — | Songwriting craft + AI music prompts (Suno focused). |
-| svg | Built-in | — | SVG vector image creation and manipulation. |
+## Bundled Skills Catalog (71)
 
-## MLOps (13)
+Hermes ships these built-in skills, copied into `~/.hermes/skills/` on install. Sync respects local deletions/user edits; restore a missing one with `hermes skills reset <name> --restore`.
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| audiocraft-audio-generation | Built-in | — | PyTorch audio generation: MusicGen, AudioGen, EnCodec. |
-| axolotl | Built-in | — | Fine-tune LLMs with Axolotl (YAML configs, LoRA, QLoRA). |
-| clip | Built-in | — | OpenAI CLIP: zero-shot image classification, embeddings. |
-| fine-tuning-with-trl | Built-in | — | Fine-tune with TRL: SFT, DPO, PPO, ORPO helpers. |
-| gguf-quantization | Built-in | — | GGUF format + llama.cpp quantization for edge inference. |
-| huggingface-hub | Built-in | — | Hugging Face Hub: model search, download, upload, datasets. |
-| llama.cpp | Built-in | — | llama.cpp local GGUF inference + HF Hub model discovery. |
-| peft-fine-tuning | Built-in | — | PEFT (LoRA, QLoRA, AdaLoRA) for parameter-efficient fine-tuning. |
-| segment-anything-model | Built-in | — | SAM: zero-shot image segmentation with interactive masks. |
-| stable-diffusion-image-generation | Built-in | — | SDXL image generation with ComfyUI pipeline. |
-| unsloth | Built-in | — | Fast fine-tuning with Unsloth (2-5x speedup, less VRAM). |
-| vllm | Built-in | — | vLLM inference serving with PagedAttention (high throughput). |
-| weights-and-biases | Built-in | — | W&B experiment tracking + hyperparameter sweeps. |
+### apple (4)
 
-## Productivity (8)
+| Skill | Description | Path |
+|---|---|---|
+| apple-notes | Manage Apple Notes via memo CLI: create, search, edit. | `apple/apple-notes` |
+| apple-reminders | Apple Reminders via remindctl: add, list, complete. | `apple/apple-reminders` |
+| findmy | Track Apple devices/AirTags via FindMy.app on macOS. | `apple/findmy` |
+| imessage | Send and receive iMessages/SMS via the imsg CLI on macOS. | `apple/imessage` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| claude-blog | Built-in | — | Research-backed, top-ranking blog articles with citations. |
-| google-workspace | Built-in | — | Gmail, Calendar, Drive, Contacts, Sheets, Docs integration. |
-| himalaya | Built-in | — | CLI email via IMAP/SMTP: list, search, read, compose, send. |
-| nano-pdf | Built-in | — | Edit PDFs with natural-language instructions (merge, split, OCR). |
-| notion | Built-in | — | Notion API: create/manage pages, databases, blocks. |
-| ocr-and-documents | Built-in | — | Extract text from PDFs/scans via web extraction + OCR. |
-| powerpoint | Built-in | — | Read/manipulate .pptx files (edit, create from template). |
-| report-to-google-doc | Built-in | — | Export markdown files to formatted Google Docs. |
+### autonomous-ai-agents (5)
 
-## GitHub (6)
+| Skill | Description | Path |
+|---|---|---|
+| claude-code | Delegate coding to Claude Code CLI (features, PRs). | `autonomous-ai-agents/claude-code` |
+| codex | Delegate coding to OpenAI Codex CLI (features, PRs). | `autonomous-ai-agents/codex` |
+| computer-use | Drive the user's desktop in the background — clicking, typing, scrolling, dragging — without stealing the cursor, keyboard focus, or switching virtual desktops / Spaces. Cross-platform: macOS, Windows, Linux. Works with any tool-capable... | `autonomous-ai-agents/computer-use` |
+| hermes-agent | Use, configure, theme, extend, and orchestrate Hermes Agent. | `autonomous-ai-agents/hermes-agent` |
+| opencode | Delegate coding to OpenCode CLI (features, PR review). | `autonomous-ai-agents/opencode` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| github-auth | Built-in | — | GitHub auth setup (git credential manager, token config). |
-| github-code-review | Built-in | — | Review PRs: analyze diffs, leave inline comments. |
-| github-issues | Built-in | — | Create, manage, triage, close GitHub issues. |
-| github-pr-workflow | Built-in | — | Full PR lifecycle: branch, commit, push, open PR, merge. |
-| github-repo-management | Built-in | — | Clone, create, fork, configure, manage repos. |
-| github-sponsors | Built-in | — | List sponsors, generate thank-you messages, track tiers. |
+### creative (16)
 
-## Media (5)
+| Skill | Description | Path |
+|---|---|---|
+| architecture-diagram | Dark-themed SVG architecture/cloud/infra diagrams as HTML. | `creative/architecture-diagram` |
+| ascii-art | ASCII art: pyfiglet, cowsay, boxes, image-to-ascii. | `creative/ascii-art` |
+| ascii-video | ASCII video: convert video/audio to colored ASCII MP4/GIF. | `creative/ascii-video` |
+| baoyu-infographic | Infographics: 21 layouts x 21 styles (信息图, 可视化). | `creative/baoyu-infographic` |
+| claude-design | Design one-off HTML artifacts (landing, deck, prototype). | `creative/claude-design` |
+| comfyui | Generate images, video, and audio via diffusion workflows. | `creative/comfyui` |
+| design-md | Author/validate/export Google's DESIGN.md token spec files. | `creative/design-md` |
+| excalidraw | Hand-drawn Excalidraw JSON diagrams (arch, flow, seq). | `creative/excalidraw` |
+| humanizer | Humanize text: strip AI-isms and add real voice. | `creative/humanizer` |
+| manim-video | Manim CE animations: 3Blue1Brown math/algo videos. | `creative/manim-video` |
+| p5js | p5.js sketches: gen art, shaders, interactive, 3D. | `creative/p5js` |
+| popular-web-designs | 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS. | `creative/popular-web-designs` |
+| pretext | Build creative browser demos with DOM-free text layout. | `creative/pretext` |
+| sketch | Throwaway HTML mockups: 2-3 design variants to compare. | `creative/sketch` |
+| songwriting-and-ai-music | Songwriting craft and Suno AI music prompts. | `creative/songwriting-and-ai-music` |
+| touchdesigner-mcp | Control TouchDesigner via twozero MCP. | `creative/touchdesigner-mcp` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| gif-search | Built-in | — | Search/download GIFs from Tenor via curl. |
-| heartmula | Built-in | — | HeartMuLa open-source music generation setup + run. |
-| songsee | Built-in | — | Spectrograms + audio feature visualizations (MFCC, chroma). |
-| spotify | Built-in | — | Control Spotify: play, search, manage playlists/queue. |
-| youtube-content | Built-in | — | Fetch YouTube transcripts, transform to structured notes. |
+### email (1)
 
-## Apple (4)
+| Skill | Description | Path |
+|---|---|---|
+| himalaya | Himalaya CLI: IMAP/SMTP email from terminal. | `email/himalaya` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| apple-notes | Built-in | macOS | Manage Apple Notes via memo CLI: create, search, edit. |
-| apple-reminders | Built-in | macOS | Apple Reminders via remindctl: add, list, complete. |
-| findmy | Built-in | macOS | Track Apple devices/AirTags via FindMy.app on macOS. |
-| imessage | Built-in | macOS | Send/receive iMessages/SMS via imsg CLI on macOS. |
+### github (6)
 
-## AI Agents (4)
+| Skill | Description | Path |
+|---|---|---|
+| codebase-inspection | Inspect codebases w/ pygount: LOC, languages, ratios. | `github/codebase-inspection` |
+| github-auth | GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login. | `github/github-auth` |
+| github-code-review | Review PRs: diffs, inline comments via gh or REST. | `github/github-code-review` |
+| github-issues | Create, triage, label, assign GitHub issues via gh or REST. | `github/github-issues` |
+| github-pr-workflow | GitHub PR lifecycle: branch, commit, open, CI, merge. | `github/github-pr-workflow` |
+| github-repo-management | Clone/create/fork repos; manage remotes, releases. | `github/github-repo-management` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| claude-code | Built-in | — | Delegate coding to Claude Code CLI (features, PRs). |
-| codex | Built-in | — | Delegate coding to OpenAI Codex CLI (features, PRs). |
-| hermes-agent | Built-in | — | Configure, extend, or contribute to Hermes Agent. |
-| opencode | Built-in | — | Delegate coding to OpenCode CLI (features, PR review). |
+### media (3)
 
-## Research (4)
+| Skill | Description | Path |
+|---|---|---|
+| gif-search | Search/download GIFs from Tenor via curl + jq. | `media/gif-search` |
+| songsee | Audio spectrograms/features (mel, chroma, MFCC) via CLI. | `media/songsee` |
+| youtube-content | YouTube transcripts to summaries, threads, blogs. | `media/youtube-content` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| arxiv | Built-in | — | Search and retrieve academic papers from arXiv. |
-| exa | Built-in | — | Exa MCP: semantic web search for research, companies, code. |
-| firecrawl | Built-in | — | Firecrawl API: scrape, crawl, map, extract web data. |
-| tavily | Built-in | — | Tavily MCP: AI search engine with real-time info + citations. |
+### mlops (5)
 
-## Gaming (2)
+| Skill | Description | Path |
+|---|---|---|
+| evaluating-llms-harness | lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.). | `mlops/evaluation/evaluating-llms-harness` |
+| huggingface-hub | HuggingFace hf CLI: search/download/upload models, datasets. | `mlops/huggingface-hub` |
+| llama-cpp | llama.cpp local GGUF inference + HF Hub model discovery. | `mlops/inference/llama-cpp` |
+| serving-llms-vllm | vLLM: high-throughput LLM serving, OpenAI API, quantization. | `mlops/inference/serving-llms-vllm` |
+| weights-and-biases | W&B: log ML experiments, sweeps, model registry, dashboards. | `mlops/evaluation/weights-and-biases` |
 
-| Skill | Registry | Platform | Description |
-|-------|----------|----------|-------------|
-| minecraft-modpack-server | Built-in | — | Set up modded Minecraft server from CurseForge/Modrinth packs. |
-| pokemon-player | Built-in | — | Autonomous Pokemon gameplay via headless emulation. |
+### note-taking (1)
 
----
+| Skill | Description | Path |
+|---|---|---|
+| obsidian | Read, search, create, and edit notes in the Obsidian vault. | `note-taking/obsidian` |
 
-*Source: Nous Research Hermes Agent documentation. Class names parsed from Docusaurus hydration.*
+### productivity (11)
+
+| Skill | Description | Path |
+|---|---|---|
+| airtable | Airtable REST API via curl. Records CRUD, filters, upserts. | `productivity/airtable` |
+| docx | Create, read, edit Word .docx documents and templates. | `productivity/docx` |
+| google-workspace | Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python. | `productivity/google-workspace` |
+| maps | Geocode, POIs, routes, timezones via OpenStreetMap/OSRM. | `productivity/maps` |
+| nano-pdf | Edit text in existing PDFs via natural-language prompts. | `productivity/nano-pdf` |
+| notion | Notion API + ntn CLI: pages, databases, markdown, Workers. | `productivity/notion` |
+| ocr-and-documents | Extract text from PDFs/scans (pymupdf, marker-pdf). | `productivity/ocr-and-documents` |
+| pdf | Create, merge, split, fill, and secure PDF files. | `productivity/pdf` |
+| powerpoint | Create, read, edit .pptx decks, slides, notes, templates. | `productivity/powerpoint` |
+| teams-meeting-pipeline | Teams meeting summaries, job replay, Graph subscriptions. | `productivity/teams-meeting-pipeline` |
+| xlsx | Create, read, edit Excel .xlsx spreadsheets and CSVs. | `productivity/xlsx` |
+
+### research (6)
+
+| Skill | Description | Path |
+|---|---|---|
+| arxiv | Search arXiv papers by keyword, author, category, or ID. | `research/arxiv` |
+| blogwatcher | Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool. | `research/blogwatcher` |
+| grounded-citations | Ground answers and documents in cited, verifiable sources. | `research/grounded-citations` |
+| llm-wiki | Karpathy's LLM Wiki: build/query interlinked markdown KB. | `research/llm-wiki` |
+| polymarket | Query Polymarket: markets, prices, orderbooks, history. | `research/polymarket` |
+| research-paper-writing | Write ML papers for NeurIPS/ICML/ICLR: design→submit. | `research/research-paper-writing` |
+
+### smart-home (1)
+
+| Skill | Description | Path |
+|---|---|---|
+| openhue | Control Philips Hue lights, scenes, rooms via OpenHue CLI. | `smart-home/openhue` |
+
+### social-media (1)
+
+| Skill | Description | Path |
+|---|---|---|
+| xurl | X/Twitter via xurl CLI: raw post search, posting, DM, media. | `social-media/xurl` |
+
+### software-development (11)
+
+| Skill | Description | Path |
+|---|---|---|
+| dogfood | Exploratory QA of web apps: find bugs, evidence, reports. | `software-development/dogfood` |
+| hermes-agent-skill-authoring | Author in-repo SKILL.md files: frontmatter and structure. | `software-development/hermes-agent-skill-authoring` |
+| inspecting-hermes-desktop-dom | Read the live Hermes desktop DOM/CSS over CDP. | `software-development/inspecting-hermes-desktop-dom` |
+| node-inspect-debugger | Debug Node.js via --inspect + Chrome DevTools Protocol CLI. | `software-development/node-inspect-debugger` |
+| plan | Write a markdown plan to .hermes/plans/; no execution. | `software-development/plan` |
+| python-debugpy | Debug Python: pdb REPL + debugpy remote (DAP). | `software-development/python-debugpy` |
+| requesting-code-review | Pre-commit review: security scan, quality gates, auto-fix. | `software-development/requesting-code-review` |
+| simplify-code | Parallel 4-agent cleanup of recent code changes. | `software-development/simplify-code` |
+| spike | Throwaway experiments to validate an idea before build. | `software-development/spike` |
+| systematic-debugging | 4-phase root cause debugging: understand bugs before fixing. | `software-development/systematic-debugging` |
+| test-driven-development | TDD: enforce RED-GREEN-REFACTOR, tests before code. | `software-development/test-driven-development` |
+
+## Local Install Notes
+
+**474 skills installed locally** (vs 71 bundled) — the difference (413) is community/registry skills, templates (HyperFrames, PPT decks, Figma), and marketing/research extras added over time.
+
+### Bundled but NOT installed locally (10)
+
+These ship with Hermes but are missing from this profile's `~/.hermes/skills/` — mostly macOS-only (Apple) or GitHub-workflow skills not yet restored:
+
+- `apple-notes`
+- `apple-reminders`
+- `findmy`
+- `github-auth`
+- `github-code-review`
+- `github-issues`
+- `github-pr-workflow`
+- `github-repo-management`
+- `imessage`
+- `openhue`
+
+Restore any with: `hermes skills reset <name> --restore`

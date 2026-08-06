@@ -8,12 +8,8 @@
 | [GTM Engineer Resources](./gtm-engineer-resources/) | Curated tools + data sources forming the GTM Engineering stack — signal intelligence, enrichment, outbound automation, and workflow orchestration. Includes Explorium, EnrichLayer, Clay, Apollo, Apify, Bright Data, Instantly, Phantombuster, n8n. Categorized by Spectra Holdings use case. |
 | klick2client-os | B2B client acquisition OS — LinkedIn + Email lifecycle engine, 360-day parallel tracks, Sales Battlecards, GTM Engineering product |
 | ncf-national-christian-foundation | NCF org profile — mission, values, audience, language patterns, outreach angles, DAF market context; capital source for Spectra Holdings Group |
-<<<<<<< Updated upstream
-| spectra-holdings-group | Spectra Holdings Group — faith-aligned holdings, Master Credit Facility, missionary work; NCF is target capital source |
-| capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
-=======
 | spectra-holdings-group | Spectra Holdings Group — 7-module intelligence profile (L3 complete); 19-division community dev holding company; KlickSmartAI 92%, WWR 82%, NCF 88% fit; MCF + CDFI + missionary work capital targets |
->>>>>>> Stashed changes
+| capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
 
 ## Projects
 | entity-id | Description |
@@ -22,6 +18,10 @@
 | mortgage-broker-os | Klick2Client OS vertical — lead-to-funded automation for mortgage brokers (proposal pack v1.0) |
 | commercial-mortgage-os | Klick2Client OS vertical — commercial mortgage pipeline intelligence (deal stalls, maturity wall, CMBS servicing) |
 | rios-mortgage-intelligence-exchange | RIOS tech stack — residential + commercial mortgage intelligence (32-task tracker live) |
+| leadsniperai-project-docs | LeadSniperAI full product stack — 6 docs from Notion: Marketplace PRD (Convex lead marketplace), CLI PRD (leadsniper CLI for 3.0), Workflow Improvement (adversarial refutation), Marketplace OS (funding funnel), Venture OS (GTM/brand), Integration API Catalog (see `projects/leadsniperai/`) |
+| leadsniperai-gmb-signal-engine | GMB-grounding signal engine proposal for business-funding vertical — 5 signal families from Google Business Profile data, funding-readiness scoring, CLI commands, implementation plan (see `drafts/leadsniperai-gmb-signal-engine-proposal.md`) |
+| leadsniperai-cli-conversion | LeadSniperAI 3.0 converted to agent-native Go CLI via Printing Press v4.30.1 — 25 endpoints wrapped, SQLite sync, self-learning loop, MCP server (see `projects/leadsniperai/cli-conversion-printing-press.md`) |
+| leadsniperai-review-intelligence | **Review Intelligence Engine — the core differentiator**: review content → sentiment + theme classification → business phase detection (count×score×themes) → best-service recommendation. Built + verified (see `drafts/leadsniperai-review-intelligence-engine.md` + backend `review_intelligence.py`) |
 
 ## Capital Sources
 | entity-id | Description |
@@ -51,6 +51,7 @@
 | onyx-framework | Open Source AI Orchestration Platform — base for high-ticket AI Workspaces |
 | senderscore | Email deliverability scoring reference |
 | awesome-llm-apps | Curated LLM app examples reference |
+| hermes-skills-hub | Hermes Agent skills catalog — 71 bundled skills (13 categories) + local install inventory (474 skills) |
 
 ## Audits
 | audit-id | Description |
@@ -58,23 +59,23 @@
 | deliverability-audit-idc | Email deliverability audit for Insurance Direct Canada |
 | idc-gamma-blueprint | IDC Gamma content blueprint |
 
-<<<<<<< Updated upstream
 ## GTM Engineer Resources
 | resource-id | Description |
 |-------------|-------------|
 | explorium-ai | B2B data enrichment + GTM Engineering platform — agentic data layer, CRM hygiene, custom signal generation, OpenClaw/Claude Code integration guide (97.8% accuracy) |
-=======
+
 ## Workflows
 | workflow-id | Description |
 |-------------|-------------|
 | org-profile-intelligence | Reusable 7-stage pipeline: scrape → AI extract → synthesize → market research → report → NotebookLM analysis → wiki + graph |
 | ncf-pilot-run-log | NCF/Spectra pilot execution of org-profile-intelligence — stages 1–5 done, stage 6 proposed |
->>>>>>> Stashed changes
 
 ## Playbooks
 | playbook-id | Description |
 |-------------|-------------|
 | idc-group-benefits-outreach | Strategy for using Scott's Directories to drive IDC Group Benefits sales |
+| lead-sniperai-signal-cold-email-sop | Signal-based cold email system SOP — LeadSniperAI as signal/evidence layer: vertical selection, signal report cards, GO/HOLD/DROP review, cost-aware enrichment ladder, deliverability infrastructure (full text in `processes/lead-sniperai-signal-cold-email-sop.md`) |
+| lead-sniperai-cli-os | LeadSniperAI CLI master operating system spec — canonical command taxonomy (21 groups), dual-rail economics (buyer acquisition + opportunity generation), 7 discovery agents, 14 verticals, Notion 4-hub ops layer, 7 operations agents, 30-day rollout (full text in `processes/lead-sniperai-cli-os.md`) |
 
 ## Concepts
 | concept-id | Description |
