@@ -133,3 +133,4 @@
 
 ## [2026-08-06] create | Progressive Enrichment Architecture
 - [[concepts/progressive-enrichment-architecture]] — Explorium reference: 6-stage progressive enrichment (market size → company resolve → account qualify → buying committee → selective contact enrich → activate). Wired into gtm-enrichment-planner as mandatory cost-control model. Source: user-provided Explorium Quick Starts + Data Catalog reference.
+- [2026-08-06] Updated [[entities/swan-gtm-gtm-skills]] Explorium + progressive-enrichment pages with AgentSource MCP tool inventory (11 tools verified from developers.explorium.ai) — maps 1:1 to progressive enrichment stages

@@ -121,6 +121,23 @@ Smartlead / HeyReach / Telnyx / Unipile
 - **`leadsniper-sgi-prd`** — entity resolution + canonical ID layer aligns with the SGI domain-audit model
 - **`swan-gtm-gtm-skills`** — the GTM decision layer (signal qualification → scoring → outreach) consumes the progressive-enriched output
 
+## Concrete tool names (AgentSource MCP, verified 2026-08-06)
+
+The Explorium MCP tools ARE this architecture, stage by stage:
+
+| Stage | MCP tool(s) |
+|-------|-------------|
+| 1. Market/ICP sizing | `fetch-businesses-statistics`, `fetch-prospects-statistics` |
+| 2. Discovery | `fetch-businesses` (filters: revenue, size, age, location, industry, tech stack) |
+| 3. Entity resolution | `match-business` (name/domain → Business ID), `match-prospects` (person → Prospect ID) |
+| 4. Account enrichment | `enrich-business` |
+| 5. Buying-committee | `fetch-prospects` (job level, dept, location, experience) |
+| 6. Contact enrichment | `enrich-prospects` (email/phone) |
+| 7. Trigger events | `fetch-businesses-events`, `fetch-prospects-events` (funding, office changes, M&A, role changes, anniversaries) |
+| Pre-flight | `autocomplete` (valid filter values — call before filtered calls) |
+
+Endpoint: `https://mcp.explorium.ai/mcp` (streamable HTTP) or `/sse`. Not yet wired into Hermes (needs Explorium API key).
+
 ## Related
 
 - [[entities/leadsniper-sgi-prd]] · [[entities/swan-gtm-gtm-skills]] · [[gtm-engineer-resources]] · deepline skill
