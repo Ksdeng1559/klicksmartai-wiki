@@ -15,3 +15,7 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 *.pyc
+# vendored mirrors — source of truth lives upstream (GitHub/Notion); don't index
+raw/swan-gtm/
+raw/repos/
+raw/notion/
