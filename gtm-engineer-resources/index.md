@@ -14,6 +14,7 @@ Curated tools, platforms, and data sources that form the GTM Engineering stack �
 - **[04-outbound-automation](04-outbound-automation/)** — Email sequencing, LinkedIn automation, multichannel outreach
 - **[05-engagement-infrastructure](05-engagement-infrastructure/)** — CRM, email delivery, scheduling, chat
 - **[06-workflow-orchestration](06-workflow-orchestration/)** — Automation platforms, pipeline builders, integration layers
+- **[07-gtm-skills](07-gtm-skills/)** — GTM strategy playbooks + decision layer (Swan GTM skills library)
 
 ---
 
@@ -33,6 +34,7 @@ Curated tools, platforms, and data sources that form the GTM Engineering stack �
 | [Mailgun](../entities/mailgun.md) | 05-Engagement Infrastructure | ✅ Existing | Transactional email |
 | [n8n](./06-workflow-orchestration/n8n.md) | 06-Workflow Orchestration | 🔲 Catalogued | Self-hosted automation |
 | [Claude Code + AgentSource](./06-workflow-orchestration/claude-code-gtm-automation.md) | 06-Workflow Orchestration | ✅ Active | Stack consolidation — reasoning vs. routing, 5→2 failure points |
+| [Swan GTM Skills](./07-gtm-skills/swan-gtm-skills.md) | 07-GTM Skills | ✅ Active | GTM decision layer — signal qualification, account research, scoring, outreach strategy |
 
 ---
 

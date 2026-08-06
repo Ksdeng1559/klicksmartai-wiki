@@ -93,6 +93,23 @@ CCPA · ISO 27001 · GDPR · SOC 2
 
 ---
 
+## GTM Engineer Strategies (decision-layer playbooks)
+
+Explorium is the **data layer** in the GTM stack — the strategies that decide *what to do with that data* live in the Swan GTM skills library and the research pipeline:
+
+| Strategy | Where it lives | How Explorium fits |
+|----------|---------------|-------------------|
+| **Signal qualification** — genuine trigger vs noise | `07-gtm-skills/swan-gtm-skills.md` → `signal-interpreter` (installed skill) | Explorium's custom signal generation + contact intelligence feed the raw signal |
+| **Account research** — evidence-backed brief | `signal-intelligence-agent` / `research-intelligence-workflow` | Explorium's always-fresh CRM + account identification provide the evidence base |
+| **Opportunity scoring** — ICP fit, signal strength, timing | `score` + `account-tier-scoring` (installed skills) | Explorium enrichment (97.8% accuracy) supplies scoring inputs |
+| **Outreach strategy selection** — reason, channel, offer, CTA before copy | `reach-out` (installed skill) + `cold-email` | Explorium's tailored strategies + contact intelligence inform channel/offer choice |
+| **Enrichment + execution layer** | `deepline` + `gtm-enrichment-planner` (credit-gated) | Explorium can be the high-accuracy enrichment pass; Deepline the waterfall |
+| **Learning loop** — replies → meetings → funded deals | swan Convex attribution model | Explorium's CRM sync keeps the loop fed |
+
+**Stack position (per swan architecture):** Explorium = layer 1 (data/signals). It is NOT the decision layer — strategy selection, qualification, and governance happen in the GTM skills layer on top.
+
+**Credit governance:** any Explorium/Deepline enrichment spend runs through `gtm-enrichment-planner` — pilot → credit estimate → HITL approval before full runs.
+
 ## GTM Engineer Relevance
 
 - **Agentic workflows use case** — first-class support for AI agents (not just human GTM tools)
