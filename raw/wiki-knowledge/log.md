@@ -121,3 +121,12 @@
 - Owner: Alexander Eng (son of Dennis Eng)
 - Photo: /home/denni/.hermes/image_cache/img_8ebb9f182c52.jpg
 
+
+## [2026-08-06] create | Search Stack
+- [[concepts/search-stack]] — Hermes search engine inventory + capabilities + routing (verified live 2026-08-05/06)
+- Decision: Parallel.ai replaces Exa/Tavily for LLM-grounding tier only; SERP providers (Serper/SerpApi/DataForSEO) stay for structured SEO/local work
+
+## [2026-08-06] create | Swan GTM Skills + LeadSniper SGI PRD
+- [[entities/swan-gtm-gtm-skills]] — Swan GTM skills library ingested: full mirror at raw/swan-gtm/ (267 SKILL.md, 45 authors), Notion summary + category inventory + KlickSmartAI vertical curation
+- [[entities/leadsniper-sgi-prd]] — LeadSniper SGI PRD documented from Notion: AI domain audit app, Organic Gap Sprint IVO, 8-step journey, scoring weights, module specs
+- Sources: GitHub swan-gtm/gtm-skills @ d31ef43; Notion pages (swan-gtm/gtm-skills summary, LeadSniper SGI PRD)
