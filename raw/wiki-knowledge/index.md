@@ -58,6 +58,9 @@
 
 ## Concepts
 - [[about-this-wiki]] — Meta page explaining the wiki's purpose, structure, and conventions
+- [[search-stack]] — Hermes search engine inventory + routing: Brave (default) → Serper → Exa → Parallel.ai; Parallel replaces Exa/Tavily for LLM-grounding but NOT SERP providers
+- [[swan-gtm-gtm-skills]] — Swan's open GTM skills library (267 SKILL.md, 45 authors): RevOps, Outreach, Ads, Signals, ABM. Ingested from GitHub + Notion summary
+- [[leadsniper-sgi-prd]] — LeadSniper SGI: AI domain audit + SERP intelligence + GTM recommendation app. Operating model Audit→Evidence→Opportunity→Recommendation→GTM→Execution→Measurement
 - [[boss-raas-v3]] — BOSS v3 Financial Services RaaS: 7-layer Revenue Conversion Machine (Signal→Enrich→Score→Act→Learn→Adapt). 4-phase build roadmap, 16-agent workforce, DuckDB feedback loop, Smartlead + LinkedIn DM execution. Source: raw/reference/BOSS-RaaS-v3-Revenue-Conversion-Machine.docx
 - [[hermes-agent]] — Self-improving autonomous AI agent by Nous Research, 64K+ GitHub stars
 - [[hermes-agent-setup-guide]] — Alex P.'s comprehensive VPS setup walkthrough for Hermes Agent
