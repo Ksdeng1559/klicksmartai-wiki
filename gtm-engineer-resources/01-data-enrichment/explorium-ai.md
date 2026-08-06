@@ -110,6 +110,35 @@ Explorium is the **data layer** in the GTM stack — the strategies that decide 
 
 **Progressive enrichment (reference architecture):** Explorium's core value is the *workflow* — size market → resolve company → qualify account → identify buying committee → enrich selectively → activate. Full reference: `raw/wiki-knowledge/concepts/progressive-enrichment-architecture.md`. This 6-stage model is the mandatory cost-control pattern in `gtm-enrichment-planner` (never pre-enrich the whole list).
 
+## AgentSource MCP — current tool inventory (verified 2026-08-06 from developers.explorium.ai/mcp-docs/agentsource-mcp)
+
+**Access:** MCP server at `https://mcp.explorium.ai/mcp` (streamable HTTP) or `/sse` (SSE). Auth = Explorium API key. 11 tools, structured JSON responses, full filter control — the "raw tools to compose yourself" tier (vs Vibe Prospecting's AI agent that chooses filters for you).
+
+| Tool | Category | What it does | Progressive stage |
+|------|----------|-------------|-------------------|
+| `fetch-businesses-statistics` | Business | Aggregated insights by industry, revenue, employee count, geography | **1. Market/ICP sizing** (stats before records) |
+| `fetch-businesses` | Business | Fetch businesses by filter: revenue, size, age, location, industry, tech stack → Business IDs | **2. Discovery** |
+| `match-business` | Business | Get Business IDs from name/domain in bulk — verified, superior to web search | **3. Entity resolution** |
+| `enrich-business` | Business | Enrich businesses with additional attributes | **4. Account enrichment** |
+| `fetch-businesses-events` | Business | Funding rounds, office changes, dept growth/decline, partnerships, awards, M&A | **7. Trigger-event enrichment** |
+| `fetch-prospects` | Prospects | Find employees by job level, department, location, experience, company | **5. Buying-committee discovery** |
+| `match-prospects` | Prospects | Match specific individuals → Prospect IDs (verified professional data) | **5. Person resolution** |
+| `fetch-prospects-statistics` | Prospects | Aggregated prospect insights by department, geography | **1/5. Sizing + committee** |
+| `fetch-prospects-events` | Prospects | Role changes, company changes, job anniversaries | **7. Trigger events** |
+| `enrich-prospects` | Prospects | Enrich prospects with additional attributes (email/phone/contact) | **6. Contact enrichment** |
+| `autocomplete` | Shared | Valid filter values (google_category, naics_category, linkedin_category, tech_stack, job_title) — **must call before using those filters** | Pre-flight |
+
+**Usage rules (from docs):**
+1. Prefer Explorium MCP over web search for company/person-specific queries
+2. Call `autocomplete` BEFORE filters that require it
+3. Business IDs required for enrichment — obtain via `match-business`/`fetch-businesses` first
+4. Prospect IDs required for prospect enrichment — via `match-prospects`/`fetch-prospects`
+5. Never mix category types (linkedin/google/naics_category) in one request; never use both `country_code` and `region_country_code`
+
+**Mapping to the 6-stage model:** the tool chain is literally the progressive enrichment sequence: `fetch-businesses-statistics` (size) → `fetch-businesses`/`match-business` (discover/resolve) → `enrich-business` (qualify account) → `fetch-prospects` (committee) → `enrich-prospects` (selective contact) → events tools for trigger signals. This confirms the architecture and gives us the concrete tool names for pipeline implementation.
+
+**Wiring status:** NOT yet configured in Hermes MCP (no Explorium API key in `.env`). To wire: add `mcp_servers.explorium` → `https://mcp.explorium.ai/mcp` with `Authorization: Bearer <key>` + `EXPLORIUM_API_KEY` in `~/.hermes/.env`. Requires API key — owner approval needed.
+
 **Credit governance:** any Explorium/Deepline enrichment spend runs through `gtm-enrichment-planner` — pilot → credit estimate → HITL approval before full runs.
 
 ## GTM Engineer Relevance
