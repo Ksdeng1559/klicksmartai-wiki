@@ -1,52 +1,47 @@
-# RFC — openclaw (KlickSmartAI internal wiki mirror)
+# RFC — openclaw (openclaw/openclaw)
 
-**Audit date:** 2026-06-20
-**Repo:** https://github.com/Ksdeng1559/klicksmartai-wiki.git
-**Local clone:** ~/wiki/tech-debt/github/openclaw
-**Current branch:** master
-**Local HEAD:** `a565e35` — Daily sync: 2026-06-19 20:00:01
-**Upstream sync source:** `github-wiki` remote → `/home/denni/.hermes/wiki-github-wiki`
+**Audit date:** 2026-08-08 (Saturday)
+**Repo:** https://github.com/openclaw/openclaw
+**Local presence:** ~/wiki/tech-debt/github/openclaw — **no local clone** (directory holds only prior audit notes rca.md/rfc.md). Remote-only audit via GitHub API.
 
-## 1. Dependency Status
+## 1. Git Status
 
-This is **not a software project** — it's a markdown wiki mirror. No `package.json`, no `pyproject.toml`, no manifest at the repo root.
+- No local clone; remote state only
+- Default branch: `main`; **385,548 stars**, 5,635 open issues; **not archived**; last push 2026-08-08 (active)
+- Latest release: **v2026.7.1-2** (published 2026-08-04)
 
-- Working tree is essentially **empty** — only `rca.md` (1711 bytes) and `rfc.md` (3221 bytes) are present, both untracked artifacts from prior audits.
-- Subdirectory `../graphify` and `../hermes-agent` show as untracked from this clone's perspective (cross-listed via symlinks or parent listing), but they are siblings, not children.
+## 2. Dependency Health
 
-## 2. CI/CD Health
+- Not inspectable without a clone. OpenClaw is a TypeScript/Node project (large monorepo).
+- Dependabot alerts API: 403 on free plan — not inspectable
+- High release cadence: 5 releases in last week (v2026.6.34 → v2026.7.1-2) — active maintenance
 
-- No `.github/workflows` content (not inspected — clone is bare content).
-- Daily sync cron appears to be the "CI": commits every 24h with message `Daily sync: YYYY-MM-DD HH:MM:SS`. Last 5:
-  ```
-  a565e35 Daily sync: 2026-06-19 20:00:01
-  aaff473 Daily sync: 2026-06-18 20:00:07
-  29c7826 Daily sync: 2026-06-17 20:00:45
-  0e92795 Daily sync: 2026-06-16 20:00:24
-  861961b Daily sync: 2026-06-14 20:00:52
-  ```
-- The cron is **functional** but note: today (2026-06-20) has no commit yet. May still sync later, or may have failed silently — flag for follow-up tomorrow.
+## 3. CI/CD Pipeline
 
-## 3. Recent Upstream Activity
+- Last 5 runs: ClawSweeper Dispatch (1 in_progress, rest skipped), Maintainer Command Reactions (skipped). No failures
+- Status: **healthy** (no failing workflows on default branch)
 
-`git fetch` against `github-wiki` advanced 7f09b82..11c0f52 on master. `origin` remote (KlicksmartAI fork) has 3 feature branches:
-- `spectra-advertorial-os`
-- `test/capital-feasibility-algorithm-san-antonio`
-- `workflow/sbir-rios-grantfunding-ai`
+## 4. Recent Merged PRs (2026-08-08)
 
-## 4. Recently Merged PRs
+```
+#120527 fix(telegram): restore account-scoped reply mode (steipete)
+#120611 fix: Telegram Crabbox proof uses resolved SSH target (steipete)
+#120613 fix(release): dispatch validation through client-pushed target ref (steipete)
+#120511 feat(macos): control motorized camera pan, tilt, zoom (steipete)
+#120594 fix(codex): support app-server 0.147.0 (vincentkoc)
+#120430 fix(cli): avoid missing-facing camera snap failures (steipete)
+#120075 fix: gateway stalls for tens of seconds after each agent turn on multi-agent (sercada)
+#120493 fix(ui): bulk session archive no longer stalls per thread (steipete)
+```
 
-Not applicable — wiki repo, no PR-based workflow.
+Theme: Telegram reply mode fix, macOS camera control, codex app-server compat, gateway multi-agent stall fix, UI session-archive perf. Active, healthy upstream.
 
 ## 5. Recommended Actions for Claude Code
 
-1. **Audit remote credential exposure** — `git remote -v` revealed the `origin` remote URL embeds a GitHub PAT in plaintext (`Ksdeng1559:ghp_WO...Ry7t@github.com/...`). **This is a security finding** — the token grants `Ksdeng1559`'s access scope. Rotate the token and switch to SSH or credential helper immediately.
-2. **Verify today's daily sync** runs at 20:00 UTC; if missing, check the cron service.
-3. **Clean up untracked `rca.md` and `rfc.md`** from this clone OR move them to `~/wiki/tech-debt/github/openclaw/` parent — they don't belong in a wiki mirror.
-4. **No code-level PR work needed** — wiki mirror.
+- [ ] **No action required** — KlickSmartAI no longer runs OpenClaw (superseded by Hermes per memory). Tracked for awareness only.
+- [ ] If OpenClaw integration is ever revived, clone from `openclaw/openclaw` and pin to release v2026.7.1-2+
 
 ## 6. Risks / Notes
 
-- **CRITICAL: leaked PAT in `origin` remote URL** — see §5.1.
-- Daily sync cadence is ~24h with one gap (no 2026-06-13 commit in last 5). Low severity — likely skipped.
-- This clone has no remote-tracking for `origin/HEAD` — confirms it's a working/wiki repo, not a development fork.
+- No local clone means no dependency/security audit possible from this environment without a full clone (~large monorepo)
+- OpenClaw release cadence is high and fast-moving; any future integration should pin to tagged releases
