@@ -1,5 +1,8 @@
 # Jackson County, MO (Kansas City) — Investor Leads
 
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
+
+
 > Prepared for the Veritas Developments MCF pipeline. Jackson County's partner ecosystem is the deepest of any pipeline county: a $100M regional housing fund is forming, the city has a Housing Trust Fund, and a faith-based church-land housing movement (AG/KC, United Believers, PEDC) is actively building. The MCF's entry window: assemble the CDFI/foundation stack before the Regional Housing Fund absorbs the available philanthropic capital.
 
 ---

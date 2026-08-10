@@ -1,6 +1,7 @@
 ---
 title: "Jackson County, MO — East-Side Vacancy Conversion Pilot Pro-Forma"
 client: Veritas Developments (David Poole)
+projects: Prime Lee's Summit, Stonehaven Estates
 scope: 25-unit vacancy-conversion pilot, KC east-side (Council Districts 3–5), Jackson County, MO
 date: 2026-08-10
 report_type: pilot-pro-forma
@@ -8,6 +9,8 @@ status: draft — internal
 ---
 
 # EAST-SIDE VACANCY CONVERSION — PILOT PRO-FORMA
+
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
 
 > *"I was a stranger and you did not welcome me."* — Matthew 25:35–46
 
