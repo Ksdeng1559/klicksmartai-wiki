@@ -1,16 +1,19 @@
 ---
 title: "Jackson County, MO (Kansas City) — Market Data Annex: Apartment Occupancy & Executive Home Absorption"
 client: Veritas Developments (David Poole)
+projects: Prime Lee's Summit, Stonehaven Estates
 scope: Jackson County, MO / Kansas City metro — multifamily occupancy + $750K–$1.25M executive home absorption
 date: 2026-08-10
 report_type: market-data-annex
 audience: MCF Investment Committee | Development Partners | Investor Briefing
-tags: [jackson-county, kansas-city, market-data, multifamily, occupancy, luxury, executive-homes, absorption, spectra-holdings]
+tags: [jackson-county, kansas-city, market-data, multifamily, occupancy, luxury, executive-homes, absorption]
 sources_cited: 10
 data_vintage: "MMG Q2 2026 / RealPage May 2026 / Yardi Dec 2025 / Cushman & Wakefield Q1 2026 / KCRAR Heartland MLS Apr-Jun 2026 / Redfin Mar 2026 / MoJo Jun 2026 / Magnolia KC Jun 2026 / eMetropolitan Jun 2026"
 ---
 
 # MARKET DATA ANNEX — APARTMENT OCCUPANCY & EXECUTIVE HOME ABSORPTION
+
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
 **Jackson County, MO (Kansas City) | August 2026**
 
 Companion to the County Intelligence, Housing Intelligence, and Commercial Real Estate reports. Addresses two specific investor questions: (1) apartment building occupancy rates, (2) absorption of executive-style homes in the $750K–$1.25M band.

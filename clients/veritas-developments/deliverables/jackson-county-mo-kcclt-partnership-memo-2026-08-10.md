@@ -1,6 +1,7 @@
 ---
 title: "Kansas City Community Land Trust — Partnership Memo"
 client: Veritas Developments (David Poole)
+projects: Prime Lee's Summit, Stonehaven Estates
 partner: Kansas City Community Land Trust (KCCLT)
 scope: MCF-CLT partnership structure for Jackson County, MO east-side vacancy conversion
 date: 2026-08-10
@@ -9,6 +10,8 @@ status: draft — internal
 ---
 
 # KCCLT PARTNERSHIP MEMO — MCF ALIGNMENT
+
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
 
 > *"Your land can become a permanent home for a family — and a permanent asset for the community."*
 

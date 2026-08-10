@@ -1,16 +1,19 @@
 ---
 title: "Jackson County, MO (Kansas City) — Housing Intelligence Report"
 client: Veritas Developments (David Poole)
+projects: Prime Lee's Summit, Stonehaven Estates
 scope: Jackson County, MO — Kansas City metro (KC MO urban core + eastern suburbs)
 date: 2026-08-10
 report_type: housing-intelligence
 audience: MCF Investment Committee | CDFI Partners | National Christian Foundation
-tags: [jackson-county, kansas-city, housing-intelligence, mcf, kcclt, vacancy-conversion, spectra-holdings]
+tags: [jackson-county, kansas-city, housing-intelligence, mcf, kcclt, vacancy-conversion]
 sources_cited: 14
 data_vintage: "ACS 2020-2024 / Census QuickFacts V2025 / PIT Jan 2024 / HAKC 2026 / Redfin Feb 2026 / eviction tracker 2026"
 ---
 
 # Jackson County, MO (Kansas City) — Housing Intelligence Report
+
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
 
 > *"So are farmers who wait for the precious harvest from the land and make it their goal — to receive the blessing from God."* — 2 Timothy 2:6
 

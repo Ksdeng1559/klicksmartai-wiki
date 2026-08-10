@@ -1,16 +1,19 @@
 ---
 title: "Jackson County, MO (Kansas City) — Commercial Real Estate & Development Intelligence Report"
 client: Veritas Developments (David Poole)
+projects: Prime Lee's Summit, Stonehaven Estates
 scope: Jackson County, MO / Kansas City metro — office, industrial, retail, multifamily, development pipeline
 date: 2026-08-10
 report_type: commercial-real-estate-intelligence
 audience: MCF Investment Committee | CDFI Partners | Development Partners | Investor Briefing
-tags: [jackson-county, kansas-city, commercial-real-estate, development, office, industrial, retail, multifamily, spectra-holdings]
+tags: [jackson-county, kansas-city, commercial-real-estate, development, office, industrial, retail, multifamily]
 sources_cited: 12
 data_vintage: "Colliers 2026 / TenantBase Q2 2026 / Newmark Zimmer 4Q25-2Q26 / Lee & Associates Q2 2026 / Marcus & Millichap 1Q26 / KCUR 2026 / KMBC 2026 / KCTV 2026"
 ---
 
 # JACKSON COUNTY, MO (KANSAS CITY) — COMMERCIAL REAL ESTATE & DEVELOPMENT INTELLIGENCE REPORT
+
+> **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.
 **Executive Briefing | August 2026**
 
 ---
@@ -144,7 +147,7 @@ Kansas City enters 2026 as one of the strongest-positioned second-tier commercia
 
 ---
 
-## 8. STRATEGIC IMPLICATIONS FOR SPECTRA HOLDINGS
+## 8. STRATEGIC IMPLICATIONS FOR VERITAS DEVELOPMENTS
 
 **1. The development wave de-risks the housing thesis.** $3B ballpark district + $1B riverfront + $527M West Bottoms will pull construction and hospitality workers into the urban core for a decade. The workforce-housing demand that supports the MCF vacancy-conversion thesis is being *manufactured* by public-private development.
 
