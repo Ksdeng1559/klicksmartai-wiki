@@ -6,6 +6,7 @@
 - **Business:** Mortgage broker — Canada (BC location pages: Victoria, Nanaimo, Coquitlam, Delta, Colwood, Saanich, Whistler, Squamish, Campbell River)
 - **Stack:** WordPress + Xagio SEO plugin (sitemap naming: `sitemap-xagio-*.xml`)
 - **First audit:** 2026-08-10 (visual report: https://claude.ai/code/artifact/8454ad00-2f12-4a65-a302-1de6fad2d446)
+- **Provenance:** Lead found via LeadSniperAI pipeline; audit completed 2026-08-10
 
 ## Status: ⛔ COMPROMISED (active as of 2026-08-11)
 
