@@ -1,0 +1,29 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python / build output
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Graphify cache (regenerated on every run)
+.graphify_chunks.json
+.graphify_detect.json
+
+# Hermetic / Hermes session output
+sessions/
+sessions.json
+*.log
+tmp/
