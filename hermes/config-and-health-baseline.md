@@ -52,6 +52,27 @@ Canonical snapshot of the verified Hermes Agent configuration and system health 
 - **Dashboard:** HTTP 200 on `:9119`
 - **Gateway port `:8644`:** returns 404 on root — normal (serves platform/API routes, no `/` health page)
 
+## Hermes Web UI (`hermes-webui`)
+
+A separate web UI (distinct from the `:9119` dashboard), installed 2026-08-11.
+
+| Item | Value |
+|------|-------|
+| Repo | `/mnt/g/AI - Coding Projects/Dare2drean/hermes-webui` |
+| State dir | `~/.hermes/webui` |
+| Bind | `http://127.0.0.1:8787` |
+| Health | `ok` (verified via `./ctl.sh status`) |
+| ctl | `./ctl.sh <start\|stop\|restart\|status\|logs>` (from repo root) |
+| Log | `~/.hermes/webui/bootstrap-8787.log` (bootstrap), `~/.hermes/webui.log` (daemon) |
+| Default workspace | `/home/denni/workspace` |
+| Default model provider | `ollama-cloud` |
+
+**Notes / caveats:**
+- Runs as a background daemon NOT managed by `ctl.sh` (no `~/.hermes/webui.pid`); health probe confirms it is listening and healthy on 8787.
+- **No password set** (settings `password_hash: null`). Any process on the machine can read sessions and memory via the local API. Set `HERMES_WEBUI_PASSWORD` to enable auth.
+- Agent health endpoint reported `gateway_not_configured` on one probe (agent-chat gateway backend not wired) — the WebUI itself still serves fine; this is the agent-chat integration channel, not the UI.
+- Config lives in `~/.hermes/webui/settings.json` (theme `dark`, `default_model_provider: ollama-cloud`).
+
 ## Databases (doctor-verified, all healthy)
 
 | DB | Mode |
