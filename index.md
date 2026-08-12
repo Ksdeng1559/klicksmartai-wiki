@@ -84,6 +84,7 @@
 | context7 | Upstash Context7 - real-time library docs for LLMs via CLI/MCP; one-command setup `npx ctx7 setup` |
 | entities-and-projects-index | Master index of 51 entity pages + 7 project pages from github.com/Ksdeng1559/klicksmartai-wiki, with Signal Intelligence Agent and IDC client details |
 | wiki-folders-index | Complete inventory of all wiki folders (clients, concepts, reference, spectra, hermes, operations, ops) with key files, Spectra Holdings detail, First 100 Clients Playbook, WWR 9-step pipeline, Division-Based Agent Architecture |
+| hermes-config-health-baseline | Canonical Hermes Agent config + health snapshot (2026-08-12) — model routing (ollama-cloud / deepseek-v4-flash / deepseek-chat fallback), API keys, gateway/messaging, DBs, recovery procedure. See `hermes/config-and-health-baseline.md` |
 
 ## Tools & Platforms (Extended)
 | entity-id | Description |
