@@ -2,7 +2,7 @@
 
 **Client:** Veritas Development Group LLC (V E R I T A S)
 **Principal contact:** David Poole
-**Relationship:** Active client — development projects in Lee's Summit, Missouri (Jackson County, MO / Kansas City metro)
+**Relationship:** ✅ SIGNED ENGAGEMENT (2026-08-11, 7 PM call) — KlickSmartAI hired for **deal loan structure + investor flywheel (webinars) + CRM build**
 **Owner contact:** Dennis (KlickSmartAI)
 **Contact:** 816-405-6181 · www.veritasdevelopmentgroupllc.com
 
