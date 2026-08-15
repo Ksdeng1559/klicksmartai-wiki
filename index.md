@@ -77,6 +77,7 @@
 | lead-sniperai-signal-cold-email-sop | Signal-based cold email system SOP — LeadSniperAI as signal/evidence layer: vertical selection, signal report cards, GO/HOLD/DROP review, cost-aware enrichment ladder, deliverability infrastructure (full text in `processes/lead-sniperai-signal-cold-email-sop.md`) |
 | lead-sniperai-cli-os | LeadSniperAI CLI master operating system spec — canonical command taxonomy (21 groups), dual-rail economics (buyer acquisition + opportunity generation), 7 discovery agents, 14 verticals, Notion 4-hub ops layer, 7 operations agents, 30-day rollout (full text in `processes/lead-sniperai-cli-os.md`) |
 | content-growth-strategies | **POTENTIAL WORKFLOW** — 1:many demand-generation engine layered on GTM Revenue Hunt. Signals → Intelligence → Thesis → Content → Distribution → Engagement → Opportunity → Revenue → Learning. Growth Content Engine skills, `/growth-campaign <client>`, 30/60/90 rollout, weekly cadence, KPI framework, governance rules (full text in `processes/content-growth-strategies.md`) |
+| veritas-growth-program-pilot | **PILOT PLAN** — grounds the Content Growth Strategies workflow in Veritas Developments. 5 evidence-backed content pillars (18,000-Home Opportunity, Vacancy Conversion, Faith-Aligned Capital Stack, KCCLT Partnership, East-Side Market Data), "Harvest is Plentiful" first campaign thesis, U-shaped attribution strategy (phased: UTM → GA4+CRM → SQL), 30/60/90 rollout, governance (full text in `clients/veritas-developments/projects/growth-program-pilot-plan.md`) |
 
 ## Concepts
 | concept-id | Description |
