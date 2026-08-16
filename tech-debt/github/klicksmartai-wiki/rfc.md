@@ -1,15 +1,15 @@
 # RFC — klicksmartai-wiki (Ksdeng1559/klicksmartai-wiki)
 
-**Audit date:** 2026-08-08 (Saturday)
+**Audit date:** 2026-08-15 (Saturday)
 **Repo:** https://github.com/Ksdeng1559/klicksmartai-wiki (public, 1 star)
-**Local checkout:** ~/wiki (branch master, HEAD `4b92fa5`, **0 behind origin/master** — in sync)
+**Local checkout:** ~/wiki (branch master, HEAD `3a29d29`, **0 behind origin/master** — in sync)
 **Remote:** origin = GitHub (PAT-embedded URL — see Risk), github-wiki = local mirror ~/.hermes/wiki-github-wiki
 
 ## 1. Git Status
 
-- Branch `master`, HEAD `4b92fa5` "wiki auto-update 2026-08-06", **in sync with origin** (0 behind)
-- Working tree: modified `raw/repos/LeadSniper-3.0`, untracked `agency-agents` dir — normal sync artifacts
-- Last pushed 2026-08-07 (daily wiki auto-update cron active)
+- Branch `master`, HEAD `3a29d29` "Add Veritas Growth Program pilot plan (grounded content growth strategies + attribution strategy)", **in sync with origin** (0 behind)
+- Working tree: modified `raw/repos/LeadSniper-3.0`, untracked `agency-agents`, `tech-debt/github/*` — normal sync artifacts
+- Last pushed 2026-08-15 (daily wiki auto-update cron active)
 
 ## 2. Dependency Health
 
@@ -23,7 +23,7 @@
 
 ## 4. Recent Merged PRs
 
-- No PR-based workflow — direct pushes. Last commits: `4b92fa5` wiki auto-update, `20b5a80` AgentSource MCP tool inventory, `95500c8` progressive enrichment architecture
+- No PR-based workflow — direct pushes. Last commits: `3a29d29` Veritas Growth Program pilot plan, `4b92fa5` wiki auto-update, `20b5a80` AgentSource MCP tool inventory
 
 ## 5. Recommended Actions for Claude Code
 
