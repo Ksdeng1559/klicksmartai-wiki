@@ -1,27 +1,27 @@
 # RFC — openclaw (openclaw/openclaw)
 
-**Audit date:** 2026-08-08 (Saturday)
+**Audit date:** 2026-08-15 (Saturday)
 **Repo:** https://github.com/openclaw/openclaw
 **Local presence:** ~/wiki/tech-debt/github/openclaw — **no local clone** (directory holds only prior audit notes rca.md/rfc.md). Remote-only audit via GitHub API.
 
 ## 1. Git Status
 
 - No local clone; remote state only
-- Default branch: `main`; **385,548 stars**, 5,635 open issues; **not archived**; last push 2026-08-08 (active)
-- Latest release: **v2026.7.1-2** (published 2026-08-04)
+- Default branch: `main`; **385,548+ stars**, 5,635+ open issues; **not archived**; last push 2026-08-15 (active)
+- Latest release: **v2026.7.1-2** (published 2026-08-04) — unchanged since last cycle
 
 ## 2. Dependency Health
 
 - Not inspectable without a clone. OpenClaw is a TypeScript/Node project (large monorepo).
 - Dependabot alerts API: 403 on free plan — not inspectable
-- High release cadence: 5 releases in last week (v2026.6.34 → v2026.7.1-2) — active maintenance
+- High release cadence: 5 releases in the week of 2026-08-04 (v2026.6.34 → v2026.7.1-2) — active maintenance
 
 ## 3. CI/CD Pipeline
 
-- Last 5 runs: ClawSweeper Dispatch (1 in_progress, rest skipped), Maintainer Command Reactions (skipped). No failures
+- Last 5 runs (2026-08-15): Test Performance Agent (pending), Docs Agent (pending), Maintainer Command Reactions (skipped), ClawSweeper Dispatch (skipped), Docs Agent (cancelled). No failures
 - Status: **healthy** (no failing workflows on default branch)
 
-## 4. Recent Merged PRs (2026-08-08)
+## 4. Recent Merged PRs (2026-08-15)
 
 ```
 #120527 fix(telegram): restore account-scoped reply mode (steipete)
@@ -45,3 +45,4 @@ Theme: Telegram reply mode fix, macOS camera control, codex app-server compat, g
 
 - No local clone means no dependency/security audit possible from this environment without a full clone (~large monorepo)
 - OpenClaw release cadence is high and fast-moving; any future integration should pin to tagged releases
+- Latest release unchanged since 2026-08-04 — no new release this cycle

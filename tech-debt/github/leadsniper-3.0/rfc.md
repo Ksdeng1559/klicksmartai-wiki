@@ -1,13 +1,14 @@
 # RFC — LeadSniper-3.0 (Ksdeng1559/LeadSniper-3.0, private)
 
-**Audit date:** 2026-08-08 (Saturday)
+**Audit date:** 2026-08-15 (Saturday)
 **Repo:** https://github.com/Ksdeng1559/LeadSniper-3.0 (private)
 **Local repo:** ~/LeadSniper-3.0 (branch main, HEAD `0e667cd` — in sync with origin)
 
 ## 1. Git Status
 
 - Branch `main`, HEAD `0e667cd` "fix: update Gemini model to gemini-2.5-flash" (Hermes Agent commit, 2026-08-08)
-- Working tree **dirty**: modified `.gitignore`, `docker-compose.yml`; untracked `.dockerignore` — uncommitted local changes present
+- Working tree **dirty**: modified `.gitignore`, `backend/app/main.py`, `docker-compose.yml`; untracked `.dockerignore` — uncommitted local changes present
+- **New remote branch this cycle:** `feature/autonomous-growth-engine-v1` (fetched 2026-08-15) — not yet checked out locally
 
 ## 2. Dependency Health
 
@@ -15,11 +16,11 @@
 - Dependabot alerts API: 403 on free plan — not inspectable
 - No dependency outage detected this cycle
 
-## 3. CI/CD Pipeline — **FAILING**
+## 3. CI/CD Pipeline — **STILL FAILING (unchanged since 2026-06-04)**
 
 Workflow `.github/workflows/deploy.yml` ("Deploy to Production"), runs on push/PR to main, matrix Node [18.x, 20.x] + lighthouse job.
 
-**Last 5 runs: ALL FAILED — `Deploy to Production | completed | failure`**
+**Last 5 runs: ALL FAILED — `Deploy to Production | completed | failure`** (identical set to last cycle; no new runs since 2026-08-08)
 
 | Run | Time | Branch | Head |
 |---|---|---|---|
@@ -46,17 +47,20 @@ ec1542a feat: add Review Intelligence pipeline (analyze-reviews endpoint) (Herme
 6c65d62 Add AI employee fit scoring model (2026-06-04)
 e680733 Add website failure rules (2026-06-04)
 ```
+New remote branch `feature/autonomous-growth-engine-v1` — not yet merged to main.
 
 ## 5. Recommended Actions for Claude Code
 
 - [ ] **CRITICAL: Fix Vercel production deploy** — verify `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` secrets in repo settings; token may be expired/revoked (failing since 2026-06-04). Test locally: `npx vercel whoami` / `npx vercel pull` in ~/LeadSniper-3.0
 - [ ] Check Vercel project still exists at the configured project id (`~/.vercel/project.json` present locally)
 - [ ] Consider removing the Node 18.x matrix entry (deploy is 20.x-only; 18.x job runs a full redundant build+test cycle) or mirroring the deploy condition
-- [ ] Commit or discard local working-tree changes (`.gitignore`, `docker-compose.yml` modified; `.dockerignore` untracked)
+- [ ] Commit or discard local working-tree changes (`.gitignore`, `backend/app/main.py`, `docker-compose.yml` modified; `.dockerignore` untracked)
+- [ ] Review `feature/autonomous-growth-engine-v1` branch — decide whether to merge to main (and whether it should be deployed once the Vercel fix lands)
 - [ ] After fix, re-run deploy workflow (`workflow_dispatch`) and confirm production URL updates
 
 ## 6. Risks / Notes
 
 - Production deploy has been **silently failing for ~2 months** — the deployed app is stale (pre-June 4 at best). This is the top-priority finding this cycle
 - Local `.vercel/project.json` exists — confirms Vercel CLI was configured locally at some point
-- Herpes Agent itself authored the two failing commits today (Gemini model update, Review Intelligence) — the pipeline change is live in git but not in production
+- Hermes Agent itself authored the two failing commits (Gemini model update, Review Intelligence) — the pipeline change is live in git but not in production
+- No new CI runs since 2026-08-08 — the failure is dormant (no pushes to main since then), not resolved
