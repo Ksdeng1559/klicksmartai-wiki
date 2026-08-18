@@ -8,3 +8,7 @@ fabric/
 # OS
 .DS_Store
 Thumbs.db
+
+# graphify regenerable cache (per-file AST) — rebuild locally
+graphify-out/cache/
+graphify-out/converted/
