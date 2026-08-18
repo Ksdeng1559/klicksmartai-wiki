@@ -12,3 +12,8 @@ Thumbs.db
 # graphify regenerable cache (per-file AST) — rebuild locally
 graphify-out/cache/
 graphify-out/converted/
+
+# Nested git clones (separate repos, not wiki content)
+/agency-agents/
+/raw/repos/
+/tech-debt/github/
