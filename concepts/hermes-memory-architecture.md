@@ -3,7 +3,7 @@ type: CONCEPT
 created: 2026-08-18
 updated: 2026-08-18
 confidence: 0.85
-sources: [session 20260817_073210, session 20260817_151154, session 20260818_134402, Hermes agent governance]
+sources: [session 20260817_073210, session 20260817_151154, Hermes agent governance]
 related: [[hermes-chief-of-staff-os]], [[business-context-md]]
 tags: [hermes, memory, architecture, honcho, obsidian, graphify, github-wiki, supabase]
 status: active
@@ -42,8 +42,12 @@ For each candidate item from session sweeps:
 
 ## Key Facts
 
-- Honcho = **primary** memory (permanence). Honcho platform integration was **deprecated** — use Memory OS stack (Qdrant + Redis + ARQ Worker) for external memory instead.
-- **2026-08-18:** Honcho entry removed from `~/.hermes/config.yaml` `mcp_servers:` (was pointing at `localhost:44547`, nothing listening). Config backup preserved at `~/.hermes/config.yaml.bak-20260818-143716`. `hermes mcp list` now shows 14 enabled servers, no honcho. Runtime reconciles the MCP tree on its own reconnect cycle — no `mcp reload` subcommand exists.
+- **Honcho = primary** memory (permanence). Qdrant **superseded** (2026-08-19): Qdrant was never built (no collection); skill `qdrant-semantic-recall` patched to SUPERSEDED. Use Honcho (self-hosted) for external memory, NOT Memory OS/Qdrant.
+- **2026-08-18→19:** Honcho entry removed from config during Aug 18 v0.20.4 update (bridge died — `wrangler dev` doesn't auto-start). **Restored 2026-08-19:** re-added `mcp_servers.honcho` (`http://localhost:44547`, Bearer dev token, timeout 120, connect_timeout 60, enabled) and made the bridge auto-start via **systemd user service `honcho-mcp.service`** (Restart=always/5s, PATH=/home/denni/.nvm/versions/node/v24.16.0/bin). Backend live: honcho-api :8001, deriver :8000, Postgres :5432, Redis :6380.
+- **MCP bridge route is `/`, NOT `/mcp`** (`src/index.ts`). `curl tools/list` at root with `Authorization: Bearer <dev token>` exposes 31 tools. Semantic search verified (retrieved Spectra × Whatcom + Kulshan CLT briefs). `X-Honcho-Workspace-ID: klicksmartai-wiki` for workspace-scoped calls. Workspaces: klicksmartai-wiki (4,246 files/37,272 chunks) + Obsidian (49 files/129 chunks).
+- **claude-mem** (thedotmack/claude-mem) installed with Claude Code — complementary local per-agent memory; does not replace Honcho.
+- **Composio deferred (2026-08-19):** user cancelled config write (security-gated; interactive `hermes mcp add` hung on wrong auth question). Planned setup on Dennis's desktop. Official Hermes integration uses **no auth header** (OAuth server-side): `composio: {url: https://connect.composio.dev/mcp, transport: http, enabled: true}`.
+- `hermes mcp list` reconciles on its own reconnect cycle — no `mcp reload` subcommand exists.
 - Graphify CLI: always `cd /home/denni/wiki && graphify update .` — `--output` syntax does not exist.
 - GitHub PAT at `~/.hermes/github-pat.txt` (Ksdeng1559). Use HTTPS+PAT via curl, NOT .netrc/gh CLI.
 - Graph JSON: node-link format (`nodes`, `links` keys — NOT `edges`).
