@@ -38,6 +38,7 @@ How a new note (e.g. a competitive battlecard from scraping) flows from the loca
 | `Daily wiki push to GitHub` | 20:00 daily | Agent run via open-cowork-integration — full sync of `~/wiki` to GitHub |
 | `daily-brain-closing` | 21:00 daily | Agent run with `wiki-graphify-sync` + `obsidian` skills — closing-time reconciliation |
 | `weekly-brain-cleanup` | Sun 22:00 | Agent run with `wiki-graphify-sync` + `obsidian` skills — weekly sweep |
+| **`wiki-obsidian-graphify-sync`** (new) | **05:00 daily** | **Script-only: graphify update → wiki git push (selective, no dated dumps) → vault mirror → vault git push. Silent on no-op days.** Job id `f8af46c45cde` |
 
 ## Manual workflow — adding a new competitive battlecard (or any new wiki note)
 
