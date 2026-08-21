@@ -1,0 +1,242 @@
+# RIOS North Star Architecture
+
+RIOS is **not a CRM** — it is a **Business Intelligence + Relationship Intelligence + Agentic Workforce Platform** that replaces conventional contact management with an opportunity‑driven, graph‑aware system.
+
+The three pillars:
+
+```
+                 RIOS
+                   │
+    ┌──────────────┼──────────────┐
+    │              │              │
+ Intelligence   Relationships   Workforce
+```
+
+Where traditional CRMs answer **“What stage is this contact?”**, RIOS answers:
+
+1. **What is happening?** (Intelligence)
+2. **Who matters?** (Relationships)
+3. **What should we do?** (Workforce)
+
+---
+
+## 1. Intelligence Pillar — Understand What Is Happening
+
+**Purpose:** Detect signals, forecast opportunities, generate insights.
+
+### Components
+
+| Component | Role | Technology |
+|-----------|------|------------|
+| Hermes | Scheduled signal detection | Hermes Agent + cron |
+| Mission Control | Opportunity engine + GTM autopilot | Graphify + pattern detection |
+| Claude Code | Agentic reasoning & execution | Claude Code CLI |
+| Reasoning | Battlecards, briefs, scoring | Claude Sonnet 4.6 + GPT |
+| Codex | Code generation | OpenAI Codex CLI |
+| Python | Data pipelines | Python 3.12 + hermes‑tools |
+| MotherDuck | Analytical database & benchmarks | DuckDB cloud + SQL |
+| wiki‑llm | Institutional memory query | Qwen 2.5:3B + wiki RAG |
+
+### Intelligence Pipeline
+```
+External Sources → Hermes → Graphify → MotherDuck → Reasoning → Insights
+  (news, policy,   (signal    (entity    (analytics  (Claude,   (recommendations,
+   funding,        detection)  mapping)   storage)    GPT)       forecasts)
+   research)
+```
+
+### Outputs
+| Category | Examples |
+|----------|----------|
+| **Insights** | Market shifts, competitive gaps, emerging trends |
+| **Recommendations** | Which deals to pursue, which partners to court |
+| **Forecasts** | Pipeline projections, win probability estimates |
+| **Opportunities** | Scored & ranked business‑development targets |
+
+---
+
+## 2. Relationship Pillar — Understand Who Matters
+
+**Purpose:** Map relationship networks, identify warm introductions, discover referral paths, surface influence.
+
+*Where traditional CRMs fail — they capture contact details but miss the graph.*
+
+### Components
+
+| Component | Role | Technology |
+|-----------|------|------------|
+| Supabase | Operational database | PostgreSQL + realtime |
+| Neo4j (future) | Relationship graph database | Cypher queries + graph algorithms |
+| Relationship Graph | Who‑knows‑who mapping | Graphify edges + Neo4j |
+| Link Prediction | Missing‑connection inference | GNN models (future) |
+
+### Entity Types
+- People
+- Companies  
+- Investors
+- Partners
+- Clients
+- Vendors
+- Referrals
+
+### Relationship Types
+- knows (person ↔ person)
+- works_with (person ↔ company)
+
+- advises (advisor → client)
+- partners_with (company ↔ company)
+- belongs_to (person → community/organization)
+- influences (person → policy/decision)
+- supports (entity → entity)
+- owns (entity → asset)
+
+### Outputs
+- Warm introductions
+- Referral paths
+- Partner networks
+- Deal networks
+- Influence mapping
+
+---
+
+## 3. Workforce Pillar — Take Action
+
+**Purpose:** Deploy specialized agent workers to execute tasks, generate content, run campaigns, produce deliverables.
+
+### Agent Workers
+
+| Worker | Domain | Responsibilities |
+|--------|--------|------------------|
+| Website Rescue Worker | Web tech | Audit, fix, migrate, secure sites |
+| LeadSniper Worker | Outbound intelligence | Research, profile, personalize outreach |
+| SEO Worker | Search visibility | Keyword research, on‑page optimization, backlink strategy |
+| Grant Worker | Funding acquisition | SBIR/Grants.gov monitoring, proposal drafting |
+| Capital Stack Worker | Real estate finance | Debt/equity structuring, investor memos, term sheets |
+| Mortgage Worker | Mortgage brokerage | Client qualification, lender matching, pipeline management |
+| Research Worker | Deep intelligence | Market analysis, competitor profiling, signal synthesis |
+| Proposal Worker | Business development | RFP responses, pitch decks, partnership proposals |
+
+### Workforce Orchestration
+- **Hermes Kanban** – Task decomposition & assignment
+- **Agent Factory** – Worker spawning based on vertical/need
+- **Quality Gates** – Review & approval workflow before delivery
+- **HITL (Human‑in‑the‑Loop)** – All external communication requires human approval
+
+### Outputs
+- Actions (emails, calls, posts)
+- Reports (audits, analyses, summaries)
+- Proposals (grant applications, partnership offers)
+- Tasks (completed work items)
+- Campaigns (orchestrated outreach sequences)
+
+---
+
+## The Three Databases — Each With One Job
+
+### 1. Supabase — Operational Database
+**Job:** Store and serve operational business data.
+
+**Tables:**
+- `leads` – ClientFlow‑qualified prospects (vertical, practice‑area, qualification‑score)
+- `opportunities` – Generated by Mission Control (score, urgency, pattern‑type)
+- `advisors` – Assigned professionals (vertical, capacity, load)
+- `intake_sessions` – 90‑second qualification conversations
+- `signals` – External trigger events (source, timestamp, urgency)
+- `meetings` – Scheduled or completed interactions (attendees, outcome)
+- `battlecards` – Actionable intelligence outputs
+
+**Queries:** Real‑time lookup, assignment, pipeline status.
+
+### 2. MotherDuck — Analytical Database
+**Job:** Benchmark, forecast, analyze performance.
+
+**Tables:**
+- `audits` – System‑health snapshots
+- `benchmarks` – Vertical‑level conversion rates, win rates
+- `kpis` – Daily/Monthly KPIs (pipeline value, velocity, agent capacity)
+- `performance` – Agent‑worker effectiveness metrics
+- `forecasts` – Pipeline projections, win‑probability estimates
+- `learning_log` – Self‑correction loop adjustments
+
+**Queries:** SQL aggregates, trend analysis, cohort comparisons.
+
+### 3. Neo4j (future) — Relationship Graph Database
+**Job:** Map who‑knows‑who, discover warm introductions, infer missing connections.
+
+**Nodes:** Person, Company, Investor, Partner, Client, Vendor, Referral
+**Relationships:** knows, works_with, introduced, invested_in, referred_to, advises, partners_with, belongs_to, influences, supports, owns
+
+**Queries:** Shortest‑path introductions, community detection, link prediction.
+
+---
+
+## The Three Memory Systems
+
+### 1. TencentDB Agent Memory / Learning Memory
+**Job:** Capture patterns, observations, experiments — what works, what fails.
+
+**Stores:**
+- Pattern hit‑rate over time
+- GTM‑play conversion rates per vertical
+- Advisor‑routing accuracy adjustments
+- Signal‑effectiveness observations
+- Experiment outcomes (A/B test results)
+
+**Used by:** Mission Control self‑correction loop.
+
+### 2. wiki‑llm — Permanent Memory
+**Job:** Institutional knowledge — SOPs, frameworks, playbooks, architecture.
+
+**Stores:**
+- Standard Operating Procedures (SOPs)
+- GTM‑Engineering Resources (playbooks)
+- Battlecard templates
+- Architecture diagrams (like this document)
+- Client‑vertical deep‑dives
+- Historical project artifacts
+
+**Accessed via:** Qwen 2.5:3B + wiki RAG for retrieval‑augmented generation.
+
+### 3. Hermes Working Memory — Temporary Memory
+**Job:** Hold current mission, workflow, context — ephemeral session state.
+
+**Stores:**
+- Current mission goal (from `/goal`)
+- Active workflow steps
+- In‑progress task context
+- Recent tool outputs
+- User‑provided constraints
+
+**Cleared:** After mission completion or session end.
+
+---
+
+## Implementation Status
+
+| Pillar | Component | Status | Notes |
+|--------|-----------|--------|-------|
+| Intelligence | Hermes | ✅ Active | Running daily briefings, inbox sweeps, research cron |
+| Intelligence | Mission Control | 🔧 In‑design | Graphify + pattern detection; not yet deployed |
+| Intelligence | Claude Code | ✅ Available | Agentic reasoning ready for use |
+| Intelligence | MotherDuck | 🔧 Setup needed | DuckDB cloud account required |
+| Intelligence | wiki‑llm | ✅ Active | Qwen 2.5:3B queryable via wiki RAG |
+| Relationships | Supabase | 🔧 Schema defined | Tables mapped in `rios/entities.md`; not yet provisioned |
+| Relationships | Neo4j | ⏳ Future | Not yet implemented |
+| Workforce | Hermes Kanban | ✅ Active | Task decomposition & assignment |
+| Workforce | Agent Factory | ✅ Available | Spawn workers via `delegate_task` |
+| Workforce | Quality Gates | ✅ Enforced | HITL required for all external communication |
+| Workforce | HITL | ✅ Active | All outbound comms require human approval |
+
+---
+
+## Next Steps
+
+1. **Provision Supabase** – Create project, run schema migrations.
+2. **Deploy Mission Control** – Implement pattern‑detection on Graphify output.
+3. **Connect MotherDuck** – Set up DuckDB cloud for analytical storage.
+4. **Integrate Agent Workers** – Define worker interfaces and quality‑gate workflows.
+5. **Establish `/goal` document** – Create `wiki/goal.md` as north‑star reference.
+
+---
+
+**KlickSmartAI · CONFIDENTIAL — Internal Use Only**

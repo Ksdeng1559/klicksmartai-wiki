@@ -1,27 +1,18 @@
 ---
-title: Raises.com — Battlecard
-created: 2026-08-21
-updated: 2026-08-21
-type: competitive / battlecard
-tags: [competitive, battlecard, capital-raising, raises-com, gtm-research]
 company: Raises.com
 domain: raises.com
 scraped: 2026-08-21
 source: https://www.raises.com
-sources: [https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/competitive/raises-com.md]
-category: capital-raising consultancy / buy-side advisory
-comparison: KlickSmartAI GTM proximity (M&A, real estate, LP/SPV, Reg D)
-related: [[entities-and-projects-index]]
 method: scrapling fetch (browser, --ai-targeted, --network-idle)
 size: 16,252 bytes / 387 lines
+category: capital-raising consultancy / buy-side advisory
+comparison: KlickSmartAI GTM proximity (M&A, real estate, LP/SPV, Reg D)
+title: Raises Com
+created: 2026-08-21
+updated: 2026-08-21
+type: competitive / note
+tags: [competitive]
 ---
-
-# Raises.com® — Battlecard
-
-## Quick links
-
-- Wiki source: `competitive/raises-com.md` in the [KlickSmartAI wiki](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/competitive/raises-com.md)
-- See also: [[wiki-folders-index]]
 
 # Raises.com® — Battlecard
 
