@@ -12,6 +12,8 @@ Thumbs.db
 # graphify regenerable cache (per-file AST) — rebuild locally
 graphify-out/cache/
 graphify-out/converted/
+# graphify dated dump dirs (regenerated daily, 800k+ per day, not source of truth)
+graphify-out/2026-*/
 
 # Nested git clones (separate repos, not wiki content)
 /agency-agents/
