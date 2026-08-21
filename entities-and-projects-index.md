@@ -43,6 +43,12 @@ Master index of all entity and project pages in the KlickSmartAI wiki. For full 
 | [[grok-xai]] | Grok / xAI — model + API |
 | [[ollama]] | Ollama — local model runtime |
 
+## Competitive Battlecards
+
+| Entity | Description |
+|---|---|
+| [[raises-com]] | Raises.com — capital-raising consultancy (competitive intel, 2026-08-21) |
+
 ## Search & Data APIs
 
 | Entity | Description |
