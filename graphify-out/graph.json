@@ -1232,40 +1232,52 @@
       "norm_label": "wiki-knowledge/log.md"
     },
     {
-      "label": "8. Execution Matrix",
+      "label": "17. Suggested Agent Workflows",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L208",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L701",
       "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_8_execution_matrix",
+      "id": "drafts_leadsniperai_cli_commercial_plan_17_suggested_agent_workflows",
       "community": 100,
-      "community_name": "8. Execution Matrix",
-      "norm_label": "8. execution matrix"
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "17. suggested agent workflows"
     },
     {
-      "label": "Free vs. Paid Roadmap",
+      "label": "Workflow A \u2014 Find and Qualify Local Businesses",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L210",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L702",
       "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_free_vs_paid_roadmap",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_a_find_and_qualify_local_businesses",
       "community": 100,
-      "community_name": "8. Execution Matrix",
-      "norm_label": "free vs. paid roadmap"
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow a \u2014 find and qualify local businesses"
     },
     {
-      "label": "The Anti-Fragile Growth Mindset",
+      "label": "Workflow B \u2014 Audit One Business",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L219",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L719",
       "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_the_anti_fragile_growth_mindset",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_b_audit_one_business",
       "community": 100,
-      "community_name": "8. Execution Matrix",
-      "norm_label": "the anti-fragile growth mindset"
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow b \u2014 audit one business"
+    },
+    {
+      "label": "Workflow C \u2014 Create Reviewable Outreach",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L725",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_c_create_reviewable_outreach",
+      "community": 100,
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow c \u2014 create reviewable outreach"
     },
     {
       "label": "1. Acquisition",
@@ -2273,40 +2285,40 @@
       "norm_label": "shell scripts (scripts/)"
     },
     {
-      "label": "11. Security and Compliance Requirements",
+      "label": "5. Systematic Outbound",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L521",
+      "source_file": "concepts/first-100-clients-playbook.md",
+      "source_location": "L135",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_11_security_and_compliance_requirements",
+      "id": "concepts_first_100_clients_playbook_5_systematic_outbound",
       "community": 101,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "11. security and compliance requirements"
+      "community_name": "5. Systematic Outbound",
+      "norm_label": "5. systematic outbound"
     },
     {
-      "label": "Mandatory Before Production",
+      "label": "High-Precision Cold Email (Apollo)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L522",
+      "source_file": "concepts/first-100-clients-playbook.md",
+      "source_location": "L137",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_mandatory_before_production",
+      "id": "concepts_first_100_clients_playbook_high_precision_cold_email_apollo",
       "community": 101,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "mandatory before production"
+      "community_name": "5. Systematic Outbound",
+      "norm_label": "high-precision cold email (apollo)"
     },
     {
-      "label": "Outreach Controls",
+      "label": "The Upwork Reverse Job Board Tactic",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L533",
+      "source_file": "concepts/first-100-clients-playbook.md",
+      "source_location": "L144",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_outreach_controls",
+      "id": "concepts_first_100_clients_playbook_the_upwork_reverse_job_board_tactic",
       "community": 101,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "outreach controls"
+      "community_name": "5. Systematic Outbound",
+      "norm_label": "the upwork reverse job board tactic"
     },
     {
       "label": "15.1 NEXUS-Full Activation (Enterprise)",
@@ -3425,40 +3437,40 @@
       "norm_label": "primary objectives"
     },
     {
-      "label": "14. Search Quality Metrics",
+      "label": "9. Adversarial Refutation Pass",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L367",
+      "source_location": "L246",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_14_search_quality_metrics",
+      "id": "projects_leadsniperai_workflow_improvement_9_adversarial_refutation_pass",
       "community": 103,
-      "community_name": "14. Search Quality Metrics",
-      "norm_label": "14. search quality metrics"
+      "community_name": "9. Adversarial Refutation Pass",
+      "norm_label": "9. adversarial refutation pass"
     },
     {
-      "label": "Commercial metrics",
+      "label": "CLI",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L381",
+      "source_location": "L255",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_commercial_metrics",
+      "id": "projects_leadsniperai_workflow_improvement_cli",
       "community": 103,
-      "community_name": "14. Search Quality Metrics",
-      "norm_label": "commercial metrics"
+      "community_name": "9. Adversarial Refutation Pass",
+      "norm_label": "cli"
     },
     {
-      "label": "Pipeline metrics",
+      "label": "Outcomes",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L369",
+      "source_location": "L259",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_pipeline_metrics",
+      "id": "projects_leadsniperai_workflow_improvement_outcomes",
       "community": 103,
-      "community_name": "14. Search Quality Metrics",
-      "norm_label": "pipeline metrics"
+      "community_name": "9. Adversarial Refutation Pass",
+      "norm_label": "outcomes"
     },
     {
       "label": "6. Required Evidence Checklist",
@@ -17420,6 +17432,30 @@
       "norm_label": "10. cross-agent synthesis"
     },
     {
+      "label": "1. The Opportunity",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_1_the_opportunity",
+      "community": 1166,
+      "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
+      "norm_label": "1. the opportunity"
+    },
+    {
+      "label": "How It Was Found",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_how_it_was_found",
+      "community": 1166,
+      "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
+      "norm_label": "how it was found"
+    },
+    {
       "label": "Key Tensions to Resolve",
       "file_type": "document",
       "node_kind": "heading",
@@ -17456,6 +17492,18 @@
       "norm_label": "points of agreement across all 8 agents"
     },
     {
+      "label": "Sources",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_sources",
+      "community": 1166,
+      "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
+      "norm_label": "sources"
+    },
+    {
       "label": "Table of Contents",
       "file_type": "document",
       "node_kind": "heading",
@@ -17468,6 +17516,18 @@
       "norm_label": "table of contents"
     },
     {
+      "label": "The Concept: Nexus Spatial",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_the_concept_nexus_spatial",
+      "community": 1166,
+      "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
+      "norm_label": "the concept: nexus spatial"
+    },
+    {
       "label": "What This Exercise Demonstrates",
       "file_type": "document",
       "node_kind": "heading",
@@ -17478,6 +17538,18 @@
       "community": 1166,
       "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
       "norm_label": "what this exercise demonstrates"
+    },
+    {
+      "label": "Why This Agency Is Uniquely Positioned",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_why_this_agency_is_uniquely_positioned",
+      "community": 1166,
+      "community_name": "Nexus Spatial: Full Agency Discovery Exercise",
+      "norm_label": "why this agency is uniquely positioned"
     },
     {
       "label": "The Workflow",
@@ -20646,66 +20718,6 @@
       "community": 12,
       "community_name": "Product Solution Document \u2014 GrantFundingAI",
       "norm_label": "workflow steps"
-    },
-    {
-      "label": "7. 12-Month GTM Roadmap",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L337",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_7_12_month_gtm_roadmap",
-      "community": 1200,
-      "community_name": "7. 12-Month GTM Roadmap",
-      "norm_label": "7. 12-month gtm roadmap"
-    },
-    {
-      "label": "Months 10\u201312 \u2014 Validation and Expansion",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L366",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_months_10_12_validation_and_expansion",
-      "community": 1200,
-      "community_name": "7. 12-Month GTM Roadmap",
-      "norm_label": "months 10\u201312 \u2014 validation and expansion"
-    },
-    {
-      "label": "Months 1\u20133 \u2014 Foundation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L339",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_months_1_3_foundation",
-      "community": 1200,
-      "community_name": "7. 12-Month GTM Roadmap",
-      "norm_label": "months 1\u20133 \u2014 foundation"
-    },
-    {
-      "label": "Months 4\u20136 \u2014 Partner Development",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L349",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_months_4_6_partner_development",
-      "community": 1200,
-      "community_name": "7. 12-Month GTM Roadmap",
-      "norm_label": "months 4\u20136 \u2014 partner development"
-    },
-    {
-      "label": "Months 7\u20139 \u2014 Grant Submission",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L358",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_months_7_9_grant_submission",
-      "community": 1200,
-      "community_name": "7. 12-Month GTM Roadmap",
-      "norm_label": "months 7\u20139 \u2014 grant submission"
     },
     {
       "label": "11. Faith and Nonprofit Housing Sentiment",
@@ -25447,6 +25459,18 @@
       "norm_label": "11. campaign workflow changes"
     },
     {
+      "label": "11. Security and Compliance Requirements",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L521",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_11_security_and_compliance_requirements",
+      "community": 13,
+      "community_name": "cli-prd.md",
+      "norm_label": "11. security and compliance requirements"
+    },
+    {
       "label": "12. Opportunity Brief Output",
       "file_type": "document",
       "node_kind": "heading",
@@ -25769,6 +25793,30 @@
       "community": 13,
       "community_name": "cli-prd.md",
       "norm_label": "global options"
+    },
+    {
+      "label": "Mandatory Before Production",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L522",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_mandatory_before_production",
+      "community": 13,
+      "community_name": "cli-prd.md",
+      "norm_label": "mandatory before production"
+    },
+    {
+      "label": "Outreach Controls",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L533",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_outreach_controls",
+      "community": 13,
+      "community_name": "cli-prd.md",
+      "norm_label": "outreach controls"
     },
     {
       "label": "Printing Press Architectural Role",
@@ -94313,6 +94361,18 @@
       "norm_label": "8. fatal flaw analysis"
     },
     {
+      "label": "9. Recommended Strategy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1941",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_9_recommended_strategy",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "9. recommended strategy"
+    },
+    {
       "label": "Capital Stack by Scenario",
       "file_type": "document",
       "node_kind": "heading",
@@ -94361,6 +94421,18 @@
       "norm_label": "final synthesis: 9-section institutional feasibility report"
     },
     {
+      "label": "Final Verdict",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1985",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_final_verdict",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "final verdict"
+    },
+    {
       "label": "Fraser Health Authority",
       "file_type": "document",
       "node_kind": "heading",
@@ -94371,6 +94443,30 @@
       "community": 377,
       "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "norm_label": "fraser health authority"
+    },
+    {
+      "label": "Immediate Actions (Next 90 Days)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1965",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_immediate_actions_next_90_days",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "immediate actions (next 90 days)"
+    },
+    {
+      "label": "Key Decision Gates",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1973",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_key_decision_gates",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "key decision gates"
     },
     {
       "label": "Municipal (New Westminster)",
@@ -94395,6 +94491,42 @@
       "community": 377,
       "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "norm_label": "pension fund appetite"
+    },
+    {
+      "label": "Phase 1: GARRETT + CORRIDOR (Years 1-3)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1943",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_phase_1_garrett_corridor_years_1_3",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "phase 1: garrett + corridor (years 1-3)"
+    },
+    {
+      "label": "Phase 2: DISTRICT EXPANSION (Years 3-7)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1951",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_phase_2_district_expansion_years_3_7",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "phase 2: district expansion (years 3-7)"
+    },
+    {
+      "label": "Phase 3: FULL DISTRICT (Years 7-15)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1958",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_phase_3_full_district_years_7_15",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "phase 3: full district (years 7-15)"
     },
     {
       "label": "Private Landowners in 400m Radius",
@@ -94431,6 +94563,18 @@
       "community": 377,
       "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "norm_label": "recommended partnership structure (vgh model)"
+    },
+    {
+      "label": "Success Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1980",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_success_metrics",
+      "community": 377,
+      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
+      "norm_label": "success metrics"
     },
     {
       "label": "Tier 1: Critical Risks",
@@ -101920,18 +102064,6 @@
       "norm_label": "16. success criteria"
     },
     {
-      "label": "17. Suggested Agent Workflows",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L701",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_17_suggested_agent_workflows",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "17. suggested agent workflows"
-    },
-    {
       "label": "19. Open Decisions",
       "file_type": "document",
       "node_kind": "heading",
@@ -102290,42 +102422,6 @@
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
       "norm_label": "updated product definition"
-    },
-    {
-      "label": "Workflow A \u2014 Find and Qualify Local Businesses",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L702",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_a_find_and_qualify_local_businesses",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow a \u2014 find and qualify local businesses"
-    },
-    {
-      "label": "Workflow B \u2014 Audit One Business",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L719",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_b_audit_one_business",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow b \u2014 audit one business"
-    },
-    {
-      "label": "Workflow C \u2014 Create Reviewable Outreach",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L725",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_c_create_reviewable_outreach",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow c \u2014 create reviewable outreach"
     },
     {
       "label": "Working Assumptions",
@@ -116202,64 +116298,76 @@
       "norm_label": "trade orientation"
     },
     {
-      "label": "1. The Opportunity",
+      "label": "9. Core Messaging",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
-      "source_location": "L26",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L401",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_1_the_opportunity",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_9_core_messaging",
       "community": 45,
-      "community_name": "1. The Opportunity",
-      "norm_label": "1. the opportunity"
+      "community_name": "9. Core Messaging",
+      "norm_label": "9. core messaging"
     },
     {
-      "label": "How It Was Found",
+      "label": "Corporate Buyer Message",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
-      "source_location": "L28",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L415",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_how_it_was_found",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_corporate_buyer_message",
       "community": 45,
-      "community_name": "1. The Opportunity",
-      "norm_label": "how it was found"
+      "community_name": "9. Core Messaging",
+      "norm_label": "corporate buyer message"
     },
     {
-      "label": "Sources",
+      "label": "Grant-Funding Message",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
-      "source_location": "L44",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L407",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_sources",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_grant_funding_message",
       "community": 45,
-      "community_name": "1. The Opportunity",
-      "norm_label": "sources"
+      "community_name": "9. Core Messaging",
+      "norm_label": "grant-funding message"
     },
     {
-      "label": "The Concept: Nexus Spatial",
+      "label": "One-Sentence Positioning",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
-      "source_location": "L36",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L403",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_the_concept_nexus_spatial",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_one_sentence_positioning",
       "community": 45,
-      "community_name": "1. The Opportunity",
-      "norm_label": "the concept: nexus spatial"
+      "community_name": "9. Core Messaging",
+      "norm_label": "one-sentence positioning"
     },
     {
-      "label": "Why This Agency Is Uniquely Positioned",
+      "label": "Public-Sector Message",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/examples/nexus-spatial-discovery.md",
-      "source_location": "L40",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L411",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_examples_nexus_spatial_discovery_why_this_agency_is_uniquely_positioned",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_public_sector_message",
       "community": 45,
-      "community_name": "1. The Opportunity",
-      "norm_label": "why this agency is uniquely positioned"
+      "community_name": "9. Core Messaging",
+      "norm_label": "public-sector message"
+    },
+    {
+      "label": "Technical Partner Message",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L419",
+      "_origin": "ast",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_technical_partner_message",
+      "community": 45,
+      "community_name": "9. Core Messaging",
+      "norm_label": "technical partner message"
     },
     {
       "label": "cdfi-and-municipal-bond-capital.md",
@@ -117171,18 +117279,6 @@
       "norm_label": "11. sales motion vs grant motion"
     },
     {
-      "label": "12. Recommended Immediate Action Plan",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L478",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_12_recommended_immediate_action_plan",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "12. recommended immediate action plan"
-    },
-    {
       "label": "13. Strategic Recommendation",
       "file_type": "document",
       "node_kind": "heading",
@@ -117231,6 +117327,18 @@
       "norm_label": "4. beachhead gtm positioning"
     },
     {
+      "label": "7. 12-Month GTM Roadmap",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L337",
+      "_origin": "ast",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_7_12_month_gtm_roadmap",
+      "community": 458,
+      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
+      "norm_label": "7. 12-month gtm roadmap"
+    },
+    {
       "label": "8. GTM Channels",
       "file_type": "document",
       "node_kind": "heading",
@@ -117241,18 +117349,6 @@
       "community": 458,
       "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
       "norm_label": "8. gtm channels"
-    },
-    {
-      "label": "9. Core Messaging",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L401",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_9_core_messaging",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "9. core messaging"
     },
     {
       "label": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
@@ -117277,18 +117373,6 @@
       "community": 458,
       "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
       "norm_label": "commercial motion"
-    },
-    {
-      "label": "Corporate Buyer Message",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L415",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_corporate_buyer_message",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "corporate buyer message"
     },
     {
       "label": "First 12 Months",
@@ -117327,18 +117411,6 @@
       "norm_label": "first 90 days"
     },
     {
-      "label": "Grant-Funding Message",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L407",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_grant_funding_message",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "grant-funding message"
-    },
-    {
       "label": "Grant Motion",
       "file_type": "document",
       "node_kind": "heading",
@@ -117351,16 +117423,52 @@
       "norm_label": "grant motion"
     },
     {
-      "label": "One-Sentence Positioning",
+      "label": "Months 10\u201312 \u2014 Validation and Expansion",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L403",
+      "source_location": "L366",
       "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_one_sentence_positioning",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_months_10_12_validation_and_expansion",
       "community": 458,
       "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "one-sentence positioning"
+      "norm_label": "months 10\u201312 \u2014 validation and expansion"
+    },
+    {
+      "label": "Months 1\u20133 \u2014 Foundation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L339",
+      "_origin": "ast",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_months_1_3_foundation",
+      "community": 458,
+      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
+      "norm_label": "months 1\u20133 \u2014 foundation"
+    },
+    {
+      "label": "Months 4\u20136 \u2014 Partner Development",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L349",
+      "_origin": "ast",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_months_4_6_partner_development",
+      "community": 458,
+      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
+      "norm_label": "months 4\u20136 \u2014 partner development"
+    },
+    {
+      "label": "Months 7\u20139 \u2014 Grant Submission",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L358",
+      "_origin": "ast",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_months_7_9_grant_submission",
+      "community": 458,
+      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
+      "norm_label": "months 7\u20139 \u2014 grant submission"
     },
     {
       "label": "Primary Channels",
@@ -117375,18 +117483,6 @@
       "norm_label": "primary channels"
     },
     {
-      "label": "Public-Sector Message",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L411",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_public_sector_message",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "public-sector message"
-    },
-    {
       "label": "Secondary Channels",
       "file_type": "document",
       "node_kind": "heading",
@@ -117397,66 +117493,6 @@
       "community": 458,
       "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
       "norm_label": "secondary channels"
-    },
-    {
-      "label": "Technical Partner Message",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L419",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_technical_partner_message",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "technical partner message"
-    },
-    {
-      "label": "Week 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L480",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_week_1",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "week 1"
-    },
-    {
-      "label": "Week 2",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L487",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_week_2",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "week 2"
-    },
-    {
-      "label": "Week 3",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L494",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_week_3",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "week 3"
-    },
-    {
-      "label": "Week 4",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
-      "source_location": "L501",
-      "_origin": "ast",
-      "id": "clients_breakthrough_mgmt_gtm_strategy_week_4",
-      "community": 458,
-      "community_name": "Breakthrough Management \u2014 Grant-Focused GTM Strategy",
-      "norm_label": "week 4"
     },
     {
       "label": "clients/spectra-holdings/master-credit-facility-cdfi-strategy.md",
@@ -129566,7 +129602,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L102",
+      "source_location": "L103",
       "_origin": "ast",
       "id": "processes_wiki_sync_pipeline_always_the_source_of_truth_is_the_local_file",
       "community": 51,
@@ -129578,7 +129614,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L93",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "processes_wiki_sync_pipeline_common_failure_modes",
       "community": 51,
@@ -129590,7 +129626,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "processes_wiki_sync_pipeline_manual_workflow_adding_a_new_competitive_battlecard_or_any_new_wiki_note",
       "community": 51,
@@ -129626,7 +129662,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L106",
+      "source_location": "L107",
       "_origin": "ast",
       "id": "processes_wiki_sync_pipeline_see_also",
       "community": 51,
@@ -143021,18 +143057,6 @@
       "norm_label": "validation requirements"
     },
     {
-      "label": "sapperton-district-feasibility.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "sapperton-district-feasibility.md"
-    },
-    {
       "label": "4.1.1 MLI Select [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
@@ -143041,7 +143065,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_1_1_mli_select_verified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.1.1 mli select [verified]"
     },
     {
@@ -143053,7 +143077,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_1_2_affordable_housing_fund_ahf_partial_portal_closed",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.1.2 affordable housing fund (ahf) [partial \u2014 portal closed]"
     },
     {
@@ -143065,7 +143089,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_1_3_build_canada_homes_bch_verified_replacement_for_ahf",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.1.3 build canada homes (bch) [verified \u2014 replacement for ahf]"
     },
     {
@@ -143077,7 +143101,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_1_4_affordable_land_use_program_aclp_unverified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.1.4 affordable land use program / aclp [unverified]"
     },
     {
@@ -143089,7 +143113,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_1_cmhc_programs_mortgage_loan_insurance",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.1 cmhc programs (mortgage loan insurance)"
     },
     {
@@ -143101,7 +143125,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_2_1_bc_builds_verified_primary_funding_path",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.2.1 bc builds [verified \u2014 primary funding path]"
     },
     {
@@ -143113,7 +143137,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_2_2_community_housing_fund_partial_income_overlap_with_bc_builds",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.2.2 community housing fund [partial \u2014 income overlap with bc builds]"
     },
     {
@@ -143125,7 +143149,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_2_3_provincial_investment_in_affordable_housing_piah_partial",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.2.3 provincial investment in affordable housing (piah) [partial]"
     },
     {
@@ -143137,7 +143161,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_2_bc_housing_programs",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.2 bc housing programs"
     },
     {
@@ -143149,7 +143173,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_1_healthcare_of_ontario_pension_plan_hoopp_verified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3.1 healthcare of ontario pension plan (hoopp) [verified]"
     },
     {
@@ -143161,7 +143185,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_2_ontario_teachers_pension_plan_otpp_verified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3.2 ontario teachers' pension plan (otpp) [verified]"
     },
     {
@@ -143173,7 +143197,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_3_bci_british_columbia_investment_management_corp_verified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3.3 bci (british columbia investment management corp) [verified]"
     },
     {
@@ -143185,7 +143209,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_4_imco_cdpq_otpp_canada_wide_funds_partial",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3.4 imco, cdpq, otpp \u2014 canada-wide funds [partial]"
     },
     {
@@ -143197,7 +143221,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_5_mission_driven_capital_vancity_avan_capital_cmls_verified",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3.5 mission-driven capital (vancity, avan capital, cmls) [verified]"
     },
     {
@@ -143209,7 +143233,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_3_pension_funds_and_impact_capital",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.3 pension funds and impact capital"
     },
     {
@@ -143221,7 +143245,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_4_capital_stack_scenarios",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.4 capital stack scenarios"
     },
     {
@@ -143233,7 +143257,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_5_q4_conclusion",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "4.5 q4 conclusion"
     },
     {
@@ -143245,7 +143269,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_4_institutional_capital",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "research question 4: institutional capital"
     },
     {
@@ -143257,7 +143281,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_scenario_a_single_garrett_project_55_75_units_25_30m_dev_cost",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "scenario a: single garrett project (~55-75 units, $25-30m dev cost)"
     },
     {
@@ -143269,7 +143293,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_scenario_b_3_building_corridor_150_200_units_70_100m_dev_cost",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "scenario b: 3-building corridor (~150-200 units, $70-100m dev cost)"
     },
     {
@@ -143281,7 +143305,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_scenario_c_full_district_500_units_250m_dev_cost",
       "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
+      "community_name": "4.3 Pension Funds and Impact Capital",
       "norm_label": "scenario c: full district (~500+ units, $250m+ dev cost)"
     },
     {
@@ -147140,18 +147164,6 @@
       "norm_label": "2. new cli command groups"
     },
     {
-      "label": "3. Financing Signal Taxonomy",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2100",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "3. financing signal taxonomy"
-    },
-    {
       "label": "4. Financing Opportunity Score",
       "file_type": "document",
       "node_kind": "heading",
@@ -147222,18 +147234,6 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "9. human-approved outbound and reply engine"
-    },
-    {
-      "label": "Capital Event Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2110",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "capital event signals"
     },
     {
       "label": "CLI",
@@ -147356,30 +147356,6 @@
       "norm_label": "deepline owns"
     },
     {
-      "label": "Expansion Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2101",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "expansion signals"
-    },
-    {
-      "label": "Financial Pressure Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2120",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "financial pressure signals"
-    },
-    {
       "label": "Financing Signal Discovery",
       "file_type": "document",
       "node_kind": "heading",
@@ -147426,30 +147402,6 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "purpose"
-    },
-    {
-      "label": "Real Estate and Mortgage Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2128",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "real estate and mortgage signals"
-    },
-    {
-      "label": "Referral Partner Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2137",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "referral partner signals"
     },
     {
       "label": "Reply Classes",
@@ -155650,6 +155602,18 @@
       "norm_label": "source references"
     },
     {
+      "label": "sapperton-district-feasibility.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility",
+      "community": 632,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "sapperton-district-feasibility.md"
+    },
+    {
       "label": "1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?",
       "file_type": "document",
       "node_kind": "heading",
@@ -155658,7 +155622,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_1_is_the_sapperton_district_aligned_with_current_tod_transit_oriented_provincial_policy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "1. is the sapperton district aligned with current tod/transit-oriented provincial policy?"
     },
     {
@@ -155670,7 +155634,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_2_does_the_city_s_policy_framework_actively_support_workforce_housing_at_scale",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "2. does the city's policy framework actively support workforce housing at scale?"
     },
     {
@@ -155682,7 +155646,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_3_are_there_recent_policy_signals_from_victoria_or_new_westminster_that_indicate_an_openness_to_healthcare_worker_housing",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "3. are there recent policy signals from victoria or new westminster that indicate an openness to healthcare worker housing?"
     },
     {
@@ -155694,7 +155658,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_what_specific_city_approvals_are_required_for_a_50_100_unit_workforce_housing_project_near_rch",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "4. what specific city approvals are required for a 50-100 unit workforce housing project near rch?"
     },
     {
@@ -155706,7 +155670,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_what_is_the_realistic_timeline_from_land_control_to_occupancy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "5. what is the realistic timeline from land control to occupancy?"
     },
     {
@@ -155718,7 +155682,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_1_federal_policy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "6.1 federal policy"
     },
     {
@@ -155730,7 +155694,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_2_provincial_policy_bc",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "6.2 provincial policy (bc)"
     },
     {
@@ -155742,7 +155706,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_3_municipal_policy_new_westminster",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "6.3 municipal policy (new westminster)"
     },
     {
@@ -155754,7 +155718,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_4_specific_questions",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "6.4 specific questions"
     },
     {
@@ -155766,7 +155730,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_bill_44_ssmuh",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "bc bill 44 (ssmuh)"
     },
     {
@@ -155778,7 +155742,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_bill_47_housing_supply_act",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "bc bill 47 (housing supply act)"
     },
     {
@@ -155790,7 +155754,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_housing_programs",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "bc housing programs"
     },
     {
@@ -155802,7 +155766,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_transit_oriented_area_legislation",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "bc transit-oriented area legislation"
     },
     {
@@ -155814,7 +155778,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_cmhc_programs_workforce_housing_eligibility",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "cmhc programs \u2014 workforce housing eligibility"
     },
     {
@@ -155826,7 +155790,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_dcc_dcl_schedule",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "dcc/dcl schedule"
     },
     {
@@ -155838,7 +155802,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_family_friendly_housing_policy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "family friendly housing policy"
     },
     {
@@ -155850,7 +155814,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_official_community_plan_ocp",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "official community plan (ocp)"
     },
     {
@@ -155862,7 +155826,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q6_conclusion",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "q6 conclusion"
     },
     {
@@ -155874,7 +155838,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_6_policy_validation",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "research question 6: policy validation"
     },
     {
@@ -155886,7 +155850,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_townhouse_accelerator_program",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "townhouse accelerator program"
     },
     {
@@ -155898,7 +155862,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_zoning_bylaw_6680",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "sapperton-district-feasibility.md",
       "norm_label": "zoning bylaw 6680"
     },
     {
@@ -159598,6 +159562,18 @@
       "norm_label": "18.10 versioning and compatibility"
     },
     {
+      "label": "18.11 Delivery Plan as Independently Testable Work Packages",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1240",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_18_11_delivery_plan_as_independently_testable_work_packages",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "18.11 delivery plan as independently testable work packages"
+    },
+    {
       "label": "18.12 Release Gates",
       "file_type": "document",
       "node_kind": "heading",
@@ -159860,6 +159836,78 @@
       "community": 65,
       "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
       "norm_label": "lead identity hierarchy"
+    },
+    {
+      "label": "Phase 0 \u2014 Production blockers",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1241",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_0_production_blockers",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 0 \u2014 production blockers"
+    },
+    {
+      "label": "Phase 1 \u2014 CLI foundation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1246",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_1_cli_foundation_1246",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 1 \u2014 cli foundation"
+    },
+    {
+      "label": "Phase 2 \u2014 Existing endpoint wrappers",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1252",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_2_existing_endpoint_wrappers_1252",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 2 \u2014 existing endpoint wrappers"
+    },
+    {
+      "label": "Phase 3 \u2014 Canonical data and evidence",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1259",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_3_canonical_data_and_evidence",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 3 \u2014 canonical data and evidence"
+    },
+    {
+      "label": "Phase 4 \u2014 Proprietary intelligence",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1265",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_4_proprietary_intelligence",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 4 \u2014 proprietary intelligence"
+    },
+    {
+      "label": "Phase 5 \u2014 Orchestration and integrations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/cli-prd.md",
+      "source_location": "L1271",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_cli_prd_phase_5_orchestration_and_integrations",
+      "community": 65,
+      "community_name": "18. Incremental Improvement Addendum \u2014 v1.1",
+      "norm_label": "phase 5 \u2014 orchestration and integrations"
     },
     {
       "label": "Production gate",
@@ -161665,6 +161713,18 @@
       "norm_label": "13. search results data model"
     },
     {
+      "label": "14. Search Quality Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L367",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_14_search_quality_metrics",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "14. search quality metrics"
+    },
+    {
       "label": "15. Search Optimization Loop",
       "file_type": "document",
       "node_kind": "heading",
@@ -161761,30 +161821,6 @@
       "norm_label": "8. opportunity classification"
     },
     {
-      "label": "9. Adversarial Refutation Pass",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L246",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_9_adversarial_refutation_pass",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "9. adversarial refutation pass"
-    },
-    {
-      "label": "CLI",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L255",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_cli",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "cli"
-    },
-    {
       "label": "CLI",
       "file_type": "document",
       "node_kind": "heading",
@@ -161795,6 +161831,18 @@
       "community": 66,
       "community_name": "workflow-improvement.md",
       "norm_label": "cli"
+    },
+    {
+      "label": "Commercial metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L381",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_commercial_metrics",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "commercial metrics"
     },
     {
       "label": "Current Weaknesses",
@@ -161821,16 +161869,16 @@
       "norm_label": "existing strengths"
     },
     {
-      "label": "Outcomes",
+      "label": "Pipeline metrics",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L259",
+      "source_location": "L369",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_outcomes",
+      "id": "projects_leadsniperai_workflow_improvement_pipeline_metrics",
       "community": 66,
       "community_name": "workflow-improvement.md",
-      "norm_label": "outcomes"
+      "norm_label": "pipeline metrics"
     },
     {
       "label": "Purpose",
@@ -180139,100 +180187,76 @@
       "norm_label": "the solution requirements"
     },
     {
-      "label": "9. Recommended Strategy",
+      "label": "3. Financing Signal Taxonomy",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1941",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2100",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_9_recommended_strategy",
+      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "9. recommended strategy"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "3. financing signal taxonomy"
     },
     {
-      "label": "Final Verdict",
+      "label": "Capital Event Signals",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1985",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2110",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_final_verdict",
+      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "final verdict"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "capital event signals"
     },
     {
-      "label": "Immediate Actions (Next 90 Days)",
+      "label": "Expansion Signals",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1965",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2101",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_immediate_actions_next_90_days",
+      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "immediate actions (next 90 days)"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "expansion signals"
     },
     {
-      "label": "Key Decision Gates",
+      "label": "Financial Pressure Signals",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1973",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2120",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_key_decision_gates",
+      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "key decision gates"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "financial pressure signals"
     },
     {
-      "label": "Phase 1: GARRETT + CORRIDOR (Years 1-3)",
+      "label": "Real Estate and Mortgage Signals",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1943",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2128",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_phase_1_garrett_corridor_years_1_3",
+      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "phase 1: garrett + corridor (years 1-3)"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "real estate and mortgage signals"
     },
     {
-      "label": "Phase 2: DISTRICT EXPANSION (Years 3-7)",
+      "label": "Referral Partner Signals",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1951",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2137",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_phase_2_district_expansion_years_3_7",
+      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
       "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "phase 2: district expansion (years 3-7)"
-    },
-    {
-      "label": "Phase 3: FULL DISTRICT (Years 7-15)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1958",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_phase_3_full_district_years_7_15",
-      "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "phase 3: full district (years 7-15)"
-    },
-    {
-      "label": "Success Metrics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1980",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_success_metrics",
-      "community": 77,
-      "community_name": "9. Recommended Strategy",
-      "norm_label": "success metrics"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "referral partner signals"
     },
     {
       "label": "INSTRUCTIONS-Claude-Coworker-Generate-Presentation.md",
@@ -183022,16 +183046,16 @@
       "norm_label": "1b. llm search authority \u2014 forum answers become ai recommendations"
     },
     {
-      "label": "5. Systematic Outbound",
+      "label": "8. Execution Matrix",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L135",
+      "source_location": "L208",
       "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_5_systematic_outbound",
+      "id": "concepts_first_100_clients_playbook_8_execution_matrix",
       "community": 794,
       "community_name": "The First 100 Clients Playbook",
-      "norm_label": "5. systematic outbound"
+      "norm_label": "8. execution matrix"
     },
     {
       "label": "Cold Prospect to Loyal Customer",
@@ -183058,16 +183082,16 @@
       "norm_label": "final directive"
     },
     {
-      "label": "High-Precision Cold Email (Apollo)",
+      "label": "Free vs. Paid Roadmap",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L137",
+      "source_location": "L210",
       "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_high_precision_cold_email_apollo",
+      "id": "concepts_first_100_clients_playbook_free_vs_paid_roadmap",
       "community": 794,
       "community_name": "The First 100 Clients Playbook",
-      "norm_label": "high-precision cold email (apollo)"
+      "norm_label": "free vs. paid roadmap"
     },
     {
       "label": "Source",
@@ -183082,6 +183106,18 @@
       "norm_label": "source"
     },
     {
+      "label": "The Anti-Fragile Growth Mindset",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "concepts/first-100-clients-playbook.md",
+      "source_location": "L219",
+      "_origin": "ast",
+      "id": "concepts_first_100_clients_playbook_the_anti_fragile_growth_mindset",
+      "community": 794,
+      "community_name": "The First 100 Clients Playbook",
+      "norm_label": "the anti-fragile growth mindset"
+    },
+    {
       "label": "The First 100 Clients Playbook",
       "file_type": "document",
       "node_kind": "heading",
@@ -183092,18 +183128,6 @@
       "community": 794,
       "community_name": "The First 100 Clients Playbook",
       "norm_label": "the first 100 clients playbook"
-    },
-    {
-      "label": "The Upwork Reverse Job Board Tactic",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "concepts/first-100-clients-playbook.md",
-      "source_location": "L144",
-      "_origin": "ast",
-      "id": "concepts_first_100_clients_playbook_the_upwork_reverse_job_board_tactic",
-      "community": 794,
-      "community_name": "The First 100 Clients Playbook",
-      "norm_label": "the upwork reverse job board tactic"
     },
     {
       "label": "Three-Roadmap Comparison",
@@ -193838,88 +193862,64 @@
       "norm_label": "when to use apollo vs. alternatives"
     },
     {
-      "label": "18.11 Delivery Plan as Independently Testable Work Packages",
+      "label": "12. Recommended Immediate Action Plan",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1240",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L478",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_18_11_delivery_plan_as_independently_testable_work_packages",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_12_recommended_immediate_action_plan",
       "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "18.11 delivery plan as independently testable work packages"
+      "community_name": "12. Recommended Immediate Action Plan",
+      "norm_label": "12. recommended immediate action plan"
     },
     {
-      "label": "Phase 0 \u2014 Production blockers",
+      "label": "Week 1",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1241",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L480",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_0_production_blockers",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_week_1",
       "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 0 \u2014 production blockers"
+      "community_name": "12. Recommended Immediate Action Plan",
+      "norm_label": "week 1"
     },
     {
-      "label": "Phase 1 \u2014 CLI foundation",
+      "label": "Week 2",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1246",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L487",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_1_cli_foundation_1246",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_week_2",
       "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 1 \u2014 cli foundation"
+      "community_name": "12. Recommended Immediate Action Plan",
+      "norm_label": "week 2"
     },
     {
-      "label": "Phase 2 \u2014 Existing endpoint wrappers",
+      "label": "Week 3",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1252",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L494",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_2_existing_endpoint_wrappers_1252",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_week_3",
       "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 2 \u2014 existing endpoint wrappers"
+      "community_name": "12. Recommended Immediate Action Plan",
+      "norm_label": "week 3"
     },
     {
-      "label": "Phase 3 \u2014 Canonical data and evidence",
+      "label": "Week 4",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1259",
+      "source_file": "clients/breakthrough-mgmt/gtm-strategy.md",
+      "source_location": "L501",
       "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_3_canonical_data_and_evidence",
+      "id": "clients_breakthrough_mgmt_gtm_strategy_week_4",
       "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 3 \u2014 canonical data and evidence"
-    },
-    {
-      "label": "Phase 4 \u2014 Proprietary intelligence",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1265",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_4_proprietary_intelligence",
-      "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 4 \u2014 proprietary intelligence"
-    },
-    {
-      "label": "Phase 5 \u2014 Orchestration and integrations",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/cli-prd.md",
-      "source_location": "L1271",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_cli_prd_phase_5_orchestration_and_integrations",
-      "community": 87,
-      "community_name": "18.11 Delivery Plan as Independently Testable Work Packages",
-      "norm_label": "phase 5 \u2014 orchestration and integrations"
+      "community_name": "12. Recommended Immediate Action Plan",
+      "norm_label": "week 4"
     },
     {
       "label": "apify.md",
@@ -271546,7 +271546,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L102",
+      "source_location": "L103",
       "weight": 1.0,
       "_origin": "ast",
       "source": "processes_wiki_sync_pipeline_wiki_sync_pipeline",
@@ -271557,7 +271557,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L106",
+      "source_location": "L107",
       "weight": 1.0,
       "_origin": "ast",
       "source": "processes_wiki_sync_pipeline_wiki_sync_pipeline",
@@ -271601,7 +271601,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L42",
+      "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast",
       "source": "processes_wiki_sync_pipeline_wiki_sync_pipeline",
@@ -271612,7 +271612,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "processes/wiki-sync-pipeline.md",
-      "source_location": "L93",
+      "source_location": "L94",
       "weight": 1.0,
       "_origin": "ast",
       "source": "processes_wiki_sync_pipeline_wiki_sync_pipeline",
@@ -391114,5 +391114,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bf3ab01ac4c71761fd78758d9aab3e8354dcf077"
+  "built_at_commit": "233b6ea32e1fbe7f265c23aa1799f4aa538ebdd9"
 }
