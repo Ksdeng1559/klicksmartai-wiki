@@ -117,12 +117,39 @@ Veritas (David Poole, Lee's Summit MO, Jackson County) is a **real estate develo
 
 ## 4. Current Hermes integration state
 
-- **Hermes `~/.hermes/skills/gtm/`** has **19 skills** (15 swan-gtm + 4 KlickSmartAI custom)
+- **Hermes `~/.hermes/skills/gtm/`** has **43 skills** (19 KlickSmartAI custom + 24 swan-gtm symlinks)
 - **Hermes `~/.hermes/skills/deepline/`** has **15 skills** (Deepline umbrella, separate from swan-gtm)
 - **Claude Code `~/.claude/skills/`** has 25 skills (15 Deepline + 10 misc, no GTM umbrella)
 - **swan-gtm clone** at `~/wiki/raw/swan-gtm/skills/` has all 267 skills available for selective install
 
-**248 swan-gtm skills are NOT yet wired into Hermes.** Recommended install path: symlink per-skill from clone into `~/.hermes/skills/gtm/<skill>/SKILL.md` rather than copying (keeps clone as single source of truth).
+**Install path used (2026-08-22):** Symlinked the 29 Veritas-relevant core skills from `~/wiki/raw/swan-gtm/skills/<author>/<skill>/SKILL.md` into `~/.hermes/skills/gtm/<skill>`. 24 new symlinks created; 5 already existed (duplicates of KlickSmartAI custom skills).
+
+**Symlinked core (24 new skills):**
+```
+abm-engagement-scoring        buying-signals-6            cold-call-scripts
+cold-email-first-touch        cold-email-strategist       cold-email-templates-34
+cs-operations                 deal-desk-operations        icp-builder
+lead-routing                  lead-sources-guide          linkedin-abm-1to1-few-many
+list-architect                pain-is-the-pitch           positioning-and-story
+positioning-messaging-designer  revops-hubspot           roi-proof-generator
+sdr-outbound-rules            seo-topic-prioritization    tam-builder
+track-contact-job-changes     warm-intro-intelligence     account-intelligence-analyst
+```
+
+**KlickSmartAI custom gtm/ skills (kept as local directories, NOT symlinks):**
+```
+account-tier-scoring    bridge-before-cold    call-scorecards
+category-of-one-positioning  citation-gap-outreach  cold-email-4-sequence
+cold-email-preflight    founder-led-sales     gtm-enrichment-planner
+icp                     leadsniper-cli        never-guess-an-email
+pipeline-review         pre-ma-offmarket-discovery  reach-out
+research                score                 signal-interpreter
+strategic-intelligence-briefing
+```
+
+**Rationale:** Symlinks keep `~/wiki/raw/swan-gtm/` as single source of truth. KlickSmartAI custom skills remain as local directories (Hermes-specific logic, may diverge from upstream).
+
+**Context budget impact:** 24 new skills × ~10KB avg = ~240KB added to system prompt. Acceptable for Veritas workflow.
 
 ---
 
