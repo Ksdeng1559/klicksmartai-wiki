@@ -136,6 +136,8 @@ sdr-outbound-rules            seo-topic-prioritization    tam-builder
 track-contact-job-changes     warm-intro-intelligence     account-intelligence-analyst
 ```
 
+**Initial install bug (2026-08-22) → fix:** Symlinks were created pointing to SKILL.md FILES. Hermes skill loader walks each entry as a DIRECTORY containing SKILL.md. Fixed all 24 symlinks to point to the parent directory (e.g. `.../cold-email-strategist/` instead of `.../cold-email-strategist/SKILL.md`). Confirmed via `skill_view(name='cold-email-strategist')` returning full SKILL.md content + 25 reference files.
+
 **KlickSmartAI custom gtm/ skills (kept as local directories, NOT symlinks):**
 ```
 account-tier-scoring    bridge-before-cold    call-scorecards
