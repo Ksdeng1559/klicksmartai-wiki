@@ -274,38 +274,76 @@ mcp__leadsniper__generate_email lead=<enriched-lead> context="..."
 
 See `~/wiki/clients/leadsniper-3.0/` for the full LeadSniper endpoint catalog.
 
-## `company-domain-to-individual` play (added 2026-08-22)
+## `company-domain-to-linkedin-employees` play (Veritas Developments use case, added 2026-08-22)
 
-**What it does:** Given a company domain, returns individuals (decision-makers) at that company with verified contact info. Waterfall across Deepline Native → Icypeas → Contactout → Prospeo → Crustdata V2.
+**Status:** This is the prebuilt play that matches the Deepline doc page `company-domain-to-individual`. Deepline rebranded the page but the actual prebuilt play is `company-domain-to-linkedin-employees`. Verified 2026-08-22 via `deepline plays search "domain" --all`.
 
-**Cost (verified 2026-08-22):** max 3.1 credits per call (Deepline Native 0.6 + Icypeas 0.1 + Contactout 1.4 + Prospeo 0.6 + Crustdata V2 0.4). Charged only on hit, stops at first verified result. So a successful lookup could be as low as 0.6 credits; a full cascade with all providers firing = 3.1 credits.
+**What it does:** Given a company domain, resolves the company on LinkedIn then lists employees. Returns `{first_name, last_name, title, linkedin_url, location}` rows — **not verified contact info**.
+
+**Cost (verified 2026-08-22):** unknown from doc page, typical Deepline Native prebuilt runs are ~0.4-0.8 credits per call. CLI confirm needed.
 
 **Parameters:**
 - `domain` (required): company domain, e.g. `whatcomcounty.gov`
-- `roles` (optional): filter by job role, e.g. `["Chief Financial Officer", "Finance Director"]`
-- `seniority` (optional): e.g. `["C-Suite", "VP"]`
-- `limit` (optional): max results
+- `max_items` (optional, default 100, max 1000): cap on employees returned
+- `profile_depth` (optional, enum: `short`/`full`/`full_with_email`): HarvestAPI depth — `short` for smoke tests, `full_with_email` is slowest and most expensive
 
 **CLI:**
 ```bash
-deepline plays run prebuilt/company-domain-to-individual \
-  --input '{"domain":"whatcomcounty.gov","roles":["CFO","Finance Director"],"limit":5}' --watch
+deepline plays run prebuilt/company-domain-to-linkedin-employees \
+  --input '{"domain":"whatcomcounty.gov","max_items":25,"profile_depth":"full"}' --watch
 ```
 
-**Spectra Holdings county pipeline — primary use case:**
-For each county, run the play with `domain = <county.gov>` and a curated `roles` list:
-- County Manager / Administrator
-- CFO / Finance Director (for MCF capital allocation)
-- Planning Director / Community Development Director
-- Economic Development Director
-- Public Works Director (for CDFI infrastructure alignment)
+**Veritas Developments (David Poole, Lee's Summit MO) — full recipe:**
 
-**Returns:** array of `{first_name, last_name, role, seniority, work_email, phone, linkedin_url, source_provider}` — the same shape you can pipe into LeadSniper's `generate_email` for the personalized outreach step.
+Step 1 — Find employees at target orgs (investor leads, JV partners, county officials, lenders):
+```bash
+deepline plays run prebuilt/company-domain-to-linkedin-employees \
+  --input '{"domain":"jacksoncountymo.gov","max_items":50,"profile_depth":"full"}' --watch
+```
+
+**Relevant Veritas target domains** (Jackson County + Lee's Summit ecosystem, pick by phase):
+- `jacksoncountymo.gov` — county officials (planning, economic development, public works)
+- `cityofls.net` — City of Lee's Summit (planning, community development)
+- `kcclt.org` — Kansas City Community Land Trust (KCCLT partnership memo contact)
+- `pricechopper.com` — grocery anchor (corporate real-estate team)
+- `cvs.com` — anchor (corporate real-estate team)
+- `invitationhomes.com`, `progressresidential.com` — SFR operators / JV partners
+- `firstmidwest.com`, `commercebank.com`, `umb.com` — regional lenders
+
+Filter Step 1 results by `title` matching: `["Director", "Manager", "VP", "President", "Chief", "Administrator", "Commissioner", "Officer"]`.
+
+Step 2 — Verify work emails for filtered list (one call per person, or batch via `name-and-domain-to-email-waterfall-batch`):
+```bash
+deepline plays run prebuilt/name-and-domain-to-email-waterfall \
+  --input '{"first_name":"<FN>","last_name":"<LN>","domain":"<domain>","company_name":"<Company>"}' --watch
+```
+
+Step 3 — Verify phones:
+```bash
+deepline plays run prebuilt/person-to-phone \
+  --input '{"first_name":"<FN>","last_name":"<LN>","domain":"<domain>"}' --watch
+```
+
+Step 4 — Pipe to LeadSniper for personalized outreach copy:
+```python
+# In Hermes MCP
+mcp__leadsniper__generate_email(
+    lead={"businessName":"<Company>","ownerName":"<FN> <LN>",
+          "title":"<Title>","linkedin_url":"...","work_email":"..."},
+    context="Veritas Prime Lee's Summit equity raise / Stonehaven pre-sale JV / KCCLT partnership"
+)
+```
+
+**Cost per county (estimated, ~10 decision-makers verified):**
+- Step 1: ~0.5 credits (one employee-list call)
+- Step 2: ~3-6 credits (10 emails × 0.3-0.6 credits each, pay-per-hit)
+- Step 3: ~4-8 credits (10 phones × 0.4-0.8 credits each)
+- **Total: ~8-15 credits per county after full cascade**
+
+At 6.19 credits available, we can do **0 counties fully** with this recipe. Either top up or trim verification (skip Step 3 phones, run Step 2 only for 5 most important targets).
+
+**Pitfall:** Some county `.gov` domains have very thin LinkedIn presence (no employees listed). Step 1 returns empty even though the people exist. Fallback: switch to `company-to-contact-by-role-waterfall` if available (currently a "missing_input" placeholder per `deepline plays search`), or use LeadSniper's `search_decision_makers` for a single-provider list.
 
 **Compared to LeadSniper `search_decision_makers`:**
-- LeadSniper: 1 provider (Gemini + Maps + web search), ~$0.05-0.15/call, lower hit rate on niche domains
-- Deepline: 5-provider waterfall, ~0.6-3.1 credits/call, higher hit rate + verification
-
-**Note:** The `roles` filter is critical — without it the play returns everyone in the company. Always pass at least the role you want.
-
-**Pitfall:** Some county `.gov` domains have very thin LinkedIn presence (no employees listed). In that case the play returns empty even though the people exist. Fallback: switch to `company-to-contact-by-role-waterfall` which has more providers in its cascade.
+- LeadSniper: 1 provider (Gemini + Maps + web search), ~$0.05-0.15/call, lower hit rate on niche domains, returns unverified contacts
+- Deepline: separate call per person for verification, ~0.5-1.5 credits per verified contact, higher hit rate + actual verification
