@@ -92,16 +92,29 @@ comparison: KlickSmartAI GTM proximity (M&A, real estate, LP/SPV, Reg D)
 - Don't provide legal, tax, or investment advice
 - Don't act as broker-dealer / advisor / funding portal
 
-## KlickSmartAI implications
+## KlickSmartAI implications — Veritas Developments
 
-- **Not a competitor to our GTM stack** — different lane (we're a service/AI consultancy; they're a capital-raise engine for asset-backed principals).
-- **Possible outreach angle:** family offices / CDFIs we already mine for Spectra Holdings could be downstream recipients of Raises.com's introductions.
-- **Pricing benchmark:** low-$K monthly tiers for advisory — useful for our own packaging if we ever go downstream on M&A enablement.
-- **Cheat sheet:** their 4-step protocol is a clean template for turn-key capital raise narratives in our deliverables.
+- **Not a competitor** — Raises.com is a capital-raise engine for asset-backed principals; we're using their model as a structural template for Veritas's capital raise.
+- **Direct client fit:** Veritas Developments (David Poole, 816-405-6181) — Lee's Summit, MO. Active developments: **Prime Lee's Summit** (mixed-use: 5× 5-story multifamily = 610 residents + Price Chopper anchor + 16-store retail + CVS) and **Stonehaven Estates** (57 SF lots on 23.57 acres). See `~/wiki/clients/veritas-developments/README.md`.
+- **Why this matters for Veritas:** the raise targets the same capital pool (family offices, HNW, Reg D 506(b)/(c) investors) — Veritas is asset-backed real estate, not SMB M&A. Raises.com's Reg D 506(b)/(c) vehicle structure is the model to mirror.
+- **Veritas capital stack targets** (from `projects/growth-program-pilot-plan.md` P3 pillar "Faith-Aligned Capital Stack"): family offices, CDFIs, faith foundations (AG/KC, PEDC, United Believers, NCF Heartland), CRA banks.
+- **Use the 4-step protocol as a fundraising scaffolding template for Veritas:**
+  1. **Structure** → vehicle, PPM, sub agreements, 506(b)/(c) filings
+  2. **Package** → investor briefing, financial model, due diligence room (mirrors the "Harvest is Plentiful" market briefing already drafted)
+  3. **Connect** → warm intros to family offices + faith-aligned capital (AG/KC, NCF Heartland), positioned against Jackson County's 18,000-home opportunity
+  4. **Close** → wire before commitment window closes
+- **Pricing benchmark for Veritas packaging:** Raises.com Flagship $3,920 / Institutional $4,998. Veritas should price institutional-grade placement in a comparable range if they ever reschedule downstream on placement services.
+- **Affiliate / white-label program** (Raises.com's 4th product line) is worth probing — could be a low-cost "platform license" angle if Veritas wants to plug into a proven turn-key engine vs. building one in-house.
+- **Cheat sheet for our deliverables:** Raises.com's 4-step protocol, "Structure→Package→Connect→Close" naming, and tiered pricing model are clean templates for Veritas investor materials and the Growth Program Pilot Plan.
 
 ## Sources
 
 - Homepage scrape: `~/wiki/competitive/raises-com.md` (this file)
 - Raw scrape: `/tmp/scrapling-runs/raises.com.md` (16KB, AI-targeted markdown)
+- Veritas client workspace: `~/wiki/clients/veritas-developments/`
+- Veritas Growth Program Pilot Plan: `~/wiki/clients/veritas-developments/projects/growth-program-pilot-plan.md`
+- Veritas Prime Lee's Summit project: `~/wiki/clients/veritas-developments/projects/prime-lees-summit.md`
+- Veritas Stonehaven Estates project: `~/wiki/clients/veritas-developments/projects/stonehaven-estates.md`
+- Jackson County intelligence package: `~/wiki/clients/veritas-developments/deliverables/`
 - Press release (Cody Sechelski HVAC): https://finance.yahoo.com/small-business/articles/raises-com-r-advises-successful-223000367.html
 - NMLS: https://www.nmlsconsumeraccess.org/ (search entity 2578088)

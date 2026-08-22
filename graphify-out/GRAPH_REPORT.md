@@ -1,16 +1,16 @@
 # Graph Report - wiki  (2026-08-21)
 
 ## Corpus Check
-- 864 files · ~1,194,729 words
+- 864 files · ~1,194,762 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 16973 nodes · 16505 edges · 1141 communities (1130 shown, 11 thin omitted)
+- 16973 nodes · 16505 edges · 1140 communities (1129 shown, 11 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bf3ab01a`
+- Built from commit: `233b6ea3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,7 +60,7 @@
 - Breakthrough Management — Environmental Infrastructure Intelligence Package
 - enum
 - Recoverable Grant Capital Architecture Synthesis
-- 1. The Opportunity
+- 9. Core Messaging
 - Whatcom County CDFI / MCF Pilot Application
 - CDFI Underwriting Framework
 - Unreal Systems Engineer Agent Personality
@@ -92,7 +92,7 @@
 - Hermes Dev-to-Production Implementation Plan v1.1
 - 7. Multi-Dimensional Scoring
 - 10. QA Gates
-- 9. Recommended Strategy
+- 3. Financing Signal Taxonomy
 - Marketing Carousel Growth Engine
 - China Market Localization Strategist
 - Marketing Carousel Growth Engine
@@ -102,7 +102,7 @@
 - China Market Localization Strategist
 - Section 4 — Development Scenarios
 - Verify From Session Records + Docker State, Not Config Alone
-- 18.11 Delivery Plan as Independently Testable Work Packages
+- 12. Recommended Immediate Action Plan
 - Marketing Growth Hacker Agent
 - Unipile
 - Bexar County, TX — Local Partner Mapping Memo
@@ -115,10 +115,10 @@
 - Sales Coach Agent
 - 5. Offer Architecture
 - 21.18 Implementation Phases
-- 8. Execution Matrix
-- 11. Security and Compliance Requirements
+- 17. Suggested Agent Workflows
+- 5. Systematic Outbound
 - 2. Objectives
-- 14. Search Quality Metrics
+- 9. Adversarial Refutation Pass
 - Core Mission
 - openclaw_training_guide.md
 - ArchitectUX Agent Personality
@@ -461,7 +461,7 @@
 - Bexar County, TX — Investor Narrative and Use-of-Funds Memo
 - Veritas Developments — Growth Program Pilot Plan
 - 7. Version 1 Command Catalogue
-- sapperton-district-feasibility.md
+- 4.3 Pension Funds and Impact Capital
 - Organization Profile: Spectra Holdings Group, Inc.
 - Discovery Coach Agent
 - Outbound Strategist Agent
@@ -506,7 +506,7 @@
 - BOSS v3 — Multi-Channel Revenue Conversion Machine
 - KlickSmartAI Knowledge Wiki
 - Craig County, OK — County Intelligence Report
-- 6.3 Municipal Policy (New Westminster)
+- sapperton-district-feasibility.md
 - WattBricks Energy — HNWI/Investor Persona & Outreach Playbook
 - entities/agency-agents/marketing/marketing-ai-citation-strategist.md
 - Claude Partner Network
@@ -968,7 +968,6 @@
 - 12. Decision Output Standard
 - {{title}}
 - {{title}}
-- 7. 12-Month GTM Roadmap
 - 11. Faith and Nonprofit Housing Sentiment
 - 12. Investor and Funder Housing Sentiment
 - 2. Housing Need Sentiment
@@ -1159,7 +1158,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (1141 total, 11 thin omitted)
+## Communities (1140 total, 11 thin omitted)
 
 ### Community 0 - "integrations/README.md"
 Cohesion: 0.04
@@ -1178,8 +1177,8 @@ Cohesion: 0.04
 Nodes (47): 1. Target Market Alignment, 2. CDFI Engagement Levels, Affordability Gap, Bexar County / San Antonio, Buyer-Side Credit Enhancements, Capital Magnet Fund (CMF) — 10-to-1 Leverage in Practice, Capital Stack Summary — Arrowhead Pointe, CDFI / Financing Landscape (+39 more)
 
 ### Community 4 - "leadsniperai-cli-commercial-plan.md"
-Cohesion: 0.04
-Nodes (45): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+37 more)
+Cohesion: 0.05
+Nodes (41): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+33 more)
 
 ### Community 5 - "Paid Media PPC Campaign Strategist Agent"
 Cohesion: 0.25
@@ -1214,8 +1213,8 @@ Cohesion: 0.05
 Nodes (41): 10. Definition of Done, 11.1 SAM/UEI/CAGE/DSBS Registration Walkthrough, 11.2 APEX Counselor Integration Workflow, 11.3 Socioeconomic Certification Pathways, 11.4 Registration Status Tracking, 11. APEX Integration and Federal Registration Pathway, 12. Strategic Positioning, 1. Solution Overview (+33 more)
 
 ### Community 13 - "cli-prd.md"
-Cohesion: 0.06
-Nodes (35): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release, 16. Acceptance Criteria (+27 more)
+Cohesion: 0.05
+Nodes (38): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+30 more)
 
 ### Community 14 - "Civil Engineer Agent"
 Cohesion: 0.05
@@ -1341,9 +1340,9 @@ Nodes (36): enum, AI, CATALYTIC_CAPITAL, CITY, CLIMATE_RESILIENCE, COUNTY, DEBT,
 Cohesion: 0.06
 Nodes (35): Acronym Standardization, Annual Compliance Timeline, Capital Stack Objective, Core Agreements, Core Capital Architecture, CRA-Motivated Bank, Document Hierarchy, Donor-Advised Fund / DAF (+27 more)
 
-### Community 45 - "1. The Opportunity"
-Cohesion: 0.40
-Nodes (5): 1. The Opportunity, How It Was Found, Sources, The Concept: Nexus Spatial, Why This Agency Is Uniquely Positioned
+### Community 45 - "9. Core Messaging"
+Cohesion: 0.33
+Nodes (6): 9. Core Messaging, Corporate Buyer Message, Grant-Funding Message, One-Sentence Positioning, Public-Sector Message, Technical Partner Message
 
 ### Community 46 - "Whatcom County CDFI / MCF Pilot Application"
 Cohesion: 0.06
@@ -1398,8 +1397,8 @@ Cohesion: 0.50
 Nodes (4): 6. Technical Search and Website Audit, PageSpeed and Core Web Vitals, Required distinction, Search visibility audit
 
 ### Community 59 - "GTM Strategy Extension — Deepline and Getaero Patterns"
-Cohesion: 0.05
-Nodes (39): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups, 3. Financing Signal Taxonomy (+31 more)
+Cohesion: 0.06
+Nodes (33): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups, 4. Financing Opportunity Score (+25 more)
 
 ### Community 60 - "Agent Personality"
 Cohesion: 0.06
@@ -1422,12 +1421,12 @@ Cohesion: 0.06
 Nodes (32): 1.1 Purpose, 1.2 Core Principle, 1.3 What Gets Built, 1. Overview, 2.1 Dev-to-Production Flow, 2.2 Railway Service Architecture, 2.3 Local Dev Environment Structure, 2.4 GitHub Branching Strategy (+24 more)
 
 ### Community 65 - "18. Incremental Improvement Addendum — v1.1"
-Cohesion: 0.08
-Nodes (26): 18.10 Versioning and Compatibility, 18.12 Release Gates, 18.13 Additional Acceptance Tests, 18.14 Implementation Questions to Resolve During the First Architecture Spike, 18.15 Changelog, 18.1 Product Decisions, 18.2 Endpoint-to-Command Contract, 18.3 Canonical Lead Record (+18 more)
+Cohesion: 0.06
+Nodes (33): 18.10 Versioning and Compatibility, 18.11 Delivery Plan as Independently Testable Work Packages, 18.12 Release Gates, 18.13 Additional Acceptance Tests, 18.14 Implementation Questions to Resolve During the First Architecture Spike, 18.15 Changelog, 18.1 Product Decisions, 18.2 Endpoint-to-Command Contract (+25 more)
 
 ### Community 66 - "workflow-improvement.md"
 Cohesion: 0.11
-Nodes (18): 11. Provider Failover and Search Reliability, 12. Campaign Profiles, 13. Search Results Data Model, 15. Search Optimization Loop, 16. Convex Workflow Recommendation, 18. Acceptance Criteria, 19. Immediate Next Actions, 1. Current-State Assessment (+10 more)
+Nodes (18): 11. Provider Failover and Search Reliability, 12. Campaign Profiles, 13. Search Results Data Model, 14. Search Quality Metrics, 15. Search Optimization Loop, 16. Convex Workflow Recommendation, 18. Acceptance Criteria, 19. Immediate Next Actions (+10 more)
 
 ### Community 67 - "Agent Personality"
 Cohesion: 0.06
@@ -1469,9 +1468,9 @@ Nodes (4): 7. Multi-Dimensional Scoring, Example CLI, Example final priority for
 Cohesion: 0.67
 Nodes (3): 10. QA Gates, Core QA gates, Standard rejection codes
 
-### Community 77 - "9. Recommended Strategy"
-Cohesion: 0.25
-Nodes (8): 9. Recommended Strategy, Final Verdict, Immediate Actions (Next 90 Days), Key Decision Gates, Phase 1: GARRETT + CORRIDOR (Years 1-3), Phase 2: DISTRICT EXPANSION (Years 3-7), Phase 3: FULL DISTRICT (Years 7-15), Success Metrics
+### Community 77 - "3. Financing Signal Taxonomy"
+Cohesion: 0.33
+Nodes (6): 3. Financing Signal Taxonomy, Capital Event Signals, Expansion Signals, Financial Pressure Signals, Real Estate and Mortgage Signals, Referral Partner Signals
 
 ### Community 78 - "Marketing Carousel Growth Engine"
 Cohesion: 0.06
@@ -1509,9 +1508,9 @@ Nodes (7): Scenario A — 4–6 Unit Multiplex, Scenario B — Townhouse Develop
 Cohesion: 0.40
 Nodes (4): Correct verification order, Rule, Verify From Session Records + Docker State, Not Config Alone, Why it matters
 
-### Community 87 - "18.11 Delivery Plan as Independently Testable Work Packages"
-Cohesion: 0.29
-Nodes (7): 18.11 Delivery Plan as Independently Testable Work Packages, Phase 0 — Production blockers, Phase 1 — CLI foundation, Phase 2 — Existing endpoint wrappers, Phase 3 — Canonical data and evidence, Phase 4 — Proprietary intelligence, Phase 5 — Orchestration and integrations
+### Community 87 - "12. Recommended Immediate Action Plan"
+Cohesion: 0.40
+Nodes (5): 12. Recommended Immediate Action Plan, Week 1, Week 2, Week 3, Week 4
 
 ### Community 88 - "Marketing Growth Hacker Agent"
 Cohesion: 0.29
@@ -1561,21 +1560,21 @@ Nodes (6): 5. Offer Architecture, Offer 1 — Grant Readiness and Feedstock Inte
 Cohesion: 0.33
 Nodes (6): 21.18 Implementation Phases, Phase A — Playbook Registry, Phase B — Strategy Recommendation, Phase C — Plan and Asset Generation, Phase D — Attribution and Measurement, Phase E — Closed-Loop Learning
 
-### Community 100 - "8. Execution Matrix"
-Cohesion: 0.67
-Nodes (3): 8. Execution Matrix, Free vs. Paid Roadmap, The Anti-Fragile Growth Mindset
+### Community 100 - "17. Suggested Agent Workflows"
+Cohesion: 0.50
+Nodes (4): 17. Suggested Agent Workflows, Workflow A — Find and Qualify Local Businesses, Workflow B — Audit One Business, Workflow C — Create Reviewable Outreach
 
-### Community 101 - "11. Security and Compliance Requirements"
+### Community 101 - "5. Systematic Outbound"
 Cohesion: 0.67
-Nodes (3): 11. Security and Compliance Requirements, Mandatory Before Production, Outreach Controls
+Nodes (3): 5. Systematic Outbound, High-Precision Cold Email (Apollo), The Upwork Reverse Job Board Tactic
 
 ### Community 102 - "2. Objectives"
 Cohesion: 0.67
 Nodes (3): 2. Objectives, Non-Goals for Version 1, Primary Objectives
 
-### Community 103 - "14. Search Quality Metrics"
+### Community 103 - "9. Adversarial Refutation Pass"
 Cohesion: 0.67
-Nodes (3): 14. Search Quality Metrics, Commercial metrics, Pipeline metrics
+Nodes (3): 9. Adversarial Refutation Pass, CLI, Outcomes
 
 ### Community 107 - "Core Mission"
 Cohesion: 0.07
@@ -2282,8 +2281,8 @@ Cohesion: 0.08
 Nodes (23): 1. Why this is the core, 2. Architecture, 3.1 Theme taxonomy (the service-need categories), 3.2 Sentiment scoring, 3. Sentiment Layer, 4. Phase Detection, 5.1 Phase → primary service, 5.2 Theme → service mapping (the "what to sell") (+15 more)
 
 ### Community 377 - "Final Synthesis: 9-Section Institutional Feasibility Report"
-Cohesion: 0.08
-Nodes (24): 1. Executive Summary, 2. Demand Validation (Q1), 3. Policy Validation (Q6), 400m Radius (Immediate Adjacency — Garrett is here), 4. Capital Validation (Q4), 5. Partnership Validation (Q5), 600m Radius (Short Walk), 6. Land Validation (Q3) (+16 more)
+Cohesion: 0.06
+Nodes (32): 1. Executive Summary, 2. Demand Validation (Q1), 3. Policy Validation (Q6), 400m Radius (Immediate Adjacency — Garrett is here), 4. Capital Validation (Q4), 5. Partnership Validation (Q5), 600m Radius (Short Walk), 6. Land Validation (Q3) (+24 more)
 
 ### Community 378 - "WattBricks HNWI/Investor Persona & Outreach Playbook"
 Cohesion: 0.08
@@ -2562,8 +2561,8 @@ Cohesion: 0.10
 Nodes (21): 10. Summary Recommendation, 1. How to Use This Matrix, 2. Core Grant Positioning, 3. Grant Eligibility Matrix, 4. Priority Funding Pathways, 5. Go / No-Go Rules, 7. Recommended First 90-Day Grant Preparation Plan, 8. Recommended Immediate Focus (+13 more)
 
 ### Community 458 - "Breakthrough Management — Grant-Focused GTM Strategy"
-Cohesion: 0.08
-Nodes (26): 10. GTM Metrics, 11. Sales Motion vs Grant Motion, 12. Recommended Immediate Action Plan, 13. Strategic Recommendation, 1. GTM Executive Summary, 2. Strategic GTM Thesis, 4. Beachhead GTM Positioning, 8. GTM Channels (+18 more)
+Cohesion: 0.10
+Nodes (20): 10. GTM Metrics, 11. Sales Motion vs Grant Motion, 13. Strategic Recommendation, 1. GTM Executive Summary, 2. Strategic GTM Thesis, 4. Beachhead GTM Positioning, 7. 12-Month GTM Roadmap, 8. GTM Channels (+12 more)
 
 ### Community 459 - "Master Credit Facility — Principles and CDFI Engagement Strategy"
 Cohesion: 0.10
@@ -2945,8 +2944,8 @@ Nodes (16): 30/60/90 for Veritas, Attribution strategy — what's measurable now
 Cohesion: 0.12
 Nodes (17): 7.10 CSV Import, 7.11 Batch and Queue Management, 7.12 Export, 7.1 Configuration, 7.2 Local Business Discovery, 7.3 Lead Enrichment, 7.4 Contact and Social Discovery, 7.5 Company Intelligence (+9 more)
 
-### Community 573 - "sapperton-district-feasibility.md"
-Cohesion: 0.09
+### Community 573 - "4.3 Pension Funds and Impact Capital"
+Cohesion: 0.10
 Nodes (21): 4.1.1 MLI Select [VERIFIED], 4.1.2 Affordable Housing Fund (AHF) [PARTIAL — Portal Closed], 4.1.3 Build Canada Homes (BCH) [VERIFIED — Replacement for AHF], 4.1.4 Affordable Land Use Program / ACLP [UNVERIFIED], 4.1 CMHC Programs (Mortgage Loan Insurance), 4.2.1 BC Builds [VERIFIED — Primary Funding Path], 4.2.2 Community Housing Fund [PARTIAL — Income overlap with BC Builds], 4.2.3 Provincial Investment in Affordable Housing (PIAH) [PARTIAL] (+13 more)
 
 ### Community 574 - "Organization Profile: Spectra Holdings Group, Inc."
@@ -3125,8 +3124,8 @@ Nodes (15): archive/*, Branch Roles, Consolidation Path, Contact, Directory Stru
 Cohesion: 0.13
 Nodes (14): 10. Capital Attraction Thesis, 11. Key Data Gaps, 12. Recommended Next Steps, 1. Population, 2. Demographics, 3. Housing Stock, 4. Income & Affordability, 5. Economy & Employment (+6 more)
 
-### Community 632 - "6.3 Municipal Policy (New Westminster)"
-Cohesion: 0.10
+### Community 632 - "sapperton-district-feasibility.md"
+Cohesion: 0.09
 Nodes (21): 1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?, 2. Does the City's policy framework actively support workforce housing at scale?, 3. Are there recent policy signals from Victoria or New Westminster that indicate an openness to healthcare worker housing?, 4. What specific City approvals are required for a 50-100 unit workforce housing project near RCH?, 5. What is the realistic timeline from land control to occupancy?, 6.1 Federal Policy, 6.2 Provincial Policy (BC), 6.3 Municipal Policy (New Westminster) (+13 more)
 
 ### Community 633 - "WattBricks Energy — HNWI/Investor Persona & Outreach Playbook"
@@ -3659,7 +3658,7 @@ Nodes (10): Brand, Competitors (by threat level), Content Pillars, NotebookLM In
 
 ### Community 794 - "The First 100 Clients Playbook"
 Cohesion: 0.18
-Nodes (11): 1b. LLM Search Authority — Forum Answers Become AI Recommendations, 5. Systematic Outbound, Cold Prospect to Loyal Customer, Final Directive, High-Precision Cold Email (Apollo), Source, The First 100 Clients Playbook, The Upwork Reverse Job Board Tactic (+3 more)
+Nodes (11): 1b. LLM Search Authority — Forum Answers Become AI Recommendations, 8. Execution Matrix, Cold Prospect to Loyal Customer, Final Directive, Free vs. Paid Roadmap, Source, The Anti-Fragile Growth Mindset, The First 100 Clients Playbook (+3 more)
 
 ### Community 795 - "GTM Strategies for Mortgage Clients — Extended Research"
 Cohesion: 0.18
@@ -4886,8 +4885,8 @@ Cohesion: 0.33
 Nodes (6): After PC Reboot, Gateway Management, Platforms, Slack (Active), Telegram (Active), Webhook (Active)
 
 ### Community 1166 - "Nexus Spatial: Full Agency Discovery Exercise"
-Cohesion: 0.33
-Nodes (6): 10. Cross-Agent Synthesis, Key Tensions to Resolve, Nexus Spatial: Full Agency Discovery Exercise, Points of Agreement Across All 8 Agents, Table of Contents, What This Exercise Demonstrates
+Cohesion: 0.18
+Nodes (11): 10. Cross-Agent Synthesis, 1. The Opportunity, How It Was Found, Key Tensions to Resolve, Nexus Spatial: Full Agency Discovery Exercise, Points of Agreement Across All 8 Agents, Sources, Table of Contents (+3 more)
 
 ### Community 1167 - "The Workflow"
 Cohesion: 0.33
@@ -4972,10 +4971,6 @@ Nodes (5): Capabilities / Notes, Key Facts, Related, Relevance to KlickSmartAI, 
 ### Community 1188 - "{{title}}"
 Cohesion: 0.33
 Nodes (5): Current State, Key Decisions, Next Steps, Open Questions, {{title}}
-
-### Community 1200 - "7. 12-Month GTM Roadmap"
-Cohesion: 0.40
-Nodes (5): 7. 12-Month GTM Roadmap, Months 10–12 — Validation and Expansion, Months 1–3 — Foundation, Months 4–6 — Partner Development, Months 7–9 — Grant Submission
 
 ### Community 1201 - "11. Faith and Nonprofit Housing Sentiment"
 Cohesion: 0.40
@@ -5630,7 +5625,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `leadsniperai-cli-commercial-plan.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._
 - **Should `Supply Chain Strategist Agent` be split into smaller, more focused modules?**
   _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
 - **Should `:arrows_counterclockwise: Your Workflow Process` be split into smaller, more focused modules?**
