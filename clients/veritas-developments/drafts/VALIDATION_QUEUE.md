@@ -134,10 +134,16 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 | `team-profile-daniel-bailey-2026-08-22.md` | DRAFT (inferred strategy) | Same |
 | `7-touch-outreach-playbook-2026-08-22.md` | DRAFT (unvalidated assumptions) | Same |
 
-**Cleanup needed:**
-- [ ] After David confirms this validation queue, remove the 5 files from veritasdevelopment-wiki main branch (keep only confirmed deliverables)
-- [ ] Add a `DRAFTS.md` README in veritasdevelopment-wiki explaining the source-of-truth boundary
+**Cleanup needed (decision required from David — destructive ops on client-visible repo):**
+- [ ] **Option A: Remove the 5 files from veritasdevelopment-wiki main branch** (keep only confirmed deliverables; this is the safe default)
+- [ ] **Option B: Leave the 5 files in veritasdevelopment-wiki** but rename folder from `projects/prime-lees-summit/` to `drafts/prime-lees-summit-pending-validation/` (signals the unverified status without losing the work)
+- [ ] **Option C: Leave the 5 files as-is** (treat them as source-of-truth despite unverified relationships — risky)
+- [ ] Add a `DRAFTS.md` README in veritasdevelopment-wiki explaining the source-of-truth boundary (recommended regardless of option chosen)
 - [ ] Going forward, no file gets pushed to veritasdevelopment-wiki until promoted from drafts/ → projects/ in klicksmartai-wiki
+
+**Recommendation: Option A** — the veritasdevelopment-wiki is a client-visible repo, and showing draft deliverables as if they were source-of-truth creates accountability risk if any of the data is incorrect. Option B is the second-best if David wants to preserve the work visibility.
+
+**Awaiting David's decision before executing cleanup on veritasdevelopment-wiki.**
 
 ---
 
