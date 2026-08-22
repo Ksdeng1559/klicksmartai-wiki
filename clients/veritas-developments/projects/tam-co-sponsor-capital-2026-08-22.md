@@ -6,25 +6,26 @@ sources:
   - file: /home/denni/wiki/clients/veritas-developments/projects/co-sponsor-gp-target-list.md
   - file: /home/denni/wiki/clients/veritas-developments/projects/tam-co-sponsor-capital-2026-08-22.csv
   - skill: /home/denni/.hermes/skills/gtm/tam-builder/SKILL.md
-client: Veritas Development Group LLC (David Poole)
+client: Veritas Development Group LLC (David Poole + Daniel Bailey)
 projects: [Prime Lee's Summit, Stonehaven Estates]
 prepared: 2026-08-22
-build_status: "Phase 1 complete (companies only); Phase 2 verification NOT YET RUN"
+build_status: "Phase 1 complete (companies only); Phase 2 verification NOT YET RUN; Daniel Bailey = FO outreach lead (added 2026-08-22)"
 ---
 
 # TAM Build #1 — Co-Sponsor Capital TAM
 
 > **Universe:** Organizations that could plausibly co-sponsor, equity-partner, or LP into a Veritas Developments deal — KC foundations, KC + national family offices, RE-focused GPs (institutional + regional), faith-aligned FFOs.
 
-> **Skill applied:** `~/.hermes/skills/gtm/tam-builder/SKILL.md` (Frontal swan-gtm, alex-vacca).
+> **Outreach lead (added 2026-08-22):** **Daniel Bailey** (Co-Founder & Real Estate Advisor, Lee's Summit born & raised, Keller Williams background, 9 yrs RE) is the primary warm-intro path to KC-rooted Tier 2 FFOs. See `team-profile-daniel-bailey-2026-08-22.md`.
 
 > **Compliance with skill rules:**
 > - [x] Companies only, no contacts (separate stage per skill)
-> - [x] Deduplicated on root domain (53 unique domains)
+> - [x] Deduplicated on root domain (54 unique domains, was 53 after law firm additions; final 54 after law-firm-channel merge with existing duplicates)
 > - [x] Provenance on every field (`source` column)
-> - [x] Verified core + unknown tier reported separately (12 verified, 41 unverified)
+> - [x] Verified core + unknown tier reported separately (12 verified, 42 unverified)
 > - [x] No field inferred — unverified size bands left as "unknown" not guessed
 > - [x] Saturation log below
+> - [x] Daniel Bailey = primary warm-intro carrier for KC Tier 2 FFOs (per `tam-builder` skill "build to saturation" — leverage existing relationships as the multiplier)
 
 ---
 
