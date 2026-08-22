@@ -1,7 +1,7 @@
 ---
 title: Deepline
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-22
 type: entity
 tags: [technology, guide]
 sources: [https://deepline.com/docs/quickstart]
@@ -220,3 +220,56 @@ Filter operators: `=` `!=` `<` `<=` `>` `>=` `in` `not_in` `(.)` substring `[.]`
 - Designed for agents: https://deepline.com/docs/designed-for-agents
 - Docs index (llms.txt): https://deepline.com/docs/llms.txt
 - Note: `https://deepline.com/docs/getting-started` 404s — use quickstart instead
+
+## Deepline vs LeadSniper-3.0 enrichment (added 2026-08-22)
+
+LeadSniper-3.0's `enrich_lead` tool calls Gemini + DataForSEO to *generate* lead enrichment (reviews, owner details, email variants). Deepline is a *verification waterfall* that queries 97+ providers (Limadata, Enformion, OpenSOSData, Apollo, etc.) and returns the first hit. Different jobs.
+
+| Need | Use | Why |
+|------|-----|-----|
+| Local business search (US/CA) | LeadSniper `search_businesses` (Gemini + Maps) | High recall on niche + city |
+| Local business search (CA-only) | Deepline `openwebninja_localbusiness_search` + `limadata_enrich_company` | Enformion is US-only; Limadata is Canada-capable |
+| Verify a *known* contact's work email | Deepline `name-and-domain-to-email-waterfall` | Multi-provider SMTP check; charged only on hit |
+| Verify a *known* contact's mobile | Deepline `person-to-phone` (Trestle-validated) | Live carrier/line-type validation |
+| Find decision-makers at a known company | Deepline `company-to-contact-by-role-waterfall` | Single call, multi-provider search |
+| Generate business description / sentiment / emails for outreach | LeadSniper `enrich_lead` + `generate_email` | Gemini-generated content, not data lookup |
+| SEO / keyword / SERP / domain overview | LeadSniper `sgi_*` (DataForSEO via backend) | Deepline has these too but LeadSniper's bundle is tighter |
+| Bulk CSV enrichment (any size) | Deepline `deepline enrich --input leads.csv --output ...` | Native batch mode, BYOK economics |
+| Real-time signal (hiring, job-change, news) | Deepline (CrustData, PredictLeads, monitors) | Standing search / monitors |
+
+### Recommended hybrid workflow for one prospect (verified 2026-08-22)
+
+```bash
+# 1. Discover businesses (LeadSniper — broader recall via Gemini)
+mcp__leadsniper__search_businesses niche="CDFI" city="Bellingham" state="WA" max_results=10
+
+# 2. Verify each owner's work email (Deepline — SMTP-verified, charged only on hit)
+deepline plays run prebuilt/name-and-domain-to-email-waterfall \
+  --input '{"first_name":"<owner>","last_name":"<last>","domain":"<biz-domain>","company_name":"<biz>"}' --watch
+
+# 3. Find mobile phone if email fails (Deepline — Trestle-validated)
+deepline plays run prebuilt/person-to-phone \
+  --input '{"first_name":"<owner>","last_name":"<last>","company_name":"<biz>"}' --watch
+
+# 4. Generate personalized email body (LeadSniper — Gemini content)
+mcp__leadsniper__generate_email lead=<enriched-lead> context="..."
+
+# 5. Optional: company enrichment (Deepline Limadata for Canada, LeadSniper otherwise)
+#    US: LeadSniper enrich_lead is fine
+#    CA: deepline tools execute limadata_enrich_company --input '{"domain":"..."}'
+```
+
+### Why the split
+
+- **LeadSniper** is best at *generating* outreach content and doing broad search via Gemini + Maps. Email "variants" are guesses (pattern + scrape), not verified.
+- **Deepline** is best at *verifying* a known person/company exists and finding their verified work email/phone. Charged only when a provider returns a hit.
+- Together: LeadSniper finds the leads, Deepline verifies the contact, LeadSniper writes the email. Lower cost, higher deliverability.
+
+### Cost reference (verified 2026-08-22)
+
+- LeadSniper `enrich_lead`: ~$0.05-0.15 per call (Gemini 2.0 Flash + DataForSEO)
+- Deepline `name-and-domain-to-email-waterfall`: ~$0.02-0.08 per verified email (charged only on hit)
+- Deepline `person-to-phone`: ~$0.05-0.15 per verified phone (Trestle-validated)
+- Deepline `openwebninja_localbusiness_search`: ~$0.005-0.02 per 10 results
+
+See `~/wiki/clients/leadsniper-3.0/` for the full LeadSniper endpoint catalog.
