@@ -231,7 +231,7 @@ LeadSniper-3.0's `enrich_lead` tool calls Gemini + DataForSEO to *generate* lead
 | Local business search (CA-only) | Deepline `openwebninja_localbusiness_search` + `limadata_enrich_company` | Enformion is US-only; Limadata is Canada-capable |
 | Verify a *known* contact's work email | Deepline `name-and-domain-to-email-waterfall` | Multi-provider SMTP check; charged only on hit |
 | Verify a *known* contact's mobile | Deepline `person-to-phone` (Trestle-validated) | Live carrier/line-type validation |
-| Find decision-makers at a known company | Deepline `company-to-contact-by-role-waterfall` | Single call, multi-provider search |
+| Find decision-makers at a known company | Deepline `company-to-contact-by-role-waterfall` OR `company-domain-to-individual` | Single call, multi-provider search |
 | Generate business description / sentiment / emails for outreach | LeadSniper `enrich_lead` + `generate_email` | Gemini-generated content, not data lookup |
 | SEO / keyword / SERP / domain overview | LeadSniper `sgi_*` (DataForSEO via backend) | Deepline has these too but LeadSniper's bundle is tighter |
 | Bulk CSV enrichment (any size) | Deepline `deepline enrich --input leads.csv --output ...` | Native batch mode, BYOK economics |
@@ -273,3 +273,39 @@ mcp__leadsniper__generate_email lead=<enriched-lead> context="..."
 - Deepline `openwebninja_localbusiness_search`: ~$0.005-0.02 per 10 results
 
 See `~/wiki/clients/leadsniper-3.0/` for the full LeadSniper endpoint catalog.
+
+## `company-domain-to-individual` play (added 2026-08-22)
+
+**What it does:** Given a company domain, returns individuals (decision-makers) at that company with verified contact info. Waterfall across Deepline Native → Icypeas → Contactout → Prospeo → Crustdata V2.
+
+**Cost (verified 2026-08-22):** max 3.1 credits per call (Deepline Native 0.6 + Icypeas 0.1 + Contactout 1.4 + Prospeo 0.6 + Crustdata V2 0.4). Charged only on hit, stops at first verified result. So a successful lookup could be as low as 0.6 credits; a full cascade with all providers firing = 3.1 credits.
+
+**Parameters:**
+- `domain` (required): company domain, e.g. `whatcomcounty.gov`
+- `roles` (optional): filter by job role, e.g. `["Chief Financial Officer", "Finance Director"]`
+- `seniority` (optional): e.g. `["C-Suite", "VP"]`
+- `limit` (optional): max results
+
+**CLI:**
+```bash
+deepline plays run prebuilt/company-domain-to-individual \
+  --input '{"domain":"whatcomcounty.gov","roles":["CFO","Finance Director"],"limit":5}' --watch
+```
+
+**Spectra Holdings county pipeline — primary use case:**
+For each county, run the play with `domain = <county.gov>` and a curated `roles` list:
+- County Manager / Administrator
+- CFO / Finance Director (for MCF capital allocation)
+- Planning Director / Community Development Director
+- Economic Development Director
+- Public Works Director (for CDFI infrastructure alignment)
+
+**Returns:** array of `{first_name, last_name, role, seniority, work_email, phone, linkedin_url, source_provider}` — the same shape you can pipe into LeadSniper's `generate_email` for the personalized outreach step.
+
+**Compared to LeadSniper `search_decision_makers`:**
+- LeadSniper: 1 provider (Gemini + Maps + web search), ~$0.05-0.15/call, lower hit rate on niche domains
+- Deepline: 5-provider waterfall, ~0.6-3.1 credits/call, higher hit rate + verification
+
+**Note:** The `roles` filter is critical — without it the play returns everyone in the company. Always pass at least the role you want.
+
+**Pitfall:** Some county `.gov` domains have very thin LinkedIn presence (no employees listed). In that case the play returns empty even though the people exist. Fallback: switch to `company-to-contact-by-role-waterfall` which has more providers in its cascade.
