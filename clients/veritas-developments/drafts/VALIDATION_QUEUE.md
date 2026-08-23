@@ -17,7 +17,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 
 ---
 
-## Files in drafts/ (5 files, awaiting validation)
+## Files in drafts/ (6 files, awaiting validation)
 
 | # | File | Type | Validation Owner | Status |
 |---|---|---|---|---|
@@ -26,6 +26,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 | 3 | `kc-family-office-law-firm-channel-2026-08-22.md` | Channel research | Dennis + David | ⏳ Awaiting |
 | 4 | `team-profile-daniel-bailey-2026-08-22.md` | Team profile | **Daniel** (relationship truth) | ⏳ Awaiting |
 | 5 | `7-touch-outreach-playbook-2026-08-22.md` | Outreach playbook | **David + Daniel** | ⏳ Awaiting |
+| 6 | `leadsniper-search-alignment-2026-08-23.md` | Search strategy realignment | **Dennis + David** | ⏳ Awaiting |
 
 ---
 
@@ -103,6 +104,27 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 
 ---
 
+### 5. LeadSniper Search-Strategy Alignment (2026-08-23)
+
+**Validation owner:** **Dennis (data accuracy) + David (deal fit)**
+
+**Status:** ICM-required Stage 02 (Market Search). Today's run returned 5 RE operators (Homoly, Tower, Yates, Copaken, Landmark) — wrong ICP for the capital raise. 3 new search-strategy rows inserted to Supabase `workspace_search_strategies` aligned to `co-sponsor-gp-target-list.md` Tiers 1/2/3.
+
+**Assumption validation:**
+- [ ] **Tier 1 — KC family foundations** (Kauffman, Hall, Bloch, Menorah, Health Forward) — is this the right Tier 1 universe, or are there KC foundations missing (Sosland, Crane, Ingram)?
+- [ ] **Tier 2 — KC wealth advisors** (Mariner, Moneta, Country Club Trust, Bessemer KC, Wilmington Trust KC, etc.) — does David or Daniel have an actual relationship with any of them? Without a relationship, the channel is cold outreach (Reg D 506(b) restricted).
+- [ ] **Tier 3 — RE-focused GPs** (Shelterwood, KC Property Partners, Griffin, Avanath, PGIM) — does Veritas want co-GP or only LP capital? If only LP, archive Tier 3.
+- [ ] **Today's 5 lead operators** (Homoly, Tower Properties, Yates, Copaken, Landmark) — keep as deal-flow / JV-partner candidates in a separate draft, or discard?
+- [ ] **Negative signal-gate additions:** add `re_developer`, `property_manager`, `homebuilder`, `land_buyer`, `land_wholesaler` to `signal_gate_veritas.NEGATIVE_CATEGORY_PATTERNS`?
+
+**HITL question for David:**
+> "Today's LeadSniper run returned RE operators — the wrong ICP. I rewrote the search strategies to match Tier 1 (KC family foundations), Tier 2 (KC FFO wealth advisors), and Tier 3 (RE-focused GPs) from the canonical target list. Please confirm: is this the right universe for the capital raise, and where does the existing operator leads list belong?"
+
+**HITL question for Daniel:**
+> "Of the Tier 2 wealth advisors (Mariner, Moneta, Country Club Trust, etc.), which do you actually know? The 506(b) safe harbor depends on a real personal-intro path."
+
+---
+
 ## How promotion works (HITL gate)
 
 **Step 1: Validation conversation** — Dennis (KlickSmartAI) presents the 5 questions above to David + Daniel.
@@ -160,12 +182,14 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 4. **7-touch playbook (T1-T7)** — "Confirm: does the timeline + cadence match your operational capacity? If not, what should change?"
 
 5. **Compliance framework (Reg D 506(b))** — "Should this be validated by Polsinelli before any LP commitment is solicited? (recommended)"
+6. **LeadSniper search-strategy alignment (2026-08-23)** — "Today's run returned RE operators, not co-sponsors. I rewrote the 3 search strategies (Tier 1 family foundations, Tier 2 FFO wealth advisors, Tier 3 RE-focused GPs) from the canonical target list. Confirm: does this match your deal-thesis universe, and where do today's 5 operator leads belong?"
 
 ---
 
 ## Status tracking
 
 - 2026-08-22: Validation queue created. 5 drafts moved from projects/ → drafts/. No commits made. Awaiting David + Daniel feedback.
+- 2026-08-23: Added draft #6 — LeadSniper search-strategy alignment. Inserted 3 ICM-aligned search strategies to Supabase `workspace_search_strategies` (Tier 1 family foundations, Tier 2 FFO wealth advisors, Tier 3 RE-focused GPs). Confirmed ICP gap: today's run returned RE operators (wrong ICP for capital-raise thesis). Awaiting David + Daniel feedback on draft #6.
 
 ---
 
