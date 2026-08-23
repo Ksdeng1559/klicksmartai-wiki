@@ -1,7 +1,7 @@
 ---
 title: LeadSniperAI CLI — Signal-Based Cold Email Operating System
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-23
 type: summary
 tags: [how-to, guide, technology, research]
 sources: [notion: LeadSniperAI CLI — Signal-Based Cold Email Operating System]
@@ -1445,4 +1445,186 @@ Track:
 The goal is not maximum automation.
 The goal is:
 > A workspace that is already current when the operator opens it, so human time is spent on judgment, relationships, and high-value decisions rather than copying information between systems.
+
+# 34. Lead Signal Service Refactor (2026-08-23)
+
+## 34.1 Strategic Repositioning
+
+LeadSniperAI is reframed from a vertical-specific cold-email CLI into a **Lead Signal Service**:
+
+> Discovers, enriches, monitors, scores, and routes business opportunities based on signals — regardless of the vertical or lead source.
+
+The strategic chain this enables:
+
+```plain text
+LEADS  →  DATA  →  SIGNALS  →  INTELLIGENCE  →  OPPORTUNITIES  →  AI EMPLOYEES  →  REVENUE
+```
+
+Vertical strategy is now a *parameter* of the system, not a special-case fork. The same engine serves Spectra MCF county pipelines, Kulshan CLT Whatcom pilots, and buyer-acquisition rails without forking the codebase.
+
+## 34.2 Tiered Architecture
+
+The refactor introduces three explicit data tiers, each with distinct responsibilities:
+
+```plain text
+┌──────────────────────────────────────────────────────────────────┐
+│  Tier 1: SOURCE  (15+ providers, source-agnostic intake)          │
+│  CSV / Apollo / Tavily / Apify / Deepline / Waterfall / Manual   │
+└────────────┬─────────────────────────────────────────────────────┘
+             ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  Tier 2: LOCAL  (DuckDB + adapter layer, gitignored)              │
+│  .local_tier/db/leadsniper.duckdb                                │
+│  .local_tier/adapter/ — canonical.py, connection.py, entity.py,  │
+│  scoring.py, signals.py, cli.py, providers/                      │
+│  Fast iteration. No schema migrations. Re-built per-vertical.    │
+└────────────┬─────────────────────────────────────────────────────┘
+             ▼ PASS-graded entities, deduped signals, scored opps
+┌──────────────────────────────────────────────────────────────────┐
+│  Tier 3: SUPABASE  (clean intelligence, shared with team)         │
+│  https://yolqrstktoqlszybwymw.supabase.co                       │
+│  Schema source-of-truth. Migration-tracked. Multi-tenant.        │
+└────────────┬─────────────────────────────────────────────────────┘
+             ▼
+┌──────────────────────────────────────────────────────────────────┐
+│  Tier 4: FRAPPE CRM  (Customer 360 / action surface, downstream)  │
+│  Battlecard ≡ Customer 360 View                                  │
+│  Used by humans for outreach, sales, account management          │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+**Boundary rules:**
+- Tier 1 (sources) → Tier 2 (local) is one-way ingestion with dedup and idempotent re-ingest keys.
+- Tier 2 (local) → Tier 3 (Supabase) is PASS-graded sync only. Failed entities stay local for analysis.
+- Tier 3 (Supabase) is **read-only** for downstream consumers; Tier 4 (Frappe) mirrors Tier 3 but never writes back.
+- Mermaid diagrams are **guidance**, not gospel — adapt current code to the target outcome.
+
+## 34.3 Local Tier (`.local_tier/`)
+
+Local-only, gitignored. Re-built per machine. The local tier is where fast iteration lives — schema changes don't require migrations, and tests run against an isolated DuckDB file.
+
+```
+.local_tier/
+├── db/leadsniper.duckdb       # single-file DuckDB
+├── schema.sql                  # v0.1, includes contact columns
+├── bootstrap.py                # create schema + seed canonical fixtures
+├── apply_migration.py          # apply Supabase migrations via psycopg2
+├── supabase_sync.py            # PASS entities → Supabase ETL
+├── adapter/                    # canonical adapter layer
+│   ├── canonical.py            # entity/profile/opportunity shapes
+│   ├── connection.py           # connect(read_only: bool = False)
+│   ├── entity.py               # upsert + promoted_to_supabase flip
+│   ├── scoring.py              # fit / intent / signal / timing / reachability / momentum
+│   ├── signals.py              # signal detection + dedup
+│   ├── cli.py                  # leadsniper <command> entry points
+│   ├── providers/__init__.py   # 15+ provider adapters (apollo/tavily/apify/deepline/waterfall)
+│   ├── tests/test_end_to_end.py # green: 3 entities, 9 signals, 5 opps, 9 evidence
+│   └── fixtures/               # leads.csv, apollo.json, tavily.json, waterfall.json, etc.
+```
+
+**End-to-end test (green, 2026-08-23):**
+
+| Table | Rows | Notes |
+|---|---|---|
+| `entities` | 3 | acme-mfg.com PASS, nw-logistics FAIL, cascadia-build FAIL |
+| `signals` | 9 | 8 distinct + 1 deduped `new_executive` |
+| `opportunities` | 5 | pre_mna, capital_need, growth, ai_modernization, risk_review |
+| `evidence` | 9 | unique content hashes |
+| `raw_archive` | 18 | 9 per ingest × 2 passes |
+| `signal_evidence` | 9 | m-to-m links |
+
+Re-ingest idempotent: `entities 3→3, signals 9→9, opps 5→5`. Test pins clock via `FIXED_TS = "2026-08-23T10:00:00"` monkey-patched onto `providers_module._iso_now`.
+
+**Gitignore rules:**
+```
+.local_tier/
+*.duckdb
+*.duckdb.wal
+data/parquet/
+data/raw/
+.env.supabase
+```
+
+## 34.4 Supabase Schema Layer
+
+Supabase is the **clean intelligence layer**. It is source-of-truth for cross-team data and is migration-tracked.
+
+### Existing tables (from migrations 001-005)
+`leads`, `lead_emails`, `lead_socials`, `lead_reviews`, `lead_enrichments`, `lead_locations`, `lead_contacts`, `lead_icp_results`, `lead_results`, `lead_activities`, `tavily_intelligence`, `tavily_key_people`, `tavily_news_items`, `seo_audits`, `seo_keywords`, `seo_competitors`, `campaigns`, `campaign_leads`, `generated_content`, `saved_templates`, `enrichment_queue_v2`.
+
+### Added by migration 007b (20260823_007b_signal_opportunity_layer.sql)
+
+| Table | Purpose |
+|---|---|
+| `lead_signals` | Atomic growth/risk/need/trigger/engagement signals. **1 lead → N signals**. Replaces `tavily_intelligence.growth_signals[]` (deprecated). Has `dedup_key` unique index for idempotent re-ingest. |
+| `lead_opportunities` | Qualified opportunities derived from signals. **1 lead → N opportunities**. Includes `stage`/`status`/`score`/`confidence`/`estimated_value`/`next_action_at`. |
+| `lead_evidence` | Raw evidence pieces (search results, transcripts, filings). **Content-hash unique** for dedup. |
+| `lead_signal_evidence` | Many-to-many: signal ↔ evidence. |
+| `lead_opportunity_scores` | Score breakdown audit trail — every component that contributed to an opportunity's final score. |
+| `lead_feedback_events` | HITL feedback on signals/opportunities/leads. Required for trust-score loop and approval audit. |
+
+### Migration 007b additions to views
+
+- `v_opportunity_queue` — operator queue, all open opportunities sorted by score then next_action_at. Primary surface for outreach workflow.
+- `v_entity_health` — per-lead health snapshot (signal/opportunity/evidence counts + top score). Used by Hermes to detect stale vs hot leads.
+
+### Migration 007b additions to triggers
+
+- `tg_set_updated_at()` — auto-updates `updated_at` on row change for `lead_signals` and `lead_opportunities`.
+
+## 34.5 DuckDB → Supabase Mapping
+
+| DuckDB (`.local_tier/`) | Supabase (Tier 3) | Status |
+|---|---|---|
+| `entities` | `leads` | ✅ exists |
+| `signals` | `lead_signals` | ❌ → migration 007b |
+| `opportunities` | `lead_opportunities` | ❌ → migration 007b |
+| `evidence` + `signal_evidence` | `lead_evidence` + `lead_signal_evidence` | ❌ → migration 007b |
+| Contact columns on `entities` | `lead_contacts` | ✅ exists |
+| `raw_archive` | `lead_enrichments.raw_data` | ✅ exists |
+| (geography) | `lead_locations` | ✅ exists |
+| Scoring breakdown | `lead_opportunity_scores` | ❌ → migration 007b |
+| `feedback_events` | `lead_feedback_events` | ❌ → migration 007b |
+
+**Sync pipeline (`supabase_sync.py`):**
+1. `fetch_pass_entities(con, domain=None, limit=None)` — DuckDB query for `quality_gate = PASS`
+2. For each entity: `entity_to_lead_row` → upsert into `leads` (via `external_id = entity_id` cross-tier key)
+3. `entity_to_contact_rows` → upsert into `lead_contacts` (placeholder `{{ENTITY_LEAD_ID}}` resolved post-upsert)
+4. `entity_to_location_rows` → upsert into `lead_locations`
+5. `fetch_signals_for_entity` → upsert into `lead_signals` (dedup_key = sha256(lead_id|signal_type|signal_subtype|source_url))
+6. `fetch_opportunities_for_entity` → upsert into `lead_opportunities`
+7. `fetch_evidence_for_signals` → upsert into `lead_evidence` (content_hash unique)
+8. `lead_signal_evidence` links signals ↔ evidence rows
+9. `entity.promoted_to_supabase = TRUE` flipped in DuckDB to prevent re-sync
+
+## 34.6 Hermes Governance Notes
+
+Hermes is the operational CoS layer for KlickSmartAI. Per the system prompt:
+
+**Always:**
+- ✅ Hermes reads/writes internal state (DuckDB, task sheet, briefing docs, lead_feedback_events)
+- ✅ Hermes drafts external messages and saves to Gmail Drafts for owner approval
+- ✅ Hermes stages changes in `/tmp/<tool>/` and never auto-pushes upstream
+- ✅ Hermes pauses on human approval gates (HITL before send, before financial commitment, before VIP contact)
+
+**Never:**
+- ❌ Hermes sends external messages autonomously — "looks good" is not approval, wait for explicit "send it"
+- ❌ Hermes commits to client timelines without owner's say
+- ❌ Hermes signs agreements or transfers funds
+- ❌ Hermes invents data — `[REDACTED]` markers on credentials, fabricated testimonials banned
+
+**LeadSniper-specific Hermes rules:**
+1. **Compliance preserved per vertical.** `compliance.yaml` per vertical carries CASL/CCPA lawful basis, evidence expiry, human-review gates. Local tier preserves these as `compliance_state` on each entity.
+2. **HITL approval gate before send.** `outreach approve` + `lead_feedback_events` record the human decision.
+3. **No credentials in evidence.** `[REDACTED]` markers; service role JWT lives in `~/.hermes/.env.supabase` only (chmod 600, gitignored).
+4. **Adapter layer local-only.** Under `.local_tier/adapter/`. Never symlinked into upstream LeadSniper until validated.
+5. **Migration discipline.** All schema changes go through numbered migrations in `supabase/migrations/`. Re-runnable (`IF NOT EXISTS`). Synced via the wiki `wiki-graphify-sync` skill.
+
+## 34.7 Open Questions (2026-08-23)
+
+- How to resolve the Supabase pooler `FATAL: Tenant or user not found` error affecting this project (known Supabase community bug). Workaround: dashboard SQL editor or PAT-based Management API.
+- Whether `lead_signals` schema in the live project matches migration 007b's definition (the table already exists from a prior partial migration — may need a reconcile migration to ALTER).
+- Deepline retained in any Enrichment Factory waterfall (HITL constraint).
+- Which Frappe CRM adapter to use for Tier 4 (Customer 360). Battlecard ≡ Customer 360 View in Frappe.
+
 <page url="https://app.notion.com/p/3aa9e94cf0a481cfa59ac2b6dec86f44">SOP — Signal-Based Cold Email System Using LeadSniperAI</page>
