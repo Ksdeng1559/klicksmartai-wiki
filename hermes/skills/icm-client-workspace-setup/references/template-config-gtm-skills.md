@@ -74,6 +74,34 @@ This file is the **canonical GTM skills binding** for <client_name>. It lists ev
 
 ---
 
+## How runtime agents consume this file
+
+This file is the **per-client binding**. The runtime rule is:
+
+1. **Read `gtm-enrichment-planner` SKILL.md** for the universal orchestration: which stack layer we're in (Plan → Discover → Enrich → Score → Outreach), the HITL gate format, the credit-cost estimation model, the Deepline CLI rule (`plays` only, NEVER `tools execute`), and the geographic provider rules (`Limadata`=CA, `Enformion`/`OpenSOSData`=US, waterfall otherwise).
+2. **Read this file (`_config/gtm-skills.md`)** for the **client-specific bindings**: which skills are bound for each use-case, which are blocked (e.g. Demand Gen paid ads may be ⛔ for compliance-heavy clients), which compliance overlay applies, which client reviewers must approve relationship-touching drafts.
+3. **Compose the runtime plan** by intersecting the two: the layer ordering comes from `gtm-enrichment-planner`'s Skill stack recommendations; the actual skill *names* come from this file's Use-case / Role bindings.
+
+**In practice**, when an agent says "<verbed task, e.g. build a TAM list / run signal-based outbound / qualify this lead>":
+
+- `gtm-enrichment-planner` says: walk Plan → Discover → Enrich → Score → Outreach, with HITL gates between layers, $0 Phase 0 build before any spend.
+- This file says: for <client_slug>, **<primary use-case>** binds `<skill-name>` + `<skill-name>` (primary); <blocked or constrained use-case> is **⛔ blocked**; <compliance overlay> required.
+- The runtime resolves to: `<skill-1> → <skill-2> → <skill-3>` (with preflight before any send).
+
+**Client-specific overrides** (below) ALWAYS win over the `gtm-enrichment-planner` defaults. If this file says a use-case is ⛔ blocked, the agent does not propose it — even if `gtm-enrichment-planner`'s default stack would include it.
+
+## Routing — Deepline CLI
+
+All enrichment actions for <client_slug> route through **Deepline CLI** (`deepline plays` against prebuilt workflows). Never invoke `deepline tools execute` directly. Provider selection is automatic per play's waterfall (Limadata for Canada, Enformion / OpenSOSData for US, others per play's recipe).
+
+- **Binary:** `deepline` (PATH lookup — see `~/.hermes/.env` for `DEEPLINE_*` tokens)
+- **Pattern:** `deepline plays run prebuilt/<play-name> --input '<json>' --watch`
+- **HITL gate:** Phase 3 approval format from `gtm-enrichment-planner` (assumptions, CSV preview, credits + scope + cap, approval question)
+- **Output location:** `~/wiki/clients/<client_slug>/intelligence/<task-slug>/` (canonical per-client pattern)
+- **Audit:** keep `_metadata` lineage columns — `email_source`, `validation_status`, `_metadata.provider` — the trail proves which provider won each lookup.
+
+For non-Deepline enrichment (LeadSniper, Clay), the same HITL gate applies — different tool, same rule.
+
 ## Client-specific overrides
 
 <Add the client's GTM profile here. Example for a real-estate developer raising capital:>
