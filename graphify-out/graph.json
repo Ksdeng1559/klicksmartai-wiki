@@ -640,78 +640,6 @@
       "norm_label": "regenerate"
     },
     {
-      "label": "gemini-cli/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "gemini-cli/readme.md"
-    },
-    {
-      "label": "Activate a Skill",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_activate_a_skill",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "activate a skill"
-    },
-    {
-      "label": "Extension Structure",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_extension_structure",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "extension structure"
-    },
-    {
-      "label": "Gemini CLI Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_gemini_cli_integration",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "gemini cli integration"
-    },
-    {
-      "label": "Install",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_install",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "install"
-    },
-    {
-      "label": "Regenerate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
-      "source_location": "L36",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_regenerate",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "regenerate"
-    },
-    {
       "label": "github-copilot/README.md",
       "file_type": "document",
       "node_kind": "page",
@@ -827,6 +755,90 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme_regenerate",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "regenerate"
+    },
+    {
+      "label": "opencode/README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "opencode/readme.md"
+    },
+    {
+      "label": "Activate an Agent",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_activate_an_agent",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "activate an agent"
+    },
+    {
+      "label": "Agent Format",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_agent_format",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "agent format"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_install",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "install"
+    },
+    {
+      "label": "OpenCode Integration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_opencode_integration",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "opencode integration"
+    },
+    {
+      "label": "Project vs Global",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_project_vs_global",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "project vs global"
+    },
+    {
+      "label": "Regenerate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_regenerate",
       "community": 0,
       "community_name": "integrations/README.md",
       "norm_label": "regenerate"
@@ -1703,109 +1715,25 @@
       "norm_label": "tooling & automation"
     },
     {
-      "label": "paid-media-programmatic-buyer.md",
+      "label": "paid-media-creative-strategist.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "Programmatic &amp; Display Buyer",
-        "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+        "name": "Ad Creative Strategist",
+        "description": "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
         "color": "orange",
         "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
         "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\ud83d\udcfa",
-        "vibe": "Buys display and video inventory at scale with surgical precision."
+        "emoji": "\u270d\ufe0f",
+        "vibe": "Turns ad creative from guesswork into a repeatable science."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "paid-media-programmatic-buyer.md"
-    },
-    {
-      "label": "Core Capabilities",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_core_capabilities",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "core capabilities"
-    },
-    {
-      "label": "Decision Framework",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_decision_framework",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "decision framework"
-    },
-    {
-      "label": "Paid Media Programmatic & Display Buyer Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_paid_media_programmatic_display_buyer_agent",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "paid media programmatic & display buyer agent"
-    },
-    {
-      "label": "Role Definition",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_role_definition",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "role definition"
-    },
-    {
-      "label": "Specialized Skills",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_specialized_skills",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "specialized skills"
-    },
-    {
-      "label": "Success Metrics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_success_metrics",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "success metrics"
-    },
-    {
-      "label": "Tooling & Automation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_tooling_automation",
-      "community": 1006,
-      "community_name": "Paid Media Programmatic & Display Buyer Agent",
-      "norm_label": "tooling & automation"
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "paid-media-creative-strategist.md"
     },
     {
       "label": "paid-media-search-query-analyst.md",
@@ -1825,8 +1753,92 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "paid-media-search-query-analyst.md"
+    },
+    {
+      "label": "Core Capabilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_core_capabilities",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "core capabilities"
+    },
+    {
+      "label": "Decision Framework",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_decision_framework",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "decision framework"
+    },
+    {
+      "label": "Paid Media Ad Creative Strategist Agent",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_paid_media_ad_creative_strategist_agent",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "paid media ad creative strategist agent"
+    },
+    {
+      "label": "Role Definition",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_role_definition",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "role definition"
+    },
+    {
+      "label": "Specialized Skills",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_specialized_skills",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "specialized skills"
+    },
+    {
+      "label": "Success Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_success_metrics",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "success metrics"
+    },
+    {
+      "label": "Tooling & Automation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_tooling_automation",
+      "community": 1007,
+      "community_name": "Paid Media Ad Creative Strategist Agent",
+      "norm_label": "tooling & automation"
     },
     {
       "label": "Core Capabilities",
@@ -1837,7 +1849,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_core_capabilities",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "core capabilities"
     },
     {
@@ -1849,7 +1861,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_decision_framework",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "decision framework"
     },
     {
@@ -1861,7 +1873,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_paid_media_search_query_analyst_agent",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "paid media search query analyst agent"
     },
     {
@@ -1873,7 +1885,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_role_definition",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "role definition"
     },
     {
@@ -1885,7 +1897,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_specialized_skills",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "specialized skills"
     },
     {
@@ -1897,7 +1909,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_success_metrics",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "success metrics"
     },
     {
@@ -1909,7 +1921,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_tooling_automation",
       "community": 1007,
-      "community_name": "Paid Media Search Query Analyst Agent",
+      "community_name": "Paid Media Ad Creative Strategist Agent",
       "norm_label": "tooling & automation"
     },
     {
@@ -4348,6 +4360,90 @@
       "community": 1039,
       "community_name": "Architectural Roles",
       "norm_label": "leadsniperai"
+    },
+    {
+      "label": "1.1 Royal Columbian Hospital (RCH)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_1_1_royal_columbian_hospital_rch",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "1.1 royal columbian hospital (rch)"
+    },
+    {
+      "label": "Active Recruitment (Open Positions)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_active_recruitment_open_positions",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "active recruitment (open positions)"
+    },
+    {
+      "label": "Allied Health Recruitment",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_allied_health_recruitment",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "allied health recruitment"
+    },
+    {
+      "label": "Current Employee Count",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_current_employee_count",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "current employee count"
+    },
+    {
+      "label": "Nursing Shortages",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_nursing_shortages",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "nursing shortages"
+    },
+    {
+      "label": "Physician Recruitment Challenges",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_physician_recruitment_challenges",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "physician recruitment challenges"
+    },
+    {
+      "label": "Projected Employee Count After Expansion",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_projected_employee_count_after_expansion",
+      "community": 104,
+      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "norm_label": "projected employee count after expansion"
     },
     {
       "label": "5.1 Local Marketing and Reputation Agent",
@@ -13435,78 +13531,6 @@
       "norm_label": "recommended development strategy"
     },
     {
-      "label": "14. Implementation Phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2486",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_14_implementation_phases_2486",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "14. implementation phases"
-    },
-    {
-      "label": "Phase 1 \u2014 Foundation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2487",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_1_foundation",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "phase 1 \u2014 foundation"
-    },
-    {
-      "label": "Phase 2 \u2014 Deepline Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2493",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_2_deepline_integration",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "phase 2 \u2014 deepline integration"
-    },
-    {
-      "label": "Phase 3 \u2014 Qualification and Routing",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2499",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_3_qualification_and_routing",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "phase 3 \u2014 qualification and routing"
-    },
-    {
-      "label": "Phase 4 \u2014 Outbound and Replies",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2505",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_4_outbound_and_replies",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "phase 4 \u2014 outbound and replies"
-    },
-    {
-      "label": "Phase 5 \u2014 Learning Loop",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2510",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_5_learning_loop",
-      "community": 1127,
-      "community_name": "14. Implementation Phases",
-      "norm_label": "phase 5 \u2014 learning loop"
-    },
-    {
       "label": "15. Implementation Phases",
       "file_type": "document",
       "node_kind": "heading",
@@ -17867,85 +17891,6 @@
       "norm_label": "scenario 5: full agency product discovery"
     },
     {
-      "label": "xr-cockpit-interaction-specialist.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "XR Cockpit Interaction Specialist",
-        "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
-        "color": "orange",
-        "emoji": "\ud83d\udd79\ufe0f",
-        "vibe": "Designs immersive cockpit control systems that feel natural in XR."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "xr-cockpit-interaction-specialist.md"
-    },
-    {
-      "label": "Build cockpit-based immersive interfaces for XR users",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_build_cockpit_based_immersive_interfaces_for_xr_users",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "build cockpit-based immersive interfaces for xr users"
-    },
-    {
-      "label": "\ud83d\udee0\ufe0f What You Can Do",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_what_you_can_do",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83d\udee0\ufe0f what you can do"
-    },
-    {
-      "label": "XR Cockpit Interaction Specialist Agent Personality",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_xr_cockpit_interaction_specialist_agent_personality",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "xr cockpit interaction specialist agent personality"
-    },
-    {
-      "label": "\ud83c\udfaf Your Core Mission",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_core_mission",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83c\udfaf your core mission"
-    },
-    {
-      "label": "\ud83e\udde0 Your Identity & Memory",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_identity_memory",
-      "community": 1169,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83e\udde0 your identity & memory"
-    },
-    {
       "label": "testing-accessibility-auditor.md",
       "file_type": "document",
       "node_kind": "page",
@@ -21491,6 +21436,98 @@
       "norm_label": "strategic interpretation"
     },
     {
+      "label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Growth Hacker",
+        "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
+        "tools": "WebFetch, WebSearch, Read, Write, Edit",
+        "color": "green",
+        "emoji": "\ud83d\ude80",
+        "vibe": "Finds the growth channel nobody&#x27;s exploited yet \u2014 then scales it."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md"
+    },
+    {
+      "label": "Core Capabilities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_core_capabilities",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "core capabilities"
+    },
+    {
+      "label": "Decision Framework",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_decision_framework",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "decision framework"
+    },
+    {
+      "label": "Marketing Growth Hacker Agent",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_marketing_growth_hacker_agent",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "marketing growth hacker agent"
+    },
+    {
+      "label": "Role Definition",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_role_definition",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "role definition"
+    },
+    {
+      "label": "Specialized Skills",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_specialized_skills",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "specialized skills"
+    },
+    {
+      "label": "Success Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_success_metrics",
+      "community": 121,
+      "community_name": "Marketing Growth Hacker Agent",
+      "norm_label": "success metrics"
+    },
+    {
       "label": "16.1 Placement Strategy \u2014 Vacant Land",
       "file_type": "document",
       "node_kind": "heading",
@@ -22109,6 +22146,78 @@
       "norm_label": "sentiment level"
     },
     {
+      "label": "Healthcare Worker Housing Demand",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_healthcare_worker_housing_demand",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "healthcare worker housing demand"
+    },
+    {
+      "label": "Market Demand Assessment: **HIGH**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_market_demand_assessment_high",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "market demand assessment: **high**"
+    },
+    {
+      "label": "Nearby Developments",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L149",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_nearby_developments",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "nearby developments"
+    },
+    {
+      "label": "Rental Demand",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L116",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_rental_demand",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "rental demand"
+    },
+    {
+      "label": "Section 3 \u2014 Market Feasibility",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L114",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_section_3_market_feasibility",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "section 3 \u2014 market feasibility"
+    },
+    {
+      "label": "Vacancy Rate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_vacancy_rate",
+      "community": 122,
+      "community_name": "Section 3 \u2014 Market Feasibility",
+      "norm_label": "vacancy rate"
+    },
+    {
       "label": "Current Housing Sentiment Rating",
       "file_type": "document",
       "node_kind": "heading",
@@ -22647,6 +22756,78 @@
       "community": 1229,
       "community_name": "4. Interaction Modes",
       "norm_label": "mode comparison"
+    },
+    {
+      "label": "21.18 Implementation Phases",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1961",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_21_18_implementation_phases",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "21.18 implementation phases"
+    },
+    {
+      "label": "Phase A \u2014 Playbook Registry",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1962",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_a_playbook_registry",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "phase a \u2014 playbook registry"
+    },
+    {
+      "label": "Phase B \u2014 Strategy Recommendation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1967",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_b_strategy_recommendation",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "phase b \u2014 strategy recommendation"
+    },
+    {
+      "label": "Phase C \u2014 Plan and Asset Generation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1971",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_c_plan_and_asset_generation",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "phase c \u2014 plan and asset generation"
+    },
+    {
+      "label": "Phase D \u2014 Attribution and Measurement",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1975",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_d_attribution_and_measurement",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "phase d \u2014 attribution and measurement"
+    },
+    {
+      "label": "Phase E \u2014 Closed-Loop Learning",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1979",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_e_closed_loop_learning",
+      "community": 123,
+      "community_name": "21.18 Implementation Phases",
+      "norm_label": "phase e \u2014 closed-loop learning"
     },
     {
       "label": "Q2 Conclusion: Transferable Models for Sapperton",
@@ -23959,6 +24140,78 @@
       "norm_label": "unipile"
     },
     {
+      "label": "6.3 Municipal Policy (New Westminster)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1190",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_6_3_municipal_policy_new_westminster",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "6.3 municipal policy (new westminster)"
+    },
+    {
+      "label": "DCC/DCL Schedule",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1220",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_dcc_dcl_schedule",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "dcc/dcl schedule"
+    },
+    {
+      "label": "Family Friendly Housing Policy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1206",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_family_friendly_housing_policy",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "family friendly housing policy"
+    },
+    {
+      "label": "Official Community Plan (OCP)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1200",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_official_community_plan_ocp",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "official community plan (ocp)"
+    },
+    {
+      "label": "Townhouse Accelerator Program",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1214",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_townhouse_accelerator_program",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "townhouse accelerator program"
+    },
+    {
+      "label": "Zoning Bylaw 6680",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1192",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_zoning_bylaw_6680",
+      "community": 125,
+      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "norm_label": "zoning bylaw 6680"
+    },
+    {
       "label": "1. Product Vision",
       "file_type": "document",
       "node_kind": "heading",
@@ -24497,6 +24750,78 @@
       "community": 1258,
       "community_name": "Installation",
       "norm_label": "step 4: reload shell"
+    },
+    {
+      "label": "gemini-cli/README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "gemini-cli/readme.md"
+    },
+    {
+      "label": "Activate a Skill",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_activate_a_skill",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "activate a skill"
+    },
+    {
+      "label": "Extension Structure",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_extension_structure",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "extension structure"
+    },
+    {
+      "label": "Gemini CLI Integration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_gemini_cli_integration",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "gemini cli integration"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_install",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "install"
+    },
+    {
+      "label": "Regenerate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/gemini-cli/README.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_regenerate",
+      "community": 126,
+      "community_name": "Gemini CLI Integration",
+      "norm_label": "regenerate"
     },
     {
       "label": "Data/Schema Engineering Excellence",
@@ -25832,7 +26157,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L34",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_1_tam_csv_report_54_orgs_0_cost",
       "community": 129,
@@ -25844,7 +26169,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L52",
+      "source_location": "L53",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_2_kc_family_office_law_firm_channel",
       "community": 129,
@@ -25856,7 +26181,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L68",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_3_daniel_bailey_team_profile",
       "community": 129,
@@ -25868,7 +26193,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L85",
+      "source_location": "L86",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_4_7_touch_outreach_playbook",
       "community": 129,
@@ -25876,11 +26201,23 @@
       "norm_label": "4. 7-touch outreach playbook"
     },
     {
+      "label": "5. LeadSniper Search-Strategy Alignment (2026-08-23)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_drafts_validation_queue_5_leadsniper_search_strategy_alignment_2026_08_23",
+      "community": 129,
+      "community_name": "Veritas Drafts Validation Queue",
+      "norm_label": "5. leadsniper search-strategy alignment (2026-08-23)"
+    },
+    {
       "label": "Files already incorrectly committed to veritasdevelopment-wiki (pre-validation)",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L125",
+      "source_location": "L147",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_files_already_incorrectly_committed_to_veritasdevelopment_wiki_pre_validation",
       "community": 129,
@@ -25888,23 +26225,23 @@
       "norm_label": "files already incorrectly committed to veritasdevelopment-wiki (pre-validation)"
     },
     {
-      "label": "Files in drafts/ (5 files, awaiting validation)",
+      "label": "Files in drafts/ (6 files, awaiting validation)",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "clients_veritas_developments_drafts_validation_queue_files_in_drafts_5_files_awaiting_validation",
+      "id": "clients_veritas_developments_drafts_validation_queue_files_in_drafts_6_files_awaiting_validation",
       "community": 129,
       "community_name": "Veritas Drafts Validation Queue",
-      "norm_label": "files in drafts/ (5 files, awaiting validation)"
+      "norm_label": "files in drafts/ (6 files, awaiting validation)"
     },
     {
       "label": "HITL Summary \u2014 Questions to Send to David + Daniel",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L150",
+      "source_location": "L172",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_hitl_summary_questions_to_send_to_david_daniel",
       "community": 129,
@@ -25916,7 +26253,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L106",
+      "source_location": "L128",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_how_promotion_works_hitl_gate",
       "community": 129,
@@ -25928,7 +26265,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L32",
+      "source_location": "L33",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
       "community": 129,
@@ -25940,7 +26277,7 @@
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L166",
+      "source_location": "L189",
       "_origin": "ast",
       "id": "clients_veritas_developments_drafts_validation_queue_status_tracking",
       "community": 129,
@@ -27404,54 +27741,6 @@
       "norm_label": "web search (requires api key)"
     },
     {
-      "label": "18. Dependencies and Risks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L731",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_18_dependencies_and_risks",
-      "community": 1312,
-      "community_name": "18. Dependencies and Risks",
-      "norm_label": "18. dependencies and risks"
-    },
-    {
-      "label": "Dependencies",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L732",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_dependencies",
-      "community": 1312,
-      "community_name": "18. Dependencies and Risks",
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "Mitigations",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L749",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_mitigations",
-      "community": 1312,
-      "community_name": "18. Dependencies and Risks",
-      "norm_label": "mitigations"
-    },
-    {
-      "label": "Principal Risks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L739",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_principal_risks",
-      "community": 1312,
-      "community_name": "18. Dependencies and Risks",
-      "norm_label": "principal risks"
-    },
-    {
       "label": "1. Product Vision",
       "file_type": "document",
       "node_kind": "heading",
@@ -27839,125 +28128,64 @@
       "norm_label": "priority order"
     },
     {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L8",
+      "label": "Assembled Land Value (with assembly premium)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L306",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_audit_date_type",
+      "id": "drafts_garrett_street_feasibility_assembled_land_value_with_assembly_premium",
       "community": 132,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "Section 6 \u2014 Financial Feasibility",
+      "norm_label": "assembled land value (with assembly premium)"
     },
     {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L6",
+      "label": "Current Land Value",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L298",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_company_name_type",
+      "id": "drafts_garrett_street_feasibility_current_land_value",
       "community": 132,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "Section 6 \u2014 Financial Feasibility",
+      "norm_label": "current land value"
     },
     {
-      "label": "properties",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L5",
+      "label": "Development Feasibility Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L324",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties",
+      "id": "drafts_garrett_street_feasibility_development_feasibility_notes",
       "community": 132,
-      "community_name": "properties",
-      "norm_label": "properties"
+      "community_name": "Section 6 \u2014 Financial Feasibility",
+      "norm_label": "development feasibility notes"
     },
     {
-      "label": "audit_date",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L8",
+      "label": "Land Value Uplift",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L315",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_audit_date",
+      "id": "drafts_garrett_street_feasibility_land_value_uplift",
       "community": 132,
-      "community_name": "properties",
-      "norm_label": "audit_date"
+      "community_name": "Section 6 \u2014 Financial Feasibility",
+      "norm_label": "land value uplift"
     },
     {
-      "label": "company_name",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L6",
+      "label": "Section 6 \u2014 Financial Feasibility",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L296",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_company_name",
+      "id": "drafts_garrett_street_feasibility_section_6_financial_feasibility",
       "community": 132,
-      "community_name": "properties",
-      "norm_label": "company_name"
-    },
-    {
-      "label": "recommended_next_action",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_recommended_next_action",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "recommended_next_action"
-    },
-    {
-      "label": "scores",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_scores",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "scores"
-    },
-    {
-      "label": "website_url",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_website_url",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "website_url"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_recommended_next_action_type",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "type"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_scores_type",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "type"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_website_url_type",
-      "community": 132,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "Section 6 \u2014 Financial Feasibility",
+      "norm_label": "section 6 \u2014 financial feasibility"
     },
     {
       "label": "19. Economics Model",
@@ -34150,25 +34378,25 @@
       "norm_label": "rios north star architecture"
     },
     {
-      "label": "paid-media-creative-strategist.md",
+      "label": "paid-media-programmatic-buyer.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "Ad Creative Strategist",
-        "description": "Paid media creative specialist focused on ad copywriting, RSA optimization, asset group design, and creative testing frameworks across Google, Meta, Microsoft, and programmatic platforms. Bridges the gap between performance data and persuasive messaging.",
+        "name": "Programmatic &amp; Display Buyer",
+        "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
         "color": "orange",
         "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
         "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\u270d\ufe0f",
-        "vibe": "Turns ad creative from guesswork into a repeatable science."
+        "emoji": "\ud83d\udcfa",
+        "vibe": "Buys display and video inventory at scale with surgical precision."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer",
       "community": 141,
       "community_name": "agency-agents/README.md",
-      "norm_label": "paid-media-creative-strategist.md"
+      "norm_label": "paid-media-programmatic-buyer.md"
     },
     {
       "label": "agentic-identity-trust.md",
@@ -34266,24 +34494,23 @@
       "norm_label": "wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md"
     },
     {
-      "label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "label": "xr-cockpit-interaction-specialist.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "Growth Hacker",
-        "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
-        "tools": "WebFetch, WebSearch, Read, Write, Edit",
-        "color": "green",
-        "emoji": "\ud83d\ude80",
-        "vibe": "Finds the growth channel nobody&#x27;s exploited yet \u2014 then scales it."
+        "name": "XR Cockpit Interaction Specialist",
+        "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+        "color": "orange",
+        "emoji": "\ud83d\udd79\ufe0f",
+        "vibe": "Designs immersive cockpit control systems that feel natural in XR."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist",
       "community": 141,
       "community_name": "agency-agents/README.md",
-      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md"
+      "norm_label": "xr-cockpit-interaction-specialist.md"
     },
     {
       "label": "design-whimsy-injector.md",
@@ -34472,82 +34699,10 @@
       "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_core_capabilities",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "core capabilities"
-    },
-    {
-      "label": "Decision Framework",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L35",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_decision_framework",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "decision framework"
-    },
-    {
-      "label": "Marketing Growth Hacker Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_marketing_growth_hacker_agent",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "marketing growth hacker agent"
-    },
-    {
-      "label": "Role Definition",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_role_definition",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "role definition"
-    },
-    {
-      "label": "Specialized Skills",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_specialized_skills",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "specialized skills"
-    },
-    {
-      "label": "Success Metrics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L46",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_success_metrics",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "success metrics"
-    },
-    {
-      "label": "Core Capabilities",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_core_capabilities",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_core_capabilities",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "core capabilities"
@@ -34556,34 +34711,34 @@
       "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_decision_framework",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_decision_framework",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "decision framework"
     },
     {
-      "label": "Paid Media Ad Creative Strategist Agent",
+      "label": "Paid Media Programmatic & Display Buyer Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_paid_media_ad_creative_strategist_agent",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_paid_media_programmatic_display_buyer_agent",
       "community": 141,
       "community_name": "agency-agents/README.md",
-      "norm_label": "paid media ad creative strategist agent"
+      "norm_label": "paid media programmatic & display buyer agent"
     },
     {
       "label": "Role Definition",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_role_definition",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_role_definition",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "role definition"
@@ -34592,10 +34747,10 @@
       "label": "Specialized Skills",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_specialized_skills",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_specialized_skills",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "specialized skills"
@@ -34604,10 +34759,10 @@
       "label": "Success Metrics",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_success_metrics",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_success_metrics",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "success metrics"
@@ -34616,10 +34771,10 @@
       "label": "Tooling & Automation",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-creative-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_creative_strategist_tooling_automation",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_tooling_automation",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "tooling & automation"
@@ -34635,6 +34790,66 @@
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "agency-agents/readme.md"
+    },
+    {
+      "label": "Build cockpit-based immersive interfaces for XR users",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_build_cockpit_based_immersive_interfaces_for_xr_users",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "build cockpit-based immersive interfaces for xr users"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f What You Can Do",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_what_you_can_do",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83d\udee0\ufe0f what you can do"
+    },
+    {
+      "label": "XR Cockpit Interaction Specialist Agent Personality",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_xr_cockpit_interaction_specialist_agent_personality",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "xr cockpit interaction specialist agent personality"
+    },
+    {
+      "label": "\ud83c\udfaf Your Core Mission",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_core_mission",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83c\udfaf your core mission"
+    },
+    {
+      "label": "\ud83e\udde0 Your Identity & Memory",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_identity_memory",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83e\udde0 your identity & memory"
     },
     {
       "label": "concepts/user-acquisition-roadmap.md",
@@ -41421,88 +41636,64 @@
       "norm_label": "voice \u2014 <client_name>"
     },
     {
-      "label": "opencode/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme",
-      "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "opencode/readme.md"
-    },
-    {
-      "label": "Activate an Agent",
+      "label": "4.1.1 MLI Select [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L18",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1529",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_activate_an_agent",
+      "id": "drafts_sapperton_district_feasibility_4_1_1_mli_select_verified",
       "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "activate an agent"
+      "community_name": "4.1 CMHC Programs (Mortgage Loan Insurance)",
+      "norm_label": "4.1.1 mli select [verified]"
     },
     {
-      "label": "Agent Format",
+      "label": "4.1.2 Affordable Housing Fund (AHF) [PARTIAL \u2014 Portal Closed]",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L32",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1550",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_agent_format",
+      "id": "drafts_sapperton_district_feasibility_4_1_2_affordable_housing_fund_ahf_partial_portal_closed",
       "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "agent format"
+      "community_name": "4.1 CMHC Programs (Mortgage Loan Insurance)",
+      "norm_label": "4.1.2 affordable housing fund (ahf) [partial \u2014 portal closed]"
     },
     {
-      "label": "Install",
+      "label": "4.1.3 Build Canada Homes (BCH) [VERIFIED \u2014 Replacement for AHF]",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L8",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1565",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_install",
+      "id": "drafts_sapperton_district_feasibility_4_1_3_build_canada_homes_bch_verified_replacement_for_ahf",
       "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "install"
+      "community_name": "4.1 CMHC Programs (Mortgage Loan Insurance)",
+      "norm_label": "4.1.3 build canada homes (bch) [verified \u2014 replacement for ahf]"
     },
     {
-      "label": "OpenCode Integration",
+      "label": "4.1.4 Affordable Land Use Program / ACLP [UNVERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L1",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1576",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_opencode_integration",
+      "id": "drafts_sapperton_district_feasibility_4_1_4_affordable_land_use_program_aclp_unverified",
       "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "opencode integration"
+      "community_name": "4.1 CMHC Programs (Mortgage Loan Insurance)",
+      "norm_label": "4.1.4 affordable land use program / aclp [unverified]"
     },
     {
-      "label": "Project vs Global",
+      "label": "4.1 CMHC Programs (Mortgage Loan Insurance)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L48",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1527",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_project_vs_global",
+      "id": "drafts_sapperton_district_feasibility_4_1_cmhc_programs_mortgage_loan_insurance",
       "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "project vs global"
-    },
-    {
-      "label": "Regenerate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_regenerate",
-      "community": 165,
-      "community_name": "OpenCode Integration",
-      "norm_label": "regenerate"
+      "community_name": "4.1 CMHC Programs (Mortgage Loan Insurance)",
+      "norm_label": "4.1 cmhc programs (mortgage loan insurance)"
     },
     {
       "label": "client-workspace-icm/README.md",
@@ -41587,6 +41778,54 @@
       "community": 166,
       "community_name": "Client Workspace Template (ICM 3-Layer + Source-of-Truth Gate)",
       "norm_label": "when to graduate to full-mode icm"
+    },
+    {
+      "label": "3. DEVELOPMENT OPPORTUNITY",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_3_development_opportunity",
+      "community": 167,
+      "community_name": "3. DEVELOPMENT OPPORTUNITY",
+      "norm_label": "3. development opportunity"
+    },
+    {
+      "label": "Concept",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_concept",
+      "community": 167,
+      "community_name": "3. DEVELOPMENT OPPORTUNITY",
+      "norm_label": "concept"
+    },
+    {
+      "label": "Target Demographics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_target_demographics",
+      "community": 167,
+      "community_name": "3. DEVELOPMENT OPPORTUNITY",
+      "norm_label": "target demographics"
+    },
+    {
+      "label": "Why This Site",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_why_this_site",
+      "community": 167,
+      "community_name": "3. DEVELOPMENT OPPORTUNITY",
+      "norm_label": "why this site"
     },
     {
       "label": "_archive_README_v1.md",
@@ -42343,6 +42582,54 @@
       "community": 170,
       "community_name": "Conventions \u2014 <client_name>",
       "norm_label": "version convention"
+    },
+    {
+      "label": "6. MARKET CONDITIONS",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L211",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_6_market_conditions",
+      "community": 171,
+      "community_name": "6. MARKET CONDITIONS",
+      "norm_label": "6. market conditions"
+    },
+    {
+      "label": "Comparable Developments",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_comparable_developments",
+      "community": 171,
+      "community_name": "6. MARKET CONDITIONS",
+      "norm_label": "comparable developments"
+    },
+    {
+      "label": "Healthcare Worker Housing Demand",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L225",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_healthcare_worker_housing_demand",
+      "community": 171,
+      "community_name": "6. MARKET CONDITIONS",
+      "norm_label": "healthcare worker housing demand"
+    },
+    {
+      "label": "New Westminster Rental Market (Q1 2026)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-health-district-dom.md",
+      "source_location": "L213",
+      "_origin": "ast",
+      "id": "drafts_garrett_health_district_dom_new_westminster_rental_market_q1_2026",
+      "community": 171,
+      "community_name": "6. MARKET CONDITIONS",
+      "norm_label": "new westminster rental market (q1 2026)"
     },
     {
       "label": "compliance.md",
@@ -44052,18 +44339,6 @@
       "norm_label": "21.17 proposed repository additions"
     },
     {
-      "label": "21.18 Implementation Phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1961",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_21_18_implementation_phases",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "21.18 implementation phases"
-    },
-    {
       "label": "21.19 Acceptance Criteria",
       "file_type": "document",
       "node_kind": "heading",
@@ -44206,66 +44481,6 @@
       "community": 188,
       "community_name": "21. Printing Press GTM Strategy Engine Addendum",
       "norm_label": "21. printing press gtm strategy engine addendum"
-    },
-    {
-      "label": "Phase A \u2014 Playbook Registry",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1962",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_a_playbook_registry",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "phase a \u2014 playbook registry"
-    },
-    {
-      "label": "Phase B \u2014 Strategy Recommendation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1967",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_b_strategy_recommendation",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "phase b \u2014 strategy recommendation"
-    },
-    {
-      "label": "Phase C \u2014 Plan and Asset Generation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1971",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_c_plan_and_asset_generation",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "phase c \u2014 plan and asset generation"
-    },
-    {
-      "label": "Phase D \u2014 Attribution and Measurement",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1975",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_d_attribution_and_measurement",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "phase d \u2014 attribution and measurement"
-    },
-    {
-      "label": "Phase E \u2014 Closed-Loop Learning",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1979",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_e_closed_loop_learning",
-      "community": 188,
-      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
-      "norm_label": "phase e \u2014 closed-loop learning"
     },
     {
       "label": "Purpose",
@@ -66939,6 +67154,54 @@
       "community": 253,
       "community_name": "drafts/website/ \u2014 Veritas AI Work in Progress for website",
       "norm_label": "vertical config"
+    },
+    {
+      "label": "Assembly Recommendation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L285",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_assembly_recommendation",
+      "community": 254,
+      "community_name": "Section 5 \u2014 Land Assembly Potential",
+      "norm_label": "assembly recommendation"
+    },
+    {
+      "label": "Assessment",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L279",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_assessment",
+      "community": 254,
+      "community_name": "Section 5 \u2014 Land Assembly Potential",
+      "norm_label": "assessment"
+    },
+    {
+      "label": "Minimum Viable Assembly",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L271",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_minimum_viable_assembly",
+      "community": 254,
+      "community_name": "Section 5 \u2014 Land Assembly Potential",
+      "norm_label": "minimum viable assembly"
+    },
+    {
+      "label": "Section 5 \u2014 Land Assembly Potential",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L269",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_section_5_land_assembly_potential",
+      "community": 254,
+      "community_name": "Section 5 \u2014 Land Assembly Potential",
+      "norm_label": "section 5 \u2014 land assembly potential"
     },
     {
       "label": "template-readme-drafts.md",
@@ -97634,6 +97897,174 @@
       "norm_label": "skills/ \u2014 client-specific skills (optional)"
     },
     {
+      "label": "17. Suggested Agent Workflows",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L701",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_17_suggested_agent_workflows",
+      "community": 361,
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "17. suggested agent workflows"
+    },
+    {
+      "label": "Workflow A \u2014 Find and Qualify Local Businesses",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L702",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_a_find_and_qualify_local_businesses",
+      "community": 361,
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow a \u2014 find and qualify local businesses"
+    },
+    {
+      "label": "Workflow B \u2014 Audit One Business",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L719",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_b_audit_one_business",
+      "community": 361,
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow b \u2014 audit one business"
+    },
+    {
+      "label": "Workflow C \u2014 Create Reviewable Outreach",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L725",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_c_create_reviewable_outreach",
+      "community": 361,
+      "community_name": "17. Suggested Agent Workflows",
+      "norm_label": "workflow c \u2014 create reviewable outreach"
+    },
+    {
+      "label": "3. Policy Validation (Q6)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1810",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_3_policy_validation_q6",
+      "community": 362,
+      "community_name": "3. Policy Validation (Q6)",
+      "norm_label": "3. policy validation (q6)"
+    },
+    {
+      "label": "Federal",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1814",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_federal",
+      "community": 362,
+      "community_name": "3. Policy Validation (Q6)",
+      "norm_label": "federal"
+    },
+    {
+      "label": "Municipal (New Westminster)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1824",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_municipal_new_westminster",
+      "community": 362,
+      "community_name": "3. Policy Validation (Q6)",
+      "norm_label": "municipal (new westminster)"
+    },
+    {
+      "label": "Provincial (BC)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1819",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_provincial_bc",
+      "community": 362,
+      "community_name": "3. Policy Validation (Q6)",
+      "norm_label": "provincial (bc)"
+    },
+    {
+      "label": "11. Security and Compliance Requirements",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L511",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_11_security_and_compliance_requirements",
+      "community": 363,
+      "community_name": "11. Security and Compliance Requirements",
+      "norm_label": "11. security and compliance requirements"
+    },
+    {
+      "label": "Mandatory Before Production",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L512",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_mandatory_before_production",
+      "community": 363,
+      "community_name": "11. Security and Compliance Requirements",
+      "norm_label": "mandatory before production"
+    },
+    {
+      "label": "Outreach Controls",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L523",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_outreach_controls",
+      "community": 363,
+      "community_name": "11. Security and Compliance Requirements",
+      "norm_label": "outreach controls"
+    },
+    {
+      "label": "2. Objectives",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_2_objectives",
+      "community": 364,
+      "community_name": "2. Objectives",
+      "norm_label": "2. objectives"
+    },
+    {
+      "label": "Non-Goals for Version 1",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_non_goals_for_version_1",
+      "community": 364,
+      "community_name": "2. Objectives",
+      "norm_label": "non-goals for version 1"
+    },
+    {
+      "label": "Primary Objectives",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_primary_objectives",
+      "community": 364,
+      "community_name": "2. Objectives",
+      "norm_label": "primary objectives"
+    },
+    {
       "label": "entities/insurance-direct-canada-lead-research.md",
       "file_type": "document",
       "node_kind": "page",
@@ -99919,18 +100350,6 @@
       "norm_label": "2. demand validation (q1)"
     },
     {
-      "label": "3. Policy Validation (Q6)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1810",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_3_policy_validation_q6",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "3. policy validation (q6)"
-    },
-    {
       "label": "400m Radius (Immediate Adjacency \u2014 Garrett is here)",
       "file_type": "document",
       "node_kind": "heading",
@@ -100063,18 +100482,6 @@
       "norm_label": "combined flaw check"
     },
     {
-      "label": "Federal",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1814",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_federal",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "federal"
-    },
-    {
       "label": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "file_type": "document",
       "node_kind": "heading",
@@ -100135,18 +100542,6 @@
       "norm_label": "key decision gates"
     },
     {
-      "label": "Municipal (New Westminster)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1824",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_municipal_new_westminster",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "municipal (new westminster)"
-    },
-    {
       "label": "Pension Fund Appetite",
       "file_type": "document",
       "node_kind": "heading",
@@ -100205,18 +100600,6 @@
       "community": 377,
       "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "norm_label": "private landowners in 400m radius"
-    },
-    {
-      "label": "Provincial (BC)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1819",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_provincial_bc",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "provincial (bc)"
     },
     {
       "label": "Recommended Partnership Structure (VGH Model)",
@@ -107646,18 +108029,6 @@
       "norm_label": "11. campaign workflow changes"
     },
     {
-      "label": "11. Security and Compliance Requirements",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L511",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_11_security_and_compliance_requirements",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "11. security and compliance requirements"
-    },
-    {
       "label": "12. Opportunity Brief Output",
       "file_type": "document",
       "node_kind": "heading",
@@ -107730,16 +108101,16 @@
       "norm_label": "16. success criteria"
     },
     {
-      "label": "17. Suggested Agent Workflows",
+      "label": "18. Dependencies and Risks",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L701",
+      "source_location": "L731",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_17_suggested_agent_workflows",
+      "id": "drafts_leadsniperai_cli_commercial_plan_18_dependencies_and_risks",
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "17. suggested agent workflows"
+      "norm_label": "18. dependencies and risks"
     },
     {
       "label": "19. Open Decisions",
@@ -107764,18 +108135,6 @@
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
       "norm_label": "20. recommended immediate next actions"
-    },
-    {
-      "label": "2. Objectives",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L27",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_2_objectives",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "2. objectives"
     },
     {
       "label": "3. Canonical Local-Business Record",
@@ -107958,6 +108317,18 @@
       "norm_label": "definition of done"
     },
     {
+      "label": "Dependencies",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L732",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_dependencies",
+      "community": 4,
+      "community_name": "leadsniperai-cli-commercial-plan.md",
+      "norm_label": "dependencies"
+    },
+    {
       "label": "Enrichment Authorization Thresholds",
       "file_type": "document",
       "node_kind": "heading",
@@ -108006,52 +108377,28 @@
       "norm_label": "global options"
     },
     {
-      "label": "Mandatory Before Production",
+      "label": "Mitigations",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L512",
+      "source_location": "L749",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_mandatory_before_production",
+      "id": "drafts_leadsniperai_cli_commercial_plan_mitigations",
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "mandatory before production"
+      "norm_label": "mitigations"
     },
     {
-      "label": "Non-Goals for Version 1",
+      "label": "Principal Risks",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L40",
+      "source_location": "L739",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_non_goals_for_version_1",
+      "id": "drafts_leadsniperai_cli_commercial_plan_principal_risks",
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "non-goals for version 1"
-    },
-    {
-      "label": "Outreach Controls",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L523",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_outreach_controls",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "outreach controls"
-    },
-    {
-      "label": "Primary Objectives",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_primary_objectives",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "primary objectives"
+      "norm_label": "principal risks"
     },
     {
       "label": "Printing Press Architectural Role",
@@ -108100,42 +108447,6 @@
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
       "norm_label": "updated product definition"
-    },
-    {
-      "label": "Workflow A \u2014 Find and Qualify Local Businesses",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L702",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_a_find_and_qualify_local_businesses",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow a \u2014 find and qualify local businesses"
-    },
-    {
-      "label": "Workflow B \u2014 Audit One Business",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L719",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_b_audit_one_business",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow b \u2014 audit one business"
-    },
-    {
-      "label": "Workflow C \u2014 Create Reviewable Outreach",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L725",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_workflow_c_create_reviewable_outreach",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "workflow c \u2014 create reviewable outreach"
     },
     {
       "label": "Working Assumptions",
@@ -115518,18 +115829,6 @@
       "norm_label": "2. site summary"
     },
     {
-      "label": "3. DEVELOPMENT OPPORTUNITY",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L69",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_3_development_opportunity",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "3. development opportunity"
-    },
-    {
       "label": "4. FINANCIAL OVERVIEW",
       "file_type": "document",
       "node_kind": "heading",
@@ -115552,18 +115851,6 @@
       "community": 429,
       "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
       "norm_label": "5. approval pathway"
-    },
-    {
-      "label": "6. MARKET CONDITIONS",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L211",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_6_market_conditions",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "6. market conditions"
     },
     {
       "label": "7. CAPITAL STRUCTURE OPTIONS",
@@ -115614,18 +115901,6 @@
       "norm_label": "base case assumptions"
     },
     {
-      "label": "Comparable Developments",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L236",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_comparable_developments",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "comparable developments"
-    },
-    {
       "label": "Comparable Recent Sales (Garrett Street)",
       "file_type": "document",
       "node_kind": "heading",
@@ -115636,18 +115911,6 @@
       "community": 429,
       "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
       "norm_label": "comparable recent sales (garrett street)"
-    },
-    {
-      "label": "Concept",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L71",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_concept",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "concept"
     },
     {
       "label": "Current Regulatory Environment",
@@ -115686,18 +115949,6 @@
       "norm_label": "development profit summary"
     },
     {
-      "label": "Healthcare Worker Housing Demand",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L225",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_healthcare_worker_housing_demand",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "healthcare worker housing demand"
-    },
-    {
       "label": "Indicative Economics (Base Case \u2014 6 Storey)",
       "file_type": "document",
       "node_kind": "heading",
@@ -115732,18 +115983,6 @@
       "community": 429,
       "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
       "norm_label": "location context"
-    },
-    {
-      "label": "New Westminster Rental Market (Q1 2026)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L213",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_new_westminster_rental_market_q1_2026",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "new westminster rental market (q1 2026)"
     },
     {
       "label": "Next Steps",
@@ -115794,18 +116033,6 @@
       "norm_label": "rezoning process"
     },
     {
-      "label": "Target Demographics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L95",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_target_demographics",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "target demographics"
-    },
-    {
       "label": "Why a Developer Will Find This Attractive",
       "file_type": "document",
       "node_kind": "heading",
@@ -115828,18 +116055,6 @@
       "community": 429,
       "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
       "norm_label": "why this proposal has a strong planning narrative"
-    },
-    {
-      "label": "Why This Site",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-health-district-dom.md",
-      "source_location": "L82",
-      "_origin": "ast",
-      "id": "drafts_garrett_health_district_dom_why_this_site",
-      "community": 429,
-      "community_name": "DEVELOPER OPPORTUNITY MEMORANDUM",
-      "norm_label": "why this site"
     },
     {
       "label": "enum",
@@ -136891,66 +137106,6 @@
       "norm_label": "appendix: key data sources"
     },
     {
-      "label": "Assembled Land Value (with assembly premium)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L306",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_assembled_land_value_with_assembly_premium",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "assembled land value (with assembly premium)"
-    },
-    {
-      "label": "Assembly Recommendation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L285",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_assembly_recommendation",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "assembly recommendation"
-    },
-    {
-      "label": "Assessment",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L279",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_assessment",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "assessment"
-    },
-    {
-      "label": "Current Land Value",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L298",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_current_land_value",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "current land value"
-    },
-    {
-      "label": "Development Feasibility Notes",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L324",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_development_feasibility_notes",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "development feasibility notes"
-    },
-    {
       "label": "Executive Summary",
       "file_type": "document",
       "node_kind": "heading",
@@ -136987,18 +137142,6 @@
       "norm_label": "go / proceed with caution / no go"
     },
     {
-      "label": "Healthcare Worker Housing Demand",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L138",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_healthcare_worker_housing_demand",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "healthcare worker housing demand"
-    },
-    {
       "label": "HERMES AGENT FEASIBILITY STUDY",
       "file_type": "document",
       "node_kind": "heading",
@@ -137009,18 +137152,6 @@
       "community": 514,
       "community_name": "HERMES AGENT FEASIBILITY STUDY",
       "norm_label": "hermes agent feasibility study"
-    },
-    {
-      "label": "Land Value Uplift",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L315",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_land_value_uplift",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "land value uplift"
     },
     {
       "label": "Location Analysis",
@@ -137035,42 +137166,6 @@
       "norm_label": "location analysis"
     },
     {
-      "label": "Market Demand Assessment: **HIGH**",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L159",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_market_demand_assessment_high",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "market demand assessment: **high**"
-    },
-    {
-      "label": "Minimum Viable Assembly",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L271",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_minimum_viable_assembly",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "minimum viable assembly"
-    },
-    {
-      "label": "Nearby Developments",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L149",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_nearby_developments",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "nearby developments"
-    },
-    {
       "label": "Ownership",
       "file_type": "document",
       "node_kind": "heading",
@@ -137083,16 +137178,76 @@
       "norm_label": "ownership"
     },
     {
-      "label": "Rental Demand",
+      "label": "Scenario A \u2014 4\u20136 Unit Multiplex",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L116",
+      "source_location": "L167",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_rental_demand",
+      "id": "drafts_garrett_street_feasibility_scenario_a_4_6_unit_multiplex",
       "community": 514,
       "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "rental demand"
+      "norm_label": "scenario a \u2014 4\u20136 unit multiplex"
+    },
+    {
+      "label": "Scenario B \u2014 Townhouse Development",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L181",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_scenario_b_townhouse_development",
+      "community": 514,
+      "community_name": "HERMES AGENT FEASIBILITY STUDY",
+      "norm_label": "scenario b \u2014 townhouse development"
+    },
+    {
+      "label": "Scenario C \u2014 8-Storey Healthcare Housing (Master Planned)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L195",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_scenario_c_8_storey_healthcare_housing_master_planned",
+      "community": 514,
+      "community_name": "HERMES AGENT FEASIBILITY STUDY",
+      "norm_label": "scenario c \u2014 8-storey healthcare housing (master planned)"
+    },
+    {
+      "label": "Scenario Comparison Table",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L252",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_scenario_comparison_table",
+      "community": 514,
+      "community_name": "HERMES AGENT FEASIBILITY STUDY",
+      "norm_label": "scenario comparison table"
+    },
+    {
+      "label": "Scenario D \u2014 6 Storey Market Rental Building",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L222",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_scenario_d_6_storey_market_rental_building",
+      "community": 514,
+      "community_name": "HERMES AGENT FEASIBILITY STUDY",
+      "norm_label": "scenario d \u2014 6 storey market rental building"
+    },
+    {
+      "label": "Scenario E \u2014 8 Storey Market Rental Building",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/garrett-street-feasibility.md",
+      "source_location": "L237",
+      "_origin": "ast",
+      "id": "drafts_garrett_street_feasibility_scenario_e_8_storey_market_rental_building",
+      "community": 514,
+      "community_name": "HERMES AGENT FEASIBILITY STUDY",
+      "norm_label": "scenario e \u2014 8 storey market rental building"
     },
     {
       "label": "Section 1 \u2014 Site Overview",
@@ -137107,40 +137262,16 @@
       "norm_label": "section 1 \u2014 site overview"
     },
     {
-      "label": "Section 3 \u2014 Market Feasibility",
+      "label": "Section 4 \u2014 Development Scenarios",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L114",
+      "source_location": "L165",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_section_3_market_feasibility",
+      "id": "drafts_garrett_street_feasibility_section_4_development_scenarios",
       "community": 514,
       "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "section 3 \u2014 market feasibility"
-    },
-    {
-      "label": "Section 5 \u2014 Land Assembly Potential",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L269",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_section_5_land_assembly_potential",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "section 5 \u2014 land assembly potential"
-    },
-    {
-      "label": "Section 6 \u2014 Financial Feasibility",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L296",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_section_6_financial_feasibility",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "section 6 \u2014 financial feasibility"
+      "norm_label": "section 4 \u2014 development scenarios"
     },
     {
       "label": "Section 7 \u2014 Risk Assessment",
@@ -137165,18 +137296,6 @@
       "community": 514,
       "community_name": "HERMES AGENT FEASIBILITY STUDY",
       "norm_label": "section 8 \u2014 recommendation"
-    },
-    {
-      "label": "Vacancy Rate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L128",
-      "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_vacancy_rate",
-      "community": 514,
-      "community_name": "HERMES AGENT FEASIBILITY STUDY",
-      "norm_label": "vacancy rate"
     },
     {
       "label": "Acquisition",
@@ -137881,11 +138000,33 @@
       "label": "type",
       "file_type": "code",
       "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_audit_date_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_company_name_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
       "source_location": "L21",
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_items_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -137896,7 +138037,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_missing_evidence_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -137907,7 +138048,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_missing_evidence_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -137918,7 +138059,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_problem_statements_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -137929,8 +138070,41 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_problem_statements_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
+    },
+    {
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "properties"
+    },
+    {
+      "label": "audit_date",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_audit_date",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "audit_date"
+    },
+    {
+      "label": "company_name",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_company_name",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "company_name"
     },
     {
       "label": "missing_evidence",
@@ -137940,7 +138114,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_missing_evidence",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "missing_evidence"
     },
     {
@@ -137951,8 +138125,19 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_problem_statements",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "problem_statements"
+    },
+    {
+      "label": "recommended_next_action",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_recommended_next_action",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "recommended_next_action"
     },
     {
       "label": "technology_claims",
@@ -137962,8 +138147,30 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_technology_claims",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "technology_claims"
+    },
+    {
+      "label": "website_url",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_website_url",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "website_url"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_recommended_next_action_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
     },
     {
       "label": "items",
@@ -137973,7 +138180,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_technology_claims_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -137984,7 +138191,18 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_technology_claims_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_website_url_type",
+      "community": 518,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -145030,88 +145248,144 @@
       "norm_label": "whatcom county, wa \u2014 census / acs data snapshot"
     },
     {
-      "label": "Scenario A \u2014 4\u20136 Unit Multiplex",
+      "label": "leadsniper-search-alignment-2026-08-23.md",
       "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L167",
+      "node_kind": "page",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "LeadSniper Search Alignment \u2014 Veritas ICM Method",
+        "type": "search-strategy-alignment",
+        "prepared": "2026-08-23",
+        "client": "Veritas Development Group LLC (David Poole)",
+        "purpose": "Align LeadSniper DataForSEO search strategies with the canonical Veritas ICM ICP defined in `projects/co-sponsor-gp-target-list.md`",
+        "status_note": "ICM-aligned search-strategies written to Supabase `workspace_search_strategies` (3 rows, priority P9/P8/P8). Confirms the **ICP gap** between today&#x27;s Run 1 results and the Veritas capital-raise thesis. Awaiting David + Daniel HITL approval before next LeadSniper run."
+      },
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_a_4_6_unit_multiplex",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario a \u2014 4\u20136 unit multiplex"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "leadsniper-search-alignment-2026-08-23.md"
     },
     {
-      "label": "Scenario B \u2014 Townhouse Development",
+      "label": "New search strategies \u2014 ICM-aligned",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L181",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L42",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_b_townhouse_development",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_new_search_strategies_icm_aligned",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario b \u2014 townhouse development"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "new search strategies \u2014 icm-aligned"
     },
     {
-      "label": "Scenario C \u2014 8-Storey Healthcare Housing (Master Planned)",
+      "label": "Next pipeline step (after HITL approval)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L195",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L85",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_c_8_storey_healthcare_housing_master_planned",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_next_pipeline_step_after_hitl_approval",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario c \u2014 8-storey healthcare housing (master planned)"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "next pipeline step (after hitl approval)"
     },
     {
-      "label": "Scenario Comparison Table",
+      "label": "P8 \u00b7 Tier 2 \u2014 KC wealth-advisors / multi-family offices (RE allocation)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L252",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L54",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_comparison_table",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p8_tier_2_kc_wealth_advisors_multi_family_offices_re_allocation",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario comparison table"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "p8 \u00b7 tier 2 \u2014 kc wealth-advisors / multi-family offices (re allocation)"
     },
     {
-      "label": "Scenario D \u2014 6 Storey Market Rental Building",
+      "label": "P8 \u00b7 Tier 3 \u2014 RE-focused GPs / co-GP / fund-of-fund",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L222",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L62",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_d_6_storey_market_rental_building",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p8_tier_3_re_focused_gps_co_gp_fund_of_fund",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario d \u2014 6 storey market rental building"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "p8 \u00b7 tier 3 \u2014 re-focused gps / co-gp / fund-of-fund"
     },
     {
-      "label": "Scenario E \u2014 8 Storey Market Rental Building",
+      "label": "P9 \u00b7 Tier 1 \u2014 KC family foundations",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L237",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_scenario_e_8_storey_market_rental_building",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p9_tier_1_kc_family_foundations",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "scenario e \u2014 8 storey market rental building"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "p9 \u00b7 tier 1 \u2014 kc family foundations"
     },
     {
-      "label": "Section 4 \u2014 Development Scenarios",
+      "label": "Specific HITL questions for David + Daniel",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/garrett-street-feasibility.md",
-      "source_location": "L165",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L78",
       "_origin": "ast",
-      "id": "drafts_garrett_street_feasibility_section_4_development_scenarios",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_specific_hitl_questions_for_david_daniel",
       "community": 55,
-      "community_name": "Section 4 \u2014 Development Scenarios",
-      "norm_label": "section 4 \u2014 development scenarios"
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "specific hitl questions for david + daniel"
+    },
+    {
+      "label": "The ICM source \u2014 `projects/co-sponsor-gp-target-list.md`",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_the_icm_source_projects_co_sponsor_gp_target_list_md",
+      "community": 55,
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "the icm source \u2014 `projects/co-sponsor-gp-target-list.md`"
+    },
+    {
+      "label": "What changes in the next LeadSniper run",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_what_changes_in_the_next_leadsniper_run",
+      "community": 55,
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "what changes in the next leadsniper run"
+    },
+    {
+      "label": "What today found vs. what the ICP needs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_what_today_found_vs_what_the_icp_needs",
+      "community": 55,
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "what today found vs. what the icp needs"
+    },
+    {
+      "label": "Why this draft exists",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_why_this_draft_exists",
+      "community": 55,
+      "community_name": "leadsniper-search-alignment-2026-08-23.md",
+      "norm_label": "why this draft exists"
     },
     {
       "label": "entities/dennis-e.md",
@@ -149351,66 +149625,6 @@
       "norm_label": "sapperton-district-feasibility.md"
     },
     {
-      "label": "4.1.1 MLI Select [VERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1529",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_1_1_mli_select_verified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.1.1 mli select [verified]"
-    },
-    {
-      "label": "4.1.2 Affordable Housing Fund (AHF) [PARTIAL \u2014 Portal Closed]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1550",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_1_2_affordable_housing_fund_ahf_partial_portal_closed",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.1.2 affordable housing fund (ahf) [partial \u2014 portal closed]"
-    },
-    {
-      "label": "4.1.3 Build Canada Homes (BCH) [VERIFIED \u2014 Replacement for AHF]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1565",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_1_3_build_canada_homes_bch_verified_replacement_for_ahf",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.1.3 build canada homes (bch) [verified \u2014 replacement for ahf]"
-    },
-    {
-      "label": "4.1.4 Affordable Land Use Program / ACLP [UNVERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1576",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_1_4_affordable_land_use_program_aclp_unverified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.1.4 affordable land use program / aclp [unverified]"
-    },
-    {
-      "label": "4.1 CMHC Programs (Mortgage Loan Insurance)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1527",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_1_cmhc_programs_mortgage_loan_insurance",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.1 cmhc programs (mortgage loan insurance)"
-    },
-    {
       "label": "4.2.1 BC Builds [VERIFIED \u2014 Primary Funding Path]",
       "file_type": "document",
       "node_kind": "heading",
@@ -150902,6 +151116,17 @@
       "norm_label": "problem_significance"
     },
     {
+      "label": "scores",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_scores",
+      "community": 578,
+      "community_name": "properties",
+      "norm_label": "scores"
+    },
+    {
       "label": "total",
       "file_type": "code",
       "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
@@ -150922,6 +151147,17 @@
       "community": 578,
       "community_name": "properties",
       "norm_label": "properties"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_scores_type",
+      "community": 578,
+      "community_name": "properties",
+      "norm_label": "type"
     },
     {
       "label": "type",
@@ -153640,6 +153876,18 @@
       "norm_label": "13. recommended system boundaries"
     },
     {
+      "label": "14. Implementation Phases",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2486",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_14_implementation_phases_2486",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "14. implementation phases"
+    },
+    {
       "label": "15. Success Criteria",
       "file_type": "document",
       "node_kind": "heading",
@@ -153674,6 +153922,18 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "2. new cli command groups"
+    },
+    {
+      "label": "3. Financing Signal Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2100",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "3. financing signal taxonomy"
     },
     {
       "label": "4. Financing Opportunity Score",
@@ -153746,6 +154006,18 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "9. human-approved outbound and reply engine"
+    },
+    {
+      "label": "Capital Event Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2110",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "capital event signals"
     },
     {
       "label": "CLI",
@@ -153868,6 +154140,30 @@
       "norm_label": "deepline owns"
     },
     {
+      "label": "Expansion Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2101",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "expansion signals"
+    },
+    {
+      "label": "Financial Pressure Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2120",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "financial pressure signals"
+    },
+    {
       "label": "Financing Signal Discovery",
       "file_type": "document",
       "node_kind": "heading",
@@ -153904,6 +154200,66 @@
       "norm_label": "leadsniperai owns"
     },
     {
+      "label": "Phase 1 \u2014 Foundation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2487",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_1_foundation",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "phase 1 \u2014 foundation"
+    },
+    {
+      "label": "Phase 2 \u2014 Deepline Integration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2493",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_2_deepline_integration",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "phase 2 \u2014 deepline integration"
+    },
+    {
+      "label": "Phase 3 \u2014 Qualification and Routing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2499",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_3_qualification_and_routing",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "phase 3 \u2014 qualification and routing"
+    },
+    {
+      "label": "Phase 4 \u2014 Outbound and Replies",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2505",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_4_outbound_and_replies",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "phase 4 \u2014 outbound and replies"
+    },
+    {
+      "label": "Phase 5 \u2014 Learning Loop",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2510",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_5_learning_loop",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "phase 5 \u2014 learning loop"
+    },
+    {
       "label": "Purpose",
       "file_type": "document",
       "node_kind": "heading",
@@ -153914,6 +154270,30 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "purpose"
+    },
+    {
+      "label": "Real Estate and Mortgage Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2128",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "real estate and mortgage signals"
+    },
+    {
+      "label": "Referral Partner Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2137",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "referral partner signals"
     },
     {
       "label": "Reply Classes",
@@ -156366,18 +156746,6 @@
       "norm_label": "source reference"
     },
     {
-      "label": "1.1 Royal Columbian Hospital (RCH)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_1_1_royal_columbian_hospital_rch",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "1.1 royal columbian hospital (rch)"
-    },
-    {
       "label": "1.2 Fraser Health Authority",
       "file_type": "document",
       "node_kind": "heading",
@@ -156386,7 +156754,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_1_2_fraser_health_authority",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "1.2 fraser health authority"
     },
     {
@@ -156398,44 +156766,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_1_3_specific_questions",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "1.3 specific questions"
-    },
-    {
-      "label": "Active Recruitment (Open Positions)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L31",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_active_recruitment_open_positions",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "active recruitment (open positions)"
-    },
-    {
-      "label": "Allied Health Recruitment",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L61",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_allied_health_recruitment",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "allied health recruitment"
-    },
-    {
-      "label": "Current Employee Count",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_current_employee_count",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "current employee count"
     },
     {
       "label": "Evidence Quality Summary",
@@ -156446,7 +156778,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_evidence_quality_summary",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "evidence quality summary"
     },
     {
@@ -156458,7 +156790,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_growth_projections",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "growth projections"
     },
     {
@@ -156470,44 +156802,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_housing_affordability_concerns",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "housing affordability concerns"
-    },
-    {
-      "label": "Nursing Shortages",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L41",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_nursing_shortages",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "nursing shortages"
-    },
-    {
-      "label": "Physician Recruitment Challenges",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L51",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_physician_recruitment_challenges",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "physician recruitment challenges"
-    },
-    {
-      "label": "Projected Employee Count After Expansion",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_projected_employee_count_after_expansion",
-      "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
-      "norm_label": "projected employee count after expansion"
     },
     {
       "label": "Q1: Are housing costs impacting RCH / Fraser Health recruitment?",
@@ -156518,7 +156814,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q1_are_housing_costs_impacting_rch_fraser_health_recruitment",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q1: are housing costs impacting rch / fraser health recruitment?"
     },
     {
@@ -156530,7 +156826,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q1_conclusion",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q1 conclusion"
     },
     {
@@ -156542,7 +156838,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q2_are_housing_costs_impacting_retention",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q2: are housing costs impacting retention?"
     },
     {
@@ -156554,7 +156850,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q3_does_fraser_health_currently_provide_housing_assistance_or_relocation_support",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q3: does fraser health currently provide housing assistance or relocation support?"
     },
     {
@@ -156566,7 +156862,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q4_are_there_existing_workforce_housing_programs_in_bc_health_authorities",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q4: are there existing workforce housing programs in bc health authorities?"
     },
     {
@@ -156578,7 +156874,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q5_are_there_documented_staff_housing_shortages",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "q5: are there documented staff housing shortages?"
     },
     {
@@ -156590,7 +156886,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_recruitment_challenges",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "recruitment challenges"
     },
     {
@@ -156602,7 +156898,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_1_healthcare_workforce_demand",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "research question 1: healthcare workforce demand"
     },
     {
@@ -156614,7 +156910,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_retention_challenges",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "retention challenges"
     },
     {
@@ -156626,7 +156922,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_top_3_surprising_findings",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "top 3 surprising findings"
     },
     {
@@ -156638,7 +156934,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_total_workforce",
       "community": 609,
-      "community_name": "1.1 Royal Columbian Hospital (RCH)",
+      "community_name": "Research Question 1: Healthcare Workforce Demand",
       "norm_label": "total workforce"
     },
     {
@@ -161761,7 +162057,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_1_is_the_sapperton_district_aligned_with_current_tod_transit_oriented_provincial_policy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "1. is the sapperton district aligned with current tod/transit-oriented provincial policy?"
     },
     {
@@ -161773,7 +162069,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_2_does_the_city_s_policy_framework_actively_support_workforce_housing_at_scale",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "2. does the city's policy framework actively support workforce housing at scale?"
     },
     {
@@ -161785,7 +162081,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_3_are_there_recent_policy_signals_from_victoria_or_new_westminster_that_indicate_an_openness_to_healthcare_worker_housing",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "3. are there recent policy signals from victoria or new westminster that indicate an openness to healthcare worker housing?"
     },
     {
@@ -161797,7 +162093,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_4_what_specific_city_approvals_are_required_for_a_50_100_unit_workforce_housing_project_near_rch",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "4. what specific city approvals are required for a 50-100 unit workforce housing project near rch?"
     },
     {
@@ -161809,7 +162105,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_what_is_the_realistic_timeline_from_land_control_to_occupancy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "5. what is the realistic timeline from land control to occupancy?"
     },
     {
@@ -161821,7 +162117,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_1_federal_policy",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "6.1 federal policy"
     },
     {
@@ -161833,20 +162129,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_2_provincial_policy_bc",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "6.2 provincial policy (bc)"
-    },
-    {
-      "label": "6.3 Municipal Policy (New Westminster)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1190",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_6_3_municipal_policy_new_westminster",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "6.3 municipal policy (new westminster)"
     },
     {
       "label": "6.4 Specific Questions",
@@ -161857,7 +162141,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_6_4_specific_questions",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "6.4 specific questions"
     },
     {
@@ -161869,7 +162153,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_bill_44_ssmuh",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "bc bill 44 (ssmuh)"
     },
     {
@@ -161881,7 +162165,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_bill_47_housing_supply_act",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "bc bill 47 (housing supply act)"
     },
     {
@@ -161893,7 +162177,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_housing_programs",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "bc housing programs"
     },
     {
@@ -161905,7 +162189,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_transit_oriented_area_legislation",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "bc transit-oriented area legislation"
     },
     {
@@ -161917,44 +162201,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_cmhc_programs_workforce_housing_eligibility",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "cmhc programs \u2014 workforce housing eligibility"
-    },
-    {
-      "label": "DCC/DCL Schedule",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1220",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_dcc_dcl_schedule",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "dcc/dcl schedule"
-    },
-    {
-      "label": "Family Friendly Housing Policy",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1206",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_family_friendly_housing_policy",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "family friendly housing policy"
-    },
-    {
-      "label": "Official Community Plan (OCP)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1200",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_official_community_plan_ocp",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "official community plan (ocp)"
     },
     {
       "label": "Q6 Conclusion",
@@ -161965,7 +162213,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q6_conclusion",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "q6 conclusion"
     },
     {
@@ -161977,32 +162225,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_6_policy_validation",
       "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
+      "community_name": "6.4 Specific Questions",
       "norm_label": "research question 6: policy validation"
-    },
-    {
-      "label": "Townhouse Accelerator Program",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1214",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_townhouse_accelerator_program",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "townhouse accelerator program"
-    },
-    {
-      "label": "Zoning Bylaw 6680",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1192",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_zoning_bylaw_6680",
-      "community": 632,
-      "community_name": "6.3 Municipal Policy (New Westminster)",
-      "norm_label": "zoning bylaw 6680"
     },
     {
       "label": "HNWI-Investor-Persona-Outreach-Playbook.md",
@@ -186754,76 +186978,100 @@
       "norm_label": "the solution requirements"
     },
     {
-      "label": "3. Financing Signal Taxonomy",
+      "label": "5.1 Fraser Health Authority",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2100",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1320",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
+      "id": "drafts_sapperton_district_feasibility_5_1_fraser_health_authority",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "3. financing signal taxonomy"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "5.1 fraser health authority"
     },
     {
-      "label": "Capital Event Signals",
+      "label": "Current Capital Priorities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2110",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1329",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
+      "id": "drafts_sapperton_district_feasibility_current_capital_priorities",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "capital event signals"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "current capital priorities"
     },
     {
-      "label": "Expansion Signals",
+      "label": "Land Disposition History",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2101",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1356",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
+      "id": "drafts_sapperton_district_feasibility_land_disposition_history",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "expansion signals"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "land disposition history"
     },
     {
-      "label": "Financial Pressure Signals",
+      "label": "Mission and Mandate",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2120",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1322",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
+      "id": "drafts_sapperton_district_feasibility_mission_and_mandate",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "financial pressure signals"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "mission and mandate"
     },
     {
-      "label": "Real Estate and Mortgage Signals",
+      "label": "Procurement Process for Real Estate Partnerships",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2128",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1370",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
+      "id": "drafts_sapperton_district_feasibility_procurement_process_for_real_estate_partnerships",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "real estate and mortgage signals"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "procurement process for real estate partnerships"
     },
     {
-      "label": "Referral Partner Signals",
+      "label": "RCH Foundation Capacity",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2137",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1386",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
+      "id": "drafts_sapperton_district_feasibility_rch_foundation_capacity",
       "community": 77,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "referral partner signals"
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "rch foundation capacity"
+    },
+    {
+      "label": "Real Estate Holdings (within Sapperton/New Westminster)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1341",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_real_estate_holdings_within_sapperton_new_westminster",
+      "community": 77,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "real estate holdings (within sapperton/new westminster)"
+    },
+    {
+      "label": "Workforce Housing Initiatives (current or planned)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1363",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_workforce_housing_initiatives_current_or_planned",
+      "community": 77,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "workforce housing initiatives (current or planned)"
     },
     {
       "label": "INSTRUCTIONS-Claude-Coworker-Generate-Presentation.md",
@@ -190341,7 +190589,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_407_garrett_st",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "407 garrett st"
     },
     {
@@ -190353,20 +190601,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_417_419_garrett_st_the_garrett_health_district",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "417/419 garrett st the garrett health district"
-    },
-    {
-      "label": "5.1 Fraser Health Authority",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1320",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_5_1_fraser_health_authority",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "5.1 fraser health authority"
     },
     {
       "label": "5.2 RCH-Adjacent Landowners Private",
@@ -190377,7 +190613,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_2_rch_adjacent_landowners_private",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "5.2 rch-adjacent landowners private"
     },
     {
@@ -190389,7 +190625,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_3_other_potential_partners",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "5.3 other potential partners"
     },
     {
@@ -190401,7 +190637,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_4_specific_questions",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "5.4 specific questions"
     },
     {
@@ -190413,44 +190649,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_housing",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "bc housing"
-    },
-    {
-      "label": "Current Capital Priorities",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1329",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_current_capital_priorities",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "current capital priorities"
-    },
-    {
-      "label": "Land Disposition History",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1356",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_land_disposition_history",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "land disposition history"
-    },
-    {
-      "label": "Mission and Mandate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1322",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_mission_and_mandate",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "mission and mandate"
     },
     {
       "label": "New Westminster City",
@@ -190461,7 +190661,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_new_westminster_city",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "new westminster city"
     },
     {
@@ -190473,7 +190673,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_other_garrett_street_landowners",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "other garrett street landowners"
     },
     {
@@ -190485,20 +190685,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_other_health_authorities_vch_providence",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "other health authorities vch providence"
-    },
-    {
-      "label": "Procurement Process for Real Estate Partnerships",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1370",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_procurement_process_for_real_estate_partnerships",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "procurement process for real estate partnerships"
     },
     {
       "label": "Q5 Conclusion",
@@ -190509,32 +190697,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q5_conclusion",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "q5 conclusion"
-    },
-    {
-      "label": "RCH Foundation Capacity",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1386",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_rch_foundation_capacity",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "rch foundation capacity"
-    },
-    {
-      "label": "Real Estate Holdings (within Sapperton/New Westminster)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1341",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_real_estate_holdings_within_sapperton_new_westminster",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "real estate holdings (within sapperton/new westminster)"
     },
     {
       "label": "Research Question 5: Partnership Validation",
@@ -190545,20 +190709,8 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_5_partnership_validation",
       "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
+      "community_name": "Research Question 5: Partnership Validation",
       "norm_label": "research question 5: partnership validation"
-    },
-    {
-      "label": "Workforce Housing Initiatives (current or planned)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1363",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_workforce_housing_initiatives_current_or_planned",
-      "community": 799,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "workforce housing initiatives (current or planned)"
     },
     {
       "label": "agency-agents-agent-building.md",
@@ -235816,6 +235968,116 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_why_this_draft_exists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_the_icm_source_projects_co_sponsor_gp_target_list_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_what_today_found_vs_what_the_icp_needs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_new_search_strategies_icm_aligned",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_what_changes_in_the_next_leadsniper_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_specific_hitl_questions_for_david_daniel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_next_pipeline_step_after_hitl_approval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_new_search_strategies_icm_aligned",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p9_tier_1_kc_family_foundations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_new_search_strategies_icm_aligned",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p8_tier_2_kc_wealth_advisors_multi_family_offices_re_allocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_new_search_strategies_icm_aligned",
+      "target": "clients_veritas_developments_drafts_leadsniper_search_alignment_2026_08_23_p8_tier_3_re_focused_gps_co_gp_fund_of_fund",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts-preview/ad-creative/README.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -236400,7 +236662,18 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L34",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
+      "target": "clients_veritas_developments_drafts_validation_queue_5_leadsniper_search_strategy_alignment_2026_08_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
+      "source_location": "L35",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
@@ -236411,7 +236684,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
@@ -236422,7 +236695,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L68",
+      "source_location": "L69",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
@@ -236433,7 +236706,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L85",
+      "source_location": "L86",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_specific_validation_questions_per_file",
@@ -236444,7 +236717,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L106",
+      "source_location": "L128",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
@@ -236455,7 +236728,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L125",
+      "source_location": "L147",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
@@ -236466,7 +236739,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L150",
+      "source_location": "L172",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
@@ -236477,7 +236750,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L166",
+      "source_location": "L189",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
@@ -236492,14 +236765,14 @@
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
-      "target": "clients_veritas_developments_drafts_validation_queue_files_in_drafts_5_files_awaiting_validation",
+      "target": "clients_veritas_developments_drafts_validation_queue_files_in_drafts_6_files_awaiting_validation",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "clients/veritas-developments/drafts/VALIDATION_QUEUE.md",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0,
       "_origin": "ast",
       "source": "clients_veritas_developments_drafts_validation_queue_veritas_drafts_validation_queue",
@@ -404159,5 +404432,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "aefef8def9db5c0ce732895a52fa0cc8437c5e5b"
+  "built_at_commit": "fb5d1798b67f7353420cb0e84070cb35163a30b8"
 }
