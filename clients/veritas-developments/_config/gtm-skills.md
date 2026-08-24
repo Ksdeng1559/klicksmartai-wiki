@@ -73,6 +73,34 @@ This file is the **canonical GTM skills binding** for Veritas Development Group 
 
 ---
 
+## How runtime agents consume this file
+
+This file is the **per-client binding**. The runtime rule is:
+
+1. **Read `gtm-enrichment-planner` SKILL.md** for the universal orchestration: which stack layer we're in (Plan → Discover → Enrich → Score → Outreach), the HITL gate format, the credit-cost estimation model, the Deepline CLI rule (`plays` only, NEVER `tools execute`), and the geographic provider rules (`Limadata`=CA, `Enformion`/`OpenSOSData`=US, waterfall otherwise).
+2. **Read this file (`_config/gtm-skills.md`)** for the **client-specific bindings**: which skills are bound for each use-case, which are blocked (Demand Gen paid ads = ⛔), which compliance overlay applies (Reg D 506(b) for Veritas), which client reviewers must approve relationship-touching drafts (David for relationships, Daniel for RE advisory).
+3. **Compose the runtime plan** by intersecting the two: the layer ordering comes from `gtm-enrichment-planner`'s Skill stack recommendations; the actual skill *names* come from this file's Use-case / Role bindings.
+
+**In practice**, when an agent says "build me a TAM list of faith-aligned investors for Jackson County MO":
+
+- `gtm-enrichment-planner` says: walk Plan → Discover → Enrich → Score → Outreach, with HITL gates between layers, $0 Phase 0 build before any spend.
+- This file says: for Veritas, **Signal-Based Outbound** binds `buying-signals-6` + `signal-interpreter` + `niche-signal-discovery` (primary); **Automated Lead Qualification** binds `score` + `account-tier-scoring` + `abm-engagement-scoring` (primary); Demand Gen paid ads are **⛔ blocked**; Reg D 506(b) overlay required.
+- The runtime resolves to: `buying-signals-6 → niche-signal-discovery → signal-interpreter → score → account-tier-scoring → cold-email-first-touch (post-preflight)`.
+
+**Client-specific overrides** (above) ALWAYS win over the `gtm-enrichment-planner` defaults. If this file says Demand Gen paid ads are ⛔, the agent does not propose Meta or Google campaigns — even if `gtm-enrichment-planner`'s Demand Gen stack would normally include them.
+
+## Routing — Deepline CLI
+
+All enrichment actions in Veritas route through **Deepline CLI** (`deepline plays` against prebuilt workflows). Never invoke `deepline tools execute` directly. Provider selection is automatic per play's waterfall (Limadata for Canada, Enformion / OpenSOSData for US, others per play's recipe).
+
+- **Binary:** `deepline` (PATH lookup — see `~/.hermes/.env` for `DEEPLINE_*` tokens)
+- **Pattern:** `deepline plays run prebuilt/<play-name> --input '<json>' --watch`
+- **HITL gate:** Phase 3 approval format from `gtm-enrichment-planner` (assumptions, CSV preview, credits + scope + cap, approval question)
+- **Output location:** `~/wiki/clients/veritas-developments/intelligence/<task-slug>/` (canonical Veritas pattern)
+- **Audit:** keep `_metadata` lineage columns — `email_source`, `validation_status`, `_metadata.provider` — the trail proves which provider won each lookup.
+
+For non-Deepline enrichment (LeadSniper, Clay), the same HITL gate applies — different tool, same rule.
+
 ## Client-specific overrides
 
 | Use case | Bound for Veritas? | Notes |
@@ -96,7 +124,7 @@ This file is the **canonical GTM skills binding** for Veritas Development Group 
 
 ## HITL gate (binding)
 
-Every GTM action follows this 3-step gate, regardless of use case:
+Every GTM action follows this 4-step gate, regardless of use case:
 
 1. **Plan first.** Run `gtm-enrichment-planner` (or the relevant planning skill) and present a credit-cost + workflow-cost estimate to Dennis. Wait for "yes" / "proceed."
 2. **Route through Deepline CLI.** Hermes and Claude BOTH route enrichment through Deepline CLI — call `deepline plays` (prebuilt workflows) only. Never invoke `deepline tools execute` directly. Provider selection is automatic: `Limadata` for Canada, `Enformion` / `OpenSOSData` for US, waterfall per play.
