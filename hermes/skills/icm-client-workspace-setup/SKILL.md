@@ -133,6 +133,22 @@ Same content as IDENTITY.md, slightly more compact, plus a table of any known pr
 | `glossary.md` | Empty placeholder ("Add terms as they appear, with sources"). See `references/template-glossary.md`. | As research surfaces new terms. |
 | `compliance.md` | **Only if `compliance_mode != 'none'`**. Reg D 506(b) / privacy / HIPAA stub. See `references/template-compliance-securities.md`. | Per regulatory mode. |
 
+### 5b. Runtime resolution pattern (how agents consume `_config/gtm-skills.md`)
+
+`_config/gtm-skills.md` is the **per-client binding**; `gtm-enrichment-planner` (in the GTM skills library) is the **universal orchestration**. The runtime rule:
+
+1. Read `gtm-enrichment-planner` SKILL.md for the **stack layers** (Plan → Discover → Enrich → Score → Outreach), the HITL gate format, the credit-cost estimation model, and the Deepline CLI rule (`plays` only — NEVER `tools execute`, with `Limadata`=Canada, `Enformion`/`OpenSOSData`=US, waterfall per play).
+2. Read the client's `_config/gtm-skills.md` for the **bound skill names** per use-case + role, the client-specific overrides (⛔ blocked motions), and the compliance overlay (Reg D 506(b), privacy, etc.).
+3. Compose the runtime plan by intersecting the two: layer ordering comes from `gtm-enrichment-planner`; skill names come from the client file.
+
+**Worked example:** agent asked to "build a TAM list of faith-aligned investors for Jackson County MO":
+
+- `gtm-enrichment-planner` says walk Plan → Discover → Enrich → Score → Outreach, $0 Phase 0 first.
+- Veritas's `_config/gtm-skills.md` says Signal-Based Outbound binds `buying-signals-6` + `signal-interpreter`; Demand Gen paid ads are ⛔ blocked; Reg D 506(b) overlay required.
+- Runtime resolves to: `buying-signals-6 → niche-signal-discovery → signal-interpreter → score → account-tier-scoring → cold-email-first-touch (post-preflight)`.
+
+**Client-specific overrides ALWAYS win.** If the client file says a use-case is ⛔, the agent does not propose it — even if `gtm-enrichment-planner`'s default stack would include it.
+
 ### 6. Write the folder-level READMEs
 
 Each of `projects/`, `drafts/`, `deliverables/`, `drafts-preview/`, `skills/` gets a `README.md` describing its purpose and gate. See `references/template-readme-{folder}.md` — these are the same files Veritas has on disk.
