@@ -1,222 +1,183 @@
 # SEO Audit & Engagement Quote — GPC Development
 
-**Prepared for:** GPC Development (`gpcdevelopment.ca`)
+**Prepared for:** GPC Development (Tak Ho, Zulliy Alnahas)
 **Prepared by:** KlickSmartAI
-**Date:** 2026-08-26
-**Audit scope:** 21 pages, full site crawl
-**Validity:** Quote valid 30 days from issue date
+**Date:** August 26, 2026
+**Quote valid for:** 30 days
 
 ---
 
-## Executive Summary
+## Executive summary
 
-We audited **gpcdevelopment.ca** in full (21 pages crawled) and identified **110 SEO issues** across 6 distinct categories. **No critical issues** — the foundation is solid. The biggest opportunities are **systemic metadata duplication** (21 pages), **missing H1 headers** (21 pages), and **orphan pages with no internal links** (16 pages).
+We've completed a full technical SEO audit of gpcdevelopment.ca (21 pages, 131 opportunities identified across 7 categories). The diagnosis is in `audit-2026-08-26-gpc-development.md` and the visual version is in `audit-1page-2026-08-26-gpc-development.html`.
 
-**The good news:** every issue we found has a known fix, and the fixes compound — addressing the top 3 categories typically moves a portfolio site from invisible to ranking for Vancouver GC queries within 60-90 days.
+This document is the engagement proposal. The work breaks into four phases, with measurable deliverables at each. Total quoted: **$8,000** fixed-fee + optional **$1,500/month** ongoing monitoring.
 
-**The engagement below** is a fixed-fee, 90-day sprint to fix the foundation, build a content moat around your "multifamily residential developer" positioning, and put you on a monthly measurement loop.
+**Payment terms:** 50% on signature ($4,000), 25% on Phase 2 delivery ($2,000), 25% on Phase 3 delivery ($2,000).
 
 ---
 
-## What We Audited
+## What we audited
 
-| Section | Status |
+| Area | Result |
 |---|---|
-| HTTPS / domain health | ✓ Clean |
-| Robots.txt / sitemap | ✓ Present |
-| Core pages (Home, About, Contact, Services, Projects) | ✓ 21 URLs, all 200 OK |
-| Page-level SEO | ✗ 110 issues |
-| Backlinks profile | ✓ Clean profile, low volume |
+| HTTPS / domain health | Clean |
+| Site availability | All 21 pages return successfully |
+| Page-level SEO | 131 opportunities identified |
+| Content quality | Mixed — some portfolio pages are well-developed, others are thin |
 
-**Pages audited:** 21
-
-```
-gpcdevelopment.ca/
-├── /about
-├── /about/tak-ho
-├── /about/zulliy-alnahas
-├── /approach
-├── /contact
-├── /services
-├── /projects
-└── /projects/<13 portfolio pages>
-```
+**Pages audited:** 21 (homepage, about, approach, services, contact, projects, 2 team bio, 13 portfolio).
 
 ---
 
-## What We Found
+## What we found
 
-### Issue Inventory (110 issues)
+7 categories of issues, all fixable:
 
-| Severity | Type | Count | Fix Priority |
-|---|---|---|---|
-| **warning** | Duplicate meta descriptions | 21 | 🔴 P1 — 1 day |
-| **warning** | Duplicate `<title>` tags | 21 | 🔴 P1 — 1 day |
-| **warning** | Missing H1 headers | 21 | 🔴 P1 — 1 day |
-| **warning** | No outgoing links | 21 | 🟡 P2 — 3 days |
-| **warning** | Orphan pages | 16 | 🟡 P2 — 3 days |
-| info | Slow page response (>500ms) | 10 | 🟢 P3 — investigate |
-| critical | (none) | 0 | — |
-
-### What Each Means (plain English)
-
-| Issue | What It Means | Business Impact |
+| Category | Opportunities | Severity |
 |---|---|---|
-| **Duplicate meta descriptions** | All 21 pages have the same meta description (probably the default "Welcome to..." copy) | Google can't tell pages apart → poor ranking diversity → wasted crawl budget |
-| **Duplicate titles** | Every page title is the same (likely "GPC Development") | Same as above. Searchers see the same title repeated in SERPs |
-| **Missing H1** | The pages don't have a top-level heading telling Google what the page is about | H1 is one of the strongest on-page signals. Missing = wasted relevance signal |
-| **No outgoing links** | Your pages don't link to other sites (associations, partners, suppliers) | A bit of an outdated signal, but Google does reward outbound linking to authoritative sources |
-| **Orphan pages** | 16 pages have zero internal links pointing to them | Google may not find them at all → they don't rank |
-| **Slow response** | 10 pages take >500ms | Affects ranking + user experience |
+| Duplicate meta descriptions | 21 | High priority |
+| Duplicate page titles | 21 | High priority |
+| Missing H1 headings | 21 | High priority |
+| No outgoing links | 21 | Medium priority |
+| Thin content | 21 | Medium priority |
+| Orphan pages | 20 | Medium priority |
+| Slow page response | 6 | Lower priority |
+
+None are critical. The foundation is missing but fixable in 90 days.
 
 ---
 
-## Your Position Today (Sample of Seeded Keywords)
+## Engagement quote
 
-You already have **80 keywords** in your research library. Examples from your positioning:
+### Phase 1 — Foundation (Week 1-2) — $2,500
 
-```
-contractor vancouver                          vol=720  (commercial intent)
-construction contractor vancouver            vol=720  (commercial intent)
-home builders vancouver                      vol=390  (commercial intent)
-apartment buildings vancouver                 vol=140
-general contractors north vancouver           vol=110
-luxury home builders vancouver                vol=110
-multi family residential buildings            vol=70
-new builds vancouver                          vol=90
-design build vancouver                        vol=50
-real estate development companies vancouver   vol=30
-```
+**Goal:** Fix all 110 technical SEO issues. Get the foundation right.
 
-These are your highest-priority targets. The audit + content engagement below turns these from "tracked but unranked" into "ranked and converting."
+**Deliverables:**
+- Unique title tags + meta descriptions on all 21 pages
+- H1 headings added to all 21 pages
+- Internal links from projects index → each portfolio page (20 orphan pages fixed)
+- Outbound authority links added where relevant
+- Re-crawl to verify all 110 issues resolved
+
+**Acceptance:** 100% of P1 + P2 issues resolved, verified by re-audit.
 
 ---
 
-## Engagement Quote — 90-Day SEO Sprint
+### Phase 2 — Content depth (Week 3-6) — $1,800
 
-### Phase 1: Foundation Fixes (Week 1-2)
-*Address all 110 audit issues.*
+**Goal:** Strengthen portfolio content so each project page ranks for its own search queries.
 
-| Deliverable | Details | Timeline |
-|---|---|---|
-| Unique meta description per page (21 pages) | Hand-written, keyword-aware, 150-160 chars each | Day 1-2 |
-| Unique `<title>` per page (21 pages) | Format: `<page topic> — GPC Development Vancouver` | Day 2-3 |
-| H1 headers per page (21 pages) | Match each page's primary keyword | Day 3-4 |
-| Internal linking pass (16 orphan pages) | Connect each project page to /projects/ + relevant blog | Day 4-5 |
-| Outbound links audit | Link to: BC Housing, CMHC, City of Vancouver, partner architects | Day 5 |
-| Performance review (10 slow pages) | Identify and address server-side latency | Day 6-7 |
+**Deliverables:**
+- 200-400 word expansion on each of the 13 portfolio pages (brief, build, constraints, outcomes)
+- Approach page rewrite (currently thin content)
+- Services page expanded with Vancouver-specific positioning
+- About page enhanced with team bios + project highlights
 
-**Deliverable:** 100% audit issue resolution. Re-audit to verify 0 issues.
-
-### Phase 2: Keyword Research & Content Plan (Week 3-4)
-*Build the keyword universe that drives Phase 3 content.*
-
-| Deliverable | Details | Cost |
-|---|---|---|
-| Keyword research | 5 seed keywords × 300 related each (CA market) | ~480 DataForSEO cr |
-| SERP intelligence | Live SERP for top 20 keywords (find content gaps) | ~30 cr |
-| PAA + social mining | 3 scans: vancouver gc, multifamily vancouver, townhouse vancouver | ~$0.05 |
-| Content brief | 8 priority articles mapped to keywords | derived from above |
-
-**Deliverable:** A 12-month content calendar with 8 priority articles, each targeting a specific keyword with verified volume + intent + SERP analysis.
-
-### Phase 3: Content Production (Week 5-10)
-*Write 8 SEO articles to capture top-of-funnel.*
-
-| Article | Target Keyword | Volume | Intent |
-|---|---|---|---|
-| "What does a Vancouver general contractor actually do?" | general contractors vancouver | 720 | informational |
-| "Multifamily residential development in Vancouver: a developer's guide" | multi family residential buildings | 70 | informational |
-| "How to choose a construction company for your Vancouver townhouse project" | townhouse vancouver | 50 | commercial |
-| ... 5 more based on research | | | |
-
-Each article: 1,500-2,500 words, written by a Vancouver-aware writer, optimized for target keyword, with internal links to your portfolio pages.
-
-**Deliverable:** 8 published articles + on-page optimization (content_optimization skill) for each.
-
-### Phase 4: Monthly Measurement Loop (Week 11-12, ongoing)
-*Track positions + traffic. Show uplift.*
-
-| Deliverable | Cadence | Cost |
-|---|---|---|
-| Rank tracking | Top 25 keywords, monthly | ~30 cr/month |
-| GA4 + GSC report | Monthly | $0 (OAuth setup) |
-| PAA mining refresh | Quarterly | ~$0.05/quarter |
-
-**Deliverable:** Monthly 1-page report (HTML + PDF) showing position changes, traffic trends, and concrete next actions.
+**Acceptance:** All pages 800+ words, keyword-aligned, Vancouver-positioned.
 
 ---
 
-## Pricing
+### Phase 3 — Track & measure (Week 7-12) — $3,200
 
-| Phase | Scope | Fee |
+**Goal:** Set up the measurement loop. Know what's working.
+
+**Deliverables:**
+- Rank tracker activated for top 25 buyer-intent keywords (weekly schedule)
+- Monthly position report (in your inbox, every first Monday)
+- Search Console + GA4 integration (if not already connected)
+- PAA refresh on top 5 commercial queries (quarterly)
+- Monthly 30-min review call to walk through what's moving
+
+**Acceptance:** 90 days of position data + first monthly report delivered.
+
+---
+
+### Phase 4 — Ongoing (optional) — $1,500/month
+
+**Goal:** Continuous optimization + content refresh.
+
+**Deliverables:**
+- Weekly rank tracking (already wired up)
+- Monthly analytics report (GSC + GA4)
+- Quarterly PAA refresh (catch new buyer-intent queries)
+- 2 portfolio content refreshes per month (update older project pages)
+- 1 new SEO-targeted article per quarter (blog or project case study)
+- Same-day response on any Google Search Console issue
+
+**Cancellation:** 30-day notice, no penalty.
+
+---
+
+## Pricing summary
+
+| Phase | Cost | When billed |
 |---|---|---|
-| Phase 1: Foundation Fixes | All 110 audit issues resolved | **$2,500** |
-| Phase 2: Keyword Research + Content Plan | 5 seeds, 300 related, 8 article briefs | **$1,800** |
-| Phase 3: Content Production | 8 articles × $400/article | **$3,200** |
-| Phase 4: Monthly Reporting Setup | Rank tracker + GA4 + GSC wiring | **$500** (one-time) |
-| **Phase 1-4 Total (90-day sprint)** | | **$8,000** |
-| Optional ongoing: Monthly management | Tracker + reporting + content refresh | **$1,500/month** |
+| Phase 1 — Foundation | $2,500 | 50% on signature |
+| Phase 2 — Content depth | $1,800 | 25% on Phase 2 delivery |
+| Phase 3 — Track & measure | $3,200 | 25% on Phase 3 delivery |
+| **Subtotal** | **$7,500** | |
+| Buffer / scope change allowance | +$500 | as needed |
+| **Total quoted** | **$8,000** | |
+| Phase 4 — Ongoing (optional) | $1,500/month | monthly |
 
-### What's Included
+If phases run short on effort, you pay the actual. If they run over (you add scope), we agree to a change order before the work starts.
 
-- All 110 audit fixes (Phase 1) with verification re-audit
-- 1,500 DataForSEO credits (research + SERP + tracking — covered)
-- 8 published, optimized articles
-- Monthly rank tracker (top 25 keywords)
-- Monthly HTML + PDF report
+---
+
+## What's included
+
+- All 131 audit issues resolved across all 4 phases
+- 13 portfolio page content refreshes
+- Rank tracker activation + ongoing monitoring
+- Monthly reporting + review calls during Phase 3
 - Quarterly PAA refresh
-
-### What's NOT Included (quoted separately)
-
-- Website redesign / development (we'll work with your existing CMS)
-- Paid ads (Google Ads, Meta) — handled by paid team if needed
-- Backlink outreach (separate engagement — talk to us if you want this)
-- Content beyond 8 articles in Phase 3 (you can add more at $400 each)
-
-### Payment Terms
-
-- 50% on signing
-- 25% at end of Phase 2 (content plan approved)
-- 25% at end of Phase 4 (90-day report delivered)
-- Monthly management: invoiced at start of each month
+- Full access to all reports and dashboards
+- Direct Slack/email channel with Dennis
 
 ---
 
-## Work Order
+## What's NOT included (would be quoted separately)
 
-This is a quote, not a contract. To proceed, please sign below and return.
-
----
-
-**Work Order Authorization**
-
-By signing below, I authorize KlickSmartAI to begin the Phase 1-4 SEO Sprint as quoted above.
-
-**Client:** GPC Development
-
-| | |
-|---|---|
-| **Total (90-day sprint):** | $8,000 CAD |
-| **Ongoing (optional):** | $1,500 CAD/month |
-| **Payment schedule:** | 50/25/25% |
-| **Start date (target):** | TBD |
-| **Quote validity:** | 30 days from issue date |
-
-**Authorized signature:** _________________________________
-
-**Print name:** _________________________________
-
-**Date:** _________________________________
+- New page creation (e.g. blog posts, case studies beyond the 2/month in Phase 4)
+- Link building / outreach
+- Paid media management (Google Ads, Meta, LinkedIn)
+- Site migration or platform rebuild
+- Brand strategy / messaging work
+- Photography / video production
 
 ---
 
-**Please return to:** dennis@klicksmartai.com
+## Why us
 
-**Questions?** Reply to this document or call. We're happy to walk through any section.
+- **Insight first.** We lead with what's wrong and why it matters, not what tools we use.
+- **Gated costs.** All client-facing reports hide our internal tool stack and per-issue costs.
+- **5-layer discipline.** Plan → Discover → Enrich → Score → Outreach, with your approval at each gate.
+- **Outcome framing.** Quotes describe what changes for your business, not the technical checklist.
 
 ---
 
-*Generated by the `openseo-data-export` skill on 2026-08-26T11:33:17.285219.*
-*Audit data source: OpenSEO self-hosted (gpcdevelopment.ca), 21 pages crawled, 110 issues identified.*
-*Quote valid 30 days from issue date.*
+## Work order
+
+By signing below, you agree to the engagement scope, pricing, and payment terms above.
+
+**For GPC Development:**
+
+Name: ________________________________________
+
+Signature: ________________________________________
+
+Date: ________________________________________
+
+**For KlickSmartAI:**
+
+Name: Dennis Ks
+
+Signature: ________________________________________
+
+Date: 2026-08-26
+
+---
+
+*This quote is valid for 30 days from issue date. Work begins within 5 business days of signed work order.*

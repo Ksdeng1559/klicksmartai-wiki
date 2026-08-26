@@ -10,7 +10,7 @@
 
 ## At a glance
 
-We audited every public page on gpcdevelopment.ca and identified **135 SEO opportunities** across 7 categories. None are critical — the foundation is solid. The biggest wins come from giving every page its own unique title and meta description (currently 100% duplicated), and writing a clear H1 on every page (currently missing on every page). Together, these two changes alone should produce noticeable ranking improvements for the Vancouver multifamily keywords that matter most to your business.
+We audited every public page on gpcdevelopment.ca and identified **131 SEO opportunities** across 7 categories. None are critical — the foundation is solid. The biggest wins come from giving every page its own unique title and meta description (currently 100% duplicated), and writing a clear H1 on every page (currently missing on every page). Together, these two changes alone should produce noticeable ranking improvements for the Vancouver multifamily keywords that matter most to your business.
 
 This document explains what we found, what it means for your organic traffic, and what to do about it. The companion engagement quote (separately) covers how we'd execute it.
 
@@ -23,7 +23,7 @@ This document explains what we found, what it means for your organic traffic, an
 | HTTPS / domain health | Clean |
 | Site availability | All 21 pages return successfully |
 | Crawlable URLs | 21 of 21 pages |
-| Page-level SEO | 135 opportunities identified |
+| Page-level SEO | 131 opportunities identified |
 | Content quality | Mixed — some portfolio pages are well-developed, others are thin |
 
 **Pages audited:** 21
@@ -47,7 +47,7 @@ gpcdevelopment.ca/
 | No outgoing links | 21 | Medium priority |
 | Thin content | 21 | Medium priority |
 | Orphan pages (no internal links pointing to them) | 20 | Medium priority |
-| Slow page response | 10 | Lower priority |
+| Slow page response | 6 | Lower priority |
 
 Every page on the site has the first five issues. The portfolio pages (the individual project pages) are the most affected by the orphan-page issue — they're not well-connected to the rest of the site.
 
@@ -88,17 +88,17 @@ These build on the foundation. Knock these out in the second wave.
 These are smaller refinements that compound over time.
 
 - **Add contextual outbound links to authoritative sources.** Linking to CMHC, BC Housing, City of Vancouver, or relevant professional associations adds a small but real signal of expertise and trustworthiness.
-- **Investigate the slower pages.** 10 pages are taking longer to respond than ideal. Worth a conversation with whoever manages your hosting to see if image sizes or caching could be improved.
+- **Investigate the slower pages.** 6 pages are taking longer to respond than ideal. Worth a conversation with whoever manages your hosting to see if image sizes or caching could be improved.
 
 ---
 
 ## Why this matters for SEO
 
-Vancouver general contractors and multifamily developers compete for a specific set of search queries: "Vancouver general contractor," "multifamily residential Vancouver," "townhouse builder Vancouver," "construction company Vancouver." These are commercial-intent queries — people typing them are actively evaluating vendors. They convert to leads at a meaningful rate.
+Vancouver construction and development firms compete for a specific set of search queries — the ones that combine buyer-intent phrases with the Vancouver geographic. These are commercial-intent queries — people typing them are actively evaluating vendors. They convert to leads at a meaningful rate.
 
 Right now, gpcdevelopment.ca isn't well-positioned to win these queries because the technical foundation makes it hard for Google to match your pages to those searches. Fixing the title tags, meta descriptions, and H1s is the first step — it tells Google "this page is the right answer for that query." Without that, all the content quality in the world is fighting an uphill battle.
 
-The portfolio pages are a particular opportunity. Each one of your projects (Mackenzie Heights, Spanish Banks, Westbourne, The Lauren, Inova, Axir, Lizzybay, Moonlight Sonata, Buddhist Student Residence, and the infill projects) is a piece of content that demonstrates real expertise. When those pages rank, they generate a constant stream of relevant traffic — visitors who can immediately see you've done the kind of work they need.
+The portfolio pages are a particular opportunity. Each one of your projects is a piece of content that demonstrates real expertise. When those pages rank, they generate a constant stream of relevant traffic — visitors who can immediately see you've done the kind of work they need.
 
 This is also where your positioning matters. The audit tells you what to fix; the research and content phase tells you what to write. The two compound — fixing the foundation without the content is wasted, and vice versa.
 
@@ -109,7 +109,7 @@ This is also where your positioning matters. The audit tells you what to fix; th
 You won't see rankings jump overnight. What you'll see, over a 60-90 day window after the foundation is fixed:
 
 - Google can distinguish your pages. Instead of one of your pages ranking (or none), different pages can rank for different relevant queries — homepage for "GPC Development," portfolio pages for project-specific searches, services for vendor-evaluation queries.
-- Your portfolio starts working for you. Each project page becomes a long-tail magnet for searches like "Mackenzie Heights Vancouver developer" or "Spanish Banks construction."
+- Your portfolio starts working for you. Each project page becomes a long-tail magnet for searches that mention the project's distinctive details — its neighborhood, its building type, its specific finishes. These are the searches where visitors are already imagining themselves in your work.
 - The technical foundation supports content. Once the basics are right, every future blog post, every new project page, every update to your services description inherits a clean foundation.
 - Lead quality improves. The visitors who find you through search are pre-qualified — they're already looking for what you do. The conversion from visitor to inquiry is meaningfully higher than from paid traffic or social.
 
@@ -120,11 +120,10 @@ You won't see rankings jump overnight. What you'll see, over a 60-90 day window 
 **Book a 30-minute call** to walk through this audit and the engagement quote (sent separately). We'll explain the recommended approach, answer any questions about the findings, and decide together if this is a fit.
 
 Reply directly to the email this report came from, or book a time:
-- 📅 [Calendly link]
 - 📧 dennis@klicksmartai.com
 
 ---
 
-*Audit valid for 60 days from issue date. Findings based on a full site crawl of gpcdevelopment.ca on August 26, 2026. 21 pages audited, 135 opportunities identified across 7 categories.*
+*Audit valid for 60 days from issue date. Findings based on a full site crawl of gpcdevelopment.ca on August 26, 2026. 21 pages audited, 131 opportunities identified across 7 categories.*
 
 *This audit is provided as part of a paid engagement. Findings are confidential to GPC Development and KlickSmartAI.*
