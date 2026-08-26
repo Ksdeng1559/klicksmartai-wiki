@@ -259,6 +259,20 @@ After running this skill, the user should be able to:
 3. Tell Hermes "draft <thing> for <client-slug>" and have the output land in `drafts/`.
 4. See CLAUDE.md reference the right `client_name` / `client_slug` / `compliance_mode`.
 
+## Related skills
+
+| Skill | When |
+|---|---|
+| `client-onboarding-sprint` | End-to-end SEO client onboarding (this skill + OpenSEO + DuckDB mirror + gatekept audit artifacts in one 5-phase workflow). Use this when the engagement is SEO-focused and you want all artifacts in one sprint. |
+| `audit-page-gate` | Gatekeeping discipline for any client-facing SEO report. Use after onboarding produces drafts to validate before sending to the client. |
+| `openseo-project-intake` | Just the OpenSEO project setup (no workspace, no audit, no artifacts). Use for clients who already have a workspace but need OpenSEO configured. |
+| `openseo-data-export` | Promote drafts to `projects/` + `deliverables/`. Use after Dennis signs off on drafts in `VALIDATION_QUEUE.md`. |
+| `d1-to-duckdb-mirror` | The general D1 → DuckDB sync pattern (client-specific scripts live at `~/wiki/clients/<slug>/scripts/sync-<slug>-duckdb.py`). |
+| `seo-enrichment-planner` | When client signs and engagement begins — gates credit spend with a HITL approval package before any paid tools fire. |
+| `seo-skill-catalog` (in `_config/seo-skill-catalog.md`) | The full 12-skill SEO catalog (Plan → Discover → Enrich → Score → Outreach). Reference for picking which skill to invoke when. |
+
+The **process doc** for this workflow lives at `~/wiki/processes/seo-client-onboarding-sprint.md` — paired with the `client-onboarding-sprint` skill. Update both together.
+
 ## References
 
 See the `references/` folder for copy-able templates:
