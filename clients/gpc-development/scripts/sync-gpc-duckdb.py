@@ -171,6 +171,25 @@ def main():
     except Exception as e:
         log("WARN", f"  rank chain skipped ({type(e).__name__}: {str(e)[:50]})")
 
+    # Project-scoped tables that aren't tied to audits/keywords/rank-tracker
+    # (context sections, competitors, key pages, research log)
+    for table in ["project_context_sections", "project_competitors",
+                   "project_key_pages", "project_research_log"]:
+        try:
+            cnt = con.execute(
+                f"SELECT COUNT(*) FROM d1_source.{table} WHERE project_id = ?",
+                [PROJECT_ID]
+            ).fetchone()
+            if cnt and cnt[0] > 0:
+                con.execute(
+                    f"CREATE OR REPLACE TABLE gpc.{table} AS "
+                    f"SELECT * FROM d1_source.{table} WHERE project_id = ?",
+                    [PROJECT_ID]
+                )
+                log("INFO", f"  {table:35} {cnt[0]:5} rows")
+        except Exception as e:
+            log("WARN", f"  {table:35} skipped ({type(e).__name__}: {str(e)[:50]})")
+
     # Create empty fallback tables so views always work even when source has 0 rows
     con.execute("""
         CREATE TABLE IF NOT EXISTS gpc.rank_tracking_keywords (
