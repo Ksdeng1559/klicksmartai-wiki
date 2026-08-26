@@ -18,8 +18,23 @@ on folder entry.
 | **Workspace mode** | **Quick-mode** (flat `projects/` until recurring pipeline emerges) |
 | **Vertical** | `seo` (default for organic lead-gen) |
 | **OpenSEO project ID** | `34afee19-d725-4073-b43f-1b76c6275c11` |
-| **DuckDB mirror** | `.local_tier/clients/gpc-development.duckdb` |
+| **DuckDB mirror** | `.local_tier/clients/gpc-development.duckdb` (14 tables + 6 views, dual-storage in sync with OpenSEO D1 as of 2026-08-26) |
 | **Cron sync** | `openseo-duckdb-sync` (every 30 min, scoped to this project) |
+| **Rank tracker** | `a35ae70a-...` (gpcdevelopment.ca, weekly, both devices, 25 keywords) |
+
+## Project status snapshot (2026-08-26)
+
+| Dimension | Live count |
+|---|---|
+| Saved keywords (library) | 120 |
+| Keyword metrics (with vol/KD/CPC) | 1,014 |
+| Site audits (cumulative) | 3 (latest: `94478bde...`, 21 pages, 131 issues) |
+| PAA scans (cumulative) | 7 (4 Vancouver buyer-intent queries, 12 PAA questions) |
+| Rank tracker keywords | 25 (Vancouver GC + multifamily, weekly schedule) |
+| Competitors tracked | 29 |
+| Key pages mapped | 10 (5 hub + 1 money + 4 spoke) |
+| Project context sections | 7 (4 standard + 2 custom + 1 tech-seo) |
+| Research log entries | 4 |
 
 ## Folder map
 
