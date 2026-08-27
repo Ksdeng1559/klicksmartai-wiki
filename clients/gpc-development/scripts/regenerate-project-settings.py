@@ -217,7 +217,26 @@ def render_brief(sections, competitors, key_pages, research_log, kw_lib, rank_tr
         summary = (entry["summary"] or "")[:200].replace("|", "\\|").replace("\n", " ")
         md += f"| {entry['date']} | {entry['by']} | {summary} |\n"
 
-    md += f"""
+    md += """
+
+---
+
+## Part 7.5 — Live snapshot in OpenSEO (D1)
+
+A compact version of this brief is also stored as a **custom section** in OpenSEO D1 (`custom:content-brief`, ~3 KB).
+
+Query it via MCP:
+```python
+mcp.call("get_project_context", {"projectId": "34afee19-d725-4073-b43f-1b76c6275c11"})
+# → .customSections → slug: "content-brief" → title: "Content brief (live snapshot)"
+```
+
+Or via DuckDB mirror:
+```sql
+SELECT content FROM gpc.project_context_sections WHERE key = 'custom:content-brief';
+```
+
+The full brief (this file, ~12 KB) lives in the client workspace. The compact version (in OpenSEO D1) is what SAM, the app, and other agents read.
 
 ---
 
