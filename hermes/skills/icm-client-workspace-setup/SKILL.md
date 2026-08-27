@@ -216,6 +216,57 @@ If the user requests direct write to `projects/` or `deliverables/`, refuse and 
 
 The folder layout is the contract; both agents see it identically. This skill mirrors the canonical version to both `~/.hermes/skills/icm-client-workspace-setup/` (via the wiki copy at `/home/denni/wiki/hermes/skills/`) and `~/.claude/skills/icm-client-workspace-setup/`.
 
+## Post-scaffold workflow: first SEO audit + cross-reference
+
+If the engagement is SEO-focused and OpenSEO is available (via the `mcp__openseo__*` tools), run this drill **immediately after** step 8. It establishes a baseline, surfaces the real issues, and creates the first `drafts/` artifact + queue row in one motion.
+
+### A. The 7-call sequence (per new SEO client)
+
+1. **`list_projects`** — check if an OpenSEO project already exists for the domain. Two workspaces (`veritas-developments/` and a new one with the same brand) → STOP, ask the user which is canonical.
+2. **`create_project`** with `name` + `domain` — captures `projectId` for all later calls.
+3. **`run_site_audit`** with `projectId` + `url`. Set `runLighthouse: true` only when Core Web Vitals matter (adds ~3 min). Get `auditId`.
+4. **Poll `get_audit_status`** every 30–60s until `status: "completed"`. Crawl phase is fast; Lighthouse is the slow one.
+5. **`get_audit_issues`** + **`get_audit_pages`** in parallel — issues are the prioritized report, pages is the full URL+title+wordCount inventory.
+6. **`get_domain_overview`** + **`get_backlinks_overview`** in parallel — DataForSEO organic footprint. `hasData: false` is honest output (no data = no presence), not a tool error.
+7. **Write the audit as a draft** in the client workspace: `drafts/openseo-site-audit-<domain>-<YYYY-MM-DD>.md` with frontmatter linking to `projectId` + `auditId`. Add row to `drafts/VALIDATION_QUEUE.md` (or `drafts/seo/VALIDATION_QUEUE.md` if the `seo/` vertical is active).
+
+### B. The 6-dimension scorecard
+
+Score each audit on the same template, so a future session can compare clients:
+
+| Dimension | What to check |
+|-----------|---------------|
+| On-page SEO | H1 present? Title length 50–60? Meta 70–160? Unique per page? |
+| Technical SEO | 200 status on all? Sitemap? Canonical? Indexable? Response time? |
+| Content | `wordCount` per page from `get_audit_pages`. <300 words = thin. 0 across many pages = JS-render gap, not content gap. |
+| Internal link graph | `internalLinkCount` from `get_audit_pages`. 0 outgoing + many orphans = broken nav in HTML. |
+| Backlinks / Authority | `referringDomains` from `get_backlinks_overview`. 0 = no profile yet. |
+| Local SEO (if applicable) | GBP, citations, NAP consistency — separate call (project context). |
+
+Composite = mean of the 6 scores. **Stage 0** = composite < 20 (foundation missing — no indexable content). **Stage 1** = 20–50 (foundation built, content thin). **Stage 2** = 50–75 (rankable, link-building in progress). **Stage 3** = 75+ (compounding).
+
+### C. The JS-render diagnostic
+
+**Symptom across many pages:** `wordCount: 0` on every page, but unique URLs exist and `inSitemap: true` + `statusCode: 200`. All titles and meta descriptions identical. All pages missing H1. All pages have `internalLinkCount: 0`.
+
+**Diagnosis:** content exists in React/Vue/Svelte/Next runtime, but server-renders an empty shell. The fix is one architectural change (SSR/SSG) that resolves ~95% of issues at once. **Don't recommend 25 separate fixes** — find the single render root cause.
+
+**Verification:** `curl -s https://<domain>/ | wc -w` on the homepage. If <50 words, the diagnosis is confirmed. Compare to the rendered DOM in a browser to see the gap.
+
+### D. Cross-reference pattern: add audit to existing workspace
+
+If the workspace already exists for the client (most common case — Veritas already had one when we audited the LLC domain):
+
+1. **Write the audit `.md`** to `drafts/<vertical>/` (NOT `projects/` — source-of-truth gate).
+2. **Add a row to `VALIDATION_QUEUE.md`** with type=`site-audit`, validation owner = the principal, status = `⏳ Awaiting`.
+3. **Add a status entry to the bottom** of the same file (date + audit_id + 1-line finding).
+4. **Add a permanent record line to `IDENTITY.md`** under the corporate entity — "Web property: <domain> (Stage N SEO, see drafts/...)".
+5. **Do NOT** scaffold a new workspace, even if the brand name is similar. Duplicate workspaces = duplicate source-of-truth = a future cleanup tax. Always ask before scaffold if a same-brand workspace exists.
+
+### E. Domain-overview null pattern
+
+`get_domain_overview` returning `organicTraffic: null, organicKeywords: null, backlinks: null, referringDomains: null, hasData: false` is **honest output, not a tool failure**. It means DataForSEO's index has no data for that domain — the site is too new, too low-authority, or deindexed. Same for `referringDomains: { totalCount: 0 }`. Report the nulls as a zero score on that dimension; do not retry, do not "fix" the call.
+
 ## Pitfalls
 
 1. **Don't write `CONTEXT.md` and skip `CLAUDE.md`** — Hermes won't auto-pick up ICM routing without the adapter file.
@@ -231,6 +282,7 @@ The folder layout is the contract; both agents see it identically. This skill mi
 11. **For HTML/video deliverables, the `.md` IS the source of truth, not just the artifact spec.** Promote the `.md` to `projects/<vertical>/` alongside the rendered `.html`/`.mp4` in `deliverables/<vertical>/`. Never promote only the rendered artifact — the markdown holds the prompt, brief, and any citations.
 12. **`verticals: []` is empty list, not unset** — if the user says "no verticals" they likely mean a research-only client (text deliverables at parent level). Default to no vertical subfolders unless they name a list. Don't over-scaffold.
 13. **Don't generate `drafts-preview/<vertical>/` subfolders unless the vertical actually produces HTML** — emails and decks are HTML, but image-only deliverables (ad-creative, logo, PDF) don't need a preview folder. Either skip it or alias it to a generic `build.py` script.
+14. **Don't scaffold a duplicate workspace for a same-brand or LLC-renamed client.** Before `mkdir`, search `~/wiki/clients/` for related slugs. If a workspace exists for the same company (e.g. `veritas-developments/` already covered `veritasdevelopmentgroupllc.com`), add the audit to the existing workspace as a draft + queue row + IDENTITY.md note. Do NOT create `veritas-developments-llc/`. Duplicate workspaces = duplicate source-of-truth = future cleanup tax. Always ask the user to confirm which entity is canonical.
 
 ## Discovery setup (wiki-scoped skills)
 

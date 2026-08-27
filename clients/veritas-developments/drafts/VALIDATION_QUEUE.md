@@ -27,6 +27,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 | 4 | `team-profile-daniel-bailey-2026-08-22.md` | Team profile | **Daniel** (relationship truth) | ⏳ Awaiting |
 | 5 | `7-touch-outreach-playbook-2026-08-22.md` | Outreach playbook | **David + Daniel** | ⏳ Awaiting |
 | 6 | `leadsniper-search-alignment-2026-08-23.md` | Search strategy realignment | **Dennis + David** | ⏳ Awaiting |
+| 7 | `openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md` | Site audit (LLC domain) | **David** (web fix priority) | ⏳ Awaiting |
 
 ---
 
@@ -190,6 +191,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 
 - 2026-08-22: Validation queue created. 5 drafts moved from projects/ → drafts/. No commits made. Awaiting David + Daniel feedback.
 - 2026-08-23: Added draft #6 — LeadSniper search-strategy alignment. Inserted 3 ICM-aligned search strategies to Supabase `workspace_search_strategies` (Tier 1 family foundations, Tier 2 FFO wealth advisors, Tier 3 RE-focused GPs). Confirmed ICP gap: today's run returned RE operators (wrong ICP for capital-raise thesis). Awaiting David + Daniel feedback on draft #6.
+- 2026-08-26: Added draft #7 — OpenSEO site audit on `veritasdevelopmentgroupllc.com`. Created OpenSEO project `d506a90e` + ran audit `46c9e589`. Found 5 issues (missing H1, thin content 0 words, no internal links, title 99 chars, meta 242 chars). Domain score: ~16/100. Backlinks: 0. Organic keywords: 0. Most likely cause: JS-rendered content (not a content gap — a render gap). Awaiting David Poole feedback on fix priority (server-render vs pre-render vs park for investor-flywheel priority).
 
 ---
 

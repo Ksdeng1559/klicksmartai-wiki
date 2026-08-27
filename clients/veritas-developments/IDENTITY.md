@@ -2,6 +2,9 @@
 
 > Jackson County, MO real-estate developer. Active engagement: deal-loan structure, investor flywheel (webinars), and CRM build.
 
+**Corporate entity:** Veritas Development Group LLC
+**Web property:** `veritasdevelopmentgroupllc.com` (LLC marketing site — Stage 0 SEO, see `drafts/openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md`)
+
 This is a **client workspace** inside the KlickSmartAI wiki. It follows the
 ICM 3-layer pattern (Identity → Context → Config) and obeys the wiki
 source-of-truth rule: **AI-generated content ALWAYS lands in `drafts/`** first;
