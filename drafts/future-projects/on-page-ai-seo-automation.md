@@ -1,26 +1,26 @@
 ---
-title: On-Page.ai SEO Automation — evaluation draft (deferred)
+title: On-Page.ai SEO Automation — wired + evaluating
 created: 2026-08-27
 updated: 2026-08-27
-status: future-project / evaluation-draft
-priority: medium-high (could replace or augment Phase 2-3 of client sprint)
-blocker: requires pricing confirmation + MCP signup
-target-start: TBD
+status: wired-and-evaluating (was: evaluation-draft)
+priority: high (key live; sprint enrichment evaluation underway 2026-08-27)
+blocker: none (signed up + $10 credits loaded + ONPAGE_API_KEY wired into fork 2026-08-27)
+target-start: live (first scans underway)
 owner: Dennis
-type: future-build
-tags: [seo, automation, on-page-ai, mcp, ai-seo, recipes, future-project, evaluation]
-related: [drafts/future-projects/meridian-local-seo-agent, processes/seo-client-onboarding-sprint]
+type: active-integration
+tags: [seo, automation, on-page-ai, mcp, ai-seo, recipes, openseo-integrated, live]
+related: [drafts/future-projects/meridian-local-seo-agent, processes/seo-client-onboarding-sprint, skills/content-optimization]
 sources: [https://on-page.ai/pages/automate-seo/, https://api.on-page.ai]
 ---
 
-# On-Page.ai SEO Automation — Evaluation Draft
+# On-Page.ai SEO Automation — Wired, Now Evaluating
 
-> **Status:** Evaluation. The 17-recipe library is real, the MCP connector is documented at `api.on-page.ai`, but pricing/access details need confirmation before buying.
-> **Action needed:** Decide whether to add On-Page.ai MCP alongside OpenSEO, and if so, on which clients.
+> **Status:** Wired. ONPAGE_API_KEY in fork `.env`, `content-optimization` skill live, `run_content_scan` verified 2026-08-27. Active question is no longer "should we buy" but "does the per-page output beat OpenSEO for our clients?"
+> **Action:** Run side-by-side scan on GPC homepage (OpenSEO `run_site_audit` vs On-Page.ai standard scan); commit the verdict to `_config/seo-tool-decisions.md`.
 
 ## What it is
 
-On-Page.ai ships an **MCP connector** at `api.on-page.ai` that gives an AI agent (Claude, Codex, Hermes) live SERP intelligence — and a **library of 17 SEO automation recipes** written as prompt patterns that drive the MCP. The recipes are designed to be agent-agnostic but they recommend Claude Code and Codex.
+On-Page.ai ships an **MCP connector** at `api.on-page.ai` that gives an AI agent (Claude, Codex, Hermes) live SERP intelligence — and a **library of 23 SEO automation recipes** written as prompt patterns that drive the MCP. The recipes are designed to be agent-agnostic but they recommend Claude Code and Codex.
 
 The MCP exposes:
 - Live SERP data (not training-data guesses)
@@ -62,7 +62,7 @@ The anchor `#op3-element-TxnrP7JS` points to the marketing page which has **17 r
 | **13** | **Image and Alt-Text Optimization (Single Page)** | Per-page alt-text refresh | Phase 1 |
 | **14** | **Local Page Diagnostic: "Why Isn't This Local Page Ranking?"** | Local-vertical diagnosis | Phase 3 (Local) |
 | **15** | **Local Page Tuning (Standard Optimization)** | Local-vertical version of #7 | Phase 3 |
-| **16** | **Local Website & GBP Alignment Verification** | Compares website content against Google Business Profile fields (NAP, services, hours, categories) | **Big deal — overlaps with Meridian / Localo strategy** |
+| **16** | **Local Website & GBP Alignment Verification** | Compares website content against Google Business Profile fields (NAP, services, hours, categories) | **Big deal — overlaps with Meridian strategy** |
 | **17** | **Local Website Cannibalization Checker (City/Region) — Audit** | Detects service+city cannibalization (e.g., /vancouver-plumbing vs /plumbing-vancouver competing) | Phase 1 |
 
 Recipe #16 (Local Website & GBP Alignment) is the **most strategically important** — it's the only one that bridges classic SEO and GBP/local, which is exactly where Meridian sits.
@@ -98,9 +98,9 @@ This is **exactly the structure `agent-architecture-design` recommends** (Intell
 | Originality | ❌ no (just thin content) | ✅ content uniqueness score | **On-Page wins** |
 | Link opportunities | ✅ `get_backlinks_overview` | ✅ per-page internal | Different (external vs internal) |
 | Rank tracker | ✅ weekly, 25 keywords for GPC | ❌ | **OpenSEO wins** |
-| Local grid | ❌ | ❌ (Localo wins for this) | n/a |
-| Reviews / GBP | ❌ | ❌ (Localo wins for this) | n/a |
-| Recipes / orchestration | ❌ raw tools only | ✅ 17 prompt patterns | **On-Page wins** |
+| Local grid | ✅ (DataForSEO via OpenSEO fork) | ❌ | **OpenSEO wins** |
+| Reviews / GBP | ✅ (DataForSEO `get_business_reviews`, `get_business_profile`) | ❌ | **OpenSEO wins** |
+| Recipes / orchestration | ❌ raw tools only | ✅ 23 prompt patterns | **On-Page wins** |
 | Audit trail | ❌ | ✅ manifest-based resume pattern | **On-Page wins** |
 
 ## What it could do for KlickSmartAI
@@ -114,10 +114,10 @@ The "Recover a stuck page" + "Site-wide internal links" + "Standard optimization
 
 ### 2. **Recipe #16 = the GBP-Alignment bridge**
 
-This is the one that surprised me. **Local Website & GBP Alignment Verification** compares the website content against Google Business Profile fields. This is **exactly** what Meridian was going to do with Localo — but On-Page.ai ships it as a free recipe. If we adopt On-Page.ai, **Recipe #16 effectively replaces the Localo alignment-check we were going to build into Meridian Division 2.**
+This is the one that surprised me. **Local Website & GBP Alignment Verification** compares the website content against Google Business Profile fields. This is **exactly** the alignment check Meridian Division 2 was going to build — but On-Page.ai ships it as a recipe. If we adopt On-Page.ai, **Recipe #16 effectively replaces the alignment-check we were going to build into Meridian Division 2.**
 
 That changes the Meridian architecture:
-- Meridian still owns Localo for: real-time Maps rank, reviews, GBP field completeness, competitor local-grid
+- Meridian still owns DataForSEO (via OpenSEO fork) for: real-time Maps rank, reviews, GBP field completeness, competitor local-grid, business search
 - On-Page.ai Recipe #16 owns: website ↔ GBP content alignment (one-shot verification, not continuous monitoring)
 
 This **decouples** the alignment check from the live-monitoring loop, which is actually cleaner architecture.
@@ -134,9 +134,9 @@ Section 02 (Page-1 benchmarks) is **the** differentiator. Adding it to our 1-pag
 
 The "manifest-based runner" approach (process 75 pages, save manifest, resume next batch) is **exactly the pattern** for our clients with 50-500+ pages. We can run it on GPC (21 pages, small enough to do in one batch).
 
-## Pricing decision (open question)
+## Pricing (RESOLVED 2026-08-27)
 
-The MCP endpoint is at `api.on-page.ai`. **RESOLVED 2026-08-27:** Pricing is documented at `/install` and confirmed via `llms-full.txt`:
+The MCP endpoint is at `api.on-page.ai`. Pricing documented at `/install` and confirmed via `llms-full.txt`:
 
 - **One-time $1 sign-up, $10 in credits included** (no credit card needed for the free path)
 - **$20 in credits with a business email** (their preferred path)
@@ -147,7 +147,7 @@ The MCP endpoint is at `api.on-page.ai`. **RESOLVED 2026-08-27:** Pricing is doc
 - **Job polling (GET /v1/jobs/{id})** and **result fetch (GET /v1/jobs/{id}/result)** are FREE — no credits reserved
 - **27 supported scan regions** (default US, includes CA which is what we need for GPC)
 
-So evaluating On-Page.ai costs $1 + the price of a coffee. There's no longer a free-tier-vs-paid decision — just sign up and run scans. The actual decision is: **after $10 of test scans, is the output better than OpenSEO for our clients?**
+Signed up 2026-08-27: API key in `~/.hermes/secrets/onpage-api-key.txt` (mode 600), $10 credits loaded, `ONPAGE_API_KEY` wired into `/tmp/open-seo-lanpubs/.env`. Active decision is no longer cost-of-entry; it's the comparison verdict.
 
 ### Full endpoint map (from llms-full.txt)
 
@@ -189,41 +189,38 @@ The 11-section JSON we extracted earlier proves:
 
 ## Recommendation
 
-**Sign up for On-Page.ai MCP, get a free-tier API key, run one standard scan on GPC Development (the same `gpcdevelopment.ca` we already audited).**
+**Run a side-by-side scan on GPC Development (the same `gpcdevelopment.ca` we already audited) and decide based on output, not theory.**
 
-Cost: signup time + maybe $0 if there's a free tier.
-Value: real-world confirmation that the MCP works with Hermes, and a side-by-side comparison of OpenSEO `run_site_audit` output vs On-Page.ai `standard scan` output.
+Status (2026-08-27):
+- ✅ Signed up at `api.on-page.ai`, $10 credits loaded
+- ✅ `ONPAGE_API_KEY` wired into OpenSEO fork `.env`
+- ✅ `content-optimization` skill live in Hermes (skill_view verified)
+- ⏳ `run_content_scan` not yet run on GPC — pending green-light (~$2 for 1 standard scan, ~30s wall time)
 
-If the test scan produces a higher-signal report than OpenSEO for GPC, we have a clear answer: **add On-Page.ai to the sprint stack as the per-page deep-scan tool, keep OpenSEO for whole-site health + rank tracking.**
-
-If the test scan is roughly equivalent, we don't need it — OpenSEO already does this job and we already have it wired.
-
-## Implementation steps (after we buy / sign up)
-
-1. Sign up at `api.on-page.ai`, get MCP endpoint URL + API key
-2. Wire into `~/.hermes/config.yaml` (same MCP-remote pattern as OpenSEO + Localo)
-3. Verify with `mcp__onpage__whoami`-equivalent
-4. Run standard scan on GPC's homepage — compare with existing OpenSEO audit
-5. If useful: add On-Page.ai to `seo-client-onboarding-sprint.md` Phase 2 as optional tool
-6. If useful: draft On-Page.ai-specific recipes for our clients (internal-link runs, entity-coverage refresh)
-7. If useful: add to `_config/gtm-skills.md` binding per client
+**Evaluation plan:**
+1. Pick 3 representative GPC pages: homepage, one service page (`/services/general-contracting/` or similar), one project page
+2. Run `mcp__openseo__run_content_scan` for each → save to `clients/gpc-development/drafts/seo/onpage-vs-openseo-2026-08-27.md`
+3. Compare the entity coverage, page-1 benchmark, internal-link suggestions, originality score against the OpenSEO `run_site_audit` data already in the audit MD
+4. **Verdict threshold:** if On-Page.ai's per-page report raises ≥3 actionable items the OpenSEO audit missed, promote to sprint Phase 3 stack. Otherwise, mark as "considered, not adopted" and close this draft.
+5. Commit verdict to `_config/seo-tool-decisions.md`
 
 ## Open questions
 
-1. **Pricing** — need to confirm before buying. Most likely a free tier + paid MCP access.
-2. **Compatibility with our 4-layer pipeline** — does their output drop cleanly into our DuckDB mirror? Need to test.
-3. **Claude Code vs Hermes as the driver** — page says "compatible with both"; we're on Hermes. Recipe prompt syntax needs to map to our SKILL.md format, not `.claude/skills/`.
-4. **Image generation in Codex** — page mentions this but we don't use Codex. Skip.
-### 5. **The 5 recipes I couldn't read** — middle of the source was truncated; need to read full page to enumerate all 17.
+1. ~~**Pricing** — need to confirm before buying. Most likely a free tier + paid MCP access.~~ — RESOLVED 2026-08-27: $1 + $10 credits loaded, key wired.
+2. **Compatibility with our 4-layer pipeline** — does the `run_content_scan` JSON shape drop cleanly into our DuckDB mirror? Need to run a real scan to know.
+3. **Claude Code vs Hermes as the driver** — page says "compatible with both"; we're on Hermes. Recipe prompt syntax needs to map to our SKILL.md format, not `.claude/skills/`. **Resolved:** On-Page.ai MCP transports over HTTP Streamable — same pattern as OpenSEO; no driver translation needed. We're using Hermes via MCP, recipes execute server-side on `api.on-page.ai`.
+4. ~~**Image generation in Codex** — page mentions this but we don't use Codex. Skip.~~
+5. ~~**The 5 recipes I couldn't read** — middle of the source was truncated; need to read full page to enumerate all 17.~~ — RESOLVED 2026-08-27: All 23 recipes enumerated (see table above).
 
-**RESOLVED 2026-08-27:** All 17 recipes enumerated via deep-link `#op3-element-TxnrP7JS` (the recipe library section header). Recipes 12-13 are skipped in page numbering (likely renumbered/moved). See the recipes table above.
+**New open question (2026-08-27):**
+6. **Verdict threshold defined?** — Promotion bar = ≥3 unique actionable items vs OpenSEO audit. Is that the right bar? Open to adjustment after first scan.
 
 ## Related drafts
 
-- `/home/denni/wiki/drafts/future-projects/meridian-local-seo-agent.md` — Meridian (Localo + OpenSEO + LeadSniperAI + Deepline)
+- `/home/denni/wiki/drafts/future-projects/meridian-local-seo-agent.md` — Meridian (DataForSEO via OpenSEO fork + LeadSniperAI + Deepline)
 - `/home/denni/wiki/processes/seo-client-onboarding-sprint.md` — Phase 1-5 sprint + Module A/B AI SEO
 - `/home/denni/wiki/clients/gpc-development/drafts-preview/seo/audit-1page-2026-08-26-gpc-development.html` — current GPC 1-pager
 
 ---
 
-*Evaluation draft. Do not buy until pricing is confirmed at api.on-page.ai and a free-tier test scan validates the format on GPC.*
+*Active integration draft. Key is wired + signed up + credits loaded (2026-08-27). Pending: side-by-side scan on GPC for verdict — gated on user's "run the scan" green-light (~30s wall time, ~2 standard-scan credits).*
