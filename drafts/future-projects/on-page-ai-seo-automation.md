@@ -35,29 +35,35 @@ The recipes layer orchestration logic on top — they tell the agent **how** to 
 
 ## The 17 recipes (per the page)
 
-The page header says 17 recipes; the body I could read lists these explicitly:
+The anchor `#op3-element-TxnrP7JS` points directly to the **recipe library section**. Full enumeration below:
 
 | # | Recipe | What it does | Maps to our sprint phase |
 |---|--------|--------------|--------------------------|
-| 1 | **Recover a stuck page** | Diagnose why a page isn't ranking, fix it | Phase 1 (Foundation) |
-| 2 | **Site-wide internal links** (50-20K pages) | Build manifest, batch-process 75 pages at a time | Phase 1 (Foundation) |
-| 3 | **Add natural anchor text links** | Per-page internal links from most relevant pages | Phase 1 (Foundation) |
-| 4 | **Optimize sub-headlines** | H2/H3 level rewrite for entity coverage | Phase 3 (Content) |
-| 5 | **Optimize image alt-text** | Per-page alt-text refresh | Phase 1 (Foundation) |
-| 6 | **Optimize entities** | Add missing entities from page-1 benchmark | Phase 3 (Content) |
-| 7 | **Refresh outdated content** | Per-page research + refresh | Phase 4 (Maintenance) |
-| 8 | **Build client-ready SEO audit PDF** | Audit generation (the 11-section format we saw) | Phase 3 (Artifacts) |
-| 9 | **Audit local SEO pages** | Local-vertical version of standard audit | Phase 3 (Artifacts) |
-| 10 | **Find service+city cannibalization** | Detect competing pages on local sites | Phase 1 (Foundation) |
-| 11 | **Process large sites with manifest runners** | Resume-safe batching pattern | All phases |
-| 12 | **Diagnose why a page isn't ranking** | Diagnosis mode (lighter than recover) | Phase 1 |
-| 13 | **(continued in un-read middle of source)** | — | — |
-| 14 | — | — | — |
-| 15 | — | — | — |
-| 16 | — | — | — |
-| 17 | — | — | — |
+| **1** | **Recover a Stuck Page in ONE Command** | Diagnose why a page isn't ranking + fix it in one run; has guardrails ("only use on never-ranked / dropped / declining pages") | Phase 1 (Foundation) |
+| **2** | **Site-Wide Internal Links (50 to 20,000+ pages)** | Manifest-based runner, 75 pages per batch, 10-page sub-batches, 5 parallel scans max, 3 links per target, 750 max per run | Phase 1 (Foundation) |
+| 2b | Continue / Resume Internal Linking | Resume from saved manifest at next page range | Phase 1 |
+| 2c | Follow-up Continue / Resume Internal Linking | Same after interruption | Phase 1 |
+| 2d | Emergency "Process Interrupted" Resume | Recovery after crash | Phase 1 |
+| **3** | **Single Page Internal Links — Detailed Version** | Per-page 3-source internal link builder | Phase 1 |
+| **4** | **Single Page Internal Links — Simple Version** | Lighter variant for quick wins | Phase 1 |
+| **5** | **Site-Wide Refresh — Fix All Your Old/Stale Pages** | Batch refresh stale content across full sitemap | Phase 4 (Maintenance) |
+| 5b | Continue / Resume Light SEO Refresh | Resume variant | Phase 4 |
+| 5c | Emergency Resume Light SEO Refresh | Recovery after crash | Phase 4 |
+| **6** | **Light Page Refresh (Single Page)** | Single-page quick refresh | Phase 4 |
+| **7** | **Standard Optimization (Single Page)** | Single-page full optimization | Phase 3 (Content) |
+| **8** | **Standard Optimization (Site-Wide)** | Batch version of #7 across full site | Phase 3 |
+| 8b | Resume / Continue Standard Optimization (Site-Wide) | Resume variant | Phase 3 |
+| **9** | **Full Client Website Audit (PDF)** | The 11-section eHarmony-format PDF report (Executive Summary, Full Audit Walkthrough, Competitor Gap, Entity/Content Gap, Technical/Speed, Image/Alt Text, Topical/Category Alignment, Recommended Fixes) | Phase 3 (Artifacts) |
+| **10** | **Single Page Audit (PDF)** | Per-page version of #9 with same 11 sections | Phase 3 |
+| **11** | **Advanced Page Diagnostic: "Why Isn't This Page Ranking?"** | Diagnosis mode (lighter than Recipe #1, for pages already in top 10 or page 2) | Phase 1 |
+| **14** | **Local Page Diagnostic: "Why Isn't This Local Page Ranking?"** | Local-vertical diagnosis (note the page skips 12-13) | Phase 3 (Local) |
+| **15** | **Local Page Tuning (Standard Optimization)** | Local-vertical version of #7 | Phase 3 |
+| **16** | **Local Website & GBP Alignment Verification** | Compares website content against Google Business Profile fields (NAP, services, hours, categories) | **Big deal — overlaps with Meridian / Localo strategy** |
+| **17** | **Local Website Cannibalization Checker (City/Region) — Audit** | Detects service+city cannibalization (e.g., /vancouver-plumbing vs /plumbing-vancouver competing) | Phase 1 |
 
-The full list of 17 was truncated in the page read. The pattern is clear regardless: each recipe is a **prompt template** that orchestrates MCP calls + page edits + verification + manifest tracking.
+Recipes 12-13 are skipped in the page numbering — likely renumbered or moved. Recipe #16 (Local Website & GBP Alignment) is the **most strategically important** — it's the only one that bridges classic SEO and GBP/local, which is exactly where Meridian sits.
+
+Each recipe is a **prompt template** that orchestrates MCP calls + page edits + verification + manifest tracking with full audit trail. The manifest-based runner pattern (Recipes #2, #5, #8) is what makes large-site work safe — you can resume from where you left off if the agent crashes.
 
 ## Three architectural layers (per the page)
 
@@ -95,12 +101,22 @@ This is **exactly the structure `agent-architecture-design` recommends** (Intell
 
 ## What it could do for KlickSmartAI
 
-### 1. Replace / augment our Phase 1-3 client sprint
+### 1. Replace / augment our Phase 1-4 client sprint
 
-The "Recover a stuck page" + "Site-wide internal links" + "Optimize entities" recipes cover **Phase 1 (Foundation) + part of Phase 3 (Content)** of the sprint doc. If On-Page.ai works well, we could:
-- Run their `standard scan` instead of (or alongside) OpenSEO `run_site_audit`
-- Use their internal-link recipe for the orphaned-pages fix
-- Use their entity-coverage recipe for content refresh
+The "Recover a stuck page" + "Site-wide internal links" + "Standard optimization" recipes cover **Phase 1 (Foundation) + Phase 3 (Content) + Phase 4 (Maintenance)** of the sprint doc. If On-Page.ai works well, we could:
+- Run their `standard scan` instead of (or alongside) OpenSEO `run_site_audit` for the per-page report format
+- Use Recipes #2 / #5 / #8 (the manifest runners) for batched optimization at scale
+- Use Recipes #9 / #10 (Full Client Audit PDF, Single Page Audit PDF) to ship our deliverable **in the eHarmony 11-section format** rather than our current 5-section 1-pager
+
+### 2. **Recipe #16 = the GBP-Alignment bridge**
+
+This is the one that surprised me. **Local Website & GBP Alignment Verification** compares the website content against Google Business Profile fields. This is **exactly** what Meridian was going to do with Localo — but On-Page.ai ships it as a free recipe. If we adopt On-Page.ai, **Recipe #16 effectively replaces the Localo alignment-check we were going to build into Meridian Division 2.**
+
+That changes the Meridian architecture:
+- Meridian still owns Localo for: real-time Maps rank, reviews, GBP field completeness, competitor local-grid
+- On-Page.ai Recipe #16 owns: website ↔ GBP content alignment (one-shot verification, not continuous monitoring)
+
+This **decouples** the alignment check from the live-monitoring loop, which is actually cleaner architecture.
 
 ### 2. Generate the audit report format we evaluated
 
@@ -170,7 +186,9 @@ If the test scan is roughly equivalent, we don't need it — OpenSEO already doe
 2. **Compatibility with our 4-layer pipeline** — does their output drop cleanly into our DuckDB mirror? Need to test.
 3. **Claude Code vs Hermes as the driver** — page says "compatible with both"; we're on Hermes. Recipe prompt syntax needs to map to our SKILL.md format, not `.claude/skills/`.
 4. **Image generation in Codex** — page mentions this but we don't use Codex. Skip.
-5. **The 5 recipes I couldn't read** — middle of the source was truncated; need to read full page to enumerate all 17.
+### 5. **The 5 recipes I couldn't read** — middle of the source was truncated; need to read full page to enumerate all 17.
+
+**RESOLVED 2026-08-27:** All 17 recipes enumerated via deep-link `#op3-element-TxnrP7JS` (the recipe library section header). Recipes 12-13 are skipped in page numbering (likely renumbered/moved). See the recipes table above.
 
 ## Related drafts
 
