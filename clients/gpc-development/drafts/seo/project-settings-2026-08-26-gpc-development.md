@@ -1,7 +1,8 @@
-# GPC Development — Project Settings & Content Brief
+# gpc-development — Project Settings & Content Brief
 
 **Source:** OpenSEO D1 → DuckDB mirror (synced via `openseo-duckdb-sync` cron, every 30 min)
 **Project ID:** `34afee19-d725-4073-b43f-1b76c6275c11`
+**DuckDB mirror:** `/home/denni/wiki/clients/gpc-development/.local_tier/clients/gpc-development.duckdb`
 **Last refreshed:** 2026-08-26
 **Audience for this brief:** Internal (Dennis / KlickSmartAI content team)
 **Purpose:** Single source of truth for content + SEO work.
@@ -48,8 +49,9 @@
 |---|---|
 | Saved keywords (library) | 120 |
 | With hydrated metrics | 1014 |
-| Rank tracker keywords | 25 |
+| Audits | 4 |
 | PAA scans | 7 |
+| Rank tracker keywords | 25 |
 
 ### Top performing keywords (by volume)
 
@@ -307,14 +309,14 @@
 
 ---
 
-## Part 7.5 — Live snapshot in OpenSEO (D1)
+## Part 7 — Live snapshot in OpenSEO (D1)
 
-A compact version of this brief is also stored as a **custom section** in OpenSEO D1 (`custom:content-brief`, ~3 KB).
+A compact version of this brief may also be stored as a **custom section** in OpenSEO D1 (`custom:content-brief`, ~3 KB).
 
 Query it via MCP:
 ```python
-mcp.call("get_project_context", {"projectId": "34afee19-d725-4073-b43f-1b76c6275c11"})
-# → .customSections → slug: "content-brief" → title: "Content brief (live snapshot)"
+mcp.call("get_project_context", {"projectId": "<project_id>"})
+# → .customSections → slug: "content-brief"
 ```
 
 Or via DuckDB mirror:
@@ -322,25 +324,21 @@ Or via DuckDB mirror:
 SELECT content FROM gpc.project_context_sections WHERE key = 'custom:content-brief';
 ```
 
-The full brief (this file, ~12 KB) lives in the client workspace. The compact version (in OpenSEO D1) is what SAM, the app, and other agents read.
-
 ---
 
-## When to regenerate this brief
-
-- After any new project onboarding (project_context_sections, project_key_pages)
-- After competitor discovery (project_competitors)
-- After positioning shifts (project_context_sections.positioning)
-- After keyword library changes (saved_keywords, keyword_metrics)
-- After SERP analysis (get_serp_results data)
-- After PAA scans (paa_scans)
-
-## How to regenerate
+## Part 8 — How to regenerate
 
 ```bash
-python3 scripts/regenerate-project-settings.py
-# Or with custom output path:
-python3 scripts/regenerate-project-settings.py drafts/seo/project-settings-2026-08-30-gpc-development.md
+# Generic — works for any client with workspace + DuckDB mirror
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/<slug>/
+
+# Explicit project_id (skip auto-discovery)
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/<slug>/ <project-id>
+
+# Custom output path
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/<slug>/ <project-id> /tmp/brief.md
 ```
+
+---
 
 *Auto-generated from OpenSEO D1 → DuckDB mirror.*
