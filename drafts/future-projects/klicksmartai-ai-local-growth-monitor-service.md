@@ -1,131 +1,159 @@
 ---
-title: "AI Local Growth Monitor" — KlickSmartAI service offering
+title: "AI Local Growth Monitor" — OpenSEO service offering
 created: 2026-08-27
 updated: 2026-08-27
-status: draft / service-offering
+status: draft / service-offering (v2 — repositioned as OpenSEO suite product)
 priority: high (commercial)
-blocker: Localo MCP paid plan + On-Page.ai MCP install (low cost, ~$1 sign-up)
+blocker: `ONPAGE_API_KEY` (already wired env, just empty — $1 to activate) + Localo MCP consideration
 target client: SMBs with Google Business Profiles (contractors, dentists, attorneys, real estate, multi-location retail, home services)
-deliverable: a sellable recurring service that runs on Meridian (the agent)
+deliverable: a sellable recurring service that runs on Meridian orchestrating the OpenSEO skill stack
 ---
 
-## TL;DR
+## TL;DR — the corrected mental model
 
-**AI Local Growth Monitor** is the KlickSmartAI product line that combines three agent-grade data sources (Localo MCP for GBP / Maps / reviews, OpenSEO/DataForSEO for SERP / keywords / backlinks, On-Page.ai for on-page audits) behind a single 4-division agent (Meridian) that monitors, diagnoses, drafts, and reports on a client's local-search presence continuously — and never publishes anything without the client approving it through our existing HITL validation queue.
+After reading the existing `clients/open-seo/` workspace, the **AI Local Growth Monitor is not a new product** — it's a **productized packaging** of the OpenSEO skill stack that already exists in our codebase:
 
-**Pricing model: $1.5K-6K setup + $1.5K-3K/mo retainer.** Margins are healthy because the underlying API costs are tiny (~$5-15/yr per active client) and the work is mostly agent-orchestrated, not human-time.
+- **OpenSEO platform** at `127.0.0.1:3005` — already deployed, already serving MCP
+- **14 SEO skills** in 5 layers — already authored, already HITL-gated
+- **On-Page.ai Content Optimization** — already integrated (lanpublications fork), just needs `ONPAGE_API_KEY` populated (currently dormant)
+- **`local-seo` skill (Layer 5)** — already exposes GBP + reviews + Local SERP via `get_business_profile`, `get_business_reviews`, etc.
+- **`content-optimization` skill (Layer 3)** — already exposes On-Page.ai via `run_content_scan`, `get_content_scan`
+- **`seo-enrichment-planner` (Layer 1 gate)** — already enforces HITL + cost estimate before every spend
+- **DuckDB mirror** at `clients/open-seo/.local_tier/clients/open-seo.duckdb` — already running, 8.5MB, refreshed every 30 min
 
-## Why now
+What's missing is the **productization**: the 4-tier packaging, the marketing surface, the onboarding playbook, and the **Meridian orchestrator** that ties the 14 skills together into a continuous monitor rather than a set of one-shot commands.
 
-We have all three data sources already authorized or evaluable:
-- **Localo MCP** — needs payment, but the integration path is well-understood (same MCP-remote pattern as OpenSEO)
-- **OpenSEO/DataForSEO MCP** — already wired in `~/.hermes/config.yaml` and proven on Veritas + GPC Development
-- **On-Page.ai MCP** — $1 sign-up + $10 in credits to evaluate, async scan model, 23 recipe library, MCP-native
+This draft now reflects that — the service offering is a **KlickSmartAI product line built ON TOP OF OpenSEO**, not a competing product.
 
-And the architectural pattern is confirmed by On-Page.ai themselves: **"Different layers of the SEO stack — most teams use both"** (their `/compare/dataforseo` page). They explicitly recommend running both tools in a coexistence workflow: DataForSEO for cohort + keyword research, On-Page.ai for the audit, then re-scan after edits. That's exactly what Meridian does.
+## Why now — the On-Page.ai activation
 
-## The three data sources
+The single blocker is `ONPAGE_API_KEY` (52 chars, empty). With it populated:
 
-| Layer | Vendor | What it covers | What it costs us |
-|-------|--------|----------------|------------------|
-| **Local SEO + GBP** | Localo MCP | GBP fields, Maps 3-pack rank, reviews (count, velocity, sentiment), local-grid queries, citations | Per-client subscription (~$20-50/mo depending on plan) |
-| **Broad SEO + SERP** | OpenSEO / DataForSEO MCP | Whole-domain audit, SERP rank tracking, keyword volumes, backlinks, on-page basic, PAA mining | Pay-per-call (~$0.01-0.50 per call depending on endpoint) |
-| **On-page deep + entity** | On-Page.ai MCP | Page-1 cohort benchmark, entity coverage (100+ entities), internal-link candidates, schema gap, SERP-speed benchmark, 11-section PDF audit | Per-scan credits (1.5/2/3 per scan, ~$0.15-$0.30 per scan effective) |
+- `content-optimization` skill comes out of dormancy
+- `run_content_scan` and `get_content_scan` MCP tools activate
+- Content Optimization page in the UI unlocks
+- 11-section PDF audits (eHarmony format) become available
+- Recipe #9 (Full Client Website Audit) becomes the centerpiece deliverable
 
-**Combined per-client monthly API cost: ~$5-15.** That's the cost basis for the entire retainer tier.
+**Cost to activate:** $1 sign-up + $10 in credits per the On-Page.ai `/install` page. **Time to ship:** 5 minutes to wire the key, 30 minutes to verify the skill comes online, 1 day to re-test on Veritas + GPC.
 
-## The Meridian agent (4 divisions)
+The `content-optimization` skill goes from `⏸️ dormant` to `✅ bound` in `_config/seo-skills.md` — one-line change.
+
+## The OpenSEO skill stack (what we're packaging)
 
 ```
-       ┌─────────────────────────────────────────────────────────────┐
-       │                  MERIDIAN — AI Local Growth Monitor         │
-       └─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────┐
+│                  MERIDIAN — AI Local Growth Orchestrator            │
+│           (new skill: orchestrator, sits ABOVE the 14-skill stack)  │
+└─────────────────────────────────────────────────────────────────────┘
                                        │
         ┌──────────────────────────────┼──────────────────────────────┐
         │                              │                              │
-   Division 1                   Division 2                     Division 3
-   INTELLIGENCE                 STRATEGY                       EXECUTION
-   ─────────────                 ─────────                      ─────────
-   • Localo MCP pull             • Maps pack rank              • Refresh queue
-   • OpenSEO MCP pull              gap analysis                   priorities
-   • On-Page.ai scan             • GBP profile health          • Content briefs
-   • DuckDB historical           • Review velocity +            • Citation list
-     pattern lookup                sentiment                   • Schema additions
-   • LeadSniper signal           • Citation NAP audit          • On-page fixes
-   • Deepline enrichment         • Competitor cohort           • GBP field updates
-                                   (15-page deep scan)            (drafts only)
-                                 • "Near me" keyword           • AI citation audit
-                                   cluster                       (Module A)
-                                 • Maps-pack battle plan
+   Layer 5 — Outreach            Layer 4 — Score              Layer 3 — Enrich
+   ───────────────────            ───────────────              ───────────────
+   • local-seo          ✅         • site-audit        ✅        • content-       ⏸️→✅
+     (GBP + Maps +                  • rank-tracking    ✅          optimization  ($1)
+      reviews + Local              • serp-intelligence ✅         • keyword-library ✅
+      SERP) — already                                                    │
+      bound                                                             │
         │                              │                              │
         └──────────────┬───────────────┘                              │
                        ↓                                              │
-                  Division 4 — QUALITY                                │
-                  ────────────────────                                │
-                  • Before/after score                                │
-                  • SIB (Strategic Intel Brief)                       │
-                  • VALIDATION_QUEUE row                              │
-                  • Approval gate (Dennis + client sign-off)          │
+                  Layer 2 — Discover (keyword universe)              │
+                  ────────────────────────────────────                │
+                  • keyword-research         ✅ bound                 │
+                  • paa-demand-mining        ✅ bound (flagship)      │
+                  • serp-intelligence        ✅ bound                 │
+                  • domain-research          ✅ bound                 │
                        ↓                                              │
-                  Published on approval  ←─────────────────────────────┘
+                  Layer 1 — Plan (HITL gate)                          │
+                  ─────────────────────────                           │
+                  • seo-enrichment-planner   ✅ bound (GATE)         │
+                                                                       │
+                       ↑                                              │
+              Cross-cutting (work in any layer)  ←─────────────────────┘
+              ──────────────────────────────────
+              • openseo-project-intake (project setup)
+              • openseo-data-export (DuckDB mirror)
 ```
 
-Each division hands off a JSON payload to the next. HITL gates sit between Division 3 and Division 4 (no client-facing artifact leaves the system without a VALIDATION_QUEUE row + Dennis approval + client sign-off).
+Every existing skill stays. The new piece is the **Meridian orchestrator** that runs the 5-layer stack as a continuous monitor (cron-driven), not a one-shot audit.
 
-## Product tiers
+## What changes in the OpenSEO codebase (minimal)
 
-### Tier 1 — Local Growth Audit (one-time, $1.5K-3K)
+| Change | Type | File | Effort |
+|--------|------|------|--------|
+| Populate `ONPAGE_API_KEY` in container env | ops | `compose.yaml` env block | 5 min |
+| Update `content-optimization` binding status | docs | `_config/seo-skills.md` | 1 min |
+| Add `Meridian` skill to `~/.hermes/skills/local-growth/` (or `~/.hermes/skills/meridian/`) | new skill | `~/.hermes/skills/meridian/SKILL.md` | 1 day |
+| Add Meridian orchestrator doc to OpenSEO wiki | docs | `clients/open-seo/_config/meridian-orchestrator.md` | 1 hour |
+| Add Meridian to `_config/seo-skill-catalog.md` as Layer 6 (Orchestration) | docs | `_config/seo-skill-catalog.md` | 30 min |
+| Build `_config/service-offering.md` (the public-facing product page) | docs | `clients/open-seo/_config/service-offering.md` | 2 hours |
+| Add 4-tier pricing to sprint doc §11 | docs | `processes/seo-client-onboarding-sprint.md` | 30 min |
 
-**What the client gets:**
-- Full 4-division run on their domain + GBP
-- 11-section PDF audit (eHarmony format via On-Page.ai Recipe #9)
-- Composite Visibility Score (organic 40% + Maps 35% + reviews 15% + citations 10%)
-- Priority ladder: top 5 actions ranked by impact × ease × cost
-- SIB (1-page executive brief)
-- 60-minute strategy call with KlickSmartAI
+**Total engineering to ship v1: ~3-5 days** (assuming On-Page.ai key activated Day 1).
 
-**What we charge:**
+## The 4 product tiers (repackaging the existing stack)
+
+### Tier 1 — Local Growth Audit (one-time)
+
+**What the client gets:** one-shot 4-division run on their domain + GBP.
+
+| Phase | OpenSEO skill used | Deliverable |
+|-------|---------------------|-------------|
+| Plan | `seo-enrichment-planner` | Cost + scope agreement (HITL) |
+| Discover | `domain-research` + `local-seo` | Domain overview, GBP profile, local SERP |
+| Enrich | `content-optimization` (deep scan) | 11-section eHarmony-format PDF (Recipe #9 equivalent) |
+| Score | `site-audit` | Technical SEO issue list, severity-sorted |
+| Outreach | `local-seo` | GBP review velocity + Maps pack rank report |
+
+**Pricing:**
 - $1.5K (single-location SMB, < 50 pages)
 - $2.5K (multi-location or 50-200 pages)
 - $3K+ (enterprise, 200+ pages, multi-region)
 
-**What it costs us:** ~3-5 deep scans + 2 standard scans = ~15-20 credits On-Page.ai (~$2-3) + ~$1 OpenSEO calls + ~30 minutes Meridian run time. **Gross margin ~95%.**
+**What it costs us:** ~3-5 On-Page.ai deep scans + ~$1 OpenSEO calls + ~30 min Meridian orchestration. **Gross margin ~95%.**
 
-### Tier 2 — Local Growth Foundation (one-time, $3K-6K)
+### Tier 2 — Local Growth Foundation (one-time)
 
 **Everything in Tier 1, plus:**
-- Execute the top 5 actions from the audit (Recipe #2 site-wide internal links, Recipe #7 standard optimization, Recipe #16 GBP alignment, citation NAP cleanup, schema additions)
+- Execute top 5 actions from the audit (via `content-optimization` Recipe #7 standard optimization on the 3 highest-priority pages, plus `local-seo` GBP field updates drafted)
 - 1 round of content rewrites for the 3 highest-priority pages
 - Schema JSON-LD additions (LocalBusiness, Service, FAQPage)
-- AI SEO Module A (llms.txt + Organization schema + E-E-A-T author bios + bot-access audit)
+- AI SEO Module A (llms.txt + Organization schema + E-E-A-T author bios + bot-access audit — per the existing `seo-client-onboarding-sprint.md` §10)
 - Re-scan + before/after delta report
 
-**What it costs us:** ~$10-15 in API calls + ~2-4 hours Meridian + ~1-2 hours Dennis review + ~2-3 hours dev (only if client can't self-publish). **Gross margin ~75-85%.**
+**Pricing:**
+- $3K (single-location SMB)
+- $4.5K (multi-location / 50-200 pages)
+- $6K (regional / 200-500 pages)
+- $8K+ (enterprise / 500+ pages)
+
+**What it costs us:** ~$10-15 in API calls + ~2-4 hours Meridian + ~1-2 hours Dennis review. **Gross margin ~75-85%.**
 
 ### Tier 3 — AI Local Growth Retainer ($1.5K-3K/mo, monthly recurring)
 
 **What the client gets:**
-- Weekly Meridian cron pull (Localo + OpenSEO + On-Page.ai deep scan monthly)
-- Monthly SIB (1-page executive brief) with the 3 numbers that matter: rank delta, review velocity, citation count
-- Exception alerts via Telegram/email when something drops (rank -5+, negative review, GBP field missing)
-- 1 content refresh / month (Recipe #6 Light Page Refresh or Recipe #13 Image Alt-Text)
-- Quarterly strategic review call
+- **Weekly Meridian cron** — pulls `local-seo`, `domain-research`, `rank-tracking` from OpenSEO MCP
+- **Monthly On-Page.ai deep scan** — full site content audit, before/after delta vs prior month
+- **Monthly SIB (Strategic Intelligence Brief)** — 1-page executive brief with the 3 numbers that matter: rank delta, review velocity, citation count
+- **Exception alerts via Telegram/email** when something drops (rank -5+, negative review, GBP field missing)
+- **1 content refresh / month** (Recipe #6 Light Page Refresh or Recipe #13 Image Alt-Text)
+- **Quarterly strategic review call**
 
-**What it costs us:** ~$5-10/mo in API + ~30 minutes Meridian + ~30 minutes Dennis + ~15 minutes client-success. **Gross margin ~85-90% on the retainer.**
+**What it costs us:** ~$5-10/mo in API + ~30 minutes Meridian + ~30 minutes Dennis. **Gross margin ~85-90% on the retainer.**
 
 ### Tier 4 — Local Growth Dominance ($3K-6K/mo, monthly recurring)
 
 **Everything in Tier 3, plus:**
-- Bi-weekly deep scans (vs monthly)
+- Bi-weekly On-Page.ai deep scans (vs monthly)
 - 2 content refreshes / month (Recipe #7 standard optimization)
 - A/B test tracking for GBP posts + landing pages
-- Local competitor monitoring (top 3, weekly delta)
+- Local competitor monitoring (top 3, weekly delta via `get_local_serp_results`)
 - Lead attribution from GBP calls + direction requests + website clicks
 - Quarterly on-site strategy session with Dennis + client
 
-**What it costs us:** ~$15-25/mo in API + ~60 minutes Meridian + ~45 minutes Dennis. **Gross margin ~85% on the retainer.**
-
-## Pricing table (target client sizes)
+## Pricing matrix (target client sizes)
 
 | Client type | Tier 1 Audit | Tier 2 Foundation | Tier 3 Retainer | Tier 4 Dominance |
 |-------------|--------------|--------------------|------------------|-------------------|
@@ -136,97 +164,138 @@ Each division hands off a JSON payload to the next. HITL gates sit between Divis
 | Add-on: AI SEO Module A (one-time) | $3-5K | $5-8K | $5-8K | $5-8K |
 | Add-on: AI SEO Module B (monthly) | — | — | $1.5K/mo | $1.5K/mo |
 
-## What makes this different
+## Meridian — the new orchestrator (the only net-new code)
 
-1. **The agent is the product.** Meridian never sleeps, monitors continuously, and catches the rank drops + negative reviews + GBP field changes the moment they happen — not at the next monthly check-in.
-2. **Every artifact is grounded in evidence.** No "best practices" — every recommendation cites the specific scan that surfaced it.
-3. **HITL gate is non-negotiable.** Meridian never publishes to GBP, never replies to a review, never sends outreach. Everything goes through the client's approval queue.
-4. **Composite Visibility Score is one number a CFO can track.** Organic 40% + Maps 35% + reviews 15% + citations 10% — single metric, weekly cadence.
-5. **All three data sources in one report.** The client doesn't need to know we run three vendors — they see one Meridian dashboard.
+Meridian is a new skill that sits **above the 14-skill OpenSEO stack**. It does NOT replace any existing skill — it composes them.
 
-## First customer candidate
+### Subcommands (the slash-command surface)
+
+| Command | Maps to | What it does |
+|---------|---------|--------------|
+| `/meridian portfolio` | All 14 skills, parallel | Cross-client health dashboard (Composite Visibility Score per client) |
+| `/meridian client <slug>` | Layer 1 → Layer 5 walk | Full 5-layer run on one client, lands in `VALIDATION_QUEUE.md` |
+| `/meridian monitor` | `local-seo` + `rank-tracking` only | Cron-driven exception-only check (default: every 30 min) |
+| `/meridian opportunities` | `domain-research` + `local-seo` | Find SMBs with weak local + organic for outbound (LeadSniperAI hook) |
+| `/meridian report <slug>` | Layer 5 (analytics-reporting + local-seo) | Monthly client growth report, 1-page SIB |
+| `/meridian prospect <url>` | All 14 skills | New-prospect SIB + audit + cold email package |
+| `/meridian revenue-hunt` | Cross-portfolio | Cross-client signal mining for expansion opportunities |
+
+### How Meridian calls the existing skills
+
+Meridian does NOT bypass the existing skill stack. It uses the same HITL gate:
+
+1. Meridian calls `seo-enrichment-planner` first → cost estimate + scope agreement
+2. Dennis (the human-in-the-loop) approves with "yes" / "no" / "adjust"
+3. Meridian walks Layer 2 → Layer 5 using the existing skills
+4. Each skill's output is added to the running SIB draft
+5. SIB lands in `clients/<slug>/drafts/seo/STRATEGIC_INTELLIGENCE_BRIEF_<date>.md`
+6. VALIDATION_QUEUE row appended
+7. Telegram ping to Dennis
+
+This means **Meridian inherits all of OpenSEO's audit trail, MCP wiring, and HITL gates for free**. The 4-division architecture I sketched in v1 of this draft is now implemented as a Meridian sub-skill that orchestrates the 14 existing skills rather than a parallel agent system.
+
+## What this unlocks commercially (OpenSEO becomes the platform)
+
+OpenSEO is currently a **technical/infra client** (the engagement is *building* OpenSEO itself). With the AI Local Growth Monitor packaged on top:
+
+1. **OpenSEO stays the platform** — every KlickSmartAI SEO engagement runs through it
+2. **The DuckDB mirror is the canonical store** — every retainer client gets their own `.local_tier/clients/<slug>.duckdb`
+3. **The 14-skill stack stays the building blocks** — no skill retirement, no rewrite
+4. **Meridian becomes the entry point** — clients see one name, not 14 skills
+5. **The OpenSEO repo gets a public-facing surface** — `clients/open-seo/_config/service-offering.md` becomes the product page
+6. **The On-Page.ai integration gets activated** — single env var change, all the dormant skill lights up
+7. **GPC Development + Veritas become case studies** — both have working OpenSEO integrations already
+
+## First customer candidate (unchanged)
 
 **GPC Development** (existing client in our wiki):
-- ✅ Vancouver GC + multifamily, multi-page (21 pages audited)
-- ✅ OpenSEO baseline already in place
-- ✅ DuckDB mirror pattern proven
-- ✅ Owner relationship established (Tak Ho / Zulliy Alnahas)
-- ✅ Existing workspace with `_config/gtm-skills.md`
-- ✅ Multi-location model (perfect test for Meridian's per-location logic)
-- ❌ Localo MCP not yet paid — need to acquire before pilot
+- ✅ OpenSEO baseline already in place (audit `d07f8a86` complete, project `34afee19-d725-4073-b43f-1b76c6275c11`)
+- ✅ DuckDB mirror pattern proven (`.local_tier/clients/gpc-development.duckdb`)
+- ✅ Multi-location model — perfect test for Meridian's per-location logic
+- ❌ `ONPAGE_API_KEY` not populated — would need to be activated before pilot
 
-**Pilot sequence (3 weeks):**
-- Week 1: Buy Localo MCP, install On-Page.ai MCP, build Meridian skill v1, run first `/meridian client gpc-development`
-- Week 2: Build the SIB + monthly report template, validate against client expectations, run a Tier 1 audit for free as proof-of-concept
-- Week 3: Hand off Tier 2 Foundation scope to GPC owners, propose Tier 3 retainer
+**Pilot sequence (revised, 2 weeks):**
+- Day 1: Activate `ONPAGE_API_KEY` ($1), verify `content-optimization` skill comes online, run 3 test scans on GPC
+- Day 2: Author Meridian skill (the orchestrator), bind to OpenSEO wiki
+- Day 3: First full `/meridian client gpc-development` run — 5-layer walk
+- Day 4: Build the SIB template + monthly report template
+- Day 5: Hand off Tier 1 audit (free) to GPC owner as proof-of-concept
+- Week 2: Iterate on SIB format, propose Tier 2 Foundation + Tier 3 Retainer
 
-## Implementation dependencies
-
-| Dependency | Status | Cost to unblock |
-|------------|--------|------------------|
-| Localo MCP | ❌ Blocked on payment | Per-client subscription (~$20-50/mo) |
-| OpenSEO MCP | ✅ Done | (already paid via DataForSEO) |
-| On-Page.ai MCP | ⏳ Not installed | $1 sign-up + $10 in credits |
-| Meridian skill | ❌ Not built | ~3-5 days |
-| `_config/gtm-skills.md` binding | ❌ Not yet | ~1 hour per client |
-| Sprint doc §11 update | ❌ Not yet | ~30 minutes |
-| `seo-client-onboarding-sprint.md` integration | ❌ Not yet | ~2 hours |
-| Sales collateral (1-page PDF, case study, deck) | ❌ Not yet | ~1 day |
-
-**Total time to ship v1: ~1-2 weeks** (assuming Localo + On-Page.ai acquired within first 2 days).
-
-## Sprint doc integration
+## Sprint doc integration (updated)
 
 Add to `processes/seo-client-onboarding-sprint.md` §11:
 
 ```markdown
-## §11. AI Local Growth Monitor (optional retainer)
+## §11. AI Local Growth Monitor (OpenSEO service packaging)
 
 After completing §1-§10, offer the client the AI Local Growth Monitor retainer.
-Lead with the audit-free Tier 3 path for clients who already did an audit; lead
-with Tier 1 + Tier 2 for new prospects who want a phased approach.
+The product is built on top of OpenSEO's existing 14-skill stack — Meridian
+is the orchestrator, not a separate agent system.
 
 Default offering sequence:
-1. Free Composite Visibility Score baseline (no commitment)
-2. Tier 1 Audit if score < 60/100
-3. Tier 2 Foundation if they accept the audit
-4. Tier 3 Retainer after Foundation lands
+1. Free Composite Visibility Score baseline (no commitment) — runs via Meridian
+2. Tier 1 Audit if score < 60/100 — uses `content-optimization` deep scan
+3. Tier 2 Foundation if they accept the audit — executes top 5 actions
+4. Tier 3 Retainer after Foundation lands — weekly cron + monthly SIB
 5. Tier 4 Dominance for clients with budget + multi-location ambition
+
+**Prerequisite for all tiers:** OpenSEO deployed + On-Page.ai key active.
+The Meridian skill + Composite Visibility Score dashboard must be in place
+before any client engagement ships Tier 1.
 ```
 
-## VALIDATION_QUEUE workflow (per client)
+## Composite Visibility Score (unchanged)
 
-Every Meridian execution lands a row in `clients/<slug>/drafts/VALIDATION_QUEUE.md` with:
-- Trigger (cron run / manual / event)
-- Composite Visibility Score (current vs prior)
-- Tier actions taken
-- Drafts ready for review (linked)
-- Decision options (approve / reject / escalate to client)
+The single number a CFO can track:
+- **OpenSEO organic health (via `domain-research`): 40%**
+- **Local SEO Maps rank (via `local-seo`): 35%**
+- **Review velocity (via `local-seo.get_business_reviews`): 15%**
+- **Citation consistency (via `local-seo.search_local_businesses`): 10%**
 
-Client never sees raw API calls. They see one executive brief per month + exception alerts.
+Computed weekly by Meridian, written to DuckDB, surfaced in the SIB.
+
+## HITL guarantees (per existing OpenSEO wiki rules)
+
+Per `clients/open-seo/_config/seo-skill-catalog.md`:
+- Every skill below Layer 1 presents a cost estimate + HITL approval before spend
+- "yes" / "no" / "adjust" response is the gate — never auto-spend
+- Per-client bindings override catalog defaults (Veritas: skip `paa-demand-mining`; GPC: skip `content-optimization` until key active)
+- Module dormancy: if `ONPAGE_API_KEY` missing, `content-optimization` reports "module dormant"
+
+Per `clients/open-seo/CLAUDE.md` (auto-generated adapter for Claude Code):
+- AI-generated client content always lands in `drafts/` first
+- No promotion from `drafts/` to `projects/` without Dennis's explicit approval
+- No autonomous client sends
 
 ## Open questions (for Dennis)
 
-1. **Brand name** — "AI Local Growth Monitor" vs "Meridian" vs "Local Pulse" vs something else?
-2. **First customer** — pilot with GPC Development as planned, or pick a different client first to validate the model?
-3. **Localo pricing** — what's the per-client subscription cost once we sign up? Need this for the margin math.
-4. **Pricing tiers** — does the table above feel right? Should Tier 1 be free as a lead magnet?
-5. **Sales motion** — outbound (LeadSniperAI + cold email) or inbound (wait for referrals from existing SEO clients)?
+1. **Brand name** — keep "AI Local Growth Monitor" or rename? "Meridian" is the orchestrator, the suite is OpenSEO
+2. **First customer** — GPC Development as planned (requires On-Page.ai activation), or pick a different client?
+3. **`ONPAGE_API_KEY`** — buy the $1 sign-up + $10 credits now? Or wait until a paying client?
+4. **Pricing tiers** — does the table above feel right?
+5. **Sales motion** — outbound (LeadSniperAI + cold email) or inbound (referrals from existing SEO clients like Veritas)?
+6. **Meridian skill location** — `~/.hermes/skills/local-growth/` (existing draft) or `~/.hermes/skills/meridian/`? Or inside the OpenSEO repo at `clients/open-seo/skills/`?
 
 ## Source files referenced
 
-- `drafts/future-projects/meridian-local-seo-agent.md` — the agent architecture (4 divisions, 7 slash commands)
-- `drafts/future-projects/on-page-ai-seo-automation.md` — the on-page deep-scan tier
-- `processes/seo-client-onboarding-sprint.md` — where this slots into the existing client flow
-- `processes/_config/gtm-skills.md` — per-client skill binding
+- `clients/open-seo/IDENTITY.md` — OpenSEO platform identity (DataForSEO + Serper + On-Page.ai + Rank Tracker)
+- `clients/open-seo/CONTEXT.md` — task routing table (DuckDB sync, PAA, MCP, deploy)
+- `clients/open-seo/_config/seo-skill-catalog.md` — 14 skills, 5 layers, HITL gate
+- `clients/open-seo/_config/seo-skills.md` — per-client binding rules
+- `clients/open-seo/_config/conventions.md` — module dormancy + commit conventions
+- `clients/open-seo/CLAUDE.md` — Hermes + Claude Code entry point
+- `drafts/future-projects/meridian-local-seo-agent.md` — earlier Meridian draft (now folded into this offering)
+- `drafts/future-projects/on-page-ai-seo-automation.md` — earlier On-Page.ai evaluation (resolved: activation only)
+- `processes/seo-client-onboarding-sprint.md` §10-§11 — AI SEO Modules A+B + new AI Local Growth Monitor section
 - https://api.on-page.ai/llms-full.txt — canonical API reference
-- https://api.on-page.ai/compare/dataforseo — coexistence workflow justification
+- https://api.on-page.ai/compare/dataforseo — coexistence justification (DataForSEO + On-Page.ai = complementary, not competitive)
 
 ## Next steps
 
-1. Dennis reviews this draft + answers the 5 open questions
-2. Acquire Localo MCP paid plan + On-Page.ai MCP sign-up
-3. Build Meridian v1 (skill + 4-division orchestration)
-4. Pilot on GPC Development
-5. Capture case study + build sales collateral
-6. Open Tier 1 + Tier 2 to next 5 clients
+1. Dennis reviews this v2 draft + answers the 6 open questions
+2. Activate `ONPAGE_API_KEY` ($1) → `content-optimization` skill comes online
+3. Author Meridian skill (1 day) → orchestrator wires the 14 existing skills
+4. Build public-facing service-offering page at `clients/open-seo/_config/service-offering.md`
+5. Pilot on GPC Development (2 weeks)
+6. Capture case study + open Tier 1 + Tier 2 to next 5 clients
