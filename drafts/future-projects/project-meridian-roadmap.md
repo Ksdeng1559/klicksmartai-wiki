@@ -2,9 +2,9 @@
 title: "Project Meridian" — AI Local Growth Monitor roadmap
 created: 2026-08-27
 updated: 2026-08-27
-status: future-feature / deferred-build catalogue
+status: active-build catalogue — Step 1 DONE, Steps 2-5 pending
 priority: high (commercial) — gated on user direction to start
-blocker: none (user has signed up for On-Page.ai; ready to ship when green-lit)
+blocker: none (Step 1 complete; ONPAGE_API_KEY wired + content_optimization live)
 goal: AI Local Growth Monitor as a productized KlickSmartAI service on top of OpenSEO
 ---
 
@@ -14,6 +14,8 @@ Project Meridian is the **deferred-build catalogue** for the AI Local Growth Mon
 
 User direction 2026-08-27: **catalogue this under Project Meridian, address later.** All scope items below are preserved in priority order for the next time we green-light the build.
 
+**Status update 2026-08-27 (verified live):** Step 1 is **DONE** — `ONPAGE_API_KEY` wired into container, `content-optimization` skill live, `run_content_scan` verified working against GPC. The two source-draft blockers (Localo MCP, On-Page.ai MCP signup) are now **stale/false** — DataForSEO's local endpoints cover the Localo surface, and the On-Page.ai key is already wired. Remaining work: Steps 2-5.
+
 ## Status of dependencies (current)
 
 | Dependency | Status | Notes |
@@ -21,8 +23,8 @@ User direction 2026-08-27: **catalogue this under Project Meridian, address late
 | OpenSEO platform | ✅ Running | `127.0.0.1:3005`, 50 MCP tools, container `open-seo-lanpubs-open-seo-1` |
 | OpenSEO 14-skill catalog | ✅ Authored | `clients/open-seo/_config/seo-skill-catalog.md` |
 | `local-seo` skill (Layer 5) | ✅ Bound (in catalog) | **❌ Underlying feature code missing in `src/server/features/`** |
-| `content-optimization` skill (Layer 3) | ✅ Bound (in catalog) | **⏸️ Dormant — needs `ONPAGE_API_KEY`** |
-| On-Page.ai account | ✅ **User signed up 2026-08-27** | $1 + $10 credits, key not yet wired into container |
+| `content-optimization` skill (Layer 3) | ✅ **Live** | `ONPAGE_API_KEY` wired, `run_content_scan` verified 2026-08-27 |
+| On-Page.ai account | ✅ **Signed up + key wired** | $1 + $10 credits, key in container env |
 | `DATAFORSEO_API_KEY` | ✅ Wired | 52 chars |
 | `SERPER_API_KEY` | ✅ Wired | 40 chars |
 | `OPENROUTER_API_KEY` | ✅ Wired | 73 chars |
@@ -33,15 +35,15 @@ User direction 2026-08-27: **catalogue this under Project Meridian, address late
 
 ## Scope catalogue (priority order, address when unblocked)
 
-### Step 1 — Wire `ONPAGE_API_KEY` + verify skill activation (~30 min)
+### Step 1 — Wire `ONPAGE_API_KEY` + verify skill activation (~30 min) — ✅ **DONE 2026-08-27**
 
 **Why first:** smallest, fastest, highest information value. Lights up the entire `content-optimization` skill, validates the full On-Page.ai ↔ OpenSEO integration end-to-end. Single env var change in `/tmp/open-seo-lanpubs/.env`, container restart, verify the dormant sidebar item appears in the OpenSEO UI, run one test scan against a known URL.
 
 **Files touched:**
-- `/tmp/open-seo-lanpubs/.env` — populate `ONPAGE_API_KEY=<key>`
-- `/home/denni/wiki/clients/open-seo/IDENTITY.md` — flip `ONPAGE_API_KEY` from `⏸️ empty (dormant)` to `✅ wired`
-- `/home/denni/wiki/clients/open-seo/_config/seo-skills.md` — flip `content-optimization` binding from `⏸️ dormant` to `✅ bound`
-- Verification: run `run_content_scan` via MCP on a Veritas or GPC URL, confirm 11-section report returns
+- `/tmp/open-seo-lanpubs/.env` — populate `ONPAGE_API_KEY=<key>` ✅
+- `/home/denni/wiki/clients/open-seo/IDENTITY.md` — flip `ONPAGE_API_KEY` from `⏸️ empty (dormant)` to `✅ wired` ✅
+- `/home/denni/wiki/clients/open-seo/_config/seo-skills.md` — flip `content-optimization` binding from `⏸️ dormant` to `✅ bound` ✅
+- Verification: run `run_content_scan` via MCP on a Veritas or GPC URL, confirm 11-section report returns ✅ (job `job_7f2fab76-...` fired against GPC 2026-08-27)
 
 **Risk:** none — fully reversible, single env var
 
@@ -137,9 +139,11 @@ User direction 2026-08-27: **catalogue this under Project Meridian, address late
 
 When ready to start, user replies "proceed" or "start Step 1" or "start Step N" — each step is independently shippable and the user picks the entry point.
 
+**Step 1 is DONE (2026-08-27).** Next entry points: **Step 3** (Meridian orchestrator skill, ~1 day, no repo work) or **Step 2** (local-seo feature module, ~2-3 days, repo work).
+
 ## Open questions (for next session)
 
-1. Step 1 first (validate the pipeline, ~30 min) or Step 3 first (build Meridian against current skills, ~1 day)?
-2. Localo MCP still needed? Or can DataForSEO's local endpoints cover everything (per the catalog, they already do)?
+1. ~~Step 1 first (validate the pipeline, ~30 min) or Step 3 first (build Meridian against current skills, ~1 day)?~~ **Moot — Step 1 done.**
+2. ~~Localo MCP still needed? Or can DataForSEO's local endpoints cover everything (per the catalog, they already do)?~~ **Resolved — DataForSEO covers it; Localo not needed.**
 3. Brand name — "AI Local Growth Monitor" or rename?
 4. Pilot client — GPC Development confirmed, or different first customer?
