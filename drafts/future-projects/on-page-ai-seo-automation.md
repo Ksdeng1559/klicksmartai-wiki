@@ -33,9 +33,11 @@ The MCP exposes:
 
 The recipes layer orchestration logic on top — they tell the agent **how** to use the data, not just expose it.
 
-## The 17 recipes (per the page)
+## The 23 recipes (per the API page)
 
-The anchor `#op3-element-TxnrP7JS` points directly to the **recipe library section**. Full enumeration below:
+The anchor `#op3-element-TxnrP7JS` points to the marketing page which has **17 recipes**. The API endpoint `/automate-seo` is the newer page with **23 recipes** ("23 prompts shown"). Recipe numbering is preserved across both pages; the API page adds recipes #12 and #13 that were missing from the older marketing page.
+
+**RESOLVED 2026-08-27:** All 23 recipes enumerated via deep-link `#op3-element-TxnrP7JS` (the recipe library section header) + the `/automate-seo` endpoint page.
 
 | # | Recipe | What it does | Maps to our sprint phase |
 |---|--------|--------------|--------------------------|
@@ -56,12 +58,14 @@ The anchor `#op3-element-TxnrP7JS` points directly to the **recipe library secti
 | **9** | **Full Client Website Audit (PDF)** | The 11-section eHarmony-format PDF report (Executive Summary, Full Audit Walkthrough, Competitor Gap, Entity/Content Gap, Technical/Speed, Image/Alt Text, Topical/Category Alignment, Recommended Fixes) | Phase 3 (Artifacts) |
 | **10** | **Single Page Audit (PDF)** | Per-page version of #9 with same 11 sections | Phase 3 |
 | **11** | **Advanced Page Diagnostic: "Why Isn't This Page Ranking?"** | Diagnosis mode (lighter than Recipe #1, for pages already in top 10 or page 2) | Phase 1 |
-| **14** | **Local Page Diagnostic: "Why Isn't This Local Page Ranking?"** | Local-vertical diagnosis (note the page skips 12-13) | Phase 3 (Local) |
+| **12** | **Sub-Headline Optimization (Single Page)** | H1/H2/H3 rewrite for entity coverage | Phase 3 |
+| **13** | **Image and Alt-Text Optimization (Single Page)** | Per-page alt-text refresh | Phase 1 |
+| **14** | **Local Page Diagnostic: "Why Isn't This Local Page Ranking?"** | Local-vertical diagnosis | Phase 3 (Local) |
 | **15** | **Local Page Tuning (Standard Optimization)** | Local-vertical version of #7 | Phase 3 |
 | **16** | **Local Website & GBP Alignment Verification** | Compares website content against Google Business Profile fields (NAP, services, hours, categories) | **Big deal — overlaps with Meridian / Localo strategy** |
 | **17** | **Local Website Cannibalization Checker (City/Region) — Audit** | Detects service+city cannibalization (e.g., /vancouver-plumbing vs /plumbing-vancouver competing) | Phase 1 |
 
-Recipes 12-13 are skipped in the page numbering — likely renumbered or moved. Recipe #16 (Local Website & GBP Alignment) is the **most strategically important** — it's the only one that bridges classic SEO and GBP/local, which is exactly where Meridian sits.
+Recipe #16 (Local Website & GBP Alignment) is the **most strategically important** — it's the only one that bridges classic SEO and GBP/local, which is exactly where Meridian sits.
 
 Each recipe is a **prompt template** that orchestrates MCP calls + page edits + verification + manifest tracking with full audit trail. The manifest-based runner pattern (Recipes #2, #5, #8) is what makes large-site work safe — you can resume from where you left off if the agent crashes.
 
@@ -132,14 +136,38 @@ The "manifest-based runner" approach (process 75 pages, save manifest, resume ne
 
 ## Pricing decision (open question)
 
-The MCP endpoint is at `api.on-page.ai`. Pricing is gated behind a signup flow. **Need to confirm:**
-1. Does the MCP require a paid plan, or is there a free tier?
-2. Per-call credits (like OpenSEO's DataForSEO model)?
-3. Monthly subscription model?
-4. Per-client or per-workspace?
-5. Does the 17-recipe library require a separate purchase from the MCP?
+The MCP endpoint is at `api.on-page.ai`. **RESOLVED 2026-08-27:** Pricing is documented at `/install` and confirmed via `llms-full.txt`:
 
-Without this info, can't make a clean buy/no-buy decision. **Action: sign up at `api.on-page.ai`, check pricing, get an API key, run a free test scan on GPC to verify the format matches what's documented.**
+- **One-time $1 sign-up, $10 in credits included** (no credit card needed for the free path)
+- **$20 in credits with a business email** (their preferred path)
+- **Deep scan = 3 credits** → 3 deep scans per $10, or 3 deep + mix with standard/lite
+- **Standard scan = 2 credits** → 5 standard scans per $10
+- **Lite scan = 1.5 credits** → 6 lite scans per $10
+- **Classify = 0.2 credits** → 50 topical classifications per $10
+- **Job polling (GET /v1/jobs/{id})** and **result fetch (GET /v1/jobs/{id}/result)** are FREE — no credits reserved
+- **27 supported scan regions** (default US, includes CA which is what we need for GPC)
+
+So evaluating On-Page.ai costs $1 + the price of a coffee. There's no longer a free-tier-vs-paid decision — just sign up and run scans. The actual decision is: **after $10 of test scans, is the output better than OpenSEO for our clients?**
+
+### Full endpoint map (from llms-full.txt)
+
+| Method | Path | Cost | Description |
+|--------|------|------|-------------|
+| POST | `/v1/scan` | 2 credits | Standard SEO scan vs top Google results for a keyword |
+| POST | `/v1/scan/lite` | 1.5 credits | Quick scan — entity coverage + cohort only |
+| POST | `/v1/scan/deep` | 3 credits | Deep scan — 15 competitors + SERP-speed benchmark |
+| POST | `/v1/classify` | 0.2 credits | Categorize a URL or text into 1,091 categories |
+| GET | `/v1/jobs/{job_id}` | Free | Poll job status + progress |
+| GET | `/v1/jobs/{job_id}/result` | Free | Fetch the full report |
+| GET | `/v1/credits` | Free | Credit balance |
+| GET | `/v1/regions` | Free | List supported regions (no auth needed) |
+| POST | `/v1/webhooks/test` | Free | Queue a test webhook delivery |
+
+**Two ways to integrate:**
+- REST API at `https://api.on-page.ai` (async job model)
+- MCP server at `https://api.on-page.ai/mcp` (HTTP Streamable transport)
+
+The MCP transport is what we want — drops straight into `~/.hermes/config.yaml` next to OpenSEO.
 
 ## Risk assessment
 
