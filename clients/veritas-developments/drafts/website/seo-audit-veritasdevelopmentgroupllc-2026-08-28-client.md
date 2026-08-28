@@ -3,13 +3,31 @@ title: "SEO Audit & Recommendations — veritasdevelopmentgroupllc.com"
 type: site-audit-client
 status: DRAFT — awaiting owner validation
 created: 2026-08-28
+updated: 2026-08-30 (v3: hosting-layer finding + search landscape + domain considerations)
 client: Veritas Development Group LLC
 domain: veritasdevelopmentgroupllc.com
-audit_date: 2026-08-28
+audit_date: 2026-08-30
 predecessor: (internal — kept for traceability)
 ---
 
 # SEO Audit & Recommendations — veritasdevelopmentgroupllc.com
+
+## Executive summary
+
+> For: David + Daniel · Reading time: 60 seconds
+
+Your site is reachable and fast, but **Google can't read the words that describe your business** — the homepage renders through JavaScript and the server returns the same HTML shell for every URL, including the paths that should serve `robots.txt` and `sitemap.xml`. Until that's fixed, none of the SEO work below can take effect.
+
+**The fix is one developer sprint.** Server-render the homepage, configure the host to serve real static files at the crawlability paths, and the foundation is in place. From there, the winnable search landscape for "Lee's Summit / Kansas City commercial construction" is **less competitive than you'd expect** — multiple entry keywords have difficulty scores in the 12-26 range, dominated by mid-tier local GCs (not national firms). Veritas can rank in the top 5 within 3-6 months of fixing the foundation.
+
+**Three things to do first, in order:**
+1. **Fix the hosting layer** so search engines can read the site (1 sprint).
+2. **Add real content** — H1, 300+ words describing your services and service area (1 day).
+3. **Stand up local presence** — Google Business Profile + Bing Places (30 minutes).
+
+Everything else is opportunistic. The full plan is below.
+
+---
 
 > **Bottom line: the foundation is missing.** The site is reachable and returns a healthy response. But Google can't actually read the content — the page renders through JavaScript, so the words that describe your business are invisible to search engines. Fixing this single issue clears most of what's wrong.
 
@@ -119,6 +137,41 @@ predecessor: (internal — kept for traceability)
 
 ---
 
+## The search landscape in your service area
+
+A search-engine data pass over commercial-construction + commercial-real-estate keywords with Kansas City / Lee's Summit intent reveals a **less competitive landscape than you'd expect**. The competitive set is dominated by **mid-tier local GCs** at positions 2-10, not national firms. Below is what we found.
+
+### The winnable entry keywords
+
+These are KC-area commercial-construction and commercial-real-estate searches where Veritas could realistically rank in the top 5 once the foundation is fixed. Higher volume is not always better — we weight by *difficulty score* (how hard it is to crack the top 10).
+
+| What people search for | Monthly searches | Difficulty | Why this matters |
+|---|---|---|---|
+| `multifamily contractors` | 90 | **0** | No competition — easy first win |
+| `kansas city corporate housing` | 260 | **1** | Very low competition, real demand |
+| `commercial general contractors kansas city` | 110 | **12** | Veritas's literal category, low bar |
+| `top construction companies in kansas city` | 20 | **18** | Listicle / PR opportunity |
+| `kc home renovations` | 390 | **18** | Service-area term |
+| `commercial real estate loan rates` | 2,400 | **20** | Capital advisory angle |
+| `commercial construction kansas city` | 110 | **26** | Veritas's exact category — winnable |
+| `commercial real estate broker` | 14,800 | **0** | Branded SERP — KD is relative, not "free", but still a beatable SERP |
+
+> **Difficulty scores are relative**, not absolute. A KD 0 means the top-ranking pages have very few backlinks — they're still authoritative for that specific query, but a well-built page from a real local business can compete. KD 30+ means the SERP is hardened.
+
+### What the competitive set looks like
+
+For your service area and category, **16 mid-tier KC general contractors** are the head-to-head competitors Veritas will see in search results once the foundation is fixed. They include regional GCs (with strong brand recognition but typically less web presence than the national firms) and local independents (smaller, less SEO-sophisticated, and beatable).
+
+We also see the **national commercial-construction firms** (Turner, JE Dunn, McCarthy) appearing for the broader category terms, but they don't dominate the KC-local SERPs. Several KC-specific searches return mostly mid-tier locals at positions 2-10 — there is real room to rank without competing against the top-of-market.
+
+And we see the **national banks** (Chase, Bank of America, JPMorgan) dominate commercial-loan informational terms. Don't compete with them directly; instead, write the **educational financing content** Veritas can credibly publish (e.g. "what counts toward commercial-loan down payment") to capture the informational queries nearby.
+
+### What this means for the content plan
+
+Once the foundation is fixed, the first six months of content work should concentrate on the winnable-entry keyword set above. None of these requires Veritas to "out-SEO" anyone nationally — it's a build-credibility-locally campaign.
+
+---
+
 ## Prioritized action plan
 
 ### 🔴 Critical — do these first (they block indexation)
@@ -145,7 +198,20 @@ predecessor: (internal — kept for traceability)
 9. Build out service-area pages (Lee's Summit, Kansas City, Jackson County MO, etc.) for local SEO.
 10. Begin citation building (BBB, Missouri business directories, Kansas City real-estate associations).
 11. Acquire first backlinks (press release, local press coverage, industry directories).
-12. Set up monthly rank tracking + Search Console monitoring.
+12. Set up monthly rank tracking on the **winnable keyword set** in the search landscape section above (~8-12 terms) + Google Search Console monitoring.
+
+---
+
+## Domain considerations
+
+This audit covers `veritasdevelopmentgroupllc.com`. Brief background research noted that **two shorter related domains exist on the public web**: `veritasdevelopment.com` (appearances of a parked or undeveloped page) and `veritasdevelopment.net` (a server responding on a different stack). We don't have verified ownership or current status on these — flagging this for your confirmation rather than recommending a specific action:
+
+- **`veritasdevelopment.com`** — when looked up during research, appeared unoccupied. If it's not in active use by another business, it's a natural vanity domain to land to the primary site (searchers typing "veritas development" land on the right property).
+- **`veritasdevelopment.net`** — when looked up during research, appeared to be live but unrelated to Veritas Development Group LLC. Same question applies — if it's not owned by anyone connected to Veritas, it can be redirected to the primary site as a defensive move.
+
+**Why this matters:** search engines treat brand-name queries very differently. If a future user searches "veritas development kansas city," they should land on `veritasdevelopmentgroupllc.com`. If `.com` shows irrelevant content or is held by a third party, that search experience becomes muddier.
+
+**Recommended next step (after the foundation is fixed):** confirm whether Veritas Development Group LLC owns `.com` and `.net`, and if so, redirect both to the primary site. **This work can wait** — fixing the foundation is more important.
 
 ---
 
@@ -164,9 +230,9 @@ From the previous audit (2026-08-26), we asked:
 
 ## About this audit
 
-- **Date:** 2026-08-28 (updated 2026-08-30 to add hosting-layer finding)
+- **Date:** 2026-08-28 (v1) → 2026-08-30 (v2 added hosting-layer finding) → 2026-08-30 (v3 added search landscape, domain considerations)
 - **Pages analyzed:** 1 (homepage)
-- **Method:** Automated site crawl + search-engine data, plus a manual request of the hosting-layer paths to confirm what's served at `/robots.txt` and `/sitemap.xml`
+- **Method:** Automated site crawl + search-engine data, plus a manual request of the hosting-layer paths to confirm what's served at `/robots.txt` and `/sitemap.xml`, plus a competitive SERP analysis of 33 commercial-intent Kansas City / Lee's Summit keywords across 4 business divisions.
 - **Status:** Draft — awaiting your validation before any next steps
 
 This draft supersedes the earlier internal version of the audit, which is kept for traceability.
