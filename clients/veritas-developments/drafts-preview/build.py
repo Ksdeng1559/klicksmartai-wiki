@@ -26,6 +26,7 @@ DRAFTS = [
     ("kc-family-office-law-firm-channel-2026-08-22.md", "KC Family Office Law Firm Channel", "5 KC firms + outreach playbook"),
     ("team-profile-daniel-bailey-2026-08-22.md", "Team Profile — Daniel Bailey", "FO outreach lead + Veritas team"),
     ("7-touch-outreach-playbook-2026-08-22.md", "7-Touch Outreach Playbook", "T1-T7 templates + Reg D 506(b) compliance"),
+    ("website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md", "SEO Audit — veritasdevelopmentgroupllc.com", "5 findings, 1 critical fix (render gap), client-gate-clean"),
 ]
 
 CSS = """
@@ -353,8 +354,10 @@ def main():
     (OUT_DIR / "index.html").write_text(render_index())
     for fn, title, _ in DRAFTS:
         out_name = fn.replace(".md", ".html")
-        (OUT_DIR / out_name).write_text(render_doc(fn, title))
-        print(f"  ✓ {out_name}")
+        out_path = OUT_DIR / out_name
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(render_doc(fn, title))
+        print(f"  ✓ {out_path.relative_to(OUT_DIR)}")
     src_csv = DRAFTS_DIR / "tam-co-sponsor-capital-2026-08-22.csv"
     dst_csv = OUT_DIR / "tam-co-sponsor-capital-2026-08-22.csv"
     shutil.copy(src_csv, dst_csv)

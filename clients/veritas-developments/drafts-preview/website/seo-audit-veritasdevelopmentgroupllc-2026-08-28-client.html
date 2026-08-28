@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Veritas Draft — SEO Audit & Recommendations — veritasdevelopmentgroupllc.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Veritas Lee's Summit — Drafts Preview</h1>
+  <p class="meta">Local preview · built 2026-08-22 · David + Daniel review · awaiting HITL validation</p>
+</header>
+<nav class="site-nav"><a href="index.html">Index</a>
+    <a href="VALIDATION_QUEUE.html">Validation Queue</a>
+    <a href="tam-co-sponsor-capital-2026-08-22.html">TAM — Co-Sponsor Capital</a>
+    <a href="kc-family-office-law-firm-channel-2026-08-22.html">KC Family Office Law Firm Channel</a>
+    <a href="team-profile-daniel-bailey-2026-08-22.html">Team Profile — Daniel Bailey</a>
+    <a href="7-touch-outreach-playbook-2026-08-22.html">7-Touch Outreach Playbook</a>
+    <a href="website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.html" class="current">SEO Audit — veritasdevelopmentgroupllc.com</a></nav>
+<main>
+  <div class="draft-banner">
+    <strong>⚠ DRAFT — NOT SOURCE-OF-TRUTH</strong> ·
+    <a href="index.html">Back to drafts list</a>
+  </div>
+  <article>
+<h1>SEO Audit &amp; Recommendations — veritasdevelopmentgroupllc.com</h1>
+<blockquote>
+<p><strong>Bottom line: the foundation is missing.</strong> The site is reachable and returns a healthy response. But Google can't actually read the content — the page renders through JavaScript, so the words that describe your business are invisible to search engines. Fixing this single issue clears most of what's wrong.</p>
+</blockquote>
+<h2>At a glance</h2>
+<table>
+<thead>
+<tr>
+<th>What we checked</th>
+<th>What we found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domain</td>
+<td><code>veritasdevelopmentgroupllc.com</code></td>
+</tr>
+<tr>
+<td>Pages indexable</td>
+<td><strong>1</strong> (homepage only)</td>
+</tr>
+<tr>
+<td>Site reachable</td>
+<td>✅ Yes — secure, fast response (69 ms)</td>
+</tr>
+<tr>
+<td>Page title</td>
+<td>99 characters — too long, gets cut off in search results</td>
+</tr>
+<tr>
+<td>Meta description</td>
+<td>242 characters — too long, gets cut off in search results</td>
+</tr>
+<tr>
+<td>Headline (H1)</td>
+<td><strong>Missing</strong></td>
+</tr>
+<tr>
+<td>Words visible to Google</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>Links to other pages</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>XML sitemap</td>
+<td>Not present</td>
+</tr>
+<tr>
+<td>Search keywords ranking</td>
+<td>None — site is not indexed</td>
+</tr>
+<tr>
+<td>Backlinks</td>
+<td>0 sites linking to you</td>
+</tr>
+<tr>
+<td>Google Business Profile</td>
+<td>Not yet set up</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Top 3 priorities:</strong></p>
+<ol>
+<li><strong>Make the homepage content visible to search engines.</strong> This single fix clears 3 of the 5 audit findings.</li>
+<li><strong>Add a clear page headline (H1)</strong> and a few hundred words describing your services and service area.</li>
+<li><strong>Set up the basics search engines need:</strong> XML sitemap, Google Business Profile, and a few starter pages (Services / Projects / About / Contact).</li>
+</ol>
+<p><strong>Quick wins:</strong> trim the page title and meta description. About 15 minutes of work, zero risk.</p>
+<hr />
+<h2>What we found (in priority order)</h2>
+<h3>1. The homepage content isn't visible to search engines (High priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> Page analysis reports <code>wordCount: 0</code>. The page shows a meaningful title and meta description in the source, but the actual body content — the words describing your business — aren't in the HTML Google can read.</li>
+<li><strong>Why it matters:</strong> <strong>This blocks indexation entirely.</strong> Google cannot rank what it cannot read. This single issue causes 3 of the 5 audit findings below.</li>
+<li><strong>Likely cause:</strong> The site loads its main content through JavaScript (common with modern website builders and single-page frameworks).</li>
+<li><strong>Recommended fix:</strong>
+<ol>
+<li>Have your developer server-render the homepage so the headline, body copy, and navigation appear in the initial HTML response — not just after JavaScript runs.</li>
+<li>Once rendered, add <strong>300+ words</strong> of real content describing the company, your services, and your service area (Lee's Summit + Kansas City, MO).</li>
+<li>Re-run the audit afterward — the word count should jump from 0 to 300+, and three of the five findings below should clear automatically.</li>
+</ol>
+</li>
+</ul>
+<h3>2. Missing page headline (H1) (High priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> No H1 detected on <code>https://veritasdevelopmentgroupllc.com/</code>.</li>
+<li><strong>Why it matters:</strong> The H1 is the strongest on-page signal for what a page is about. Missing H1 is a quality flag.</li>
+<li><strong>Recommended fix:</strong> Add a single H1, front-loaded with the primary keyword. Suggested: <code>&lt;h1&gt;Real Estate Development &amp; Construction in Lee's Summit, MO&lt;/h1&gt;</code>.</li>
+</ul>
+<h3>3. No links to other pages (High priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> Homepage has zero internal links. And because of finding #1, there are no other pages to link to anyway.</li>
+<li><strong>Why it matters:</strong> Search engines discover pages by following links. With no links from the homepage, any future service or portfolio pages will be invisible to crawlers.</li>
+<li><strong>Recommended fix:</strong> Add a server-rendered navigation bar (Home / Services / Projects / About / Contact). Even stub pages with short descriptions are better than nothing — they give crawlers a path to follow.</li>
+</ul>
+<h3>4. Meta description too long (Medium priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> 242 characters. Recommended length: 70–160.</li>
+<li><strong>Why it matters:</strong> Search engines truncate long descriptions in results. Your visible description currently cuts off mid-sentence.</li>
+<li><strong>Recommended fix:</strong> Trim to ~150 characters. Suggested:
+<blockquote>
+<p>&quot;Veritas Development Group LLC — real estate development, commercial construction, and capital advisory in Lee's Summit &amp; Kansas City, MO. Built on integrity.&quot;</p>
+</blockquote>
+</li>
+</ul>
+<h3>5. Page title too long (Medium priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> 99 characters. Recommended length: 50–60.</li>
+<li><strong>Why it matters:</strong> Search results truncate long titles. Important keywords get pushed off the end.</li>
+<li><strong>Recommended fix:</strong> Trim to ~55 characters. Suggested:
+<blockquote>
+<p>&quot;Veritas Development Group LLC | Lee's Summit, MO&quot; (47 characters)</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h2>Technical health check (limited — site too thin to fully score)</h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTTPS (secure connection)</td>
+<td>✅ Yes</td>
+<td><code>https://veritasdevelopmentgroupllc.com/</code> returns 200</td>
+</tr>
+<tr>
+<td>Server response time</td>
+<td>✅ Healthy</td>
+<td>69 ms</td>
+</tr>
+<tr>
+<td>Mobile-friendly</td>
+<td>⚠️ Not verified</td>
+<td>Re-test after the homepage content fix lands</td>
+</tr>
+<tr>
+<td>Page speed</td>
+<td>⚠️ Not run</td>
+<td>Will test once the page is fully rendered</td>
+</tr>
+<tr>
+<td>Structured data (schema)</td>
+<td>⚠️ Not detected</td>
+<td>Cannot be reliably detected until the page renders. We'll re-test after the fix.</td>
+</tr>
+<tr>
+<td>XML sitemap</td>
+<td>❌ Not present</td>
+<td>Required</td>
+</tr>
+<tr>
+<td>robots.txt</td>
+<td>⚠️ Not checked in this run</td>
+<td>Verify in the next pass</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Authority &amp; local presence (Stage 1 prerequisites)</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Status</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Other sites linking to you</td>
+<td>0</td>
+<td>Site has never been linked from anywhere we can see</td>
+</tr>
+<tr>
+<td>Search keywords ranking</td>
+<td>0</td>
+<td>Site is not indexed</td>
+</tr>
+<tr>
+<td>Google Business Profile</td>
+<td>Not yet set up</td>
+<td>Required for local SEO</td>
+</tr>
+<tr>
+<td>Bing Places</td>
+<td>Not yet set up</td>
+<td>Required for local SEO</td>
+</tr>
+<tr>
+<td>Name/address/phone consistent across the web</td>
+<td>Not yet verified</td>
+<td>Required for local SEO</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Prioritized action plan</h2>
+<h3>🔴 Critical — do these first (they block indexation)</h3>
+<ol>
+<li><strong>Fix the homepage so search engines can read it.</strong> This is the single fix that unblocks 3 of the 5 audit issues. ~2–4 hours of developer work.</li>
+<li><strong>Add a clear headline + 300+ words</strong> of real, keyword-rich content describing your services + service area.</li>
+</ol>
+<h3>🟠 High-impact — within 1 week of fixing the homepage</h3>
+<ol start="3">
+<li><strong>Trim the page title and meta description.</strong> Quick win — about 15 minutes. <em>(See recommendations #4 and #5 above.)</em></li>
+<li><strong>Add a navigation bar with stub pages</strong> (Services / Projects / About / Contact).</li>
+<li><strong>Create and submit an XML sitemap</strong> to Google Search Console and Bing Webmaster Tools.</li>
+</ol>
+<h3>🟢 Quick wins — do these in parallel</h3>
+<ol start="6">
+<li>Trim title + meta (same as #3).</li>
+<li>Add Organization + LocalBusiness structured data to the homepage once it's server-rendered.</li>
+<li>Set up Google Business Profile + Bing Places (about 30 minutes).</li>
+</ol>
+<h3>🔵 Long-term — after the critical fixes ship</h3>
+<ol start="9">
+<li>Build out service-area pages (Lee's Summit, Kansas City, Jackson County MO, etc.) for local SEO.</li>
+<li>Begin citation building (BBB, Missouri business directories, Kansas City real-estate associations).</li>
+<li>Acquire first backlinks (press release, local press coverage, industry directories).</li>
+<li>Set up monthly rank tracking + Search Console monitoring.</li>
+</ol>
+<hr />
+<h2>Decision point</h2>
+<p>From the previous audit (2026-08-26), we asked:</p>
+<blockquote>
+<p>&quot;Do you want to:</p>
+<ol>
+<li>Coordinate with your developer to make the homepage readable to search engines, or</li>
+<li>Build a static pre-rendered version in parallel, or</li>
+<li>Park this audit and focus on the investor flywheel (current priority)?&quot;</li>
+</ol>
+</blockquote>
+<p><strong>This audit confirms the diagnosis.</strong> The fix is the same. We're waiting on your call before taking next steps.</p>
+<hr />
+<h2>About this audit</h2>
+<ul>
+<li><strong>Date:</strong> 2026-08-28</li>
+<li><strong>Pages analyzed:</strong> 1 (homepage)</li>
+<li><strong>Method:</strong> Automated site crawl + search-engine data</li>
+<li><strong>Status:</strong> Draft — awaiting your validation before any next steps</li>
+</ul>
+<p>This draft supersedes the earlier internal version of the audit, which is kept for traceability.</p>
+  </article>
+</main>
+<footer class="site-footer">
+  Built by KlickSmartAI · 2026-08-22 · preview-only · no commits to source-of-truth
+</footer>
+</body>
+</html>
