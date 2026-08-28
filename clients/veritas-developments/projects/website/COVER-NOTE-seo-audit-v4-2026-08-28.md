@@ -4,9 +4,11 @@ type: release-cover
 status: RELEASED — for David Poole + Daniel Bailey
 created: 2026-08-28
 released_by: Dennis Eng (KlickSmartAI)
-linked_artifact: seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md
-linked_evidence: ../drafts/website/serp-intelligence-2026-08-28.md
----
+|linked_artifact: seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md
+|linked_evidence: ../drafts/website/serp-intelligence-2026-08-28.md
+|wiki_url: https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md
+|wiki_entity: entities/veritas-developments.md
+|---
 
 # Cover Note — SEO Audit v4 — for Review
 
@@ -137,3 +139,7 @@ These are separate deliverables — none will be drafted until both decisions ab
 Dennis
 
 KlickSmartAI · klicksmartai.com
+
+---
+
+**Canonical source:** This cover note is part of the [Veritas Development Group wiki entry](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md). The accompanying audit is at [seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md).

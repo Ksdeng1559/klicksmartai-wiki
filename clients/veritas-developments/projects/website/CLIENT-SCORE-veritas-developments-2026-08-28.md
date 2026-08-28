@@ -11,8 +11,10 @@ score_tier: CONDITIONAL
 recommendation: PROCEED CONDITIONAL
 created: 2026-08-28
 created_by: Dennis Eng (KlickSmartAI)
-predecessor: seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md
----
+|predecessor: seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md
+|wiki_url: https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md
+|wiki_entity: entities/veritas-developments.md
+|---
 
 # Client Score — Veritas Development Group LLC
 
@@ -137,3 +139,9 @@ Once the foundation lands (1 sprint, ~1 week of developer time + KlickSmartAI ma
 - Generated: 2026-08-28 via skill `seo-audit-report` v1.1.0
 
 **This document is client-facing. No internal cost lines, no internal hour figures, no KlickSmartAI rate cards. The pricing shown is the bundled, what-you-pay number.**
+
+---
+
+## Canonical source
+
+This client score is part of the [Veritas Development Group wiki entry](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md) in the KlickSmartAI knowledge base, alongside the [parent audit](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md) and the [cover note](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md).
