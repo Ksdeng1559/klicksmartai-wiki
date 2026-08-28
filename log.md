@@ -183,3 +183,12 @@ Notes: Job will fire at 8:00 PM PST daily. REQUIRES hermes gateway to be running
 - Source: `~/wiki/clients/veritas-developments/.local_tier/clients/veritas-developments.duckdb` (Phase A schema v1.1.0)
 - This is the **first publish through the Phase C pipeline** — establishes the DuckDB → wiki flow
 
+
+## [2026-08-28] publish | veritas-developments — 3 deliverable(s) published to wiki
+- Published via `publish-workspace-to-wiki` skill (script: publish_client_to_wiki.py)
+- Deliverables:
+  - `audit-v4-2026-08-28` — SEO Audit — veritasdevelopmentgroupllc.com (v4) (3816 words)
+  - `client-score-2026-08-28` — Client Score — Veritas Development Group LLC (1490 words)
+  - `cover-memo-v4-2026-08-28` — Cover Note — SEO Audit v4 (1043 words)
+- Entity page: `entities/veritas-developments.md`
+- Index rows added: 3 audit row(s) + 1 entity row (if new)

@@ -10,10 +10,8 @@ fabric/
 Thumbs.db
 
 # graphify regenerable cache (per-file AST) — rebuild locally
-graphify-out/cache/
-graphify-out/converted/
-# graphify dated dump dirs (regenerated daily, 800k+ per day, not source of truth)
-graphify-out/2026-*/
+graphify-out/
+# Keep graphify-out/ structure on disk; gitignore excludes all regenerable artifacts
 
 # Nested git clones (separate repos, not wiki content)
 /agency-agents/
