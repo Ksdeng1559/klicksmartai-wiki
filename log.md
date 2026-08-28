@@ -171,3 +171,15 @@ Notes: Job will fire at 8:00 PM PST daily. REQUIRES hermes gateway to be running
 - 2026-08-05: Built Executive Summary generator — backend/app/services/executive_summary.py (rules-templated, works without Gemini; LLM path stubbed for when key arrives) + POST /api/v1/executive-summary endpoint. Verified live: Milani Plumbing full 8-section client-ready markdown from DataForSEO auto-fetch + place_topics + review intelligence + contact.
 - 2026-08-05: Updated hermes-skills-hub.md — refreshed from docs Bundled Skills Catalog (71 skills/13 categories, server-rendered canonical source; hub page is client-rendered 88k+ registry). Added local install inventory (474 skills, 10 bundled-but-missing listed with restore command).
 - 2026-08-06: Ingested Swan GTM Skills library full mirror (267 SKILL.md, 45 authors) → raw/swan-gtm/ + raw/wiki-knowledge/entities/swan-gtm-gtm-skills.md; LeadSniper SGI PRD from Notion → raw/wiki-knowledge/entities/leadsniper-sgi-prd.md; search stack → raw/wiki-knowledge/concepts/search-stack.md
+
+
+## [2026-08-28] publish | Veritas Developments — 3 audit deliverables released via Phase C pipeline
+- Backfilled 3 RELEASED SEO audit deliverables from Veritas client workspace DuckDB to wiki:
+  - audit-audit-v4-2026-08-28 — SEO Audit — veritasdevelopmentgroupllc.com (v4) (3816 words)
+  - audit-client-score-2026-08-28 — Client Score — Veritas Development Group LLC (1490 words)
+  - audit-cover-memo-v4-2026-08-28 — Cover Note — SEO Audit v4 (1043 words)
+- Created [veritas-developments](entities/veritas-developments.md) entity page (canonical client entry; cross-links all 3 audits + growth program pilot)
+- Added 3 audit rows to index.md `## Audits`; added 1 entity row to `## People & Companies`
+- Source: `~/wiki/clients/veritas-developments/.local_tier/clients/veritas-developments.duckdb` (Phase A schema v1.1.0)
+- This is the **first publish through the Phase C pipeline** — establishes the DuckDB → wiki flow
+
