@@ -8,9 +8,11 @@ released: 2026-08-28
 released_by: Dennis Eng (KlickSmartAI) — for David Poole + Daniel Bailey review
 client: Veritas Development Group LLC
 domain: veritasdevelopmentgroupllc.com
-audit_date: 2026-08-28
-predecessor: (internal — kept for traceability)
----
+|audit_date: 2026-08-28
+|predecessor: (internal — kept for traceability)
+|wiki_url: https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md
+|wiki_entity: entities/veritas-developments.md
+|---
 
 # SEO Audit & Recommendations — veritasdevelopmentgroupllc.com
 
@@ -303,3 +305,13 @@ We're waiting on both decisions before executing the content plan.
 - **Status:** Released 2026-08-28 — presentable to David + Daniel for review. Two pending decisions documented in the Decision point section (Reg-D compliance for C3, PR listicle decision for P2).
 
 This draft supersedes the earlier internal version of the audit, which is kept for traceability.
+
+---
+
+## Canonical source
+
+This audit is part of the [Veritas Development Group wiki entry](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md) in the KlickSmartAI knowledge base, alongside the [cover note](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md) and the [client score](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/CLIENT-SCORE-veritas-developments-2026-08-28.md).
+
+- **Entity page:** [entities/veritas-developments.md](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/entities/veritas-developments.md)
+- **Audit source:** [seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md](https://github.com/Ksdeng1559/klicksmartai-wiki/blob/master/clients/veritas-developments/projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md)
+- **Authoritative copy:** The markdown source on the wiki is the source of truth; HTML copies rendered from it are derivative.
