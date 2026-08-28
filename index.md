@@ -10,6 +10,7 @@
 | ncf-national-christian-foundation | NCF org profile — mission, values, audience, language patterns, outreach angles, DAF market context; capital source for Spectra Holdings Group |
 | spectra-holdings-group | Spectra Holdings Group — 7-module intelligence profile (L3 complete); 19-division community dev holding company; KlickSmartAI 92%, WWR 82%, NCF 88% fit; MCF + CDFI + missionary work capital targets |
 | capital-stack-recoverable-grants | Recoverable grants as a mission-aligned capital layer for Spectra Holdings and Propel Community Development — foundation landscape, capital stack models, case studies, eligibility, pilot action plan, and executive recommendation |
+| veritas-developments | Jackson County, MO real-estate developer (Veritas Development Group LLC) — active client; pilot implementation of the multi-agent DuckDB workspace pattern. Workspace at `clients/veritas-developments/`, canonical store at `.local_tier/clients/veritas-developments.duckdb` (v1.1.0). See [veritas-developments](entities/veritas-developments.md) · [veritas-growth-program-pilot](veritas-growth-program-pilot.md) |
 
 ## Projects
 | entity-id | Description |
@@ -58,6 +59,9 @@
 |----------|-------------|
 | deliverability-audit-idc | Email deliverability audit for Insurance Direct Canada |
 | idc-gamma-blueprint | IDC Gamma content blueprint |
+| audit-audit-v4-2026-08-28 | **SEO Audit — veritasdevelopmentgroupllc.com (v4)** — 3816 words · released 2026-08-28 · [source](projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md) · [entity page](entities/veritas-developments.md) |
+| audit-client-score-2026-08-28 | **Client Score — Veritas Development Group LLC** — 1490 words · released 2026-08-28 · [source](projects/website/CLIENT-SCORE-veritas-developments-2026-08-28.md) · [entity page](entities/veritas-developments.md) |
+| audit-cover-memo-v4-2026-08-28 | **Cover Note — SEO Audit v4** — 1043 words · released 2026-08-28 · [source](projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md) · [entity page](entities/veritas-developments.md) |
 
 ## GTM Engineer Resources
 | resource-id | Description |
