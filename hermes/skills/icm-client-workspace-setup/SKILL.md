@@ -267,6 +267,27 @@ If the workspace already exists for the client (most common case — Veritas alr
 
 `get_domain_overview` returning `organicTraffic: null, organicKeywords: null, backlinks: null, referringDomains: null, hasData: false` is **honest output, not a tool failure**. It means DataForSEO's index has no data for that domain — the site is too new, too low-authority, or deindexed. Same for `referringDomains: { totalCount: 0 }`. Report the nulls as a zero score on that dimension; do not retry, do not "fix" the call.
 
+### F. Paid-MCP pivot — when an audit endpoint sits behind a paid wall
+
+The first SEO audit on a new client often runs into an MCP that needs a paid signup (e.g. Localo for Google Business Profile / citation workflows, On-Page.ai for on-page optimization, BrightLocal for review monitoring, SEMrush APIs, etc.). When a 7-call sequence hits a paid gate, **do not block the audit on it** — pivot to a free, equivalent endpoint and note the deferred upgrade.
+
+**The triage rule (binding):**
+
+1. **Hit a paid MCP wall during audit setup.** Tool returns `402`, redirects to a checkout page, or refuses without an API key bound to a paid plan.
+2. **Check the partner / direct-API equivalent before signup.** Most paid MCPs wrap a public API (e.g. Localo → DataForSEO Business Data API; On-Page.ai → DataForSEO On-Page API; BrightLocal → DataForSEO Local Pack). The KlickSmartAI router already has DataForSEO endpoints wired via the OpenSEO MCP, so the pivot is usually zero-cost.
+3. **Confirm with Dennis before pivoting.** Single-line ask: *"X is paid. I can pivot to Y (already wired). OK?"* He replies "yes" / "fine" / "do it" → proceed. He replies "we will get that later" / "later" → defer the upgrade, pivot to the equivalent endpoint, and add a row to `drafts/TODO-paid-mcps.md` so the upgrade isn't forgotten.
+4. **Document the deferred upgrade in IDENTITY.md** under the corporate entity or web-property row: *"Local SEO scan: deferred (Localo MCP paid). Pivot endpoint: DataForSEO Local Pack via OpenSEO."*
+5. **Commit the wire-up change** so future audits don't re-hit the same gate. The pattern (On-Page.ai wired via DataForSEO On-Page endpoint) is captured in commit `8761939` for reference.
+
+**What "deferred" means operationally:** the audit uses the pivot endpoint for the trial / first-touch artifact; the paid MCP is parked in `drafts/TODO-paid-mcps.md` for future upgrade when the client signs or budget clears. Do NOT silently swap endpoints and pretend the paid MCP doesn't exist — that erases the upgrade path.
+
+**Dennis's exact framing (verbatim, from 2026-08-27):**
+> *"on page api we have a connection. that is fine you can wire it. localo mcp, is paid. we will get that later"*
+
+Treat "we will get that later" / "parked" / "paid, defer" as the canonical user signal for paid-MCP triage. The pivot endpoint fires immediately; the paid MCP enters the parking lot with a TODO row.
+
+**Why this matters:** the GPC and Veritas audits both hit this gate on different endpoints. Without an explicit triage rule, future agents re-discover the wall, re-ask Dennis, and burn 5–10 min per gate. The pivot also keeps the audit cost low (DataForSEO is per-call micro-cost vs. paid-MCP subscription).
+
 ## Pitfalls
 
 1. **Don't write `CONTEXT.md` and skip `CLAUDE.md`** — Hermes won't auto-pick up ICM routing without the adapter file.
@@ -279,10 +300,11 @@ If the workspace already exists for the client (most common case — Veritas alr
 8. **`CLAUDE.md` is the protected rulebook file** — the safety layer treats edits to it as agent-instruction-file modifications and BLOCKS autonomous writes. **Do not silently edit `CLAUDE.md`.** Surface the proposed diff to Dennis and wait for explicit "yes" / "go" / "approve". `_config/*.md` and `IDENTITY.md` / `CONTEXT.md` are fine to write autonomously; `CLAUDE.md` is not.
 9. **Don't auto-migrate legacy flat files into vertical subfolders** — when back-porting verticals into an existing client (e.g. Veritas), the parent `drafts/` / `projects/` / `deliverables/` may already contain validated flat files (e.g. `prime-lees-summit.md`). These are legacy source-of-truth artifacts. Leave them. The new vertical subfolders are for *future* work. State the rule explicitly in `IDENTITY.md` so the agent doesn't try to "clean up."
 10. **Empty vertical subfolders may already exist** in legacy client workspaces (e.g. Veritas had them pre-scaffold as `drafts/website/`, `drafts/landing-page/` … but empty). Don't delete them; populate their READMEs from the templates and treat them as part of the layout. Use `ls <folder>/` to detect pre-existing empty subfolders before `mkdir -p`.
-11. **For HTML/video deliverables, the `.md` IS the source of truth, not just the artifact spec.** Promote the `.md` to `projects/<vertical>/` alongside the rendered `.html`/`.mp4` in `deliverables/<vertical>/`. Never promote only the rendered artifact — the markdown holds the prompt, brief, and any citations.
-12. **`verticals: []` is empty list, not unset** — if the user says "no verticals" they likely mean a research-only client (text deliverables at parent level). Default to no vertical subfolders unless they name a list. Don't over-scaffold.
-13. **Don't generate `drafts-preview/<vertical>/` subfolders unless the vertical actually produces HTML** — emails and decks are HTML, but image-only deliverables (ad-creative, logo, PDF) don't need a preview folder. Either skip it or alias it to a generic `build.py` script.
-14. **Don't scaffold a duplicate workspace for a same-brand or LLC-renamed client.** Before `mkdir`, search `~/wiki/clients/` for related slugs. If a workspace exists for the same company (e.g. `veritas-developments/` already covered `veritasdevelopmentgroupllc.com`), add the audit to the existing workspace as a draft + queue row + IDENTITY.md note. Do NOT create `veritas-developments-llc/`. Duplicate workspaces = duplicate source-of-truth = future cleanup tax. Always ask the user to confirm which entity is canonical.
+12. **For HTML/video deliverables, the `.md` IS the source of truth, not just the artifact spec.** Promote the `.md` to `projects/<vertical>/` alongside the rendered `.html`/`.mp4` in `deliverables/<vertical>/`. Never promote only the rendered artifact — the markdown holds the prompt, brief, and any citations.
+13. **`verticals: []` is empty list, not unset** — if the user says "no verticals" they likely mean a research-only client (text deliverables at parent level). Default to no vertical subfolders unless they name a list. Don't over-scaffold.
+14. **Hit a paid MCP during audit setup — pivot, don't block.** See section F above. The default is *not* to wait for the user to buy the MCP. Default is to check the equivalent endpoint already in the stack (DataForSEO via OpenSEO covers most cases), ask one-line confirmation ("X is paid, pivot to Y — OK?"), and add a TODO row for the upgrade. The Veritas Localo and On-Page.ai gates are the canonical examples (commits `769b405`, `8761939`).
+15. **Don't generate `drafts-preview/<vertical>/` subfolders unless the vertical actually produces HTML** — emails and decks are HTML, but image-only deliverables (ad-creative, logo, PDF) don't need a preview folder. Either skip it or alias it to a generic `build.py` script.
+16. **Don't scaffold a duplicate workspace for a same-brand or LLC-renamed client.** Before `mkdir`, search `~/wiki/clients/` for related slugs. If a workspace exists for the same company (e.g. `veritas-developments/` already covered `veritasdevelopmentgroupllc.com`), add the audit to the existing workspace as a draft + queue row + IDENTITY.md note. Do NOT create `veritas-developments-llc/`. Duplicate workspaces = duplicate source-of-truth = future cleanup tax. Always ask the user to confirm which entity is canonical.
 
 ## Discovery setup (wiki-scoped skills)
 
