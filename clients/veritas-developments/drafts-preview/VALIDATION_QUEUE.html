@@ -16,7 +16,8 @@
     <a href="tam-co-sponsor-capital-2026-08-22.html">TAM — Co-Sponsor Capital</a>
     <a href="kc-family-office-law-firm-channel-2026-08-22.html">KC Family Office Law Firm Channel</a>
     <a href="team-profile-daniel-bailey-2026-08-22.html">Team Profile — Daniel Bailey</a>
-    <a href="7-touch-outreach-playbook-2026-08-22.html">7-Touch Outreach Playbook</a></nav>
+    <a href="7-touch-outreach-playbook-2026-08-22.html">7-Touch Outreach Playbook</a>
+    <a href="website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.html">SEO Audit — veritasdevelopmentgroupllc.com</a></nav>
 <main>
   <div class="draft-banner">
     <strong>⚠ DRAFT — NOT SOURCE-OF-TRUTH</strong> ·
@@ -31,7 +32,7 @@
 <p><strong>Rule:</strong> No draft → projects/ promotion until David (primary) + Daniel (relationship-validation) have answered the <strong>specific question</strong> for that draft.</p>
 </blockquote>
 <hr />
-<h2>Files in drafts/ (5 files, awaiting validation)</h2>
+<h2>Files in drafts/ (6 files, awaiting validation)</h2>
 <table>
 <thead>
 <tr>
@@ -76,6 +77,27 @@
 <td><code>7-touch-outreach-playbook-2026-08-22.md</code></td>
 <td>Outreach playbook</td>
 <td><strong>David + Daniel</strong></td>
+<td>⏳ Awaiting</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>leadsniper-search-alignment-2026-08-23.md</code></td>
+<td>Search strategy realignment</td>
+<td><strong>Dennis + David</strong></td>
+<td>⏳ Awaiting</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md</code></td>
+<td>Site audit (LLC domain, legacy flat-path)</td>
+<td><strong>David</strong> (web fix priority)</td>
+<td>⏳ Awaiting — superseded by #8</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>website/seo-audit-veritasdevelopmentgroupllc-2026-08-28.md</code></td>
+<td>SEO audit + recommendations (LLC domain, current)</td>
+<td><strong>David</strong> (web fix priority)</td>
 <td>⏳ Awaiting</td>
 </tr>
 </tbody>
@@ -148,6 +170,26 @@
 <p><strong>HITL question for David + Daniel:</strong></p>
 <blockquote>
 <p>&quot;This playbook assumes Daniel makes 5-7 warm calls this week, David sends LinkedIn requests to law firm partners, and you host a private dinner at Jasper's in 2-3 weeks. Please confirm: does this timeline + cadence match your actual operational capacity? If not, what should change?&quot;</p>
+</blockquote>
+<hr />
+<h3>5. LeadSniper Search-Strategy Alignment (2026-08-23)</h3>
+<p><strong>Validation owner:</strong> <strong>Dennis (data accuracy) + David (deal fit)</strong></p>
+<p><strong>Status:</strong> ICM-required Stage 02 (Market Search). Today's run returned 5 RE operators (Homoly, Tower, Yates, Copaken, Landmark) — wrong ICP for the capital raise. 3 new search-strategy rows inserted to Supabase <code>workspace_search_strategies</code> aligned to <code>co-sponsor-gp-target-list.md</code> Tiers 1/2/3.</p>
+<p><strong>Assumption validation:</strong></p>
+<ul>
+<li>[ ] <strong>Tier 1 — KC family foundations</strong> (Kauffman, Hall, Bloch, Menorah, Health Forward) — is this the right Tier 1 universe, or are there KC foundations missing (Sosland, Crane, Ingram)?</li>
+<li>[ ] <strong>Tier 2 — KC wealth advisors</strong> (Mariner, Moneta, Country Club Trust, Bessemer KC, Wilmington Trust KC, etc.) — does David or Daniel have an actual relationship with any of them? Without a relationship, the channel is cold outreach (Reg D 506(b) restricted).</li>
+<li>[ ] <strong>Tier 3 — RE-focused GPs</strong> (Shelterwood, KC Property Partners, Griffin, Avanath, PGIM) — does Veritas want co-GP or only LP capital? If only LP, archive Tier 3.</li>
+<li>[ ] <strong>Today's 5 lead operators</strong> (Homoly, Tower Properties, Yates, Copaken, Landmark) — keep as deal-flow / JV-partner candidates in a separate draft, or discard?</li>
+<li>[ ] <strong>Negative signal-gate additions:</strong> add <code>re_developer</code>, <code>property_manager</code>, <code>homebuilder</code>, <code>land_buyer</code>, <code>land_wholesaler</code> to <code>signal_gate_veritas.NEGATIVE_CATEGORY_PATTERNS</code>?</li>
+</ul>
+<p><strong>HITL question for David:</strong></p>
+<blockquote>
+<p>&quot;Today's LeadSniper run returned RE operators — the wrong ICP. I rewrote the search strategies to match Tier 1 (KC family foundations), Tier 2 (KC FFO wealth advisors), and Tier 3 (RE-focused GPs) from the canonical target list. Please confirm: is this the right universe for the capital raise, and where does the existing operator leads list belong?&quot;</p>
+</blockquote>
+<p><strong>HITL question for Daniel:</strong></p>
+<blockquote>
+<p>&quot;Of the Tier 2 wealth advisors (Mariner, Moneta, Country Club Trust, etc.), which do you actually know? The 506(b) safe harbor depends on a real personal-intro path.&quot;</p>
 </blockquote>
 <hr />
 <h2>How promotion works (HITL gate)</h2>
@@ -235,11 +277,17 @@
 <li>
 <p><strong>Compliance framework (Reg D 506(b))</strong> — &quot;Should this be validated by Polsinelli before any LP commitment is solicited? (recommended)&quot;</p>
 </li>
+<li>
+<p><strong>LeadSniper search-strategy alignment (2026-08-23)</strong> — &quot;Today's run returned RE operators, not co-sponsors. I rewrote the 3 search strategies (Tier 1 family foundations, Tier 2 FFO wealth advisors, Tier 3 RE-focused GPs) from the canonical target list. Confirm: does this match your deal-thesis universe, and where do today's 5 operator leads belong?&quot;</p>
+</li>
 </ol>
 <hr />
 <h2>Status tracking</h2>
 <ul>
 <li>2026-08-22: Validation queue created. 5 drafts moved from projects/ → drafts/. No commits made. Awaiting David + Daniel feedback.</li>
+<li>2026-08-23: Added draft #6 — LeadSniper search-strategy alignment. Inserted 3 ICM-aligned search strategies to Supabase <code>workspace_search_strategies</code> (Tier 1 family foundations, Tier 2 FFO wealth advisors, Tier 3 RE-focused GPs). Confirmed ICP gap: today's run returned RE operators (wrong ICP for capital-raise thesis). Awaiting David + Daniel feedback on draft #6.</li>
+<li>2026-08-26: Added draft #7 — OpenSEO site audit on <code>veritasdevelopmentgroupllc.com</code>. Created OpenSEO project <code>d506a90e</code> + ran audit <code>46c9e589</code>. Found 5 issues (missing H1, thin content 0 words, no internal links, title 99 chars, meta 242 chars). Domain score: ~16/100. Backlinks: 0. Organic keywords: 0. Most likely cause: JS-rendered content (not a content gap — a render gap). Awaiting David Poole feedback on fix priority (server-render vs pre-render vs park for investor-flywheel priority).</li>
+<li>2026-08-28: Added draft #8 — SEO audit + recommendations on <code>veritasdevelopmentgroupllc.com</code>. Old OpenSEO project <code>d506a90e</code> no longer exists on the self-hosted instance; created fresh project <code>b5ac472f</code> + ran audit <code>01a4f57f</code> via the on-page.ai wire-up (from <code>8761939</code>). Same 5 issues confirmed (no regression, no improvement — same JS-render gap). Cross-checked DataForSEO domain overview + backlinks — site still not indexed, 0 referring domains. Diagnosis unchanged from #7: server-render or pre-render is the single fix that unblocks 3 of 5 findings. Draft #7 marked superseded but kept in place per <code>IDENTITY.md</code> legacy rule. Awaiting David Poole feedback on fix priority (same question as #7).</li>
 </ul>
 <hr />
 <p><em>This queue is the gate. Nothing gets promoted without HITL approval.</em></p>
