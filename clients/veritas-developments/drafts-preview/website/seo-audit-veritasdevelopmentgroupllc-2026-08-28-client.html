@@ -71,7 +71,11 @@
 </tr>
 <tr>
 <td>XML sitemap</td>
-<td>Not present</td>
+<td><strong>Blocked — server returns the app shell, not XML</strong></td>
+</tr>
+<tr>
+<td>Robots file</td>
+<td><strong>Blocked — server returns the app shell, not rules</strong></td>
 </tr>
 <tr>
 <td>Search keywords ranking</td>
@@ -89,39 +93,55 @@
 </table>
 <p><strong>Top 3 priorities:</strong></p>
 <ol>
-<li><strong>Make the homepage content visible to search engines.</strong> This single fix clears 3 of the 5 audit findings.</li>
+<li><strong>Fix the hosting layer so search engines can read the site.</strong> Three issues compound here: the homepage content is invisible to crawlers (rendered only after JavaScript runs), and the server returns the same page shell for <code>/robots.txt</code> and <code>/sitemap.xml</code> instead of valid files. All three fixes are part of the same root cause and need to land together.</li>
 <li><strong>Add a clear page headline (H1)</strong> and a few hundred words describing your services and service area.</li>
-<li><strong>Set up the basics search engines need:</strong> XML sitemap, Google Business Profile, and a few starter pages (Services / Projects / About / Contact).</li>
+<li><strong>Set up the basics search engines need:</strong> valid XML sitemap + <code>robots.txt</code>, Google Business Profile, and a few starter pages (Services / Projects / About / Contact).</li>
 </ol>
 <p><strong>Quick wins:</strong> trim the page title and meta description. About 15 minutes of work, zero risk.</p>
 <hr />
 <h2>What we found (in priority order)</h2>
-<h3>1. The homepage content isn't visible to search engines (High priority)</h3>
+<h3>1. The site has a hosting-layer routing problem (High priority)</h3>
+<ul>
+<li><strong>What we saw:</strong> When we request <code>/robots.txt</code> and <code>/sitemap.xml</code>, the server returns the same HTML page shell that the homepage returns — not a valid robots file or an XML sitemap. Search engines expect plain text and XML at those paths, and they treat a 200 HTML response at those URLs as &quot;no file present.&quot;</li>
+<li><strong>Why it matters:</strong> <strong>This blocks crawlability at the infrastructure level, not just at the page level.</strong> Even after the homepage is fixed, search engines still need a valid <code>robots.txt</code> to know what they're allowed to crawl, and a valid <code>sitemap.xml</code> to discover the URLs they should index. Without these, indexing will stay slow or incomplete.</li>
+<li><strong>Likely cause:</strong> The hosting configuration serves the single-page application (SPA) shell for every path, including paths that should be served as static files. This is a common SPA-hosting misconfiguration.</li>
+<li><strong>Recommended fix:</strong>
+<ol>
+<li>Tell your hosting provider (or developer) to configure the server so <code>/robots.txt</code> returns a real robots file and <code>/sitemap.xml</code> returns a real XML document.</li>
+<li>The sitemap should list every indexable URL on the site with <code>&lt;lastmod&gt;</code> dates. For now, that's just the homepage.</li>
+<li>The robots file should at minimum declare the sitemap location (<code>Sitemap: https://veritasdevelopmentgroupllc.com/sitemap.xml</code>) and allow all crawlers.</li>
+</ol>
+</li>
+</ul>
+<h3>2. The homepage content isn't visible to search engines (High priority)</h3>
 <ul>
 <li><strong>What we saw:</strong> Page analysis reports <code>wordCount: 0</code>. The page shows a meaningful title and meta description in the source, but the actual body content — the words describing your business — aren't in the HTML Google can read.</li>
-<li><strong>Why it matters:</strong> <strong>This blocks indexation entirely.</strong> Google cannot rank what it cannot read. This single issue causes 3 of the 5 audit findings below.</li>
+<li><strong>Why it matters:</strong> <strong>Google cannot rank what it cannot read.</strong> This single issue, on its own, is enough to keep the site out of search results — regardless of any other SEO work.</li>
 <li><strong>Likely cause:</strong> The site loads its main content through JavaScript (common with modern website builders and single-page frameworks).</li>
 <li><strong>Recommended fix:</strong>
 <ol>
 <li>Have your developer server-render the homepage so the headline, body copy, and navigation appear in the initial HTML response — not just after JavaScript runs.</li>
 <li>Once rendered, add <strong>300+ words</strong> of real content describing the company, your services, and your service area (Lee's Summit + Kansas City, MO).</li>
-<li>Re-run the audit afterward — the word count should jump from 0 to 300+, and three of the five findings below should clear automatically.</li>
+<li>Re-run the audit afterward — the word count should jump from 0 to 300+, and several of the other findings below should clear automatically.</li>
 </ol>
 </li>
 </ul>
-<h3>2. Missing page headline (H1) (High priority)</h3>
+<blockquote>
+<p><strong>These first two issues compound.</strong> They share a root cause — the site's setup treats every URL the same way and renders content at runtime. Fixing one without the other leaves a partial improvement. The good news: both fixes usually land in the same developer sprint.</p>
+</blockquote>
+<h3>3. Missing page headline (H1) (High priority)</h3>
 <ul>
 <li><strong>What we saw:</strong> No H1 detected on <code>https://veritasdevelopmentgroupllc.com/</code>.</li>
-<li><strong>Why it matters:</strong> The H1 is the strongest on-page signal for what a page is about. Missing H1 is a quality flag.</li>
+<li><strong>Why it matters:</strong> The H1 is the strongest in-page signal for what a page is about. Missing H1 is a quality flag.</li>
 <li><strong>Recommended fix:</strong> Add a single H1, front-loaded with the primary keyword. Suggested: <code>&lt;h1&gt;Real Estate Development &amp; Construction in Lee's Summit, MO&lt;/h1&gt;</code>.</li>
 </ul>
-<h3>3. No links to other pages (High priority)</h3>
+<h3>4. No links to other pages (High priority)</h3>
 <ul>
-<li><strong>What we saw:</strong> Homepage has zero internal links. And because of finding #1, there are no other pages to link to anyway.</li>
+<li><strong>What we saw:</strong> Homepage has zero internal links. And because of finding #2, there are no other pages to link to anyway.</li>
 <li><strong>Why it matters:</strong> Search engines discover pages by following links. With no links from the homepage, any future service or portfolio pages will be invisible to crawlers.</li>
 <li><strong>Recommended fix:</strong> Add a server-rendered navigation bar (Home / Services / Projects / About / Contact). Even stub pages with short descriptions are better than nothing — they give crawlers a path to follow.</li>
 </ul>
-<h3>4. Meta description too long (Medium priority)</h3>
+<h3>5. Meta description too long (Medium priority)</h3>
 <ul>
 <li><strong>What we saw:</strong> 242 characters. Recommended length: 70–160.</li>
 <li><strong>Why it matters:</strong> Search engines truncate long descriptions in results. Your visible description currently cuts off mid-sentence.</li>
@@ -131,7 +151,7 @@
 </blockquote>
 </li>
 </ul>
-<h3>5. Page title too long (Medium priority)</h3>
+<h3>6. Page title too long (Medium priority)</h3>
 <ul>
 <li><strong>What we saw:</strong> 99 characters. Recommended length: 50–60.</li>
 <li><strong>Why it matters:</strong> Search results truncate long titles. Important keywords get pushed off the end.</li>
@@ -179,13 +199,13 @@
 </tr>
 <tr>
 <td>XML sitemap</td>
-<td>❌ Not present</td>
-<td>Required</td>
+<td>❌ <strong>Broken</strong></td>
+<td>Server returns the SPA HTML shell instead of valid XML. Hosting misconfiguration.</td>
 </tr>
 <tr>
 <td>robots.txt</td>
-<td>⚠️ Not checked in this run</td>
-<td>Verify in the next pass</td>
+<td>❌ <strong>Broken</strong></td>
+<td>Server returns the SPA HTML shell instead of valid robots directives. Same root cause as sitemap.</td>
 </tr>
 </tbody>
 </table>
@@ -231,9 +251,12 @@
 <h2>Prioritized action plan</h2>
 <h3>🔴 Critical — do these first (they block indexation)</h3>
 <ol>
-<li><strong>Fix the homepage so search engines can read it.</strong> This is the single fix that unblocks 3 of the 5 audit issues. ~2–4 hours of developer work.</li>
-<li><strong>Add a clear headline + 300+ words</strong> of real, keyword-rich content describing your services + service area.</li>
+<li><strong>Fix the hosting layer.</strong> Have your hosting provider or developer configure the server so <code>/robots.txt</code> and <code>/sitemap.xml</code> return valid static files instead of the SPA page shell. This is a hosting-config fix, not a content fix. ~1–2 hours of developer work.</li>
+<li><strong>Fix the homepage so search engines can read it.</strong> Have your developer server-render the homepage and add <strong>300+ words</strong> of real, keyword-rich content describing your services and service area. ~2–4 hours of developer work.</li>
 </ol>
+<blockquote>
+<p><strong>Both fixes are usually the same developer sprint</strong> — the underlying issue is the SPA-hosting pattern, and fixing it once typically resolves both.</p>
+</blockquote>
 <h3>🟠 High-impact — within 1 week of fixing the homepage</h3>
 <ol start="3">
 <li><strong>Trim the page title and meta description.</strong> Quick win — about 15 minutes. <em>(See recommendations #4 and #5 above.)</em></li>
@@ -268,9 +291,9 @@
 <hr />
 <h2>About this audit</h2>
 <ul>
-<li><strong>Date:</strong> 2026-08-28</li>
+<li><strong>Date:</strong> 2026-08-28 (updated 2026-08-30 to add hosting-layer finding)</li>
 <li><strong>Pages analyzed:</strong> 1 (homepage)</li>
-<li><strong>Method:</strong> Automated site crawl + search-engine data</li>
+<li><strong>Method:</strong> Automated site crawl + search-engine data, plus a manual request of the hosting-layer paths to confirm what's served at <code>/robots.txt</code> and <code>/sitemap.xml</code></li>
 <li><strong>Status:</strong> Draft — awaiting your validation before any next steps</li>
 </ul>
 <p>This draft supersedes the earlier internal version of the audit, which is kept for traceability.</p>
