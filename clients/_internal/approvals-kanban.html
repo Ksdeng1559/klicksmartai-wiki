@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KlickSmartAI — Approval Kanban</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    margin: 0; padding: 0;
+    background: #f8fafc; color: #0f172a;
+  }
+  header {
+    background: linear-gradient(135deg, #1e293b, #312e81);
+    color: white; padding: 1.5rem 2rem;
+  }
+  header h1 { margin: 0 0 0.25rem 0; font-size: 1.5rem; }
+  header .meta { font-size: 0.85rem; opacity: 0.85; }
+  header .meta code { background: rgba(255,255,255,0.15); padding: 0.1rem 0.4rem; border-radius: 3px; }
+  .toolbar {
+    background: #fff;
+    padding: 0.75rem 2rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap;
+    font-size: 0.85rem;
+  }
+  .toolbar input[type="search"] {
+    border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.4rem 0.75rem;
+    min-width: 280px;
+  }
+  .toolbar select, .toolbar button {
+    border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.4rem 0.6rem;
+    background: white; cursor: pointer; font-size: 0.85rem;
+  }
+  .toolbar .stat { margin-left: auto; color: #64748b; }
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    align-items: start;
+  }
+  .column { background: #f1f5f9; border-radius: 8px; min-height: 480px; }
+  .column-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1rem 1rem 0.75rem 1rem;
+  }
+  .column-header h2 { margin: 0; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.05em; color: #334155; }
+  .count {
+    color: white; border-radius: 12px; padding: 0.15rem 0.6rem;
+    font-size: 0.75rem; font-weight: 600;
+  }
+  .column-body { padding: 0.5rem 1rem 1.5rem 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
+  .empty { text-align: center; color: #94a3b8; font-style: italic; padding: 2rem 0; font-size: 0.9rem; }
+  .card {
+    background: white; border-radius: 8px; padding: 0.85rem 1rem;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+  .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-1px); }
+  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .tag {
+    color: white; font-size: 0.7rem; font-weight: 600;
+    padding: 0.15rem 0.5rem; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.03em;
+  }
+  .cost { font-size: 0.75rem; color: #64748b; }
+  .card-file { margin-bottom: 0.5rem; }
+  .card-file code {
+    background: #f1f5f9; color: #1e293b;
+    padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.78rem;
+    word-break: break-all;
+  }
+  .card-notes { font-size: 0.83rem; line-height: 1.5; color: #475569; margin-bottom: 0.6rem; }
+  .card-foot { display: flex; align-items: center; justify-content: space-between; }
+  .client {
+    background: #ede9fe; color: #6d28d9; font-size: 0.72rem;
+    padding: 0.1rem 0.5rem; border-radius: 4px; font-weight: 600;
+  }
+  .hidden { display: none !important; }
+  .summary {
+    background: #fff;
+    border-radius: 8px; margin: 1.5rem 2rem 0 2rem; padding: 1rem 1.25rem;
+    border: 1px solid #e2e8f0; font-size: 0.85rem; color: #475569;
+  }
+  .summary strong { color: #0f172a; }
+  .summary code, footer code { background: #f1f5f9; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.85em; }
+  footer { padding: 2rem; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📋 KlickSmartAI — Approval Kanban</h1>
+  <div class="meta">Drafts awaiting HITL approval across all client workspaces · Last refreshed 2026-08-29 05:48 UTC · Source: <code>VALIDATION_QUEUE.md</code></div>
+</header>
+
+<div class="toolbar">
+  <input type="search" id="search" placeholder="Search by file name, type, or notes..." />
+  <select id="filter-client">
+    <option value="">All clients</option>
+    <option value="gpc-development">gpc-development</option>
+  </select>
+  <select id="filter-type">
+    <option value="">All types</option>
+    <option value="audit-page">audit-page</option>
+<option value="audit-page-1p">audit-page-1p</option>
+<option value="audit-quote">audit-quote</option>
+<option value="client-score">client-score</option>
+<option value="project-settings">project-settings</option>
+  </select>
+  <span class="stat">5 cards · <strong style="color:#f59e0b">0</strong> pending · <strong style="color:#3b82f6">0</strong> approved · <strong style="color:#10b981">5</strong> promoted</span>
+</div>
+
+<div class="summary">
+  <strong>Workflow:</strong>
+  AI drafts land in <code>drafts/&lt;vertical&gt;/</code> with a row in <code>VALIDATION_QUEUE.md</code> (status: <em>pending Dennis review</em>).
+  Dennis replies <code>approve</code> / <code>revise</code> / <code>kill</code> → agent updates the row.
+  Approved items are promoted to <code>projects/&lt;vertical&gt;/</code> (markdown source-of-truth) + <code>deliverables/&lt;vertical&gt;/</code> (rendered HTML), row flips to <em>promoted</em>.
+  Optional final step: <code>publish-workspace-to-wiki</code> publishes to <code>entities/&lt;client&gt;.md</code> with wiki backlinks.
+</div>
+
+<div class="board">
+  
+        <div class="column" style="border-top: 4px solid #f59e0b;">
+          <div class="column-header">
+            <h2>Pending Dennis Review</h2>
+            <span class="count" style="background:#f59e0b">0</span>
+          </div>
+          <div class="column-body"><div class="empty">No items in this column</div></div>
+        </div>
+  
+        <div class="column" style="border-top: 4px solid #3b82f6;">
+          <div class="column-header">
+            <h2>Approved — Awaiting Promotion</h2>
+            <span class="count" style="background:#3b82f6">0</span>
+          </div>
+          <div class="column-body"><div class="empty">No items in this column</div></div>
+        </div>
+  
+        <div class="column" style="border-top: 4px solid #10b981;">
+          <div class="column-header">
+            <h2>Promoted to projects/deliverables</h2>
+            <span class="count" style="background:#10b981">5</span>
+          </div>
+          <div class="column-body">
+        <div class="card" data-client="gpc-development" data-type="audit-quote">
+          <div class="card-head">
+            <span class="tag" style="background:#ec4899">audit-quote</span>
+            <span class="cost">$0 (used existing audit data)</span>
+          </div>
+          <div class="card-file"><code>audit-quote-2026-08-26-gpc-development.md</code></div>
+          <div class="card-notes">First-pass quote sheet for GPC. URL: `gpcdevelopment.ca`. 21 pages, 110 issues. Total quoted: $8,000 + $1,500/mo optional.</div>
+          <div class="card-foot"><span class="client">gpc-development</span></div>
+        </div>
+
+        <div class="card" data-client="gpc-development" data-type="audit-page">
+          <div class="card-head">
+            <span class="tag" style="background:#8b5cf6">audit-page</span>
+            <span class="cost">$0 (used existing audit data)</span>
+          </div>
+          <div class="card-file"><code>audit-2026-08-26-gpc-development.md</code></div>
+          <div class="card-notes">Client-facing audit page (gatekept via `audit-page-gate` skill). 21 pages, 135 opportunities across 7 categories. Long-form (8.7 KB). No internal costs, no tool names, no Phase sequencing.</div>
+          <div class="card-foot"><span class="client">gpc-development</span></div>
+        </div>
+
+        <div class="card" data-client="gpc-development" data-type="audit-page-1p">
+          <div class="card-head">
+            <span class="tag" style="background:#8b5cf6">audit-page-1p</span>
+            <span class="cost">$0 (used existing audit data)</span>
+          </div>
+          <div class="card-file"><code>audit-1page-2026-08-26-gpc-development.md</code></div>
+          <div class="card-notes">**1-page visual** with score card (18/100), issue fingerprint radar, priority ladder, before/after impact bars, 4-step engagement timeline. **Supersedes** the long-form for first-touch. Companion stub to `drafts-previ...</div>
+          <div class="card-foot"><span class="client">gpc-development</span></div>
+        </div>
+
+        <div class="card" data-client="gpc-development" data-type="client-score">
+          <div class="card-head">
+            <span class="tag" style="background:#f59e0b">client-score</span>
+            <span class="cost">$0 (derived from existing audit + DuckDB keyword data)</span>
+          </div>
+          <div class="card-file"><code>CLIENT-SCORE-gpc-development-2026-08-28.md</code></div>
+          <div class="card-notes">**New deliverable type** (registered in `_config/deliverables.md`). 23/100 CONDITIONAL tier, 4-dim weighted scoring (tech 30 / content 18 / local 12 / SERP 28). ROI: $148K Yr-1 / $284K Yr-2 run-rate on $8K spend (18.5...</div>
+          <div class="card-foot"><span class="client">gpc-development</span></div>
+        </div>
+
+        <div class="card" data-client="gpc-development" data-type="project-settings">
+          <div class="card-head">
+            <span class="tag" style="background:#06b6d4">project-settings</span>
+            <span class="cost">$0 (auto-generated from DuckDB mirror)</span>
+          </div>
+          <div class="card-file"><code>project-settings-2026-08-26-gpc-development.md</code></div>
+          <div class="card-notes">Content brief: business context, writing preferences, keyword library, key pages, 29 competitors, rank tracker, SERP landscape, PAA findings, research log, recommended work order. Auto-regeneratable via `scripts/regen...</div>
+          <div class="card-foot"><span class="client">gpc-development</span></div>
+        </div></div>
+        </div>
+</div>
+
+<footer>
+  Auto-generated from <code>~/wiki/clients/*/drafts/**/VALIDATION_QUEUE.md</code>.
+  Refresh: <code>python3 ~/.hermes/skills/productivity/seo-audit-report/build-approvals-kanban.py</code>
+</footer>
+
+<script>
+  const search = document.getElementById('search');
+  const filterClient = document.getElementById('filter-client');
+  const filterType = document.getElementById('filter-type');
+
+  function applyFilters() {
+    const q = (search.value || '').toLowerCase();
+    const fc = filterClient.value;
+    const ft = filterType.value;
+    document.querySelectorAll('.card').forEach(card => {
+      const text = (card.textContent || '').toLowerCase();
+      const client = card.dataset.client || '';
+      const type = card.dataset.type || '';
+      const matchesQ = !q || text.includes(q);
+      const matchesClient = !fc || client === fc;
+      const matchesType = !ft || type === ft;
+      card.classList.toggle('hidden', !(matchesQ && matchesClient && matchesType));
+    });
+  }
+  search.addEventListener('input', applyFilters);
+  filterClient.addEventListener('change', applyFilters);
+  filterType.addEventListener('change', applyFilters);
+</script>
+
+</body>
+</html>

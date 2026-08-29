@@ -1,3 +1,8 @@
+---
+status: RELEASED
+promoted_at: 2026-08-28
+---
+
 # SEO Audit & Engagement Quote — GPC Development
 
 **Prepared for:** GPC Development (Tak Ho, Zulliy Alnahas)

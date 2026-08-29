@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>project-settings-2026-08-26-gpc-development — GPC Development</title>
+    <meta name="author" content="KlickSmartAI">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            max-width: 880px;
+            margin: 40px auto;
+            padding: 0 32px;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+        }
+        h1 {
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 16px;
+            color: #003d7a;
+            font-size: 32px;
+        }
+        h2 {
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            color: #003d7a;
+        }
+        h3 {
+            margin-top: 28px;
+            color: #1a1a1a;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 10px 14px;
+            border: 1px solid #d4d4d4;
+            text-align: left;
+        }
+        th { background: #f5f7fa; font-weight: 600; }
+        tr:nth-child(even) { background: #fafafa; }
+        code {
+            background: #f5f7fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 90%;
+            font-family: 'SF Mono', Monaco, monospace;
+        }
+        pre {
+            background: #f5f7fa;
+            padding: 16px 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        blockquote {
+            border-left: 4px solid #0066cc;
+            margin-left: 0;
+            padding: 8px 16px;
+            background: #f5f7fa;
+            color: #003d7a;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #e5e5e5;
+            margin: 32px 0;
+        }
+        strong { color: #003d7a; }
+    </style>
+</head>
+<body>
+<hr />
+<p>status: RELEASED
+promoted_at: 2026-08-28</p>
+<hr />
+<h1>gpc-development — Project Settings &amp; Content Brief</h1>
+<p><strong>Source:</strong> OpenSEO D1 → DuckDB mirror (synced via <code>openseo-duckdb-sync</code> cron, every 30 min)
+<strong>Project ID:</strong> <code>34afee19-d725-4073-b43f-1b76c6275c11</code>
+<strong>DuckDB mirror:</strong> <code>/home/denni/wiki/clients/gpc-development/.local_tier/clients/gpc-development.duckdb</code>
+<strong>Last refreshed:</strong> 2026-08-26
+<strong>Audience for this brief:</strong> Internal (Dennis / KlickSmartAI content team)
+<strong>Purpose:</strong> Single source of truth for content + SEO work.</p>
+<hr />
+<h2>Part 1 — Business context</h2>
+<h3>Business overview</h3>
+<blockquote>
+<p>GPC Development is a West Coast construction and development firm based in Vancouver, BC. Site tag line: "A West Coast development and construction studio building considered architecture from Vancouver. Project financing, construction management, and advisory." Portfolio spans multifamily residential (Mackenzie Heights, Spanish Banks, Westbourne, The Lauren, Inova, Axir, Lizzybay, Moonlight Sonata, Buddhist Student Residence) and a few single-family / infill addresses (516 W 61st, Ablone Road, Barrington Road, Frances). Key people bios: Tak Ho and Zulliy Alnahas.</p>
+</blockquote>
+<h3>Current goal (organic)</h3>
+<blockquote>
+<p>Drive organic inbound leads from people looking to hire a Vancouver-area construction/development firm, by creating content around the services and project types we actually do. (inferred — likely lead-gen rather than sales, since the site is a portfolio without ecommerce)</p>
+</blockquote>
+<h3>Positioning</h3>
+<blockquote>
+<p>Confirmed: GPC's organic content focus is multifamily residential builds (multi-family residential, apartments, townhouse, low/mid-rise) across Vancouver, with general contractor / construction company as the buyer-intent wrapper. Custom home / luxury single-family is a secondary line at best.</p>
+</blockquote>
+<h3>Brand voice &amp; audience</h3>
+<blockquote>
+<p>Audience: Tak Ho (principal), Zulliy Alnahas (development lead), Vancouver GC + development principals evaluating vendors. Voice: confident plain-language, specific numbers (sqft, build cost, neighbourhood), no contractor-speak jargon, no superlatives, project-led examples. Hero word: 'considered' (architecture, projects, sites). Avoid 'best' / 'leading' / 'world-class'.</p>
+</blockquote>
+<h3>Market &amp; competition</h3>
+<blockquote>
+<p>Primary market: Metro Vancouver, BC (DataForSEO locationCode 2124). Language: English. Currency: CAD. Reporting cadence: monthly. Competition focus: mid-rise multifamily residential (3-6 storey), wood-frame + concrete hybrid. Skip: branded mega-developers (Bosa, Concord Pacific, Onni), high-rise (&gt;10 storey), single-family custom home. Compliance: none (B2B services, not regulated).</p>
+</blockquote>
+<h3>Technical SEO baseline (CRITICAL)</h3>
+<blockquote>
+<p>Site-audit (2026-08-26) confirms 21 pages crawl but every page returns wordCount=0 (zero body text in server-rendered HTML). Every page shares the same title and meta description; all 21 have missing-h1, no-outgoing-links, thin-content, and 20 are orphan pages. Site is a Next.js / SPA where content renders client-side — Google likely indexes the rendered version, but the lack of server-rendered HTML plus identical titles means organic visibility is near-zero across all target terms. CRITICAL: this must be fixed before content work has compounding value.</p>
+</blockquote>
+<hr />
+<h2>Part 2 — Writing preferences &amp; keyword strategy</h2>
+<blockquote>
+<p>Multifamily primary, custom / luxury single-family secondary. Anchored by GC + construction-company commercial terms (vancouver general contractors, contractor vancouver, construction contractor vancouver), supported by multifamily-specific long-tails (multi-family residential, multi unit residential building, townhouse vancouver, apartment buildings vancouver, development companies vancouver) and a smaller custom-home bucket (custom home builders vancouver, luxury home builders vancouver, design build vancouver). Skip apartment-rental / branded-developer terms (bosa, concord pacific) — those SERPs are uncompetitive for a single firm.</p>
+</blockquote>
+<hr />
+<h2>Part 3 — Keyword library snapshot</h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Live count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saved keywords (library)</td>
+<td>120</td>
+</tr>
+<tr>
+<td>With hydrated metrics</td>
+<td>1014</td>
+</tr>
+<tr>
+<td>Audits</td>
+<td>4</td>
+</tr>
+<tr>
+<td>PAA scans</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Rank tracker keywords</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h3>Top performing keywords (by volume)</h3>
+<table>
+<thead>
+<tr>
+<th>Keyword</th>
+<th>Vol/mo</th>
+<th>KD</th>
+<th>CPC</th>
+<th>Intent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>Rank tracker (25 keywords, weekly schedule)</h3>
+<ul>
+<li>construction company vancouver</li>
+<li>construction contractor vancouver</li>
+<li>construction management vancouver</li>
+<li>construction project management vancouver</li>
+<li>contractor vancouver</li>
+<li>contractors vancouver</li>
+<li>design build vancouver</li>
+<li>development companies vancouver</li>
+<li>general contractors north vancouver</li>
+<li>multi family residential buildings</li>
+<li>multifamily construction vancouver</li>
+<li>multifamily residential vancouver</li>
+<li>north vancouver general contractor</li>
+<li>real estate developers vancouver</li>
+<li>real estate development companies vancouver</li>
+<li>residential builder vancouver</li>
+<li>residential construction vancouver</li>
+<li>townhouse builder vancouver</li>
+<li>townhouse vancouver</li>
+<li>vancouver builder</li>
+<li>vancouver construction company</li>
+<li>vancouver developer</li>
+<li>vancouver developers</li>
+<li>vancouver general contractor</li>
+<li>vancouver general contractors</li>
+</ul>
+<hr />
+<h2>Part 4 — Key pages (site architecture)</h2>
+<h3>Hub pages (5)</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Topic</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>https://gpcdevelopment.ca</td>
+<td>Vancouver construction &amp; development studio</td>
+<td>Homepage — money page for 'Vancouver general contractor' and 'Vancouver development' queries.</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/about</td>
+<td>About GPC + team bios</td>
+<td>Trust page — Tak Ho + Zulliy Alnahas bio.</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/approach</td>
+<td>Approach / methodology</td>
+<td>Trust page — explains process. Currently thin content.</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/projects</td>
+<td>Portfolio index</td>
+<td>Portfolio index — links to individual project pages (currently orphaned).</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/services</td>
+<td>Services — construction management, project financing, advisory</td>
+<td>Service hub — long-tail for buyer-intent queries.</td>
+</tr>
+</tbody>
+</table>
+<h3>Money pages (1)</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Topic</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>https://gpcdevelopment.ca/contact</td>
+<td>Contact / inquiry form</td>
+<td>Conversion page — primary CTA.</td>
+</tr>
+</tbody>
+</table>
+<h3>Spoke pages (4)</h3>
+<table>
+<thead>
+<tr>
+<th>URL</th>
+<th>Topic</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>https://gpcdevelopment.ca/projects/mackenzie-heights</td>
+<td>Mackenzie Heights multifamily project</td>
+<td>Top portfolio spoke. Long-tail: 'Mackenzie Heights developer Vancouver'.</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/projects/spanish-banks</td>
+<td>Spanish Banks project</td>
+<td>Westside Vancouver single-family (rare — keep short).</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/projects/the-lauren</td>
+<td>The Lauren multifamily project</td>
+<td>Multifamily spoke.</td>
+</tr>
+<tr>
+<td>https://gpcdevelopment.ca/projects/westbourne</td>
+<td>Westbourne multifamily project</td>
+<td>Multifamily spoke.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Part 5 — Competitors</h2>
+<h3>alairhomes.com</h3>
+<p><strong>Name:</strong> Alair Homes Vancouver</p>
+<blockquote>
+<p>Network of custom home builders, top-10 organic for "custom home builder vancouver"</p>
+</blockquote>
+<h3>anthemproperties.com</h3>
+<p><strong>Name:</strong> Anthem Properties</p>
+<blockquote>
+<p>Vancouver multi-family developer, 140/mo "anthem properties careers"</p>
+</blockquote>
+<h3>beedie.ca</h3>
+<p><strong>Name:</strong> Beedie</p>
+<blockquote>
+<p>Real estate developer, top-5 organic for "development companies vancouver"</p>
+</blockquote>
+<h3>bosa.com</h3>
+<p><strong>Name:</strong> Bosa Properties</p>
+<blockquote>
+<p>Vancouver developer (not GC). Skip — branded-developer SERPs are uncompetitive.</p>
+</blockquote>
+<h3>cedarcoast.com</h3>
+<p><strong>Name:</strong> Cedar Coast</p>
+<blockquote>
+<p>Pacific NW real estate developer, top-15 organic for "development companies vancouver"</p>
+</blockquote>
+<h3>clayconstruction.ca</h3>
+<p><strong>Name:</strong> Clay Construction</p>
+<blockquote>
+<p>Custom home builder Vancouver, 20+ years, Georgie Awards. SERP threat on "custom home builder vancouver"</p>
+</blockquote>
+<h3>cressey.com</h3>
+<p><strong>Name:</strong> Cressey Development Group</p>
+<blockquote>
+<p>55+ years Vancouver developer, top-15 organic for "development companies vancouver"</p>
+</blockquote>
+<h3>goodmanreport.com</h3>
+<p><strong>Name:</strong> Goodman Report</p>
+<blockquote>
+<p>Vancouver commercial real estate / multi-family apartment buildings specialist, #6 organic for "apartment buildings vancouver"</p>
+</blockquote>
+<h3>haslerhomes.com</h3>
+<p><strong>Name:</strong> Hasler Homes</p>
+<blockquote>
+<p>Vancouver custom home builder, 170/mo "hasler homes", KD 0</p>
+</blockquote>
+<h3>heilmanrenovations.com</h3>
+<p><strong>Name:</strong> Heilman Renovations</p>
+<blockquote>
+<p>Vancouver renovation/GC firm, 140/mo "heilman renovations", KD 4</p>
+</blockquote>
+<h3>jpdcontracting.ca</h3>
+<p><strong>Name:</strong> JPD Contracting</p>
+<blockquote>
+<p>Vancouver design build / multi-family home builders, top-3 organic for "multi-family construction vancouver builder"</p>
+</blockquote>
+<h3>laneonehomes.ca</h3>
+<p><strong>Name:</strong> Lane One Homes</p>
+<blockquote>
+<p>Multi-family duplexes/triplexes/fourplexes, top-10 organic for "multi-family construction vancouver builder"</p>
+</blockquote>
+<h3>ledcor.com</h3>
+<p><strong>Name:</strong> Ledcor Group</p>
+<blockquote>
+<p>BC-based GC, multifamily + commercial. Real competitor for $20M+ builds.</p>
+</blockquote>
+<h3>ledcorgroup.com</h3>
+<p><strong>Name:</strong> Ledcor</p>
+<blockquote>
+<p>National general contractor with Vancouver office, 320/mo "ledcor vancouver", KD 13</p>
+</blockquote>
+<h3>levelone.ca</h3>
+<p><strong>Name:</strong> Level One Construction</p>
+<blockquote>
+<p>Vancouver design-build GC, owns local-pack #1 on "contractor vancouver"</p>
+</blockquote>
+<h3>ljhconstruction.com</h3>
+<p><strong>Name:</strong> LJH Construction</p>
+<blockquote>
+<p>Apartment &amp; multi-family construction Vancouver, top-3 organic for "multi-family construction vancouver builder"</p>
+</blockquote>
+<h3>lowercoastbuildinggroup.com</h3>
+<p><strong>Name:</strong> Lower Coast Building Group</p>
+<blockquote>
+<p>Multi-family builder, 590/mo "lower coast building group", KD 21</p>
+</blockquote>
+<h3>majorhomes.ca</h3>
+<p><strong>Name:</strong> Major Homes</p>
+<blockquote>
+<p>Award-winning custom home builder Vancouver, 3 generations, top-20 organic for "custom home builder vancouver"</p>
+</blockquote>
+<h3>naikooncustomhomes.ca</h3>
+<p><strong>Name:</strong> Naikoon Custom Homes</p>
+<blockquote>
+<p>Net zero / mass timber custom home builder Vancouver, top-15 organic for "custom home builder vancouver"</p>
+</blockquote>
+<h3>pci-group.com</h3>
+<p><strong>Name:</strong> PCI Developments</p>
+<blockquote>
+<p>40+ years Metro Vancouver developer, top-10 organic for "development companies vancouver"</p>
+</blockquote>
+<h3>pcl.com</h3>
+<p><strong>Name:</strong> PCL Construction</p>
+<blockquote>
+<p>Top-5 Canadian GC, large institutional projects. Skip in favor of mid-size comparison.</p>
+</blockquote>
+<h3>phwhomes.com</h3>
+<p><strong>Name:</strong> PHW Homes</p>
+<blockquote>
+<p>Vancouver custom home builder, 30/mo, KD 22</p>
+</blockquote>
+<h3>platcon.ca</h3>
+<p><strong>Name:</strong> Platinum Contracting</p>
+<blockquote>
+<p>Custom home builder North/West Vancouver, local-pack #3 on "contractor vancouver"</p>
+</blockquote>
+<h3>solarisproperties.ca</h3>
+<p><strong>Name:</strong> Solaris Properties</p>
+<blockquote>
+<p>Multi-family home builder Vancouver, top-8 organic for "multi-family construction vancouver builder"</p>
+</blockquote>
+<h3>vancouvergeneralcontractors.com</h3>
+<p><strong>Name:</strong> Vancouver General Contractors (exact match)</p>
+<blockquote>
+<p>Custom home + renovation GC, owns #1 organic for both "vancouver general contractors" and "contractor vancouver". Strongest SERP threat on GC terms.</p>
+</blockquote>
+<h3>ventanaconstruction.com</h3>
+<p><strong>Name:</strong> Ventana Construction</p>
+<blockquote>
+<p>Multi-family residential wood-frame and mid-rise, #1 organic for "multi-family construction vancouver builder"</p>
+</blockquote>
+<h3>versaliving.com</h3>
+<p><strong>Name:</strong> Versa Homes</p>
+<blockquote>
+<p>Vancouver custom/luxury home builder, 320/mo "versa homes", KD 0</p>
+</blockquote>
+<h3>wpgroup.ca</h3>
+<p><strong>Name:</strong> Warrington PCI</p>
+<blockquote>
+<p>Vancouver GC, multifamily residential focus. Most direct competitor for GPC's market.</p>
+</blockquote>
+<h3>yvrcg.com</h3>
+<p><strong>Name:</strong> YVR Construction Group</p>
+<blockquote>
+<p>Vancouver GC, 110/mo "yvr construction group", KD 2</p>
+</blockquote>
+<hr />
+<h2>Part 6 — Research log (chronological)</h2>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Author</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-08-26</td>
+<td>mcp</td>
+<td>GPC Development audit cycle 2026-08-26. Initial crawl: 21 pages, 110 issues. Next: keyword universe + SERP analysis + rank tracker activation.</td>
+</tr>
+<tr>
+<td>2026-08-26</td>
+<td>sam</td>
+<td>SERP sweep (9 queries): "multi-family construction vancouver builder" is the most winnable SERP — top-3 are small Vancouver multifamily builders with weaker profiles. Informational lane ("multi-family</td>
+</tr>
+<tr>
+<td>2026-08-26</td>
+<td>sam</td>
+<td>Site audit (21/21 pages, no Lighthouse): all pages wordCount=0, identical title and meta description, missing-h1, no-outgoing-links, thin-content, 20 are orphans. Site is a JS-rendered SPA where conte</td>
+</tr>
+<tr>
+<td>2026-08-26</td>
+<td>sam</td>
+<td>Keyword research: 5 seeds (vancouver construction company, vancouver real estate development, custom home builder vancouver, multi family development vancouver, vancouver general contractor), CA/en ma</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Part 7 — Live snapshot in OpenSEO (D1)</h2>
+<p>A compact version of this brief may also be stored as a <strong>custom section</strong> in OpenSEO D1 (<code>custom:content-brief</code>, ~3 KB).</p>
+<p>Query it via MCP:</p>
+<pre><code class="language-python">mcp.call(&quot;get_project_context&quot;, {&quot;projectId&quot;: &quot;&lt;project_id&gt;&quot;})
+# → .customSections → slug: &quot;content-brief&quot;
+</code></pre>
+<p>Or via DuckDB mirror:</p>
+<pre><code class="language-sql">SELECT content FROM gpc.project_context_sections WHERE key = 'custom:content-brief';
+</code></pre>
+<hr />
+<h2>Part 8 — How to regenerate</h2>
+<pre><code class="language-bash"># Generic — works for any client with workspace + DuckDB mirror
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/&lt;slug&gt;/
+
+# Explicit project_id (skip auto-discovery)
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/&lt;slug&gt;/ &lt;project-id&gt;
+
+# Custom output path
+python3 scripts/regenerate-project-settings.py ~/wiki/clients/&lt;slug&gt;/ &lt;project-id&gt; /tmp/brief.md
+</code></pre>
+<hr />
+<p><em>Auto-generated from OpenSEO D1 → DuckDB mirror.</em></p>
+</body>
+</html>

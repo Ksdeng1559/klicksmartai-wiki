@@ -1,3 +1,8 @@
+---
+status: RELEASED
+promoted_at: 2026-08-28
+---
+
 # SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26
 
 **Type:** client-facing audit page (gatekept, 1-page visual format)
