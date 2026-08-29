@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Dare2Dream Mortgage — Workflow Kanban</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a22;
+    --panel-2: #1c2230;
+    --border: #2a3140;
+    --text: #e6e9ef;
+    --muted: #8a93a6;
+    --accent: #5e8cff;
+    --good: #3ecf8e;
+    --warn: #f5a524;
+    --bad: #ef4444;
+    --fresh: #3ecf8e;
+    --recent: #5e8cff;
+    --aging: #f5a524;
+    --stale: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  header.topbar {
+    padding: 18px 28px; border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #161a22 0%, #0f1115 100%);
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  header.topbar h1 { margin: 0; font-size: 22px; letter-spacing: -0.01em; }
+  header.topbar .meta { color: var(--muted); font-size: 13px; }
+  header.topbar .meta code { background: var(--panel-2); padding: 2px 6px; border-radius: 4px; color: var(--accent); }
+  header.topbar .actions a {
+    color: var(--accent); text-decoration: none; font-size: 13px;
+    padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--panel-2);
+  }
+  header.topbar .actions a:hover { border-color: var(--accent); }
+
+  main {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px; padding: 20px 28px; align-items: start;
+  }
+  .col {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    min-height: 240px; display: flex; flex-direction: column;
+  }
+  .col > header { padding: 12px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .col h2 { margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
+  .col .count {
+    background: var(--panel-2); color: var(--muted);
+    padding: 2px 8px; border-radius: 999px; font-size: 12px; font-variant-numeric: tabular-nums;
+  }
+  .col .col-desc { padding: 6px 16px 12px; margin: 0; color: var(--muted); font-size: 12px; }
+  .cards { padding: 0 12px 12px; display: flex; flex-direction: column; gap: 8px; }
+
+  .card {
+    display: block; padding: 10px 12px; border-radius: 8px;
+    background: var(--panel-2); border: 1px solid var(--border);
+    text-decoration: none; color: var(--text); transition: all .12s ease;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+  .card-head .subcat {
+    font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;
+    background: rgba(94,140,255,.12); padding: 2px 6px; border-radius: 4px;
+  }
+  .age { font-size: 11px; padding: 1px 6px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+  .age-fresh  { background: rgba(62,207,142,.15); color: var(--fresh); }
+  .age-recent { background: rgba(94,140,255,.15); color: var(--recent); }
+  .age-aging  { background: rgba(245,165,36,.15); color: var(--aging); }
+  .age-stale  { background: rgba(239,68,68,.15); color: var(--stale); }
+  .card-title { font-size: 13px; font-weight: 500; line-height: 1.35; margin-bottom: 6px; }
+  .card-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 11px; color: var(--muted); }
+  .card-meta code { font-size: 11px; color: var(--text); opacity: .7; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 60%; }
+  .card-meta .size { font-variant-numeric: tabular-nums; }
+  .badge-export { background: rgba(62,207,142,.15); color: var(--good); padding: 1px 5px; border-radius: 3px; font-size: 10px; letter-spacing: 0.05em; }
+  .card-foot { font-size: 10px; color: var(--muted); margin-top: 4px; opacity: .7; }
+
+  .empty { color: var(--muted); padding: 24px 8px; text-align: center; font-size: 12px; font-style: italic; }
+
+  .toolbar {
+    display: flex; gap: 12px; padding: 12px 28px; border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  .toolbar input {
+    flex: 1; max-width: 360px;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 10px; border-radius: 6px; font-size: 13px;
+  }
+  .toolbar input:focus { outline: none; border-color: var(--accent); }
+  .toolbar .stat { color: var(--muted); font-size: 12px; margin-left: auto; align-self: center; }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Dare2Dream Mortgage — Workflow Kanban</h1>
+      <div class="meta">slug <code>dare2dream-mortgage</code> · 3 items · rendered 2026-08-28 23:04</div>
+    </div>
+    <div class="actions">
+      <a href="https://github.com/Ksdeng1559/klicksmartai-wiki/tree/master/clients/dare2dream-mortgage">Open in GitHub →</a>
+    </div>
+  </header>
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Filter cards by title or filename…" autocomplete="off">
+    <div class="stat" id="stat">showing 3</div>
+  </div>
+  <main>
+    
+        <section class="col" data-col="drafts">
+          <header>
+            <h2>📝 Drafts</h2>
+            <span class="count">1</span>
+          </header>
+          <p class="col-desc">First-pass AI output, awaiting HITL review</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/dare2dream-mortgage/drafts/remediation-runbook-2026-08-11.md" data-relpath="clients/dare2dream-mortgage/drafts/remediation-runbook-2026-08-11.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">17d</span>
+          </div>
+          <div class="card-title">remediation runbook 2026 08 11</div>
+          <div class="card-meta">
+            <code>remediation-runbook-2026-08-11.md</code>
+            <span class="size">6.1 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-11</div>
+        </a>
+    </div>
+        </section>
+        
+        <section class="col" data-col="in_review">
+          <header>
+            <h2>🔍 In Review</h2>
+            <span class="count">0</span>
+          </header>
+          <p class="col-desc">Subfolder drafts + VALIDATION_QUEUE rows in pending/approved</p>
+          <div class="cards"><div class="empty">— no items —</div></div>
+        </section>
+        
+        <section class="col" data-col="approved">
+          <header>
+            <h2>✅ Approved</h2>
+            <span class="count">0</span>
+          </header>
+          <p class="col-desc">Promoted to projects/ — source of truth</p>
+          <div class="cards"><div class="empty">— no items —</div></div>
+        </section>
+        
+        <section class="col" data-col="delivered">
+          <header>
+            <h2>📦 Delivered</h2>
+            <span class="count">2</span>
+          </header>
+          <p class="col-desc">Client-ready exports in deliverables/</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/dare2dream-mortgage/deliverables/live-reverification-2026-08-11.md" data-relpath="clients/dare2dream-mortgage/deliverables/live-reverification-2026-08-11.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">17d</span>
+          </div>
+          <div class="card-title">live reverification 2026 08 11</div>
+          <div class="card-meta">
+            <code>live-reverification-2026-08-11.md</code>
+            <span class="size">1.0 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-11</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/dare2dream-mortgage/deliverables/site-health-seo-audit-2026-08-10.md" data-relpath="clients/dare2dream-mortgage/deliverables/site-health-seo-audit-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">17d</span>
+          </div>
+          <div class="card-title">site health seo audit 2026 08 10</div>
+          <div class="card-meta">
+            <code>site-health-seo-audit-2026-08-10.md</code>
+            <span class="size">7.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-11</div>
+        </a>
+    </div>
+        </section>
+        
+  </main>
+  <script>
+    const q = document.getElementById('q');
+    const stat = document.getElementById('stat');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    const total = cards.length;
+    q.addEventListener('input', () => {
+      const needle = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const c of cards) {
+        const hay = (c.textContent || '').toLowerCase();
+        const match = !needle || hay.includes(needle);
+        c.style.display = match ? '' : 'none';
+        if (match) shown++;
+      }
+      stat.textContent = `showing ${shown} of ${total}`;
+    });
+  </script>
+</body>
+</html>
