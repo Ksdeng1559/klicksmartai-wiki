@@ -1,3 +1,8 @@
+---
+status: RELEASED
+promoted_at: 2026-08-28
+---
+
 # gpc-development — Project Settings & Content Brief
 
 **Source:** OpenSEO D1 → DuckDB mirror (synced via `openseo-duckdb-sync` cron, every 30 min)

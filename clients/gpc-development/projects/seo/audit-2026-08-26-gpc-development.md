@@ -1,3 +1,8 @@
+---
+status: RELEASED
+promoted_at: 2026-08-28
+---
+
 # SEO Audit & Recommendations — gpcdevelopment.ca
 
 **Prepared for:** GPC Development
