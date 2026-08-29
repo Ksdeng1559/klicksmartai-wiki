@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Veritas Developments — Workflow Kanban</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a22;
+    --panel-2: #1c2230;
+    --border: #2a3140;
+    --text: #e6e9ef;
+    --muted: #8a93a6;
+    --accent: #5e8cff;
+    --good: #3ecf8e;
+    --warn: #f5a524;
+    --bad: #ef4444;
+    --fresh: #3ecf8e;
+    --recent: #5e8cff;
+    --aging: #f5a524;
+    --stale: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  header.topbar {
+    padding: 18px 28px; border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #161a22 0%, #0f1115 100%);
+    display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  }
+  header.topbar h1 { margin: 0; font-size: 22px; letter-spacing: -0.01em; }
+  header.topbar .meta { color: var(--muted); font-size: 13px; }
+  header.topbar .meta code { background: var(--panel-2); padding: 2px 6px; border-radius: 4px; color: var(--accent); }
+  header.topbar .actions a {
+    color: var(--accent); text-decoration: none; font-size: 13px;
+    padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--panel-2);
+  }
+  header.topbar .actions a:hover { border-color: var(--accent); }
+
+  main {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px; padding: 20px 28px; align-items: start;
+  }
+  .col {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    min-height: 240px; display: flex; flex-direction: column;
+  }
+  .col > header { padding: 12px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .col h2 { margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
+  .col .count {
+    background: var(--panel-2); color: var(--muted);
+    padding: 2px 8px; border-radius: 999px; font-size: 12px; font-variant-numeric: tabular-nums;
+  }
+  .col .col-desc { padding: 6px 16px 12px; margin: 0; color: var(--muted); font-size: 12px; }
+  .cards { padding: 0 12px 12px; display: flex; flex-direction: column; gap: 8px; }
+
+  .card {
+    display: block; padding: 10px 12px; border-radius: 8px;
+    background: var(--panel-2); border: 1px solid var(--border);
+    text-decoration: none; color: var(--text); transition: all .12s ease;
+  }
+  .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+  .card-head .subcat {
+    font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em;
+    background: rgba(94,140,255,.12); padding: 2px 6px; border-radius: 4px;
+  }
+  .age { font-size: 11px; padding: 1px 6px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+  .age-fresh  { background: rgba(62,207,142,.15); color: var(--fresh); }
+  .age-recent { background: rgba(94,140,255,.15); color: var(--recent); }
+  .age-aging  { background: rgba(245,165,36,.15); color: var(--aging); }
+  .age-stale  { background: rgba(239,68,68,.15); color: var(--stale); }
+  .card-title { font-size: 13px; font-weight: 500; line-height: 1.35; margin-bottom: 6px; }
+  .card-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; font-size: 11px; color: var(--muted); }
+  .card-meta code { font-size: 11px; color: var(--text); opacity: .7; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 60%; }
+  .card-meta .size { font-variant-numeric: tabular-nums; }
+  .badge-export { background: rgba(62,207,142,.15); color: var(--good); padding: 1px 5px; border-radius: 3px; font-size: 10px; letter-spacing: 0.05em; }
+  .card-foot { font-size: 10px; color: var(--muted); margin-top: 4px; opacity: .7; }
+
+  .empty { color: var(--muted); padding: 24px 8px; text-align: center; font-size: 12px; font-style: italic; }
+
+  .toolbar {
+    display: flex; gap: 12px; padding: 12px 28px; border-bottom: 1px solid var(--border);
+    background: var(--panel);
+  }
+  .toolbar input {
+    flex: 1; max-width: 360px;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    padding: 6px 10px; border-radius: 6px; font-size: 13px;
+  }
+  .toolbar input:focus { outline: none; border-color: var(--accent); }
+  .toolbar .stat { color: var(--muted); font-size: 12px; margin-left: auto; align-self: center; }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Veritas Developments — Workflow Kanban</h1>
+      <div class="meta">slug <code>veritas-developments</code> · 34 items · rendered 2026-08-28 23:04</div>
+    </div>
+    <div class="actions">
+      <a href="https://github.com/Ksdeng1559/klicksmartai-wiki/tree/master/clients/veritas-developments">Open in GitHub →</a>
+    </div>
+  </header>
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="Filter cards by title or filename…" autocomplete="off">
+    <div class="stat" id="stat">showing 34</div>
+  </div>
+  <main>
+    
+        <section class="col" data-col="drafts">
+          <header>
+            <h2>📝 Drafts</h2>
+            <span class="count">8</span>
+          </header>
+          <p class="col-desc">First-pass AI output, awaiting HITL review</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/veritas-developments/drafts/7-touch-outreach-playbook-2026-08-22.md" data-relpath="clients/veritas-developments/drafts/7-touch-outreach-playbook-2026-08-22.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">6d</span>
+          </div>
+          <div class="card-title">7 touch outreach playbook 2026 08 22</div>
+          <div class="card-meta">
+            <code>7-touch-outreach-playbook-2026-08-22.md</code>
+            <span class="size">22.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-22</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/jv-partner-summary-2026-08-10.md" data-relpath="clients/veritas-developments/drafts/jv-partner-summary-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jv partner summary 2026 08 10</div>
+          <div class="card-meta">
+            <code>jv-partner-summary-2026-08-10.md</code>
+            <span class="size">5.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/kc-family-office-law-firm-channel-2026-08-22.md" data-relpath="clients/veritas-developments/drafts/kc-family-office-law-firm-channel-2026-08-22.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">6d</span>
+          </div>
+          <div class="card-title">kc family office law firm channel 2026 08 22</div>
+          <div class="card-meta">
+            <code>kc-family-office-law-firm-channel-2026-08-22.md</code>
+            <span class="size">10.7 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-22</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md" data-relpath="clients/veritas-developments/drafts/leadsniper-search-alignment-2026-08-23.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">5d</span>
+          </div>
+          <div class="card-title">leadsniper search alignment 2026 08 23</div>
+          <div class="card-meta">
+            <code>leadsniper-search-alignment-2026-08-23.md</code>
+            <span class="size">7.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-23</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md" data-relpath="clients/veritas-developments/drafts/openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md">
+          <div class="card-head">
+            
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">openseo site audit veritasdevelopmentgroupllc 2026 08 26</div>
+          <div class="card-meta">
+            <code>openseo-site-audit-veritasdevelopmentgroupllc-2026-08-26.md</code>
+            <span class="size">3.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-26</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/tam-co-sponsor-capital-2026-08-22.csv" data-relpath="clients/veritas-developments/drafts/tam-co-sponsor-capital-2026-08-22.csv">
+          <div class="card-head">
+            
+            <span class="age age-recent">6d</span>
+          </div>
+          <div class="card-title">tam co sponsor capital 2026 08 22</div>
+          <div class="card-meta">
+            <code>tam-co-sponsor-capital-2026-08-22.csv</code>
+            <span class="size">7.9 KB</span>
+            <span class="badge-export">EXPORT</span>
+          </div>
+          <div class="card-foot">2026-08-22</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/tam-co-sponsor-capital-2026-08-22.md" data-relpath="clients/veritas-developments/drafts/tam-co-sponsor-capital-2026-08-22.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">6d</span>
+          </div>
+          <div class="card-title">tam co sponsor capital 2026 08 22</div>
+          <div class="card-meta">
+            <code>tam-co-sponsor-capital-2026-08-22.md</code>
+            <span class="size">8.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-22</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/team-profile-daniel-bailey-2026-08-22.md" data-relpath="clients/veritas-developments/drafts/team-profile-daniel-bailey-2026-08-22.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">6d</span>
+          </div>
+          <div class="card-title">team profile daniel bailey 2026 08 22</div>
+          <div class="card-meta">
+            <code>team-profile-daniel-bailey-2026-08-22.md</code>
+            <span class="size">9.0 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-22</div>
+        </a>
+    </div>
+        </section>
+        
+        <section class="col" data-col="in_review">
+          <header>
+            <h2>🔍 In Review</h2>
+            <span class="count">11</span>
+          </header>
+          <p class="col-desc">Subfolder drafts + VALIDATION_QUEUE rows in pending/approved</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/veritas-developments/drafts/outreach/2026-08-28-decision-matrix-for-david-daniel.md" data-relpath="clients/veritas-developments/drafts/outreach/2026-08-28-decision-matrix-for-david-daniel.md">
+          <div class="card-head">
+            <span class="subcat">outreach</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">decision matrix for david daniel</div>
+          <div class="card-meta">
+            <code>2026-08-28-decision-matrix-for-david-daniel.md</code>
+            <span class="size">7.9 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/framework-execution-plan-2026-08-28.md" data-relpath="clients/veritas-developments/drafts/website/framework-execution-plan-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">framework execution plan 2026 08 28</div>
+          <div class="card-meta">
+            <code>framework-execution-plan-2026-08-28.md</code>
+            <span class="size">25.9 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/project-context-mirror-2026-08-28.md" data-relpath="clients/veritas-developments/drafts/website/project-context-mirror-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">project context mirror 2026 08 28</div>
+          <div class="card-meta">
+            <code>project-context-mirror-2026-08-28.md</code>
+            <span class="size">7.9 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/scrape-veritasdevelopmentgroupllc-financing-2026-08-30.md" data-relpath="clients/veritas-developments/drafts/website/scrape-veritasdevelopmentgroupllc-financing-2026-08-30.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">scrape veritasdevelopmentgroupllc financing 2026 08 30</div>
+          <div class="card-meta">
+            <code>scrape-veritasdevelopmentgroupllc-financing-2026-08-30.md</code>
+            <span class="size">4.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-27</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/scrape-veritasdevelopmentgroupllc-home-2026-08-30.md" data-relpath="clients/veritas-developments/drafts/website/scrape-veritasdevelopmentgroupllc-home-2026-08-30.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">scrape veritasdevelopmentgroupllc home 2026 08 30</div>
+          <div class="card-meta">
+            <code>scrape-veritasdevelopmentgroupllc-home-2026-08-30.md</code>
+            <span class="size">13.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-27</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/scrapling-findings-2026-08-30.md" data-relpath="clients/veritas-developments/drafts/website/scrapling-findings-2026-08-30.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">scrapling findings 2026 08 30</div>
+          <div class="card-meta">
+            <code>scrapling-findings-2026-08-30.md</code>
+            <span class="size">2.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-27</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md" data-relpath="clients/veritas-developments/drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">seo audit veritasdevelopmentgroupllc 2026 08 28 client</div>
+          <div class="card-meta">
+            <code>seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md</code>
+            <span class="size">23.6 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28.md" data-relpath="clients/veritas-developments/drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">seo audit veritasdevelopmentgroupllc 2026 08 28</div>
+          <div class="card-meta">
+            <code>seo-audit-veritasdevelopmentgroupllc-2026-08-28.md</code>
+            <span class="size">8.3 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-27</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/serp-competitor-landscape-2026-08-30.md" data-relpath="clients/veritas-developments/drafts/website/serp-competitor-landscape-2026-08-30.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">serp competitor landscape 2026 08 30</div>
+          <div class="card-meta">
+            <code>serp-competitor-landscape-2026-08-30.md</code>
+            <span class="size">3.4 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-27</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/serp-intelligence-2026-08-28.md" data-relpath="clients/veritas-developments/drafts/website/serp-intelligence-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">serp intelligence 2026 08 28</div>
+          <div class="card-meta">
+            <code>serp-intelligence-2026-08-28.md</code>
+            <span class="size">13.5 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/drafts/website/v2-plan-brief-2026-08-28.md" data-relpath="clients/veritas-developments/drafts/website/v2-plan-brief-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">v2 plan brief 2026 08 28</div>
+          <div class="card-meta">
+            <code>v2-plan-brief-2026-08-28.md</code>
+            <span class="size">8.5 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    </div>
+        </section>
+        
+        <section class="col" data-col="approved">
+          <header>
+            <h2>✅ Approved</h2>
+            <span class="count">8</span>
+          </header>
+          <p class="col-desc">Promoted to projects/ — source of truth</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/veritas-developments/projects/co-sponsor-gp-target-list.md" data-relpath="clients/veritas-developments/projects/co-sponsor-gp-target-list.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">7d</span>
+          </div>
+          <div class="card-title">co sponsor gp target list</div>
+          <div class="card-meta">
+            <code>co-sponsor-gp-target-list.md</code>
+            <span class="size">6.3 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-21</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/growth-program-pilot-plan.md" data-relpath="clients/veritas-developments/projects/growth-program-pilot-plan.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">14d</span>
+          </div>
+          <div class="card-title">growth program pilot plan</div>
+          <div class="card-meta">
+            <code>growth-program-pilot-plan.md</code>
+            <span class="size">10.1 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-14</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/prime-lees-summit-co-sponsor-brief.md" data-relpath="clients/veritas-developments/projects/prime-lees-summit-co-sponsor-brief.md">
+          <div class="card-head">
+            
+            <span class="age age-recent">7d</span>
+          </div>
+          <div class="card-title">prime lees summit co sponsor brief</div>
+          <div class="card-meta">
+            <code>prime-lees-summit-co-sponsor-brief.md</code>
+            <span class="size">4.3 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-21</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/prime-lees-summit.md" data-relpath="clients/veritas-developments/projects/prime-lees-summit.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">prime lees summit</div>
+          <div class="card-meta">
+            <code>prime-lees-summit.md</code>
+            <span class="size">1.1 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/stonehaven-estates.md" data-relpath="clients/veritas-developments/projects/stonehaven-estates.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">stonehaven estates</div>
+          <div class="card-meta">
+            <code>stonehaven-estates.md</code>
+            <span class="size">1.4 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/website/CLIENT-SCORE-veritas-developments-2026-08-28.md" data-relpath="clients/veritas-developments/projects/website/CLIENT-SCORE-veritas-developments-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">CLIENT SCORE veritas developments 2026 08 28</div>
+          <div class="card-meta">
+            <code>CLIENT-SCORE-veritas-developments-2026-08-28.md</code>
+            <span class="size">9.9 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md" data-relpath="clients/veritas-developments/projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">COVER NOTE seo audit v4 2026 08 28</div>
+          <div class="card-meta">
+            <code>COVER-NOTE-seo-audit-v4-2026-08-28.md</code>
+            <span class="size">7.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md" data-relpath="clients/veritas-developments/projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md">
+          <div class="card-head">
+            <span class="subcat">website</span>
+            <span class="age age-fresh">fresh</span>
+          </div>
+          <div class="card-title">seo audit veritasdevelopmentgroupllc 2026 08 28 client</div>
+          <div class="card-meta">
+            <code>seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md</code>
+            <span class="size">24.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-28</div>
+        </a>
+    </div>
+        </section>
+        
+        <section class="col" data-col="delivered">
+          <header>
+            <h2>📦 Delivered</h2>
+            <span class="count">7</span>
+          </header>
+          <p class="col-desc">Client-ready exports in deliverables/</p>
+          <div class="cards">
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-commercial-real-estate-intelligence-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-commercial-real-estate-intelligence-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo commercial real estate intelligence 2026 0</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-commercial-real-estate-intelligence-2026-08-10.md</code>
+            <span class="size">12.5 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-county-intelligence-report-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-county-intelligence-report-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo county intelligence report 2026 08 10</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-county-intelligence-report-2026-08-10.md</code>
+            <span class="size">27.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-east-side-vacancy-pilot-pro-forma-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-east-side-vacancy-pilot-pro-forma-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo east side vacancy pilot pro forma 2026 08 </div>
+          <div class="card-meta">
+            <code>jackson-county-mo-east-side-vacancy-pilot-pro-forma-2026-08-10.md</code>
+            <span class="size">5.8 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-housing-intelligence-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-housing-intelligence-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo housing intelligence 2026 08 10</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-housing-intelligence-2026-08-10.md</code>
+            <span class="size">11.1 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-investor-leads-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-investor-leads-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo investor leads 2026 08 10</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-investor-leads-2026-08-10.md</code>
+            <span class="size">6.2 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-kcclt-partnership-memo-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-kcclt-partnership-memo-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo kcclt partnership memo 2026 08 10</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-kcclt-partnership-memo-2026-08-10.md</code>
+            <span class="size">5.1 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    
+
+        <a class="card" href="file:///clients/veritas-developments/deliverables/jackson-county-mo-market-data-annex-occupancy-absorption-2026-08-10.md" data-relpath="clients/veritas-developments/deliverables/jackson-county-mo-market-data-annex-occupancy-absorption-2026-08-10.md">
+          <div class="card-head">
+            
+            <span class="age age-aging">18d</span>
+          </div>
+          <div class="card-title">jackson county mo market data annex occupancy absorption 202</div>
+          <div class="card-meta">
+            <code>jackson-county-mo-market-data-annex-occupancy-absorption-2026-08-10.md</code>
+            <span class="size">11.0 KB</span>
+            
+          </div>
+          <div class="card-foot">2026-08-10</div>
+        </a>
+    </div>
+        </section>
+        
+  </main>
+  <script>
+    const q = document.getElementById('q');
+    const stat = document.getElementById('stat');
+    const cards = Array.from(document.querySelectorAll('.card'));
+    const total = cards.length;
+    q.addEventListener('input', () => {
+      const needle = q.value.trim().toLowerCase();
+      let shown = 0;
+      for (const c of cards) {
+        const hay = (c.textContent || '').toLowerCase();
+        const match = !needle || hay.includes(needle);
+        c.style.display = match ? '' : 'none';
+        if (match) shown++;
+      }
+      stat.textContent = `showing ${shown} of ${total}`;
+    });
+  </script>
+</body>
+</html>

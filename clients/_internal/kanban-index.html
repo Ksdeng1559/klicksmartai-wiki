@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KlickSmartAI — Client Workflow Kanbans</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #161a22; --panel-2: #1c2230;
+    --border: #2a3140; --text: #e6e9ef; --muted: #8a93a6; --accent: #5e8cff;
+    --c-drafts: #f5a524; --c-review: #5e8cff; --c-approved: #3ecf8e; --c-delivered: #a78bfa;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, "Segoe UI", system-ui, sans-serif; }
+  header { padding: 28px 36px 18px; border-bottom: 1px solid var(--border); background: linear-gradient(180deg, #161a22, #0f1115); }
+  header h1 { margin: 0; font-size: 26px; letter-spacing: -0.01em; }
+  header .sub { color: var(--muted); margin-top: 6px; font-size: 14px; }
+  header .stats { margin-top: 12px; display: flex; gap: 18px; }
+  header .stats .s { font-size: 12px; color: var(--muted); }
+  header .stats .s b { color: var(--text); font-variant-numeric: tabular-nums; font-size: 16px; }
+  main { padding: 20px 36px; max-width: 1100px; margin: 0 auto; }
+  .legend { display: flex; gap: 14px; padding: 12px 16px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 16px; font-size: 12px; color: var(--muted); }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .dot-drafts { background: var(--c-drafts); }
+  .dot-review { background: var(--c-review); }
+  .dot-approved { background: var(--c-approved); }
+  .dot-delivered { background: var(--c-delivered); }
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 18px; background: var(--panel); border: 1px solid var(--border); border-radius: 8px;
+    text-decoration: none; color: var(--text); transition: all .12s ease;
+  }
+  .row:hover { border-color: var(--accent); transform: translateX(2px); }
+  .row-name { font-size: 15px; font-weight: 500; }
+  .row-meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .row-meta code { background: var(--panel-2); padding: 1px 6px; border-radius: 4px; color: var(--accent); }
+  .row-cols { display: flex; gap: 12px; }
+  .cell { display: flex; align-items: center; gap: 5px; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 13px; min-width: 60px; justify-content: flex-end; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>📋 Client Workflow Kanbans</h1>
+    <div class="sub">Per-client workflow boards across every active engagement. Each card is a real file in the wiki workspace.</div>
+    <div class="stats">
+      <div class="s"><b>10</b> clients</div>
+      <div class="s"><b>103</b> items tracked</div>
+      <div class="s">updated 2026-08-28 23:04</div>
+    </div>
+  </header>
+  <main>
+    <div class="legend">
+      <span><span class="dot dot-drafts"></span>Drafts (first-pass AI output)</span>
+      <span><span class="dot dot-review"></span>In Review (categorized drafts)</span>
+      <span><span class="dot dot-approved"></span>Approved (projects/ — source of truth)</span>
+      <span><span class="dot dot-delivered"></span>Delivered (deliverables/ — client-ready)</span>
+    </div>
+    <div class="list">
+      
+        <a class="row" href="../clients/breakthrough-mgmt/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Breakthrough Mgmt</div>
+            <div class="row-meta"><code>breakthrough-mgmt</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/dare2dream-mortgage/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Dare2Dream Mortgage</div>
+            <div class="row-meta"><code>dare2dream-mortgage</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>1</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>2</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/eng-and-company/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Eng And Company</div>
+            <div class="row-meta"><code>eng-and-company</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/gpc-development/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">GPC Development</div>
+            <div class="row-meta"><code>gpc-development</code> · gpcdevelopment.ca · Canada (Vancouver, BC) — DataForSEO locationCode 2124</div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>5</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>12</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/idc-insurance/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Idc Insurance</div>
+            <div class="row-meta"><code>idc-insurance</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/leadsniper-3.0/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Leadsniper 3.0</div>
+            <div class="row-meta"><code>leadsniper-3.0</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/open-seo/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">OpenSEO</div>
+            <div class="row-meta"><code>open-seo</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>6</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/spectra-holdings/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Spectra Holdings</div>
+            <div class="row-meta"><code>spectra-holdings</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>28</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>15</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/veritas-developments/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Veritas Developments</div>
+            <div class="row-meta"><code>veritas-developments</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>8</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>11</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>8</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>7</span>
+          </div>
+        </a>
+        
+        <a class="row" href="../clients/wattbricks/_config/kanban.html">
+          <div class="row-main">
+            <div class="row-name">Wattbricks</div>
+            <div class="row-meta"><code>wattbricks</code></div>
+          </div>
+          <div class="row-cols">
+            <span class="cell" title="Drafts"><span class="dot dot-drafts"></span>0</span>
+            <span class="cell" title="In Review"><span class="dot dot-review"></span>0</span>
+            <span class="cell" title="Approved"><span class="dot dot-approved"></span>0</span>
+            <span class="cell" title="Delivered"><span class="dot dot-delivered"></span>0</span>
+          </div>
+        </a>
+        
+    </div>
+  </main>
+</body>
+</html>
