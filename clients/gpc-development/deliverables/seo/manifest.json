@@ -1,0 +1,26 @@
+{
+  "client": "gpc-development",
+  "exported_at": "2026-08-29T05:40:58.212981+00:00",
+  "exported_by": "openseo-data-export skill (Hermes Agent)",
+  "source_validation_queue": "/home/denni/wiki/clients/gpc-development/drafts/seo/VALIDATION_QUEUE.md",
+  "approval_event": {
+    "approved_by": "Dennis Eng",
+    "approved_at": "2026-08-28",
+    "command": "approve (one-word reply)",
+    "hitl_confirmed": true
+  },
+  "promoted_markdown": [
+    "CLIENT-SCORE-gpc-development-2026-08-28.md"
+  ],
+  "projects_dir": "/home/denni/wiki/clients/gpc-development/projects/seo",
+  "deliverables_dir": "/home/denni/wiki/clients/gpc-development/deliverables/seo",
+  "html_reports": [],
+  "csv_exports": [
+    "v_audit_findings.csv",
+    "v_audit_pages.csv",
+    "v_keyword_metrics_by_project.csv",
+    "v_paa_demand_signals.csv",
+    "v_rank_tracking_summary.csv",
+    "v_saved_keyword_library.csv"
+  ]
+}
