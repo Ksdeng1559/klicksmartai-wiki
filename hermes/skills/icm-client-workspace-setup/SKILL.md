@@ -20,7 +20,17 @@ metadata:
 
 # /icm-client-workspace-setup
 
-Scaffold a new client workspace at `/home/denni/wiki/clients/<client-slug>/` using the **ICM 3-layer pattern** (Identity → Context → Config) layered on top of the KlickSmartAI wiki source-of-truth rule.
+Scaffold a new client workspace at `/home/denni/wiki/clients/<client-slug>/` using the **Interpretable Context Methodology (ICM)** — KlickSmartAI's 3-layer workspace pattern (Identity → Context → Config) — layered on top of the wiki source-of-truth rule.
+
+> **Glossary (binding for this skill and any conversation that uses the term):**
+>
+> - **ICM** = **Interpretable Context Methodology** (also called the *Interpretive Context Method* in earlier sessions). A KlickSmartAI internal name for the methodology of building a client workspace as three readable, agent-loadable layers: who the client is (Identity), what's going on with the engagement (Context), and how the workspace is configured for the verticals and compliance modes in play (Config). It is NOT an acronym of "Identity, Context, Config" — those are the *layers* the methodology organizes.
+> - **Identity layer** = `IDENTITY.md` (workspace map, stage map, rules, escalation).
+> - **Context layer** = `CONTEXT.md` (task routing, 5-stage pipeline, current stage).
+> - **Config layer** = `_config/*.md` (voice, conventions, glossary, deliverables, GTM skills, compliance).
+> - **Deliverables layer** = `drafts/` → `projects/` → `deliverables/` (source-of-truth gated).
+>
+> Cite "ICM" alone when you mean the methodology; cite "Identity / Context / Config" when you mean the layers.
 
 Works for **both Hermes Agent** (auto-loads `CLAUDE.md`/`AGENTS.md`/`CONTEXT.md` on folder entry) **and Claude Code** (same progressive-discovery pattern). The folder layout is the contract; both agents see it identically.
 
@@ -306,6 +316,19 @@ Treat "we will get that later" / "parked" / "paid, defer" as the canonical user 
 15. **Don't generate `drafts-preview/<vertical>/` subfolders unless the vertical actually produces HTML** — emails and decks are HTML, but image-only deliverables (ad-creative, logo, PDF) don't need a preview folder. Either skip it or alias it to a generic `build.py` script.
 16. **Don't scaffold a duplicate workspace for a same-brand or LLC-renamed client.** Before `mkdir`, search `~/wiki/clients/` for related slugs. If a workspace exists for the same company (e.g. `veritas-developments/` already covered `veritasdevelopmentgroupllc.com`), add the audit to the existing workspace as a draft + queue row + IDENTITY.md note. Do NOT create `veritas-developments-llc/`. Duplicate workspaces = duplicate source-of-truth = future cleanup tax. Always ask the user to confirm which entity is canonical.
 
+17. **Notion share-links are bot-gated from `web_extract`.** Three calls return stubs (593, 593, 1036 chars on different URL variants — verified 2026-08-28). Do not retry — switch to the Notion API. Check `env | grep NOTION_API_KEY` (the `ntn_…` integration token works; the older `NOTION_API_TOKEN` returns 401). Call pattern: `GET https://api.notion.com/v1/blocks/{formatted-page-uuid}/children?page_size=100` with `Authorization: Bearer $NOTION_API_KEY` + `Notion-Version: 2022-06-28`. Paginate on `next_cursor`. The Notion page ID from a share-link must be reformatted with hyphens (`3ca9e94cf0a48165b3c8dff9b439409f` → `3ca9e94c-f0a4-8165-b3c8-dff9b439409f`). Use this path to ingest the **Client Brain Standard** and any other Notion share-link the user pastes. Also applies to the canonical `brindle-guppy-146.notion.site/...` URL — same gate.
+
+18. **CBS (Client Brain Standard) supersedes the older `_config/` pattern for new clients.** As of 2026-08-28, the canonical contract for the knowledge layer of a client workspace is `CLIENT-BRAIN.md` (router) + `context/{BRAND-VOICE,FACTS-AND-CLAIMS,COMPLIANCE,SERVICES-AND-OFFERS,SOURCES,DECISIONS}.md`. See `references/client-brain-standard.md`. For new clients, build on CBS from day one. For existing clients (`veritas-developments/`, `gpc-development/`, `open-seo/`, `veritas-development/`), do NOT bulk-migrate — let it happen on next workspace touch. Old `_config/voice.md`, `_config/glossary.md`, etc. remain valid as content sources for the new `context/*.md` files. Migration is content synthesis, not a file move.
+
+19. **Citation discipline is enforced by the standard, not by the agent's good intentions.** Every load-bearing claim in `context/*.md` must carry `{source, owner, retrieved_at, effective_date, status: Draft|Corroborated|Verified|Counsel Approved, approved_for_external_use, expires_or_reverify_on}`. Bare assertions like "22 years of experience" with no source tag are NOT permitted in client-facing artifacts. The status field is binding: only `Verified` and `Counsel Approved` claims may be quoted externally without further review.
+
+20. **"ICM" is the methodology, NOT an acronym of Identity / Context / Config.** The user corrected this verbatim on 2026-08-28: *"ICM stands for interpretive context method, not identity, context, config."* ICM = **Interpretable Context Methodology** (also called *Interpretive Context Method* in some earlier sessions). It is the **methodology of organizing the workspace into three layers**, not a literal abbreviation of those three layers. Failure mode: an agent that says "ICM = Identity, Context, Config" is conflating the method with its outputs and will get corrected. Correct usage:
+    - "ICM workspace" ✓ (methodology applied)
+    - "Identity / Context / Config layers" ✓ (the layers)
+    - "ICM = Identity, Context, Config" ✗ (wrong — confuses method with output)
+    - "the ICM pattern" ✓ (colloquial for the 3-layer pattern)
+    Cite ICM when you mean the methodology; cite the layer names when you mean the artifacts.
+
 ## Discovery setup (wiki-scoped skills)
 
 If this skill is being published from a wiki repo (e.g. `/home/denni/wiki/hermes/skills/`), Hermes needs to know to look there. Two pieces:
@@ -361,8 +384,9 @@ See the `references/` folder for copy-able templates:
 - `template-skills.md` — client-specific skills registry (Skills table)
 - `template-readme-projects.md` / `template-readme-drafts.md` / etc. — folder-level READMEs
 - `template-readme-vertical-drafts.md` / `template-readme-vertical-deliverables.md` — per-vertical READMEs (when verticals are declared)
-- `skill-collision-diagnostic.md` — recovery procedure for the silent-truncation bug when a wiki skill is also in `~/.hermes/skills/` (see pitfall #7)
-- `backporting-existing-clients.md` — procedure for layering new verticals / GTM / compliance onto an already-scaffolded client workspace without disturbing legacy validated artifacts
+- `references/skill-collision-diagnostic.md` — recovery procedure for the silent-truncation bug when a wiki skill is also in `~/.hermes/skills/` (see pitfall #7)
+- `references/backporting-existing-clients.md` — procedure for layering new verticals / GTM / compliance onto an already-scaffolded client workspace without disturbing legacy validated artifacts
+- `references/client-brain-standard.md` — the **canonical contract** for the knowledge layer of a client workspace (`CLIENT-BRAIN.md` + `context/{BRAND-VOICE,FACTS-AND-CLAIMS,COMPLIANCE,SERVICES-AND-OFFERS,SOURCES,DECISIONS}.md`, 8-tier authority order, Green/Yellow/Red action taxonomy, Notion↔markdown sync). New clients built after 2026-08-28 use this pattern; existing clients migrate on next touch.
 
 ## Worked example — First client (text-only deliverables)
 
