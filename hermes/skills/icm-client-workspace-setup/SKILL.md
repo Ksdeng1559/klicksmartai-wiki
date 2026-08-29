@@ -360,6 +360,7 @@ After running this skill, the user should be able to:
 
 | Skill | When |
 |---|---|
+| `client-brain-builder` | Populate the CBS knowledge layer (`CLIENT-BRAIN.md` + `context/*.md`) inside an existing ICM workspace. Run AFTER this skill scaffolds the skeleton. CBS is the content layer; ICM is the workspace pattern — the two are peers, not nested. Paired skill relationship is bidirectional. |
 | `client-onboarding-sprint` | End-to-end SEO client onboarding (this skill + OpenSEO + DuckDB mirror + gatekept audit artifacts in one 5-phase workflow). Use this when the engagement is SEO-focused and you want all artifacts in one sprint. |
 | `audit-page-gate` | Gatekeeping discipline for any client-facing SEO report. Use after onboarding produces drafts to validate before sending to the client. |
 | `openseo-project-intake` | Just the OpenSEO project setup (no workspace, no audit, no artifacts). Use for clients who already have a workspace but need OpenSEO configured. |

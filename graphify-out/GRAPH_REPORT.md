@@ -5,22 +5,22 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 18523 nodes · 17951 edges · 1306 communities (1262 shown, 44 thin omitted)
+- 18523 nodes · 17951 edges · 1304 communities (1260 shown, 44 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0b62ae70`
+- Built from commit: `004139ea`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- agency-agents/README.md
+- integrations/README.md
 - Hermes Memory Architecture (Layer Model)
 - Census & Housing Brief
 - Census & Housing Brief
 - leadsniperai-cli-commercial-plan.md
-- Marketing Growth Hacker Agent
+- Paid Media PPC Campaign Strategist Agent
 - Supply Chain Strategist Agent
 - GPC Development — Onboarding Tracker
 - Agency-Agents Framework — Reference for Building AI Agents
@@ -156,7 +156,7 @@
 - BOSS v3 — Multi-Channel Revenue Conversion Machine
 - Saturday Tech Debt RCA Sprint Brief
 - Data Engineer Agent
-- Paid Media PPC Campaign Strategist Agent
+- agency-agents/README.md
 - Feishu Integration Developer
 - Blender Add-on Engineer Agent Personality
 - Game Audio Engineer Agent Personality
@@ -518,7 +518,7 @@
 - Part 1 — Business context
 - OpenSEO — SEO Skill Bindings
 - Voice — OpenSEO
-- 5.1 Fraser Health Authority
+- 4.3 Pension Funds and Impact Capital
 - Per-agent wiring
 - 10. AI SEO Add-on Modules (Optional)
 - GTM Skills — GPC Development
@@ -792,12 +792,11 @@
 - 9. Recommended Strategy
 - Paid Media Search Query Analyst Agent
 - 4. Eligibility Screening
-- 5. Website Crawl and Evidence Collection
+- Recommended Integration Tiers
 - Pointer — SEO Organic Growth Playbook
 - What we found (in priority order)
 - 14. Implementation Phases
-- 3. Financing Signal Taxonomy
-- Qwen Code Integration
+- 3. Search Architecture
 - dare2dreammortgagecompany.com — Site Health & SEO Audit
 - dare2dreammortgagecompany.com — §0 Compromise Remediation Runbook
 - Bexar County, TX — County Current State Report
@@ -814,7 +813,7 @@
 - WWR v2.0 Relationship Manager
 - Offer-Gap Signal Engine — Proposal
 - Pre-M&A Search Algorithm — Executive Summary
-- Research Question 5: Partnership Validation
+- 5.1 Fraser Health Authority
 - LinkedIn Content Creator
 - Bright Data
 - Cascadia Innovation Corridor
@@ -857,7 +856,6 @@
 - 180-Day Recommended Action Plan
 - Key Term Life Strategy Angles for IDC
 - 18. Dependencies and Risks
-- 16. Mortgage and Lending Integrations
 - MotherDuck Shared Intelligence Layer
 - GitHub Repository Strategy
 - Governance and Decision Records
@@ -1324,11 +1322,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (1306 total, 44 thin omitted)
+## Communities (1304 total, 44 thin omitted)
 
-### Community 0 - "agency-agents/README.md"
+### Community 0 - "integrations/README.md"
 Cohesion: 0.04
-Nodes (41): Activate an Agent, Aider Integration, Install, Manual Usage, Regenerate, Activate a Skill, Antigravity Integration, File Format (+33 more)
+Nodes (41): Activate a Skill, Antigravity Integration, File Format, Install, Regenerate, Activate an Agent, Agent Directory, Claude Code Integration (+33 more)
 
 ### Community 1 - "Hermes Memory Architecture (Layer Model)"
 Cohesion: 0.25
@@ -1346,9 +1344,9 @@ Nodes (47): 1. Target Market Alignment, 2. CDFI Engagement Levels, Affordability
 Cohesion: 0.04
 Nodes (45): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+37 more)
 
-### Community 5 - "Marketing Growth Hacker Agent"
-Cohesion: 0.29
-Nodes (6): Core Capabilities, Decision Framework, Marketing Growth Hacker Agent, Role Definition, Specialized Skills, Success Metrics
+### Community 5 - "Paid Media PPC Campaign Strategist Agent"
+Cohesion: 0.25
+Nodes (7): Core Capabilities, Decision Framework, Paid Media PPC Campaign Strategist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
 
 ### Community 6 - "Supply Chain Strategist Agent"
 Cohesion: 0.04
@@ -1563,8 +1561,8 @@ Cohesion: 0.07
 Nodes (30): alairhomes.com, anthemproperties.com, beedie.ca, bosa.com, cedarcoast.com, clayconstruction.ca, cressey.com, goodmanreport.com (+22 more)
 
 ### Community 59 - "GTM Strategy Extension — Deepline and Getaero Patterns"
-Cohesion: 0.06
-Nodes (33): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups, 4. Financing Opportunity Score (+25 more)
+Cohesion: 0.05
+Nodes (39): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups, 3. Financing Signal Taxonomy (+31 more)
 
 ### Community 60 - "Agent Personality"
 Cohesion: 0.06
@@ -1886,9 +1884,9 @@ Nodes (28): 24 Hours Before Sprint, 48 Hours Before Sprint, 8-Hour Sprint Struct
 Cohesion: 0.07
 Nodes (28): 🚀 Advanced Capabilities, Advanced Lakehouse Patterns, Architecture Principles, Cloud Platform Mastery, 🚨 Critical Rules You Must Follow, Data Engineer Agent, Data Pipeline Engineering, Data Platform Architecture (+20 more)
 
-### Community 141 - "Paid Media PPC Campaign Strategist Agent"
-Cohesion: 0.09
-Nodes (18): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Core Capabilities, Decision Framework, Marketing Content Creator Agent (+10 more)
+### Community 141 - "agency-agents/README.md"
+Cohesion: 0.07
+Nodes (22): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Activate an Agent, Aider Integration, Install (+14 more)
 
 ### Community 142 - "Feishu Integration Developer"
 Cohesion: 0.07
@@ -3192,7 +3190,7 @@ Nodes (20): Acceptance Criteria, Build and Review Workflow, Changelog, Command D
 
 ### Community 492 - "integration-api-catalog.md"
 Cohesion: 0.10
-Nodes (19): API Marketplaces and Discovery Layers, Core Architecture, Governance Requirements, Immediate Next Build Sequence, List all accounts, Purpose, RapidAPI Hub, Recommended Integration Pattern (+11 more)
+Nodes (19): 16. Mortgage and Lending Integrations, API Marketplaces and Discovery Layers, Core Architecture, Credit bureau integrations, Governance Requirements, Immediate Next Build Sequence, Lender and underwriting APIs, List all accounts (+11 more)
 
 ### Community 493 - "Outreach Channel Comparison"
 Cohesion: 0.10
@@ -3234,9 +3232,9 @@ Nodes (6): Bound skills (full catalog), Files, Module dormancy rules, OpenSEO �
 Cohesion: 0.29
 Nodes (6): Audience, Do, Don't, Standing Reminders, Tone, Voice — OpenSEO
 
-### Community 503 - "5.1 Fraser Health Authority"
-Cohesion: 0.25
-Nodes (8): 5.1 Fraser Health Authority, Current Capital Priorities, Land Disposition History, Mission and Mandate, Procurement Process for Real Estate Partnerships, RCH Foundation Capacity, Real Estate Holdings (within Sapperton/New Westminster), Workforce Housing Initiatives (current or planned)
+### Community 503 - "4.3 Pension Funds and Impact Capital"
+Cohesion: 0.33
+Nodes (6): 4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED], 4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED], 4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED], 4.3.4 IMCO, CDPQ, OTPP — Canada-wide Funds [PARTIAL], 4.3.5 Mission-Driven Capital (Vancity, Avan Capital, CMLS) [VERIFIED], 4.3 Pension Funds and Impact Capital
 
 ### Community 504 - "Per-agent wiring"
 Cohesion: 0.29
@@ -3515,8 +3513,8 @@ Cohesion: 0.12
 Nodes (17): 7.10 CSV Import, 7.11 Batch and Queue Management, 7.12 Export, 7.1 Configuration, 7.2 Local Business Discovery, 7.3 Lead Enrichment, 7.4 Contact and Social Discovery, 7.5 Company Intelligence (+9 more)
 
 ### Community 573 - "sapperton-district-feasibility.md"
-Cohesion: 0.12
-Nodes (16): 4.2.1 BC Builds [VERIFIED — Primary Funding Path], 4.2.2 Community Housing Fund [PARTIAL — Income overlap with BC Builds], 4.2.3 Provincial Investment in Affordable Housing (PIAH) [PARTIAL], 4.2 BC Housing Programs, 4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED], 4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED], 4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED], 4.3.4 IMCO, CDPQ, OTPP — Canada-wide Funds [PARTIAL] (+8 more)
+Cohesion: 0.10
+Nodes (19): 4.2.1 BC Builds [VERIFIED — Primary Funding Path], 4.2.2 Community Housing Fund [PARTIAL — Income overlap with BC Builds], 4.2.3 Provincial Investment in Affordable Housing (PIAH) [PARTIAL], 4.2 BC Housing Programs, 4.4 Capital Stack Scenarios, 4.5 Q4 Conclusion, 6.1 Federal Policy, 6.2 Provincial Policy (BC) (+11 more)
 
 ### Community 574 - "Organization Profile: Spectra Holdings Group, Inc."
 Cohesion: 0.12
@@ -3727,8 +3725,8 @@ Cohesion: 0.13
 Nodes (14): 10. Capital Attraction Thesis, 11. Key Data Gaps, 12. Recommended Next Steps, 1. Population, 2. Demographics, 3. Housing Stock, 4. Income & Affordability, 5. Economy & Employment (+6 more)
 
 ### Community 632 - "6.4 Specific Questions"
-Cohesion: 0.13
-Nodes (15): 1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?, 2. Does the City's policy framework actively support workforce housing at scale?, 3. Are there recent policy signals from Victoria or New Westminster that indicate an openness to healthcare worker housing?, 4. What specific City approvals are required for a 50-100 unit workforce housing project near RCH?, 5. What is the realistic timeline from land control to occupancy?, 6.1 Federal Policy, 6.2 Provincial Policy (BC), 6.4 Specific Questions (+7 more)
+Cohesion: 0.33
+Nodes (6): 1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?, 2. Does the City's policy framework actively support workforce housing at scale?, 3. Are there recent policy signals from Victoria or New Westminster that indicate an openness to healthcare worker housing?, 4. What specific City approvals are required for a 50-100 unit workforce housing project near RCH?, 5. What is the realistic timeline from land control to occupancy?, 6.4 Specific Questions
 
 ### Community 633 - "WattBricks Energy — HNWI/Investor Persona & Outreach Playbook"
 Cohesion: 0.13
@@ -4302,9 +4300,9 @@ Nodes (7): Core Capabilities, Decision Framework, Paid Media Search Query Analys
 Cohesion: 0.50
 Nodes (4): 4. Eligibility Screening, Required checks, Result states, Suggested CLI
 
-### Community 777 - "5. Website Crawl and Evidence Collection"
+### Community 777 - "Recommended Integration Tiers"
 Cohesion: 0.50
-Nodes (4): 5. Website Crawl and Evidence Collection, Crawler command, Extracted signals, Pages to inspect
+Nodes (4): Recommended Integration Tiers, Tier 1 — Core Platform, Tier 2 — Growth Intelligence, Tier 3 — Enterprise and Expansion
 
 ### Community 778 - "Pointer — SEO Organic Growth Playbook"
 Cohesion: 0.29
@@ -4318,13 +4316,9 @@ Nodes (7): 1. The site has a hosting-layer routing problem (High priority), 2. T
 Cohesion: 0.33
 Nodes (6): 14. Implementation Phases, Phase 1 — Foundation, Phase 2 — Deepline Integration, Phase 3 — Qualification and Routing, Phase 4 — Outbound and Replies, Phase 5 — Learning Loop
 
-### Community 781 - "3. Financing Signal Taxonomy"
-Cohesion: 0.33
-Nodes (6): 3. Financing Signal Taxonomy, Capital Event Signals, Expansion Signals, Financial Pressure Signals, Real Estate and Mortgage Signals, Referral Partner Signals
-
-### Community 782 - "Qwen Code Integration"
-Cohesion: 0.33
-Nodes (5): Generate, Install, Notes, Qwen Code Integration, Refresh in Qwen Code
+### Community 781 - "3. Search Architecture"
+Cohesion: 0.50
+Nodes (4): 3.1 Discovery Layer, 3.2 Identity Resolution, 3.3 Duplicate Prevention, 3. Search Architecture
 
 ### Community 783 - "dare2dreammortgagecompany.com — Site Health & SEO Audit"
 Cohesion: 0.18
@@ -4390,9 +4384,9 @@ Nodes (10): 1. Problem, 2. Detection inputs (all exist in the CLI today), 3. Det
 Cohesion: 0.18
 Nodes (10): 1. Wansley Refrigeration — 🎯 79/100 · EMERGING (relationship campaign), 2. Airtech Energy Systems — 62/100 · WATCHLIST, 3. Gold Eagle Services — 45/100 · WEAK, Cost Efficiency, Funnel Results, Pre-M&A Search Algorithm — Executive Summary, Ranked Candidates, Recommended Next Steps (+2 more)
 
-### Community 799 - "Research Question 5: Partnership Validation"
-Cohesion: 0.18
-Nodes (11): 407 Garrett St, 417/419 Garrett St the Garrett Health District, 5.2 RCH-Adjacent Landowners Private, 5.3 Other Potential Partners, 5.4 Specific Questions, BC Housing, New Westminster City, Other Garrett Street Landowners (+3 more)
+### Community 799 - "5.1 Fraser Health Authority"
+Cohesion: 0.11
+Nodes (19): 407 Garrett St, 417/419 Garrett St the Garrett Health District, 5.1 Fraser Health Authority, 5.2 RCH-Adjacent Landowners Private, 5.3 Other Potential Partners, 5.4 Specific Questions, BC Housing, Current Capital Priorities (+11 more)
 
 ### Community 800 - "LinkedIn Content Creator"
 Cohesion: 0.18
@@ -4561,10 +4555,6 @@ Nodes (11): Key Term Life Strategy Angles for IDC, Live Research: Term Life YouT
 ### Community 841 - "18. Dependencies and Risks"
 Cohesion: 0.50
 Nodes (4): 18. Dependencies and Risks, Dependencies, Mitigations, Principal Risks
-
-### Community 842 - "16. Mortgage and Lending Integrations"
-Cohesion: 0.50
-Nodes (4): 16. Mortgage and Lending Integrations, Credit bureau integrations, Lender and underwriting APIs, Newton Velocity
 
 ### Community 843 - "MotherDuck Shared Intelligence Layer"
 Cohesion: 0.50
@@ -6318,8 +6308,8 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `title`, `type` to the rest of the system?**
   _13926 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `agency-agents/README.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.041742286751361164 - nodes in this community are weakly interconnected._
+- **Should `integrations/README.md` be split into smaller, more focused modules?**
+  _Cohesion score 0.0392156862745098 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
