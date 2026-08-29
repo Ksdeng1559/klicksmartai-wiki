@@ -700,185 +700,6 @@
       "norm_label": "sensitivity_table()"
     },
     {
-      "label": "agentic-identity-trust.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/specialized/agentic-identity-trust.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Agentic Identity &amp; Trust Architect",
-        "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they&#x27;re authorized to do, and what they actually did.",
-        "color": "#2d5a27",
-        "emoji": "\ud83d\udd10",
-        "vibe": "Ensures every AI agent can prove who it is, what it&#x27;s allowed to do, and what it actually did."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_specialized_agentic_identity_trust",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "agentic-identity-trust.md"
-    },
-    {
-      "label": "identity-graph-operator.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/specialized/identity-graph-operator.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Identity Graph Operator",
-        "description": "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for &quot;who is this entity?&quot; - deterministically, even under concurrent writes.",
-        "color": "#C5A572",
-        "emoji": "\ud83d\udd78\ufe0f",
-        "vibe": "Ensures every agent in a multi-agent system gets the same canonical answer for &quot;who is this?&quot;"
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_specialized_identity_graph_operator",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "identity-graph-operator.md"
-    },
-    {
-      "label": "wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Reddit Community Builder",
-        "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
-        "color": "#FF4500",
-        "emoji": "\ud83d\udcac",
-        "vibe": "Speaks fluent Reddit and builds community trust the authentic way."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_reddit_community_builder",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md"
-    },
-    {
-      "label": "wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Frontend Developer",
-        "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
-        "color": "cyan",
-        "emoji": "\ud83d\udda5\ufe0f",
-        "vibe": "Builds responsive, accessible web apps with pixel-perfect precision."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_frontend_developer",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md"
-    },
-    {
-      "label": "design-whimsy-injector.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/design/design-whimsy-injector.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Whimsy Injector",
-        "description": "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
-        "color": "pink",
-        "emoji": "\u2728",
-        "vibe": "Adds the unexpected moments of delight that make brands unforgettable."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_design_design_whimsy_injector",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "design-whimsy-injector.md"
-    },
-    {
-      "label": "CONTRIBUTING.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/CONTRIBUTING.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_contributing",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "contributing.md"
-    },
-    {
-      "label": "aider/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "aider/readme.md"
-    },
-    {
-      "label": "Activate an Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L14",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_activate_an_agent",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "activate an agent"
-    },
-    {
-      "label": "Aider Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_aider_integration",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "aider integration"
-    },
-    {
-      "label": "Install",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_install",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "install"
-    },
-    {
-      "label": "Manual Usage",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_manual_usage",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "manual usage"
-    },
-    {
-      "label": "Regenerate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_regenerate",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "regenerate"
-    },
-    {
       "label": "antigravity/README.md",
       "file_type": "document",
       "node_kind": "page",
@@ -887,7 +708,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "antigravity/readme.md"
     },
     {
@@ -899,7 +720,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme_activate_a_skill",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate a skill"
     },
     {
@@ -911,7 +732,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme_antigravity_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "antigravity integration"
     },
     {
@@ -923,7 +744,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme_file_format",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "file format"
     },
     {
@@ -935,7 +756,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -947,7 +768,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_antigravity_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
     },
     {
@@ -959,7 +780,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_claude_code_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "claude-code/readme.md"
     },
     {
@@ -971,7 +792,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_claude_code_readme_activate_an_agent",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate an agent"
     },
     {
@@ -983,7 +804,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_claude_code_readme_agent_directory",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "agent directory"
     },
     {
@@ -995,7 +816,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_claude_code_readme_claude_code_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "claude code integration"
     },
     {
@@ -1007,7 +828,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_claude_code_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1019,7 +840,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_cursor_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "cursor/readme.md"
     },
     {
@@ -1031,7 +852,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_cursor_readme_activate_a_rule",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate a rule"
     },
     {
@@ -1043,7 +864,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_cursor_readme_cursor_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "cursor integration"
     },
     {
@@ -1055,7 +876,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_cursor_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1067,7 +888,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_cursor_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
     },
     {
@@ -1079,7 +900,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "gemini-cli/readme.md"
     },
     {
@@ -1091,7 +912,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_activate_a_skill",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate a skill"
     },
     {
@@ -1103,7 +924,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_extension_structure",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "extension structure"
     },
     {
@@ -1115,7 +936,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_gemini_cli_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "gemini cli integration"
     },
     {
@@ -1127,7 +948,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1139,7 +960,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_gemini_cli_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
     },
     {
@@ -1151,7 +972,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_github_copilot_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "github-copilot/readme.md"
     },
     {
@@ -1163,7 +984,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_github_copilot_readme_activate_an_agent",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate an agent"
     },
     {
@@ -1175,7 +996,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_github_copilot_readme_agent_directory",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "agent directory"
     },
     {
@@ -1187,7 +1008,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_github_copilot_readme_github_copilot_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "github copilot integration"
     },
     {
@@ -1199,7 +1020,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_github_copilot_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1211,7 +1032,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "openclaw/readme.md"
     },
     {
@@ -1223,7 +1044,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme_activate_an_agent",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate an agent"
     },
     {
@@ -1235,7 +1056,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1247,7 +1068,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme_openclaw_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "openclaw integration"
     },
     {
@@ -1259,7 +1080,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_openclaw_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
     },
     {
@@ -1271,7 +1092,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "opencode/readme.md"
     },
     {
@@ -1283,7 +1104,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_activate_an_agent",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate an agent"
     },
     {
@@ -1295,7 +1116,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_agent_format",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "agent format"
     },
     {
@@ -1307,7 +1128,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1319,7 +1140,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_opencode_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "opencode integration"
     },
     {
@@ -1331,7 +1152,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_project_vs_global",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "project vs global"
     },
     {
@@ -1343,8 +1164,80 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
+    },
+    {
+      "label": "qwen/README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "qwen/readme.md"
+    },
+    {
+      "label": "Generate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_generate",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "generate"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_install",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "install"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_notes",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "notes"
+    },
+    {
+      "label": "Qwen Code Integration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_qwen_code_integration",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "qwen code integration"
+    },
+    {
+      "label": "Refresh in Qwen Code",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_refresh_in_qwen_code",
+      "community": 0,
+      "community_name": "integrations/README.md",
+      "norm_label": "refresh in qwen code"
     },
     {
       "label": "integrations/README.md",
@@ -1355,7 +1248,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "integrations/readme.md"
     },
     {
@@ -1367,7 +1260,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_windsurf_readme",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "windsurf/readme.md"
     },
     {
@@ -1379,7 +1272,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_windsurf_readme_activate_an_agent",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "activate an agent"
     },
     {
@@ -1391,7 +1284,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_windsurf_readme_install",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "install"
     },
     {
@@ -1403,7 +1296,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_windsurf_readme_regenerate",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "regenerate"
     },
     {
@@ -1415,20 +1308,8 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_integrations_windsurf_readme_windsurf_integration",
       "community": 0,
-      "community_name": "agency-agents/README.md",
+      "community_name": "integrations/README.md",
       "norm_label": "windsurf integration"
-    },
-    {
-      "label": "agency-agents/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_readme",
-      "community": 0,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "agency-agents/readme.md"
     },
     {
       "label": "hermes-memory-architecture.md",
@@ -35557,25 +35438,61 @@
       "norm_label": "rios north star architecture"
     },
     {
-      "label": "paid-media-ppc-strategist.md",
+      "label": "agentic-identity-trust.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/specialized/agentic-identity-trust.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "PPC Campaign Strategist",
-        "description": "Senior paid media strategist specializing in large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that scale from $10K to $10M+ monthly spend.",
-        "color": "orange",
-        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
-        "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\ud83d\udcb0",
-        "vibe": "Architects PPC campaigns that scale from $10K to $10M+ monthly."
+        "name": "Agentic Identity &amp; Trust Architect",
+        "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they&#x27;re authorized to do, and what they actually did.",
+        "color": "#2d5a27",
+        "emoji": "\ud83d\udd10",
+        "vibe": "Ensures every AI agent can prove who it is, what it&#x27;s allowed to do, and what it actually did."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist",
+      "id": "raw_wiki_knowledge_agency_agents_specialized_agentic_identity_trust",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
-      "norm_label": "paid-media-ppc-strategist.md"
+      "community_name": "agency-agents/README.md",
+      "norm_label": "agentic-identity-trust.md"
+    },
+    {
+      "label": "identity-graph-operator.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/specialized/identity-graph-operator.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Identity Graph Operator",
+        "description": "Operates a shared identity graph that multiple AI agents resolve against. Ensures every agent in a multi-agent system gets the same canonical answer for &quot;who is this entity?&quot; - deterministically, even under concurrent writes.",
+        "color": "#C5A572",
+        "emoji": "\ud83d\udd78\ufe0f",
+        "vibe": "Ensures every agent in a multi-agent system gets the same canonical answer for &quot;who is this?&quot;"
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_specialized_identity_graph_operator",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "identity-graph-operator.md"
+    },
+    {
+      "label": "wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Reddit Community Builder",
+        "description": "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation.",
+        "color": "#FF4500",
+        "emoji": "\ud83d\udcac",
+        "vibe": "Speaks fluent Reddit and builds community trust the authentic way."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_reddit_community_builder",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-reddit-community-builder.md"
     },
     {
       "label": "engineering-database-optimizer.md",
@@ -35593,8 +35510,66 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "engineering-database-optimizer.md"
+    },
+    {
+      "label": "wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Frontend Developer",
+        "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+        "color": "cyan",
+        "emoji": "\ud83d\udda5\ufe0f",
+        "vibe": "Builds responsive, accessible web apps with pixel-perfect precision."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_frontend_developer",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "wiki-knowledge/agency-agents/engineering/engineering-frontend-developer.md"
+    },
+    {
+      "label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Growth Hacker",
+        "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
+        "tools": "WebFetch, WebSearch, Read, Write, Edit",
+        "color": "green",
+        "emoji": "\ud83d\ude80",
+        "vibe": "Finds the growth channel nobody&#x27;s exploited yet \u2014 then scales it."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md"
+    },
+    {
+      "label": "design-whimsy-injector.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/design/design-whimsy-injector.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Whimsy Injector",
+        "description": "Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy",
+        "color": "pink",
+        "emoji": "\u2728",
+        "vibe": "Adds the unexpected moments of delight that make brands unforgettable."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_design_design_whimsy_injector",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "design-whimsy-injector.md"
     },
     {
       "label": "wiki-knowledge/agency-agents/marketing/marketing-content-creator.md",
@@ -35613,8 +35588,20 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-content-creator.md"
+    },
+    {
+      "label": "CONTRIBUTING.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/CONTRIBUTING.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_contributing",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "contributing.md"
     },
     {
       "label": "Communication Style",
@@ -35625,7 +35612,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer_communication_style",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "communication style"
     },
     {
@@ -35637,7 +35624,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer_core_mission",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "core mission"
     },
     {
@@ -35649,7 +35636,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer_critical_rules",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "critical rules"
     },
     {
@@ -35661,7 +35648,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer_database_optimizer",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "\ud83d\uddc4\ufe0f database optimizer"
     },
     {
@@ -35673,8 +35660,80 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_engineering_engineering_database_optimizer_identity_memory",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "identity & memory"
+    },
+    {
+      "label": "aider/README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "aider/readme.md"
+    },
+    {
+      "label": "Activate an Agent",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_activate_an_agent",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "activate an agent"
+    },
+    {
+      "label": "Aider Integration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_aider_integration",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "aider integration"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_install",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "install"
+    },
+    {
+      "label": "Manual Usage",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_manual_usage",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "manual usage"
+    },
+    {
+      "label": "Regenerate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/aider/README.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_aider_readme_regenerate",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "regenerate"
     },
     {
       "label": "Core Capabilities",
@@ -35685,7 +35744,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_core_capabilities",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "core capabilities"
     },
     {
@@ -35697,7 +35756,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_decision_framework",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "decision framework"
     },
     {
@@ -35709,7 +35768,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_marketing_content_creator_agent",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "marketing content creator agent"
     },
     {
@@ -35721,7 +35780,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_role_definition",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "role definition"
     },
     {
@@ -35733,7 +35792,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_specialized_skills",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "specialized skills"
     },
     {
@@ -35745,92 +35804,92 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_content_creator_success_metrics",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "success metrics"
     },
     {
       "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L17",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L15",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_core_capabilities",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_core_capabilities",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "core capabilities"
     },
     {
       "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L49",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L35",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_decision_framework",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_decision_framework",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "decision framework"
     },
     {
-      "label": "Paid Media PPC Campaign Strategist Agent",
+      "label": "Marketing Growth Hacker Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L11",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L10",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_paid_media_ppc_campaign_strategist_agent",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_marketing_growth_hacker_agent",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
-      "norm_label": "paid media ppc campaign strategist agent"
+      "community_name": "agency-agents/README.md",
+      "norm_label": "marketing growth hacker agent"
     },
     {
       "label": "Role Definition",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L13",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L12",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_role_definition",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_role_definition",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "role definition"
     },
     {
       "label": "Specialized Skills",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L28",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L25",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_specialized_skills",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_specialized_skills",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "specialized skills"
     },
     {
       "label": "Success Metrics",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L62",
+      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_location": "L46",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_success_metrics",
+      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_success_metrics",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "community_name": "agency-agents/README.md",
       "norm_label": "success metrics"
     },
     {
-      "label": "Tooling & Automation",
+      "label": "agency-agents/README.md",
       "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
-      "source_location": "L39",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/README.md",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_tooling_automation",
+      "id": "raw_wiki_knowledge_agency_agents_readme",
       "community": 141,
-      "community_name": "Paid Media PPC Campaign Strategist Agent",
-      "norm_label": "tooling & automation"
+      "community_name": "agency-agents/README.md",
+      "norm_label": "agency-agents/readme.md"
     },
     {
       "label": "concepts/user-acquisition-roadmap.md",
@@ -138096,6 +138155,18 @@
       "norm_label": "integration-api-catalog.md"
     },
     {
+      "label": "16. Mortgage and Lending Integrations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L694",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_integration_api_catalog_16_mortgage_and_lending_integrations",
+      "community": 492,
+      "community_name": "integration-api-catalog.md",
+      "norm_label": "16. mortgage and lending integrations"
+    },
+    {
       "label": "API Marketplaces and Discovery Layers",
       "file_type": "document",
       "node_kind": "heading",
@@ -138118,6 +138189,18 @@
       "community": 492,
       "community_name": "integration-api-catalog.md",
       "norm_label": "core architecture"
+    },
+    {
+      "label": "Credit bureau integrations",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L702",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_integration_api_catalog_credit_bureau_integrations",
+      "community": 492,
+      "community_name": "integration-api-catalog.md",
+      "norm_label": "credit bureau integrations"
     },
     {
       "label": "Governance Requirements",
@@ -138144,6 +138227,18 @@
       "norm_label": "immediate next build sequence"
     },
     {
+      "label": "Lender and underwriting APIs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L708",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_integration_api_catalog_lender_and_underwriting_apis",
+      "community": 492,
+      "community_name": "integration-api-catalog.md",
+      "norm_label": "lender and underwriting apis"
+    },
+    {
       "label": "List all accounts",
       "file_type": "document",
       "node_kind": "heading",
@@ -138154,6 +138249,18 @@
       "community": 492,
       "community_name": "integration-api-catalog.md",
       "norm_label": "list all accounts"
+    },
+    {
+      "label": "Newton Velocity",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L695",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_integration_api_catalog_newton_velocity",
+      "community": 492,
+      "community_name": "integration-api-catalog.md",
+      "norm_label": "newton velocity"
     },
     {
       "label": "Purpose",
@@ -138190,18 +138297,6 @@
       "community": 492,
       "community_name": "integration-api-catalog.md",
       "norm_label": "recommended integration pattern"
-    },
-    {
-      "label": "Recommended Integration Tiers",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L753",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_recommended_integration_tiers",
-      "community": 492,
-      "community_name": "integration-api-catalog.md",
-      "norm_label": "recommended integration tiers"
     },
     {
       "label": "Repliers Real Estate API",
@@ -138274,42 +138369,6 @@
       "community": 492,
       "community_name": "integration-api-catalog.md",
       "norm_label": "suggested api registry fields"
-    },
-    {
-      "label": "Tier 1 \u2014 Core Platform",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L754",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_tier_1_core_platform",
-      "community": 492,
-      "community_name": "integration-api-catalog.md",
-      "norm_label": "tier 1 \u2014 core platform"
-    },
-    {
-      "label": "Tier 2 \u2014 Growth Intelligence",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L769",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_tier_2_growth_intelligence",
-      "community": 492,
-      "community_name": "integration-api-catalog.md",
-      "norm_label": "tier 2 \u2014 growth intelligence"
-    },
-    {
-      "label": "Tier 3 \u2014 Enterprise and Expansion",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L780",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_tier_3_enterprise_and_expansion",
-      "community": 492,
-      "community_name": "integration-api-catalog.md",
-      "norm_label": "tier 3 \u2014 enterprise and expansion"
     },
     {
       "label": "Unipile API",
@@ -140050,96 +140109,109 @@
       "norm_label": "why cdfis may align with the mcf"
     },
     {
-      "label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "label": "paid-media-ppc-strategist.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "Growth Hacker",
-        "description": "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth.",
-        "tools": "WebFetch, WebSearch, Read, Write, Edit",
-        "color": "green",
-        "emoji": "\ud83d\ude80",
-        "vibe": "Finds the growth channel nobody&#x27;s exploited yet \u2014 then scales it."
+        "name": "PPC Campaign Strategist",
+        "description": "Senior paid media strategist specializing in large-scale search, shopping, and performance max campaign architecture across Google, Microsoft, and Amazon ad platforms. Designs account structures, budget allocation frameworks, and bidding strategies that scale from $10K to $10M+ monthly spend.",
+        "color": "orange",
+        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
+        "author": "John Williams (@itallstartedwithaidea)",
+        "emoji": "\ud83d\udcb0",
+        "vibe": "Architects PPC campaigns that scale from $10K to $10M+ monthly."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
-      "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md"
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "norm_label": "paid-media-ppc-strategist.md"
     },
     {
       "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L15",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_core_capabilities",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_core_capabilities",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
       "norm_label": "core capabilities"
     },
     {
       "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L35",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_decision_framework",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_decision_framework",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
       "norm_label": "decision framework"
     },
     {
-      "label": "Marketing Growth Hacker Agent",
+      "label": "Paid Media PPC Campaign Strategist Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L10",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_marketing_growth_hacker_agent",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_paid_media_ppc_campaign_strategist_agent",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
-      "norm_label": "marketing growth hacker agent"
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "norm_label": "paid media ppc campaign strategist agent"
     },
     {
       "label": "Role Definition",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L12",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L13",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_role_definition",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_role_definition",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
       "norm_label": "role definition"
     },
     {
       "label": "Specialized Skills",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L25",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L28",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_specialized_skills",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_specialized_skills",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
       "norm_label": "specialized skills"
     },
     {
       "label": "Success Metrics",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md",
-      "source_location": "L46",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L62",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_marketing_marketing_growth_hacker_success_metrics",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_success_metrics",
       "community": 5,
-      "community_name": "Marketing Growth Hacker Agent",
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
       "norm_label": "success metrics"
+    },
+    {
+      "label": "Tooling & Automation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-ppc-strategist.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_ppc_strategist_tooling_automation",
+      "community": 5,
+      "community_name": "Paid Media PPC Campaign Strategist Agent",
+      "norm_label": "tooling & automation"
     },
     {
       "label": "34.1 Strategic Repositioning",
@@ -140538,100 +140610,76 @@
       "norm_label": "voice \u2014 openseo"
     },
     {
-      "label": "5.1 Fraser Health Authority",
+      "label": "4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1320",
+      "source_location": "L1614",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_5_1_fraser_health_authority",
+      "id": "drafts_sapperton_district_feasibility_4_3_1_healthcare_of_ontario_pension_plan_hoopp_verified",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "5.1 fraser health authority"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3.1 healthcare of ontario pension plan (hoopp) [verified]"
     },
     {
-      "label": "Current Capital Priorities",
+      "label": "4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1329",
+      "source_location": "L1620",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_current_capital_priorities",
+      "id": "drafts_sapperton_district_feasibility_4_3_2_ontario_teachers_pension_plan_otpp_verified",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "current capital priorities"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3.2 ontario teachers' pension plan (otpp) [verified]"
     },
     {
-      "label": "Land Disposition History",
+      "label": "4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1356",
+      "source_location": "L1626",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_land_disposition_history",
+      "id": "drafts_sapperton_district_feasibility_4_3_3_bci_british_columbia_investment_management_corp_verified",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "land disposition history"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3.3 bci (british columbia investment management corp) [verified]"
     },
     {
-      "label": "Mission and Mandate",
+      "label": "4.3.4 IMCO, CDPQ, OTPP \u2014 Canada-wide Funds [PARTIAL]",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1322",
+      "source_location": "L1632",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_mission_and_mandate",
+      "id": "drafts_sapperton_district_feasibility_4_3_4_imco_cdpq_otpp_canada_wide_funds_partial",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "mission and mandate"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3.4 imco, cdpq, otpp \u2014 canada-wide funds [partial]"
     },
     {
-      "label": "Procurement Process for Real Estate Partnerships",
+      "label": "4.3.5 Mission-Driven Capital (Vancity, Avan Capital, CMLS) [VERIFIED]",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1370",
+      "source_location": "L1636",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_procurement_process_for_real_estate_partnerships",
+      "id": "drafts_sapperton_district_feasibility_4_3_5_mission_driven_capital_vancity_avan_capital_cmls_verified",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "procurement process for real estate partnerships"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3.5 mission-driven capital (vancity, avan capital, cmls) [verified]"
     },
     {
-      "label": "RCH Foundation Capacity",
+      "label": "4.3 Pension Funds and Impact Capital",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1386",
+      "source_location": "L1612",
       "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_rch_foundation_capacity",
+      "id": "drafts_sapperton_district_feasibility_4_3_pension_funds_and_impact_capital",
       "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "rch foundation capacity"
-    },
-    {
-      "label": "Real Estate Holdings (within Sapperton/New Westminster)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1341",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_real_estate_holdings_within_sapperton_new_westminster",
-      "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "real estate holdings (within sapperton/new westminster)"
-    },
-    {
-      "label": "Workforce Housing Initiatives (current or planned)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1363",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_workforce_housing_initiatives_current_or_planned",
-      "community": 503,
-      "community_name": "5.1 Fraser Health Authority",
-      "norm_label": "workforce housing initiatives (current or planned)"
+      "community_name": "4.3 Pension Funds and Impact Capital",
+      "norm_label": "4.3 pension funds and impact capital"
     },
     {
       "label": "Anything else",
@@ -156156,78 +156204,6 @@
       "norm_label": "4.2 bc housing programs"
     },
     {
-      "label": "4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1614",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_1_healthcare_of_ontario_pension_plan_hoopp_verified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3.1 healthcare of ontario pension plan (hoopp) [verified]"
-    },
-    {
-      "label": "4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1620",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_2_ontario_teachers_pension_plan_otpp_verified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3.2 ontario teachers' pension plan (otpp) [verified]"
-    },
-    {
-      "label": "4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1626",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_3_bci_british_columbia_investment_management_corp_verified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3.3 bci (british columbia investment management corp) [verified]"
-    },
-    {
-      "label": "4.3.4 IMCO, CDPQ, OTPP \u2014 Canada-wide Funds [PARTIAL]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1632",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_4_imco_cdpq_otpp_canada_wide_funds_partial",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3.4 imco, cdpq, otpp \u2014 canada-wide funds [partial]"
-    },
-    {
-      "label": "4.3.5 Mission-Driven Capital (Vancity, Avan Capital, CMLS) [VERIFIED]",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1636",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_5_mission_driven_capital_vancity_avan_capital_cmls_verified",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3.5 mission-driven capital (vancity, avan capital, cmls) [verified]"
-    },
-    {
-      "label": "4.3 Pension Funds and Impact Capital",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1612",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_4_3_pension_funds_and_impact_capital",
-      "community": 573,
-      "community_name": "sapperton-district-feasibility.md",
-      "norm_label": "4.3 pension funds and impact capital"
-    },
-    {
       "label": "4.4 Capital Stack Scenarios",
       "file_type": "document",
       "node_kind": "heading",
@@ -156252,6 +156228,102 @@
       "norm_label": "4.5 q4 conclusion"
     },
     {
+      "label": "6.1 Federal Policy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1140",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_6_1_federal_policy",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "6.1 federal policy"
+    },
+    {
+      "label": "6.2 Provincial Policy (BC)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1156",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_6_2_provincial_policy_bc",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "6.2 provincial policy (bc)"
+    },
+    {
+      "label": "BC Bill 44 (SSMUH)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1176",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_bc_bill_44_ssmuh",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "bc bill 44 (ssmuh)"
+    },
+    {
+      "label": "BC Bill 47 (Housing Supply Act)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1182",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_bc_bill_47_housing_supply_act",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "bc bill 47 (housing supply act)"
+    },
+    {
+      "label": "BC Housing Programs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1158",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_bc_housing_programs",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "bc housing programs"
+    },
+    {
+      "label": "BC Transit-Oriented Area Legislation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1166",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_bc_transit_oriented_area_legislation",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "bc transit-oriented area legislation"
+    },
+    {
+      "label": "CMHC Programs \u2014 Workforce Housing Eligibility",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1142",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_cmhc_programs_workforce_housing_eligibility",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "cmhc programs \u2014 workforce housing eligibility"
+    },
+    {
+      "label": "Q6 Conclusion",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1288",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_q6_conclusion",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "q6 conclusion"
+    },
+    {
       "label": "Research Question 4: Institutional Capital",
       "file_type": "document",
       "node_kind": "heading",
@@ -156262,6 +156334,18 @@
       "community": 573,
       "community_name": "sapperton-district-feasibility.md",
       "norm_label": "research question 4: institutional capital"
+    },
+    {
+      "label": "Research Question 6: Policy Validation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1138",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_research_question_6_policy_validation",
+      "community": 573,
+      "community_name": "sapperton-district-feasibility.md",
+      "norm_label": "research question 6: policy validation"
     },
     {
       "label": "Scenario A: Single Garrett Project (~55-75 units, $25-30M dev cost)",
@@ -160467,6 +160551,18 @@
       "norm_label": "2. new cli command groups"
     },
     {
+      "label": "3. Financing Signal Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2100",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "3. financing signal taxonomy"
+    },
+    {
       "label": "4. Financing Opportunity Score",
       "file_type": "document",
       "node_kind": "heading",
@@ -160537,6 +160633,18 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "9. human-approved outbound and reply engine"
+    },
+    {
+      "label": "Capital Event Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2110",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "capital event signals"
     },
     {
       "label": "CLI",
@@ -160659,6 +160767,30 @@
       "norm_label": "deepline owns"
     },
     {
+      "label": "Expansion Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2101",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "expansion signals"
+    },
+    {
+      "label": "Financial Pressure Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2120",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "financial pressure signals"
+    },
+    {
       "label": "Financing Signal Discovery",
       "file_type": "document",
       "node_kind": "heading",
@@ -160705,6 +160837,30 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "purpose"
+    },
+    {
+      "label": "Real Estate and Mortgage Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2128",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "real estate and mortgage signals"
+    },
+    {
+      "label": "Referral Partner Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2137",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
+      "community": 59,
+      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
+      "norm_label": "referral partner signals"
     },
     {
       "label": "Reply Classes",
@@ -169640,30 +169796,6 @@
       "norm_label": "5. what is the realistic timeline from land control to occupancy?"
     },
     {
-      "label": "6.1 Federal Policy",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1140",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_6_1_federal_policy",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "6.1 federal policy"
-    },
-    {
-      "label": "6.2 Provincial Policy (BC)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1156",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_6_2_provincial_policy_bc",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "6.2 provincial policy (bc)"
-    },
-    {
       "label": "6.4 Specific Questions",
       "file_type": "document",
       "node_kind": "heading",
@@ -169674,90 +169806,6 @@
       "community": 632,
       "community_name": "6.4 Specific Questions",
       "norm_label": "6.4 specific questions"
-    },
-    {
-      "label": "BC Bill 44 (SSMUH)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1176",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_bc_bill_44_ssmuh",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "bc bill 44 (ssmuh)"
-    },
-    {
-      "label": "BC Bill 47 (Housing Supply Act)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1182",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_bc_bill_47_housing_supply_act",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "bc bill 47 (housing supply act)"
-    },
-    {
-      "label": "BC Housing Programs",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1158",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_bc_housing_programs",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "bc housing programs"
-    },
-    {
-      "label": "BC Transit-Oriented Area Legislation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1166",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_bc_transit_oriented_area_legislation",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "bc transit-oriented area legislation"
-    },
-    {
-      "label": "CMHC Programs \u2014 Workforce Housing Eligibility",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1142",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_cmhc_programs_workforce_housing_eligibility",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "cmhc programs \u2014 workforce housing eligibility"
-    },
-    {
-      "label": "Q6 Conclusion",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1288",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_q6_conclusion",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "q6 conclusion"
-    },
-    {
-      "label": "Research Question 6: Policy Validation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1138",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_research_question_6_policy_validation",
-      "community": 632,
-      "community_name": "6.4 Specific Questions",
-      "norm_label": "research question 6: policy validation"
     },
     {
       "label": "HNWI-Investor-Persona-Outreach-Playbook.md",
@@ -175846,52 +175894,16 @@
       "norm_label": "2. target workflow"
     },
     {
-      "label": "3.1 Discovery Layer",
+      "label": "5. Website Crawl and Evidence Collection",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L59",
+      "source_location": "L130",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_1_discovery_layer",
+      "id": "projects_leadsniperai_workflow_improvement_5_website_crawl_and_evidence_collection",
       "community": 66,
       "community_name": "workflow-improvement.md",
-      "norm_label": "3.1 discovery layer"
-    },
-    {
-      "label": "3.2 Identity Resolution",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L78",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_2_identity_resolution",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3.2 identity resolution"
-    },
-    {
-      "label": "3.3 Duplicate Prevention",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_3_duplicate_prevention",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3.3 duplicate prevention"
-    },
-    {
-      "label": "3. Search Architecture",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_search_architecture",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3. search architecture"
+      "norm_label": "5. website crawl and evidence collection"
     },
     {
       "label": "6. Technical Search and Website Audit",
@@ -175990,6 +176002,18 @@
       "norm_label": "core qa gates"
     },
     {
+      "label": "Crawler command",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L155",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_crawler_command",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "crawler command"
+    },
+    {
       "label": "Current Weaknesses",
       "file_type": "document",
       "node_kind": "heading",
@@ -176038,6 +176062,18 @@
       "norm_label": "existing strengths"
     },
     {
+      "label": "Extracted signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_extracted_signals",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "extracted signals"
+    },
+    {
       "label": "Outcomes",
       "file_type": "document",
       "node_kind": "heading",
@@ -176048,6 +176084,18 @@
       "community": 66,
       "community_name": "workflow-improvement.md",
       "norm_label": "outcomes"
+    },
+    {
+      "label": "Pages to inspect",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L132",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_pages_to_inspect",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "pages to inspect"
     },
     {
       "label": "PageSpeed and Core Web Vitals",
@@ -198100,52 +198148,52 @@
       "norm_label": "suggested cli"
     },
     {
-      "label": "5. Website Crawl and Evidence Collection",
+      "label": "Recommended Integration Tiers",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L130",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L753",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_5_website_crawl_and_evidence_collection",
+      "id": "projects_leadsniperai_integration_api_catalog_recommended_integration_tiers",
       "community": 777,
-      "community_name": "5. Website Crawl and Evidence Collection",
-      "norm_label": "5. website crawl and evidence collection"
+      "community_name": "Recommended Integration Tiers",
+      "norm_label": "recommended integration tiers"
     },
     {
-      "label": "Crawler command",
+      "label": "Tier 1 \u2014 Core Platform",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L155",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L754",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_crawler_command",
+      "id": "projects_leadsniperai_integration_api_catalog_tier_1_core_platform",
       "community": 777,
-      "community_name": "5. Website Crawl and Evidence Collection",
-      "norm_label": "crawler command"
+      "community_name": "Recommended Integration Tiers",
+      "norm_label": "tier 1 \u2014 core platform"
     },
     {
-      "label": "Extracted signals",
+      "label": "Tier 2 \u2014 Growth Intelligence",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L139",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L769",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_extracted_signals",
+      "id": "projects_leadsniperai_integration_api_catalog_tier_2_growth_intelligence",
       "community": 777,
-      "community_name": "5. Website Crawl and Evidence Collection",
-      "norm_label": "extracted signals"
+      "community_name": "Recommended Integration Tiers",
+      "norm_label": "tier 2 \u2014 growth intelligence"
     },
     {
-      "label": "Pages to inspect",
+      "label": "Tier 3 \u2014 Enterprise and Expansion",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L132",
+      "source_file": "projects/leadsniperai/integration-api-catalog.md",
+      "source_location": "L780",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_pages_to_inspect",
+      "id": "projects_leadsniperai_integration_api_catalog_tier_3_enterprise_and_expansion",
       "community": 777,
-      "community_name": "5. Website Crawl and Evidence Collection",
-      "norm_label": "pages to inspect"
+      "community_name": "Recommended Integration Tiers",
+      "norm_label": "tier 3 \u2014 enterprise and expansion"
     },
     {
       "label": "playbook-pointer.md",
@@ -198791,148 +198839,52 @@
       "norm_label": "phase 5 \u2014 learning loop"
     },
     {
-      "label": "3. Financing Signal Taxonomy",
+      "label": "3.1 Discovery Layer",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2100",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L59",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
+      "id": "projects_leadsniperai_workflow_improvement_3_1_discovery_layer",
       "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "3. financing signal taxonomy"
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.1 discovery layer"
     },
     {
-      "label": "Capital Event Signals",
+      "label": "3.2 Identity Resolution",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2110",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L78",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
+      "id": "projects_leadsniperai_workflow_improvement_3_2_identity_resolution",
       "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "capital event signals"
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.2 identity resolution"
     },
     {
-      "label": "Expansion Signals",
+      "label": "3.3 Duplicate Prevention",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2101",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L98",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
+      "id": "projects_leadsniperai_workflow_improvement_3_3_duplicate_prevention",
       "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "expansion signals"
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.3 duplicate prevention"
     },
     {
-      "label": "Financial Pressure Signals",
+      "label": "3. Search Architecture",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2120",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L58",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
+      "id": "projects_leadsniperai_workflow_improvement_3_search_architecture",
       "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "financial pressure signals"
-    },
-    {
-      "label": "Real Estate and Mortgage Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2128",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
-      "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "real estate and mortgage signals"
-    },
-    {
-      "label": "Referral Partner Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2137",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
-      "community": 781,
-      "community_name": "3. Financing Signal Taxonomy",
-      "norm_label": "referral partner signals"
-    },
-    {
-      "label": "qwen/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "qwen/readme.md"
-    },
-    {
-      "label": "Generate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_generate",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "generate"
-    },
-    {
-      "label": "Install",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_install",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "install"
-    },
-    {
-      "label": "Notes",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_notes",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "notes"
-    },
-    {
-      "label": "Qwen Code Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_qwen_code_integration",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "qwen code integration"
-    },
-    {
-      "label": "Refresh in Qwen Code",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/qwen/README.md",
-      "source_location": "L30",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_qwen_readme_refresh_in_qwen_code",
-      "community": 782,
-      "community_name": "Qwen Code Integration",
-      "norm_label": "refresh in qwen code"
+      "community_name": "3. Search Architecture",
+      "norm_label": "3. search architecture"
     },
     {
       "label": "site-health-seo-audit-2026-08-10.md",
@@ -201615,7 +201567,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_407_garrett_st",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "407 garrett st"
     },
     {
@@ -201627,8 +201579,20 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_417_419_garrett_st_the_garrett_health_district",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "417/419 garrett st the garrett health district"
+    },
+    {
+      "label": "5.1 Fraser Health Authority",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1320",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_5_1_fraser_health_authority",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "5.1 fraser health authority"
     },
     {
       "label": "5.2 RCH-Adjacent Landowners Private",
@@ -201639,7 +201603,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_2_rch_adjacent_landowners_private",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "5.2 rch-adjacent landowners private"
     },
     {
@@ -201651,7 +201615,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_3_other_potential_partners",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "5.3 other potential partners"
     },
     {
@@ -201663,7 +201627,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_5_4_specific_questions",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "5.4 specific questions"
     },
     {
@@ -201675,8 +201639,44 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_bc_housing",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "bc housing"
+    },
+    {
+      "label": "Current Capital Priorities",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1329",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_current_capital_priorities",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "current capital priorities"
+    },
+    {
+      "label": "Land Disposition History",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1356",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_land_disposition_history",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "land disposition history"
+    },
+    {
+      "label": "Mission and Mandate",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1322",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_mission_and_mandate",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "mission and mandate"
     },
     {
       "label": "New Westminster City",
@@ -201687,7 +201687,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_new_westminster_city",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "new westminster city"
     },
     {
@@ -201699,7 +201699,7 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_other_garrett_street_landowners",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "other garrett street landowners"
     },
     {
@@ -201711,8 +201711,20 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_other_health_authorities_vch_providence",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "other health authorities vch providence"
+    },
+    {
+      "label": "Procurement Process for Real Estate Partnerships",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1370",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_procurement_process_for_real_estate_partnerships",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "procurement process for real estate partnerships"
     },
     {
       "label": "Q5 Conclusion",
@@ -201723,8 +201735,32 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_q5_conclusion",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "q5 conclusion"
+    },
+    {
+      "label": "RCH Foundation Capacity",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1386",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_rch_foundation_capacity",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "rch foundation capacity"
+    },
+    {
+      "label": "Real Estate Holdings (within Sapperton/New Westminster)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1341",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_real_estate_holdings_within_sapperton_new_westminster",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "real estate holdings (within sapperton/new westminster)"
     },
     {
       "label": "Research Question 5: Partnership Validation",
@@ -201735,8 +201771,20 @@
       "_origin": "ast",
       "id": "drafts_sapperton_district_feasibility_research_question_5_partnership_validation",
       "community": 799,
-      "community_name": "Research Question 5: Partnership Validation",
+      "community_name": "5.1 Fraser Health Authority",
       "norm_label": "research question 5: partnership validation"
+    },
+    {
+      "label": "Workforce Housing Initiatives (current or planned)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1363",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_workforce_housing_initiatives_current_or_planned",
+      "community": 799,
+      "community_name": "5.1 Fraser Health Authority",
+      "norm_label": "workforce housing initiatives (current or planned)"
     },
     {
       "label": "agency-agents-agent-building.md",
@@ -209655,54 +209703,6 @@
       "community": 841,
       "community_name": "18. Dependencies and Risks",
       "norm_label": "principal risks"
-    },
-    {
-      "label": "16. Mortgage and Lending Integrations",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L694",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_16_mortgage_and_lending_integrations",
-      "community": 842,
-      "community_name": "16. Mortgage and Lending Integrations",
-      "norm_label": "16. mortgage and lending integrations"
-    },
-    {
-      "label": "Credit bureau integrations",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L702",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_credit_bureau_integrations",
-      "community": 842,
-      "community_name": "16. Mortgage and Lending Integrations",
-      "norm_label": "credit bureau integrations"
-    },
-    {
-      "label": "Lender and underwriting APIs",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L708",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_lender_and_underwriting_apis",
-      "community": 842,
-      "community_name": "16. Mortgage and Lending Integrations",
-      "norm_label": "lender and underwriting apis"
-    },
-    {
-      "label": "Newton Velocity",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/integration-api-catalog.md",
-      "source_location": "L695",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_integration_api_catalog_newton_velocity",
-      "community": 842,
-      "community_name": "16. Mortgage and Lending Integrations",
-      "norm_label": "newton velocity"
     },
     {
       "label": "Analytical Tables",
@@ -423167,7 +423167,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L101",
       "weight": 1.0,
       "_origin": "ast",
@@ -423178,7 +423178,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L105",
       "weight": 1.0,
       "_origin": "ast",
@@ -423189,7 +423189,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L108",
       "weight": 1.0,
       "_origin": "ast",
@@ -423200,7 +423200,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L115",
       "weight": 1.0,
       "_origin": "ast",
@@ -423211,7 +423211,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L120",
       "weight": 1.0,
       "_origin": "ast",
@@ -423222,7 +423222,7 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
@@ -423233,155 +423233,12 @@
     {
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "log.md",
+      "source_file": "raw/log.md",
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
       "source": "raw_log",
       "target": "entities_dennis_e",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "entities_hermes_agent",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L181",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "entities_veritas_developments",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "raw_articles_hermes_agent_research",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "concepts_hermes_agent_setup_guide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "raw_articles_hermes_agent_complete_setup_guide",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L29",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "entities_wealth_wire_radar",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "concepts_wwr_signal_pipeline",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "concepts_wwr_relationship_manager",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "concepts_wwr_battlecard_format",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L74",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "queries_wwr_gap19_decision_brief",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L79",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "raw_articles_claude_linkedin_prompt_library",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L87",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "entities_gpc_development",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "log.md",
-      "source_location": "L93",
-      "weight": 1.0,
-      "_origin": "ast",
-      "source": "raw_log",
-      "target": "raw_articles_ai_chief_of_staff_dispatch_frameworks",
       "confidence_score": 1.0
     },
     {
@@ -423393,6 +423250,149 @@
       "_origin": "ast",
       "source": "raw_log",
       "target": "raw_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "entities_hermes_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L181",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "entities_veritas_developments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "raw_articles_hermes_agent_research",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "concepts_hermes_agent_setup_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "raw_articles_hermes_agent_complete_setup_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "entities_wealth_wire_radar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "concepts_wwr_signal_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "concepts_wwr_relationship_manager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "concepts_wwr_battlecard_format",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "queries_wwr_gap19_decision_brief",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "raw_articles_claude_linkedin_prompt_library",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "entities_gpc_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "raw/log.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "raw_log",
+      "target": "raw_articles_ai_chief_of_staff_dispatch_frameworks",
       "confidence_score": 1.0
     },
     {
@@ -426136,5 +426136,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0b62ae7049135457f81c8ce04ac77ea8bbe5fb77"
+  "built_at_commit": "004139eade3d4e584f649f2c17599903576b273c"
 }
