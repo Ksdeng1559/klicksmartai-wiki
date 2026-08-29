@@ -9,6 +9,7 @@ The operating systems and runbooks that govern KlickSmartAI's core operations.
 | [Honcho Multi-Agent Wiring](honcho-multi-agent-wiring.md) | Cross-LLM memory architecture | (check file) | Dennis + Hermes |
 | [Wiki Sync Pipeline](wiki-sync-pipeline.md) | Obsidian ↔ wiki bidirectional sync | (check file) | Dennis |
 | [Content Growth Strategies](content-growth-strategies.md) | Content marketing patterns | (check file) | Dennis |
+| [SEO Organic Growth Playbook](seo-organic-growth-playbook.md) | 5-pillar SEO strategy + Hermes execution | 2026-08-28 | Dennis + Hermes |
 
 ## How to use this folder
 
@@ -28,6 +29,7 @@ Every process doc in this folder has a corresponding skill in `~/.hermes/skills/
 | honcho-multi-agent-wiring.md | honcho-* skills |
 | wiki-sync-pipeline.md | wiki-graphify-sync |
 | content-growth-strategies.md | (no paired skill yet) |
+| seo-organic-growth-playbook.md | (no paired skill yet — see `~/.hermes/skills/ai-seo` for the AI-search layer) |
 
 ## Adding a new process
 
