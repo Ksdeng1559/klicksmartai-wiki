@@ -20,6 +20,7 @@ Hermes skill produces it.
 | Discover (domain) | `domain-research` | Markdown | ~50 cr/domain |
 | Enrich (content) | `content-optimization` | Markdown | dormant (no On-Page.ai key) |
 | Score (audit) | `site-audit` | Markdown + HTML | ~$0.03/page |
+| Score (client) | `seo-audit-report` | Markdown + HTML | $0 (derived from audit data) |
 | Score (rank) | `rank-tracking` | Markdown + setup | per-kw/mo when activated |
 | Outreach (analytics) | `analytics-reporting` | Markdown | dormant (no GA4) |
 | Outreach (local) | `local-seo` | Markdown | mostly free + ~10-50 cr for paid lookups |
@@ -36,6 +37,7 @@ Hermes skill produces it.
 | Discover (domain) → `domain-research` | `drafts/seo/domain-<date>-<topic>.md` |
 | Enrich → `content-optimization` | `drafts/seo/content-<date>-<url-slug>.md` |
 | Score → `site-audit` | `drafts/seo/audit-<date>-<topic>.md` |
+| Score → `seo-audit-report` (client score) | `drafts/seo/CLIENT-SCORE-<client-slug>-<date>.md` |
 | Score → `rank-tracking` | `drafts/seo/rank-tracking-setup-<date>.md` |
 | Outreach → `analytics-reporting` | `drafts/seo/analytics-<date>-<month>.md` |
 | Outreach → `local-seo` | `drafts/seo/local-<date>-<business>.md` |
