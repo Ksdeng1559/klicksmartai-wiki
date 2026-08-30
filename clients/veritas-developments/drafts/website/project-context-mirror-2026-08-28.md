@@ -1,3 +1,12 @@
+---
+type: Website
+title: project-context-mirror-2026-08-28.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: draft
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # Project Context Mirror — veritasdevelopmentgroupllc.com
 
 > **Status:** ✅ COMMITTED — `update_project_context` call executed at `2026-08-28 16:32:44 UTC`, response confirmed 4 patch ops applied

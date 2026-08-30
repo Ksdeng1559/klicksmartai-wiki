@@ -1,3 +1,13 @@
+---
+type: Reference
+title: Voice — Veritas Developments
+description: Veritas voice rules: audience, tone, do/don't. Stable reference.
+tags: [voice, tone, reference]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+okf_version: "0.2"
+---
+
 # Voice — Veritas Developments
 
 ## Audience

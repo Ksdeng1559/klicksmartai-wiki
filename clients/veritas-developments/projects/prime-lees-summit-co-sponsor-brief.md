@@ -1,4 +1,5 @@
 ---
+type: Reference
 project: Prime Lee's Summit
 client: Veritas Development Group LLC
 asset_type: Mixed-use multifamily + retail + grocery anchor

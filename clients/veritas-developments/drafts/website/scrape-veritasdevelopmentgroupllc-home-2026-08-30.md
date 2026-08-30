@@ -1,3 +1,12 @@
+---
+type: Website
+title: scrape-veritasdevelopmentgroupllc-home-2026-08-30.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: draft
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 Veritas Development Group LLC | Construction & Real Estate Development | Lee's Summit & Kansas CityYou need to enable JavaScript to run this app.
 
 [![Veritas Development Group monogram](/images/logo.png)VERITASDEVELOPMENT GROUP LLC](/)[The Standard](#about)[Team](#team)[Services](#services)[Portfolio](#portfolio)[Financing](/financing)[Contact](#contact)[816-405-6181](tel:+18164056181)

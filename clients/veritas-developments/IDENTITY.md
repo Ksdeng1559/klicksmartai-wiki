@@ -1,3 +1,23 @@
+---
+type: Client Workspace
+title: Veritas Development Group LLC — Workspace Identity
+description: Jackson County, MO real-estate developer; active engagement is deal-loan structure, investor flywheel (webinars), and CRM build. Reg D 506(b) overlay.
+tags: [client, real-estate, jackson-county-mo, faith-aligned-capital]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+verified:
+  - { by: human:david_poole, at: 2026-08-23T00:00:00Z }
+  - { by: human:daniel_bailey, at: 2026-08-23T00:00:00Z }
+sources:
+  - id: cla-md-adapter
+    resource: ./CLAUDE.md
+    title: Veritas Hermes/Claude adapter (auto-generated)
+  - id: index-manifest
+    resource: ./index.md
+    title: OKF v0.2 bundle manifest
+okf_version: "0.2"
+---
+
 # Veritas Developments — Workspace Identity
 
 > Jackson County, MO real-estate developer. Active engagement: deal-loan structure, investor flywheel (webinars), and CRM build.
