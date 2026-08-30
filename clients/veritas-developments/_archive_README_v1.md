@@ -1,3 +1,12 @@
+---
+type: Archived
+title: _archive_README_v1.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: deprecated
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # Veritas Developments — Client Workspace
 
 **Client:** Veritas Development Group LLC (V E R I T A S)

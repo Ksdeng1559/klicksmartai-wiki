@@ -1,16 +1,16 @@
-# Graph Report - wiki  (2026-08-28)
+# Graph Report - wiki  (2026-08-29)
 
 ## Corpus Check
-- 1025 files · ~1,349,535 words
+- 1027 files · ~1,369,814 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 18523 nodes · 17951 edges · 1304 communities (1260 shown, 44 thin omitted)
+- 18556 nodes · 17981 edges · 1309 communities (1265 shown, 44 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `004139ea`
+- Built from commit: `be6bb0b7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -20,7 +20,7 @@
 - Census & Housing Brief
 - Census & Housing Brief
 - leadsniperai-cli-commercial-plan.md
-- Paid Media PPC Campaign Strategist Agent
+- Part 5 — Competitors
 - Supply Chain Strategist Agent
 - GPC Development — Onboarding Tracker
 - Agency-Agents Framework — Reference for Building AI Agents
@@ -73,7 +73,7 @@
 - leadsniper-search-alignment-2026-08-23.md
 - 9. Core Messaging
 - XR Immersive Developer Agent Personality
-- Part 5 — Competitors
+- manifest.json
 - GTM Strategy Extension — Deepline and Getaero Patterns
 - Agent Personality
 - Industry Deep Dives
@@ -419,8 +419,8 @@
 - Research for Capital Formation — NotebookLM Prompt Stack
 - SpectraHoldings Data Architecture
 - Research for Capital Formation — NotebookLM Prompt Stack
-- gpc-development/README.md
-- gpc-development — Project Settings & Content Brief
+- Glossary — GPC Development
+- Client Score — GPC Development
 - IDENTITY.md — GPC Development Workspace
 - Bexar County — CDFI / CMF Eligibility Snapshot
 - Bexar County, TX — CDFI / MCF Pilot Application
@@ -515,7 +515,7 @@
 - Marketing Douyin Strategist
 - Sales Engineer Agent
 - Master Credit Facility Alignment
-- Part 1 — Business context
+- gpc-development — Project Settings & Content Brief
 - OpenSEO — SEO Skill Bindings
 - Voice — OpenSEO
 - 4.3 Pension Funds and Impact Capital
@@ -582,7 +582,7 @@
 - Spectraholdings Wiki Schema
 - scrape-veritasdevelopmentgroupllc-financing-2026-08-30.md
 - WealthWireRadar (WWR)
-- SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26
+- Part 1 — Business context
 - projects/
 - Bexar County, TX — MCF Pilot Pro Forma
 - Bexar County, TX — Investor Narrative and Use-of-Funds Memo
@@ -613,7 +613,7 @@
 - Comparative Analysis: Traditional Community Development Financing vs. The Spectra Vertically Integrated System
 - sync-gpc-duckdb.py
 - 6.3 Municipal Policy (New Westminster)
-- Part 4 — Key pages (site architecture)
+- Marketing Growth Hacker Agent
 - drafts/
 - projects/
 - Accuracy audit (what's wrong + why)
@@ -647,7 +647,7 @@
 - skills/
 - open-seo/_config/glossary.md
 - Craig County, OK — County Intelligence Report
-- 6.4 Specific Questions
+- 21.18 Implementation Phases
 - WattBricks Energy — HNWI/Investor Persona & Outreach Playbook
 - entities/agency-agents/marketing/marketing-ai-citation-strategist.md
 - Claude Partner Network
@@ -704,7 +704,7 @@
 - Business DNA Report: Insurance Transparency & Lead Generation Blueprint
 - Claude Blog Skill
 - wiki-knowledge/entities/dataforseo.md
-- 18. Dependencies and Risks
+- SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26
 - Tavily
 - [County Name, ST] — Internal Brief
 - Client Brain Standard (KlickSmartAI) — condensed knowledge bank
@@ -789,14 +789,14 @@
 - SBIR/STTR Scoring Framework
 - Test Suite 5: Investor Narrative Evidence
 - Demand Discovery Report — multifamily co-sponsor — 2026-08-28
-- 9. Recommended Strategy
 - Paid Media Search Query Analyst Agent
 - 4. Eligibility Screening
 - Recommended Integration Tiers
 - Pointer — SEO Organic Growth Playbook
 - What we found (in priority order)
-- 14. Implementation Phases
-- 3. Search Architecture
+- Part 4 — Key pages (site architecture)
+- 17. Suggested Agent Workflows
+- 5. Partnership Validation (Q5)
 - dare2dreammortgagecompany.com — Site Health & SEO Audit
 - dare2dreammortgagecompany.com — §0 Compromise Remediation Runbook
 - Bexar County, TX — County Current State Report
@@ -856,9 +856,13 @@
 - 180-Day Recommended Action Plan
 - Key Term Life Strategy Angles for IDC
 - 18. Dependencies and Risks
+- 7. Risk Assessment
 - MotherDuck Shared Intelligence Layer
 - GitHub Repository Strategy
 - Governance and Decision Records
+- 12. SEO, AEO, and Content Intelligence
+- 5. Website Crawl and Evidence Collection
+- 2. Objectives
 - Bexar County, TX — Community Sentiment Report
 - Whatcom County Housing Investment Brief — Investor Edition (Refreshed)
 - Whatcom County, WA — Community Sentiment Report
@@ -1322,11 +1326,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (1304 total, 44 thin omitted)
+## Communities (1309 total, 44 thin omitted)
 
 ### Community 0 - "integrations/README.md"
 Cohesion: 0.04
-Nodes (41): Activate a Skill, Antigravity Integration, File Format, Install, Regenerate, Activate an Agent, Agent Directory, Claude Code Integration (+33 more)
+Nodes (42): Activate an Agent, Aider Integration, Install, Manual Usage, Regenerate, Activate a Skill, Antigravity Integration, File Format (+34 more)
 
 ### Community 1 - "Hermes Memory Architecture (Layer Model)"
 Cohesion: 0.25
@@ -1341,12 +1345,12 @@ Cohesion: 0.04
 Nodes (47): 1. Target Market Alignment, 2. CDFI Engagement Levels, Affordability Gap, Bexar County / San Antonio, Buyer-Side Credit Enhancements, Capital Magnet Fund (CMF) — 10-to-1 Leverage in Practice, Capital Stack Summary — Arrowhead Pointe, CDFI / Financing Landscape (+39 more)
 
 ### Community 4 - "leadsniperai-cli-commercial-plan.md"
-Cohesion: 0.04
-Nodes (45): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+37 more)
+Cohesion: 0.05
+Nodes (38): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+30 more)
 
-### Community 5 - "Paid Media PPC Campaign Strategist Agent"
-Cohesion: 0.25
-Nodes (7): Core Capabilities, Decision Framework, Paid Media PPC Campaign Strategist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
+### Community 5 - "Part 5 — Competitors"
+Cohesion: 0.07
+Nodes (30): alairhomes.com, anthemproperties.com, beedie.ca, bosa.com, cedarcoast.com, clayconstruction.ca, cressey.com, goodmanreport.com (+22 more)
 
 ### Community 6 - "Supply Chain Strategist Agent"
 Cohesion: 0.04
@@ -1377,8 +1381,8 @@ Cohesion: 0.05
 Nodes (41): 10. Definition of Done, 11.1 SAM/UEI/CAGE/DSBS Registration Walkthrough, 11.2 APEX Counselor Integration Workflow, 11.3 Socioeconomic Certification Pathways, 11.4 Registration Status Tracking, 11. APEX Integration and Federal Registration Pathway, 12. Strategic Positioning, 1. Solution Overview (+33 more)
 
 ### Community 13 - "cli-prd.md"
-Cohesion: 0.05
-Nodes (41): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+33 more)
+Cohesion: 0.04
+Nodes (45): 10. Monitoring and Refresh Commands, 10. Structured Output Standard, 11. Campaign Workflow Changes, 11. Security and Compliance Requirements, 12. Opportunity Brief Output, 13. Cost-Control Requirements, 14. Configuration Example, 15. Minimum Viable Release (+37 more)
 
 ### Community 14 - "Civil Engineer Agent"
 Cohesion: 0.05
@@ -1556,13 +1560,13 @@ Nodes (6): 9. Core Messaging, Corporate Buyer Message, Grant-Funding Message, On
 Cohesion: 0.33
 Nodes (5): Build immersive XR experiences across browsers and headsets, 🛠️ What You Can Do, XR Immersive Developer Agent Personality, 🎯 Your Core Mission, 🧠 Your Identity & Memory
 
-### Community 58 - "Part 5 — Competitors"
-Cohesion: 0.07
-Nodes (30): alairhomes.com, anthemproperties.com, beedie.ca, bosa.com, cedarcoast.com, clayconstruction.ca, cressey.com, goodmanreport.com (+22 more)
+### Community 58 - "manifest.json"
+Cohesion: 0.09
+Nodes (21): approval_event, approved_at, approved_by, command, hitl_confirmed, client, csv_exports, deliverables_dir (+13 more)
 
 ### Community 59 - "GTM Strategy Extension — Deepline and Getaero Patterns"
-Cohesion: 0.05
-Nodes (39): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups, 3. Financing Signal Taxonomy (+31 more)
+Cohesion: 0.04
+Nodes (45): 10. Campaign Economics Calculator, 11. Evidence-Backed Signal Objects, 12. Closed-Loop Learning, 13. Recommended System Boundaries, 14. Implementation Phases, 15. Success Criteria, 1. LeadSniper GTM Skill Library, 2. New CLI Command Groups (+37 more)
 
 ### Community 60 - "Agent Personality"
 Cohesion: 0.06
@@ -1886,7 +1890,7 @@ Nodes (28): 🚀 Advanced Capabilities, Advanced Lakehouse Patterns, Architectur
 
 ### Community 141 - "agency-agents/README.md"
 Cohesion: 0.07
-Nodes (22): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Activate an Agent, Aider Integration, Install (+14 more)
+Nodes (22): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Activate an Agent, Agent Directory, GitHub Copilot Integration (+14 more)
 
 ### Community 142 - "Feishu Integration Developer"
 Cohesion: 0.07
@@ -2005,7 +2009,7 @@ Cohesion: 0.33
 Nodes (5): Conventions — <client_name>, File naming, Folder rules, Promotion convention, Version convention
 
 ### Community 171 - "SEO Audit & Engagement Quote — GPC Development"
-Cohesion: 0.14
+Cohesion: 0.13
 Nodes (14): Engagement quote, Executive summary, Phase 1 — Foundation (Week 1-2) — $2,500, Phase 2 — Content depth (Week 3-6) — $1,800, Phase 3 — Track & measure (Week 7-12) — $3,200, Phase 4 — Ongoing (optional) — $1,500/month, Pricing summary, SEO Audit & Engagement Quote — GPC Development (+6 more)
 
 ### Community 172 - "Compliance — Veritas Developments"
@@ -2073,8 +2077,8 @@ Cohesion: 0.07
 Nodes (26): AI SEO — Competitor Keywords, Client Acquisition Roadmap, Direct Outreach, KlickSmartAI OS — Applied Mapping, Lean Growth Mindset, Organic Growth — Sweat Equity, Organic vs Paid Summary, Paid Growth — Capital Compression (+18 more)
 
 ### Community 188 - "21. Printing Press GTM Strategy Engine Addendum"
-Cohesion: 0.07
-Nodes (28): 21.10 Campaign Generation from Playbooks, 21.11 Dub Attribution Integration, 21.12 Experiment Management, 21.13 Measurement and KPI Tree, 21.14 Learning Loop, 21.15 GTM Strategy Object, 21.16 Safety and Governance, 21.17 Proposed Repository Additions (+20 more)
+Cohesion: 0.09
+Nodes (22): 21.10 Campaign Generation from Playbooks, 21.11 Dub Attribution Integration, 21.12 Experiment Management, 21.13 Measurement and KPI Tree, 21.14 Learning Loop, 21.15 GTM Strategy Object, 21.16 Safety and Governance, 21.17 Proposed Repository Additions (+14 more)
 
 ### Community 189 - "DevOps Automator Agent Personality"
 Cohesion: 0.07
@@ -2730,7 +2734,7 @@ Nodes (23): 1. Why this is the core, 2. Architecture, 3.1 Theme taxonomy (the se
 
 ### Community 377 - "Final Synthesis: 9-Section Institutional Feasibility Report"
 Cohesion: 0.08
-Nodes (24): 1. Executive Summary, 2. Demand Validation (Q1), 3. Policy Validation (Q6), 400m Radius (Immediate Adjacency — Garrett is here), 4. Capital Validation (Q4), 5. Partnership Validation (Q5), 600m Radius (Short Walk), 6. Land Validation (Q3) (+16 more)
+Nodes (24): 1. Executive Summary, 2. Demand Validation (Q1), 3. Policy Validation (Q6), 400m Radius (Immediate Adjacency — Garrett is here), 4. Capital Validation (Q4), 600m Radius (Short Walk), 6. Land Validation (Q3), 800m Radius (TOD Tier 3) (+16 more)
 
 ### Community 378 - "WattBricks HNWI/Investor Persona & Outreach Playbook"
 Cohesion: 0.08
@@ -2836,13 +2840,13 @@ Nodes (23): Agent Rule, assumptions, capital_stack_items, citations, Core Tables
 Cohesion: 0.08
 Nodes (23): 10. Investor Objection Handler, 11. Municipal Partnership Strategy, 12. Research Gap Detection Engine, 13. Document Diligence Checklist Generator, 14. Investor One-Pager Generator, 15. Faith-Based Capital Narrative Builder, 16. Meeting-to-Memo Converter, 17. Partner Fit Scorecard (+15 more)
 
-### Community 404 - "gpc-development/README.md"
-Cohesion: 0.22
+### Community 404 - "Glossary — GPC Development"
+Cohesion: 0.33
 Nodes (5): Compliance / market terms, Construction / development, Glossary — GPC Development, GPC-specific, SEO terms (cross-reference)
 
-### Community 405 - "gpc-development — Project Settings & Content Brief"
-Cohesion: 0.22
-Nodes (8): gpc-development — Project Settings & Content Brief, Part 2 — Writing preferences & keyword strategy, Part 3 — Keyword library snapshot, Part 6 — Research log (chronological), Part 7 — Live snapshot in OpenSEO (D1), Part 8 — How to regenerate, Rank tracker (25 keywords, weekly schedule), Top performing keywords (by volume)
+### Community 405 - "Client Score — GPC Development"
+Cohesion: 0.18
+Nodes (10): Canonical source (post-RELEASED), Client Score — GPC Development, How to read this, Recommendation, ROI snapshot, Score: 23/100 — CONDITIONAL, Source, The 4 dimensions (+2 more)
 
 ### Community 406 - "IDENTITY.md — GPC Development Workspace"
 Cohesion: 0.22
@@ -2921,11 +2925,11 @@ Cohesion: 0.22
 Nodes (8): Angle Surfaces (write these as articles), Demand Discovery Report — best seo tools — 2026-08-26, Demand Signals (by intent), Executive Summary, `other` — 2 phrases, 1 pain points, People Also Ask Questions (4), Source Notes, `what_is` — 12 phrases, 1 pain points
 
 ### Community 425 - "Deliverables — GPC Development"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Active verticals, Deliverables — GPC Development, File format conventions, Folder binding per phase, No vertical subfolders needed, Promotion workflow, SEO vertical — sub-phase binding
 
 ### Community 426 - "VALIDATION_QUEUE.md — pending reviews"
-Cohesion: 0.25
+Cohesion: 0.29
 Nodes (7): Current queue, Format, Per-row required fields, Regenerated 2026-08-26 14:35, Status legend, VALIDATION_QUEUE.md — pending reviews, Workflow
 
 ### Community 427 - "Breakthrough Management — Field Observations and Problem Validation"
@@ -2969,8 +2973,8 @@ Cohesion: 0.12
 Nodes (17): Content Growth Strategies — 1:many Demand-Generation Workflow, Core KPI Framework, Executive Objective, Governance Rules, Growth Content Engine (proposed Hermes capability), Growth Operating Model, Initial Executive Priorities (checklist), Intelligence-to-Content Principle (+9 more)
 
 ### Community 437 - "marketplace-prd.md"
-Cohesion: 0.09
-Nodes (21): 10. Workpool and API Controls, 12. SEO, AEO, and Content Intelligence, 21. Repository Structure, 22. Engineering Standards, 24. Success Criteria, 25. Working Assumptions and Decisions Required, 26. Recommended Initial Decision, 27. Immediate Next Actions (+13 more)
+Cohesion: 0.11
+Nodes (17): 10. Workpool and API Controls, 21. Repository Structure, 22. Engineering Standards, 24. Success Criteria, 25. Working Assumptions and Decisions Required, 26. Recommended Initial Decision, 27. Immediate Next Actions, Commercial success (+9 more)
 
 ### Community 438 - "RIOS LeadSniperAI — Inspection & AI Website Opportunity Engine"
 Cohesion: 0.09
@@ -3220,9 +3224,9 @@ Nodes (19): Communication Style, Competitive Technical Positioning, Core Capabil
 Cohesion: 0.10
 Nodes (19): 1. Capital Recycling, 2. Controlled Deployment, 3. Improved Transparency, 4. Municipal Alignment, 5. Reduced Execution Friction, Core MCF Characteristics, DECISION, Decision Framework (+11 more)
 
-### Community 500 - "Part 1 — Business context"
-Cohesion: 0.29
-Nodes (7): Brand voice & audience, Business overview, Current goal (organic), Market & competition, Part 1 — Business context, Positioning, Technical SEO baseline (CRITICAL)
+### Community 500 - "gpc-development — Project Settings & Content Brief"
+Cohesion: 0.22
+Nodes (8): gpc-development — Project Settings & Content Brief, Part 2 — Writing preferences & keyword strategy, Part 3 — Keyword library snapshot, Part 6 — Research log (chronological), Part 7 — Live snapshot in OpenSEO (D1), Part 8 — How to regenerate, Rank tracker (25 keywords, weekly schedule), Top performing keywords (by volume)
 
 ### Community 501 - "OpenSEO — SEO Skill Bindings"
 Cohesion: 0.29
@@ -3233,8 +3237,8 @@ Cohesion: 0.29
 Nodes (6): Audience, Do, Don't, Standing Reminders, Tone, Voice — OpenSEO
 
 ### Community 503 - "4.3 Pension Funds and Impact Capital"
-Cohesion: 0.33
-Nodes (6): 4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED], 4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED], 4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED], 4.3.4 IMCO, CDPQ, OTPP — Canada-wide Funds [PARTIAL], 4.3.5 Mission-Driven Capital (Vancity, Avan Capital, CMLS) [VERIFIED], 4.3 Pension Funds and Impact Capital
+Cohesion: 0.12
+Nodes (16): 4.2.1 BC Builds [VERIFIED — Primary Funding Path], 4.2.2 Community Housing Fund [PARTIAL — Income overlap with BC Builds], 4.2.3 Provincial Investment in Affordable Housing (PIAH) [PARTIAL], 4.2 BC Housing Programs, 4.3.1 Healthcare of Ontario Pension Plan (HOOPP) [VERIFIED], 4.3.2 Ontario Teachers' Pension Plan (OTPP) [VERIFIED], 4.3.3 BCI (British Columbia Investment Management Corp) [VERIFIED], 4.3.4 IMCO, CDPQ, OTPP — Canada-wide Funds [PARTIAL] (+8 more)
 
 ### Community 504 - "Per-agent wiring"
 Cohesion: 0.29
@@ -3488,9 +3492,9 @@ Nodes (6): Acquisition Financing, Bridge Loans, Construction Financing, Developm
 Cohesion: 0.15
 Nodes (13): Architecture, Battlecard Format, Core Function, Dubb Integration — Video Outreach for WWR, Elite Insurance Proof Point (Same Vertical), ICP (Ideal Client Profile), ICP Qualification, Open Gaps (+5 more)
 
-### Community 567 - "SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26"
-Cohesion: 0.40
-Nodes (4): Companion artifacts, SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26, What this is, When to use
+### Community 567 - "Part 1 — Business context"
+Cohesion: 0.29
+Nodes (7): Brand voice & audience, Business overview, Current goal (organic), Market & competition, Part 1 — Business context, Positioning, Technical SEO baseline (CRITICAL)
 
 ### Community 568 - "projects/"
 Cohesion: 0.40
@@ -3513,8 +3517,8 @@ Cohesion: 0.12
 Nodes (17): 7.10 CSV Import, 7.11 Batch and Queue Management, 7.12 Export, 7.1 Configuration, 7.2 Local Business Discovery, 7.3 Lead Enrichment, 7.4 Contact and Social Discovery, 7.5 Company Intelligence (+9 more)
 
 ### Community 573 - "sapperton-district-feasibility.md"
-Cohesion: 0.10
-Nodes (19): 4.2.1 BC Builds [VERIFIED — Primary Funding Path], 4.2.2 Community Housing Fund [PARTIAL — Income overlap with BC Builds], 4.2.3 Provincial Investment in Affordable Housing (PIAH) [PARTIAL], 4.2 BC Housing Programs, 4.4 Capital Stack Scenarios, 4.5 Q4 Conclusion, 6.1 Federal Policy, 6.2 Provincial Policy (BC) (+11 more)
+Cohesion: 0.12
+Nodes (15): 1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?, 2. Does the City's policy framework actively support workforce housing at scale?, 3. Are there recent policy signals from Victoria or New Westminster that indicate an openness to healthcare worker housing?, 4. What specific City approvals are required for a 50-100 unit workforce housing project near RCH?, 5. What is the realistic timeline from land control to occupancy?, 6.1 Federal Policy, 6.2 Provincial Policy (BC), 6.4 Specific Questions (+7 more)
 
 ### Community 574 - "Organization Profile: Spectra Holdings Group, Inc."
 Cohesion: 0.12
@@ -3612,9 +3616,9 @@ Nodes (4): log(), main(), pull_d1(), Pull D1 SQLite from OpenSEO container to /t
 Cohesion: 0.33
 Nodes (6): 6.3 Municipal Policy (New Westminster), DCC/DCL Schedule, Family Friendly Housing Policy, Official Community Plan (OCP), Townhouse Accelerator Program, Zoning Bylaw 6680
 
-### Community 598 - "Part 4 — Key pages (site architecture)"
-Cohesion: 0.50
-Nodes (4): Hub pages (5), Money pages (1), Part 4 — Key pages (site architecture), Spoke pages (4)
+### Community 598 - "Marketing Growth Hacker Agent"
+Cohesion: 0.29
+Nodes (6): Core Capabilities, Decision Framework, Marketing Growth Hacker Agent, Role Definition, Specialized Skills, Success Metrics
 
 ### Community 599 - "drafts/"
 Cohesion: 0.50
@@ -3724,9 +3728,9 @@ Nodes (15): archive/*, Branch Roles, Consolidation Path, Contact, Directory Stru
 Cohesion: 0.13
 Nodes (14): 10. Capital Attraction Thesis, 11. Key Data Gaps, 12. Recommended Next Steps, 1. Population, 2. Demographics, 3. Housing Stock, 4. Income & Affordability, 5. Economy & Employment (+6 more)
 
-### Community 632 - "6.4 Specific Questions"
+### Community 632 - "21.18 Implementation Phases"
 Cohesion: 0.33
-Nodes (6): 1. Is the Sapperton district aligned with current TOD/transit-oriented provincial policy?, 2. Does the City's policy framework actively support workforce housing at scale?, 3. Are there recent policy signals from Victoria or New Westminster that indicate an openness to healthcare worker housing?, 4. What specific City approvals are required for a 50-100 unit workforce housing project near RCH?, 5. What is the realistic timeline from land control to occupancy?, 6.4 Specific Questions
+Nodes (6): 21.18 Implementation Phases, Phase A — Playbook Registry, Phase B — Strategy Recommendation, Phase C — Plan and Asset Generation, Phase D — Attribution and Measurement, Phase E — Closed-Loop Learning
 
 ### Community 633 - "WattBricks Energy — HNWI/Investor Persona & Outreach Playbook"
 Cohesion: 0.13
@@ -3952,9 +3956,9 @@ Nodes (13): Benchmarks (2025-2026), `/blog write` — Interactive Questions, Cla
 Cohesion: 0.14
 Nodes (13): AI Optimization (unique differentiator), Backlinks, Content & Technologies, Credentials, Key Tools, Keyword Research, MCP Server, Pricing (+5 more)
 
-### Community 689 - "18. Dependencies and Risks"
-Cohesion: 0.50
-Nodes (4): 18. Dependencies and Risks, Dependencies, Mitigations, Principal Risks
+### Community 689 - "SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26"
+Cohesion: 0.40
+Nodes (4): Companion artifacts, SEO Audit 1-Page — gpcdevelopment.ca — 2026-08-26, What this is, When to use
 
 ### Community 690 - "Tavily"
 Cohesion: 0.14
@@ -4288,10 +4292,6 @@ Nodes (12): Definition of Done, Expected Routing After Testing, Final Decision P
 Cohesion: 0.22
 Nodes (8): Angle Surfaces, `comparison` — 8 phrases, 0 pain points, Demand Discovery Report — multifamily co-sponsor — 2026-08-28, Demand Signals (by intent), Executive Summary, People Also Ask Questions (4), Source Notes, `what_is` — 12 phrases, 0 pain points
 
-### Community 774 - "9. Recommended Strategy"
-Cohesion: 0.25
-Nodes (8): 9. Recommended Strategy, Final Verdict, Immediate Actions (Next 90 Days), Key Decision Gates, Phase 1: GARRETT + CORRIDOR (Years 1-3), Phase 2: DISTRICT EXPANSION (Years 3-7), Phase 3: FULL DISTRICT (Years 7-15), Success Metrics
-
 ### Community 775 - "Paid Media Search Query Analyst Agent"
 Cohesion: 0.25
 Nodes (7): Core Capabilities, Decision Framework, Paid Media Search Query Analyst Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
@@ -4312,13 +4312,17 @@ Nodes (6): Cross-workspace evidence map, Files in `open-seo/drafts/seo/`, Pointe
 Cohesion: 0.29
 Nodes (7): 1. The site has a hosting-layer routing problem (High priority), 2. The homepage content isn't visible to search engines (High priority), 3. Missing page headline (H1) (High priority), 4. No links to other pages (High priority), 5. Meta description too long (Medium priority), 6. Page title too long (Medium priority), What we found (in priority order)
 
-### Community 780 - "14. Implementation Phases"
-Cohesion: 0.33
-Nodes (6): 14. Implementation Phases, Phase 1 — Foundation, Phase 2 — Deepline Integration, Phase 3 — Qualification and Routing, Phase 4 — Outbound and Replies, Phase 5 — Learning Loop
-
-### Community 781 - "3. Search Architecture"
+### Community 780 - "Part 4 — Key pages (site architecture)"
 Cohesion: 0.50
-Nodes (4): 3.1 Discovery Layer, 3.2 Identity Resolution, 3.3 Duplicate Prevention, 3. Search Architecture
+Nodes (4): Hub pages (5), Money pages (1), Part 4 — Key pages (site architecture), Spoke pages (4)
+
+### Community 781 - "17. Suggested Agent Workflows"
+Cohesion: 0.50
+Nodes (4): 17. Suggested Agent Workflows, Workflow A — Find and Qualify Local Businesses, Workflow B — Audit One Business, Workflow C — Create Reviewable Outreach
+
+### Community 782 - "5. Partnership Validation (Q5)"
+Cohesion: 0.50
+Nodes (4): 5. Partnership Validation (Q5), Fraser Health Authority, Private Landowners in 400m Radius, Recommended Partnership Structure (VGH Model)
 
 ### Community 783 - "dare2dreammortgagecompany.com — Site Health & SEO Audit"
 Cohesion: 0.18
@@ -4556,6 +4560,10 @@ Nodes (11): Key Term Life Strategy Angles for IDC, Live Research: Term Life YouT
 Cohesion: 0.50
 Nodes (4): 18. Dependencies and Risks, Dependencies, Mitigations, Principal Risks
 
+### Community 842 - "7. Risk Assessment"
+Cohesion: 0.50
+Nodes (4): 7. Risk Assessment, Tier 1: Critical Risks, Tier 2: Material Risks, Tier 3: Manageable Risks
+
 ### Community 843 - "MotherDuck Shared Intelligence Layer"
 Cohesion: 0.50
 Nodes (4): Analytical Tables, Intelligence Features, MotherDuck Shared Intelligence Layer, Primary Questions
@@ -4567,6 +4575,18 @@ Nodes (4): Central Repository, GitHub Repository Strategy, Product Manifest, Sug
 ### Community 845 - "Governance and Decision Records"
 Cohesion: 0.67
 Nodes (3): Decision Record Format, Governance and Decision Records, Initial Decisions to Record
+
+### Community 846 - "12. SEO, AEO, and Content Intelligence"
+Cohesion: 0.50
+Nodes (4): 12. SEO, AEO, and Content Intelligence, AEO requirements, Content prioritization formula, Data sources
+
+### Community 847 - "5. Website Crawl and Evidence Collection"
+Cohesion: 0.50
+Nodes (4): 5. Website Crawl and Evidence Collection, Crawler command, Extracted signals, Pages to inspect
+
+### Community 848 - "2. Objectives"
+Cohesion: 0.67
+Nodes (3): 2. Objectives, Non-Goals for Version 1, Primary Objectives
 
 ### Community 854 - "Bexar County, TX — Community Sentiment Report"
 Cohesion: 0.20
@@ -6297,24 +6317,24 @@ Cohesion: 0.67
 Nodes (3): 9.1 Active Agents (Ongoing), 9.2 Continuous Improvement Cycle, 9. Phase 6 — Operate & Evolve
 
 ## Knowledge Gaps
-- **13926 isolated node(s):** `$schema`, `title`, `type`, `type`, `type` (+13921 more)
+- **13953 isolated node(s):** `$schema`, `title`, `type`, `type`, `type` (+13948 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **44 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Nexus Spatial: Full Agency Discovery Exercise` connect `Nexus Spatial: Full Agency Discovery Exercise` to `3. Technical Architecture`, `7. UX Research & Design Direction`, `2. Market Validation`, `5. Go-to-Market & Growth`, `Examples`, `4. Brand Strategy`, `6. Customer Support Blueprint`, `8. Project Execution Plan`, `9. Spatial Interface Architecture`, `1. The Opportunity`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
 - **What connects `$schema`, `title`, `type` to the rest of the system?**
-  _13926 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _13953 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `integrations/README.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.0392156862745098 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.038461538461538464 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `leadsniperai-cli-commercial-plan.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
+- **Should `Part 5 — Competitors` be split into smaller, more focused modules?**
+  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
 - **Should `Supply Chain Strategist Agent` be split into smaller, more focused modules?**
   _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._

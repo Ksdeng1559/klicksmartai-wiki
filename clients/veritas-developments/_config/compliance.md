@@ -1,3 +1,17 @@
+---
+type: Compliance
+title: Compliance Overlay — Veritas Developments (Reg D 506(b))
+description: Applies to any Veritas deliverable that touches capital raising, securities, or investor marketing. Reg D 506(b) overlay; pre-existing substantive relationships or accredited investors with verifiable prior connection.
+tags: [compliance, securities, reg-d-506b]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+sources:
+  - id: sec-reg-d-506b
+    resource: https://www.sec.gov/rules/final/33-7505.htm
+    title: SEC Final Rule 33-7505 (Securities Act Rule 506(b))
+okf_version: "0.2"
+---
+
 # Compliance — Veritas Developments
 
 Applies to any Veritas deliverable that touches **capital raising, securities, or investor marketing**.

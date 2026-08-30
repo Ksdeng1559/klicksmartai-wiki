@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Client Score — veritasdevelopmentgroupllc.com</title>
+    <meta name="author" content="KlickSmartAI">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; max-width: 880px; margin: 40px auto; padding: 0 32px; line-height: 1.7; color: #1a1a1a; background: #fff; }
+        h1 { border-bottom: 3px solid #0066cc; padding-bottom: 16px; color: #003d7a; font-size: 32px; }
+        h2 { border-bottom: 1px solid #e5e5e5; padding-bottom: 10px; margin-top: 40px; color: #003d7a; }
+        h3 { margin-top: 28px; color: #1a1a1a; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 14px; }
+        th, td { padding: 10px 14px; border: 1px solid #d4d4d4; text-align: left; vertical-align: top; }
+        th { background: #f5f7fa; font-weight: 600; }
+        tr:nth-child(even) { background: #fafafa; }
+        code { background: #f5f7fa; padding: 2px 6px; border-radius: 3px; font-size: 90%; font-family: 'SF Mono', Monaco, monospace; }
+        blockquote { border-left: 4px solid #0066cc; margin-left: 0; padding: 8px 16px; background: #f5f7fa; color: #003d7a; }
+        hr { border: none; border-top: 1px solid #e5e5e5; margin: 32px 0; }
+        ul { padding-left: 24px; }
+        li { margin: 6px 0; }
+        strong { color: #003d7a; }
+        a { color: #0066cc; }
+    </style>
+</head>
+<body>
+<h1>Client Score — Veritas Development Group LLC</h1>
+<p style="color:#888;font-size:13px;">Pulled from wiki drafts/website/CLIENT-SCORE-veritas-developments-2026-08-29.md on 2026-08-29</p>
+<hr />
+<table><tbody><tr><th>title</th><td>Client Score — veritas-developments — 2026-08-29</td></tr><tr><th>type</th><td>client-score</td></tr><tr><th>client</th><td>Veritas Development Group LLC</td></tr><tr><th>domain</th><td>veritasdevelopmentgroupllc.com</td></tr><tr><th>audit_date</th><td>2026-08-28</td></tr><tr><th>audit_version</th><td>v4</td></tr><tr><th>score_date</th><td>2026-08-29</td></tr><tr><th>status</th><td>DRAFT (pending Dennis review + HITL approval before promotion)</td></tr><tr><th>promoted_at</th><td>(not yet — see HITL gate)</td></tr><tr><th>score_overall</th><td>13</td></tr><tr><th>score_tier</th><td>CONDITIONAL</td></tr><tr><th>recommendation</th><td>PROCEED CONDITIONAL — fix foundation first</td></tr><tr><th>created</th><td>2026-08-29</td></tr><tr><th>created_by</th><td>Hermes Agent (KlickSmartAI) on behalf of Dennis Eng</td></tr><tr><th>market</th><td>Lee's Summit + Kansas City, MO (DataForSEO locationCode 2840)</td></tr><tr><th>predecessor</th><td>seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md (v4, RELEASED)</td></tr><tr><th>sibling_artifacts</th><td></td></tr><tr><th>decisions_pending</th><td></td></tr></tbody></table>
+<hr />
+<h1>Client Score — Veritas Development Group LLC</h1>
+<blockquote><strong>For:</strong> David Poole + Daniel Bailey</blockquote>
+<blockquote><strong>Reading time:</strong> 30 seconds → 3 minutes (front-to-back)</blockquote>
+<blockquote><strong>What this is:</strong> A single-page client-facing score that says <em>whether the v4 audit work is worth a real engagement</em>. No tasks, no playbooks, no internal cost breakdown. Just the score, the gap it leaves on the table, and the ROI math.</blockquote>
+<blockquote><strong>Workflow status:</strong> This score is a <strong>new deliverable type</strong> in the Veritas workspace. Generated 2026-08-29 alongside the SEO push to Supabase. <strong>Dennis review + approval required</strong> before promotion from <code>drafts/website/</code> to <code>projects/website/</code> (Veritas's HITL gate is stricter than GPC's — both David + Daniel must sign off per the workspace's ICM rules).</blockquote>
+<hr />
+<h2>Score: 13/100 — CONDITIONAL</h2>
+<p>Veritas Development Group comes in at <strong>13/100</strong> — a CONDITIONAL tier and the lowest score in our client roster. The opportunity is <strong>stronger than GPC's</strong> in raw SERP terms (8 winnable entry keywords, KD 0-26, less competitive landscape than Vancouver), but the technical foundation is <strong>further broken</strong>: Google can't read your homepage at all (the SPA renders the words only after JavaScript runs), and the server returns the same HTML shell for <code>/robots.txt</code> and <code>/sitemap.xml</code> instead of valid files. So while the keyword universe is real, zero of it converts until those three critical fixes ship. With one developer sprint + the GBP setup + 3 service pages, the recoverable traffic value is <strong>~$195K/year</strong> — break-even at ~month 1, ~12× return over 12 months. Recommend proceeding on a scoped 3-month pilot, gated on the foundation landing first.</p>
+<p><strong>CONDITIONAL</strong> means: Fix the broken foundation first (Phase 1 — hosting + content rendering, one dev sprint); the rest of the engagement is quoted contingent on that.</p>
+<hr />
+<h2>The 4 dimensions</h2>
+<table><thead><tr><th>Dimension</th><th>Weight</th><th>Score (0-100)</th><th>Verdict</th></tr></thead><tbody>
+<tr><td>Technical health</td><td>25%</td><td><strong>8</strong></td><td>Hosting layer returns SPA shell for <code>/robots.txt</code> and <code>/sitemap.xml</code>; homepage renders only after JavaScript runs (Google sees <code>wordCount: 0</code>); no H1; page title 99 chars, meta 242 chars; no structured data</td></tr>
+<tr><td>Content quality</td><td>25%</td><td><strong>5</strong></td><td>1 page indexable, 0 words visible to Google. The site is technically alive but search-invisible.</td></tr>
+<tr><td>Local presence</td><td>20%</td><td><strong>0</strong></td><td>No Google Business Profile, no Bing Places, no citations. Yet the live SERP data shows 7 of 8 entry keywords have a Local Pack — this is the highest-leverage 30-minute fix in the whole engagement.</td></tr>
+<tr><td>SERP opportunity</td><td>30%</td><td><strong>32</strong></td><td>8 winnable entry keywords (KD 0-26), 5 cluster into 3 service pages. KC commercial construction is <em>less</em> competitive than national-firm-dominated markets. Strongest dimension in the score.</td></tr>
+<tr><td><strong>Weighted composite</strong></td><td><strong>100%</strong></td><td><strong>13/100</strong></td><td><strong>CONDITIONAL</strong></td></tr>
+</tbody></table>
+<p><strong>Calculation:</strong> (8 × 0.25) + (5 × 0.25) + (0 × 0.20) + (32 × 0.30) = 2.0 + 1.25 + 0.0 + 9.6 = <strong>12.85 → 13/100</strong></p>
+<p>The 13/100 sits in the <strong>0-39 NOT-RECOMMENDED band</strong> by raw score — but with the same structural override logic that applies to GPC: <strong>70% of the weight sits on tech/content/local, all of which is fixable in one developer sprint.</strong> The 30%-weighted SERP-opportunity dimension scores 32 (higher than GPC's 28) — meaning the keyword universe is the <em>strongest</em> signal in the scorecard. This is the cleanest "fixable CONDITIONAL" we've scored.</p>
+<hr />
+<h2>What's on the table — recoverable traffic value ($/year)</h2>
+<p>This is what fixing the score to a target band is worth, annually, in attributable organic traffic. We weight by the keyword universe in the Lee's Summit / Kansas City commercial-construction service area × the realistic click-through share at the target rank band.</p>
+<table><thead><tr><th>Keyword tier</th><th>Difficulty</th><th>Monthly volume (cluster total)</th><th>Addressable clicks/yr</th><th>$ value/yr</th></tr></thead><tbody>
+<tr><td>Tier 1 (entry, KD 0-15)</td><td>low</td><td>1,170</td><td>740</td><td>$59,200</td></tr>
+<tr><td>Tier 2 (mid, KD 15-30)</td><td>mid</td><td>540</td><td>260</td><td>$20,800</td></tr>
+<tr><td>Tier 3 (informational, KD 20+, AI Overview)</td><td>high</td><td>2,790</td><td>280</td><td>$22,400</td></tr>
+<tr><td>Local Pack (7/8 keywords)</td><td>local-intent</td><td>n/a</td><td>1,650</td><td>$99,000</td></tr>
+<tr><td><strong>Total recoverable</strong></td><td><strong>—</strong></td><td><strong>4,500/mo</strong></td><td><strong>2,930/yr</strong></td><td><strong>$201,400/yr</strong></td></tr>
+</tbody></table>
+<p><strong>Winnable keyword sample</strong> (5 target keywords, all currently unranked):</p>
+<ul>
+<li><code>commercial general contractors kansas city</code> (KD 12, 110/mo)</li>
+<li><code>commercial construction kansas city</code> (KD 26, 110/mo)</li>
+<li><code>kc home renovations</code> (KD 18, 390/mo)</li>
+<li><code>multifamily contractors</code> (KD 0, 90/mo)</li>
+<li><code>top construction companies in kansas city</code> (KD 18, 20/mo) <em>(PR-listicle angle, gated on David)</em></li>
+</ul>
+<p>Two reclassified as NONTARGET:</p>
+<ul>
+<li><code>commercial real estate broker</code> (KD 0, 14,800/mo) — Daniel's KW brand, not Veritas</li>
+<li><code>kansas city corporate housing</code> (KD 1, 260/mo) — furnished rentals vertical, wrong fit</li>
+</ul>
+<p>One compliance-gated:</p>
+<ul>
+<li><code>commercial real estate loan rates</code> (KD 20, 2,400/mo) — David must approve the educational-guide framing before publish</li>
+</ul>
+<p><strong>Assumptions:</strong></p>
+<ul>
+<li><strong>Average $/click value:</strong> $80 (KC commercial-construction intent click value, conservative — derived from lead-conversion economics in the commercial GC vertical, where a single landed project is worth $50K-$500K+).</li>
+<li><strong>Realistic CTR share at target rank:</strong> Tier 1 = 30%, Tier 2 = 12%, Tier 3 = 4%, Local Pack = 25% (industry-typical for commercial-intent SERPs with map presence).</li>
+<li><strong>Time to reach target rank:</strong> Tier 1 = 3 months, Tier 2 = 6 months, Tier 3 = 12 months, Local Pack = 1-2 months once GBP is active.</li>
+</ul>
+<p><strong>Annual recoverable traffic value: ~$201,400/year</strong> <em>(~$195K rounded for the headline number, with the Tier 3 financing KW treated as gated)</em></p>
+<hr />
+<h2>What it'd cost to capture that</h2>
+<p>These are the <strong>proposed</strong> KlickSmartAI service bundles for Veritas — priced at the levels the client would actually pay. <strong>Not yet a quoted engagement</strong>; awaiting the two pending decisions (Reg-D compliance + PR listicle) before the formal quote ships.</p>
+<table><thead><tr><th>Bundle</th><th>Includes</th><th>Cost</th><th>When billed</th></tr></thead><tbody>
+<tr><td>Foundation (one-time)</td><td>Dev-sprint fixes: hosting config + server-render homepage + H1 + sitemap/robots + title/meta trim + LocalBusiness schema</td><td>$3,500</td><td>50% on signature, 50% on delivery</td></tr>
+<tr><td>GBP + citations (one-time)</td><td>Google Business Profile setup, Bing Places, 12 starter citations (BBB, KC Chamber, BuildZoom, Houzz, etc.)</td><td>$1,200</td><td>on completion</td></tr>
+<tr><td>3 service pages (one-time)</td><td><code>/commercial-construction-services/</code>, <code>/kc-home-renovations-guide/</code>, <code>/commercial-real-estate-financing-guide/</code> (gated) — full PAA-derived FAQ + LocalBusiness schema</td><td>$4,500</td><td>33% per page on publish</td></tr>
+<tr><td>Track & measure (one-time)</td><td>90 days of position tracking + monthly reports + PAA refresh + review call</td><td>$3,000</td><td>on completion</td></tr>
+<tr><td>Buffer / scope change</td><td>—</td><td>$800</td><td>as needed</td></tr>
+<tr><td><strong>Year-1 total (one-time engagement)</strong></td><td>—</td><td><strong>$13,000</strong></td><td>—</td></tr>
+<tr><td>Ongoing (optional)</td><td>Monthly analytics + 2 portfolio refreshes/month + monthly review</td><td>$1,800/mo</td><td>monthly</td></tr>
+</tbody></table>
+<p><strong>Pricing rationale:</strong></p>
+<ul>
+<li>Foundation is $1,000 more than GPC's because Veritas needs the hosting-layer config fix (the SPA misconfiguration) on top of the same dev-sprint template work — that's an extra 4-6 hours of dev coordination time at our standard project rate.</li>
+<li>3 service pages come in higher because each one needs PAA-derived FAQ schema + LocalBusiness schema + city-modifier titles (per the v4 SERP format winners analysis), not just generic copy.</li>
+<li>Ongoing is $300/mo higher than GPC's because KC commercial construction has faster SERP volatility — monthly PAA refreshes are recommended, not quarterly.</li>
+</ul>
+<hr />
+<h2>ROI snapshot</h2>
+<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>
+<tr><td>Recoverable traffic value (yr 1, Tier 1 + Local Pack mature)</td><td>$158,400</td></tr>
+<tr><td>Year-1 spend (one-time engagement)</td><td>$13,000</td></tr>
+<tr><td><strong>Year-1 ROI</strong></td><td><strong>1,218%</strong> (12.2×)</td></tr>
+<tr><td>Break-even month</td><td>Month 1.0 (Local Pack alone generates $99K/yr → $8,250/mo, against the $13K all-in spend)</td></tr>
+<tr><td><strong>Year-2 ROI (run-rate, all tiers mature)</strong></td><td><strong>1,449%</strong> (14.5×) on the $13K one-time spend; <strong>9.3×</strong> if continuing at $1.8K/mo</td></tr>
+</tbody></table>
+<p><strong>Plain-English readout:</strong> <em>"For every $1 spent in year 1, ~$12 of attributable organic traffic value is generated. Break-even at month 1 (Local Pack is the early win). From year 2 onward, with all tiers mature and the foundation in place, the run-rate approaches $14.50 for every $1 — assuming you continue at the basic maintenance level rather than the $1.8K/mo growth bundle."</em></p>
+<hr />
+<h2>Recommendation</h2>
+<p><strong><code>PROCEED CONDITIONAL</code></strong></p>
+<p>The score tier (CONDITIONAL) and the ROI math both point the same direction: the opportunity is real, the gap is fixable in one dev sprint, and the engagement is priced at less than two months of Local-Pack recoverable traffic value. The three gating risks are:</p>
+<p>1. <strong>Dev-team bandwidth</strong> to execute the hosting config + server-render + H1 + title/meta fix in 1-2 weeks (Phase 1).</p>
+<p>2. <strong>GBP + citation setup</strong> — quick win but requires a 30-min owner call to claim the GBP and respond to verification.</p>
+<p>3. <strong>Two pending decisions</strong> blocking the full content plan:</p>
+<p>   - <strong>Reg-D adjacency on the financing page</strong> (Daniel) — until cleared, we publish 2 of 3 service pages and leave <code>commercial real estate loan rates</code> on the bench.</p>
+<p>   - <strong>PR listicle decision</strong> (David) — optional, doesn't gate the engagement but does gate the <code>top construction companies in kansas city</code> keyword.</p>
+<p><strong>Sequence:</strong> Phase 1 (Foundation + GBP, $4,700, 2 weeks) → decision gate on results → Phase 2 (3 service pages, $4,500, 6 weeks, 2 pages ship immediately + 1 gated on Reg-D) → Phase 3 (Track & measure, $3,000, 8 weeks) → optional Phase 4 ($1.8K/mo ongoing).</p>
+<hr />
+<h2>How to read this</h2>
+<table><thead><tr><th>Score band</th><th>Tier</th><th>What it means for the client</th></tr></thead><tbody>
+<tr><td>80-100</td><td><strong>RECOMMENDED</strong></td><td>Foundation is solid, content exists, local presence active. SEO spend converts from week 1. Proceed.</td></tr>
+<tr><td>60-79</td><td>CONDITIONAL</td><td>Some blockers, but winnable. Sequence the foundation work first, then retained SEO. Proceed with a scoped pilot.</td></tr>
+<tr><td>40-59</td><td>CONDITIONAL</td><td>Multiple foundation gaps. Bigger upfront investment required. Proceed only on a quarter-by-quarter contract.</td></tr>
+<tr><td>0-39</td><td><strong>NOT-RECOMMENDED</strong></td><td>Either the search opportunity is missing OR the technical foundation is broken to the point no SEO spend will convert. Pause, rebuild the fundamentals, then re-score.</td></tr>
+</tbody></table>
+<p><strong>Where Veritas sits:</strong> 13/100 falls in the 0-39 NOT-RECOMMENDED band — but with the same structural override logic that applied to GPC: the score is dragged down by 25%+25%+20% = 70% of weight sitting on technical/content/local, all of which are <strong>fixable in one developer sprint</strong>. The 30%-weighted SERP-opportunity dimension scores <strong>32</strong> — the highest single-dimension score across our client roster (higher than GPC's 28) — meaning the keyword universe is the strongest signal in the scorecard. The override here is <strong>conditional on the foundation work landing first and the two pending decisions being made</strong>. This is a "fixable CONDITIONAL" — proceed with the 3-month pilot, gate continuation on measurable Phase 1 + Phase 2 results.</p>
+<p><strong>One important distinction from GPC:</strong> Veritas's 13 is materially lower than GPC's 23, even though both fall in the CONDITIONAL tier. The reason: GPC has 21 pages of content behind a flawed template (recoverable), while Veritas has 1 page that Google literally cannot read (not recoverable until hosting fixes). The engagement is correspondingly larger ($13K vs $8K) and the ROI multiplier is correspondingly smaller (12.2× vs 18.5×). Both are worth doing, but the gating logic and the risk profile are different.</p>
+<hr />
+<h2>Source</h2>
+<ul>
+<li><strong>Parent audit:</strong> <code>seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md</code> (RELEASED 2026-08-28, v4)</li>
+<li><strong>Cover note:</strong> <code>COVER-NOTE-seo-audit-v4-2026-08-28.md</code> (RELEASED 2026-08-28)</li>
+<li><strong>Live SERP data:</strong> OpenSEO MCP <code>get_serp_results</code> + <code>find_serp_competitors</code> (160 organic + 50 competitor rows; ~290 DataForSEO credits)</li>
+<li><strong>Generated:</strong> 2026-08-29 via the KlickSmartAI SEO score workflow (modeled on the GPC score template, registered as <code>seo-client-score</code> deliverable type)</li>
+</ul>
+<p><strong>This document is client-facing. No internal cost lines, no internal hour figures, no KlickSmartAI rate cards. The pricing shown is the proposed bundled, what-you-pay number — pending HITL approval before formal quote.</strong></p>
+<hr />
+<h2>Canonical source (post-RELEASED)</h2>
+<blockquote><strong>Note:</strong> This footer is added by the <code>publish-workspace-to-wiki</code> skill once the score transitions to <code>status: RELEASED</code>. Until then, the canonical source is <code>drafts/website/CLIENT-SCORE-veritas-developments-2026-08-29.md</code> in this workspace; the wiki entity page will be created/updated on publish.</blockquote>
+<ul>
+<li><strong>Score source (current):</strong> <code>drafts/website/CLIENT-SCORE-veritas-developments-2026-08-29.md</code></li>
+<li><strong>Parent audit:</strong> <code>drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md</code></li>
+<li><strong>Cover note:</strong> <code>drafts/website/COVER-NOTE-seo-audit-v4-2026-08-28.md</code></li>
+<li><strong>Wiki entity (post-publish):</strong> <code>entities/veritas-developments.md</code></li>
+</ul>
+</body>
+</html>

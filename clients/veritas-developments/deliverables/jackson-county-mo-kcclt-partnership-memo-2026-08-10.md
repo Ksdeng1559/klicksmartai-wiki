@@ -1,4 +1,5 @@
 ---
+type: Reference
 title: "Kansas City Community Land Trust — Partnership Memo"
 client: Veritas Developments (David Poole)
 projects: Prime Lee's Summit, Stonehaven Estates

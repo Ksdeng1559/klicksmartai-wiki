@@ -1,4 +1,5 @@
 ---
+type: Reference
 title: "Jackson County, MO — East-Side Vacancy Conversion Pilot Pro-Forma"
 client: Veritas Developments (David Poole)
 projects: Prime Lee's Summit, Stonehaven Estates

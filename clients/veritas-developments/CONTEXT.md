@@ -1,3 +1,16 @@
+---
+type: Client Engagement
+title: Veritas Developments — Routing
+description: Engagement-level routing table for the Veritas workspace. Quick-mode pipeline (intake → research → draft → review → publish).
+tags: [routing, pipeline, quick-mode]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+sources:
+  - id: identity-workspace
+    resource: ./IDENTITY.md
+okf_version: "0.2"
+---
+
 # Veritas Developments — Routing
 
 ## What do you want to do?

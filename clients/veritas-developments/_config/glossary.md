@@ -1,3 +1,13 @@
+---
+type: Glossary
+title: Glossary — Veritas Developments
+description: Domain terms used across Veritas deliverables. Add terms as they arise.
+tags: [glossary, terms]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+okf_version: "0.2"
+---
+
 # Glossary — Veritas Developments
 
 Domain terms used across Veritas deliverables. Keep concise; add new terms as they arise.

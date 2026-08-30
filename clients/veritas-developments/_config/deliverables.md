@@ -1,3 +1,13 @@
+---
+type: Reference
+title: Vertical Artifact Map — Veritas Developments
+description: Per-vertical artifact map for Veritas — folder, file format, default Hermes skill binding.
+tags: [deliverables, vertical-map, reference]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+okf_version: "0.2"
+---
+
 # _config/deliverables.md — Veritas Development Vertical Map
 
 This file is the **canonical artifact-type map** for Veritas Development Group LLC. It tells the agent (and the user) where to put each kind of deliverable, and which Hermes skill to invoke.

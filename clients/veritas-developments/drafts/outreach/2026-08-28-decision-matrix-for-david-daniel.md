@@ -1,3 +1,12 @@
+---
+type: Reference
+title: 2026-08-28-decision-matrix-for-david-daniel.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: draft
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # Veritas — Consolidated Decision Matrix for David + Daniel
 
 > **Purpose:** Eight draft items are queued in `drafts/VALIDATION_QUEUE.md`. Each is blocked on a David + Daniel answer. Sending one-at-a-time would force them to context-switch across 8 unrelated questions. **This doc bundles them into one decision matrix with [RECOMMENDED] answers, so David + Daniel can answer in one sitting.**

@@ -1,3 +1,12 @@
+---
+type: Website
+title: v2-plan-brief-2026-08-28.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: draft
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # Veritas v2 Plan Brief — for Dennis
 
 **Audience:** Dennis Eng (KlickSmartAI).

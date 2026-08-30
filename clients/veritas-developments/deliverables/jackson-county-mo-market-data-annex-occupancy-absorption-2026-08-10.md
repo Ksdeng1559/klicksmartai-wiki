@@ -1,4 +1,5 @@
 ---
+type: Reference
 title: "Jackson County, MO (Kansas City) — Market Data Annex: Apartment Occupancy & Executive Home Absorption"
 client: Veritas Developments (David Poole)
 projects: Prime Lee's Summit, Stonehaven Estates

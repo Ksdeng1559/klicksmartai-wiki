@@ -1,3 +1,13 @@
+---
+type: Reference
+title: Conventions — Veritas Developments
+description: File naming, folder rules, ICM conventions for Veritas.
+tags: [conventions, naming, reference]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+okf_version: "0.2"
+---
+
 # Conventions — Veritas Developments
 
 ## File naming
