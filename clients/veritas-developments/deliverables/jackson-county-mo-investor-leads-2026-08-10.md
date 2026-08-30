@@ -1,3 +1,14 @@
+---
+type: Reference
+title: jackson-county-mo-investor-leads-2026-08-10.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: stable
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified:
+  - { by: human:dennis, at: 2026-08-10T00:00:00Z }
+  - { by: human:david_poole, at: 2026-08-10T00:00:00Z }
+okf_version: "0.2"
+---
 # Jackson County, MO (Kansas City) — Investor Leads
 
 > **Scope:** Prepared for Veritas Developments (David Poole) — **Prime Lee's Summit** (Hwy 291, Lee's Summit) & **Stonehaven Estates** (Cyclone School Rd, Lee's Summit), Jackson County, MO.

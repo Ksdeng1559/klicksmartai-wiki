@@ -1,3 +1,12 @@
+---
+type: Reference
+title: "Folder contract — deck"
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: stable
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # drafts/deck/ — Veritas AI Work in Progress for deck
 
 **Purpose:** AI-generated deck drafts for Veritas Development Group LLC. Pre-HITL, NOT source-of-truth.

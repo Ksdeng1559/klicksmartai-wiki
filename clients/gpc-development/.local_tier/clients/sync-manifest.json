@@ -1,0 +1,8 @@
+{
+  "client": "gpc-development",
+  "project_id": "34afee19-d725-4073-b43f-1b76c6275c11",
+  "duckdb_path": "/home/denni/wiki/clients/gpc-development/.local_tier/clients/gpc-development.duckdb",
+  "tables": 14,
+  "views": 6,
+  "synced_at": "2026-08-26T19:31:10.964432"
+}

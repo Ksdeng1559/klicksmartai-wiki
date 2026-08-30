@@ -1,3 +1,22 @@
+---
+type: SkillBinding
+title: GTM Skills Registry — Veritas Development Group LLC
+description: Per-client GTM use-case → skill bindings, role mappings, client overrides, 4-step HITL gate, Deepline CLI rule. Source of truth for the agent's GTM skill roster for this client.
+tags: [gtm, skills, binding, deepline, hitl-gate]
+status: stable
+generated: { by: human:dennis, at: 2026-08-23T00:00:00Z }
+verified:
+  - { by: human:david_poole, at: 2026-08-23T00:00:00Z }
+sources:
+  - id: gtm-enrichment-planner
+    resource: ~/.hermes/skills/gtm/gtm-enrichment-planner/SKILL.md
+    title: gtm-enrichment-planner (universal orchestration)
+  - id: reg-d-overlay
+    resource: ./compliance.md
+    title: Reg D 506(b) overlay
+okf_version: "0.2"
+---
+
 # GTM Skills Registry — Veritas Development Group LLC
 
 This file is the **canonical GTM skills binding** for Veritas Development Group LLC. It lists every GTM (go-to-market) Hermes / Claude Code skill the agent is allowed to invoke on this client, organized by **use-case** and **role**.

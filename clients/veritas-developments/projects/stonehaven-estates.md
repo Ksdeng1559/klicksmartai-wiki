@@ -1,3 +1,14 @@
+---
+type: Reference
+title: stonehaven-estates.md
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: stable
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified:
+  - { by: human:dennis, at: 2026-08-23T00:00:00Z }
+  - { by: human:david_poole, at: 2026-08-23T00:00:00Z }
+okf_version: "0.2"
+---
 # Stonehaven Estates
 
 **Veritas Development Group LLC** — project card

@@ -1,3 +1,12 @@
+---
+type: Reference
+title: "Folder contract — drafts"
+description: OKF v0.2 frontmatter; type/status visible to any LLM that reads the bundle.
+status: stable
+generated: { by: human:dennis, at: 2026-08-29T18:00:00Z }
+verified: []
+okf_version: "0.2"
+---
 # drafts/ — AI Work in Progress (pre-HITL)
 
 **Purpose:** Working hypotheses built from **public web research + AI inference** — NOT source-of-truth. Everything here requires human validation before it can be promoted.

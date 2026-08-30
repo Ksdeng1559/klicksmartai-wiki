@@ -47,6 +47,88 @@ Works for **both Hermes Agent** (auto-loads `CLAUDE.md`/`AGENTS.md`/`CONTEXT.md`
 | "Just create a folder called X" (generic) | ❌ use plain `mkdir` |
 | "Set up a project under existing client X" | ❌ use that client's IDENTITY.md + CONTEXT.md |
 
+## Client Intake (read this first when the user says "new client")
+
+When this skill is invoked, you are the **intake agent** for a new client workspace. Before scaffolding anything, walk this four-step flow. **Do not skip steps.**
+
+### Step 1 — Identify the repeating unit of work (Build mode §1)
+
+Ask the user, in one short message:
+
+> "What's the recurring work product for this client? (e.g. 'investor outreach for a real-estate deal,' 'weekly newsletter,' 'per-case intake,' 'project pipeline review')"
+
+If you can state it as a repeating sequence → **Pipeline form.** Several pipelines sharing rules → **Umbrella.** Clients/people/cases accumulating → **Record library.** The client *is* navigable knowledge → **Knowledge bundle.** Subject is an org → **Context map.** Later agents must safely edit existing repo → **System map.**
+
+Default for KlickSmartAI is **Pipeline** + **Knowledge bundle** (the client workspace IS both the workspace and a brain of client facts). Other forms only when the user names them. **If a different form fits, say so before scaffolding.**
+
+### Step 2 — Pick the contract template (Build mode §2 + stage contract template)
+
+Map the form to our existing 3-layer Quick-mode scaffold:
+
+- **Layer 0** = `IDENTITY.md` (tier routing — quick orientation).
+- **Layer 1** = `CONTEXT.md` (engagement-level — what leaves this workspace).
+- **Layer 2** = `_config/{voice,conventions,deliverables,gtm-skills,glossary,compliance}.md` (the **factory** — stable rules).
+- **Layer 3** = `projects/`, `drafts/`, `deliverables/`, `drafts-preview/`, `skills/` + `README.md` per folder (the **product** — run-specific artifacts).
+- **Adapter** = `CLAUDE.md` (the small routing catalog — ≤60 lines — read first by Hermes + Claude on folder entry).
+
+Read **`references/icm-method.md`** for the full method before proceeding. The build flow + invariants + walk test live there. This skill is **a thin application of the Pipeline form**, not a substitute.
+
+### Step 2.5 — Make the workspace OKF-conformant (portable to any LLM)
+
+Every scaffolded workspace is also an **OKF v0.2 knowledge bundle** — a directory of markdown files with YAML frontmatter that any LLM (ChatGPT, Claude, Gemini, Hermes, Mistral, anything that reads markdown) can ingest as a knowledge graph **without installing any skill**. This is the "folder = knowledge graph for other LLMs" requirement.
+
+Read **`references/okf-schema.md`** for the full KlickSmartAI OKF profile. The conformance floor (OKF §11):
+
+1. **Every non-reserved `.md` file** in the workspace carries a parseable YAML frontmatter block with a non-empty `type`.
+2. **Reserved filenames** `index.md` and `log.md` follow OKF §8/§9 conventions (index = directory listing, log = update history).
+3. **Bundle-root `index.md`** declares `okf_version: "0.2"` in its frontmatter (the only place frontmatter is permitted in an index file).
+
+**What the scaffolder must generate:**
+
+- `index.md` at the bundle root — the OKF manifest (progressive disclosure: read this → IDENTITY.md → CONTEXT.md). Declares `okf_version: "0.2"` + a `manifest:` block (client, version, generator).
+- **Frontmatter on every generated file** — at minimum `type:`; recommended `title`, `description`, `tags`, `status`, `generated`, `verified`, `sources`, `stale_after` per `references/okf-schema.md` §5.
+- **Type vocabulary** (from `references/okf-schema.md` §3): `Client Workspace` (IDENTITY.md), `Client Engagement` (CONTEXT.md), `Reference` (voice/conventions/deliverables), `SkillBinding` (gtm-skills.md), `Compliance` (compliance.md), `Glossary` (glossary.md), `Playbook` (SOPs), plus per-vertical draft types (`Lead Magnet`, `Email Sequence`, `Landing Page`, `Content Article`, `Deck`, `Ad Creative`, `Video Ad`, `Website`).
+- **`sop/` folder** for company knowledge — Special SOPs and runbooks as `type: Playbook`, with `parameters[]` + `executor` + `attester` where callable (see `references/okf-schema.md` §9 for the "any skill becomes a callable function" pattern).
+
+**Actor convention** (OKF §7, KlickSmartAI profile): `human:<id>` for people (e.g. `human:dennis`, `human:david_poole`), `<producer>/<version>` for agents, `process:<id>` for automated processes. The `human:` prefix is what consumers key trust tier off — never omit it for hand-authored content.
+
+**Source-of-truth gate = OKF lifecycle:** `drafts/` files carry `status: draft`; `projects/` + `deliverables/` carry `status: stable` + `human-reviewed`. This maps our existing gate onto OKF §5.4 so any LLM can tell at a glance what's AI-WIP vs validated.
+
+**Conformance check** (run before declaring the workspace done, alongside the walk test):
+
+```bash
+ROOT=/home/denni/wiki/clients/<slug>
+ok=1
+while IFS= read -r f; do
+  case "$(basename "$f")" in index.md|log.md) continue ;; esac
+  [ "$(head -n1 "$f")" = "---" ] || { echo "MISSING-FRONTMATTER: $f"; ok=0; continue; }
+  awk 'BEGIN{c=0} /^---$/ {c++; next} c==1 {print}' "$f" | grep -q '^type:' || { echo "MISSING-type: $f"; ok=0; }
+done < <(find "$ROOT" -name '*.md' -type f)
+[ $ok = 1 ] && echo "OKF conformant: $ROOT"
+```
+
+For new workspaces: the conformance check is run inline above as part of Step 2.5. For **existing workspaces** (Veritas 2026-08-29 was the first instance), invoke `okf-workspace-conformance` — that skill runs the structured 7-question interview (vocabulary + trust policy + exception list + callable SOP list), then bulk-migrates with `scripts/migrate-frontmatter.py` (idempotent, `--dry-run` mode) and verifies with `scripts/check-conformance.sh`. The orchestrating agent should never write ad-hoc OKF migration scripts — always go through `okf-workspace-conformance`.
+
+**Do NOT** delete `CLAUDE.md` — it stays as the Hermes/Claude folder-entry adapter. `index.md` is the OKF manifest; `CLAUDE.md` is the agent-runtime adapter. They coexist.
+
+### Step 3 — Scaffold and stage-contract (Build mode §3-5)
+
+Each working folder gets a `CONTEXT.md` (under the stage contract template in `references/icm-method.md`) stating inputs / process / outputs / human check. We use `README.md` for destination folders (`drafts/<vertical>/`, `deliverables/<vertical>/`) but **switch to `CONTEXT.md` per stage** when a vertical becomes a recurring multi-stage pipeline. This is invariant #4: explicit folder contracts.
+
+### Step 4 — Walk test (mandatory before declaring done)
+
+Before saying "scaffold complete," run the **walk test** from `references/icm-method.md` (the "Walk test" section). All seven questions must pass:
+
+1. From root + ≤2 additional reads, can the agent say where it is and what to act on? (CLAUDE.md ≤60 lines, links not duplicates.)
+2. From any stage, does `CONTEXT.md` name exact inputs / job / outputs / human check?
+3. Can status be derived from output files + frontmatter alone? (No hand-edited indexes.)
+4. Does any routing file contain a long content payload that should live elsewhere?
+5. Does any material fact have more than one authoritative home?
+6. After any restructure, do all previously live references still resolve?
+7. (For System maps only) Can one object card identify its source + first-order change impact?
+
+**If the walk test fails, change the structure — not the explanation length.**
+
 ## Inputs
 
 | Input | Required | Description |
@@ -388,6 +470,7 @@ See the `references/` folder for copy-able templates:
 - `references/skill-collision-diagnostic.md` — recovery procedure for the silent-truncation bug when a wiki skill is also in `~/.hermes/skills/` (see pitfall #7)
 - `references/backporting-existing-clients.md` — procedure for layering new verticals / GTM / compliance onto an already-scaffolded client workspace without disturbing legacy validated artifacts
 - `references/client-brain-standard.md` — the **canonical contract** for the knowledge layer of a client workspace (`CLIENT-BRAIN.md` + `context/{BRAND-VOICE,FACTS-AND-CLAIMS,COMPLIANCE,SERVICES-AND-OFFERS,SOURCES,DECISIONS}.md`, 8-tier authority order, Green/Yellow/Red action taxonomy, Notion↔markdown sync). New clients built after 2026-08-28 use this pattern; existing clients migrate on next touch.
+- `references/okf-schema.md` — the **OKF v0.2 profile** (Open Knowledge Format, Google Cloud Platform). Makes every workspace a portable knowledge bundle any LLM can ingest without installing a skill. Type vocabulary, actor conventions, source-of-truth↔lifecycle mapping, and the "any skill becomes a callable function" pattern (Playbook + parameters + executor + attester). See Step 2.5.
 
 ## Worked example — First client (text-only deliverables)
 
