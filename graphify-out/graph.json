@@ -1684,90 +1684,6 @@
       "norm_label": "regenerate"
     },
     {
-      "label": "opencode/README.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "opencode/readme.md"
-    },
-    {
-      "label": "Activate an Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L18",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_activate_an_agent",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "activate an agent"
-    },
-    {
-      "label": "Agent Format",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L32",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_agent_format",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "agent format"
-    },
-    {
-      "label": "Install",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_install",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "install"
-    },
-    {
-      "label": "OpenCode Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_opencode_integration",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "opencode integration"
-    },
-    {
-      "label": "Project vs Global",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L48",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_project_vs_global",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "project vs global"
-    },
-    {
-      "label": "Regenerate",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_regenerate",
-      "community": 0,
-      "community_name": "integrations/README.md",
-      "norm_label": "regenerate"
-    },
-    {
       "label": "qwen/README.md",
       "file_type": "document",
       "node_kind": "page",
@@ -2018,6 +1934,84 @@
       "norm_label": "the 5 layers"
     },
     {
+      "label": "swan-gtm-gtm-skills.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/swan-gtm-gtm-skills.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "Swan GTM Skills Library",
+        "created": "2026-08-06",
+        "updated": "2026-08-06",
+        "type": "entity",
+        "category": "gtm",
+        "url": "https://github.com/swan-gtm/gtm-skills",
+        "pricing": "open-source (MIT)",
+        "status": "ingested",
+        "source": "raw/swan-gtm/",
+        "tags": [
+          "entity",
+          "gtm",
+          "skills",
+          "sales",
+          "revops",
+          "outreach",
+          "prospecting",
+          "signals",
+          "leadgen"
+        ],
+        "related": [
+          "leadsniper-sgi-prd",
+          "research-intelligence-workflow",
+          "b2b-outreach-intelligence-pipeline",
+          "hnw-lead-sniper"
+        ]
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_swan_gtm_gtm_skills",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "swan-gtm-gtm-skills.md"
+    },
+    {
+      "label": "leadsniper-sgi-prd.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/leadsniper-sgi-prd.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "LeadSniper SGI PRD",
+        "created": "2026-08-06",
+        "updated": "2026-08-06",
+        "type": "entity",
+        "category": "project",
+        "status": "documented",
+        "source": "notion (page 3a69e94c-f0a4-8199-8400-d93061f5b29a)",
+        "tags": [
+          "entity",
+          "leadsniper",
+          "seo",
+          "gtm",
+          "sgi",
+          "domain-audit",
+          "serp",
+          "ai-search",
+          "prd"
+        ],
+        "related": [
+          "swan-gtm-gtm-skills",
+          "research-intelligence-workflow",
+          "dataforseo",
+          "ai-seo"
+        ]
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_leadsniper_sgi_prd",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "leadsniper-sgi-prd.md"
+    },
+    {
       "label": "wiki-knowledge/entities/gpc-onboarding.md",
       "file_type": "document",
       "node_kind": "page",
@@ -2038,8 +2032,56 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "wiki-knowledge/entities/gpc-onboarding.md"
+    },
+    {
+      "label": "wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md"
+    },
+    {
+      "label": "Alexander Eng's Toy Nissan GT-R",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_alexander_eng_s_toy_nissan_gt_r",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "alexander eng's toy nissan gt-r"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_notes",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "notes"
+    },
+    {
+      "label": "Toy Details",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_toy_details",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "toy details"
     },
     {
       "label": "Discovery (Section I)",
@@ -2050,7 +2092,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding_discovery_section_i",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "discovery (section i)"
     },
     {
@@ -2062,7 +2104,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding_gpc_development_onboarding_tracker",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "gpc development \u2014 onboarding tracker"
     },
     {
@@ -2074,7 +2116,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding_plan_section_ii",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "plan (section ii)"
     },
     {
@@ -2086,7 +2128,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding_process_section_iii",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "process (section iii)"
     },
     {
@@ -2098,8 +2140,20 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_gpc_onboarding_status_summary",
       "community": 10,
-      "community_name": "GPC Development \u2014 Onboarding Tracker",
+      "community_name": "wiki-knowledge/log.md",
       "norm_label": "status summary"
+    },
+    {
+      "label": "wiki-knowledge/log.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/log.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_log",
+      "community": 10,
+      "community_name": "wiki-knowledge/log.md",
+      "norm_label": "wiki-knowledge/log.md"
     },
     {
       "label": "seo-cost-services.md",
@@ -2750,111 +2804,6 @@
       "norm_label": "why this matters for wealthwireradar"
     },
     {
-      "label": "paid-media-auditor.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Paid Media Auditor",
-        "description": "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
-        "color": "orange",
-        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
-        "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\ud83d\udccb",
-        "vibe": "Finds the waste in your ad spend before your CFO does."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "paid-media-auditor.md"
-    },
-    {
-      "label": "Core Capabilities",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_core_capabilities",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "core capabilities"
-    },
-    {
-      "label": "Decision Framework",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_decision_framework",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "decision framework"
-    },
-    {
-      "label": "Paid Media Auditor Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_paid_media_auditor_agent",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "paid media auditor agent"
-    },
-    {
-      "label": "Role Definition",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_role_definition",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "role definition"
-    },
-    {
-      "label": "Specialized Skills",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_specialized_skills",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "specialized skills"
-    },
-    {
-      "label": "Success Metrics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_success_metrics",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "success metrics"
-    },
-    {
-      "label": "Tooling & Automation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_tooling_automation",
-      "community": 1004,
-      "community_name": "Paid Media Auditor Agent",
-      "norm_label": "tooling & automation"
-    },
-    {
       "label": "paid-media-creative-strategist.md",
       "file_type": "document",
       "node_kind": "page",
@@ -3188,46 +3137,6 @@
       "norm_label": "for the orchestrator (pipeline start)"
     },
     {
-      "label": "swan-gtm-gtm-skills.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/swan-gtm-gtm-skills.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "title": "Swan GTM Skills Library",
-        "created": "2026-08-06",
-        "updated": "2026-08-06",
-        "type": "entity",
-        "category": "gtm",
-        "url": "https://github.com/swan-gtm/gtm-skills",
-        "pricing": "open-source (MIT)",
-        "status": "ingested",
-        "source": "raw/swan-gtm/",
-        "tags": [
-          "entity",
-          "gtm",
-          "skills",
-          "sales",
-          "revops",
-          "outreach",
-          "prospecting",
-          "signals",
-          "leadgen"
-        ],
-        "related": [
-          "leadsniper-sgi-prd",
-          "research-intelligence-workflow",
-          "b2b-outreach-intelligence-pipeline",
-          "hnw-lead-sniper"
-        ]
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_swan_gtm_gtm_skills",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "swan-gtm-gtm-skills.md"
-    },
-    {
       "label": "search-stack.md",
       "file_type": "document",
       "node_kind": "page",
@@ -3258,46 +3167,8 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "search-stack.md"
-    },
-    {
-      "label": "leadsniper-sgi-prd.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/leadsniper-sgi-prd.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "title": "LeadSniper SGI PRD",
-        "created": "2026-08-06",
-        "updated": "2026-08-06",
-        "type": "entity",
-        "category": "project",
-        "status": "documented",
-        "source": "notion (page 3a69e94c-f0a4-8199-8400-d93061f5b29a)",
-        "tags": [
-          "entity",
-          "leadsniper",
-          "seo",
-          "gtm",
-          "sgi",
-          "domain-audit",
-          "serp",
-          "ai-search",
-          "prd"
-        ],
-        "related": [
-          "swan-gtm-gtm-skills",
-          "research-intelligence-workflow",
-          "dataforseo",
-          "ai-seo"
-        ]
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_leadsniper_sgi_prd",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "leadsniper-sgi-prd.md"
     },
     {
       "label": "MCP-connected engines (all enabled in config.yaml)",
@@ -3308,7 +3179,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_mcp_connected_engines_all_enabled_in_config_yaml",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "mcp-connected engines (all enabled in config.yaml)"
     },
     {
@@ -3320,7 +3191,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_native_web_search",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "native web search"
     },
     {
@@ -3332,7 +3203,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_parallel_vs_exa_tavily_serper_decision_2026_08_05",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "parallel vs exa/tavily/serper (decision 2026-08-05)"
     },
     {
@@ -3344,7 +3215,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_related",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "related"
     },
     {
@@ -3356,7 +3227,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_routing_order_of_preference",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "routing (order of preference)"
     },
     {
@@ -3368,7 +3239,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_search_stack",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "search stack"
     },
     {
@@ -3380,68 +3251,8 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_concepts_search_stack_skill_api_level_keys_via_skills",
       "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
+      "community_name": "Search Stack",
       "norm_label": "skill/api-level (keys via skills)"
-    },
-    {
-      "label": "wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md"
-    },
-    {
-      "label": "Alexander Eng's Toy Nissan GT-R",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_alexander_eng_s_toy_nissan_gt_r",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "alexander eng's toy nissan gt-r"
-    },
-    {
-      "label": "Notes",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_notes",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "notes"
-    },
-    {
-      "label": "Toy Details",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/alexander-eng-toy-nissan-gtr.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_alexander_eng_toy_nissan_gtr_toy_details",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "toy details"
-    },
-    {
-      "label": "wiki-knowledge/log.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/log.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_log",
-      "community": 1011,
-      "community_name": "wiki-knowledge/log.md",
-      "norm_label": "wiki-knowledge/log.md"
     },
     {
       "label": "wiki-knowledge/concepts/wwr-signal-pipeline.md",
@@ -36138,46 +35949,25 @@
       "norm_label": "rios north star architecture"
     },
     {
-      "label": "paid-media-programmatic-buyer.md",
+      "label": "paid-media-auditor.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "Programmatic &amp; Display Buyer",
-        "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
+        "name": "Paid Media Auditor",
+        "description": "Comprehensive paid media auditor who systematically evaluates Google Ads, Microsoft Ads, and Meta accounts across 200+ checkpoints spanning account structure, tracking, bidding, creative, audiences, and competitive positioning. Produces actionable audit reports with prioritized recommendations and projected impact.",
         "color": "orange",
         "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
         "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\ud83d\udcfa",
-        "vibe": "Buys display and video inventory at scale with surgical precision."
+        "emoji": "\ud83d\udccb",
+        "vibe": "Finds the waste in your ad spend before your CFO does."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor",
       "community": 141,
       "community_name": "agency-agents/README.md",
-      "norm_label": "paid-media-programmatic-buyer.md"
-    },
-    {
-      "label": "paid-media-search-query-analyst.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "name": "Search Query Analyst",
-        "description": "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
-        "color": "orange",
-        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
-        "author": "John Williams (@itallstartedwithaidea)",
-        "emoji": "\ud83d\udd0d",
-        "vibe": "Mines search queries to find the gold your competitors are missing."
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "paid-media-search-query-analyst.md"
+      "norm_label": "paid-media-auditor.md"
     },
     {
       "label": "agentic-identity-trust.md",
@@ -36293,6 +36083,25 @@
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "wiki-knowledge/agency-agents/marketing/marketing-growth-hacker.md"
+    },
+    {
+      "label": "xr-cockpit-interaction-specialist.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "XR Cockpit Interaction Specialist",
+        "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+        "color": "orange",
+        "emoji": "\ud83d\udd79\ufe0f",
+        "vibe": "Designs immersive cockpit control systems that feel natural in XR."
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "xr-cockpit-interaction-specialist.md"
     },
     {
       "label": "design-whimsy-injector.md",
@@ -36461,10 +36270,10 @@
       "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_core_capabilities",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_core_capabilities",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "core capabilities"
@@ -36473,34 +36282,34 @@
       "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_decision_framework",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_decision_framework",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "decision framework"
     },
     {
-      "label": "Paid Media Programmatic & Display Buyer Agent",
+      "label": "Paid Media Auditor Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_paid_media_programmatic_display_buyer_agent",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_paid_media_auditor_agent",
       "community": 141,
       "community_name": "agency-agents/README.md",
-      "norm_label": "paid media programmatic & display buyer agent"
+      "norm_label": "paid media auditor agent"
     },
     {
       "label": "Role Definition",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_role_definition",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_role_definition",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "role definition"
@@ -36509,10 +36318,10 @@
       "label": "Specialized Skills",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_specialized_skills",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_specialized_skills",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "specialized skills"
@@ -36521,10 +36330,10 @@
       "label": "Success Metrics",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_success_metrics",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_success_metrics",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "success metrics"
@@ -36533,94 +36342,10 @@
       "label": "Tooling & Automation",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-auditor.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_tooling_automation",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "tooling & automation"
-    },
-    {
-      "label": "Core Capabilities",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L17",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_core_capabilities",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "core capabilities"
-    },
-    {
-      "label": "Decision Framework",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_decision_framework",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "decision framework"
-    },
-    {
-      "label": "Paid Media Search Query Analyst Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_paid_media_search_query_analyst_agent",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "paid media search query analyst agent"
-    },
-    {
-      "label": "Role Definition",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L13",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_role_definition",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "role definition"
-    },
-    {
-      "label": "Specialized Skills",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L28",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_specialized_skills",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "specialized skills"
-    },
-    {
-      "label": "Success Metrics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L62",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_success_metrics",
-      "community": 141,
-      "community_name": "agency-agents/README.md",
-      "norm_label": "success metrics"
-    },
-    {
-      "label": "Tooling & Automation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_tooling_automation",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_auditor_tooling_automation",
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "tooling & automation"
@@ -36636,6 +36361,66 @@
       "community": 141,
       "community_name": "agency-agents/README.md",
       "norm_label": "agency-agents/readme.md"
+    },
+    {
+      "label": "Build cockpit-based immersive interfaces for XR users",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_build_cockpit_based_immersive_interfaces_for_xr_users",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "build cockpit-based immersive interfaces for xr users"
+    },
+    {
+      "label": "\ud83d\udee0\ufe0f What You Can Do",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_what_you_can_do",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83d\udee0\ufe0f what you can do"
+    },
+    {
+      "label": "XR Cockpit Interaction Specialist Agent Personality",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_xr_cockpit_interaction_specialist_agent_personality",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "xr cockpit interaction specialist agent personality"
+    },
+    {
+      "label": "\ud83c\udfaf Your Core Mission",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_core_mission",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83c\udfaf your core mission"
+    },
+    {
+      "label": "\ud83e\udde0 Your Identity & Memory",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_identity_memory",
+      "community": 141,
+      "community_name": "agency-agents/README.md",
+      "norm_label": "\ud83e\udde0 your identity & memory"
     },
     {
       "label": "concepts/user-acquisition-roadmap.md",
@@ -42222,6 +42007,57 @@
       "norm_label": "symptom"
     },
     {
+      "label": "veritas-developments/IDENTITY.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "clients/veritas-developments/IDENTITY.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "type": "Client Workspace",
+        "title": "Veritas Development Group LLC \u2014 Workspace Identity",
+        "description": "Jackson County, MO real-estate developer; active engagement is deal-loan structure, investor flywheel (webinars), and CRM build. Reg D 506(b) overlay.",
+        "tags": [
+          "client",
+          "real-estate",
+          "jackson-county-mo",
+          "faith-aligned-capital"
+        ],
+        "status": "stable",
+        "generated": {
+          "by": "human:dennis",
+          "at": "2026-08-23 00:00:00+00:00"
+        },
+        "verified": [
+          {
+            "by": "human:david_poole",
+            "at": "2026-08-23 00:00:00+00:00"
+          },
+          {
+            "by": "human:daniel_bailey",
+            "at": "2026-08-23 00:00:00+00:00"
+          }
+        ],
+        "sources": [
+          {
+            "id": "cla-md-adapter",
+            "resource": "./CLAUDE.md",
+            "title": "Veritas Hermes/Claude adapter (auto-generated)"
+          },
+          {
+            "id": "index-manifest",
+            "resource": "./index.md",
+            "title": "OKF v0.2 bundle manifest"
+          }
+        ],
+        "okf_version": "0.2"
+      },
+      "_origin": "ast",
+      "id": "clients_veritas_developments_identity",
+      "community": 157,
+      "community_name": "Veritas Developments \u2014 Workspace Identity",
+      "norm_label": "veritas-developments/identity.md"
+    },
+    {
       "label": "Escalation",
       "file_type": "document",
       "node_kind": "heading",
@@ -44021,33 +43857,6 @@
       "norm_label": "veritas developments \u2014 client workspace"
     },
     {
-      "label": "veritas-developments/_config/glossary.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "clients/veritas-developments/_config/glossary.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "type": "Glossary",
-        "title": "Glossary \u2014 Veritas Developments",
-        "description": "Domain terms used across Veritas deliverables. Add terms as they arise.",
-        "tags": [
-          "glossary",
-          "terms"
-        ],
-        "status": "stable",
-        "generated": {
-          "by": "human:dennis",
-          "at": "2026-08-23 00:00:00+00:00"
-        },
-        "okf_version": "0.2"
-      },
-      "_origin": "ast",
-      "id": "clients_veritas_developments_config_glossary",
-      "community": 169,
-      "community_name": "veritas-developments/index.md",
-      "norm_label": "veritas-developments/_config/glossary.md"
-    },
-    {
       "label": "veritas-developments/_config/conventions.md",
       "file_type": "document",
       "node_kind": "page",
@@ -44072,79 +43881,8 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "veritas-developments/_config/conventions.md"
-    },
-    {
-      "label": "veritas-developments/IDENTITY.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "clients/veritas-developments/IDENTITY.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "type": "Client Workspace",
-        "title": "Veritas Development Group LLC \u2014 Workspace Identity",
-        "description": "Jackson County, MO real-estate developer; active engagement is deal-loan structure, investor flywheel (webinars), and CRM build. Reg D 506(b) overlay.",
-        "tags": [
-          "client",
-          "real-estate",
-          "jackson-county-mo",
-          "faith-aligned-capital"
-        ],
-        "status": "stable",
-        "generated": {
-          "by": "human:dennis",
-          "at": "2026-08-23 00:00:00+00:00"
-        },
-        "verified": [
-          {
-            "by": "human:david_poole",
-            "at": "2026-08-23 00:00:00+00:00"
-          },
-          {
-            "by": "human:daniel_bailey",
-            "at": "2026-08-23 00:00:00+00:00"
-          }
-        ],
-        "sources": [
-          {
-            "id": "cla-md-adapter",
-            "resource": "./CLAUDE.md",
-            "title": "Veritas Hermes/Claude adapter (auto-generated)"
-          },
-          {
-            "id": "index-manifest",
-            "resource": "./index.md",
-            "title": "OKF v0.2 bundle manifest"
-          }
-        ],
-        "okf_version": "0.2"
-      },
-      "_origin": "ast",
-      "id": "clients_veritas_developments_identity",
-      "community": 169,
-      "community_name": "veritas-developments/index.md",
-      "norm_label": "veritas-developments/identity.md"
-    },
-    {
-      "label": "veritas-developments/index.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "clients/veritas-developments/index.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "okf_version": "0.2",
-        "manifest": {
-          "client": "veritas-developments",
-          "version": "2026-08-29",
-          "generator": "icm-client-workspace-setup v1.0.0"
-        }
-      },
-      "_origin": "ast",
-      "id": "clients_veritas_developments_index",
-      "community": 169,
-      "community_name": "veritas-developments/index.md",
-      "norm_label": "veritas-developments/index.md"
     },
     {
       "label": "Conventions \u2014 Veritas Developments",
@@ -44155,7 +43893,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions_conventions_veritas_developments",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "conventions \u2014 veritas developments"
     },
     {
@@ -44167,7 +43905,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions_file_naming",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "file naming"
     },
     {
@@ -44179,7 +43917,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions_folder_rules",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "folder rules"
     },
     {
@@ -44191,7 +43929,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions_promotion_convention",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "promotion convention"
     },
     {
@@ -44203,20 +43941,8 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_conventions_version_convention",
       "community": 169,
-      "community_name": "veritas-developments/index.md",
+      "community_name": "Conventions \u2014 Veritas Developments",
       "norm_label": "version convention"
-    },
-    {
-      "label": "Glossary \u2014 Veritas Developments",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "clients/veritas-developments/_config/glossary.md",
-      "source_location": "L11",
-      "_origin": "ast",
-      "id": "clients_veritas_developments_config_glossary_glossary_veritas_developments",
-      "community": 169,
-      "community_name": "veritas-developments/index.md",
-      "norm_label": "glossary \u2014 veritas developments"
     },
     {
       "label": "work-in-progress-funding-model.md",
@@ -45046,8 +44772,55 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_compliance",
       "community": 172,
-      "community_name": "Compliance \u2014 Veritas Developments",
+      "community_name": "veritas-developments/index.md",
       "norm_label": "compliance.md"
+    },
+    {
+      "label": "veritas-developments/_config/glossary.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "clients/veritas-developments/_config/glossary.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "type": "Glossary",
+        "title": "Glossary \u2014 Veritas Developments",
+        "description": "Domain terms used across Veritas deliverables. Add terms as they arise.",
+        "tags": [
+          "glossary",
+          "terms"
+        ],
+        "status": "stable",
+        "generated": {
+          "by": "human:dennis",
+          "at": "2026-08-23 00:00:00+00:00"
+        },
+        "okf_version": "0.2"
+      },
+      "_origin": "ast",
+      "id": "clients_veritas_developments_config_glossary",
+      "community": 172,
+      "community_name": "veritas-developments/index.md",
+      "norm_label": "veritas-developments/_config/glossary.md"
+    },
+    {
+      "label": "veritas-developments/index.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "clients/veritas-developments/index.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "okf_version": "0.2",
+        "manifest": {
+          "client": "veritas-developments",
+          "version": "2026-08-29",
+          "generator": "icm-client-workspace-setup v1.0.0"
+        }
+      },
+      "_origin": "ast",
+      "id": "clients_veritas_developments_index",
+      "community": 172,
+      "community_name": "veritas-developments/index.md",
+      "norm_label": "veritas-developments/index.md"
     },
     {
       "label": "Compliance \u2014 Veritas Developments",
@@ -45058,7 +44831,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_compliance_compliance_veritas_developments",
       "community": 172,
-      "community_name": "Compliance \u2014 Veritas Developments",
+      "community_name": "veritas-developments/index.md",
       "norm_label": "compliance \u2014 veritas developments"
     },
     {
@@ -45070,7 +44843,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_compliance_flags_to_check_in_any_draft",
       "community": 172,
-      "community_name": "Compliance \u2014 Veritas Developments",
+      "community_name": "veritas-developments/index.md",
       "norm_label": "flags to check in any draft"
     },
     {
@@ -45082,7 +44855,7 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_compliance_key_constraints",
       "community": 172,
-      "community_name": "Compliance \u2014 Veritas Developments",
+      "community_name": "veritas-developments/index.md",
       "norm_label": "key constraints"
     },
     {
@@ -45094,8 +44867,20 @@
       "_origin": "ast",
       "id": "clients_veritas_developments_config_compliance_when_in_doubt",
       "community": 172,
-      "community_name": "Compliance \u2014 Veritas Developments",
+      "community_name": "veritas-developments/index.md",
       "norm_label": "when in doubt"
+    },
+    {
+      "label": "Glossary \u2014 Veritas Developments",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "clients/veritas-developments/_config/glossary.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "clients_veritas_developments_config_glossary_glossary_veritas_developments",
+      "community": 172,
+      "community_name": "veritas-developments/index.md",
+      "norm_label": "glossary \u2014 veritas developments"
     },
     {
       "label": "veritas-developments/projects/README.md",
@@ -46889,6 +46674,18 @@
       "norm_label": "21.17 proposed repository additions"
     },
     {
+      "label": "21.18 Implementation Phases",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1961",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_21_18_implementation_phases",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "21.18 implementation phases"
+    },
+    {
       "label": "21.19 Acceptance Criteria",
       "file_type": "document",
       "node_kind": "heading",
@@ -47031,6 +46828,66 @@
       "community": 188,
       "community_name": "21. Printing Press GTM Strategy Engine Addendum",
       "norm_label": "21. printing press gtm strategy engine addendum"
+    },
+    {
+      "label": "Phase A \u2014 Playbook Registry",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1962",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_a_playbook_registry",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "phase a \u2014 playbook registry"
+    },
+    {
+      "label": "Phase B \u2014 Strategy Recommendation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1967",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_b_strategy_recommendation",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "phase b \u2014 strategy recommendation"
+    },
+    {
+      "label": "Phase C \u2014 Plan and Asset Generation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1971",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_c_plan_and_asset_generation",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "phase c \u2014 plan and asset generation"
+    },
+    {
+      "label": "Phase D \u2014 Attribution and Measurement",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1975",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_d_attribution_and_measurement",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "phase d \u2014 attribution and measurement"
+    },
+    {
+      "label": "Phase E \u2014 Closed-Loop Learning",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L1979",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_e_closed_loop_learning",
+      "community": 188,
+      "community_name": "21. Printing Press GTM Strategy Engine Addendum",
+      "norm_label": "phase e \u2014 closed-loop learning"
     },
     {
       "label": "Purpose",
@@ -105047,18 +104904,6 @@
       "norm_label": "4. capital validation (q4)"
     },
     {
-      "label": "5. Partnership Validation (Q5)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1853",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_5_partnership_validation_q5",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "5. partnership validation (q5)"
-    },
-    {
       "label": "600m Radius (Short Walk)",
       "file_type": "document",
       "node_kind": "heading",
@@ -105179,18 +105024,6 @@
       "norm_label": "final verdict"
     },
     {
-      "label": "Fraser Health Authority",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1857",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_fraser_health_authority",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "fraser health authority"
-    },
-    {
       "label": "Immediate Actions (Next 90 Days)",
       "file_type": "document",
       "node_kind": "heading",
@@ -105261,30 +105094,6 @@
       "community": 377,
       "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
       "norm_label": "phase 3: full district (years 7-15)"
-    },
-    {
-      "label": "Private Landowners in 400m Radius",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1863",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_private_landowners_in_400m_radius",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "private landowners in 400m radius"
-    },
-    {
-      "label": "Recommended Partnership Structure (VGH Model)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/sapperton-district-feasibility.md",
-      "source_location": "L1868",
-      "_origin": "ast",
-      "id": "drafts_sapperton_district_feasibility_recommended_partnership_structure_vgh_model",
-      "community": 377,
-      "community_name": "Final Synthesis: 9-Section Institutional Feasibility Report",
-      "norm_label": "recommended partnership structure (vgh model)"
     },
     {
       "label": "Success Metrics",
@@ -112702,6 +112511,18 @@
       "norm_label": "11. campaign workflow changes"
     },
     {
+      "label": "11. Security and Compliance Requirements",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L511",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_11_security_and_compliance_requirements",
+      "community": 4,
+      "community_name": "leadsniperai-cli-commercial-plan.md",
+      "norm_label": "11. security and compliance requirements"
+    },
+    {
       "label": "12. Opportunity Brief Output",
       "file_type": "document",
       "node_kind": "heading",
@@ -112774,18 +112595,6 @@
       "norm_label": "16. success criteria"
     },
     {
-      "label": "18. Dependencies and Risks",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L731",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_18_dependencies_and_risks",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "18. dependencies and risks"
-    },
-    {
       "label": "19. Open Decisions",
       "file_type": "document",
       "node_kind": "heading",
@@ -112808,6 +112617,18 @@
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
       "norm_label": "20. recommended immediate next actions"
+    },
+    {
+      "label": "2. Objectives",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_2_objectives",
+      "community": 4,
+      "community_name": "leadsniperai-cli-commercial-plan.md",
+      "norm_label": "2. objectives"
     },
     {
       "label": "3. Canonical Local-Business Record",
@@ -112990,18 +112811,6 @@
       "norm_label": "definition of done"
     },
     {
-      "label": "Dependencies",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L732",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_dependencies",
-      "community": 4,
-      "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "dependencies"
-    },
-    {
       "label": "Enrichment Authorization Thresholds",
       "file_type": "document",
       "node_kind": "heading",
@@ -113050,28 +112859,52 @@
       "norm_label": "global options"
     },
     {
-      "label": "Mitigations",
+      "label": "Mandatory Before Production",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L749",
+      "source_location": "L512",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_mitigations",
+      "id": "drafts_leadsniperai_cli_commercial_plan_mandatory_before_production",
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "mitigations"
+      "norm_label": "mandatory before production"
     },
     {
-      "label": "Principal Risks",
+      "label": "Non-Goals for Version 1",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L739",
+      "source_location": "L40",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_principal_risks",
+      "id": "drafts_leadsniperai_cli_commercial_plan_non_goals_for_version_1",
       "community": 4,
       "community_name": "leadsniperai-cli-commercial-plan.md",
-      "norm_label": "principal risks"
+      "norm_label": "non-goals for version 1"
+    },
+    {
+      "label": "Outreach Controls",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L523",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_outreach_controls",
+      "community": 4,
+      "community_name": "leadsniperai-cli-commercial-plan.md",
+      "norm_label": "outreach controls"
+    },
+    {
+      "label": "Primary Objectives",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_primary_objectives",
+      "community": 4,
+      "community_name": "leadsniperai-cli-commercial-plan.md",
+      "norm_label": "primary objectives"
     },
     {
       "label": "Printing Press Architectural Role",
@@ -145125,11 +144958,33 @@
       "label": "type",
       "file_type": "code",
       "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_audit_date_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_company_name_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
       "source_location": "L21",
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_items_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -145140,7 +144995,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_missing_evidence_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -145151,7 +145006,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_missing_evidence_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -145162,7 +145017,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_problem_statements_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -145173,8 +145028,41 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_problem_statements_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "type"
+    },
+    {
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "properties"
+    },
+    {
+      "label": "audit_date",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_audit_date",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "audit_date"
+    },
+    {
+      "label": "company_name",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_company_name",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "company_name"
     },
     {
       "label": "missing_evidence",
@@ -145184,7 +145072,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_missing_evidence",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "missing_evidence"
     },
     {
@@ -145195,8 +145083,19 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_problem_statements",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "problem_statements"
+    },
+    {
+      "label": "recommended_next_action",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_recommended_next_action",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "recommended_next_action"
     },
     {
       "label": "technology_claims",
@@ -145206,8 +145105,30 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_properties_technology_claims",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "technology_claims"
+    },
+    {
+      "label": "website_url",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_website_url",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "website_url"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_recommended_next_action_type",
+      "community": 518,
+      "community_name": "properties",
+      "norm_label": "type"
     },
     {
       "label": "items",
@@ -145217,7 +145138,7 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_technology_claims_items",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
       "norm_label": "items"
     },
     {
@@ -145228,7 +145149,18 @@
       "_origin": "ast",
       "id": "grantfundingai_schemas_audit_result_schema_technology_claims_type",
       "community": 518,
-      "community_name": "type",
+      "community_name": "properties",
+      "norm_label": "type"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_website_url_type",
+      "community": 518,
+      "community_name": "properties",
       "norm_label": "type"
     },
     {
@@ -159473,6 +159405,17 @@
       "norm_label": "problem_significance"
     },
     {
+      "label": "scores",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_properties_scores",
+      "community": 578,
+      "community_name": "properties",
+      "norm_label": "scores"
+    },
+    {
       "label": "total",
       "file_type": "code",
       "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
@@ -159493,6 +159436,17 @@
       "community": 578,
       "community_name": "properties",
       "norm_label": "properties"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "grantfundingai_schemas_audit_result_schema_scores_type",
+      "community": 578,
+      "community_name": "properties",
+      "norm_label": "type"
     },
     {
       "label": "type",
@@ -161830,7 +161784,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "wiki-knowledge/entities/dubb.md"
     },
     {
@@ -161849,7 +161803,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_wealth_wire_radar",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "wiki-knowledge/entities/wealth-wire-radar.md"
     },
     {
@@ -161861,7 +161815,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_ai_features",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "ai features"
     },
     {
@@ -161873,7 +161827,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_automation",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "automation"
     },
     {
@@ -161885,7 +161839,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_conversion_crm",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "conversion & crm"
     },
     {
@@ -161897,7 +161851,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_core_product",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "core product"
     },
     {
@@ -161909,7 +161863,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_distribution_integration",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "distribution & integration"
     },
     {
@@ -161921,7 +161875,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_dubb",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "dubb"
     },
     {
@@ -161933,7 +161887,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_elite_insurance_of_merrillville_dubb_com_case_studies_elite_insurance_of_merrillville",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "elite insurance of merrillville (dubb.com/case-studies/elite-insurance-of-merrillville)"
     },
     {
@@ -161945,7 +161899,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_feature_inventory",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "feature inventory"
     },
     {
@@ -161957,7 +161911,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_kinsta_case_study_dubb_com_case_studies_kinsta",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "kinsta case study (dubb.com/case-studies/kinsta)"
     },
     {
@@ -161969,7 +161923,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_klicksmartai_os_relevance",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "klicksmartai os relevance"
     },
     {
@@ -161981,7 +161935,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_pricing",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "pricing"
     },
     {
@@ -161993,7 +161947,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_proof_points",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "proof points"
     },
     {
@@ -162005,7 +161959,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_use_cases",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "use cases"
     },
     {
@@ -162017,7 +161971,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_dubb_video_creation",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "video creation"
     },
     {
@@ -162029,7 +161983,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "wiki-knowledge/entities/motherduck.md"
     },
     {
@@ -162041,7 +161995,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_key_features",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "key features"
     },
     {
@@ -162053,7 +162007,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_klicksmartai_use_case",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "klicksmartai use case"
     },
     {
@@ -162065,7 +162019,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_motherduck_mcp_server",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "motherduck mcp server"
     },
     {
@@ -162077,7 +162031,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_notes",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "notes"
     },
     {
@@ -162089,7 +162043,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_pricing",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "pricing"
     },
     {
@@ -162101,7 +162055,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_motherduck_what_it_does",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "what it does"
     },
     {
@@ -162113,248 +162067,8 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_unipile",
       "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
+      "community_name": "Dubb",
       "norm_label": "wiki-knowledge/entities/unipile.md"
-    },
-    {
-      "label": "Gmail API Specifics",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L56",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_gmail_api_specifics",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "gmail api specifics"
-    },
-    {
-      "label": "Key Features",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L22",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_key_features",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "key features"
-    },
-    {
-      "label": "KlickSmartAI Use Case",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L33",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_klicksmartai_use_case",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "klicksmartai use case"
-    },
-    {
-      "label": "Notes",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L67",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_notes",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "notes"
-    },
-    {
-      "label": "Pricing",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L47",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_pricing",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "pricing"
-    },
-    {
-      "label": "Unipile",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_unipile",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "unipile"
-    },
-    {
-      "label": "What It Does",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/unipile.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_unipile_what_it_does",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "what it does"
-    },
-    {
-      "label": "Architecture",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L44",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_architecture",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "architecture"
-    },
-    {
-      "label": "Battlecard Format",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L120",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_battlecard_format",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "battlecard format"
-    },
-    {
-      "label": "Core Function",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_core_function",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "core function"
-    },
-    {
-      "label": "Dubb Integration \u2014 Video Outreach for WWR",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_dubb_integration_video_outreach_for_wwr",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "dubb integration \u2014 video outreach for wwr"
-    },
-    {
-      "label": "Elite Insurance Proof Point (Same Vertical)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_elite_insurance_proof_point_same_vertical",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "elite insurance proof point (same vertical)"
-    },
-    {
-      "label": "ICP (Ideal Client Profile)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L24",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_icp_ideal_client_profile",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "icp (ideal client profile)"
-    },
-    {
-      "label": "ICP Qualification",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_icp_qualification",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "icp qualification"
-    },
-    {
-      "label": "Open Gaps",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L148",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_open_gaps",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "open gaps"
-    },
-    {
-      "label": "Related",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L159",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_related",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "related"
-    },
-    {
-      "label": "Signal Pipeline (9 Steps \u2014 ALL BUILT)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L64",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_signal_pipeline_9_steps_all_built",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "signal pipeline (9 steps \u2014 all built)"
-    },
-    {
-      "label": "The WWR \u2192 Dubb Workflow",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L84",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_the_wwr_dubb_workflow",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "the wwr \u2192 dubb workflow"
-    },
-    {
-      "label": "Video Outreach Statistics for Financial Advisors",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L111",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_video_outreach_statistics_for_financial_advisors",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "video outreach statistics for financial advisors"
-    },
-    {
-      "label": "WealthWireRadar (WWR)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
-      "source_location": "L9",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_wealthwireradar_wwr",
-      "community": 589,
-      "community_name": "WealthWireRadar (WWR)",
-      "norm_label": "wealthwireradar (wwr)"
     },
     {
       "label": "10. Campaign Economics Calculator",
@@ -162405,18 +162119,6 @@
       "norm_label": "13. recommended system boundaries"
     },
     {
-      "label": "14. Implementation Phases",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2486",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_14_implementation_phases_2486",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "14. implementation phases"
-    },
-    {
       "label": "15. Success Criteria",
       "file_type": "document",
       "node_kind": "heading",
@@ -162451,18 +162153,6 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "2. new cli command groups"
-    },
-    {
-      "label": "3. Financing Signal Taxonomy",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2100",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "3. financing signal taxonomy"
     },
     {
       "label": "4. Financing Opportunity Score",
@@ -162535,18 +162225,6 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "9. human-approved outbound and reply engine"
-    },
-    {
-      "label": "Capital Event Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2110",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "capital event signals"
     },
     {
       "label": "CLI",
@@ -162669,30 +162347,6 @@
       "norm_label": "deepline owns"
     },
     {
-      "label": "Expansion Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2101",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "expansion signals"
-    },
-    {
-      "label": "Financial Pressure Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2120",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "financial pressure signals"
-    },
-    {
       "label": "Financing Signal Discovery",
       "file_type": "document",
       "node_kind": "heading",
@@ -162729,66 +162383,6 @@
       "norm_label": "leadsniperai owns"
     },
     {
-      "label": "Phase 1 \u2014 Foundation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2487",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_1_foundation",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "phase 1 \u2014 foundation"
-    },
-    {
-      "label": "Phase 2 \u2014 Deepline Integration",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2493",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_2_deepline_integration",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "phase 2 \u2014 deepline integration"
-    },
-    {
-      "label": "Phase 3 \u2014 Qualification and Routing",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2499",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_3_qualification_and_routing",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "phase 3 \u2014 qualification and routing"
-    },
-    {
-      "label": "Phase 4 \u2014 Outbound and Replies",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2505",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_4_outbound_and_replies",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "phase 4 \u2014 outbound and replies"
-    },
-    {
-      "label": "Phase 5 \u2014 Learning Loop",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2510",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_5_learning_loop",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "phase 5 \u2014 learning loop"
-    },
-    {
       "label": "Purpose",
       "file_type": "document",
       "node_kind": "heading",
@@ -162799,30 +162393,6 @@
       "community": 59,
       "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
       "norm_label": "purpose"
-    },
-    {
-      "label": "Real Estate and Mortgage Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2128",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "real estate and mortgage signals"
-    },
-    {
-      "label": "Referral Partner Signals",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L2137",
-      "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
-      "community": 59,
-      "community_name": "GTM Strategy Extension \u2014 Deepline and Getaero Patterns",
-      "norm_label": "referral partner signals"
     },
     {
       "label": "Reply Classes",
@@ -162897,6 +162467,367 @@
       "norm_label": "tam construction"
     },
     {
+      "label": "wiki-knowledge/entities/ollama.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "Ollama \u2014 Local LLM Runtime &amp; API",
+        "url": "https://docs.ollama.com/",
+        "pricing": "Free (self-hosted), Cloud tiers available",
+        "category": "ai-infrastructure"
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "wiki-knowledge/entities/ollama.md"
+    },
+    {
+      "label": "wiki-knowledge/entities/hermes-agent.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "Hermes Agent",
+        "created": "2026-04-15",
+        "updated": "2026-04-15",
+        "type": "concept",
+        "tags": [
+          "technology",
+          "artificial-intelligence",
+          "open-source",
+          "autonomous-agent"
+        ],
+        "sources": [
+          "raw/articles/hermes-agent-research.md"
+        ]
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "wiki-knowledge/entities/hermes-agent.md"
+    },
+    {
+      "label": "wiki-knowledge/entities/paperclip.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/paperclip.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "title": "Paperclip.ing",
+        "created": "2026-04-17",
+        "updated": "2026-04-17",
+        "type": "reference_model",
+        "tags": [
+          "paperclip",
+          "autonomous-company",
+          "agent-orchestration",
+          "business-model",
+          "inspiration"
+        ],
+        "url": "https://paperclip.ing",
+        "pricing": "Open source (self-hosted), SaaS offering",
+        "github": "https://github.com/paperclip-ui/paperclip"
+      },
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_paperclip",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "wiki-knowledge/entities/paperclip.md"
+    },
+    {
+      "label": "wiki-knowledge/entities/agency-agents.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_agency_agents",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "wiki-knowledge/entities/agency-agents.md"
+    },
+    {
+      "label": "Agency Agents (GitHub Project)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_agency_agents_agency_agents_github_project",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "agency agents (github project)"
+    },
+    {
+      "label": "Key Features",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_agency_agents_key_features",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "key features"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_agency_agents_overview",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "overview"
+    },
+    {
+      "label": "Relevance to KlickSmartAI OS",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_agency_agents_relevance_to_klicksmartai_os",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "relevance to klicksmartai os"
+    },
+    {
+      "label": "Competitive Position",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_competitive_position",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "competitive position"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_features",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "features"
+    },
+    {
+      "label": "Hermes Agent",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_hermes_agent",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "hermes agent"
+    },
+    {
+      "label": "Key Facts",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_key_facts",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "key facts"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_overview",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "overview"
+    },
+    {
+      "label": "Self-Improving Memory Loop",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_self_improving_memory_loop",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "self-improving memory loop"
+    },
+    {
+      "label": "Sources",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_hermes_agent_sources",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "sources"
+    },
+    {
+      "label": "API Reference",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_api_reference",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "api reference"
+    },
+    {
+      "label": "Core Capability Table",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_core_capability_table",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "core capability table"
+    },
+    {
+      "label": "Integration Stack",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_integration_stack",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "integration stack"
+    },
+    {
+      "label": "Key API Usage Patterns",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_key_api_usage_patterns",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "key api usage patterns"
+    },
+    {
+      "label": "KlickSmartAI OS Relevance",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_klicksmartai_os_relevance",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "klicksmartai os relevance"
+    },
+    {
+      "label": "Local Setup Context",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_local_setup_context",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "local setup context"
+    },
+    {
+      "label": "Ollama",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_ollama",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "ollama"
+    },
+    {
+      "label": "Sources",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_sources",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "sources"
+    },
+    {
+      "label": "Streaming with thinking detection",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_streaming_with_thinking_detection",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "streaming with thinking detection"
+    },
+    {
+      "label": "Structured output with Pydantic",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_structured_output_with_pydantic",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "structured output with pydantic"
+    },
+    {
+      "label": "Supported Model Families",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_supported_model_families",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "supported model families"
+    },
+    {
+      "label": "Web search (requires API key)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/ollama.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_ollama_web_search_requires_api_key",
+      "community": 590,
+      "community_name": "Ollama",
+      "norm_label": "web search (requires api key)"
+    },
+    {
       "label": "1. Org Chart",
       "file_type": "document",
       "node_kind": "heading",
@@ -162905,7 +162836,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_1_org_chart",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "1. org chart"
     },
     {
@@ -162917,7 +162848,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_2_goal_alignment",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "2. goal alignment"
     },
     {
@@ -162929,7 +162860,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_3_heartbeats",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "3. heartbeats"
     },
     {
@@ -162941,7 +162872,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_4_cost_control",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "4. cost control"
     },
     {
@@ -162953,7 +162884,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_5_governance_human_in_the_loop",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "5. governance (human in the loop)"
     },
     {
@@ -162965,7 +162896,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_6_bring_your_own_agent",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "6. bring your own agent"
     },
     {
@@ -162977,7 +162908,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_7_ticket_system",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "7. ticket system"
     },
     {
@@ -162989,7 +162920,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_8_multi_company",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "8. multi-company"
     },
     {
@@ -163001,7 +162932,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_core_product_features",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "core product features"
     },
     {
@@ -163013,7 +162944,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_how_it_works",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "how it works"
     },
     {
@@ -163025,7 +162956,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_key_quote_for_selling_klicksmartai",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "key quote for selling klicksmartai"
     },
     {
@@ -163037,7 +162968,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_klicksmartai_as_the_self_hosted_version",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "klicksmartai as the self-hosted version"
     },
     {
@@ -163049,7 +162980,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_next_step",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "next step"
     },
     {
@@ -163061,7 +162992,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_paperclip_ing_reference_model_for_klicksmartai",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "paperclip.ing \u2014 reference model for klicksmartai"
     },
     {
@@ -163073,7 +163004,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_related",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "related"
     },
     {
@@ -163085,7 +163016,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_what_it_is",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "what it is"
     },
     {
@@ -163097,7 +163028,7 @@
       "_origin": "ast",
       "id": "raw_wiki_knowledge_entities_paperclip_why_this_is_the_model_for_klicksmartai",
       "community": 590,
-      "community_name": "Core Product Features",
+      "community_name": "Ollama",
       "norm_label": "why this is the model for klicksmartai"
     },
     {
@@ -171400,76 +171331,160 @@
       "norm_label": "source references"
     },
     {
-      "label": "21.18 Implementation Phases",
+      "label": "Architecture",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1961",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L44",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_21_18_implementation_phases",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_architecture",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "21.18 implementation phases"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "architecture"
     },
     {
-      "label": "Phase A \u2014 Playbook Registry",
+      "label": "Battlecard Format",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1962",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L120",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_a_playbook_registry",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_battlecard_format",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "phase a \u2014 playbook registry"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "battlecard format"
     },
     {
-      "label": "Phase B \u2014 Strategy Recommendation",
+      "label": "Core Function",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1967",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L15",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_b_strategy_recommendation",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_core_function",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "phase b \u2014 strategy recommendation"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "core function"
     },
     {
-      "label": "Phase C \u2014 Plan and Asset Generation",
+      "label": "Dubb Integration \u2014 Video Outreach for WWR",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1971",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L80",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_c_plan_and_asset_generation",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_dubb_integration_video_outreach_for_wwr",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "phase c \u2014 plan and asset generation"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "dubb integration \u2014 video outreach for wwr"
     },
     {
-      "label": "Phase D \u2014 Attribution and Measurement",
+      "label": "Elite Insurance Proof Point (Same Vertical)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1975",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L98",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_d_attribution_and_measurement",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_elite_insurance_proof_point_same_vertical",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "phase d \u2014 attribution and measurement"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "elite insurance proof point (same vertical)"
     },
     {
-      "label": "Phase E \u2014 Closed-Loop Learning",
+      "label": "ICP (Ideal Client Profile)",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L1979",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L24",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_phase_e_closed_loop_learning",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_icp_ideal_client_profile",
       "community": 632,
-      "community_name": "21.18 Implementation Phases",
-      "norm_label": "phase e \u2014 closed-loop learning"
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "icp (ideal client profile)"
+    },
+    {
+      "label": "ICP Qualification",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_icp_qualification",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "icp qualification"
+    },
+    {
+      "label": "Open Gaps",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L148",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_open_gaps",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "open gaps"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L159",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_related",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "related"
+    },
+    {
+      "label": "Signal Pipeline (9 Steps \u2014 ALL BUILT)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_signal_pipeline_9_steps_all_built",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "signal pipeline (9 steps \u2014 all built)"
+    },
+    {
+      "label": "The WWR \u2192 Dubb Workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_the_wwr_dubb_workflow",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "the wwr \u2192 dubb workflow"
+    },
+    {
+      "label": "Video Outreach Statistics for Financial Advisors",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_video_outreach_statistics_for_financial_advisors",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "video outreach statistics for financial advisors"
+    },
+    {
+      "label": "WealthWireRadar (WWR)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/wealth-wire-radar.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_wealth_wire_radar_wealthwireradar_wwr",
+      "community": 632,
+      "community_name": "WealthWireRadar (WWR)",
+      "norm_label": "wealthwireradar (wwr)"
     },
     {
       "label": "HNWI-Investor-Persona-Outreach-Playbook.md",
@@ -177558,52 +177573,16 @@
       "norm_label": "2. target workflow"
     },
     {
-      "label": "3.1 Discovery Layer",
+      "label": "4. Eligibility Screening",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L59",
+      "source_location": "L109",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_1_discovery_layer",
+      "id": "projects_leadsniperai_workflow_improvement_4_eligibility_screening",
       "community": 66,
       "community_name": "workflow-improvement.md",
-      "norm_label": "3.1 discovery layer"
-    },
-    {
-      "label": "3.2 Identity Resolution",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L78",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_2_identity_resolution",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3.2 identity resolution"
-    },
-    {
-      "label": "3.3 Duplicate Prevention",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L98",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_3_duplicate_prevention",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3.3 duplicate prevention"
-    },
-    {
-      "label": "3. Search Architecture",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_3_search_architecture",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "3. search architecture"
+      "norm_label": "4. eligibility screening"
     },
     {
       "label": "6. Technical Search and Website Audit",
@@ -177616,18 +177595,6 @@
       "community": 66,
       "community_name": "workflow-improvement.md",
       "norm_label": "6. technical search and website audit"
-    },
-    {
-      "label": "7. Multi-Dimensional Scoring",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L198",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_7_multi_dimensional_scoring",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "7. multi-dimensional scoring"
     },
     {
       "label": "8. Opportunity Classification",
@@ -177714,30 +177681,6 @@
       "norm_label": "current weaknesses"
     },
     {
-      "label": "Example CLI",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L221",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_example_cli",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "example cli"
-    },
-    {
-      "label": "Example final priority formula",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L209",
-      "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_example_final_priority_formula",
-      "community": 66,
-      "community_name": "workflow-improvement.md",
-      "norm_label": "example final priority formula"
-    },
-    {
       "label": "Existing Strengths",
       "file_type": "document",
       "node_kind": "heading",
@@ -177798,16 +177741,16 @@
       "norm_label": "purpose"
     },
     {
-      "label": "Recommended scores",
+      "label": "Required checks",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L200",
+      "source_location": "L111",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_recommended_scores",
+      "id": "projects_leadsniperai_workflow_improvement_required_checks",
       "community": 66,
       "community_name": "workflow-improvement.md",
-      "norm_label": "recommended scores"
+      "norm_label": "required checks"
     },
     {
       "label": "Required distinction",
@@ -177820,6 +177763,18 @@
       "community": 66,
       "community_name": "workflow-improvement.md",
       "norm_label": "required distinction"
+    },
+    {
+      "label": "Result states",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L126",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_result_states",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "result states"
     },
     {
       "label": "Search visibility audit",
@@ -177844,6 +177799,18 @@
       "community": 66,
       "community_name": "workflow-improvement.md",
       "norm_label": "standard rejection codes"
+    },
+    {
+      "label": "Suggested CLI",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_suggested_cli",
+      "community": 66,
+      "community_name": "workflow-improvement.md",
+      "norm_label": "suggested cli"
     },
     {
       "label": "architecture/agents/ \u2014 Architecture (1 file)",
@@ -191099,83 +191066,109 @@
       "norm_label": "workspace architecture"
     },
     {
-      "label": "xr-cockpit-interaction-specialist.md",
+      "label": "paid-media-programmatic-buyer.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L1",
       "frontmatter": {
-        "name": "XR Cockpit Interaction Specialist",
-        "description": "Specialist in designing and developing immersive cockpit-based control systems for XR environments",
+        "name": "Programmatic &amp; Display Buyer",
+        "description": "Display advertising and programmatic media buying specialist covering managed placements, Google Display Network, DV360, trade desk platforms, partner media (newsletters, sponsored content), and ABM display strategies via platforms like Demandbase and 6Sense.",
         "color": "orange",
-        "emoji": "\ud83d\udd79\ufe0f",
-        "vibe": "Designs immersive cockpit control systems that feel natural in XR."
+        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
+        "author": "John Williams (@itallstartedwithaidea)",
+        "emoji": "\ud83d\udcfa",
+        "vibe": "Buys display and video inventory at scale with surgical precision."
       },
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer",
       "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "xr-cockpit-interaction-specialist.md"
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "paid-media-programmatic-buyer.md"
     },
     {
-      "label": "Build cockpit-based immersive interfaces for XR users",
+      "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L21",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_build_cockpit_based_immersive_interfaces_for_xr_users",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_core_capabilities",
       "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "build cockpit-based immersive interfaces for xr users"
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "core capabilities"
     },
     {
-      "label": "\ud83d\udee0\ufe0f What You Can Do",
+      "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L28",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_what_you_can_do",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_decision_framework",
       "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83d\udee0\ufe0f what you can do"
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "decision framework"
     },
     {
-      "label": "XR Cockpit Interaction Specialist Agent Personality",
+      "label": "Paid Media Programmatic & Display Buyer Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L9",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_xr_cockpit_interaction_specialist_agent_personality",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_paid_media_programmatic_display_buyer_agent",
       "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "xr cockpit interaction specialist agent personality"
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "paid media programmatic & display buyer agent"
     },
     {
-      "label": "\ud83c\udfaf Your Core Mission",
+      "label": "Role Definition",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_core_mission",
-      "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83c\udfaf your core mission"
-    },
-    {
-      "label": "\ud83e\udde0 Your Identity & Memory",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/agency-agents/spatial-computing/xr-cockpit-interaction-specialist.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_agency_agents_spatial_computing_xr_cockpit_interaction_specialist_your_identity_memory",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_role_definition",
       "community": 727,
-      "community_name": "XR Cockpit Interaction Specialist Agent Personality",
-      "norm_label": "\ud83e\udde0 your identity & memory"
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "role definition"
+    },
+    {
+      "label": "Specialized Skills",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_specialized_skills",
+      "community": 727,
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "specialized skills"
+    },
+    {
+      "label": "Success Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_success_metrics",
+      "community": 727,
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "success metrics"
+    },
+    {
+      "label": "Tooling & Automation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-programmatic-buyer.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_programmatic_buyer_tooling_automation",
+      "community": 727,
+      "community_name": "Paid Media Programmatic & Display Buyer Agent",
+      "norm_label": "tooling & automation"
     },
     {
       "label": "1. The Opportunity",
@@ -200150,52 +200143,109 @@
       "norm_label": "walk test"
     },
     {
-      "label": "4. Eligibility Screening",
+      "label": "paid-media-search-query-analyst.md",
       "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L109",
+      "node_kind": "page",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L1",
+      "frontmatter": {
+        "name": "Search Query Analyst",
+        "description": "Specialist in search term analysis, negative keyword architecture, and query-to-intent mapping. Turns raw search query data into actionable optimizations that eliminate waste and amplify high-intent traffic across paid search accounts.",
+        "color": "orange",
+        "tools": "WebFetch, WebSearch, Read, Write, Edit, Bash",
+        "author": "John Williams (@itallstartedwithaidea)",
+        "emoji": "\ud83d\udd0d",
+        "vibe": "Mines search queries to find the gold your competitors are missing."
+      },
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_4_eligibility_screening",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst",
       "community": 776,
-      "community_name": "4. Eligibility Screening",
-      "norm_label": "4. eligibility screening"
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "paid-media-search-query-analyst.md"
     },
     {
-      "label": "Required checks",
+      "label": "Core Capabilities",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L111",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_required_checks",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_core_capabilities",
       "community": 776,
-      "community_name": "4. Eligibility Screening",
-      "norm_label": "required checks"
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "core capabilities"
     },
     {
-      "label": "Result states",
+      "label": "Decision Framework",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L126",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L49",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_result_states",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_decision_framework",
       "community": 776,
-      "community_name": "4. Eligibility Screening",
-      "norm_label": "result states"
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "decision framework"
     },
     {
-      "label": "Suggested CLI",
+      "label": "Paid Media Search Query Analyst Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "projects/leadsniperai/workflow-improvement.md",
-      "source_location": "L120",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "projects_leadsniperai_workflow_improvement_suggested_cli",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_paid_media_search_query_analyst_agent",
       "community": 776,
-      "community_name": "4. Eligibility Screening",
-      "norm_label": "suggested cli"
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "paid media search query analyst agent"
+    },
+    {
+      "label": "Role Definition",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_role_definition",
+      "community": 776,
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "role definition"
+    },
+    {
+      "label": "Specialized Skills",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_specialized_skills",
+      "community": 776,
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "specialized skills"
+    },
+    {
+      "label": "Success Metrics",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_success_metrics",
+      "community": 776,
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "success metrics"
+    },
+    {
+      "label": "Tooling & Automation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/paid-media/paid-media-search-query-analyst.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_paid_media_paid_media_search_query_analyst_tooling_automation",
+      "community": 776,
+      "community_name": "Paid Media Search Query Analyst Agent",
+      "norm_label": "tooling & automation"
     },
     {
       "label": "Recommended Integration Tiers",
@@ -211947,221 +211997,88 @@
       "norm_label": "worked example: cdfi-7-touch-outreach.md"
     },
     {
-      "label": "wiki-knowledge/entities/ollama.md",
+      "label": "opencode/README.md",
       "file_type": "document",
       "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "title": "Ollama \u2014 Local LLM Runtime &amp; API",
-        "url": "https://docs.ollama.com/",
-        "pricing": "Free (self-hosted), Cloud tiers available",
-        "category": "ai-infrastructure"
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "wiki-knowledge/entities/ollama.md"
-    },
-    {
-      "label": "wiki-knowledge/entities/hermes-agent.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "title": "Hermes Agent",
-        "created": "2026-04-15",
-        "updated": "2026-04-15",
-        "type": "concept",
-        "tags": [
-          "technology",
-          "artificial-intelligence",
-          "open-source",
-          "autonomous-agent"
-        ],
-        "sources": [
-          "raw/articles/hermes-agent-research.md"
-        ]
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "wiki-knowledge/entities/hermes-agent.md"
-    },
-    {
-      "label": "wiki-knowledge/entities/paperclip.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/paperclip.md",
-      "source_location": "L1",
-      "frontmatter": {
-        "title": "Paperclip.ing",
-        "created": "2026-04-17",
-        "updated": "2026-04-17",
-        "type": "reference_model",
-        "tags": [
-          "paperclip",
-          "autonomous-company",
-          "agent-orchestration",
-          "business-model",
-          "inspiration"
-        ],
-        "url": "https://paperclip.ing",
-        "pricing": "Open source (self-hosted), SaaS offering",
-        "github": "https://github.com/paperclip-ui/paperclip"
-      },
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_paperclip",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "wiki-knowledge/entities/paperclip.md"
-    },
-    {
-      "label": "wiki-knowledge/entities/agency-agents.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_agency_agents",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "wiki-knowledge/entities/agency-agents.md"
+      "community_name": "OpenCode Integration",
+      "norm_label": "opencode/readme.md"
     },
     {
-      "label": "Agency Agents (GitHub Project)",
+      "label": "Activate an Agent",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
-      "source_location": "L1",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L18",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_agency_agents_agency_agents_github_project",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_activate_an_agent",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "agency agents (github project)"
+      "community_name": "OpenCode Integration",
+      "norm_label": "activate an agent"
     },
     {
-      "label": "Key Features",
+      "label": "Agent Format",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_agent_format",
+      "community": 842,
+      "community_name": "OpenCode Integration",
+      "norm_label": "agent format"
+    },
+    {
+      "label": "Install",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_agency_agents_key_features",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_install",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "key features"
+      "community_name": "OpenCode Integration",
+      "norm_label": "install"
     },
     {
-      "label": "Overview",
+      "label": "OpenCode Integration",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
-      "source_location": "L5",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L1",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_agency_agents_overview",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_opencode_integration",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "overview"
+      "community_name": "OpenCode Integration",
+      "norm_label": "opencode integration"
     },
     {
-      "label": "Relevance to KlickSmartAI OS",
+      "label": "Project vs Global",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/agency-agents.md",
-      "source_location": "L14",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L48",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_agency_agents_relevance_to_klicksmartai_os",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_project_vs_global",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "relevance to klicksmartai os"
+      "community_name": "OpenCode Integration",
+      "norm_label": "project vs global"
     },
     {
-      "label": "Competitive Position",
+      "label": "Regenerate",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L43",
+      "source_file": "raw/wiki-knowledge/agency-agents/integrations/opencode/README.md",
+      "source_location": "L59",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_competitive_position",
+      "id": "raw_wiki_knowledge_agency_agents_integrations_opencode_readme_regenerate",
       "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "competitive position"
-    },
-    {
-      "label": "Features",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_features",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "features"
-    },
-    {
-      "label": "Hermes Agent",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_hermes_agent",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "hermes agent"
-    },
-    {
-      "label": "Key Facts",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L16",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_key_facts",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "key facts"
-    },
-    {
-      "label": "Overview",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L12",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_overview",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "overview"
-    },
-    {
-      "label": "Self-Improving Memory Loop",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_self_improving_memory_loop",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "self-improving memory loop"
-    },
-    {
-      "label": "Sources",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/hermes-agent.md",
-      "source_location": "L49",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_hermes_agent_sources",
-      "community": 842,
-      "community_name": "Hermes Agent",
-      "norm_label": "sources"
+      "community_name": "OpenCode Integration",
+      "norm_label": "regenerate"
     },
     {
       "label": "Analytical Tables",
@@ -212518,40 +212435,88 @@
       "norm_label": "pages to inspect"
     },
     {
-      "label": "2. Objectives",
+      "label": "Gmail API Specifics",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L27",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L56",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_2_objectives",
+      "id": "raw_wiki_knowledge_entities_unipile_gmail_api_specifics",
       "community": 848,
-      "community_name": "2. Objectives",
-      "norm_label": "2. objectives"
+      "community_name": "Unipile",
+      "norm_label": "gmail api specifics"
     },
     {
-      "label": "Non-Goals for Version 1",
+      "label": "Key Features",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L40",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L22",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_non_goals_for_version_1",
+      "id": "raw_wiki_knowledge_entities_unipile_key_features",
       "community": 848,
-      "community_name": "2. Objectives",
-      "norm_label": "non-goals for version 1"
+      "community_name": "Unipile",
+      "norm_label": "key features"
     },
     {
-      "label": "Primary Objectives",
+      "label": "KlickSmartAI Use Case",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L28",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L33",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_primary_objectives",
+      "id": "raw_wiki_knowledge_entities_unipile_klicksmartai_use_case",
       "community": 848,
-      "community_name": "2. Objectives",
-      "norm_label": "primary objectives"
+      "community_name": "Unipile",
+      "norm_label": "klicksmartai use case"
+    },
+    {
+      "label": "Notes",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_unipile_notes",
+      "community": 848,
+      "community_name": "Unipile",
+      "norm_label": "notes"
+    },
+    {
+      "label": "Pricing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_unipile_pricing",
+      "community": 848,
+      "community_name": "Unipile",
+      "norm_label": "pricing"
+    },
+    {
+      "label": "Unipile",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_unipile_unipile",
+      "community": 848,
+      "community_name": "Unipile",
+      "norm_label": "unipile"
+    },
+    {
+      "label": "What It Does",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "raw/wiki-knowledge/entities/unipile.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "raw_wiki_knowledge_entities_unipile_what_it_does",
+      "community": 848,
+      "community_name": "Unipile",
+      "norm_label": "what it does"
     },
     {
       "label": "v1.1.0.sql",
@@ -213296,148 +213261,76 @@
       "norm_label": "verified actor convention"
     },
     {
-      "label": "API Reference",
+      "label": "14. Implementation Phases",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L25",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2486",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_api_reference",
+      "id": "drafts_leadsniperai_cli_commercial_plan_14_implementation_phases_2486",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "api reference"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "14. implementation phases"
     },
     {
-      "label": "Core Capability Table",
+      "label": "Phase 1 \u2014 Foundation",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L12",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2487",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_core_capability_table",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_1_foundation",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "core capability table"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "phase 1 \u2014 foundation"
     },
     {
-      "label": "Integration Stack",
+      "label": "Phase 2 \u2014 Deepline Integration",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L60",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2493",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_integration_stack",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_2_deepline_integration",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "integration stack"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "phase 2 \u2014 deepline integration"
     },
     {
-      "label": "Key API Usage Patterns",
+      "label": "Phase 3 \u2014 Qualification and Routing",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L78",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2499",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_key_api_usage_patterns",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_3_qualification_and_routing",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "key api usage patterns"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "phase 3 \u2014 qualification and routing"
     },
     {
-      "label": "KlickSmartAI OS Relevance",
+      "label": "Phase 4 \u2014 Outbound and Replies",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L51",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2505",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_klicksmartai_os_relevance",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_4_outbound_and_replies",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "klicksmartai os relevance"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "phase 4 \u2014 outbound and replies"
     },
     {
-      "label": "Local Setup Context",
+      "label": "Phase 5 \u2014 Learning Loop",
       "file_type": "document",
       "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L70",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2510",
       "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_local_setup_context",
+      "id": "drafts_leadsniperai_cli_commercial_plan_phase_5_learning_loop",
       "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "local setup context"
-    },
-    {
-      "label": "Ollama",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L8",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_ollama",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "ollama"
-    },
-    {
-      "label": "Sources",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L118",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_sources",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "sources"
-    },
-    {
-      "label": "Streaming with thinking detection",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_streaming_with_thinking_detection",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "streaming with thinking detection"
-    },
-    {
-      "label": "Structured output with Pydantic",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L104",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_structured_output_with_pydantic",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "structured output with pydantic"
-    },
-    {
-      "label": "Supported Model Families",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L37",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_supported_model_families",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "supported model families"
-    },
-    {
-      "label": "Web search (requires API key)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "source_file": "raw/wiki-knowledge/entities/ollama.md",
-      "source_location": "L97",
-      "_origin": "ast",
-      "id": "raw_wiki_knowledge_entities_ollama_web_search_requires_api_key",
-      "community": 852,
-      "community_name": "Ollama",
-      "norm_label": "web search (requires api key)"
+      "community_name": "14. Implementation Phases",
+      "norm_label": "phase 5 \u2014 learning loop"
     },
     {
       "label": "CLIENT-SCORE-veritas-developments-2026-08-29.md",
@@ -220954,125 +220847,76 @@
       "norm_label": "us bank community development corporation (san antonio)"
     },
     {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L8",
+      "label": "3. Financing Signal Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2100",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_audit_date_type",
+      "id": "drafts_leadsniperai_cli_commercial_plan_3_financing_signal_taxonomy",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "3. financing signal taxonomy"
     },
     {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L6",
+      "label": "Capital Event Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2110",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_company_name_type",
+      "id": "drafts_leadsniperai_cli_commercial_plan_capital_event_signals",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "capital event signals"
     },
     {
-      "label": "properties",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L5",
+      "label": "Expansion Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2101",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties",
+      "id": "drafts_leadsniperai_cli_commercial_plan_expansion_signals",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "properties"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "expansion signals"
     },
     {
-      "label": "audit_date",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L8",
+      "label": "Financial Pressure Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2120",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_audit_date",
+      "id": "drafts_leadsniperai_cli_commercial_plan_financial_pressure_signals",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "audit_date"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "financial pressure signals"
     },
     {
-      "label": "company_name",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L6",
+      "label": "Real Estate and Mortgage Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2128",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_company_name",
+      "id": "drafts_leadsniperai_cli_commercial_plan_real_estate_and_mortgage_signals",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "company_name"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "real estate and mortgage signals"
     },
     {
-      "label": "recommended_next_action",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L59",
+      "label": "Referral Partner Signals",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L2137",
       "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_recommended_next_action",
+      "id": "drafts_leadsniperai_cli_commercial_plan_referral_partner_signals",
       "community": 900,
-      "community_name": "properties",
-      "norm_label": "recommended_next_action"
-    },
-    {
-      "label": "scores",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L38",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_scores",
-      "community": 900,
-      "community_name": "properties",
-      "norm_label": "scores"
-    },
-    {
-      "label": "website_url",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_properties_website_url",
-      "community": 900,
-      "community_name": "properties",
-      "norm_label": "website_url"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L59",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_recommended_next_action_type",
-      "community": 900,
-      "community_name": "properties",
-      "norm_label": "type"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L39",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_scores_type",
-      "community": 900,
-      "community_name": "properties",
-      "norm_label": "type"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "GrantFundingAI/schemas/audit_result.schema.json",
-      "source_location": "L7",
-      "_origin": "ast",
-      "id": "grantfundingai_schemas_audit_result_schema_website_url_type",
-      "community": 900,
-      "community_name": "properties",
-      "norm_label": "type"
+      "community_name": "3. Financing Signal Taxonomy",
+      "norm_label": "referral partner signals"
     },
     {
       "label": "init_clients_index.py",
@@ -228945,40 +228789,52 @@
       "norm_label": "principal risks"
     },
     {
-      "label": "11. Security and Compliance Requirements",
+      "label": "18. Dependencies and Risks",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L511",
+      "source_location": "L731",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_11_security_and_compliance_requirements",
+      "id": "drafts_leadsniperai_cli_commercial_plan_18_dependencies_and_risks",
       "community": 959,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "11. security and compliance requirements"
+      "community_name": "18. Dependencies and Risks",
+      "norm_label": "18. dependencies and risks"
     },
     {
-      "label": "Mandatory Before Production",
+      "label": "Dependencies",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L512",
+      "source_location": "L732",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_mandatory_before_production",
+      "id": "drafts_leadsniperai_cli_commercial_plan_dependencies",
       "community": 959,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "mandatory before production"
+      "community_name": "18. Dependencies and Risks",
+      "norm_label": "dependencies"
     },
     {
-      "label": "Outreach Controls",
+      "label": "Mitigations",
       "file_type": "document",
       "node_kind": "heading",
       "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
-      "source_location": "L523",
+      "source_location": "L749",
       "_origin": "ast",
-      "id": "drafts_leadsniperai_cli_commercial_plan_outreach_controls",
+      "id": "drafts_leadsniperai_cli_commercial_plan_mitigations",
       "community": 959,
-      "community_name": "11. Security and Compliance Requirements",
-      "norm_label": "outreach controls"
+      "community_name": "18. Dependencies and Risks",
+      "norm_label": "mitigations"
+    },
+    {
+      "label": "Principal Risks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/leadsniperai-cli-commercial-plan.md",
+      "source_location": "L739",
+      "_origin": "ast",
+      "id": "drafts_leadsniperai_cli_commercial_plan_principal_risks",
+      "community": 959,
+      "community_name": "18. Dependencies and Risks",
+      "norm_label": "principal risks"
     },
     {
       "label": "\ud83d\ude80 Advanced Capabilities",
@@ -229414,6 +229270,102 @@
       "community": 963,
       "community_name": "onboarding_tasks_2026-08-29.sql",
       "norm_label": "onboarding_tasks_2026-08-29.sql"
+    },
+    {
+      "label": "5. Partnership Validation (Q5)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1853",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_5_partnership_validation_q5",
+      "community": 964,
+      "community_name": "5. Partnership Validation (Q5)",
+      "norm_label": "5. partnership validation (q5)"
+    },
+    {
+      "label": "Fraser Health Authority",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1857",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_fraser_health_authority",
+      "community": 964,
+      "community_name": "5. Partnership Validation (Q5)",
+      "norm_label": "fraser health authority"
+    },
+    {
+      "label": "Private Landowners in 400m Radius",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1863",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_private_landowners_in_400m_radius",
+      "community": 964,
+      "community_name": "5. Partnership Validation (Q5)",
+      "norm_label": "private landowners in 400m radius"
+    },
+    {
+      "label": "Recommended Partnership Structure (VGH Model)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "drafts/sapperton-district-feasibility.md",
+      "source_location": "L1868",
+      "_origin": "ast",
+      "id": "drafts_sapperton_district_feasibility_recommended_partnership_structure_vgh_model",
+      "community": 964,
+      "community_name": "5. Partnership Validation (Q5)",
+      "norm_label": "recommended partnership structure (vgh model)"
+    },
+    {
+      "label": "3.1 Discovery Layer",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_3_1_discovery_layer",
+      "community": 965,
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.1 discovery layer"
+    },
+    {
+      "label": "3.2 Identity Resolution",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_3_2_identity_resolution",
+      "community": 965,
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.2 identity resolution"
+    },
+    {
+      "label": "3.3 Duplicate Prevention",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_3_3_duplicate_prevention",
+      "community": 965,
+      "community_name": "3. Search Architecture",
+      "norm_label": "3.3 duplicate prevention"
+    },
+    {
+      "label": "3. Search Architecture",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_3_search_architecture",
+      "community": 965,
+      "community_name": "3. Search Architecture",
+      "norm_label": "3. search architecture"
     },
     {
       "label": "alchemists-algorithm.md",
@@ -231559,6 +231511,54 @@
       "norm_label": "status"
     },
     {
+      "label": "7. Multi-Dimensional Scoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L198",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_7_multi_dimensional_scoring",
+      "community": 983,
+      "community_name": "7. Multi-Dimensional Scoring",
+      "norm_label": "7. multi-dimensional scoring"
+    },
+    {
+      "label": "Example CLI",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L221",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_example_cli",
+      "community": 983,
+      "community_name": "7. Multi-Dimensional Scoring",
+      "norm_label": "example cli"
+    },
+    {
+      "label": "Example final priority formula",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L209",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_example_final_priority_formula",
+      "community": 983,
+      "community_name": "7. Multi-Dimensional Scoring",
+      "norm_label": "example final priority formula"
+    },
+    {
+      "label": "Recommended scores",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "projects/leadsniperai/workflow-improvement.md",
+      "source_location": "L200",
+      "_origin": "ast",
+      "id": "projects_leadsniperai_workflow_improvement_recommended_scores",
+      "community": 983,
+      "community_name": "7. Multi-Dimensional Scoring",
+      "norm_label": "recommended scores"
+    },
+    {
       "label": "7.1 Scenario Framework",
       "file_type": "document",
       "node_kind": "heading",
@@ -231653,6 +231653,54 @@
       "community": 984,
       "community_name": "Research Question 7: District Viability Scenarios",
       "norm_label": "research question 7: district viability scenarios"
+    },
+    {
+      "label": "chief-of-staff.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workspace_cron_logs_2026_08_31_chief_of_staff",
+      "community": 985,
+      "community_name": "Chief-of-Staff Morning Briefing \u2014 2026-08-31",
+      "norm_label": "chief-of-staff.md"
+    },
+    {
+      "label": "Chief-of-Staff Morning Briefing \u2014 2026-08-31",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "workspace_cron_logs_2026_08_31_chief_of_staff_chief_of_staff_morning_briefing_2026_08_31",
+      "community": 985,
+      "community_name": "Chief-of-Staff Morning Briefing \u2014 2026-08-31",
+      "norm_label": "chief-of-staff morning briefing \u2014 2026-08-31"
+    },
+    {
+      "label": "Inputs sampled",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "workspace_cron_logs_2026_08_31_chief_of_staff_inputs_sampled",
+      "community": 985,
+      "community_name": "Chief-of-Staff Morning Briefing \u2014 2026-08-31",
+      "norm_label": "inputs sampled"
+    },
+    {
+      "label": "Notable follow-ups",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "workspace_cron_logs_2026_08_31_chief_of_staff_notable_follow_ups",
+      "community": 985,
+      "community_name": "Chief-of-Staff Morning Briefing \u2014 2026-08-31",
+      "norm_label": "notable follow-ups"
     },
     {
       "label": "entities/entri.md",
@@ -430606,6 +430654,39 @@
       "confidence_score": 1.0
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "workspace_cron_logs_2026_08_31_chief_of_staff",
+      "target": "workspace_cron_logs_2026_08_31_chief_of_staff_chief_of_staff_morning_briefing_2026_08_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "workspace_cron_logs_2026_08_31_chief_of_staff_chief_of_staff_morning_briefing_2026_08_31",
+      "target": "workspace_cron_logs_2026_08_31_chief_of_staff_notable_follow_ups",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "workspace/cron-logs/2026-08-31/chief-of-staff.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "workspace_cron_logs_2026_08_31_chief_of_staff_chief_of_staff_morning_briefing_2026_08_31",
+      "target": "workspace_cron_logs_2026_08_31_chief_of_staff_inputs_sampled",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "defines",
       "confidence": "EXTRACTED",
       "source_file": "hermes/skills/icm-client-workspace-setup/scripts/verify-workspace.sh",
@@ -434996,5 +435077,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "b24ecac5948b7f817dde57662b96ddbabccccf40"
+  "built_at_commit": "e183ea1ebf1cfc3f63a43d6d6c16fa63a95cc94b"
 }
