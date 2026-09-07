@@ -31,6 +31,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 | 8 | `website/seo-audit-veritasdevelopmentgroupllc-2026-08-28.md` | SEO audit + recommendations (LLC domain, current) | **David** (web fix priority) | ⏳ Awaiting — superseded by #8a |
 | 8a | `website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md` | **SEO audit v4 (RELEASED)** — live SERP data, 90-day content plan, 2 pending decisions | **David + Daniel** (2-approver gate) | ✅ **RELEASED 2026-08-28** — awaiting David + Daniel review of 2 decisions |
 | 8b | `website/CLIENT-SCORE-veritas-developments-2026-08-28.md` | **Client Score (RELEASED)** — composite 32/100 CONDITIONAL→PROCEED, Year-1 ROI 1,647% at $75/click, break-even 0.7mo. No tasks, no internal costs. | **Dennis** (promotion); David + Daniel (review score before quote) | ✅ **RELEASED 2026-08-28** — paired with audit v4 as pre-quote ROI signal |
+| 12 | `business-plan-2026/business-plan-2026-09-06.md` | **2026 Business Plan (Integrated Green Acres)** — client-authored (David). Imported verbatim. Quarterly-checkpoint cadence + year-end revision 2026-12-31. | **David** (authoritative sign-off) + **Daniel** (informational) | ⏳ Imported 2026-09-06 — awaiting David confirmation as current source-of-truth |
 
 ---
 
@@ -129,6 +130,23 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 
 ---
 
+### 12. 2026 Business Plan (Integrated Green Acres) — client-authored
+
+**Validation owner:** **David (authoritative sign-off)** + Daniel (informational)
+
+This is **David's own plan**, imported verbatim. No AI-generated inference. Validation is about confirming it as the *current operative* source-of-truth version.
+
+**Assumption validation (for David):**
+- [ ] Is the **Integrated Green Acres** edition the current official 2026 plan (vs `Veritas_Development_Group_Business_Plan_2026-1.pdf`, the non-Green-Acres version)?
+- [ ] Do the 2026 priorities need additions/corrections (projects, revenue targets, pilot params)?
+- [ ] Confirm HQ `210 Market St, Lee's Summit, MO` + primary market `Greater Kansas City / Lee's Summit / Grandview`?
+- [ ] Sign off on the **quarterly checkpoint (Apr/Juk/Oct/Jan) + year-end 2026-12-31 revision** cadence?
+
+**HITL question for David:**
+> "I imported your 2026 Business Plan (Integrated Green Acres edition) into the Veritas wiki as source-of-truth reference with a quarterly-review + year-end-revision cadence. Please confirm this is the current operative plan and sign off on the revision cadence."
+
+---
+
 ## How promotion works (HITL gate)
 
 **Step 1: Validation conversation** — Dennis (KlickSmartAI) presents the 5 questions above to David + Daniel.
@@ -203,6 +221,7 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 - 2026-08-28: Added draft #8a — **SEO audit v4 RELEASED**. Promoted `drafts/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md` (v4, with live SERP data on 8 winnable keywords, 90-day content plan, keyword reclassifications) → `projects/website/seo-audit-veritasdevelopmentgroupllc-2026-08-28-client.md`. Wrote cover note `projects/website/COVER-NOTE-seo-audit-v4-2026-08-28.md` isolating the 2 specific decisions for David + Daniel (Reg-D adjacency on C3, PR listicle for P2). DRAFT markers stripped from frontmatter + footer. Cost disclosure added to audit history (~290 DataForSEO credits). Awaiting David + Daniel review; no outreach sent — Dennis presents directly per HITL governance rule.
 - 2026-08-28: Added draft #8b — **Client Score RELEASED**. Paired with audit v4 as the pre-quote ROI signal. 4-dimension rubric (technical 25% / content 25% / local 20% / SERP opportunity 30%) → composite 32/100 CONDITIONAL → PROCEED override (foundation gap is fixable in 1 sprint). Year-1 ROI 1,647% at $75/click midpoint (482%-2,229% across $25-$100/click sensitivity band); break-even 0.7 months; year-2 run-rate 1,890%. Authored `projects/website/CLIENT-SCORE-veritas-developments-2026-08-28.md` — no tasks, no internal costs, only bundled client-facing pricing. Extended `projects-preview/build.py` with draft-banner branching (green RELEASED / yellow DRAFT) so DRAFT scoring docs can sit alongside RELEASED audits without mis-marking. Populated `.local_tier/clients/veritas-developments.duckdb` (tables: client_scores, client_score_keyword_tiers, client_score_history) with live data; $/click sensitivity runs as DuckDB query. Skill `seo-audit-report` bumped to v1.1.0 (Phase 1.5 added). Awaiting David + Daniel score review before engagement quote.
 - 2026-08-29: Added draft #11 — **Veritas Development OS JOB (planning stage)**. Authored `drafts/veritas-development-os/JOB.md` (167 lines) for the Frappe CRM + Astro landing pages + Railway deploy build. Delivers the **CRM build** clause of the 2026-08-11 signed engagement. 4-phase plan (clone Lovable v1 → Astro v2 → Vercel deploy via vercel MCP → Frappe lead POST integration → optional custom domain). Risk: Lovable v1 uses Supabase auth + Vite (strip auth in v2; landing page = no login). Architecture: Astro static + Vercel serverless `/api/leads` proxying to Frappe `/api/resource/Lead` with API key in env (never exposed to browser). Pre-reqs: GitHub repo URL from Dennis (after he runs Claude Code), Frappe URL + API key/secret. Status: Phase 0 prerequisites BLOCKING — Frappe CRM not yet deployed (template is railway.com/deploy/erpnext, manual `railway-setup.sh` must run inside container, HTTP port must be set to 80 manually). Awaiting: (a) Dennis to run Claude Code with the plan + share GitHub URL, (b) Frappe URL + creds from Railway. Hermes triggers Phase 2 (Vercel deploy) + Phase 3 (Frappe integration) once both inputs arrive. NOTE: distinct from David's real-estate firm (Veritas Development Group LLC, principal David Poole, co-founder Daniel Bailey) — this is an INTERNAL KlickSmartAI deliverable that fulfills that client's CRM-build clause.
+- 2026-09-06: Added draft #12 — **2026 Business Plan (Integrated Green Acres)**. **Client-authored** (David Poole / Veritas). Imported verbatim from `Veritas_Development_Group_Business_Plan_2026_Integrated_Green_Acres.docx` (sha256 `9076b60a…`, 117 paragraphs). Landed at `drafts/business-plan-2026/business-plan-2026-09-06.md` pending David + Daniel confirmation as current source-of-truth (vs `Veritas_Development_Group_Business_Plan_2026-1.pdf`). Cadence set per Dennis: **quarterly checkpoints** (Apr 1 / Jul 1 / Oct 1 / Jan 1) + **year-end full revision 2026-12-31**. Handoff note at `drafts/business-plan-2026/HANDOFF.md`. Awaiting David sign-off before promote to `projects/business-plan-2026.md`.
 
 ---
 
