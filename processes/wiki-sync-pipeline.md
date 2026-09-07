@@ -104,6 +104,20 @@ How a new note (e.g. a competitive battlecard from scraping) flows from the loca
 
 The chain is **local → GitHub → vault → graph (rebuild) → Qdrant (vector)**. If anything on GitHub looks wrong, fix the local file and re-run the manual workflow. Never edit GitHub directly.
 
+## The three-layer model (added 2026-09-07)
+
+| Layer | Tool | Lives in | Audience | Job |
+|---|---|---|---|---|
+| **Canonical store** | git + plain markdown | `~/wiki/` | Agents (Hermes) | Source of truth for all knowledge |
+| **Entity graph** | graphify (16,964 nodes / 16,497 edges) | `~/wiki/graphify-out/graph.json` | Agents (Hermes) | Semantic retrieval, dependency links, agent recall |
+| **Visual organizer** | Notion bases + dataview community plugins | `~/vault/` (Obsidian GUI on Windows) | Dennis | Kanban views, filters by property, SOP dashboards |
+
+**Why all three:** graphify indexes for the LLM, Notion bases + dataview visualize for the human. They are complementary, not competitors. The bridge is **frontmatter** — dataview reads it, graphify indexes it. Write rich frontmatter once (`status`, `owner`, `tags`, `depends-on`) and both layers benefit.
+
+**Critical gotcha:** the Notion-bases-plugin is an Obsidian-local renderer over markdown — it does NOT pull from Notion.com. If you write SOPs only in Notion (web) and never mirror them to `~/wiki/`, graphify never sees them and agents can't retrieve them. **Always write in `~/wiki/` first; consume in Obsidian.** The plugin is a view layer, not a source.
+
+**Backups:** `/mnt/g/AI - Coding Projects/backups/obsidian-{wiki,vault}-<ts>.tar.gz` (one-off snapshot 2026-09-07 = 64.5 MB).
+
 ## See also
 
 - `wiki-graphify-sync` skill — `/wiki` command surface
