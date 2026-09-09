@@ -6738,10 +6738,10 @@
     "semantic_hash": "989e2d2763df0ce819c1f45c183c0fde"
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1788908321.1220884,
-    "seen": 1788908893.6575787,
-    "ast_hash": "9564a68643db5e83d83a31ecc4a7c23f",
-    "semantic_hash": "9564a68643db5e83d83a31ecc4a7c23f"
+    "mtime": 1788957252.6112204,
+    "seen": 1788957307.0234263,
+    "ast_hash": "f61d3ddc52971499efbcf643e87e70d1",
+    "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
     "mtime": 1780898471.138533,
