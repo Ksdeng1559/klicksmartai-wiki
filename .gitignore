@@ -26,3 +26,8 @@ graphify-out/
 .local_tier/logs/
 *.duckdb
 *.duckdb.wal
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
