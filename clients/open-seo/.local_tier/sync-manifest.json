@@ -1,6 +1,6 @@
 {
   "duckdb_path": "/home/denni/wiki/clients/open-seo/.local_tier/clients/open-seo.duckdb",
-  "synced_at": "2026-09-10T19:34:57.279675",
+  "synced_at": "2026-09-10T21:39:07.626341",
   "tables": {
     "d1_migrations": 45,
     "audit_pages": 1,
