@@ -1,56 +1,40 @@
-# RFC — openclaw (openclaw/openclaw)
+# openclaw — Weekly Tech-Debt RFC
 
-**Audit date:** 2026-08-22 (Saturday)
+**Run date:** 2026-09-12 (Sat)
 **Repo:** https://github.com/openclaw/openclaw
-**Local presence:** ~/wiki/tech-debt/github/openclaw — **no local clone** (directory holds only prior audit notes rca.md/rfc.md). Remote-only audit via GitHub API.
+**Local mirror:** ~/wiki/tech-debt/github/openclaw/ (rca.md + rfc.md existing)
+**Status:** upstream knowledge only — no KlickSmartAI code depends on it.
 
-## 1. Git Status
+## Dependency status
 
-- No local clone; remote state only
-- Default branch: `main`; **387,118+ stars** (up from 385,548 last cycle, +1,570 this week), 6,079+ open issues (up from 5,635), **not archived**; last push 2026-08-22 15:00Z (active)
-- Latest release: **v2026.7.1-2** (published 2026-08-04) — **unchanged for 18 days**, no new release this cycle
+- Upstream is large (389k stars) with broad Python/TS mix; full dep inventory not pulled this week (out of scope).
+- No Dependabot alerts surfaced for our PAT.
 
-## 2. Dependency Health
+## CI/CD health
 
-- Not inspectable without a clone. OpenClaw is a TypeScript/Node project (large monorepo).
-- Dependabot alerts API: 403 on free plan — not inspectable
-- High release cadence: 5 releases in the week of 2026-08-04 (v2026.6.34 → v2026.7.1-2) — active maintenance, then a quiet ~2.5 week stretch
+Latest 5 Actions runs (2026-09-12):
+| Workflow | Status | Conclusion |
+|---|---|---|
+| ClawSweeper Dispatch | completed | skipped |
+| ClawSweeper Dispatch | completed | skipped |
+| Maintainer Command Reactions | completed | skipped |
+| Maintainer Command Reactions | completed | skipped |
+| Maintainer Command Reactions | completed | skipped |
 
-## 3. CI/CD Pipeline
+All *skipped* — likely repo-level branch protection or scheduled-only triggers. Not a CI failure.
 
-- Last 5 runs (2026-08-22): All `ClawSweeper Dispatch` `skipped` (3x), `Auto response` `None` (in progress), `ClawSweeper Dispatch` `skipped`. No failures.
-- Status: **healthy** (no failing workflows on default branch)
+## Recently merged PRs
 
-## 4. Recent Merged PRs (2026-08-22)
+`steipete` is the dominant merge author. Notable in window:
+- #146021 refactor: share Memory Wiki imported-page test fixture
+- #146020 fix: reduce large session catalog refresh overhead
+- #146019 fix: support large SQLite worker commands with bounded transport
+- #146016 fix: skip transcript reads for stale fallback notices
+- #146015 refactor: keep native handles out of reply admission claims
 
-```
-#127958 improve(whatsapp): reuse inbound message projection  (steipete, merged 14:51Z)
-#127952 fix(agents): resolve pdf tool models through the canonical resolver  (obviyus, merged 14:32Z)
-#127946 test(skills): stabilize workspace-load Windows symlink typing  (aniruddhaadak80)
-#127945 test(skills): stabilize refresh Windows symlink typing  (aniruddhaadak80)
-#127944 test(plugins): stabilize marketplace Windows symlink typing  (aniruddhaadak80)
-#127941 test(skills): fix workspace-load Windows symlink typing  (aniruddhaadak80)
-#127940 test(skills): use directorySymlinkType in refresh Windows symlink test  (aniruddhaadak80)
-#127903 fix(ui): show channel probe progress while refreshing  (steipete, merged 13:32Z)
-#127882 fix(mantis): pin harness pdf tool model to the catalog model  (obviyus, merged 12:48Z)
-#127878 docs(mantis): script catalog-tool turns through Code Mode exec  (obviyus, merged 12:17Z)
-#127877 improve(imessage): reuse prepared inbound account service  (steipete, merged 12:40Z)
-#127875 fix(backup): reject malformed git log limits  (steipete, merged 12:15Z)
-#127871 fix(mantis): keep caller stdin for the lease-fenced command  (obviyus, merged 11:22Z)
-#127870 improve(mattermost): decode inbound websocket frames once  (steipete, merged 11:17Z)
-#127859 feat(ui): render transcript footnotes as navigable endnotes  (vyctorbrzezowski)
-```
+No major version releases observed in this window.
 
-**Theme this cycle:** Windows symlink test stability (5 PRs from aniruddhaadak80, all test-only), WhatsApp/iMessage/Mattermost inbound message projection improvements, mantis (Code Mode) PDF tool model resolution, UI channel-probe progress + transcript footnotes as endnotes. Active, healthy upstream.
+## Recommended actions for Claude Code
 
-## 5. Recommended Actions for Claude Code
-
-- [ ] **No action required** — KlickSmartAI no longer runs OpenClaw (superseded by Hermes per memory). Tracked for awareness only.
-- [ ] If OpenClaw integration is ever revived, clone from `openclaw/openclaw` and pin to release v2026.7.1-2+
-
-## 6. Risks / Notes
-
-- No local clone means no dependency/security audit possible from this environment without a full clone (~large monorepo)
-- OpenClaw release cadence is high and fast-moving; any future integration should pin to tagged releases
-- Latest release unchanged since 2026-08-04 — quietest stretch in 6+ weeks. Either a stabilization pause or a pre-release lock-in. Worth a one-line check next cycle.
-- 1,570 new stars this week — community growth continues to outpace dev throughput
+1. **No action needed.** openclaw is on our radar for transition to Hermes Agent (see `hermes/openclaw-to-hermes-transition` skill) but not in active production. Continue low-cadence monitoring.
+2. **Document any behavior we mirror** in `rca.md` if the session-catalog refresh change (#146020) overlaps with how Hermes indexes sessions.
