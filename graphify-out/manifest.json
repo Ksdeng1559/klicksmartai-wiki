@@ -6530,25 +6530,25 @@
   ".local_tier/seeds/onboarding_tasks_2026-08-29.sql": {
     "mtime": 1788037377.2432628,
     "seen": 1788871160.5385895,
-    "ast_hash": "7bb26fbb1990ff5f5241abc18496aa98",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "clients/veritas-developments/.local_tier/schema/migrations/v1.1.0_to_v1.2.0.sql": {
     "mtime": 1787944921.273388,
     "seen": 1788871160.5386024,
-    "ast_hash": "60a67d7d58a38a2dbc1c37a169778b21",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "clients/veritas-developments/.local_tier/schema/v1.1.0.sql": {
     "mtime": 1787944907.3565032,
     "seen": 1788871160.5386035,
-    "ast_hash": "43ac66d3110cf0c35ff10321881bb7ee",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "clients/veritas-developments/.local_tier/schema/v1.2.0.sql": {
     "mtime": 1787944912.9192472,
     "seen": 1788871160.5386043,
-    "ast_hash": "b2bfdeea7e146e2f2351f1834533be4c",
+    "ast_hash": "",
     "semantic_hash": ""
   },
   "hermes/skills/okf-workspace-conformance/scripts/check-conformance.sh": {
@@ -6711,6 +6711,192 @@
     "mtime": 1788817086.4469268,
     "seen": 1788871160.5391426,
     "ast_hash": "186cf224f3c43145f8faa5552aba0d69",
+    "semantic_hash": ""
+  },
+  ".graphify_chunks.json": {
+    "mtime": 1777699588.6461453,
+    "seen": 1789358658.024647,
+    "ast_hash": "09841db0fe4c981ae3841097e536825c",
+    "semantic_hash": ""
+  },
+  ".graphify_detect.json": {
+    "mtime": 1777699485.193731,
+    "seen": 1789358658.0246537,
+    "ast_hash": "1182e1ccc405cde7bc2ab104b225e4af",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/aug_2026_data.json": {
+    "mtime": 1789355484.02359,
+    "seen": 1789358658.0246563,
+    "ast_hash": "84d61c2773966fbe5d27ba5657d79bcf",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/commercial_terms.json": {
+    "mtime": 1789353646.8537767,
+    "seen": 1789358658.0246592,
+    "ast_hash": "fd532d70d4a443eb419bfa355c25d2a5",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/commercial_terms_v2.json": {
+    "mtime": 1789354138.1017327,
+    "seen": 1789358658.0246613,
+    "ast_hash": "72c1474c5b38e023d46d195014cfd3f3",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/comparison_terms.json": {
+    "mtime": 1789354138.0901656,
+    "seen": 1789358658.024663,
+    "ast_hash": "0d04edc107a149ccdcec00d8257687bc",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/gaps.json": {
+    "mtime": 1789353646.8557036,
+    "seen": 1789358658.0246644,
+    "ast_hash": "fe7cad17dba9f8635e77f374fec37410",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/gaps_ca.json": {
+    "mtime": 1789353684.690256,
+    "seen": 1789358658.0246663,
+    "ast_hash": "2ac1b3fc8821eb43275a1a46f497c89d",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/info_terms.json": {
+    "mtime": 1789353646.8553731,
+    "seen": 1789358658.0246685,
+    "ast_hash": "8a359970ea885d93b8c1626db4aea9a6",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/paa_bank.json": {
+    "mtime": 1789353609.2070708,
+    "seen": 1789358658.0246701,
+    "ast_hash": "ef19501c7265b3d4c68978839de8e443",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/cluster_expansion.json": {
+    "mtime": 1789352504.7665548,
+    "seen": 1789358658.024672,
+    "ast_hash": "cdfa6b978524c42ea20a47650044e2f1",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/clusters.json": {
+    "mtime": 1789352534.153556,
+    "seen": 1789358658.0246732,
+    "ast_hash": "aeebc5a9f96cf94a3aad5e0defbbf5f6",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/commercial_intent.json": {
+    "mtime": 1789353044.6439946,
+    "seen": 1789358658.024675,
+    "ast_hash": "e0bd3a8c556e31bd2121420cfe7a56a9",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/competitor_pages.json": {
+    "mtime": 1789333236.932982,
+    "seen": 1789358658.0246763,
+    "ast_hash": "a2cfcfea3cd4704e1d18c4b69d2b857f",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/consolidated_keyword_set.json": {
+    "mtime": 1789357534.5430567,
+    "seen": 1789358658.024678,
+    "ast_hash": "9a68a960e1f14b7ca77b58100518d0de",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/raw.json": {
+    "mtime": 1789333296.153802,
+    "seen": 1789358658.0246794,
+    "ast_hash": "d404c16112acdf15ca25d933e08dd262",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/summary.json": {
+    "mtime": 1789333461.4258657,
+    "seen": 1789358658.0246813,
+    "ast_hash": "c1657ed64ea5845a2fa61a0593b6a768",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/tariff_cluster.json": {
+    "mtime": 1789357525.7555215,
+    "seen": 1789358658.0246835,
+    "ast_hash": "44b3354bd862da9c83e5c068fc0ef2ec",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/tariff_seeds.json": {
+    "mtime": 1789357510.1932857,
+    "seen": 1789358658.0246851,
+    "ast_hash": "ec533de9a2ec53895527127484abef1f",
+    "semantic_hash": ""
+  },
+  "clients/gpc-development/.local_tier/clients/sync-manifest.json": {
+    "mtime": 1787797870.9660254,
+    "seen": 1789358658.0250926,
+    "ast_hash": "989e2d2763df0ce819c1f45c183c0fde",
+    "semantic_hash": ""
+  },
+  "clients/open-seo/.local_tier/sync-manifest.json": {
+    "mtime": 1789358431.3652172,
+    "seen": 1789358658.0252821,
+    "ast_hash": "49427f18ac01d805f59cbb86d3529272",
+    "semantic_hash": ""
+  },
+  "drafts/cowork-mcp-config.json": {
+    "mtime": 1780898471.138533,
+    "seen": 1789358658.0254936,
+    "ast_hash": "997913755145667d1614196c499d6f67",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/AUGUST_2026_VOLUME.md": {
+    "mtime": 1789355517.885743,
+    "seen": 1789358658.025737,
+    "ast_hash": "80708ffef2647685c07749193e79ac88",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/COMPACT_KEYWORD_STRATEGY.md": {
+    "mtime": 1789353776.4356167,
+    "seen": 1789358658.025739,
+    "ast_hash": "ce204938e8836684702c3d3e9186808f",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md": {
+    "mtime": 1789355369.7228875,
+    "seen": 1789358658.0257404,
+    "ast_hash": "5d216e83dedea8711d8b9e4a8cd4b4dc",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/KEYWORD_STRATEGY.md": {
+    "mtime": 1789357551.8536367,
+    "seen": 1789358658.0257442,
+    "ast_hash": "3680564fb3448c39fe5f82812f135633",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/tariff-loan-batch/REPORT.md": {
+    "mtime": 1789333461.4247549,
+    "seen": 1789358658.0257466,
+    "ast_hash": "a28ee4e962c3af64cd68e4d9c8feef02",
+    "semantic_hash": ""
+  },
+  "gtm-engineer-resources/07-gtm-skills/hermes-gtm-skills-inventory.md": {
+    "mtime": 1788904026.7370007,
+    "seen": 1789358658.0430322,
+    "ast_hash": "45657ec07aa6558d353147f9cd47c360",
+    "semantic_hash": ""
+  },
+  "hermes/deployment-0.21.2.md": {
+    "mtime": 1789272207.5937378,
+    "seen": 1789358658.0431726,
+    "ast_hash": "1b8dbb6e31f4298079bb59b5e81309a5",
+    "semantic_hash": ""
+  },
+  "products/business-loan-comparison-site.md": {
+    "mtime": 1789358630.8474166,
+    "seen": 1789358658.045224,
+    "ast_hash": "64428ac3077f3bad1794e023327c4a43",
+    "semantic_hash": ""
+  },
+  "products/klick2client-agentic-os.md": {
+    "mtime": 1789358630.8403764,
+    "seen": 1789358658.0452256,
+    "ast_hash": "8dabb1f2a3680882c81ab723cb5363ff",
     "semantic_hash": ""
   }
 }
