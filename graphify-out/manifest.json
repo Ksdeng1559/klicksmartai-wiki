@@ -6834,9 +6834,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1789362155.8501797,
-    "seen": 1789362234.9105105,
-    "ast_hash": "50a4b33464a69a170352d4474e5d36ea",
+    "mtime": 1789391177.363143,
+    "seen": 1789391223.7516255,
+    "ast_hash": "a6e696a3ea0a23399c57db1bc616ae48",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -6858,14 +6858,14 @@
     "semantic_hash": ""
   },
   ".local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md": {
-    "mtime": 1789362034.854532,
-    "seen": 1789362234.9108531,
+    "mtime": 1789362252.024898,
+    "seen": 1789391223.7520366,
     "ast_hash": "5d216e83dedea8711d8b9e4a8cd4b4dc",
     "semantic_hash": ""
   },
   ".local_tier/runs/tariff-loan-batch/KEYWORD_STRATEGY.md": {
-    "mtime": 1789362034.854532,
-    "seen": 1789362234.9108574,
+    "mtime": 1789362252.024898,
+    "seen": 1789391223.752099,
     "ast_hash": "3680564fb3448c39fe5f82812f135633",
     "semantic_hash": ""
   },
@@ -7008,9 +7008,9 @@
     "semantic_hash": ""
   },
   "clients/business-loans-canada/README.md": {
-    "mtime": 1789361820.19883,
-    "seen": 1789362234.913293,
-    "ast_hash": "5f29fa5e1744c1d863c76c36ea90796b",
+    "mtime": 1789363464.0430956,
+    "seen": 1789391223.7544467,
+    "ast_hash": "3e8ca104f513de9e787ab9ed141f54db",
     "semantic_hash": ""
   },
   "clients/business-loans-canada/strategy/organic-search-strategy.md": {
@@ -7020,9 +7020,9 @@
     "semantic_hash": ""
   },
   "clients/business-loans-canada/strategy/swoop-competitive-analysis.md": {
-    "mtime": 1789362230.76082,
-    "seen": 1789362234.9132948,
-    "ast_hash": "801e3c2e3d9abab72eb99c79bc7edaf1",
+    "mtime": 1789362594.539245,
+    "seen": 1789391223.7544827,
+    "ast_hash": "95e8ecddce9d47d28435ad445bd18681",
     "semantic_hash": ""
   },
   "concepts/business-context-md.md": {
@@ -7191,6 +7191,84 @@
     "mtime": 1789362201.5050278,
     "seen": 1789362234.946626,
     "ast_hash": "3aba2dc0ae5dd6e24cc602ddebe94379",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/emergency_cluster.json": {
+    "mtime": 1789362492.021066,
+    "seen": 1789391223.7504811,
+    "ast_hash": "a30ad7a308d41fe13065ef8ecebc54cf",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/operating-loc-factoring/processed.json": {
+    "mtime": 1789363077.5086017,
+    "seen": 1789391223.7508826,
+    "ast_hash": "7b6dcc96dcd295d0e34552c4b3fc1dad",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/operating-loc-factoring/raw_overview.json": {
+    "mtime": 1789363077.5033295,
+    "seen": 1789391223.750884,
+    "ast_hash": "5aa70d1279f918ab036efd69be4e6328",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/triplequeens-bridge/processed.json": {
+    "mtime": 1789362824.150848,
+    "seen": 1789391223.751123,
+    "ast_hash": "2bb48ec12dc6a64cb33f7dfa7750f8ce",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/triplequeens-bridge/raw_overview.json": {
+    "mtime": 1789362824.148584,
+    "seen": 1789391223.7511244,
+    "ast_hash": "8a5005a8685afce5ce9f2e7659f5fda6",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/competitive_serp_analysis.md": {
+    "mtime": 1789362222.225154,
+    "seen": 1789391223.7520661,
+    "ast_hash": "87f0503d9c754c6912554819a6614e3b",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/glasslake_partner_analysis.md": {
+    "mtime": 1789362720.3950713,
+    "seen": 1789391223.7520673,
+    "ast_hash": "cbac76eec2d85bb54c7900ca48e7d2eb",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/kingsmen-capital/kingsmen_industries.md": {
+    "mtime": 1789363506.0523145,
+    "seen": 1789391223.7520683,
+    "ast_hash": "d81b1bdb756380666fd47dd333887dc4",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/kingsmen-capital/kingsmen_partner_analysis.md": {
+    "mtime": 1789363443.1935265,
+    "seen": 1789391223.7520695,
+    "ast_hash": "daeb7bf06147b4a07a23b7ab81fb702e",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/triplequeens-bridge/triplequeens_partner_analysis.md": {
+    "mtime": 1789362958.2059553,
+    "seen": 1789391223.7521272,
+    "ast_hash": "5569bbb4b2dc74ab7ab598622c5e6e36",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/sitemap.md": {
+    "mtime": 1789363676.7978241,
+    "seen": 1789391223.754449,
+    "ast_hash": "c05ed89d2c66a5271cffe70a2799058a",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/strategy/executive-summary.md": {
+    "mtime": 1789362862.8154898,
+    "seen": 1789391223.7544508,
+    "ast_hash": "c76aef274124931e683b0eece30eefc3",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/strategy/page-content-proposals.md": {
+    "mtime": 1789363261.0655425,
+    "seen": 1789391223.754481,
+    "ast_hash": "0429f957c1346d3dca5274a4b0b1b7da",
     "semantic_hash": ""
   }
 }
