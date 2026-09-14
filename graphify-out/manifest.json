@@ -6834,9 +6834,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1789358431.3652172,
-    "seen": 1789358658.0252821,
-    "ast_hash": "49427f18ac01d805f59cbb86d3529272",
+    "mtime": 1789362155.8501797,
+    "seen": 1789362234.9105105,
+    "ast_hash": "50a4b33464a69a170352d4474e5d36ea",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -6858,14 +6858,14 @@
     "semantic_hash": ""
   },
   ".local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md": {
-    "mtime": 1789355369.7228875,
-    "seen": 1789358658.0257404,
+    "mtime": 1789362034.854532,
+    "seen": 1789362234.9108531,
     "ast_hash": "5d216e83dedea8711d8b9e4a8cd4b4dc",
     "semantic_hash": ""
   },
   ".local_tier/runs/tariff-loan-batch/KEYWORD_STRATEGY.md": {
-    "mtime": 1789357551.8536367,
-    "seen": 1789358658.0257442,
+    "mtime": 1789362034.854532,
+    "seen": 1789362234.9108574,
     "ast_hash": "3680564fb3448c39fe5f82812f135633",
     "semantic_hash": ""
   },
@@ -6897,6 +6897,300 @@
     "mtime": 1789358630.8403764,
     "seen": 1789358658.0452256,
     "ast_hash": "8dabb1f2a3680882c81ab723cb5363ff",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/cm_overview_processed.json": {
+    "mtime": 1789361763.374917,
+    "seen": 1789362234.909834,
+    "ast_hash": "2f480df392981b9c49d066f1df632fa9",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/keyword_ideas_processed.json": {
+    "mtime": 1789361751.2205987,
+    "seen": 1789362234.909836,
+    "ast_hash": "677725e4cba7ee90cc884c27b498c291",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/kfk_processed.json": {
+    "mtime": 1789361737.4428558,
+    "seen": 1789362234.9098375,
+    "ast_hash": "83ea1fe1ab987af71ddbe1687c447f01",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/raw_cm_overview.json": {
+    "mtime": 1789361763.3665164,
+    "seen": 1789362234.909839,
+    "ast_hash": "1c8dd44064572651bd3c12bc52b594df",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/raw_kfk.json": {
+    "mtime": 1789361737.4382522,
+    "seen": 1789362234.9098406,
+    "ast_hash": "b934003e7989b409554470f62005c7ec",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/raw_overview.json": {
+    "mtime": 1789361722.3737016,
+    "seen": 1789362234.909842,
+    "ast_hash": "9ac84827f29186499224be2efdc8a938",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/expansion_processed.json": {
+    "mtime": 1789361502.3978982,
+    "seen": 1789362234.909843,
+    "ast_hash": "3c6b8b9323b6eae8ca45217ed76b94b6",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/keyword_ideas_processed.json": {
+    "mtime": 1789361525.5144215,
+    "seen": 1789362234.9098442,
+    "ast_hash": "e1865b89de4d4a1bc7c897abc8dd1ca4",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/mortgage_lens_filtered.json": {
+    "mtime": 1789361534.884957,
+    "seen": 1789362234.9098454,
+    "ast_hash": "f03d0c589b6bd0f6d541f3310cd9d599",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/processed.json": {
+    "mtime": 1789361477.9123578,
+    "seen": 1789362234.9098465,
+    "ast_hash": "47e536544bf4b2f5ea107ecf81b0ef51",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/raw_keyword_ideas.json": {
+    "mtime": 1789361525.510506,
+    "seen": 1789362234.9098475,
+    "ast_hash": "de1e08963279ed460e6e36bcf3a8b598",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/raw_keywords_for_keywords.json": {
+    "mtime": 1789361490.7887213,
+    "seen": 1789362234.9098487,
+    "ast_hash": "96462617cb220deafa0e3faa13d6af38",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/raw_overview.json": {
+    "mtime": 1789361468.6394033,
+    "seen": 1789362234.9098496,
+    "ast_hash": "da79238abf679101ef7dd0800391c85a",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/raw_related_keywords.json": {
+    "mtime": 1789361509.6572564,
+    "seen": 1789362234.9098506,
+    "ast_hash": "fe05fa37be3cd241b9c93281ab2b03dd",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/raw_self_employed_overview.json": {
+    "mtime": 1789361545.5460892,
+    "seen": 1789362234.9098516,
+    "ast_hash": "7c1115c8225524affb8771327b9e946b",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/self_employed_processed.json": {
+    "mtime": 1789361545.5527318,
+    "seen": 1789362234.9098527,
+    "ast_hash": "4413a0fe03f054fb8cf75b31c17cc431",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/commercial-mortgage-renewal/commercial_mortgage_renewal_research.md": {
+    "mtime": 1789362052.4973717,
+    "seen": 1789362234.9108546,
+    "ast_hash": "fc0a16eb8c9ca49549be714a4f7feb5a",
+    "semantic_hash": ""
+  },
+  ".local_tier/runs/mortgage-lens-vector6/mortgage_lens_research.md": {
+    "mtime": 1789361569.101889,
+    "seen": 1789362234.910856,
+    "ast_hash": "e624268e02f4e5e9089b58da5f3d5dd1",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/README.md": {
+    "mtime": 1789361820.19883,
+    "seen": 1789362234.913293,
+    "ast_hash": "5f29fa5e1744c1d863c76c36ea90796b",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/strategy/organic-search-strategy.md": {
+    "mtime": 1789361825.9140136,
+    "seen": 1789362234.913294,
+    "ast_hash": "01e9b7a423b8a5d28fe5774e84ab9a95",
+    "semantic_hash": ""
+  },
+  "clients/business-loans-canada/strategy/swoop-competitive-analysis.md": {
+    "mtime": 1789362230.76082,
+    "seen": 1789362234.9132948,
+    "ast_hash": "801e3c2e3d9abab72eb99c79bc7edaf1",
+    "semantic_hash": ""
+  },
+  "concepts/business-context-md.md": {
+    "mtime": 1789362201.5514812,
+    "seen": 1789362234.9206154,
+    "ast_hash": "cb11bda0d29b306e15461b2f4e51bb1b",
+    "semantic_hash": ""
+  },
+  "concepts/hermes-chief-of-staff-os.md": {
+    "mtime": 1789362201.542261,
+    "seen": 1789362234.9207637,
+    "ast_hash": "02cebfacb0c8f1e3eda8503ac5fd39a5",
+    "semantic_hash": ""
+  },
+  "projects/healthcare-workforce-housing/Executive Summary.md": {
+    "mtime": 1789362201.3285925,
+    "seen": 1789362234.9302804,
+    "ast_hash": "462b73245294c1cb4afff7493161b748",
+    "semantic_hash": ""
+  },
+  "projects/healthcare-workforce-housing/Green Rental Housing Strategy.md": {
+    "mtime": 1789362201.330254,
+    "seen": 1789362234.9302824,
+    "ast_hash": "ed64ed4d1d047e0a0e8e835c9c6a8505",
+    "semantic_hash": ""
+  },
+  "projects/healthcare-workforce-housing/Healthcare Workforce Housing Platform.md": {
+    "mtime": 1789362201.334263,
+    "seen": 1789362234.9302835,
+    "ast_hash": "64b9b09b4edba4a97c76471b913607ad",
+    "semantic_hash": ""
+  },
+  "projects/healthcare-workforce-housing/Modular Delivery Strategy.md": {
+    "mtime": 1789362201.3397508,
+    "seen": 1789362234.9302845,
+    "ast_hash": "83b626fb97d8fdc7842033b4a2f90e22",
+    "semantic_hash": ""
+  },
+  "projects/healthcare-workforce-housing/Product Requirements Document.md": {
+    "mtime": 1789362201.3428214,
+    "seen": 1789362234.9302862,
+    "ast_hash": "8caf96f9e190dff18ab811b9a669235d",
+    "semantic_hash": ""
+  },
+  "skills/BUSINESS_CONTEXT_TEMPLATE.md": {
+    "mtime": 1789362201.5139759,
+    "seen": 1789362234.9466026,
+    "ast_hash": "b3d69198c521d83e5e030c0017b5d5af",
+    "semantic_hash": ""
+  },
+  "skills/ceo-skills-framework.md": {
+    "mtime": 1789362201.5226932,
+    "seen": 1789362234.946604,
+    "ast_hash": "0205f4de7f9d700a4380cb3aced32d26",
+    "semantic_hash": ""
+  },
+  "skills/ceo/content-repurpose.md": {
+    "mtime": 1789362201.3589437,
+    "seen": 1789362234.9466052,
+    "ast_hash": "1ff6ace204fa6585e55774014703d38f",
+    "semantic_hash": ""
+  },
+  "skills/ceo/delegation.md": {
+    "mtime": 1789362201.3662212,
+    "seen": 1789362234.9466064,
+    "ast_hash": "6b0749dc47ff6514b81acf0f1d8ddb4a",
+    "semantic_hash": ""
+  },
+  "skills/ceo/financial-review.md": {
+    "mtime": 1789362201.3746805,
+    "seen": 1789362234.9466074,
+    "ast_hash": "d1e6b6bb653c37ba60047b2d3b892d5c",
+    "semantic_hash": ""
+  },
+  "skills/ceo/hiring.md": {
+    "mtime": 1789362201.3817854,
+    "seen": 1789362234.9466083,
+    "ast_hash": "bdc023a68621b8fb5eed627d22156f13",
+    "semantic_hash": ""
+  },
+  "skills/ceo/meeting-prep.md": {
+    "mtime": 1789362201.3909786,
+    "seen": 1789362234.9466095,
+    "ast_hash": "69c10590d1941bd25c968e8d9e002c69",
+    "semantic_hash": ""
+  },
+  "skills/ceo/one-on-ones.md": {
+    "mtime": 1789362201.3989651,
+    "seen": 1789362234.9466105,
+    "ast_hash": "c2f33b2502f91740c75a3545ac6469a4",
+    "semantic_hash": ""
+  },
+  "skills/ceo/prospect-research.md": {
+    "mtime": 1789362201.4064252,
+    "seen": 1789362234.9466114,
+    "ast_hash": "808fc562305483f49813b1932017328a",
+    "semantic_hash": ""
+  },
+  "skills/ceo/quarterly-review.md": {
+    "mtime": 1789362201.4144433,
+    "seen": 1789362234.9466126,
+    "ast_hash": "f96cbd674879fe64b425c4d155bfcdf8",
+    "semantic_hash": ""
+  },
+  "skills/ceo/strategic-sparring.md": {
+    "mtime": 1789362201.4261234,
+    "seen": 1789362234.9466136,
+    "ast_hash": "8eb013acaa000d338d5366c3afa3f768",
+    "semantic_hash": ""
+  },
+  "skills/ceo/weekly-review.md": {
+    "mtime": 1789362201.4350684,
+    "seen": 1789362234.9466147,
+    "ast_hash": "66a9c5937088ed08c1b18ab78bd208c8",
+    "semantic_hash": ""
+  },
+  "skills/cofounder-operating-skills.md": {
+    "mtime": 1789362201.5610428,
+    "seen": 1789362234.9466164,
+    "ast_hash": "40ef79f76f53e3a12f49ebc83554dddc",
+    "semantic_hash": ""
+  },
+  "skills/sales-skills-framework.md": {
+    "mtime": 1789362201.5328805,
+    "seen": 1789362234.9466176,
+    "ast_hash": "e2535f04d64130907a0c58e2615b2aad",
+    "semantic_hash": ""
+  },
+  "skills/sales/call-debrief.md": {
+    "mtime": 1789362201.4512303,
+    "seen": 1789362234.9466186,
+    "ast_hash": "0d68ad43e80129c048bc765c22760902",
+    "semantic_hash": ""
+  },
+  "skills/sales/cold-email.md": {
+    "mtime": 1789362201.458545,
+    "seen": 1789362234.9466197,
+    "ast_hash": "b9e02e71b1c9898a4a27f12b3b11e39f",
+    "semantic_hash": ""
+  },
+  "skills/sales/discovery-call.md": {
+    "mtime": 1789362201.4693892,
+    "seen": 1789362234.946621,
+    "ast_hash": "55d78f634fbfa942310629a2d53d78f1",
+    "semantic_hash": ""
+  },
+  "skills/sales/linkedin-outreach.md": {
+    "mtime": 1789362201.477315,
+    "seen": 1789362234.9466226,
+    "ast_hash": "aba48dffbd7d7db75960e12c2cf9f260",
+    "semantic_hash": ""
+  },
+  "skills/sales/objection-handling.md": {
+    "mtime": 1789362201.4870958,
+    "seen": 1789362234.9466238,
+    "ast_hash": "b2522ad1952034162e7c2f13634b3f71",
+    "semantic_hash": ""
+  },
+  "skills/sales/pipeline-review.md": {
+    "mtime": 1789362201.495089,
+    "seen": 1789362234.946625,
+    "ast_hash": "dd207dc1150c9694b9ebf2499001e541",
+    "semantic_hash": ""
+  },
+  "skills/sales/sales-context.md": {
+    "mtime": 1789362201.5050278,
+    "seen": 1789362234.946626,
+    "ast_hash": "3aba2dc0ae5dd6e24cc602ddebe94379",
     "semantic_hash": ""
   }
 }
