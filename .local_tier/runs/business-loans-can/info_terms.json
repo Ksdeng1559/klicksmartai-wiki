@@ -1,0 +1,1738 @@
+[
+  {
+    "kw": "funding for small business ontario",
+    "vol": 4400,
+    "cpc": 6.18,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "sba",
+    "vol": 1900,
+    "cpc": 4.61,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "csbfp",
+    "vol": 1600,
+    "cpc": 11.4,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "canada grants for small business",
+    "vol": 1600,
+    "cpc": 6,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "commercial mortgage",
+    "vol": 1000,
+    "cpc": 14.32,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "small business funding alberta",
+    "vol": 1000,
+    "cpc": 7.3,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "csbfl",
+    "vol": 880,
+    "cpc": 20.82,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "small business funding",
+    "vol": 590,
+    "cpc": 35.76,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "commercial mortgage brokers",
+    "vol": 590,
+    "cpc": 11.97,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing",
+    "vol": 320,
+    "cpc": 23.19,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "small business funding for women",
+    "vol": 320,
+    "cpc": 7.54,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "quick business funding",
+    "vol": 260,
+    "cpc": 132.6,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "commercial property mortgage",
+    "vol": 260,
+    "cpc": 7.28,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "commercial real estate mortgage",
+    "vol": 260,
+    "cpc": 7.28,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "sba business",
+    "vol": 260,
+    "cpc": 5,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "unsecured business loc",
+    "vol": 260,
+    "cpc": 60.45,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "funding for startups canada",
+    "vol": 260,
+    "cpc": 7.85,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "small business sba",
+    "vol": 260,
+    "cpc": 5,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "the sba",
+    "vol": 260,
+    "cpc": 5,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "startup business funding canada",
+    "vol": 260,
+    "cpc": 7.85,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business funding unsecured",
+    "vol": 260,
+    "cpc": 60.45,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "business mortgage",
+    "vol": 210,
+    "cpc": 11.27,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "business funding canada",
+    "vol": 210,
+    "cpc": 62.07,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "small business funding canada",
+    "vol": 170,
+    "cpc": 60.12,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "commercial mortgage canada",
+    "vol": 170,
+    "cpc": 8.07,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "small business funding in canada",
+    "vol": 170,
+    "cpc": 60.12,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "short term business funding",
+    "vol": 140,
+    "cpc": 146.95,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "csbfp canada",
+    "vol": 110,
+    "cpc": 12.11,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "csbfl canada",
+    "vol": 90,
+    "cpc": 9.63,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business debt consolidation",
+    "vol": 70,
+    "cpc": 40.17,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business equipment leasing",
+    "vol": 70,
+    "cpc": 22.97,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business account",
+    "vol": 70,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "business funding ontario",
+    "vol": 50,
+    "cpc": 44.96,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "unsecured business funding",
+    "vol": 50,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "restaurant equipment lease",
+    "vol": 50,
+    "cpc": 5.36,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "debt funding",
+    "vol": 50,
+    "cpc": 4.29,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing canada",
+    "vol": 50,
+    "cpc": 33.27,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "unsecured funding for business",
+    "vol": 50,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "startup business funding",
+    "vol": 40,
+    "cpc": 10.49,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business start up funding",
+    "vol": 40,
+    "cpc": 32.97,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business account ceba",
+    "vol": 40,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "paypal working capital",
+    "vol": 30,
+    "cpc": 8.9,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "business working capital",
+    "vol": 30,
+    "cpc": 97.75,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "start up small business funding",
+    "vol": 30,
+    "cpc": 2.57,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "ceba canada",
+    "vol": 30,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba 7a",
+    "vol": 20,
+    "cpc": 1.05,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "business funding options",
+    "vol": 20,
+    "cpc": 203.42,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "funding for small business startup",
+    "vol": 20,
+    "cpc": 6.33,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "long term business funding",
+    "vol": 20,
+    "cpc": 180.84,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "sba near me",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba company",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba banks",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "ppp money",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "small business mortgage",
+    "vol": 20,
+    "cpc": 11.23,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "start up funding canada",
+    "vol": 20,
+    "cpc": 11.75,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "farm mortgage canada",
+    "vol": 20,
+    "cpc": 3.39,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing alberta",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": true
+  },
+  {
+    "kw": "leasing machinery",
+    "vol": 20,
+    "cpc": 5.37,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "calgary small business grants",
+    "vol": 20,
+    "cpc": 6.25,
+    "comp": "MEDIUM",
+    "geo": true
+  },
+  {
+    "kw": "canada ceba",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing in alberta",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": true
+  },
+  {
+    "kw": "export development canada ceba",
+    "vol": 20,
+    "cpc": 7.08,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba in banking",
+    "vol": 20,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "torro business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business overdraft",
+    "vol": 10,
+    "cpc": 53.78,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "business capital funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "easy business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "small business funding options",
+    "vol": 10,
+    "cpc": 12.34,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "working capital for small business",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "working capital funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba express",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "small business debt consolidation",
+    "vol": 10,
+    "cpc": 138.08,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business borrowing",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba 504",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "commercial buy to let mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "new business funding options",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "guaranteed business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "natwest commercial mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba 7",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "ecommerce business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "working capital for new business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba debt relief",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "commercial funding",
+    "vol": 10,
+    "cpc": 100.26,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "need business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business buy to let mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "kabbage working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "small business capital funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba approved banks",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "hsbc commercial mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "prestamos cdfi llc",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "unsecured business overdraft",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba ppp",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "need working capital for small business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "cbils",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "commercial mortgage deposit",
+    "vol": 10,
+    "cpc": 6.85,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "i need working capital for my business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "borrow money to start a business",
+    "vol": 10,
+    "cpc": 12.11,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "sba banks near me",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "american express working capital terms",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "unsecured working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "pay gov sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "unsecured funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "sba starting a business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital for my business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba assistance",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "easy small business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "sba for women",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "borrow money for business start up",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "fico sbss",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital facility",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "fountainhead sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba money",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "small business equipment funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "emergency working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "computer leasing for small business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "short term working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital for startup business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "ppp funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "business computer leasing",
+    "vol": 10,
+    "cpc": 8.22,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "commercial equipment lease",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "working capital application",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba 7a express",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba franchise directory",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "my sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "long term working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital options",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "owner occupied commercial real estate",
+    "vol": 10,
+    "cpc": 2.04,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "quick working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "startup funding ontario",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "small business equipment leasing",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "types of business funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "bridge funding capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "504 sba",
+    "vol": 10,
+    "cpc": 0.84,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "call sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "bank of america sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba relief",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba 1919",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "ppp sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "borrow money against equipment",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital line",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "small business borrowing",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "paycheck protection",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "fountainhead ppp",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "equipment lease rates",
+    "vol": 10,
+    "cpc": 25.02,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "working capital loc",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital terms",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sme working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "paycheck protection plan",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba startup",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "easy working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba pay",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba capline",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business cash flow funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital for restaurant",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "local sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "merchant working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "unsecured business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba directory of small businesses",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba approved",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba gov payments",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "new sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba non profit",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business collateral",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba terms",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "mortgage for small business owners canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "heavy equipment lease rates",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "startup funding in canada",
+    "vol": 10,
+    "cpc": 6.77,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "business sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business mortgage canada",
+    "vol": 10,
+    "cpc": 32.33,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "types of working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "small commercial mortgage",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "paypal working capital application",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "small business funding nova scotia",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": true
+  },
+  {
+    "kw": "alberta startup funding",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "sba cdc",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "funding for startups in canada",
+    "vol": 10,
+    "cpc": 2.29,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "sba real estate",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba debt",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "business equipment collateral",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "psb59minutes",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "canada start up funding",
+    "vol": 10,
+    "cpc": 2.92,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "sba sop",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "permanent working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "bdc funding canada",
+    "vol": 10,
+    "cpc": 0.59,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "unsecured business funding for startups",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "commercial equipment lease rates",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "new business funding canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba tax",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "short term funding for small business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba announcement",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba a",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "working capital uses",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "4506 t sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "bank working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business account application",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business account ceba program",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "canada emergency business account program",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "cash flow borrowing",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": false
+  },
+  {
+    "kw": "ceba expansion",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "ceba government of canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "ceba program canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "collateral free",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "commercial mortgage surrey",
+    "vol": 10,
+    "cpc": null,
+    "comp": "MEDIUM",
+    "geo": true
+  },
+  {
+    "kw": "covid sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "disastercustomerservice sba gov",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing alberta alberta",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "equipment leasing alberta canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "equipment leasing company alberta",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "equipment leasing company vancouver",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "equipment leasing for start up business bc",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "equipment leasing for start up business calgary",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": true
+  },
+  {
+    "kw": "equipment leasing winnipeg",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "getting funding for your business",
+    "vol": 10,
+    "cpc": 17.68,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "government of canada ceba",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "grants for small business in nova scotia",
+    "vol": 10,
+    "cpc": 1.2,
+    "comp": "MEDIUM",
+    "geo": true
+  },
+  {
+    "kw": "hascap government of canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "hascap program canada",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "paypal working capital canada",
+    "vol": 10,
+    "cpc": 15.94,
+    "comp": "HIGH",
+    "geo": false
+  },
+  {
+    "kw": "paypal working capital fee",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "paypal working capital terms",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "ppp business",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "ppp covid",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "revolving cash flow",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "revolving working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "revolving working capital facility",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba 7 a",
+    "vol": 10,
+    "cpc": 2.25,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba appeals",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba card",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba covid",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba merchant",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "sba one",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "sba working capital capline",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "short term and long term working capital",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "small business equipment leasing alberta",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": true
+  },
+  {
+    "kw": "small business equipment leasing bc",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "small business equipment leasing manitoba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": true
+  },
+  {
+    "kw": "small business funding manitoba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "HIGH",
+    "geo": true
+  },
+  {
+    "kw": "the ppp",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "total sba",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "unsecured lines",
+    "vol": 10,
+    "cpc": null,
+    "comp": "LOW",
+    "geo": false
+  },
+  {
+    "kw": "unsecured personal guarantee",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital borrowing",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  },
+  {
+    "kw": "working capital paypal uk",
+    "vol": 10,
+    "cpc": null,
+    "comp": null,
+    "geo": false
+  }
+]

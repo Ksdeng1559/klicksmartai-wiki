@@ -1,0 +1,2449 @@
+{
+  "sv_data": {
+    "Canada": {
+      "business loans canada": {
+        "volume": 1300,
+        "cpc": 42.91,
+        "competition": "HIGH"
+      },
+      "small business loan canada": {
+        "volume": 1900,
+        "cpc": 26.74,
+        "competition": "MEDIUM"
+      },
+      "business loan": {
+        "volume": 3600,
+        "cpc": 46.33,
+        "competition": "HIGH"
+      },
+      "small business loans": {
+        "volume": 2400,
+        "cpc": 28.92,
+        "competition": "HIGH"
+      },
+      "unsecured business loan": {
+        "volume": 260,
+        "cpc": 60.45,
+        "competition": "MEDIUM"
+      },
+      "unsecured business loan canada": {
+        "volume": 50,
+        "cpc": 57.02,
+        "competition": "MEDIUM"
+      },
+      "business loan ontario": {
+        "volume": 880,
+        "cpc": 40.06,
+        "competition": "HIGH"
+      },
+      "business loan alberta": {
+        "volume": 390,
+        "cpc": 29.21,
+        "competition": "HIGH"
+      },
+      "business loan british columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan vancouver": {
+        "volume": 10,
+        "cpc": 46.36,
+        "competition": "HIGH"
+      },
+      "business loan toronto": {
+        "volume": 90,
+        "cpc": 64.71,
+        "competition": "HIGH"
+      },
+      "business loan calgary": {
+        "volume": 90,
+        "cpc": 64.33,
+        "competition": "MEDIUM"
+      },
+      "working capital loan": {
+        "volume": 320,
+        "cpc": 115.68,
+        "competition": "MEDIUM"
+      },
+      "working capital loan canada": {
+        "volume": 70,
+        "cpc": 70.97,
+        "competition": "MEDIUM"
+      },
+      "bridge loan business": {
+        "volume": 10,
+        "cpc": 47.85,
+        "competition": "MEDIUM"
+      },
+      "bridge loan small business": {
+        "volume": 10,
+        "cpc": 15.8,
+        "competition": "HIGH"
+      },
+      "short term business loan": {
+        "volume": 140,
+        "cpc": 146.95,
+        "competition": "MEDIUM"
+      },
+      "long term business loan": {
+        "volume": 20,
+        "cpc": 180.84,
+        "competition": "MEDIUM"
+      },
+      "small business financing": {
+        "volume": 110,
+        "cpc": 50.2,
+        "competition": "MEDIUM"
+      },
+      "business financing canada": {
+        "volume": 1900,
+        "cpc": 26.74,
+        "competition": "MEDIUM"
+      },
+      "private business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "alternative business loan": {
+        "volume": 10,
+        "cpc": 55.28,
+        "competition": "MEDIUM"
+      },
+      "non bank business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "merchant cash advance canada": {
+        "volume": 90,
+        "cpc": 58.36,
+        "competition": "MEDIUM"
+      },
+      "business line of credit canada": {
+        "volume": 320,
+        "cpc": 58.15,
+        "competition": "MEDIUM"
+      },
+      "business loan for cash flow": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "MEDIUM"
+      },
+      "business loan to pay suppliers": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for contract execution": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cra payment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tax arrears": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for payroll": {
+        "volume": 10,
+        "cpc": 29.44,
+        "competition": "HIGH"
+      },
+      "business loan for inventory": {
+        "volume": 10,
+        "cpc": 20.58,
+        "competition": "HIGH"
+      },
+      "business loan for equipment": {
+        "volume": 110,
+        "cpc": 29.64,
+        "competition": "LOW"
+      },
+      "business loan for expansion": {
+        "volume": 10,
+        "cpc": 23.17,
+        "competition": "MEDIUM"
+      },
+      "startup business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "importer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "wholesaler loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "restaurant business loan": {
+        "volume": 110,
+        "cpc": 17.38,
+        "competition": "HIGH"
+      },
+      "trucking company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "retail business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Canada": {
+        "volume": 10,
+        "cpc": 1.4,
+        "competition": "MEDIUM"
+      },
+      "tariff financing for small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import tariff financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cash flow loan tariff increase": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan for import costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan tariffs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "customs duty financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff surcharge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "how to finance tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for import costs Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "what to do if tariffs increase my costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "BDC tariff loan vs private lender": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief loan eligibility Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan British Columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing manufacturer": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing importer small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "steel aluminum tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import export finance": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "import finance": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "export finance": {
+        "volume": 40,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "improve cashflow": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "MEDIUM"
+      },
+      "cashflow funding": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "MEDIUM"
+      },
+      "business expansion loan": {
+        "volume": 10,
+        "cpc": 23.17,
+        "competition": "MEDIUM"
+      },
+      "property finance": {
+        "volume": 40,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "debt refinance": {
+        "volume": 50,
+        "cpc": 1.32,
+        "competition": "MEDIUM"
+      },
+      "acquire a business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "hospitality business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturing business loan": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "logistics business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "agriculture business loan": {
+        "volume": 20,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "ecommerce business loan": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "professional services loan": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan bdc": {
+        "volume": 590,
+        "cpc": 2.92,
+        "competition": "MEDIUM"
+      },
+      "working capital loan bdc": {
+        "volume": 10,
+        "cpc": 0.9,
+        "competition": "LOW"
+      },
+      "equipment loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase order financing": {
+        "volume": 50,
+        "cpc": 62.39,
+        "competition": "MEDIUM"
+      },
+      "loan for tech companies": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup financing canada": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "HIGH"
+      },
+      "commercial real estate loan": {
+        "volume": 170,
+        "cpc": 8.63,
+        "competition": "LOW"
+      },
+      "business purchase loan": {
+        "volume": 320,
+        "cpc": 11.3,
+        "competition": "HIGH"
+      },
+      "cover expenses loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "pay suppliers loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase inventory loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "interest only payments": {
+        "volume": 50,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "commercial mortgage broker": {
+        "volume": 590,
+        "cpc": 11.97,
+        "competition": "MEDIUM"
+      },
+      "cmhc apartment financing": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "LOW"
+      },
+      "construction financing commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "refinance commercial property": {
+        "volume": 10,
+        "cpc": 12.63,
+        "competition": "LOW"
+      },
+      "bridge loan commercial": {
+        "volume": 10,
+        "cpc": 5.67,
+        "competition": "MEDIUM"
+      },
+      "private commercial mortgage": {
+        "volume": 10,
+        "cpc": null,
+        "competition": "HIGH"
+      },
+      "second mortgage commercial": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "mezzanine financing": {
+        "volume": 320,
+        "cpc": 13.35,
+        "competition": "LOW"
+      },
+      "schedule i bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule ii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule iii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "credit union commercial loan": {
+        "volume": 10,
+        "cpc": 28.52,
+        "competition": "HIGH"
+      },
+      "bdc tariff support": {
+        "volume": 20,
+        "cpc": 1.31,
+        "competition": "LOW"
+      },
+      "bdc tariff loan": {
+        "volume": 20,
+        "cpc": 4.25,
+        "competition": "MEDIUM"
+      },
+      "large enterprise tariff loan": {
+        "volume": 50,
+        "cpc": 2.48,
+        "competition": "LOW"
+      },
+      "letl facility": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief program canada": {
+        "volume": 40,
+        "cpc": 0.96,
+        "competition": "LOW"
+      },
+      "sme tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      }
+    },
+    "BC": {
+      "business loans canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loans": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan british columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan vancouver": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan toronto": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan calgary": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "short term business loan": {
+        "volume": 10,
+        "cpc": null,
+        "competition": null
+      },
+      "long term business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "alternative business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "non bank business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "merchant cash advance canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business line of credit canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cash flow": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan to pay suppliers": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for contract execution": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cra payment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tax arrears": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for payroll": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for inventory": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for equipment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for expansion": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "importer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "wholesaler loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "restaurant business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "trucking company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "retail business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing for small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import tariff financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cash flow loan tariff increase": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan for import costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan tariffs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "customs duty financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff surcharge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "how to finance tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for import costs Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "what to do if tariffs increase my costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "BDC tariff loan vs private lender": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief loan eligibility Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan British Columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing manufacturer": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing importer small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "steel aluminum tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import export finance": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "import finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "export finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "improve cashflow": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cashflow funding": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business expansion loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "property finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "debt refinance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "acquire a business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "hospitality business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturing business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "logistics business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "agriculture business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "ecommerce business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "professional services loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "equipment loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase order financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "loan for tech companies": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial real estate loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business purchase loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cover expenses loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "pay suppliers loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase inventory loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "interest only payments": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial mortgage broker": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cmhc apartment financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction financing commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "refinance commercial property": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private commercial mortgage": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "second mortgage commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "mezzanine financing": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule i bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule ii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule iii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "credit union commercial loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "large enterprise tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "letl facility": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief program canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "sme tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      }
+    },
+    "Ontario": {
+      "business loans canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loans": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan british columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan vancouver": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan toronto": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan calgary": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "short term business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "long term business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "alternative business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "non bank business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "merchant cash advance canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business line of credit canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cash flow": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan to pay suppliers": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for contract execution": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cra payment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tax arrears": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for payroll": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for inventory": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for equipment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for expansion": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "importer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "wholesaler loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "restaurant business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "trucking company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "retail business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing for small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import tariff financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cash flow loan tariff increase": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan for import costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan tariffs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "customs duty financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff surcharge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "how to finance tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for import costs Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "what to do if tariffs increase my costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "BDC tariff loan vs private lender": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief loan eligibility Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan British Columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing manufacturer": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing importer small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "steel aluminum tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import export finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "export finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "improve cashflow": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cashflow funding": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business expansion loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "property finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "debt refinance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "acquire a business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "hospitality business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturing business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "logistics business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "agriculture business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "ecommerce business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "professional services loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "equipment loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase order financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "loan for tech companies": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial real estate loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business purchase loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cover expenses loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "pay suppliers loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase inventory loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "interest only payments": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial mortgage broker": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cmhc apartment financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction financing commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "refinance commercial property": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private commercial mortgage": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "second mortgage commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "mezzanine financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule i bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule ii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule iii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "credit union commercial loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "large enterprise tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "letl facility": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief program canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "sme tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      }
+    },
+    "Alberta": {
+      "business loans canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loans": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "unsecured business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan british columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan vancouver": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan toronto": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan calgary": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "short term business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "long term business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "alternative business loan": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "non bank business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "merchant cash advance canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business line of credit canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cash flow": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan to pay suppliers": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for contract execution": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for cra payment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tax arrears": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for payroll": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for inventory": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for equipment": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for expansion": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "importer loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "wholesaler loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "restaurant business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "trucking company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction company loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "retail business loan canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing for small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import tariff financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cash flow loan tariff increase": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan for import costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan tariffs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "customs duty financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff surcharge loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "how to finance tariff costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business loan for import costs Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "what to do if tariffs increase my costs": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "BDC tariff loan vs private lender": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief loan eligibility Canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Ontario": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan British Columbia": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff loan Alberta": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing manufacturer": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff financing importer small business": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "steel aluminum tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import export finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "import finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "export finance": {
+        "volume": 0,
+        "cpc": null,
+        "competition": null
+      },
+      "improve cashflow": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cashflow funding": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business expansion loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "property finance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "debt refinance": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "acquire a business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "hospitality business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "manufacturing business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "logistics business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "agriculture business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "ecommerce business loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "professional services loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "small business loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "working capital loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "equipment loan bdc": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase order financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "loan for tech companies": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "startup financing canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial real estate loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "business purchase loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cover expenses loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "pay suppliers loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "purchase inventory loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "interest only payments": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "commercial mortgage broker": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "cmhc apartment financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "construction financing commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "refinance commercial property": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bridge loan commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "private commercial mortgage": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "second mortgage commercial": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "mezzanine financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule i bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule ii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "schedule iii bank financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "credit union commercial loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "bdc tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "large enterprise tariff loan": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "letl facility": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff relief program canada": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "sme tariff support": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      },
+      "tariff bridge financing": {
+        "volume": null,
+        "cpc": null,
+        "competition": null
+      }
+    }
+  },
+  "kd": {
+    "": null
+  },
+  "seeds": [
+    "business loans canada",
+    "small business loan canada",
+    "business loan",
+    "small business loans",
+    "unsecured business loan",
+    "unsecured business loan canada",
+    "business loan ontario",
+    "business loan alberta",
+    "business loan british columbia",
+    "business loan vancouver",
+    "business loan toronto",
+    "business loan calgary",
+    "working capital loan",
+    "working capital loan canada",
+    "bridge loan business",
+    "bridge loan small business",
+    "short term business loan",
+    "long term business loan",
+    "small business financing",
+    "business financing canada",
+    "private business loan canada",
+    "alternative business loan",
+    "non bank business loan",
+    "merchant cash advance canada",
+    "business line of credit canada",
+    "business loan for cash flow",
+    "business loan to pay suppliers",
+    "business loan for contract execution",
+    "business loan for cra payment",
+    "business loan for tax arrears",
+    "business loan for payroll",
+    "business loan for inventory",
+    "business loan for equipment",
+    "business loan for expansion",
+    "startup business loan canada",
+    "manufacturer loan canada",
+    "importer loan canada",
+    "wholesaler loan canada",
+    "restaurant business loan",
+    "trucking company loan canada",
+    "construction company loan canada",
+    "retail business loan canada",
+    "tariff business loan",
+    "tariff loan Canada",
+    "tariff financing for small business",
+    "tariff bridge loan",
+    "business loan for tariff costs",
+    "import tariff financing",
+    "cash flow loan tariff increase",
+    "bridge loan for import costs",
+    "working capital loan tariffs",
+    "customs duty financing",
+    "tariff surcharge loan",
+    "how to finance tariff costs",
+    "business loan for import costs Canada",
+    "what to do if tariffs increase my costs",
+    "BDC tariff loan vs private lender",
+    "tariff relief loan eligibility Canada",
+    "tariff loan Ontario",
+    "tariff loan British Columbia",
+    "tariff loan Alberta",
+    "tariff financing manufacturer",
+    "tariff financing importer small business",
+    "steel aluminum tariff loan"
+  ],
+  "competitor_concepts": {
+    "From Swoop Funding": [
+      "import export finance",
+      "import finance",
+      "export finance",
+      "improve cashflow",
+      "cashflow funding",
+      "business expansion loan",
+      "property finance",
+      "debt refinance",
+      "acquire a business loan",
+      "hospitality business loan",
+      "manufacturing business loan",
+      "logistics business loan",
+      "agriculture business loan",
+      "ecommerce business loan",
+      "professional services loan"
+    ],
+    "From BDC": [
+      "small business loan bdc",
+      "working capital loan bdc",
+      "equipment loan bdc",
+      "purchase order financing",
+      "loan for tech companies",
+      "startup financing canada",
+      "commercial real estate loan",
+      "business purchase loan",
+      "cover expenses loan",
+      "pay suppliers loan",
+      "purchase inventory loan",
+      "interest only payments"
+    ],
+    "From Cedar Commercial": [
+      "commercial mortgage broker",
+      "cmhc apartment financing",
+      "construction financing commercial",
+      "refinance commercial property",
+      "bridge loan commercial",
+      "private commercial mortgage",
+      "second mortgage commercial",
+      "mezzanine financing",
+      "schedule i bank financing",
+      "schedule ii bank financing",
+      "schedule iii bank financing",
+      "credit union commercial loan"
+    ],
+    "From BDC + tariff context": [
+      "bdc tariff support",
+      "bdc tariff loan",
+      "large enterprise tariff loan",
+      "letl facility",
+      "tariff relief program canada",
+      "sme tariff support",
+      "tariff bridge financing"
+    ]
+  },
+  "seeds_v2": [
+    "alternative business loan",
+    "business loan for tax arrears",
+    "importer loan canada",
+    "business loan for import costs Canada",
+    "tariff surcharge loan",
+    "tariff bridge loan",
+    "BDC tariff loan vs private lender",
+    "business loan to pay suppliers",
+    "business loan toronto",
+    "business loan for expansion",
+    "wholesaler loan canada",
+    "business loan calgary",
+    "business loan for equipment",
+    "non bank business loan",
+    "business loans canada",
+    "customs duty financing",
+    "tariff loan British Columbia",
+    "business loan ontario",
+    "business loan for payroll",
+    "construction company loan canada",
+    "bridge loan small business",
+    "long term business loan",
+    "how to finance tariff costs",
+    "small business financing",
+    "private business loan canada",
+    "business loan for cra payment",
+    "small business loans",
+    "merchant cash advance canada",
+    "retail business loan canada",
+    "working capital loan tariffs",
+    "business loan",
+    "tariff loan Alberta",
+    "business loan british columbia",
+    "startup business loan canada",
+    "business loan for cash flow",
+    "steel aluminum tariff loan",
+    "bridge loan business",
+    "business loan for contract execution",
+    "business loan for inventory",
+    "business loan alberta",
+    "working capital loan canada",
+    "tariff loan Ontario",
+    "business line of credit canada",
+    "business financing canada",
+    "unsecured business loan canada",
+    "tariff loan Canada",
+    "trucking company loan canada",
+    "tariff financing for small business",
+    "tariff financing importer small business",
+    "business loan vancouver",
+    "what to do if tariffs increase my costs",
+    "cash flow loan tariff increase",
+    "tariff relief loan eligibility Canada",
+    "tariff business loan",
+    "manufacturer loan canada",
+    "working capital loan",
+    "business loan for tariff costs",
+    "small business loan canada",
+    "import tariff financing",
+    "bridge loan for import costs",
+    "unsecured business loan",
+    "short term business loan",
+    "restaurant business loan",
+    "tariff financing manufacturer",
+    "import export finance",
+    "import finance",
+    "export finance",
+    "improve cashflow",
+    "cashflow funding",
+    "business expansion loan",
+    "property finance",
+    "debt refinance",
+    "acquire a business loan",
+    "hospitality business loan",
+    "manufacturing business loan",
+    "logistics business loan",
+    "agriculture business loan",
+    "ecommerce business loan",
+    "professional services loan",
+    "small business loan bdc",
+    "working capital loan bdc",
+    "equipment loan bdc",
+    "purchase order financing",
+    "loan for tech companies",
+    "startup financing canada",
+    "commercial real estate loan",
+    "business purchase loan",
+    "cover expenses loan",
+    "pay suppliers loan",
+    "purchase inventory loan",
+    "interest only payments",
+    "commercial mortgage broker",
+    "cmhc apartment financing",
+    "construction financing commercial",
+    "refinance commercial property",
+    "bridge loan commercial",
+    "private commercial mortgage",
+    "second mortgage commercial",
+    "mezzanine financing",
+    "schedule i bank financing",
+    "schedule ii bank financing",
+    "schedule iii bank financing",
+    "credit union commercial loan",
+    "bdc tariff support",
+    "bdc tariff loan",
+    "large enterprise tariff loan",
+    "letl facility",
+    "tariff relief program canada",
+    "sme tariff support",
+    "tariff bridge financing"
+  ]
+}

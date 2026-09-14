@@ -1,0 +1,162 @@
+[
+  {
+    "kw": "business loan",
+    "vol": 3600,
+    "cpc": 46.33,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "www.wellsfargo.com",
+      "www.paypal.com",
+      "dced.pa.gov",
+      "www.lendio.com"
+    ]
+  },
+  {
+    "kw": "business lending",
+    "vol": 3600,
+    "cpc": 46.33,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "www.paypal.com",
+      "www.sofi.com",
+      "business.bankofamerica.com",
+      "nyc-business.nyc.gov"
+    ]
+  },
+  {
+    "kw": "lending for business",
+    "vol": 3600,
+    "cpc": 46.33,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "business.bankofamerica.com",
+      "www.usbank.com",
+      "www.wellsfargo.com",
+      "www.fdic.gov"
+    ]
+  },
+  {
+    "kw": "loan business loan",
+    "vol": 3600,
+    "cpc": 46.33,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "www.wellsfargo.com",
+      "ibank.ca.gov",
+      "www.lendio.com",
+      "www.navyfederal.org"
+    ]
+  },
+  {
+    "kw": "ppp loan",
+    "vol": 2900,
+    "cpc": 6.16,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "projects.propublica.org",
+      "home.treasury.gov",
+      "la.myneighborhooddata.org",
+      "about.bankofamerica.com"
+    ]
+  },
+  {
+    "kw": "canada small business financing program",
+    "vol": 2900,
+    "cpc": 9.23,
+    "gov_count": 1,
+    "bank_count": 3,
+    "broker_count": 0,
+    "private_count": 6,
+    "top_domains": [
+      "ised-isde.canada.ca",
+      "www.rbcroyalbank.com",
+      "www.td.com",
+      "www.scotiabank.com",
+      "www.youtube.com"
+    ]
+  },
+  {
+    "kw": "canada small business loan program",
+    "vol": 2900,
+    "cpc": 9.23,
+    "gov_count": 1,
+    "bank_count": 3,
+    "broker_count": 0,
+    "private_count": 6,
+    "top_domains": [
+      "ised-isde.canada.ca",
+      "www.rbcroyalbank.com",
+      "www.td.com",
+      "www.cibc.com",
+      "funding.ryan.com"
+    ]
+  },
+  {
+    "kw": "small business financing program canada",
+    "vol": 2900,
+    "cpc": 9.23,
+    "gov_count": 1,
+    "bank_count": 2,
+    "broker_count": 0,
+    "private_count": 7,
+    "top_domains": [
+      "ised-isde.canada.ca",
+      "www.rbcroyalbank.com",
+      "www.td.com",
+      "www.cibc.com",
+      "funding.ryan.com"
+    ]
+  },
+  {
+    "kw": "small business loans",
+    "vol": 2400,
+    "cpc": 28.92,
+    "gov_count": 0,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 10,
+    "top_domains": [
+      "www.sba.gov",
+      "www.sofi.com",
+      "www.sba.gov",
+      "communityworkscarolina.org",
+      "www.lendio.com"
+    ]
+  },
+  {
+    "kw": "bdc loan",
+    "vol": 2400,
+    "cpc": 5.44,
+    "gov_count": 2,
+    "bank_count": 0,
+    "broker_count": 0,
+    "private_count": 8,
+    "top_domains": [
+      "www.bdc.ca",
+      "www.blueowlcapitalcorporation.com",
+      "bdcloan.com",
+      "baltimoredevelopment.com",
+      "www.investopedia.com"
+    ]
+  }
+]

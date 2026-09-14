@@ -1,0 +1,460 @@
+[
+  {
+    "kw": "business loan",
+    "counts": {
+      "gov": 2,
+      "bank": 4,
+      "ca-site": 3
+    },
+    "top": [
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/small-business-loan",
+        "type": "gov",
+        "title": "Small Business Loan - Apply online for up to ..."
+      },
+      {
+        "url": "https://www.rbcroyalbank.com/business/loans/business-loan-calculator.html",
+        "type": "bank",
+        "title": "Business Loan Calculator"
+      },
+      {
+        "url": "https://www.alberta.ca/capital-financing-supports-entrepreneurs",
+        "type": "ca-site",
+        "title": "Capital and financing supports for entrepreneurs"
+      },
+      {
+        "url": "https://www.scotiabank.com/ca/en/business-banking/banking-solutions/loans-leases.html",
+        "type": "bank",
+        "title": "Business Loans & Leases"
+      }
+    ]
+  },
+  {
+    "kw": "small business loan canada",
+    "counts": {
+      "gov": 2,
+      "bank": 5,
+      "ca-site": 2
+    },
+    "top": [
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://www.rbcroyalbank.com/business/loans/canada-small-business-financing.html",
+        "type": "bank",
+        "title": "Canada Small Business Financing Loan (CSBFL)"
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/small-business-loan",
+        "type": "gov",
+        "title": "Small Business Loan - Apply online for up to ..."
+      },
+      {
+        "url": "https://www.scotiabank.com/ca/en/business-banking/banking-solutions/loans-leases/csbfa.html",
+        "type": "bank",
+        "title": "Canadian Small Business Financing Program \u2013 Term Loan 1"
+      },
+      {
+        "url": "https://www.cibc.com/en/business/loans-and-lines-of-credit/canada-small-business-financing-program.html",
+        "type": "bank",
+        "title": "Canada Small Business Financing Program"
+      }
+    ]
+  },
+  {
+    "kw": "bdc loan",
+    "counts": {
+      "gov": 5,
+      "ca-site": 1
+    },
+    "top": [
+      {
+        "url": "https://www.bdc.ca/en/financing",
+        "type": "gov",
+        "title": "Business loans and business financing"
+      },
+      {
+        "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator",
+        "type": "gov",
+        "title": "Business loan calculator and amortization schedule"
+      },
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://www.bdc.ca/en/i-am/woman-entrepreneur",
+        "type": "gov",
+        "title": "Woman Entrepreneur \u2013 Financing, Advice & Support"
+      },
+      {
+        "url": "https://www.bdc.ca/en/i-am/newcomer-entrepreneur",
+        "type": "gov",
+        "title": "Newcomers: Finance Your Business"
+      }
+    ]
+  },
+  {
+    "kw": "BDC tariff loan",
+    "counts": {
+      "gov": 6,
+      "private/other": 2,
+      "ca-site": 1
+    },
+    "top": [
+      {
+        "url": "https://www.bdc.ca/en/financing/pivot-grow-loan",
+        "type": "gov",
+        "title": "Pivot to Grow Loan | Financing for Trade Resilience"
+      },
+      {
+        "url": "https://www.bdc.ca/en/special-support/tariffs",
+        "type": "gov",
+        "title": "Tariffs and Economic Uncertainty - Resources for ..."
+      },
+      {
+        "url": "https://www.bdc.ca/en/about/mediaroom/news-releases/bdc-brings-500m-new-financing-advisory-services-and-strategic-insights-help-businesses-pivot-and-mitigate-impacts-uncertainty-around-us-tariffs",
+        "type": "gov",
+        "title": "BDC brings $500M in new financing, advisory services ..."
+      },
+      {
+        "url": "https://www.bdc.ca/en/about/mediaroom/news-releases/new-tariffs-tighter-cash-flow-bdc-expands-pivot-to-grow",
+        "type": "gov",
+        "title": "New Tariffs, Tighter Cash Flow: BDC Expands Pivot to Grow"
+      },
+      {
+        "url": "https://funding.ryan.com/blog/government-funding/bdc-1b-loan-ontario-tariff-funding-support/",
+        "type": "private/other",
+        "title": "BDC $1B Loan Program & Ontario Tariff Funding Support"
+      }
+    ]
+  },
+  {
+    "kw": "BDC vs private lender",
+    "counts": {
+      "private/other": 9
+    },
+    "top": [
+      {
+        "url": "https://www.vaneck.com/us/en/blogs/income-investing/bdcs-an-alternative-way-to-access-the-benefits-of-private-credit/",
+        "type": "private/other",
+        "title": "BDCs: An Alternative Way to Access the Benefits of Private ..."
+      },
+      {
+        "url": "https://www.blueowlcapitalcorporation.com/about-blue-owl-capital-corp/what-is-a-bdc",
+        "type": "private/other",
+        "title": "What is a BDC"
+      },
+      {
+        "url": "https://www.mawer.com/the-art-of-boring/blog/extra-credit-business-development-companies-a-public-window-into-private-credit",
+        "type": "private/other",
+        "title": "A Public Window into Private Credit"
+      },
+      {
+        "url": "https://www.cambridgeassociates.com/insight/private-direct-lending-or-public-bdcs-guidance-for-pension-plan-sponsors/",
+        "type": "private/other",
+        "title": "Private Direct Lending or Public BDCs? Guidance for ..."
+      },
+      {
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/bank-lending-to-private-credit-size-characteristics-and-financial-stability-implications-20250523.html",
+        "type": "private/other",
+        "title": "Bank Lending to Private Credit: Size, Characteristics, and ..."
+      }
+    ]
+  },
+  {
+    "kw": "tariff loan",
+    "counts": {
+      "gov": 7,
+      "private/other": 2
+    },
+    "top": [
+      {
+        "url": "https://ceefc-cfuec.ca/letl-overview/",
+        "type": "gov",
+        "title": "LETL Overview"
+      },
+      {
+        "url": "https://www.bdc.ca/en/special-support/tariffs",
+        "type": "gov",
+        "title": "Tariffs and Economic Uncertainty - Resources for ..."
+      },
+      {
+        "url": "https://www.canada.ca/en/department-finance/news/2026/08/support-for-canadian-workers-and-businesses-affected-by-us-tariffs.html",
+        "type": "gov",
+        "title": "Support for Canadian workers and businesses affected by ..."
+      },
+      {
+        "url": "https://ceefc-cfuec.ca/letl-factsheet/",
+        "type": "gov",
+        "title": "Large Enterprise Tariff Loan (LETL) Facility Factsheet"
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/pivot-grow-loan",
+        "type": "gov",
+        "title": "Pivot to Grow Loan | Financing for Trade Resilience"
+      }
+    ]
+  },
+  {
+    "kw": "tariff business loan",
+    "counts": {
+      "gov": 4,
+      "ca-site": 2,
+      "private/other": 3
+    },
+    "top": [
+      {
+        "url": "https://www.canada.ca/en/department-finance/news/2026/08/support-for-canadian-workers-and-businesses-affected-by-us-tariffs.html",
+        "type": "gov",
+        "title": "Support for Canadian workers and businesses affected by ..."
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/pivot-grow-loan",
+        "type": "gov",
+        "title": "Pivot to Grow Loan | Financing for Trade Resilience"
+      },
+      {
+        "url": "http://www.ontario.ca/page/protect-ontario-financing-program",
+        "type": "ca-site",
+        "title": "Protect Ontario Financing Program"
+      },
+      {
+        "url": "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-response-us-tariffs/support-canadian-workers-employers.html",
+        "type": "gov",
+        "title": "Support for workers impacted by tariffs"
+      },
+      {
+        "url": "https://funding.ryan.com/blog/government-funding/bdc-1b-loan-ontario-tariff-funding-support/",
+        "type": "private/other",
+        "title": "BDC $1B Loan Program & Ontario Tariff Funding Support"
+      }
+    ]
+  },
+  {
+    "kw": "import duty financing canada",
+    "counts": {
+      "private/other": 4,
+      "gov": 3,
+      "bank": 1,
+      "ca-site": 1
+    },
+    "top": [
+      {
+        "url": "https://ecapital.com/en-ca/financial-term/import-finance/",
+        "type": "private/other",
+        "title": "Import Finance | eCapital"
+      },
+      {
+        "url": "https://www.cbsa-asfc.gc.ca/prog/arl-glcc/pay-paie-eng.html",
+        "type": "gov",
+        "title": "Commercial import payments: Duties, taxes and other ..."
+      },
+      {
+        "url": "https://www.rbcroyalbank.com/business/international-trade/importing-services.html",
+        "type": "bank",
+        "title": "Importing Services - RBC International Trade Solutions"
+      },
+      {
+        "url": "https://ised-isde.canada.ca/site/ised/en/newsletter-gc-business-insights/trade-support-and-expert-tools-grow-globally",
+        "type": "gov",
+        "title": "Trade support and expert tools to grow globally"
+      },
+      {
+        "url": "http://accordfinancial.com/expertise/import-export/",
+        "type": "private/other",
+        "title": "Import and Export Financing in Canada"
+      }
+    ]
+  },
+  {
+    "kw": "unsecured business loan",
+    "counts": {
+      "broker": 1,
+      "gov": 3,
+      "ca-site": 1,
+      "private/other": 3,
+      "bank": 1
+    },
+    "top": [
+      {
+        "url": "https://swoopfunding.com/ca/business-loans/unsecured-business-loans/",
+        "type": "broker",
+        "title": "Unsecured business loans | Borrow up to $5M"
+      },
+      {
+        "url": "https://www.bdc.ca/en/articles-tools/money-finance/get-financing/ways-get-business-loan-without-offering-collateral",
+        "type": "gov",
+        "title": "5 solutions to get a business loan without collateral"
+      },
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en/canada-small-business-financing-program/find-loan-your-small-business/helping-small-businesses-get-loans",
+        "type": "gov",
+        "title": "Helping small businesses get loans"
+      },
+      {
+        "url": "https://www.innovationcu.ca/personal/advice-tools/blog/2023/pros-cons-unsecured-business-loans-in-canada.html",
+        "type": "ca-site",
+        "title": "The Pros and Cons of Unsecured Business Loans in Canada"
+      },
+      {
+        "url": "https://www.merchantgrowth.com/unsecured-business-loans-canada-what-you-need-to-know/",
+        "type": "private/other",
+        "title": "Unsecured Business Loans Canada"
+      }
+    ]
+  },
+  {
+    "kw": "business loan ontario",
+    "counts": {
+      "gov": 3,
+      "bank": 4,
+      "ca-site": 2
+    },
+    "top": [
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://www.rbcroyalbank.com/business/loans/canada-small-business-financing.html",
+        "type": "bank",
+        "title": "Canada Small Business Financing Loan (CSBFL)"
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/small-business-loan",
+        "type": "gov",
+        "title": "Small Business Loan - Apply online for up to ..."
+      },
+      {
+        "url": "http://www.ontario.ca/page/business/start/get-funding-or-more-help",
+        "type": "ca-site",
+        "title": "10. Get funding or more help"
+      },
+      {
+        "url": "https://sbs-spe.feddevontario.canada.ca/en/financing-business-guide",
+        "type": "gov",
+        "title": "Financing a business - FedDev Ontario"
+      }
+    ]
+  },
+  {
+    "kw": "business loan alberta",
+    "counts": {
+      "ca-site": 4,
+      "private/other": 3,
+      "gov": 1,
+      "bank": 1
+    },
+    "top": [
+      {
+        "url": "https://www.alberta.ca/capital-financing-supports-entrepreneurs",
+        "type": "ca-site",
+        "title": "Capital and financing supports for entrepreneurs"
+      },
+      {
+        "url": "https://www.atb.com/business/borrowing/business-loans/canada-small-business-financing-program-loan/",
+        "type": "private/other",
+        "title": "Canadian Small Business Financing Program (CSBFP) Loan"
+      },
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://albertabusinessloans.com/",
+        "type": "private/other",
+        "title": "Alberta Business Loans: HOME - ABL"
+      },
+      {
+        "url": "https://albertacf.com/services/financial-supports",
+        "type": "private/other",
+        "title": "Financial Supports For Rural Businesses"
+      }
+    ]
+  },
+  {
+    "kw": "small business financing program",
+    "counts": {
+      "gov": 2,
+      "bank": 5,
+      "private/other": 1,
+      "ca-site": 1
+    },
+    "top": [
+      {
+        "url": "https://ised-isde.canada.ca/site/canada-small-business-financing-program/en",
+        "type": "gov",
+        "title": "Canada Small Business Financing Program"
+      },
+      {
+        "url": "https://www.rbcroyalbank.com/business/loans/canada-small-business-financing.html",
+        "type": "bank",
+        "title": "Canada Small Business Financing Loan (CSBFL)"
+      },
+      {
+        "url": "https://www.scotiabank.com/ca/en/business-banking/banking-solutions/loans-leases/csbfa.html",
+        "type": "bank",
+        "title": "Canadian Small Business Financing Program \u2013 Term Loan 1"
+      },
+      {
+        "url": "https://www.bdc.ca/en/financing/small-business-loan",
+        "type": "gov",
+        "title": "Small Business Loan - Apply online for up to ..."
+      },
+      {
+        "url": "https://www.cibc.com/en/business/loans-and-lines-of-credit/canada-small-business-financing-program.html",
+        "type": "bank",
+        "title": "Canada Small Business Financing Program"
+      }
+    ]
+  },
+  {
+    "kw": "working capital loan",
+    "counts": {
+      "gov": 3,
+      "private/other": 3,
+      "ca-site": 1,
+      "media": 1,
+      "broker": 1
+    },
+    "top": [
+      {
+        "url": "https://www.bdc.ca/en/financing/working-capital-loan",
+        "type": "gov",
+        "title": "Working capital loan"
+      },
+      {
+        "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/working-capital-loan",
+        "type": "gov",
+        "title": "What is a Working Capital Loan"
+      },
+      {
+        "url": "https://www.jpmorgan.com/insights/banking/commercial-loans-and-lines-of-credit/working-capital-loans-how-they-work-and-help-your-business",
+        "type": "private/other",
+        "title": "Understanding working capital loans"
+      },
+      {
+        "url": "https://www.fincapfinancialgroup.ca/working-capital-loans",
+        "type": "ca-site",
+        "title": "Working Capital Loans in Canada | Fast Approval"
+      },
+      {
+        "url": "https://www.investopedia.com/terms/w/workingcapitalloan.asp",
+        "type": "media",
+        "title": "Working Capital Loans: Definitions, Uses, and Types ..."
+      }
+    ]
+  }
+]
