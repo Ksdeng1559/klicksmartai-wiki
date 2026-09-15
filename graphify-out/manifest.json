@@ -6773,60 +6773,6 @@
     "ast_hash": "ef19501c7265b3d4c68978839de8e443",
     "semantic_hash": ""
   },
-  ".local_tier/runs/tariff-loan-batch/cluster_expansion.json": {
-    "mtime": 1789352504.7665548,
-    "seen": 1789358658.024672,
-    "ast_hash": "cdfa6b978524c42ea20a47650044e2f1",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/clusters.json": {
-    "mtime": 1789352534.153556,
-    "seen": 1789358658.0246732,
-    "ast_hash": "aeebc5a9f96cf94a3aad5e0defbbf5f6",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/commercial_intent.json": {
-    "mtime": 1789353044.6439946,
-    "seen": 1789358658.024675,
-    "ast_hash": "e0bd3a8c556e31bd2121420cfe7a56a9",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/competitor_pages.json": {
-    "mtime": 1789333236.932982,
-    "seen": 1789358658.0246763,
-    "ast_hash": "a2cfcfea3cd4704e1d18c4b69d2b857f",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/consolidated_keyword_set.json": {
-    "mtime": 1789357534.5430567,
-    "seen": 1789358658.024678,
-    "ast_hash": "9a68a960e1f14b7ca77b58100518d0de",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/raw.json": {
-    "mtime": 1789333296.153802,
-    "seen": 1789358658.0246794,
-    "ast_hash": "d404c16112acdf15ca25d933e08dd262",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/summary.json": {
-    "mtime": 1789333461.4258657,
-    "seen": 1789358658.0246813,
-    "ast_hash": "c1657ed64ea5845a2fa61a0593b6a768",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/tariff_cluster.json": {
-    "mtime": 1789357525.7555215,
-    "seen": 1789358658.0246835,
-    "ast_hash": "44b3354bd862da9c83e5c068fc0ef2ec",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/tariff_seeds.json": {
-    "mtime": 1789357510.1932857,
-    "seen": 1789358658.0246851,
-    "ast_hash": "ec533de9a2ec53895527127484abef1f",
-    "semantic_hash": ""
-  },
   "clients/gpc-development/.local_tier/clients/sync-manifest.json": {
     "mtime": 1787797870.9660254,
     "seen": 1789358658.0250926,
@@ -6834,9 +6780,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1789391177.363143,
-    "seen": 1789391223.7516255,
-    "ast_hash": "a6e696a3ea0a23399c57db1bc616ae48",
+    "mtime": 1789472268.3939264,
+    "seen": 1789473649.3714519,
+    "ast_hash": "af2b0313b48b488a7e31c02b24b3da56",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -6858,21 +6804,9 @@
     "semantic_hash": ""
   },
   ".local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md": {
-    "mtime": 1789362252.024898,
-    "seen": 1789391223.7520366,
+    "mtime": 1789391227.0241158,
+    "seen": 1789445207.117163,
     "ast_hash": "5d216e83dedea8711d8b9e4a8cd4b4dc",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/KEYWORD_STRATEGY.md": {
-    "mtime": 1789362252.024898,
-    "seen": 1789391223.752099,
-    "ast_hash": "3680564fb3448c39fe5f82812f135633",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/tariff-loan-batch/REPORT.md": {
-    "mtime": 1789333461.4247549,
-    "seen": 1789358658.0257466,
-    "ast_hash": "a28ee4e962c3af64cd68e4d9c8feef02",
     "semantic_hash": ""
   },
   "gtm-engineer-resources/07-gtm-skills/hermes-gtm-skills-inventory.md": {
@@ -6897,132 +6831,6 @@
     "mtime": 1789358630.8403764,
     "seen": 1789358658.0452256,
     "ast_hash": "8dabb1f2a3680882c81ab723cb5363ff",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/cm_overview_processed.json": {
-    "mtime": 1789361763.374917,
-    "seen": 1789362234.909834,
-    "ast_hash": "2f480df392981b9c49d066f1df632fa9",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/keyword_ideas_processed.json": {
-    "mtime": 1789361751.2205987,
-    "seen": 1789362234.909836,
-    "ast_hash": "677725e4cba7ee90cc884c27b498c291",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/kfk_processed.json": {
-    "mtime": 1789361737.4428558,
-    "seen": 1789362234.9098375,
-    "ast_hash": "83ea1fe1ab987af71ddbe1687c447f01",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/raw_cm_overview.json": {
-    "mtime": 1789361763.3665164,
-    "seen": 1789362234.909839,
-    "ast_hash": "1c8dd44064572651bd3c12bc52b594df",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/raw_kfk.json": {
-    "mtime": 1789361737.4382522,
-    "seen": 1789362234.9098406,
-    "ast_hash": "b934003e7989b409554470f62005c7ec",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/raw_overview.json": {
-    "mtime": 1789361722.3737016,
-    "seen": 1789362234.909842,
-    "ast_hash": "9ac84827f29186499224be2efdc8a938",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/expansion_processed.json": {
-    "mtime": 1789361502.3978982,
-    "seen": 1789362234.909843,
-    "ast_hash": "3c6b8b9323b6eae8ca45217ed76b94b6",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/keyword_ideas_processed.json": {
-    "mtime": 1789361525.5144215,
-    "seen": 1789362234.9098442,
-    "ast_hash": "e1865b89de4d4a1bc7c897abc8dd1ca4",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/mortgage_lens_filtered.json": {
-    "mtime": 1789361534.884957,
-    "seen": 1789362234.9098454,
-    "ast_hash": "f03d0c589b6bd0f6d541f3310cd9d599",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/processed.json": {
-    "mtime": 1789361477.9123578,
-    "seen": 1789362234.9098465,
-    "ast_hash": "47e536544bf4b2f5ea107ecf81b0ef51",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/raw_keyword_ideas.json": {
-    "mtime": 1789361525.510506,
-    "seen": 1789362234.9098475,
-    "ast_hash": "de1e08963279ed460e6e36bcf3a8b598",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/raw_keywords_for_keywords.json": {
-    "mtime": 1789361490.7887213,
-    "seen": 1789362234.9098487,
-    "ast_hash": "96462617cb220deafa0e3faa13d6af38",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/raw_overview.json": {
-    "mtime": 1789361468.6394033,
-    "seen": 1789362234.9098496,
-    "ast_hash": "da79238abf679101ef7dd0800391c85a",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/raw_related_keywords.json": {
-    "mtime": 1789361509.6572564,
-    "seen": 1789362234.9098506,
-    "ast_hash": "fe05fa37be3cd241b9c93281ab2b03dd",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/raw_self_employed_overview.json": {
-    "mtime": 1789361545.5460892,
-    "seen": 1789362234.9098516,
-    "ast_hash": "7c1115c8225524affb8771327b9e946b",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/self_employed_processed.json": {
-    "mtime": 1789361545.5527318,
-    "seen": 1789362234.9098527,
-    "ast_hash": "4413a0fe03f054fb8cf75b31c17cc431",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/commercial-mortgage-renewal/commercial_mortgage_renewal_research.md": {
-    "mtime": 1789362052.4973717,
-    "seen": 1789362234.9108546,
-    "ast_hash": "fc0a16eb8c9ca49549be714a4f7feb5a",
-    "semantic_hash": ""
-  },
-  ".local_tier/runs/mortgage-lens-vector6/mortgage_lens_research.md": {
-    "mtime": 1789361569.101889,
-    "seen": 1789362234.910856,
-    "ast_hash": "e624268e02f4e5e9089b58da5f3d5dd1",
-    "semantic_hash": ""
-  },
-  "clients/business-loans-canada/README.md": {
-    "mtime": 1789363464.0430956,
-    "seen": 1789391223.7544467,
-    "ast_hash": "3e8ca104f513de9e787ab9ed141f54db",
-    "semantic_hash": ""
-  },
-  "clients/business-loans-canada/strategy/organic-search-strategy.md": {
-    "mtime": 1789361825.9140136,
-    "seen": 1789362234.913294,
-    "ast_hash": "01e9b7a423b8a5d28fe5774e84ab9a95",
-    "semantic_hash": ""
-  },
-  "clients/business-loans-canada/strategy/swoop-competitive-analysis.md": {
-    "mtime": 1789362594.539245,
-    "seen": 1789391223.7544827,
-    "ast_hash": "95e8ecddce9d47d28435ad445bd18681",
     "semantic_hash": ""
   },
   "concepts/business-context-md.md": {
@@ -7193,82 +7001,370 @@
     "ast_hash": "3aba2dc0ae5dd6e24cc602ddebe94379",
     "semantic_hash": ""
   },
-  ".local_tier/runs/commercial-mortgage-renewal/emergency_cluster.json": {
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/cm_overview_processed.json": {
+    "mtime": 1789361763.374917,
+    "seen": 1789445207.1165595,
+    "ast_hash": "2f480df392981b9c49d066f1df632fa9",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/emergency_cluster.json": {
     "mtime": 1789362492.021066,
-    "seen": 1789391223.7504811,
+    "seen": 1789445207.116562,
     "ast_hash": "a30ad7a308d41fe13065ef8ecebc54cf",
     "semantic_hash": ""
   },
-  ".local_tier/runs/operating-loc-factoring/processed.json": {
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/keyword_ideas_processed.json": {
+    "mtime": 1789361751.2205987,
+    "seen": 1789445207.1165626,
+    "ast_hash": "677725e4cba7ee90cc884c27b498c291",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/kfk_processed.json": {
+    "mtime": 1789361737.4428558,
+    "seen": 1789445207.1165643,
+    "ast_hash": "83ea1fe1ab987af71ddbe1687c447f01",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/raw_cm_overview.json": {
+    "mtime": 1789361763.3665164,
+    "seen": 1789445207.116565,
+    "ast_hash": "1c8dd44064572651bd3c12bc52b594df",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/raw_kfk.json": {
+    "mtime": 1789361737.4382522,
+    "seen": 1789445207.1165662,
+    "ast_hash": "b934003e7989b409554470f62005c7ec",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/raw_overview.json": {
+    "mtime": 1789361722.3737016,
+    "seen": 1789445207.1165674,
+    "ast_hash": "9ac84827f29186499224be2efdc8a938",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/expansion_processed.json": {
+    "mtime": 1789361502.3978982,
+    "seen": 1789445207.1165686,
+    "ast_hash": "3c6b8b9323b6eae8ca45217ed76b94b6",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/keyword_ideas_processed.json": {
+    "mtime": 1789361525.5144215,
+    "seen": 1789445207.1165693,
+    "ast_hash": "e1865b89de4d4a1bc7c897abc8dd1ca4",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/mortgage_lens_filtered.json": {
+    "mtime": 1789361534.884957,
+    "seen": 1789445207.1165705,
+    "ast_hash": "f03d0c589b6bd0f6d541f3310cd9d599",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/processed.json": {
+    "mtime": 1789361477.9123578,
+    "seen": 1789445207.1165714,
+    "ast_hash": "47e536544bf4b2f5ea107ecf81b0ef51",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/raw_keyword_ideas.json": {
+    "mtime": 1789361525.510506,
+    "seen": 1789445207.1165724,
+    "ast_hash": "de1e08963279ed460e6e36bcf3a8b598",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/raw_keywords_for_keywords.json": {
+    "mtime": 1789361490.7887213,
+    "seen": 1789445207.116573,
+    "ast_hash": "96462617cb220deafa0e3faa13d6af38",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/raw_overview.json": {
+    "mtime": 1789361468.6394033,
+    "seen": 1789445207.1165743,
+    "ast_hash": "da79238abf679101ef7dd0800391c85a",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/raw_related_keywords.json": {
+    "mtime": 1789361509.6572564,
+    "seen": 1789445207.1165755,
+    "ast_hash": "fe05fa37be3cd241b9c93281ab2b03dd",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/raw_self_employed_overview.json": {
+    "mtime": 1789361545.5460892,
+    "seen": 1789445207.1165764,
+    "ast_hash": "7c1115c8225524affb8771327b9e946b",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/self_employed_processed.json": {
+    "mtime": 1789361545.5527318,
+    "seen": 1789445207.1165774,
+    "ast_hash": "4413a0fe03f054fb8cf75b31c17cc431",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/domain_overviews.json": {
+    "mtime": 1789423351.5536761,
+    "seen": 1789445207.1165783,
+    "ast_hash": "f40394d477625253febc720a1b7b042e",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/paa_mining_results.json": {
+    "mtime": 1789423291.8609023,
+    "seen": 1789445207.1165795,
+    "ast_hash": "939219e4f45458cdc5c03e389e3c9ee6",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/raw_keyword_metrics.json": {
+    "mtime": 1789396321.6762087,
+    "seen": 1789445207.116581,
+    "ast_hash": "1a70db9b52634c3bd3aba4322ead7327",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/operating-loc-factoring/processed.json": {
     "mtime": 1789363077.5086017,
-    "seen": 1789391223.7508826,
+    "seen": 1789445207.1165822,
     "ast_hash": "7b6dcc96dcd295d0e34552c4b3fc1dad",
     "semantic_hash": ""
   },
-  ".local_tier/runs/operating-loc-factoring/raw_overview.json": {
+  "clients/mortgagesbydenniseng/research/operating-loc-factoring/raw_overview.json": {
     "mtime": 1789363077.5033295,
-    "seen": 1789391223.750884,
+    "seen": 1789445207.1165829,
     "ast_hash": "5aa70d1279f918ab036efd69be4e6328",
     "semantic_hash": ""
   },
-  ".local_tier/runs/triplequeens-bridge/processed.json": {
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/cluster_expansion.json": {
+    "mtime": 1789352504.7665548,
+    "seen": 1789445207.1165836,
+    "ast_hash": "cdfa6b978524c42ea20a47650044e2f1",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/clusters.json": {
+    "mtime": 1789352534.153556,
+    "seen": 1789445207.1165845,
+    "ast_hash": "aeebc5a9f96cf94a3aad5e0defbbf5f6",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/commercial_intent.json": {
+    "mtime": 1789353044.6439946,
+    "seen": 1789445207.1165853,
+    "ast_hash": "e0bd3a8c556e31bd2121420cfe7a56a9",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/competitor_pages.json": {
+    "mtime": 1789333236.932982,
+    "seen": 1789445207.1165862,
+    "ast_hash": "a2cfcfea3cd4704e1d18c4b69d2b857f",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/consolidated_keyword_set.json": {
+    "mtime": 1789357534.5430567,
+    "seen": 1789445207.1165872,
+    "ast_hash": "9a68a960e1f14b7ca77b58100518d0de",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/raw.json": {
+    "mtime": 1789333296.153802,
+    "seen": 1789445207.116588,
+    "ast_hash": "d404c16112acdf15ca25d933e08dd262",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/summary.json": {
+    "mtime": 1789333461.4258657,
+    "seen": 1789445207.1165888,
+    "ast_hash": "c1657ed64ea5845a2fa61a0593b6a768",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/tariff_cluster.json": {
+    "mtime": 1789357525.7555215,
+    "seen": 1789445207.1165895,
+    "ast_hash": "44b3354bd862da9c83e5c068fc0ef2ec",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/tariff_seeds.json": {
+    "mtime": 1789357510.1932857,
+    "seen": 1789445207.1165905,
+    "ast_hash": "ec533de9a2ec53895527127484abef1f",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/triplequeens-bridge/processed.json": {
     "mtime": 1789362824.150848,
-    "seen": 1789391223.751123,
+    "seen": 1789445207.1165915,
     "ast_hash": "2bb48ec12dc6a64cb33f7dfa7750f8ce",
     "semantic_hash": ""
   },
-  ".local_tier/runs/triplequeens-bridge/raw_overview.json": {
+  "clients/mortgagesbydenniseng/research/triplequeens-bridge/raw_overview.json": {
     "mtime": 1789362824.148584,
-    "seen": 1789391223.7511244,
+    "seen": 1789445207.1165924,
     "ast_hash": "8a5005a8685afce5ce9f2e7659f5fda6",
     "semantic_hash": ""
   },
-  ".local_tier/runs/commercial-mortgage-renewal/competitive_serp_analysis.md": {
-    "mtime": 1789362222.225154,
-    "seen": 1789391223.7520661,
-    "ast_hash": "87f0503d9c754c6912554819a6614e3b",
+  "clients/business-loan-comparison-openseo-v2.md": {
+    "mtime": 1789445075.0743916,
+    "seen": 1789445207.1195629,
+    "ast_hash": "452608c2e39ede269c360b18c19d6137",
     "semantic_hash": ""
   },
-  ".local_tier/runs/commercial-mortgage-renewal/glasslake_partner_analysis.md": {
+  "clients/mortgagesbydenniseng/README.md": {
+    "mtime": 1789423469.6053905,
+    "seen": 1789445207.1211398,
+    "ast_hash": "6c1c7ecb649a3e6b84ee1d614c12313b",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/_config/partner-agreements/README.md": {
+    "mtime": 1789411620.1689627,
+    "seen": 1789445207.121141,
+    "ast_hash": "4656ad603151c46da385dc1b8efc1352",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/advance-funds-network/advancefundsnetwork_partner_analysis.md": {
+    "mtime": 1789411623.9408166,
+    "seen": 1789445207.121142,
+    "ast_hash": "f0df074c2dab9c5c035f685b3da78cf6",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/commercial_mortgage_renewal_research.md": {
+    "mtime": 1789362052.4973717,
+    "seen": 1789445207.1211436,
+    "ast_hash": "fc0a16eb8c9ca49549be714a4f7feb5a",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/competitive_serp_analysis.md": {
+    "mtime": 1789398051.3387532,
+    "seen": 1789445207.1211448,
+    "ast_hash": "b29c5638dbfd218de37729b76fcfdb6b",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/commercial-mortgage-renewal/glasslake_partner_analysis.md": {
     "mtime": 1789362720.3950713,
-    "seen": 1789391223.7520673,
+    "seen": 1789445207.121146,
     "ast_hash": "cbac76eec2d85bb54c7900ca48e7d2eb",
     "semantic_hash": ""
   },
-  ".local_tier/runs/kingsmen-capital/kingsmen_industries.md": {
-    "mtime": 1789363506.0523145,
-    "seen": 1789391223.7520683,
-    "ast_hash": "d81b1bdb756380666fd47dd333887dc4",
+  "clients/mortgagesbydenniseng/research/kingsmen-capital/kingsmen_industries.md": {
+    "mtime": 1789398051.3393052,
+    "seen": 1789445207.121147,
+    "ast_hash": "35cbf041c117258a995c5006eee22d4d",
     "semantic_hash": ""
   },
-  ".local_tier/runs/kingsmen-capital/kingsmen_partner_analysis.md": {
-    "mtime": 1789363443.1935265,
-    "seen": 1789391223.7520695,
-    "ast_hash": "daeb7bf06147b4a07a23b7ab81fb702e",
+  "clients/mortgagesbydenniseng/research/kingsmen-capital/kingsmen_partner_analysis.md": {
+    "mtime": 1789398051.339606,
+    "seen": 1789445207.1211479,
+    "ast_hash": "d843e4b1b93a2b9c8792449049d43471",
     "semantic_hash": ""
   },
-  ".local_tier/runs/triplequeens-bridge/triplequeens_partner_analysis.md": {
+  "clients/mortgagesbydenniseng/research/mortgage-lens-vector6/mortgage_lens_research.md": {
+    "mtime": 1789361569.101889,
+    "seen": 1789445207.1211488,
+    "ast_hash": "e624268e02f4e5e9089b58da5f3d5dd1",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/paa_mining_report.md": {
+    "mtime": 1789423357.6419294,
+    "seen": 1789445207.12115,
+    "ast_hash": "aa123b8ae57fedd67200e983555195c9",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/search-metrics-report-v2.md": {
+    "mtime": 1789423398.0687096,
+    "seen": 1789445207.1211512,
+    "ast_hash": "c1e19e09ab745923664fafcae559d828",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/search-metrics-report.md": {
+    "mtime": 1789398051.3398073,
+    "seen": 1789445207.121152,
+    "ast_hash": "3fb9a05823f4a6c6e0e247f6fbc6313b",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/openseo-enrichment/sitemap-additions-from-openseo.md": {
+    "mtime": 1789423447.9737902,
+    "seen": 1789445207.121153,
+    "ast_hash": "97c6cf5055388da7693523c49846ac19",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/KEYWORD_STRATEGY.md": {
+    "mtime": 1789391227.0241158,
+    "seen": 1789445207.121154,
+    "ast_hash": "3680564fb3448c39fe5f82812f135633",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/tariff-loan-batch/REPORT.md": {
+    "mtime": 1789333461.4247549,
+    "seen": 1789445207.121155,
+    "ast_hash": "a28ee4e962c3af64cd68e4d9c8feef02",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/research/triplequeens-bridge/triplequeens_partner_analysis.md": {
     "mtime": 1789362958.2059553,
-    "seen": 1789391223.7521272,
+    "seen": 1789445207.1211565,
     "ast_hash": "5569bbb4b2dc74ab7ab598622c5e6e36",
     "semantic_hash": ""
   },
-  "clients/business-loans-canada/sitemap.md": {
-    "mtime": 1789363676.7978241,
-    "seen": 1789391223.754449,
-    "ast_hash": "c05ed89d2c66a5271cffe70a2799058a",
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/README.md": {
+    "mtime": 1789423478.093834,
+    "seen": 1789445207.1211574,
+    "ast_hash": "5cae35a798518e547e0a2f63fda69781",
     "semantic_hash": ""
   },
-  "clients/business-loans-canada/strategy/executive-summary.md": {
-    "mtime": 1789362862.8154898,
-    "seen": 1789391223.7544508,
-    "ast_hash": "c76aef274124931e683b0eece30eefc3",
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/executive-summary-with-citations.md": {
+    "mtime": 1789411610.0622456,
+    "seen": 1789445207.1211581,
+    "ast_hash": "1a4e0af001c241acd02955c58d7b2636",
     "semantic_hash": ""
   },
-  "clients/business-loans-canada/strategy/page-content-proposals.md": {
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/executive-summary.html": {
+    "mtime": 1789411753.1066675,
+    "seen": 1789445207.121159,
+    "ast_hash": "bb250da4c6ac68659524c0654eab0044",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/proposal-for-review.md": {
+    "mtime": 1789397960.5925295,
+    "seen": 1789445207.1211605,
+    "ast_hash": "d0e538aa4f6c93593caefeb0d7101fe6",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/sitemap.md": {
+    "mtime": 1789398051.3404841,
+    "seen": 1789445207.1211612,
+    "ast_hash": "5ec93f1331f00d2b66374d239f603dd5",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/strategy/executive-summary.md": {
+    "mtime": 1789398051.3407812,
+    "seen": 1789445207.1211622,
+    "ast_hash": "a50a7225dad188802d8a471539cb1531",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/strategy/organic-search-strategy.md": {
+    "mtime": 1789398051.3412533,
+    "seen": 1789445207.121163,
+    "ast_hash": "e5263322421b2369f62b02c4f0f483da",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/strategy/page-content-proposals.md": {
     "mtime": 1789363261.0655425,
-    "seen": 1789391223.754481,
+    "seen": 1789445207.1211638,
     "ast_hash": "0429f957c1346d3dca5274a4b0b1b7da",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/strategy/swoop-competitive-analysis.md": {
+    "mtime": 1789398051.3416266,
+    "seen": 1789445207.1211648,
+    "ast_hash": "80bfe3c0f0866e8866bcfa4b14bdc883",
+    "semantic_hash": ""
+  },
+  "clients/mortgagesbydenniseng/verticals/business-loans-canada/wireframe.md": {
+    "mtime": 1789398051.3423114,
+    "seen": 1789445207.1211658,
+    "ast_hash": "dbcb7c5315d6838784bc158d43ee7675",
+    "semantic_hash": ""
+  },
+  "clients/recycling-waste-founder-prospect.md": {
+    "mtime": 1789445075.1172106,
+    "seen": 1789445207.1223621,
+    "ast_hash": "8b1bcb0cb6a43e8ba10383c93d9fce2f",
     "semantic_hash": ""
   }
 }
