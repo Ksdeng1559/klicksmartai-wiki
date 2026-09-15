@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_ideas/live",
+    "seeds": [
+      "commercial mortgage renewal",
+      "commercial mortgage refinance",
+      "commercial mortgage rates",
+      "renewing commercial mortgage",
+      "commercial mortgage renewal rates",
+      "commercial mortgage renewal process",
+      "commercial mortgage renewal letter",
+      "commercial mortgage renewal options"
+    ],
+    "cost": 0.048,
+    "total_returned": 300
+  },
+  "renewal_terms": [
+    {
+      "keyword": "mortgage renewal",
+      "vol": 2400,
+      "cpc": 8.94,
+      "comp": 0.52,
+      "priority": 41261.54
+    },
+    {
+      "keyword": "mortgage refinance",
+      "vol": 1000,
+      "cpc": 12.51,
+      "comp": 0.48,
+      "priority": 26062.5
+    },
+    {
+      "keyword": "mortgage renewal calculator",
+      "vol": 8100,
+      "cpc": 1.55,
+      "comp": 0.51,
+      "priority": 24617.65
+    },
+    {
+      "keyword": "mortgage renewal rates",
+      "vol": 1900,
+      "cpc": 4.33,
+      "comp": 0.56,
+      "priority": 14691.07
+    },
+    {
+      "keyword": "mortgage refinance rates",
+      "vol": 590,
+      "cpc": 5.81,
+      "comp": 0.35,
+      "priority": 9794.0
+    },
+    {
+      "keyword": "mortgage refinance calculator",
+      "vol": 1900,
+      "cpc": 1.98,
+      "comp": 0.4,
+      "priority": 9405.0
+    },
+    {
+      "keyword": "mortgage renewal canada",
+      "vol": 480,
+      "cpc": 8.4,
+      "comp": 0.43,
+      "priority": 9376.74
+    },
+    {
+      "keyword": "mortgage renewal rates ontario",
+      "vol": 1600,
+      "cpc": 3.75,
+      "comp": 0.67,
+      "priority": 8955.22
+    },
+    {
+      "keyword": "refinance mortgage calculator",
+      "vol": 1600,
+      "cpc": 3.09,
+      "comp": 0.59,
+      "priority": 8379.66
+    },
+    {
+      "keyword": "bmo mortgage renewal",
+      "vol": 260,
+      "cpc": 9.03,
+      "comp": 0.42,
+      "priority": 5590.0
+    },
+    {
+      "keyword": "scotiabank mortgage renewal",
+      "vol": 480,
+      "cpc": 4.59,
+      "comp": 0.57,
+      "priority": 3865.26
+    },
+    {
+      "keyword": "scotiabank mortgage renewal rates",
+      "vol": 480,
+      "cpc": 3.2,
+      "comp": 0.4,
+      "priority": 3840.0
+    },
+    {
+      "keyword": "rbc mortgage renewal",
+      "vol": 590,
+      "cpc": 2.96,
+      "comp": 0.54,
+      "priority": 3234.07
+    },
+    {
+      "keyword": "rbc mortgage renewal rates",
+      "vol": 880,
+      "cpc": 1.85,
+      "comp": 0.51,
+      "priority": 3192.16
+    },
+    {
+      "keyword": "refinance mortgage rates",
+      "vol": 390,
+      "cpc": 5.65,
+      "comp": 0.72,
+      "priority": 3060.42
+    },
+    {
+      "keyword": "mortgage renewal rates canada",
+      "vol": 590,
+      "cpc": 2.83,
+      "comp": 0.56,
+      "priority": 2981.61
+    },
+    {
+      "keyword": "bmo mortgage renewal rates",
+      "vol": 480,
+      "cpc": 2.73,
+      "comp": 0.46,
+      "priority": 2848.7
+    },
+    {
+      "keyword": "mortgage renewal calculator canada",
+      "vol": 720,
+      "cpc": 1.61,
+      "comp": 0.44,
+      "priority": 2634.55
+    },
+    {
+      "keyword": "mortgage refinance calculator canada",
+      "vol": 390,
+      "cpc": 2.53,
+      "comp": 0.61,
+      "priority": 1617.54
+    },
+    {
+      "keyword": "bmo refinance mortgage",
+      "vol": 70,
+      "cpc": 4.82,
+      "comp": 0.6,
+      "priority": 562.33
+    },
+    {
+      "keyword": "cibc refinance mortgage calculator",
+      "vol": 40,
+      "cpc": 2.4,
+      "comp": 0.33,
+      "priority": 290.91
+    },
+    {
+      "keyword": "30 year mortgage refinance rates",
+      "vol": 20,
+      "cpc": 4.77,
+      "comp": 0.33,
+      "priority": 289.09
+    },
+    {
+      "keyword": "5 year fixed mortgage renewal rates",
+      "vol": 40,
+      "cpc": 3.17,
+      "comp": 0.48,
+      "priority": 264.17
+    },
+    {
+      "keyword": "5-year fixed mortgage renewal rates",
+      "vol": 40,
+      "cpc": 3.17,
+      "comp": 0.48,
+      "priority": 264.17
+    },
+    {
+      "keyword": "5 year fixed mortgage rates renewal",
+      "vol": 20,
+      "cpc": 1.99,
+      "comp": 0.57,
+      "priority": 69.82
+    }
+  ],
+  "refinance_terms": [
+    {
+      "keyword": "mortgage refinance",
+      "vol": 1000,
+      "cpc": 12.51,
+      "comp": 0.48,
+      "priority": 26062.5
+    },
+    {
+      "keyword": "mortgage refinance rates",
+      "vol": 590,
+      "cpc": 5.81,
+      "comp": 0.35,
+      "priority": 9794.0
+    },
+    {
+      "keyword": "mortgage refinance calculator",
+      "vol": 1900,
+      "cpc": 1.98,
+      "comp": 0.4,
+      "priority": 9405.0
+    },
+    {
+      "keyword": "refinance mortgage calculator",
+      "vol": 1600,
+      "cpc": 3.09,
+      "comp": 0.59,
+      "priority": 8379.66
+    },
+    {
+      "keyword": "refinance mortgage rates",
+      "vol": 390,
+      "cpc": 5.65,
+      "comp": 0.72,
+      "priority": 3060.42
+    },
+    {
+      "keyword": "mortgage refinance calculator canada",
+      "vol": 390,
+      "cpc": 2.53,
+      "comp": 0.61,
+      "priority": 1617.54
+    },
+    {
+      "keyword": "bmo refinance mortgage",
+      "vol": 70,
+      "cpc": 4.82,
+      "comp": 0.6,
+      "priority": 562.33
+    },
+    {
+      "keyword": "cibc refinance mortgage calculator",
+      "vol": 40,
+      "cpc": 2.4,
+      "comp": 0.33,
+      "priority": 290.91
+    },
+    {
+      "keyword": "30 year mortgage refinance rates",
+      "vol": 20,
+      "cpc": 4.77,
+      "comp": 0.33,
+      "priority": 289.09
+    }
+  ],
+  "commercial_mortgage_general": [
+    {
+      "keyword": "commercial mortgage calculator",
+      "vol": 1600,
+      "cpc": 2.7,
+      "comp": 0.48,
+      "priority": 9000.0
+    },
+    {
+      "keyword": "rbc commercial mortgage rates",
+      "vol": 210,
+      "cpc": 4.51,
+      "comp": 0.34,
+      "priority": 2785.59
+    },
+    {
+      "keyword": "commercial mortgage rates ontario",
+      "vol": 260,
+      "cpc": 3.73,
+      "comp": 0.62,
+      "priority": 1564.19
+    },
+    {
+      "keyword": "td commercial mortgage rates",
+      "vol": 50,
+      "cpc": 4.54,
+      "comp": 0.27,
+      "priority": 840.74
+    }
+  ]
+}

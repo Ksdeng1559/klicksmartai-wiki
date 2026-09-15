@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_overview/live",
+    "location": "Canada (2124)",
+    "date": "2026-09-14",
+    "cost": 0.0126,
+    "seeds_count": 15
+  },
+  "items": [
+    {
+      "keyword": "bridge financing canada",
+      "vol": 320,
+      "cpc": 7.92,
+      "comp": 0.47,
+      "priority": 5392.34
+    },
+    {
+      "keyword": "private mortgage lender canada",
+      "vol": 140,
+      "cpc": 12.44,
+      "comp": 0.48,
+      "priority": 3628.33
+    },
+    {
+      "keyword": "hard money lender canada",
+      "vol": 40,
+      "cpc": 12.01,
+      "comp": 0.76,
+      "priority": 632.11
+    },
+    {
+      "keyword": "construction bridge financing",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "fast commercial mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    }
+  ],
+  "with_volume": [
+    {
+      "keyword": "bridge financing canada",
+      "vol": 320,
+      "cpc": 7.92,
+      "comp": 0.47,
+      "priority": 5392.34
+    },
+    {
+      "keyword": "private mortgage lender canada",
+      "vol": 140,
+      "cpc": 12.44,
+      "comp": 0.48,
+      "priority": 3628.33
+    },
+    {
+      "keyword": "hard money lender canada",
+      "vol": 40,
+      "cpc": 12.01,
+      "comp": 0.76,
+      "priority": 632.11
+    },
+    {
+      "keyword": "construction bridge financing",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "fast commercial mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    }
+  ]
+}

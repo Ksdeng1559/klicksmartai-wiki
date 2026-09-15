@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_overview/live",
+    "location": "Canada (2124)",
+    "date": "2026-09-14",
+    "cost": 0.0138,
+    "seeds_count": 20
+  },
+  "items": [
+    {
+      "keyword": "small business line of credit",
+      "vol": 260,
+      "cpc": 71.09,
+      "comp": 0.36,
+      "priority": 51342.78
+    },
+    {
+      "keyword": "accounts receivable financing",
+      "vol": 90,
+      "cpc": 103.12,
+      "comp": 0.22,
+      "priority": 42185.45
+    },
+    {
+      "keyword": "ar financing",
+      "vol": 90,
+      "cpc": 58.89,
+      "comp": 0.29,
+      "priority": 18276.21
+    },
+    {
+      "keyword": "receivables financing",
+      "vol": 90,
+      "cpc": 58.89,
+      "comp": 0.29,
+      "priority": 18276.21
+    },
+    {
+      "keyword": "invoice factoring canada",
+      "vol": 140,
+      "cpc": 74.28,
+      "comp": 0.71,
+      "priority": 14646.76
+    },
+    {
+      "keyword": "factoring company canada",
+      "vol": 110,
+      "cpc": 48.63,
+      "comp": 0.81,
+      "priority": 6604.07
+    },
+    {
+      "keyword": "business operating line of credit",
+      "vol": 40,
+      "cpc": 28.4,
+      "comp": 0.39,
+      "priority": 2912.82
+    },
+    {
+      "keyword": "invoice financing canada",
+      "vol": 20,
+      "cpc": 41.87,
+      "comp": 0.64,
+      "priority": 1308.44
+    },
+    {
+      "keyword": "revolving line of credit business",
+      "vol": 10,
+      "cpc": 8.96,
+      "comp": 0.24,
+      "priority": 373.33
+    },
+    {
+      "keyword": "trucking factoring",
+      "vol": 10,
+      "cpc": 8.67,
+      "comp": 0.29,
+      "priority": 298.97
+    },
+    {
+      "keyword": "construction factoring",
+      "vol": 10,
+      "cpc": 26.14,
+      "comp": 0.93,
+      "priority": 281.08
+    },
+    {
+      "keyword": "small business factoring",
+      "vol": 10,
+      "cpc": 7.46,
+      "comp": 0.57,
+      "priority": 130.88
+    },
+    {
+      "keyword": "business operating loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.26,
+      "priority": 0
+    },
+    {
+      "keyword": "non recourse factoring",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.75,
+      "priority": 0
+    },
+    {
+      "keyword": "working capital line of credit",
+      "vol": 50,
+      "cpc": 0,
+      "comp": 0.38,
+      "priority": 0
+    }
+  ],
+  "operating_loc": [
+    {
+      "keyword": "small business line of credit",
+      "vol": 260,
+      "cpc": 71.09,
+      "comp": 0.36,
+      "priority": 51342.78
+    },
+    {
+      "keyword": "business operating line of credit",
+      "vol": 40,
+      "cpc": 28.4,
+      "comp": 0.39,
+      "priority": 2912.82
+    },
+    {
+      "keyword": "revolving line of credit business",
+      "vol": 10,
+      "cpc": 8.96,
+      "comp": 0.24,
+      "priority": 373.33
+    },
+    {
+      "keyword": "business operating loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.26,
+      "priority": 0
+    },
+    {
+      "keyword": "working capital line of credit",
+      "vol": 50,
+      "cpc": 0,
+      "comp": 0.38,
+      "priority": 0
+    }
+  ],
+  "factoring": [
+    {
+      "keyword": "accounts receivable financing",
+      "vol": 90,
+      "cpc": 103.12,
+      "comp": 0.22,
+      "priority": 42185.45
+    },
+    {
+      "keyword": "receivables financing",
+      "vol": 90,
+      "cpc": 58.89,
+      "comp": 0.29,
+      "priority": 18276.21
+    },
+    {
+      "keyword": "invoice factoring canada",
+      "vol": 140,
+      "cpc": 74.28,
+      "comp": 0.71,
+      "priority": 14646.76
+    },
+    {
+      "keyword": "factoring company canada",
+      "vol": 110,
+      "cpc": 48.63,
+      "comp": 0.81,
+      "priority": 6604.07
+    },
+    {
+      "keyword": "invoice financing canada",
+      "vol": 20,
+      "cpc": 41.87,
+      "comp": 0.64,
+      "priority": 1308.44
+    },
+    {
+      "keyword": "trucking factoring",
+      "vol": 10,
+      "cpc": 8.67,
+      "comp": 0.29,
+      "priority": 298.97
+    },
+    {
+      "keyword": "construction factoring",
+      "vol": 10,
+      "cpc": 26.14,
+      "comp": 0.93,
+      "priority": 281.08
+    },
+    {
+      "keyword": "small business factoring",
+      "vol": 10,
+      "cpc": 7.46,
+      "comp": 0.57,
+      "priority": 130.88
+    },
+    {
+      "keyword": "non recourse factoring",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.75,
+      "priority": 0
+    }
+  ]
+}

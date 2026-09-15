@@ -1,0 +1,61 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1634 sec.",
+  "cost": 0.012,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09140508-1064-0607-0000-01c37ebc6eac",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1245 sec.",
+      "cost": 0.012,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_overview",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_overview",
+        "se_type": "google",
+        "language_code": "en",
+        "location_code": 2124,
+        "keywords": [
+          "commercial mortgage not renewing",
+          "commercial mortgage declined",
+          "lender wont renew commercial mortgage",
+          "commercial mortgage renewal rejected",
+          "commercial mortgage declined what to do",
+          "commercial mortgage emergency funding",
+          "alternative lender commercial mortgage canada",
+          "non bank commercial mortgage canada",
+          "private commercial mortgage lender canada",
+          "alternative commercial mortgage lender",
+          "small commercial mortgage no bank",
+          "glasslake commercial mortgage",
+          "commercial mortgage bridge financing",
+          "emergency commercial funding",
+          "small business commercial mortgage rejected"
+        ],
+        "include_clickstream_data": false,
+        "include_serp_info": false
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2124,
+          "language_code": "en",
+          "items_count": 0,
+          "items": null
+        }
+      ]
+    }
+  ]
+}

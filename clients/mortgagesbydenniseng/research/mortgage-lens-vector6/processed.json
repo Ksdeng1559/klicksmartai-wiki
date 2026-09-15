@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_overview/live",
+    "location": "Canada (2124)",
+    "language": "en",
+    "date": "2026-09-13",
+    "cost": 0.01224,
+    "seeds_input": 10,
+    "seeds_returned": 2
+  },
+  "items": [
+    {
+      "rank": 1,
+      "keyword": "cmhc commercial mortgage",
+      "vol": 50,
+      "cpc": 7.19,
+      "comp": 0.16,
+      "comp_level": "LOW",
+      "kd": 26,
+      "priority": 2246.88,
+      "cpc_low": 1.55,
+      "cpc_high": 7.09
+    },
+    {
+      "rank": 2,
+      "keyword": "self employed business loan",
+      "vol": 10,
+      "cpc": 76.38,
+      "comp": 0.86,
+      "comp_level": "HIGH",
+      "kd": 73,
+      "priority": 888.14,
+      "cpc_low": 0,
+      "cpc_high": 0
+    }
+  ]
+}

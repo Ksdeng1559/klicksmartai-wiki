@@ -1,17 +1,21 @@
 # Compact Keyword Strategy — Business Loan Comparison Site (Canada)
 
-**Run:** 2026-09-13 | **Skill:** `organic-paid-traffic-strategy` Phase 1 (Foundation & Research)  
-**Product:** Public business-loan comparison site (Canadian market) — affiliate/referral-ready  
-**Method:** DataForSEO expansion from 71 comparison-site seeds + reuse of 2,547-term business-loan universe  
+**Run:** 2026-09-13 (rev. 2) | **Skill:** `organic-paid-traffic-strategy` Phase 1 (Foundation & Research)  
+**Product:** Public business-loan comparison site (Canadian market) — broker-led + AI chatbot  
+**Method:** DataForSEO expansion from 71 comparison-site seeds + reuse of 2,547-term business-loan universe + Serper PAA harvest  
 **Total API spend:** ~$0.72
 
 ---
 
 ## Product framing
 
-A **comparison site** (not editorial content). Pages are: best-of lists, lender reviews, lender alternatives, side-by-side comparisons, province/amount/use-case filters. Money keywords are *commercial + buyer language* — visitors are pre-funnel, ready to compare and apply. Conversion model = outbound clicks to lender application pages (affiliate, referral, lead-gen).
+**Differentiator #1 — Broker with an opinion.** Swoop is a pure aggregator (lender list, no advice). BDC is a crown corp. No Canadian comparison site is **broker-led** — a human who tells you *which* lender is right for *your* situation, not just lists options. Position: "Bank-owned broker with an opinion."
 
-**SEO differentiator:** every page must include structured comparison data (rates, amounts, terms, eligibility) + lender-specific FAQ. Generic editorial content loses to Swoop + BDC + banks; structured data wins.
+**Differentiator #2 — AI chatbot over a knowledge base.** Every FAQ, PAA question, comparison, and rate card feeds an AI chatbot that answers visitor questions on-demand. The chatbot is not a feature — it's the **content-distribution mechanism** that turns harvested PAA/FAQ into infinite on-page answers without manually writing thousands of articles.
+
+**Two-moat combination:** the broker writes opinionated comparison content (sourcing the knowledge base), the chatbot scales it to every visitor's specific question (delivering it). Competitors can copy one or the other, not both.
+
+**Conversion model = outbound clicks to lender application pages** (affiliate, referral, lead-gen) + lead-gen form for broker's own book of business.
 
 ## Top-level keyword inventory
 
@@ -19,6 +23,7 @@ A **comparison site** (not editorial content). Pages are: best-of lists, lender 
 - **155,130 total monthly searches**
 - Top single term: `business loan` (3,600/mo @ $46.33 CPC)
 - Highest-CPC commercial: `business loan online instant approval` ($302.51 CPC)
+- Highest-CPC comparison: `best business loan companies` (10 vol @ $112.52 CPC)
 
 ## Page taxonomy (10 page types)
 
@@ -106,25 +111,6 @@ Comparison site wins on these queries. Highest CPC = highest commercial intent =
 | `best business loans canada` | 30 | $29.68 | /best-small-business-loans |
 | `best bank for small business loan canada` | 50 | $16.47 | /best-small-business-loans |
 
-## Brand-reviews inventory (every lender site needs a review page)
-
-Swoop, Lendified, Merchant Growth, Capital Plus, GoEmergence, Fintrust, Wise Monkey, Bleu Eagles, Voxen Capital, KSD Mortgages, eCapital, Cedar Commercial, BDC, RBC, Scotiabank, TD, BMO, CIBC, ATB, Innovation CU.
-
-Every lender page = template-populated review with: rates, amounts, terms, eligibility, fees, pros/cons, apply CTA, FAQ. Schema: `Product` + `Review` + `FAQPage` + `Organization`.
-
-
-## Province/city inventory (local SEO play)
-
-| Region | Available terms | Vol/mo |
-|---|---:|---:|
-| Ontario | 39 | 4,500 |
-| Alberta | 78 | 2,230 |
-| BC | 16 | 410 |
-| Quebec | 7 | 110 |
-| Manitoba | 10 | 190 |
-| Saskatchewan | 9 | 140 |
-| Nova Scotia | 2 | 120 |
-
 ## SERP gap analysis (CA, gl=ca) — what's open vs crowded
 
 | Keyword | gov | bank | broker | media | other | Gap |
@@ -143,6 +129,8 @@ Every lender page = template-populated review with: rates, amounts, terms, eligi
 | `small business financing program` | 2 | 5 | 0 | 0 | 1 | 🟢 ALT-LENDER GAP |
 | `working capital loan` | 3 | 0 | 1 | 1 | 3 | 🟡 mixed |
 
+---
+
 ## Recommended site build sequence
 
 ### Phase A — Must-ship pages (Month 1)
@@ -151,8 +139,8 @@ Every lender page = template-populated review with: rates, amounts, terms, eligi
 2. **`/best-small-business-loans-canada`** — best-of hub, 70 vol @ $34 CPC, top comparison term
 3. **`/best-business-loans-canada`** — 30 vol @ $63 CPC, top comparison page
 4. **`/bdc-vs-private-lender`** — empty CA SERP, 2,990 vol aggregate
-5. **`/swoop-funding-review`** + `/lendified-review` + `/merchant-growth-review` — 3 brand review pages (capture branded search intent)
-6. **Province pages**: `/business-loans-ontario`, `/business-loans-alberta`, `/business-loans-british-columbia` (geo gap plays)
+5. **3 brand review pages**: `/swoop-funding-review`, `/lendified-review`, `/merchant-growth-review` (capture branded search)
+6. **3 province pages**: `/business-loans-ontario`, `/business-loans-alberta`, `/business-loans-british-columbia`
 
 ### Phase B — Scale pages (Month 2-3)
 
@@ -168,18 +156,62 @@ Every lender page = template-populated review with: rates, amounts, terms, eligi
 - **Province × city × lender** matrix = ~300 pages
 - **Amount × use-case × profile** matrix = ~500 pages
 - **Best-of X for Y** templates (e.g., `best business loans for restaurants in Toronto`)
-- Use programmatic SEO skill to generate at scale with template + real lender data
+- Programmatic SEO generation with template + real lender data
+
+---
+
+## Phase 2 architecture — chatbot + knowledge base wiring
+
+Every page in the site is **both** a static SEO page AND a knowledge-base seed for the AI chatbot.
+
+### Knowledge base source rows (each = 1 chatbot training doc + 1 schema entry)
+
+| Source | Volume | Use |
+|---|---:|---|
+| Lender review pages | 20 | Per-lender product details, rates, eligibility, pros/cons |
+| Best-of pages | ~15 | Recommendations by category, ranked reasoning |
+| Province pages | 10 | Local lender availability, regional rate ranges, regulators |
+| Use-case pages | 50 | Match use-case to lender programs |
+| Profile pages | 30 | Match borrower profile to qualifying programs |
+| PAA questions (harvested) | 33 | Direct FAQ → schema FAQPage entries → chatbot answers |
+| Comparison-vs pages | 20 | Side-by-side lender breakdowns |
+| Lender rate sheets | 20 (one per lender) | Current rates, fees, terms |
+| Broker opinion notes | ongoing | Manual broker takes on lender suitability by situation |
+| **Total KB corpus** | **~200 docs** | **Each indexed in vector store, served by chatbot** |
+
+### Chatbot implementation
+
+- **Embed:** widget bottom-right of every page; also a dedicated `/ask` URL
+- **Retrieval:** RAG over the knowledge base (vector store + hybrid BM25)
+- **Voice:** broker persona — direct, opinionated, "here's what I'd do"
+- **Citation:** every answer links back to the source page it drew from (drives internal-link equity + trust)
+- **Handoff:** "Talk to a real broker" button → lead-gen form when visitor needs human
+- **Capture:** every question not in the KB → log as content gap → future article
+
+### Content gap → article pipeline
+
+1. Chatbot answers question from KB → cites source page
+2. Chatbot fails to find good KB match → question logged
+3. Weekly review of failed questions → top 5 → new article
+4. Article published → added to KB → chatbot can now answer
+5. Loop: every unanswered question becomes a future SEO article
+
+This means **the chatbot is a programmatic SEO discovery engine** — every visitor question either confirms a working page or generates a new keyword target.
+
+---
 
 ## Schema markup (Phase 2)
 
 Every comparison page should include:
 
-- `Product` schema (the loan product itself)
+- `Product` schema (loan product)
 - `Review` schema (lender review pages)
-- `FAQPage` schema (the harvested PAA questions)
-- `Organization` schema (your comparison site)
+- `FAQPage` schema (PAA-sourced Q&A, every page)
+- `Organization` schema (the comparison site)
 - `BreadcrumbList` schema (page hierarchy)
 - `LocalBusiness` schema (province/city pages)
+- `Chatbot` / `QAPage` markup for chatbot-backed answers (where supported)
+- `Article` + `Author` schema (broker opinion content)
 
 ## Internal linking architecture
 
@@ -189,13 +221,15 @@ Every comparison page should include:
 - Province pages → relevant lender reviews + best-of
 - Every page → related use-case + amount + profile pages
 - Cross-link to BDC comparison hub (`/bdc-vs-private-lender`) from every commercial-intent page
+- Chatbot answers cite source pages → drives internal-link equity dynamically
 
 ## Monetization model
 
 1. **Lender referral** — apply CTA on every review/best-of page → tracked outbound to lender application
-2. **Lead-gen form** — capture email + business info, sell to lenders (high-CPC verticals: $50-$300 per lead)
+2. **Lead-gen form** — "Talk to a broker" CTA everywhere → capture email + business info → broker's book of business
 3. **Affiliate links** — for lenders with formal programs (Swoop, Lendified)
-4. **Sponsored listings** — for the lenders ranking below organic winners
+4. **Sponsored listings** — for lenders ranking below organic winners
+5. **AI chatbot insights** — anonymized query patterns = market intelligence to sell to lenders ("what business owners are asking about loans in Sept 2026")
 
 ## Paid channel allocation (Phase 5, $1,500 cap)
 
@@ -205,17 +239,19 @@ Every comparison page should include:
 - YouTube/Remarketing: $200 on lender-comparison content
 - Reserve: $0 (reallocate from underperformers)
 
-## ROI projection (organic + paid)
+## ROI projection (organic + paid + chatbot)
 
 - Month 3: 500-1,000 monthly organic visitors to best-of + review pages (per skill spec)
 - Lead conversion: 3-5% on commercial-intent pages = 30-50 leads/mo at scale
-- At $50-$300 per lead value, organic traffic generates $1,500-$15,000/mo in lead value by Month 3
+- Chatbot-assisted conversion: +20-40% lift on lead-gen form completion (industry standard for AI chat)
+- At $50-$300 per lead value, organic + chatbot traffic generates $1,800-$18,000/mo in lead value by Month 3
 - Paid CPL target: <$50 across all channels (skill scaling gate)
 
 ---
 
-**Files this run:**
+## Files this run
 - `/home/denni/wiki/.local_tier/runs/business-loans-can/comparison_seeds_raw.json` — 2,164 raw expansion items
 - `/home/denni/wiki/.local_tier/runs/business-loans-can/comparison_terms.json` — 200 comparison-intent terms
 - `/home/denni/wiki/.local_tier/runs/business-loans-can/commercial_terms_v2.json` — 1,080 commercial terms
-- `/home/denni/wiki/.local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md` — this file
+- `/home/denni/wiki/.local_tier/runs/business-loans-can/paa_bank.json` — 33 PAA questions (chatbot training seed)
+- `/home/denni/wiki/.local_tier/runs/business-loans-can/COMPARISON_SITE_STRATEGY.md` — this file (rev. 2)

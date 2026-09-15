@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source_endpoint": "dataforseo_labs/google/keyword_ideas/live",
+    "date": "2026-09-13",
+    "cost": 0.036,
+    "filter_signals_mortgage_lens": [
+      "heloc",
+      "home equity",
+      "second mortgage",
+      "refinance",
+      "cmhc",
+      "commercial mortgage",
+      "secured business",
+      "business loan secured",
+      "business line of credit secured",
+      "real estate",
+      "rental property",
+      "investment property",
+      "borrow against home",
+      "using home equity",
+      "house for business",
+      "property for business"
+    ],
+    "filter_signals_self_employed": [
+      "self employed",
+      "self-employed",
+      "self contractor",
+      "independent contractor",
+      "sole proprietor",
+      "freelancer",
+      "gig worker",
+      "1099",
+      "incorporated business"
+    ]
+  },
+  "vector_6a_mortgage_lens": [
+    {
+      "keyword": "cmhc loan",
+      "vol": 210,
+      "cpc": 0.71,
+      "comp": 0.07,
+      "priority": 1491.0
+    },
+    {
+      "keyword": "cmhc loan number",
+      "vol": 30,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    }
+  ],
+  "vector_6b_self_employed": [],
+  "totals": {
+    "6a_terms": 2,
+    "6a_vol": 240,
+    "6b_terms": 0,
+    "6b_vol": 0,
+    "6a_avg_cpc": 0.35,
+    "6b_avg_cpc": 0.0
+  }
+}

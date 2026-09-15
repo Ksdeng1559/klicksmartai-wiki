@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "endpoint": "keywords_for_keywords/live",
+    "seeds": [
+      "commercial mortgage renewal rates",
+      "commercial mortgage refinance",
+      "commercial mortgage rates canada"
+    ],
+    "cost": 0.09,
+    "total_returned": 67,
+    "commercial_count": 30,
+    "total_vol_mo": 1290
+  },
+  "commercial": [
+    {
+      "keyword": "commercial mortgage refinance",
+      "vol": 10,
+      "cpc": 15.88,
+      "comp_idx": 3,
+      "priority": 52.93
+    },
+    {
+      "keyword": "commercial mortgage refi",
+      "vol": 10,
+      "cpc": 15.88,
+      "comp_idx": 3,
+      "priority": 52.93
+    },
+    {
+      "keyword": "commercial mortgage loan refinancing",
+      "vol": 10,
+      "cpc": 15.88,
+      "comp_idx": 3,
+      "priority": 52.93
+    },
+    {
+      "keyword": "refi commercial mortgage",
+      "vol": 10,
+      "cpc": 15.88,
+      "comp_idx": 3,
+      "priority": 52.93
+    },
+    {
+      "keyword": "commercial mortgage rates canada",
+      "vol": 320,
+      "cpc": 3.56,
+      "comp_idx": 48,
+      "priority": 23.73
+    },
+    {
+      "keyword": "commercial mortgage rates ontario",
+      "vol": 260,
+      "cpc": 3.73,
+      "comp_idx": 62,
+      "priority": 15.64
+    },
+    {
+      "keyword": "commercial lending rates canada",
+      "vol": 110,
+      "cpc": 5.65,
+      "comp_idx": 58,
+      "priority": 10.72
+    },
+    {
+      "keyword": "refinance business",
+      "vol": 10,
+      "cpc": 49.27,
+      "comp_idx": 47,
+      "priority": 10.48
+    },
+    {
+      "keyword": "current commercial mortgage rates canada",
+      "vol": 110,
+      "cpc": 3.36,
+      "comp_idx": 54,
+      "priority": 6.84
+    },
+    {
+      "keyword": "commercial mortgage rates alberta",
+      "vol": 50,
+      "cpc": 4.09,
+      "comp_idx": 45,
+      "priority": 4.54
+    },
+    {
+      "keyword": "commercial mortgage rates bc",
+      "vol": 40,
+      "cpc": 5.39,
+      "comp_idx": 49,
+      "priority": 4.4
+    },
+    {
+      "keyword": "refinance commercial property",
+      "vol": 10,
+      "cpc": 12.63,
+      "comp_idx": 31,
+      "priority": 4.07
+    },
+    {
+      "keyword": "refinancing commercial real estate",
+      "vol": 10,
+      "cpc": 12.63,
+      "comp_idx": 31,
+      "priority": 4.07
+    },
+    {
+      "keyword": "refinance business property",
+      "vol": 10,
+      "cpc": 12.63,
+      "comp_idx": 31,
+      "priority": 4.07
+    },
+    {
+      "keyword": "toronto commercial mortgage rates",
+      "vol": 20,
+      "cpc": 4.27,
+      "comp_idx": 21,
+      "priority": 4.07
+    },
+    {
+      "keyword": "5 year commercial mortgage rates canada",
+      "vol": 50,
+      "cpc": 4.69,
+      "comp_idx": 68,
+      "priority": 3.45
+    },
+    {
+      "keyword": "business mortgage rates canada",
+      "vol": 20,
+      "cpc": 8.15,
+      "comp_idx": 56,
+      "priority": 2.91
+    },
+    {
+      "keyword": "corporate mortgage rates canada",
+      "vol": 20,
+      "cpc": 8.15,
+      "comp_idx": 56,
+      "priority": 2.91
+    },
+    {
+      "keyword": "commercial interest rates canada",
+      "vol": 40,
+      "cpc": 2.96,
+      "comp_idx": 54,
+      "priority": 2.19
+    },
+    {
+      "keyword": "commercial property mortgage rates canada",
+      "vol": 10,
+      "cpc": 7.29,
+      "comp_idx": 38,
+      "priority": 1.92
+    },
+    {
+      "keyword": "commercial real estate mortgage rates canada",
+      "vol": 10,
+      "cpc": 7.29,
+      "comp_idx": 38,
+      "priority": 1.92
+    },
+    {
+      "keyword": "commercial mortgage refinance rates",
+      "vol": 10,
+      "cpc": 15.13,
+      "comp_idx": 86,
+      "priority": 1.76
+    },
+    {
+      "keyword": "commercial mortgage rates refinance",
+      "vol": 10,
+      "cpc": 15.13,
+      "comp_idx": 86,
+      "priority": 1.76
+    },
+    {
+      "keyword": "best commercial mortgage rates canada",
+      "vol": 50,
+      "cpc": 2.18,
+      "comp_idx": 66,
+      "priority": 1.65
+    },
+    {
+      "keyword": "commercial mortgage interest rates canada",
+      "vol": 10,
+      "cpc": 6.11,
+      "comp_idx": 53,
+      "priority": 1.15
+    },
+    {
+      "keyword": "commercial interest rates ontario",
+      "vol": 20,
+      "cpc": 3.39,
+      "comp_idx": 61,
+      "priority": 1.11
+    },
+    {
+      "keyword": "commercial lending rates ontario",
+      "vol": 20,
+      "cpc": 3.39,
+      "comp_idx": 61,
+      "priority": 1.11
+    },
+    {
+      "keyword": "commercial mortgage rates montreal",
+      "vol": 10,
+      "cpc": 3.96,
+      "comp_idx": 64,
+      "priority": 0.62
+    },
+    {
+      "keyword": "commercial mortgage rates canada calculator",
+      "vol": 10,
+      "cpc": 2.69,
+      "comp_idx": 48,
+      "priority": 0.56
+    },
+    {
+      "keyword": "commercial property mortgage calculator canada",
+      "vol": 10,
+      "cpc": 2.31,
+      "comp_idx": 46,
+      "priority": 0.5
+    }
+  ]
+}

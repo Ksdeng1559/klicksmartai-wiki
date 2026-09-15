@@ -1,0 +1,1483 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_ideas/live",
+    "seeds": [
+      "heloc vs business line of credit",
+      "home equity business loan",
+      "self employed business loan",
+      "cmhc commercial mortgage",
+      "second mortgage business loan",
+      "refinance house for business"
+    ],
+    "cost": 0.036,
+    "total_returned": 200,
+    "commercial_terms": 183,
+    "total_vol_mo": 737960
+  },
+  "commercial": [
+    {
+      "keyword": "national student loan",
+      "vol": 27100,
+      "cpc": 9.76,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 2644960.0
+    },
+    {
+      "keyword": "canada student loans",
+      "vol": 27100,
+      "cpc": 4.69,
+      "comp": 0.09,
+      "comp_idx": 0,
+      "priority": 1270990.0
+    },
+    {
+      "keyword": "canada student loan forgiveness",
+      "vol": 9900,
+      "cpc": 7.81,
+      "comp": 0.02,
+      "comp_idx": 0,
+      "priority": 773190.0
+    },
+    {
+      "keyword": "loan",
+      "vol": 49500,
+      "cpc": 10.45,
+      "comp": 0.85,
+      "comp_idx": 0,
+      "priority": 608558.82
+    },
+    {
+      "keyword": "national student loan service",
+      "vol": 4400,
+      "cpc": 13.64,
+      "comp": 0,
+      "comp_idx": 0,
+      "priority": 600160.0
+    },
+    {
+      "keyword": "loan calculator",
+      "vol": 40500,
+      "cpc": 1.96,
+      "comp": 0.14,
+      "comp_idx": 0,
+      "priority": 567000.0
+    },
+    {
+      "keyword": "canada bank interest rates",
+      "vol": 18100,
+      "cpc": 2.86,
+      "comp": 0.06,
+      "comp_idx": 0,
+      "priority": 517660.0
+    },
+    {
+      "keyword": "farm credit canada",
+      "vol": 9900,
+      "cpc": 4.91,
+      "comp": 0.04,
+      "comp_idx": 0,
+      "priority": 486090.0
+    },
+    {
+      "keyword": "auto loan calculator",
+      "vol": 14800,
+      "cpc": 3.21,
+      "comp": 0.09,
+      "comp_idx": 0,
+      "priority": 475080.0
+    },
+    {
+      "keyword": "ns student loan",
+      "vol": 3600,
+      "cpc": 12.88,
+      "comp": 0,
+      "comp_idx": 0,
+      "priority": 463680.0
+    },
+    {
+      "keyword": "student loan forgiveness",
+      "vol": 4400,
+      "cpc": 9.67,
+      "comp": 0.03,
+      "comp_idx": 0,
+      "priority": 425480.0
+    },
+    {
+      "keyword": "nova scotia student loan",
+      "vol": 5400,
+      "cpc": 7.17,
+      "comp": 0.02,
+      "comp_idx": 0,
+      "priority": 387180.0
+    },
+    {
+      "keyword": "car loan calculator",
+      "vol": 33100,
+      "cpc": 1.97,
+      "comp": 0.18,
+      "comp_idx": 0,
+      "priority": 362261.11
+    },
+    {
+      "keyword": "scotiabank auto loan",
+      "vol": 8100,
+      "cpc": 5.23,
+      "comp": 0.12,
+      "comp_idx": 0,
+      "priority": 353025.0
+    },
+    {
+      "keyword": "scotiabank auto loan calculator",
+      "vol": 8100,
+      "cpc": 4.24,
+      "comp": 0.02,
+      "comp_idx": 0,
+      "priority": 343440.0
+    },
+    {
+      "keyword": "nslsc student loan",
+      "vol": 1600,
+      "cpc": 20.73,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 331680.0
+    },
+    {
+      "keyword": "rocket mortgage",
+      "vol": 1900,
+      "cpc": 15.81,
+      "comp": 0.09,
+      "comp_idx": 0,
+      "priority": 300390.0
+    },
+    {
+      "keyword": "canada apprentice loan",
+      "vol": 3600,
+      "cpc": 7.92,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 285120.0
+    },
+    {
+      "keyword": "loans canada",
+      "vol": 22200,
+      "cpc": 10.49,
+      "comp": 0.83,
+      "comp_idx": 0,
+      "priority": 280575.9
+    },
+    {
+      "keyword": "bmo prime rate",
+      "vol": 3600,
+      "cpc": 7.11,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 255960.0
+    },
+    {
+      "keyword": "credit bureau of canada collections",
+      "vol": 9900,
+      "cpc": 6.6,
+      "comp": 0.27,
+      "comp_idx": 0,
+      "priority": 242000.0
+    },
+    {
+      "keyword": "loan forgiveness canada",
+      "vol": 2400,
+      "cpc": 9.88,
+      "comp": 0.1,
+      "comp_idx": 0,
+      "priority": 237120.0
+    },
+    {
+      "keyword": "nslc student loan",
+      "vol": 2900,
+      "cpc": 7.47,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 216630.0
+    },
+    {
+      "keyword": "business loans",
+      "vol": 3600,
+      "cpc": 43.65,
+      "comp": 0.74,
+      "comp_idx": 0,
+      "priority": 212351.35
+    },
+    {
+      "keyword": "payday loans canada",
+      "vol": 18100,
+      "cpc": 7.72,
+      "comp": 0.68,
+      "comp_idx": 0,
+      "priority": 205488.24
+    },
+    {
+      "keyword": "cibc car loan",
+      "vol": 5400,
+      "cpc": 5.66,
+      "comp": 0.17,
+      "comp_idx": 0,
+      "priority": 179788.24
+    },
+    {
+      "keyword": "ppp loan",
+      "vol": 2900,
+      "cpc": 6.16,
+      "comp": 0.11,
+      "comp_idx": 0,
+      "priority": 162400.0
+    },
+    {
+      "keyword": "td auto loan",
+      "vol": 2900,
+      "cpc": 6.69,
+      "comp": 0.12,
+      "comp_idx": 0,
+      "priority": 161675.0
+    },
+    {
+      "keyword": "personal loan",
+      "vol": 14800,
+      "cpc": 7.19,
+      "comp": 0.68,
+      "comp_idx": 0,
+      "priority": 156488.24
+    },
+    {
+      "keyword": "debt consolidation loan",
+      "vol": 6600,
+      "cpc": 16.78,
+      "comp": 0.71,
+      "comp_idx": 0,
+      "priority": 155983.1
+    },
+    {
+      "keyword": "credit loan bad",
+      "vol": 12100,
+      "cpc": 10.75,
+      "comp": 0.85,
+      "comp_idx": 0,
+      "priority": 153029.41
+    },
+    {
+      "keyword": "loan express",
+      "vol": 49500,
+      "cpc": 1.31,
+      "comp": 0.46,
+      "comp_idx": 0,
+      "priority": 140967.39
+    },
+    {
+      "keyword": "credit score canada",
+      "vol": 9900,
+      "cpc": 9.51,
+      "comp": 0.67,
+      "comp_idx": 0,
+      "priority": 140520.9
+    },
+    {
+      "keyword": "commercial credit adjusters",
+      "vol": 3600,
+      "cpc": 6.07,
+      "comp": 0.16,
+      "comp_idx": 0,
+      "priority": 136575.0
+    },
+    {
+      "keyword": "bad credit and loan",
+      "vol": 12100,
+      "cpc": 9.86,
+      "comp": 0.88,
+      "comp_idx": 0,
+      "priority": 135575.0
+    },
+    {
+      "keyword": "td loan calculator",
+      "vol": 2400,
+      "cpc": 5.57,
+      "comp": 0.04,
+      "comp_idx": 0,
+      "priority": 133680.0
+    },
+    {
+      "keyword": "personal loans canada",
+      "vol": 5400,
+      "cpc": 10.44,
+      "comp": 0.43,
+      "comp_idx": 0,
+      "priority": 131106.98
+    },
+    {
+      "keyword": "auto financing",
+      "vol": 2400,
+      "cpc": 11.15,
+      "comp": 0.21,
+      "comp_idx": 0,
+      "priority": 127428.57
+    },
+    {
+      "keyword": "best buy financing",
+      "vol": 5400,
+      "cpc": 5.4,
+      "comp": 0.24,
+      "comp_idx": 0,
+      "priority": 121500.0
+    },
+    {
+      "keyword": "reverse mortgage",
+      "vol": 5400,
+      "cpc": 11.14,
+      "comp": 0.5,
+      "comp_idx": 0,
+      "priority": 120312.0
+    },
+    {
+      "keyword": "what is a good credit score in canada",
+      "vol": 4400,
+      "cpc": 4.69,
+      "comp": 0.18,
+      "comp_idx": 0,
+      "priority": 114644.44
+    },
+    {
+      "keyword": "debt consolidation canada",
+      "vol": 4400,
+      "cpc": 20.83,
+      "comp": 0.82,
+      "comp_idx": 0,
+      "priority": 111770.73
+    },
+    {
+      "keyword": "home depot credit",
+      "vol": 2400,
+      "cpc": 4.65,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 111600.0
+    },
+    {
+      "keyword": "bankrate loan calculator car",
+      "vol": 6600,
+      "cpc": 1.67,
+      "comp": 0,
+      "comp_idx": 0,
+      "priority": 110220.0
+    },
+    {
+      "keyword": "home depot project loan",
+      "vol": 880,
+      "cpc": 12.11,
+      "comp": 0.08,
+      "comp_idx": 0,
+      "priority": 106568.0
+    },
+    {
+      "keyword": "small business loans canada",
+      "vol": 1900,
+      "cpc": 34.42,
+      "comp": 0.63,
+      "comp_idx": 0,
+      "priority": 103806.35
+    },
+    {
+      "keyword": "terrible credit loans canada",
+      "vol": 8100,
+      "cpc": 9.21,
+      "comp": 0.74,
+      "comp_idx": 0,
+      "priority": 100812.16
+    },
+    {
+      "keyword": "bad credit lenders in canada",
+      "vol": 8100,
+      "cpc": 9.21,
+      "comp": 0.74,
+      "comp_idx": 0,
+      "priority": 100812.16
+    },
+    {
+      "keyword": "osap loan",
+      "vol": 1900,
+      "cpc": 5.15,
+      "comp": 0.09,
+      "comp_idx": 0,
+      "priority": 97850.0
+    },
+    {
+      "keyword": "scotia loan calculator",
+      "vol": 1600,
+      "cpc": 6.02,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 96320.0
+    },
+    {
+      "keyword": "bmo line of credit interest rate",
+      "vol": 1000,
+      "cpc": 9.41,
+      "comp": 0.1,
+      "comp_idx": 0,
+      "priority": 94100.0
+    },
+    {
+      "keyword": "horrible credit loans canada",
+      "vol": 8100,
+      "cpc": 8.39,
+      "comp": 0.75,
+      "comp_idx": 0,
+      "priority": 90612.0
+    },
+    {
+      "keyword": "loans for canada with bad credit",
+      "vol": 8100,
+      "cpc": 8.39,
+      "comp": 0.75,
+      "comp_idx": 0,
+      "priority": 90612.0
+    },
+    {
+      "keyword": "scotiabank loan calculator",
+      "vol": 2400,
+      "cpc": 3.46,
+      "comp": 0.03,
+      "comp_idx": 0,
+      "priority": 83040.0
+    },
+    {
+      "keyword": "loans canada online",
+      "vol": 5400,
+      "cpc": 10.71,
+      "comp": 0.7,
+      "comp_idx": 0,
+      "priority": 82620.0
+    },
+    {
+      "keyword": "pay day loan",
+      "vol": 8100,
+      "cpc": 8.84,
+      "comp": 0.93,
+      "comp_idx": 0,
+      "priority": 76993.55
+    },
+    {
+      "keyword": "car loan calculator canada",
+      "vol": 14800,
+      "cpc": 1.57,
+      "comp": 0.31,
+      "comp_idx": 0,
+      "priority": 74954.84
+    },
+    {
+      "keyword": "canada small business financing program",
+      "vol": 2900,
+      "cpc": 9.41,
+      "comp": 0.37,
+      "comp_idx": 0,
+      "priority": 73754.05
+    },
+    {
+      "keyword": "car loan",
+      "vol": 4400,
+      "cpc": 11.98,
+      "comp": 0.72,
+      "comp_idx": 0,
+      "priority": 73211.11
+    },
+    {
+      "keyword": "business loan canada",
+      "vol": 1300,
+      "cpc": 42.91,
+      "comp": 0.77,
+      "comp_idx": 0,
+      "priority": 72445.45
+    },
+    {
+      "keyword": "chip reverse mortgage",
+      "vol": 2400,
+      "cpc": 18.17,
+      "comp": 0.61,
+      "comp_idx": 0,
+      "priority": 71488.52
+    },
+    {
+      "keyword": "td car loan",
+      "vol": 2900,
+      "cpc": 6.09,
+      "comp": 0.26,
+      "comp_idx": 0,
+      "priority": 67926.92
+    },
+    {
+      "keyword": "apprenticeship loan",
+      "vol": 1600,
+      "cpc": 4.16,
+      "comp": 0.02,
+      "comp_idx": 0,
+      "priority": 66560.0
+    },
+    {
+      "keyword": "consolidated credit canada",
+      "vol": 2900,
+      "cpc": 15.69,
+      "comp": 0.7,
+      "comp_idx": 0,
+      "priority": 65001.43
+    },
+    {
+      "keyword": "td car loan calculator",
+      "vol": 1300,
+      "cpc": 4.63,
+      "comp": 0.06,
+      "comp_idx": 0,
+      "priority": 60190.0
+    },
+    {
+      "keyword": "instant loans canada",
+      "vol": 4400,
+      "cpc": 10.4,
+      "comp": 0.77,
+      "comp_idx": 0,
+      "priority": 59428.57
+    },
+    {
+      "keyword": "bmo loan calculator",
+      "vol": 1000,
+      "cpc": 5.74,
+      "comp": 0.03,
+      "comp_idx": 0,
+      "priority": 57400.0
+    },
+    {
+      "keyword": "no refusal payday loans canada 24/7",
+      "vol": 6600,
+      "cpc": 5.67,
+      "comp": 0.66,
+      "comp_idx": 0,
+      "priority": 56700.0
+    },
+    {
+      "keyword": "td auto loan calculator",
+      "vol": 590,
+      "cpc": 9.59,
+      "comp": 0.04,
+      "comp_idx": 0,
+      "priority": 56581.0
+    },
+    {
+      "keyword": "loan forgiveness",
+      "vol": 720,
+      "cpc": 7.78,
+      "comp": 0.1,
+      "comp_idx": 0,
+      "priority": 56016.0
+    },
+    {
+      "keyword": "ltv loan",
+      "vol": 720,
+      "cpc": 7.67,
+      "comp": 0.05,
+      "comp_idx": 0,
+      "priority": 55224.0
+    },
+    {
+      "keyword": "line of credit interest rates",
+      "vol": 5400,
+      "cpc": 4.6,
+      "comp": 0.45,
+      "comp_idx": 0,
+      "priority": 55200.0
+    },
+    {
+      "keyword": "td mortgage",
+      "vol": 6600,
+      "cpc": 3.72,
+      "comp": 0.45,
+      "comp_idx": 0,
+      "priority": 54560.0
+    },
+    {
+      "keyword": "loan shark",
+      "vol": 2400,
+      "cpc": 4.3,
+      "comp": 0.2,
+      "comp_idx": 0,
+      "priority": 51600.0
+    },
+    {
+      "keyword": "national student loan canada",
+      "vol": 1600,
+      "cpc": 3.19,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 51040.0
+    },
+    {
+      "keyword": "cibc loan calculator",
+      "vol": 1000,
+      "cpc": 6.1,
+      "comp": 0.12,
+      "comp_idx": 0,
+      "priority": 50833.33
+    },
+    {
+      "keyword": "personal loan calculator",
+      "vol": 4400,
+      "cpc": 2.88,
+      "comp": 0.25,
+      "comp_idx": 0,
+      "priority": 50688.0
+    },
+    {
+      "keyword": "cibc car loan calculator",
+      "vol": 1000,
+      "cpc": 5.01,
+      "comp": 0.04,
+      "comp_idx": 0,
+      "priority": 50100.0
+    },
+    {
+      "keyword": "car loan rates",
+      "vol": 2400,
+      "cpc": 4.25,
+      "comp": 0.21,
+      "comp_idx": 0,
+      "priority": 48571.43
+    },
+    {
+      "keyword": "auto loan",
+      "vol": 2400,
+      "cpc": 13.46,
+      "comp": 0.67,
+      "comp_idx": 0,
+      "priority": 48214.93
+    },
+    {
+      "keyword": "fcc loan calculator",
+      "vol": 1300,
+      "cpc": 3.67,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 47710.0
+    },
+    {
+      "keyword": "rbc loan calculator",
+      "vol": 2900,
+      "cpc": 1.63,
+      "comp": 0.08,
+      "comp_idx": 0,
+      "priority": 47270.0
+    },
+    {
+      "keyword": "nyble loan",
+      "vol": 5400,
+      "cpc": 4.07,
+      "comp": 0.53,
+      "comp_idx": 0,
+      "priority": 41467.92
+    },
+    {
+      "keyword": "my loan alberta",
+      "vol": 1000,
+      "cpc": 3.95,
+      "comp": 0,
+      "comp_idx": 0,
+      "priority": 39500.0
+    },
+    {
+      "keyword": "business loan ontario",
+      "vol": 880,
+      "cpc": 34.96,
+      "comp": 0.78,
+      "comp_idx": 0,
+      "priority": 39442.05
+    },
+    {
+      "keyword": "car loan interest rates",
+      "vol": 2400,
+      "cpc": 4.27,
+      "comp": 0.26,
+      "comp_idx": 0,
+      "priority": 39415.38
+    },
+    {
+      "keyword": "sba loan",
+      "vol": 1300,
+      "cpc": 10.57,
+      "comp": 0.36,
+      "comp_idx": 0,
+      "priority": 38169.44
+    },
+    {
+      "keyword": "rbc car loan",
+      "vol": 6600,
+      "cpc": 1.98,
+      "comp": 0.36,
+      "comp_idx": 0,
+      "priority": 36300.0
+    },
+    {
+      "keyword": "debt consolidation loan canada",
+      "vol": 1300,
+      "cpc": 13.84,
+      "comp": 0.51,
+      "comp_idx": 0,
+      "priority": 35278.43
+    },
+    {
+      "keyword": "bad credit loan ontario canada",
+      "vol": 2900,
+      "cpc": 8.8,
+      "comp": 0.74,
+      "comp_idx": 0,
+      "priority": 34486.49
+    },
+    {
+      "keyword": "rrsp loan",
+      "vol": 1600,
+      "cpc": 6.29,
+      "comp": 0.3,
+      "comp_idx": 0,
+      "priority": 33546.67
+    },
+    {
+      "keyword": "scotiabank loan",
+      "vol": 2400,
+      "cpc": 5.85,
+      "comp": 0.43,
+      "comp_idx": 0,
+      "priority": 32651.16
+    },
+    {
+      "keyword": "home loan",
+      "vol": 590,
+      "cpc": 14.91,
+      "comp": 0.28,
+      "comp_idx": 0,
+      "priority": 31417.5
+    },
+    {
+      "keyword": "loan calculator canada",
+      "vol": 4400,
+      "cpc": 1.64,
+      "comp": 0.23,
+      "comp_idx": 0,
+      "priority": 31373.91
+    },
+    {
+      "keyword": "bmo interest rates",
+      "vol": 1600,
+      "cpc": 2.99,
+      "comp": 0.16,
+      "comp_idx": 0,
+      "priority": 29900.0
+    },
+    {
+      "keyword": "icash loan",
+      "vol": 6600,
+      "cpc": 2.77,
+      "comp": 0.62,
+      "comp_idx": 0,
+      "priority": 29487.1
+    },
+    {
+      "keyword": "student loan portal",
+      "vol": 1900,
+      "cpc": 1.51,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 28690.0
+    },
+    {
+      "keyword": "canada student loan interest rate",
+      "vol": 720,
+      "cpc": 3.9,
+      "comp": 0.06,
+      "comp_idx": 0,
+      "priority": 28080.0
+    },
+    {
+      "keyword": "fairstone loan",
+      "vol": 2900,
+      "cpc": 6.72,
+      "comp": 0.71,
+      "comp_idx": 0,
+      "priority": 27447.89
+    },
+    {
+      "keyword": "0 financing cars",
+      "vol": 3600,
+      "cpc": 6.48,
+      "comp": 0.87,
+      "comp_idx": 0,
+      "priority": 26813.79
+    },
+    {
+      "keyword": "bmo line of credit",
+      "vol": 1600,
+      "cpc": 7.68,
+      "comp": 0.48,
+      "comp_idx": 0,
+      "priority": 25600.0
+    },
+    {
+      "keyword": "payday loans toronto",
+      "vol": 2900,
+      "cpc": 7.11,
+      "comp": 0.81,
+      "comp_idx": 0,
+      "priority": 25455.56
+    },
+    {
+      "keyword": "car financing",
+      "vol": 1300,
+      "cpc": 11.25,
+      "comp": 0.59,
+      "comp_idx": 0,
+      "priority": 24788.14
+    },
+    {
+      "keyword": "credit report canada",
+      "vol": 1900,
+      "cpc": 8.83,
+      "comp": 0.72,
+      "comp_idx": 0,
+      "priority": 23301.39
+    },
+    {
+      "keyword": "car loan interest rates canada",
+      "vol": 1900,
+      "cpc": 4.53,
+      "comp": 0.39,
+      "comp_idx": 0,
+      "priority": 22069.23
+    },
+    {
+      "keyword": "student loan application bc",
+      "vol": 590,
+      "cpc": 3.45,
+      "comp": 0.06,
+      "comp_idx": 0,
+      "priority": 20355.0
+    },
+    {
+      "keyword": "cibc interest rates",
+      "vol": 1900,
+      "cpc": 2.21,
+      "comp": 0.21,
+      "comp_idx": 0,
+      "priority": 19995.24
+    },
+    {
+      "keyword": "bdc loan",
+      "vol": 2400,
+      "cpc": 5.44,
+      "comp": 0.66,
+      "comp_idx": 0,
+      "priority": 19781.82
+    },
+    {
+      "keyword": "home depot financing",
+      "vol": 720,
+      "cpc": 2.69,
+      "comp": 0.07,
+      "comp_idx": 0,
+      "priority": 19368.0
+    },
+    {
+      "keyword": "rbc car loan calculator",
+      "vol": 1600,
+      "cpc": 1.83,
+      "comp": 0.16,
+      "comp_idx": 0,
+      "priority": 18300.0
+    },
+    {
+      "keyword": "loan application",
+      "vol": 1300,
+      "cpc": 10.4,
+      "comp": 0.79,
+      "comp_idx": 0,
+      "priority": 17113.92
+    },
+    {
+      "keyword": "personal loan rates",
+      "vol": 590,
+      "cpc": 4.86,
+      "comp": 0.2,
+      "comp_idx": 0,
+      "priority": 14337.0
+    },
+    {
+      "keyword": "auto loan rates",
+      "vol": 720,
+      "cpc": 5.46,
+      "comp": 0.28,
+      "comp_idx": 0,
+      "priority": 14040.0
+    },
+    {
+      "keyword": "equity loan",
+      "vol": 320,
+      "cpc": 28.64,
+      "comp": 0.66,
+      "comp_idx": 0,
+      "priority": 13886.06
+    },
+    {
+      "keyword": "loan 4 payday",
+      "vol": 480,
+      "cpc": 4.34,
+      "comp": 0.16,
+      "comp_idx": 0,
+      "priority": 13020.0
+    },
+    {
+      "keyword": "loan for business",
+      "vol": 170,
+      "cpc": 52.65,
+      "comp": 0.69,
+      "comp_idx": 0,
+      "priority": 12971.74
+    },
+    {
+      "keyword": "online loan calculator",
+      "vol": 390,
+      "cpc": 3.07,
+      "comp": 0.08,
+      "comp_idx": 0,
+      "priority": 11973.0
+    },
+    {
+      "keyword": "canadian small business financing program",
+      "vol": 590,
+      "cpc": 13.96,
+      "comp": 0.69,
+      "comp_idx": 0,
+      "priority": 11936.81
+    },
+    {
+      "keyword": "bmo car loan",
+      "vol": 880,
+      "cpc": 4.74,
+      "comp": 0.38,
+      "comp_idx": 0,
+      "priority": 10976.84
+    },
+    {
+      "keyword": "rbc loan",
+      "vol": 3600,
+      "cpc": 1.82,
+      "comp": 0.6,
+      "comp_idx": 0,
+      "priority": 10920.0
+    },
+    {
+      "keyword": "auto equity loan",
+      "vol": 590,
+      "cpc": 9.31,
+      "comp": 0.51,
+      "comp_idx": 0,
+      "priority": 10770.39
+    },
+    {
+      "keyword": "best interest rates canada",
+      "vol": 1600,
+      "cpc": 3.89,
+      "comp": 0.63,
+      "comp_idx": 0,
+      "priority": 9879.37
+    },
+    {
+      "keyword": "bmo personal loan",
+      "vol": 590,
+      "cpc": 6.16,
+      "comp": 0.37,
+      "comp_idx": 0,
+      "priority": 9822.7
+    },
+    {
+      "keyword": "current car loan rates canada",
+      "vol": 1000,
+      "cpc": 4.48,
+      "comp": 0.46,
+      "comp_idx": 0,
+      "priority": 9739.13
+    },
+    {
+      "keyword": "personal loan interest rates canada",
+      "vol": 720,
+      "cpc": 5.15,
+      "comp": 0.39,
+      "comp_idx": 0,
+      "priority": 9507.69
+    },
+    {
+      "keyword": "loan application canada",
+      "vol": 590,
+      "cpc": 11.38,
+      "comp": 0.75,
+      "comp_idx": 0,
+      "priority": 8952.27
+    },
+    {
+      "keyword": "rbc car loan rates",
+      "vol": 1300,
+      "cpc": 2.67,
+      "comp": 0.39,
+      "comp_idx": 0,
+      "priority": 8900.0
+    },
+    {
+      "keyword": "bmo consolidation loan",
+      "vol": 480,
+      "cpc": 10.59,
+      "comp": 0.58,
+      "comp_idx": 0,
+      "priority": 8764.14
+    },
+    {
+      "keyword": "used car loan rates",
+      "vol": 880,
+      "cpc": 4.1,
+      "comp": 0.42,
+      "comp_idx": 0,
+      "priority": 8590.48
+    },
+    {
+      "keyword": "0 financing cars canada",
+      "vol": 1000,
+      "cpc": 7.65,
+      "comp": 0.9,
+      "comp_idx": 0,
+      "priority": 8500.0
+    },
+    {
+      "keyword": "equity loan rates",
+      "vol": 320,
+      "cpc": 8.67,
+      "comp": 0.33,
+      "comp_idx": 0,
+      "priority": 8407.27
+    },
+    {
+      "keyword": "personal loan interest rates",
+      "vol": 1000,
+      "cpc": 4,
+      "comp": 0.48,
+      "comp_idx": 0,
+      "priority": 8333.33
+    },
+    {
+      "keyword": "vehicle loan calculator",
+      "vol": 1300,
+      "cpc": 2.01,
+      "comp": 0.32,
+      "comp_idx": 0,
+      "priority": 8165.62
+    },
+    {
+      "keyword": "bmo car loan calculator",
+      "vol": 140,
+      "cpc": 5.55,
+      "comp": 0.08,
+      "comp_idx": 0,
+      "priority": 7770.0
+    },
+    {
+      "keyword": "express loan",
+      "vol": 2400,
+      "cpc": 1.83,
+      "comp": 0.58,
+      "comp_idx": 0,
+      "priority": 7572.41
+    },
+    {
+      "keyword": "best car loan rates",
+      "vol": 720,
+      "cpc": 6.89,
+      "comp": 0.68,
+      "comp_idx": 0,
+      "priority": 7295.29
+    },
+    {
+      "keyword": "rbc loan rates",
+      "vol": 880,
+      "cpc": 2.05,
+      "comp": 0.28,
+      "comp_idx": 0,
+      "priority": 6442.86
+    },
+    {
+      "keyword": "forward financing",
+      "vol": 480,
+      "cpc": 4.38,
+      "comp": 0.35,
+      "comp_idx": 0,
+      "priority": 6006.86
+    },
+    {
+      "keyword": "student loan application",
+      "vol": 720,
+      "cpc": 1.5,
+      "comp": 0.18,
+      "comp_idx": 0,
+      "priority": 6000.0
+    },
+    {
+      "keyword": "business loan calculator",
+      "vol": 1000,
+      "cpc": 3.36,
+      "comp": 0.57,
+      "comp_idx": 0,
+      "priority": 5894.74
+    },
+    {
+      "keyword": "business loan interest rates",
+      "vol": 480,
+      "cpc": 7.38,
+      "comp": 0.61,
+      "comp_idx": 0,
+      "priority": 5807.21
+    },
+    {
+      "keyword": "car loan rates ontario",
+      "vol": 880,
+      "cpc": 3.49,
+      "comp": 0.54,
+      "comp_idx": 0,
+      "priority": 5687.41
+    },
+    {
+      "keyword": "bmo offers",
+      "vol": 1000,
+      "cpc": 3.59,
+      "comp": 0.64,
+      "comp_idx": 0,
+      "priority": 5609.38
+    },
+    {
+      "keyword": "loan calculator ontario",
+      "vol": 720,
+      "cpc": 1.45,
+      "comp": 0.22,
+      "comp_idx": 0,
+      "priority": 4745.45
+    },
+    {
+      "keyword": "bmo personal loan rates",
+      "vol": 90,
+      "cpc": 5.26,
+      "comp": 0.09,
+      "comp_idx": 0,
+      "priority": 4734.0
+    },
+    {
+      "keyword": "my student loan",
+      "vol": 1600,
+      "cpc": 0.29,
+      "comp": 0.01,
+      "comp_idx": 0,
+      "priority": 4640.0
+    },
+    {
+      "keyword": "loan rates canada",
+      "vol": 590,
+      "cpc": 3.12,
+      "comp": 0.41,
+      "comp_idx": 0,
+      "priority": 4489.76
+    },
+    {
+      "keyword": "bmo business loan",
+      "vol": 170,
+      "cpc": 15.99,
+      "comp": 0.61,
+      "comp_idx": 0,
+      "priority": 4456.23
+    },
+    {
+      "keyword": "car equity loan canada",
+      "vol": 260,
+      "cpc": 9.33,
+      "comp": 0.61,
+      "comp_idx": 0,
+      "priority": 3976.72
+    },
+    {
+      "keyword": "bmo car loan rates",
+      "vol": 210,
+      "cpc": 3.54,
+      "comp": 0.19,
+      "comp_idx": 0,
+      "priority": 3912.63
+    },
+    {
+      "keyword": "bmo student line of credit",
+      "vol": 720,
+      "cpc": 2.43,
+      "comp": 0.46,
+      "comp_idx": 0,
+      "priority": 3803.48
+    },
+    {
+      "keyword": "auto equity loan canada",
+      "vol": 260,
+      "cpc": 9.01,
+      "comp": 0.62,
+      "comp_idx": 0,
+      "priority": 3778.39
+    },
+    {
+      "keyword": "loan rates",
+      "vol": 210,
+      "cpc": 7.19,
+      "comp": 0.4,
+      "comp_idx": 0,
+      "priority": 3774.75
+    },
+    {
+      "keyword": "bmo loan calculator canada",
+      "vol": 50,
+      "cpc": 7.31,
+      "comp": 0.08,
+      "comp_idx": 0,
+      "priority": 3655.0
+    },
+    {
+      "keyword": "loan calculator bc",
+      "vol": 480,
+      "cpc": 2.42,
+      "comp": 0.32,
+      "comp_idx": 0,
+      "priority": 3630.0
+    },
+    {
+      "keyword": "loan calculator car",
+      "vol": 1000,
+      "cpc": 1.05,
+      "comp": 0.3,
+      "comp_idx": 0,
+      "priority": 3500.0
+    },
+    {
+      "keyword": "bmo loan interest rates",
+      "vol": 170,
+      "cpc": 2.41,
+      "comp": 0.13,
+      "comp_idx": 0,
+      "priority": 3151.54
+    },
+    {
+      "keyword": "bmo loan rates",
+      "vol": 110,
+      "cpc": 3.95,
+      "comp": 0.14,
+      "comp_idx": 0,
+      "priority": 3103.57
+    },
+    {
+      "keyword": "business loan rates",
+      "vol": 210,
+      "cpc": 8.12,
+      "comp": 0.58,
+      "comp_idx": 0,
+      "priority": 2940.0
+    },
+    {
+      "keyword": "current car loan rates",
+      "vol": 260,
+      "cpc": 4.52,
+      "comp": 0.41,
+      "comp_idx": 0,
+      "priority": 2866.34
+    },
+    {
+      "keyword": "best car loan rates canada",
+      "vol": 390,
+      "cpc": 4.92,
+      "comp": 0.67,
+      "comp_idx": 0,
+      "priority": 2863.88
+    },
+    {
+      "keyword": "personal loan calculator canada",
+      "vol": 590,
+      "cpc": 1.93,
+      "comp": 0.4,
+      "comp_idx": 0,
+      "priority": 2846.75
+    },
+    {
+      "keyword": "car loan calculator quebec",
+      "vol": 390,
+      "cpc": 2.62,
+      "comp": 0.36,
+      "comp_idx": 0,
+      "priority": 2838.33
+    },
+    {
+      "keyword": "bdc small business loan",
+      "vol": 590,
+      "cpc": 2.92,
+      "comp": 0.65,
+      "comp_idx": 0,
+      "priority": 2650.46
+    },
+    {
+      "keyword": "loan emi calculator",
+      "vol": 210,
+      "cpc": 2.19,
+      "comp": 0.18,
+      "comp_idx": 0,
+      "priority": 2555.0
+    },
+    {
+      "keyword": "nb student loan",
+      "vol": 4400,
+      "cpc": 0.09,
+      "comp": 0.2,
+      "comp_idx": 0,
+      "priority": 1980.0
+    },
+    {
+      "keyword": "commercial loan rates",
+      "vol": 170,
+      "cpc": 5.05,
+      "comp": 0.44,
+      "comp_idx": 0,
+      "priority": 1951.14
+    },
+    {
+      "keyword": "personal loan rates canada",
+      "vol": 210,
+      "cpc": 3.69,
+      "comp": 0.43,
+      "comp_idx": 0,
+      "priority": 1802.09
+    },
+    {
+      "keyword": "commercial loan calculator",
+      "vol": 320,
+      "cpc": 2.62,
+      "comp": 0.55,
+      "comp_idx": 0,
+      "priority": 1524.36
+    },
+    {
+      "keyword": "cmhc loan",
+      "vol": 210,
+      "cpc": 0.71,
+      "comp": 0.07,
+      "comp_idx": 0,
+      "priority": 1491.0
+    },
+    {
+      "keyword": "bmo student loan",
+      "vol": 320,
+      "cpc": 2.04,
+      "comp": 0.44,
+      "comp_idx": 0,
+      "priority": 1483.64
+    },
+    {
+      "keyword": "fixed deposit rates canada",
+      "vol": 210,
+      "cpc": 2.45,
+      "comp": 0.42,
+      "comp_idx": 0,
+      "priority": 1225.0
+    },
+    {
+      "keyword": "loan options",
+      "vol": 70,
+      "cpc": 13.95,
+      "comp": 0.81,
+      "comp_idx": 0,
+      "priority": 1205.56
+    },
+    {
+      "keyword": "canada car loan calculator",
+      "vol": 170,
+      "cpc": 1.71,
+      "comp": 0.26,
+      "comp_idx": 0,
+      "priority": 1118.08
+    },
+    {
+      "keyword": "commercial loan rates canada",
+      "vol": 110,
+      "cpc": 5.65,
+      "comp": 0.58,
+      "comp_idx": 0,
+      "priority": 1071.55
+    },
+    {
+      "keyword": "business loan calculator canada",
+      "vol": 170,
+      "cpc": 3.22,
+      "comp": 0.73,
+      "comp_idx": 0,
+      "priority": 749.86
+    },
+    {
+      "keyword": "business loan rates canada",
+      "vol": 70,
+      "cpc": 7.06,
+      "comp": 0.73,
+      "comp_idx": 0,
+      "priority": 676.99
+    },
+    {
+      "keyword": "3 year fixed rates",
+      "vol": 170,
+      "cpc": 1.42,
+      "comp": 0.36,
+      "comp_idx": 0,
+      "priority": 670.56
+    },
+    {
+      "keyword": "student loan options",
+      "vol": 30,
+      "cpc": 9.17,
+      "comp": 0.6,
+      "comp_idx": 0,
+      "priority": 458.5
+    },
+    {
+      "keyword": "sba loan calculator",
+      "vol": 20,
+      "cpc": 3.85,
+      "comp": 0.19,
+      "comp_idx": 0,
+      "priority": 405.26
+    },
+    {
+      "keyword": "5 year fixed loan rates",
+      "vol": 70,
+      "cpc": 3.08,
+      "comp": 0.61,
+      "comp_idx": 0,
+      "priority": 353.44
+    },
+    {
+      "keyword": "personal loan options",
+      "vol": 20,
+      "cpc": 13.03,
+      "comp": 0.84,
+      "comp_idx": 0,
+      "priority": 310.24
+    },
+    {
+      "keyword": "small business loan calculator canada",
+      "vol": 20,
+      "cpc": 2.83,
+      "comp": 0.86,
+      "comp_idx": 0,
+      "priority": 65.81
+    }
+  ]
+}

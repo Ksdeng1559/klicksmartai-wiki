@@ -113,6 +113,28 @@ This is the highest-leverage cluster. Same insight as the `BDC tariff loan` arti
 
 **Page target:** `/bdc-vs-private-lender`, `/csbfp-alternative`, `/bdc-loan-requirements` — 3-pillar comparison hub.
 
+## Tier 3b — Tariff Trigger (separate cluster, NOT a pillar)
+
+Consolidated from the original 22-term tariff spec (2026-09-13 pull). Kept as a **separate-but-related cluster** because tariff-loan language is empty in volume terms (10/mo total) but is news-anchored — content triggers on tariff events, not on a daily search pattern.
+
+| Play group | # | Vol/mo | Avg CPC | Avg Score |
+|---|---:|---:|---:|---:|
+| Tariff Trigger — A (Direct/transactional) | 6 | 10 | $0.23 | 30 |
+| Tariff Trigger — B (Bridge/cash-flow framing) | 5 | 0 | $0.00 | 30 |
+| Tariff Trigger — C (Informational/comparison) | 5 | 0 | $0.00 | 20 |
+| Tariff Trigger — D (Geo + vertical modifiers) | 6 | 0 | $0.00 | 30 |
+| **Total** | **22** | **10** | **$0.06** | **28.2** |
+
+**Why a separate cluster:**
+- Comparison-site pillars (Tier 1, 2, 3) need steady daily demand. Tariff demand is event-driven (tariff announcements spike 1,134% per the spec).
+- Best term is `tariff loan Canada` at 10/mo, $1.40 CPC — still essentially zero.
+- The BDC-tariff comparison angle is the **only commercially viable term** (score 35, "BDC tariff loan vs private lender"). The 21 others are content-calendar placeholders.
+- BDC's $1B steel/aluminum program is the only public tariff-loan product in market — Rail B positioning is the obvious "private lender alternative" play.
+
+**Page target:** `/tariff-financing-canada` (single trigger page, not a pillar) + `/bdc-tariff-loan-vs-private-lender` (comparison piece, score 35).
+
+**Build order:** Tier 1+2+3 pillars FIRST (commercial-intent cluster). Tariff page stands alone as a news-anchored trigger, published the same week as the next tariff announcement.
+
 ## Tier 4 — Verticals (industry modifier pages)
 
 | Keyword | Vertical | Vol | CPC |
@@ -139,7 +161,7 @@ This is the highest-leverage cluster. Same insight as the `BDC tariff loan` arti
 
 3. **Geographic overlay** — every pillar page gets a province-modified variant. ON alone = 60% of head-term volume. Build `/business-loans-ontario`, `/business-loans-alberta`, `/business-loans-british-columbia` as derivative pillars.
 
-4. **Skip tariff-loan category** (0 commercial-intent terms). Keep the single `BDC tariff loan vs private lender` article as a trigger piece for the next spike.
+4. **Tariff is a separate cluster, not a pillar.** Zero commercial-intent volume, but news-anchored — `BDC tariff loan vs private lender` (score 35) is the only term worth a dedicated page. Build `/tariff-financing-canada` as a single trigger page, publish on tariff-news events. Don't pollute the 7-pillar plan.
 
 5. **Quick-win low-comp gaps** in commercial-intent set: terms with score ≥ 60 + LOW comp are SERP-claimable in <30 days. The Tier-2 top 7 (working capital lenders, quick business loans, fast business loan) are these.
 
@@ -147,8 +169,11 @@ This is the highest-leverage cluster. Same insight as the `BDC tariff loan` arti
 
 ---
 
-**Files:**  
-- `commercial_intent.json` — 102 commercial-intent terms with full scoring  
-- `clusters.json` — all 2,802 terms across 24 clusters  
-- `cluster_expansion.json` — raw 2,547-term expansion  
+**Files:**
+- `consolidated_keyword_set.json` — **124 terms across 10 play groups** (102 commercial-intent + 22 tariff), this is the source of truth for the comparison-site build
+- `commercial_intent.json` — 102 commercial-intent terms with full scoring
+- `tariff_cluster.json` — 22 tariff terms scored on the same 0-100 scale, separate play group
+- `tariff_seeds.json` — raw 22-term tariff seed list (4 clusters A/B/C/D from the spec)
+- `clusters.json` — all 2,802 terms across 24 clusters
+- `cluster_expansion.json` — raw 2,547-term expansion
 - `KEYWORD_STRATEGY.md` — this file

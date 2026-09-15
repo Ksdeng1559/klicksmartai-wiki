@@ -1,0 +1,405 @@
+{
+  "metadata": {
+    "endpoint": "dataforseo_labs/google/keyword_overview/live",
+    "date": "2026-09-13",
+    "cost": 0.01536,
+    "location": "Canada (2124)",
+    "seeds_count": 33
+  },
+  "items": [
+    {
+      "keyword": "self employed loans",
+      "vol": 170,
+      "cpc": 14.57,
+      "comp": 0.74,
+      "priority": 3347.16
+    },
+    {
+      "keyword": "cmhc commercial mortgage",
+      "vol": 50,
+      "cpc": 7.19,
+      "comp": 0.16,
+      "priority": 2246.88
+    },
+    {
+      "keyword": "payday loans for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp": 0.71,
+      "priority": 1271.97
+    },
+    {
+      "keyword": "loans for self employed bad credit",
+      "vol": 70,
+      "cpc": 11.75,
+      "comp": 0.67,
+      "priority": 1227.61
+    },
+    {
+      "keyword": "self employed business loan",
+      "vol": 10,
+      "cpc": 76.38,
+      "comp": 0.86,
+      "priority": 888.14
+    },
+    {
+      "keyword": "loans for employed",
+      "vol": 50,
+      "cpc": 4.59,
+      "comp": 0.35,
+      "priority": 655.71
+    },
+    {
+      "keyword": "2nd mortgage for debt consolidation",
+      "vol": 10,
+      "cpc": 52.64,
+      "comp": 0.81,
+      "priority": 649.88
+    },
+    {
+      "keyword": "business loans for sole proprietors",
+      "vol": 10,
+      "cpc": 33.11,
+      "comp": 0.86,
+      "priority": 385.0
+    },
+    {
+      "keyword": "emergency loans for self employed",
+      "vol": 10,
+      "cpc": 21.21,
+      "comp": 0.67,
+      "priority": 316.57
+    },
+    {
+      "keyword": "cash advance for self employed",
+      "vol": 10,
+      "cpc": 17.86,
+      "comp": 0.62,
+      "priority": 288.06
+    },
+    {
+      "keyword": "quick loans for self employed",
+      "vol": 10,
+      "cpc": 19.79,
+      "comp": 0.86,
+      "priority": 230.12
+    },
+    {
+      "keyword": "loans for self employed workers",
+      "vol": 10,
+      "cpc": 16.81,
+      "comp": 0.86,
+      "priority": 195.47
+    },
+    {
+      "keyword": "online loans for self employed",
+      "vol": 10,
+      "cpc": 11.98,
+      "comp": 0.86,
+      "priority": 139.3
+    },
+    {
+      "keyword": "easy loans for self employed",
+      "vol": 10,
+      "cpc": 11.94,
+      "comp": 0.86,
+      "priority": 138.84
+    },
+    {
+      "keyword": "loans for independent contractors",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp": 0.86,
+      "priority": 116.51
+    },
+    {
+      "keyword": "self contractor loans",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp": 0.86,
+      "priority": 116.51
+    },
+    {
+      "keyword": "payday loan self employed bad credit",
+      "vol": 10,
+      "cpc": 7.09,
+      "comp": 0.67,
+      "priority": 105.82
+    },
+    {
+      "keyword": "self employed installment loans",
+      "vol": 10,
+      "cpc": 6.28,
+      "comp": 0.86,
+      "priority": 73.02
+    },
+    {
+      "keyword": "self employed loans no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp": 0.86,
+      "priority": 69.3
+    },
+    {
+      "keyword": "loans for self employed no credit check",
+      "vol": 10,
+      "cpc": 5.93,
+      "comp": 0.86,
+      "priority": 68.95
+    },
+    {
+      "keyword": "self employed payday loans no credit check",
+      "vol": 10,
+      "cpc": 4.94,
+      "comp": 0.78,
+      "priority": 63.33
+    },
+    {
+      "keyword": "short term loans for self employed",
+      "vol": 10,
+      "cpc": 5.17,
+      "comp": 0.86,
+      "priority": 60.12
+    },
+    {
+      "keyword": "personal loans for self employed bad credit",
+      "vol": 10,
+      "cpc": 4.91,
+      "comp": 0.86,
+      "priority": 57.09
+    },
+    {
+      "keyword": "business home equity line of credit",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc commercial mortgage rates",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.05,
+      "priority": 0
+    },
+    {
+      "keyword": "guaranteed loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for low credit score and self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed individuals",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    }
+  ],
+  "with_volume": [
+    {
+      "keyword": "self employed loans",
+      "vol": 170,
+      "cpc": 14.57,
+      "comp": 0.74,
+      "priority": 3347.16
+    },
+    {
+      "keyword": "cmhc commercial mortgage",
+      "vol": 50,
+      "cpc": 7.19,
+      "comp": 0.16,
+      "priority": 2246.88
+    },
+    {
+      "keyword": "payday loans for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp": 0.71,
+      "priority": 1271.97
+    },
+    {
+      "keyword": "loans for self employed bad credit",
+      "vol": 70,
+      "cpc": 11.75,
+      "comp": 0.67,
+      "priority": 1227.61
+    },
+    {
+      "keyword": "self employed business loan",
+      "vol": 10,
+      "cpc": 76.38,
+      "comp": 0.86,
+      "priority": 888.14
+    },
+    {
+      "keyword": "loans for employed",
+      "vol": 50,
+      "cpc": 4.59,
+      "comp": 0.35,
+      "priority": 655.71
+    },
+    {
+      "keyword": "2nd mortgage for debt consolidation",
+      "vol": 10,
+      "cpc": 52.64,
+      "comp": 0.81,
+      "priority": 649.88
+    },
+    {
+      "keyword": "business loans for sole proprietors",
+      "vol": 10,
+      "cpc": 33.11,
+      "comp": 0.86,
+      "priority": 385.0
+    },
+    {
+      "keyword": "emergency loans for self employed",
+      "vol": 10,
+      "cpc": 21.21,
+      "comp": 0.67,
+      "priority": 316.57
+    },
+    {
+      "keyword": "cash advance for self employed",
+      "vol": 10,
+      "cpc": 17.86,
+      "comp": 0.62,
+      "priority": 288.06
+    },
+    {
+      "keyword": "quick loans for self employed",
+      "vol": 10,
+      "cpc": 19.79,
+      "comp": 0.86,
+      "priority": 230.12
+    },
+    {
+      "keyword": "loans for self employed workers",
+      "vol": 10,
+      "cpc": 16.81,
+      "comp": 0.86,
+      "priority": 195.47
+    },
+    {
+      "keyword": "online loans for self employed",
+      "vol": 10,
+      "cpc": 11.98,
+      "comp": 0.86,
+      "priority": 139.3
+    },
+    {
+      "keyword": "easy loans for self employed",
+      "vol": 10,
+      "cpc": 11.94,
+      "comp": 0.86,
+      "priority": 138.84
+    },
+    {
+      "keyword": "loans for independent contractors",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp": 0.86,
+      "priority": 116.51
+    },
+    {
+      "keyword": "self contractor loans",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp": 0.86,
+      "priority": 116.51
+    },
+    {
+      "keyword": "payday loan self employed bad credit",
+      "vol": 10,
+      "cpc": 7.09,
+      "comp": 0.67,
+      "priority": 105.82
+    },
+    {
+      "keyword": "self employed installment loans",
+      "vol": 10,
+      "cpc": 6.28,
+      "comp": 0.86,
+      "priority": 73.02
+    },
+    {
+      "keyword": "self employed loans no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp": 0.86,
+      "priority": 69.3
+    },
+    {
+      "keyword": "loans for self employed no credit check",
+      "vol": 10,
+      "cpc": 5.93,
+      "comp": 0.86,
+      "priority": 68.95
+    },
+    {
+      "keyword": "self employed payday loans no credit check",
+      "vol": 10,
+      "cpc": 4.94,
+      "comp": 0.78,
+      "priority": 63.33
+    },
+    {
+      "keyword": "short term loans for self employed",
+      "vol": 10,
+      "cpc": 5.17,
+      "comp": 0.86,
+      "priority": 60.12
+    },
+    {
+      "keyword": "personal loans for self employed bad credit",
+      "vol": 10,
+      "cpc": 4.91,
+      "comp": 0.86,
+      "priority": 57.09
+    },
+    {
+      "keyword": "business home equity line of credit",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc commercial mortgage rates",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0.05,
+      "priority": 0
+    },
+    {
+      "keyword": "guaranteed loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for low credit score and self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed individuals",
+      "vol": 10,
+      "cpc": 0,
+      "comp": 0,
+      "priority": 0
+    }
+  ]
+}

@@ -1,0 +1,5762 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.1092 sec.",
+  "cost": 0.09,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09140455-1064-0368-0000-6ca6328e0563",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.0427 sec.",
+      "cost": 0.09,
+      "result_count": 67,
+      "path": [
+        "v3",
+        "keywords_data",
+        "google_ads",
+        "keywords_for_keywords",
+        "live"
+      ],
+      "data": {
+        "api": "keywords_data",
+        "function": "keywords_for_keywords",
+        "se": "google_ads",
+        "location_code": 2124,
+        "language_code": "en",
+        "keywords": [
+          "commercial mortgage renewal rates",
+          "commercial mortgage refinance",
+          "commercial mortgage rates canada"
+        ]
+      },
+      "result": [
+        {
+          "keyword": "commercial mortgage renewal rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": null,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": null,
+          "keyword_annotations": {
+            "concepts": null
+          }
+        },
+        {
+          "keyword": "commercial mortgage refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 3,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.88,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": null
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 48,
+          "search_volume": 320,
+          "low_top_of_page_bid": 1.25,
+          "high_top_of_page_bid": 3.19,
+          "cpc": 3.56,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": null
+          }
+        },
+        {
+          "keyword": "refinance commercial property",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 31,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 12.63,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 50,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates ontario",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 62,
+          "search_volume": 260,
+          "low_top_of_page_bid": 1.66,
+          "high_top_of_page_bid": 4.46,
+          "cpc": 3.73,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 480
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 480
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial property refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "current commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 54,
+          "search_volume": 110,
+          "low_top_of_page_bid": 1.31,
+          "high_top_of_page_bid": 3.49,
+          "cpc": 3.36,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial building refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinancing commercial real estate",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 31,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 12.63,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial cash out refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial real estate cash out refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial lending rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 58,
+          "search_volume": 110,
+          "low_top_of_page_bid": 1.73,
+          "high_top_of_page_bid": 5.73,
+          "cpc": 5.65,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 110
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 260
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "best commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 66,
+          "search_volume": 50,
+          "low_top_of_page_bid": 1.19,
+          "high_top_of_page_bid": 3.1,
+          "cpc": 2.18,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "5 year fixed commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 2,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial interest rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 54,
+          "search_volume": 40,
+          "low_top_of_page_bid": 1.54,
+          "high_top_of_page_bid": 4.91,
+          "cpc": 2.96,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance commercial property bad credit",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance a commercial loan",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 90,
+          "search_volume": 10,
+          "low_top_of_page_bid": 3.49,
+          "high_top_of_page_bid": 12.41,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 20
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates alberta",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 45,
+          "search_volume": 50,
+          "low_top_of_page_bid": 1.62,
+          "high_top_of_page_bid": 4.56,
+          "cpc": 4.09,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 50
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "alberta",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates canada 2022",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "2022",
+                "concept_group": {
+                  "name": "Year",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "business mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 56,
+          "search_volume": 20,
+          "low_top_of_page_bid": 1.81,
+          "high_top_of_page_bid": 5.7,
+          "cpc": 8.15,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance business property",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 31,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 12.63,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "5 year commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 68,
+          "search_volume": 50,
+          "low_top_of_page_bid": 1.47,
+          "high_top_of_page_bid": 3.57,
+          "cpc": 4.69,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "cash out commercial refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial building refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance business mortgage",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance business",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 47,
+          "search_volume": 10,
+          "low_top_of_page_bid": 20.17,
+          "high_top_of_page_bid": 86.54,
+          "cpc": 49.27,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 86,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.13,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage interest rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 53,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.66,
+          "high_top_of_page_bid": 3.57,
+          "cpc": 6.11,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance commercial property loan",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refi rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial lending rates bc",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 86,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.3,
+          "high_top_of_page_bid": 2.24,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates quebec",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 57,
+          "search_volume": 10,
+          "low_top_of_page_bid": 0.98,
+          "high_top_of_page_bid": 2.18,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "quebec",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates bc",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 49,
+          "search_volume": 40,
+          "low_top_of_page_bid": 1.77,
+          "high_top_of_page_bid": 6.94,
+          "cpc": 5.39,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance commercial real estate loan rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial property mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 38,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.55,
+          "high_top_of_page_bid": 5.92,
+          "cpc": 7.29,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 20
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "best commercial refinance rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates canada calculator",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 48,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 2.69,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates ontario 2022",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "2022",
+                "concept_group": {
+                  "name": "Year",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinancing a commercial building",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial real estate mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 38,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.55,
+          "high_top_of_page_bid": 5.92,
+          "cpc": 7.29,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 20
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "corporate mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 56,
+          "search_volume": 20,
+          "low_top_of_page_bid": 1.81,
+          "high_top_of_page_bid": 5.7,
+          "cpc": 8.15,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinancing commercial real estate loans",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refinance rates today",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial interest rates ontario",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 61,
+          "search_volume": 20,
+          "low_top_of_page_bid": 1.3,
+          "high_top_of_page_bid": 4.38,
+          "cpc": 3.39,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial property mortgage calculator canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 46,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.05,
+          "high_top_of_page_bid": 1.83,
+          "cpc": 2.31,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage refi",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 3,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.88,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial lending rates ontario",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 61,
+          "search_volume": 20,
+          "low_top_of_page_bid": 1.3,
+          "high_top_of_page_bid": 4.38,
+          "cpc": 3.39,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 30
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "average commercial mortgage rates canada",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "bank of canada commercial mortgage rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage loan refinancing",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 3,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.88,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates british columbia",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "british columbia",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates canada 2021",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "2021",
+                "concept_group": {
+                  "name": "Year",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates montreal",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 64,
+          "search_volume": 10,
+          "low_top_of_page_bid": 1.59,
+          "high_top_of_page_bid": 2.67,
+          "cpc": 3.96,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "montreal",
+                "concept_group": {
+                  "name": "Others",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates ontario 2020",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "2020",
+                "concept_group": {
+                  "name": "Year",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates ontario 2021",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "2021",
+                "concept_group": {
+                  "name": "Year",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              },
+              {
+                "name": "ontario",
+                "concept_group": {
+                  "name": "Province",
+                  "type": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage rates refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "HIGH",
+          "competition_index": 86,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.13,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial mortgage refinance interest rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial property mortgage refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refinance mortgage",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 0,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "commercial refinance mortgage rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "industrial property refinance",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 0,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 0
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refi commercial mortgage",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 3,
+          "search_volume": 10,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 15.88,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 20
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 10
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinance rates commercial",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": null,
+          "competition_index": null,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 0
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 170
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "refinancing commercial",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "MEDIUM",
+          "competition_index": 50,
+          "search_volume": 70,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": null,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 210
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 170
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "keyword": "toronto commercial mortgage rates",
+          "location_code": 2124,
+          "language_code": "en",
+          "search_partners": false,
+          "competition": "LOW",
+          "competition_index": 21,
+          "search_volume": 20,
+          "low_top_of_page_bid": null,
+          "high_top_of_page_bid": null,
+          "cpc": 4.27,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 7,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 10
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 140
+            }
+          ],
+          "keyword_annotations": {
+            "concepts": [
+              {
+                "name": "toronto",
+                "concept_group": {
+                  "name": "Others",
+                  "type": null
+                }
+              },
+              {
+                "name": "Non-Brands",
+                "concept_group": {
+                  "name": "Non-Brands",
+                  "type": "NON_BRAND"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

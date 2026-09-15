@@ -1,0 +1,3198 @@
+{
+  "metadata": {
+    "endpoint": "keywords_for_keywords/live",
+    "seeds": [
+      "heloc vs business line of credit",
+      "home equity business loan",
+      "second mortgage business loan",
+      "refinance house for business",
+      "self employed business loan",
+      "cmhc commercial mortgage"
+    ],
+    "cost": 0.09,
+    "total_returned": 318,
+    "commercial_terms": 35,
+    "total_vol_mo": 850
+  },
+  "items": [
+    {
+      "keyword": "self employed loans",
+      "vol": 170,
+      "cpc": 14.57,
+      "comp_idx": 74,
+      "cpc_low": 6.04,
+      "cpc_high": 19.09,
+      "priority": 33.47
+    },
+    {
+      "keyword": "loans for self employed bad credit",
+      "vol": 70,
+      "cpc": 14.61,
+      "comp_idx": 78,
+      "cpc_low": 5.04,
+      "cpc_high": 18.09,
+      "priority": 13.11
+    },
+    {
+      "keyword": "payday loans for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp_idx": 71,
+      "cpc_low": 3.15,
+      "cpc_high": 11.41,
+      "priority": 12.72
+    },
+    {
+      "keyword": "payday advance for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp_idx": 71,
+      "cpc_low": 3.15,
+      "cpc_high": 11.41,
+      "priority": 12.72
+    },
+    {
+      "keyword": "loans for employed",
+      "vol": 50,
+      "cpc": 4.59,
+      "comp_idx": 35,
+      "cpc_low": 2.3,
+      "cpc_high": 7.95,
+      "priority": 6.56
+    },
+    {
+      "keyword": "heloc for business purposes",
+      "vol": 10,
+      "cpc": 45.69,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 5.31
+    },
+    {
+      "keyword": "business loans for sole proprietors",
+      "vol": 10,
+      "cpc": 31.37,
+      "comp_idx": 64,
+      "cpc_low": 4.89,
+      "cpc_high": 22.27,
+      "priority": 4.9
+    },
+    {
+      "keyword": "self employed business loan",
+      "vol": 10,
+      "cpc": 38.6,
+      "comp_idx": 83,
+      "cpc_low": 4.24,
+      "cpc_high": 30.2,
+      "priority": 4.65
+    },
+    {
+      "keyword": "business home equity line of credit",
+      "vol": 10,
+      "cpc": 19.93,
+      "comp_idx": 43,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 4.63
+    },
+    {
+      "keyword": "cmhc commercial mortgage",
+      "vol": 50,
+      "cpc": 2.28,
+      "comp_idx": 25,
+      "cpc_low": 1.45,
+      "cpc_high": 4.28,
+      "priority": 4.56
+    },
+    {
+      "keyword": "small business loans for freelancers",
+      "vol": 10,
+      "cpc": 28.32,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 3.29
+    },
+    {
+      "keyword": "cmhc commercial mortgage rates",
+      "vol": 10,
+      "cpc": 9.74,
+      "comp_idx": 31,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 3.14
+    },
+    {
+      "keyword": "2nd mortgage for debt consolidation",
+      "vol": 10,
+      "cpc": 25.56,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 2.97
+    },
+    {
+      "keyword": "loans for self employed people",
+      "vol": 10,
+      "cpc": 24.04,
+      "comp_idx": 83,
+      "cpc_low": 7.77,
+      "cpc_high": 23.05,
+      "priority": 2.9
+    },
+    {
+      "keyword": "cash advance for self employed",
+      "vol": 10,
+      "cpc": 17.86,
+      "comp_idx": 62,
+      "cpc_low": 3.81,
+      "cpc_high": 11.96,
+      "priority": 2.88
+    },
+    {
+      "keyword": "emergency loans for self employed",
+      "vol": 10,
+      "cpc": 18.11,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 2.11
+    },
+    {
+      "keyword": "loans for sole proprietors",
+      "vol": 10,
+      "cpc": 16.54,
+      "comp_idx": 79,
+      "cpc_low": 8.75,
+      "cpc_high": 34.74,
+      "priority": 2.09
+    },
+    {
+      "keyword": "loans for self employed workers",
+      "vol": 10,
+      "cpc": 16.81,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.95
+    },
+    {
+      "keyword": "loans for self employed individuals",
+      "vol": 10,
+      "cpc": 14.68,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.71
+    },
+    {
+      "keyword": "quick loans for self employed",
+      "vol": 10,
+      "cpc": 12.34,
+      "comp_idx": 75,
+      "cpc_low": 7.07,
+      "cpc_high": 30.48,
+      "priority": 1.65
+    },
+    {
+      "keyword": "loans self employed poor credit",
+      "vol": 10,
+      "cpc": 13.55,
+      "comp_idx": 86,
+      "cpc_low": 3.65,
+      "cpc_high": 23.24,
+      "priority": 1.58
+    },
+    {
+      "keyword": "online loans for self employed",
+      "vol": 10,
+      "cpc": 11.98,
+      "comp_idx": 86,
+      "cpc_low": 7.97,
+      "cpc_high": 18.88,
+      "priority": 1.39
+    },
+    {
+      "keyword": "easy loans for self employed",
+      "vol": 10,
+      "cpc": 11.94,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.39
+    },
+    {
+      "keyword": "loans for independent contractors",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.17
+    },
+    {
+      "keyword": "self contractor loans",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.17
+    },
+    {
+      "keyword": "loans for low credit score and self employed",
+      "vol": 10,
+      "cpc": 7.22,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.84
+    },
+    {
+      "keyword": "cmhc commercial",
+      "vol": 10,
+      "cpc": 1.15,
+      "comp_idx": 14,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.82
+    },
+    {
+      "keyword": "guaranteed loans for self employed",
+      "vol": 10,
+      "cpc": 7.01,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.82
+    },
+    {
+      "keyword": "self employed installment loans",
+      "vol": 10,
+      "cpc": 6.28,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.73
+    },
+    {
+      "keyword": "self employed loans no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp_idx": 86,
+      "cpc_low": 6.31,
+      "cpc_high": 15.01,
+      "priority": 0.69
+    },
+    {
+      "keyword": "loans for self employed no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp_idx": 86,
+      "cpc_low": 6.31,
+      "cpc_high": 15.01,
+      "priority": 0.69
+    },
+    {
+      "keyword": "self employed payday loans no credit check",
+      "vol": 10,
+      "cpc": 4.94,
+      "comp_idx": 78,
+      "cpc_low": 2.52,
+      "cpc_high": 11.9,
+      "priority": 0.63
+    },
+    {
+      "keyword": "short term loans for self employed",
+      "vol": 10,
+      "cpc": 5.17,
+      "comp_idx": 86,
+      "cpc_low": 3.53,
+      "cpc_high": 13.87,
+      "priority": 0.6
+    },
+    {
+      "keyword": "personal loans for self employed bad credit",
+      "vol": 10,
+      "cpc": 4.91,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.57
+    },
+    {
+      "keyword": "payday loan self employed bad credit",
+      "vol": 10,
+      "cpc": 1.94,
+      "comp_idx": 65,
+      "cpc_low": 2.04,
+      "cpc_high": 12.64,
+      "priority": 0.3
+    },
+    {
+      "keyword": "heloc vs business line of credit",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity business loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "second mortgage business loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "refinance house for business",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "best home refinance companies",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 7,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity investment companies",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 57,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "best company for equity release",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business loans for sole traders",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for sole traders",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "no doc loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "pnc choice home equity line of credit",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc for business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 51,
+      "cpc_low": 9.6,
+      "cpc_high": 47.83,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for 1099 workers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc business loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity vs personal loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 71,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business loans for independent contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loans for sole traders",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for freelancers",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loans near me",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "finance for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "companies that buy equity in your home",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loans for sole proprietors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "dcu home equity loan requirements",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loans for independent contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "no credit check loans for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sole trader mortgage",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan for business startup",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loan sole trader",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "no doc personal loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business payday loans self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed direct lender",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government loans for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "secured loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "how to refinance commercial property",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loans for sole traders",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for self employed with no payroll",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for a ppp loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government backed loans for sole traders",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loans government",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loans for independent contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity line of credit for business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 57,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sole trader personal loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "commercial second mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loans for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans for independent contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "what is better cash out refinance or home equity loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small personal loan for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for newly self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loan sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "online loan for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgages for self employed limited company",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loan for 1099 contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "is refinancing the same as a home equity loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "which is better home equity loan or cash out refinance",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "no doc personal loans self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "fast loan for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 4.89,
+      "cpc_high": 11.64,
+      "priority": 0
+    },
+    {
+      "keyword": "cash loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "payday loans for independent contractors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "get a loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loan sole trader",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc for small business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan sole trader",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity for home improvements",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans for self employed 2022",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business line of credit vs heloc",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "2nd mortgage on commercial property",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "founders home equity loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loan sole proprietor no employees",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed start up loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "getting a mortgage as a sole trader",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using home equity to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "is a cash out refinance a home equity loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employment loans government",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for self employed 2022",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "getting a loan as a sole trader",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "independent contractor loans 2022",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "same day loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed ppp loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "second mortgage on commercial property",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 64,
+      "cpc_low": 8.97,
+      "cpc_high": 117.71,
+      "priority": 0
+    },
+    {
+      "keyword": "using home equity for business loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "fast cash loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sole proprietorship ppp loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba self employed loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business loans for freelancers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed emergency loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "emergency loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business loan for self employed professional",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for sole proprietor with no employees",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for a loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home loan for sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "quick online loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc to invest in real estate",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant cash loan for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed instant cash loans",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loan independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "quick cash loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed need a loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "50 000 loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for 1099 self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "bank loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for independent contractors 2022",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity line of credit to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for ppp loan self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "payday loans for self employed near me",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "independent contractor ppp loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for self employed loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "second commercial mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed sba loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant payday loans self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for selfemployed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loan self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed with poor credit direct lenders",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loans for sole proprietors",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 43,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business for self mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 11,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "1099 independent contractor loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using heloc to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using a heloc to start a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan for business purposes",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "independent contractor sba loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan for small business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed and need a loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity line of credit for small business",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loans for self employed covid 19",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using home equity to buy a business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 57,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loan online for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans online for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed homeowner loans",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using heloc for real estate investing",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government self employed loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for gig workers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "dbm loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cash advance loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sole trader getting a mortgage",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan to start business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "stimulus loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed payday loans direct lenders",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "start up loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for self employed 2021",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgage as a sole trader",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "low interest loans for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "quick cash for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant loan online for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed ppp",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed limited company mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for self employed covid",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan for self employed government",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp small business loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc real estate investing",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government loans self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loan without itr",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan and unemployment for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp sole proprietor",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "any loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply for ppp loan online self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "apply loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "best ppp lenders for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "best ppp loan lenders for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "business insider heloc",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cash loan for freelancers",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cashe loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc commercial financing",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 14,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc commercial mortgage insurance",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 43,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc insured commercial mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "cmhc insured commercial mortgage rates",
+      "vol": 20,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "covid loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl for self employed 2021",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl for self employed no employees",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl for self employed no employees 2021",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan uses for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl loan uses of funds self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl payroll self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "eidl self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "forgivable loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "forgivable ppp loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "forgivable sba loan self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "forgiven loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "freelancer personal loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "gaining equity in your home",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "getting a ppp loan as an independent contractor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "gig worker ppp loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government loans for sole traders",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "government ppp loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc for business expense",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "heloc used for business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan for business start up",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan used for business",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "home equity loan used for business purposes",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "independent contractor loans covid",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "independent contractor small business loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant business loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant cash for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "instant cash loan online for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan for self business",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan freelancer",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loan from government for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "loans for sole proprietors covid",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "max ppp loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "max ppp loan for sole proprietorship",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgage 2 years self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgage for self employed 2021",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgage loans for self employed 2020",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "mortgage self employed 2 years accounts",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "new government loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "no doc home loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "online cash loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "pandemic loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "pandemic small business loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loan for freelancer",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loan for self employed business",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "personal loans for 1099 workers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp and independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp as a sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp as sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for gig workers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for individuals",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for self employed individuals",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp for sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp forgivable loan for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for freelancers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for independent contractors with no employees",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for self employed 2021 deadline",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for self employed farmers",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan for sole proprietor with no employees sba",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan freelancer",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loan rules for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans 2021 for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans for 1099 independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp loans for self employed with no employees",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp rules for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "ppp stimulus for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba for independent contractors",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba independent contractor loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loan rules for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba loans covid 19 self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba ppp sole proprietor",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sba sole proprietor ppp",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "scotiabank self employed mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 38,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed bridging loan",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed business loans covid",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed covid loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed eidl loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loan from government",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loans covid",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed loans unsecured",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed mortgages in lone tree",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed second mortgage",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed small loans",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employed sole trader mortgage",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employment loan for ladies",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "self employment ppp loan",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "small business loan self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "sole proprietor ppp",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "unsecured business loans for self employed",
+      "vol": 0,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "urgent loan for self employed",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using heloc for business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 0,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    },
+    {
+      "keyword": "using home equity to buy business",
+      "vol": 10,
+      "cpc": 0,
+      "comp_idx": 57,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0
+    }
+  ],
+  "commercial_items": [
+    {
+      "keyword": "self employed loans",
+      "vol": 170,
+      "cpc": 14.57,
+      "comp_idx": 74,
+      "cpc_low": 6.04,
+      "cpc_high": 19.09,
+      "priority": 33.47
+    },
+    {
+      "keyword": "loans for self employed bad credit",
+      "vol": 70,
+      "cpc": 14.61,
+      "comp_idx": 78,
+      "cpc_low": 5.04,
+      "cpc_high": 18.09,
+      "priority": 13.11
+    },
+    {
+      "keyword": "payday loans for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp_idx": 71,
+      "cpc_low": 3.15,
+      "cpc_high": 11.41,
+      "priority": 12.72
+    },
+    {
+      "keyword": "payday advance for self employed",
+      "vol": 110,
+      "cpc": 8.21,
+      "comp_idx": 71,
+      "cpc_low": 3.15,
+      "cpc_high": 11.41,
+      "priority": 12.72
+    },
+    {
+      "keyword": "loans for employed",
+      "vol": 50,
+      "cpc": 4.59,
+      "comp_idx": 35,
+      "cpc_low": 2.3,
+      "cpc_high": 7.95,
+      "priority": 6.56
+    },
+    {
+      "keyword": "heloc for business purposes",
+      "vol": 10,
+      "cpc": 45.69,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 5.31
+    },
+    {
+      "keyword": "business loans for sole proprietors",
+      "vol": 10,
+      "cpc": 31.37,
+      "comp_idx": 64,
+      "cpc_low": 4.89,
+      "cpc_high": 22.27,
+      "priority": 4.9
+    },
+    {
+      "keyword": "self employed business loan",
+      "vol": 10,
+      "cpc": 38.6,
+      "comp_idx": 83,
+      "cpc_low": 4.24,
+      "cpc_high": 30.2,
+      "priority": 4.65
+    },
+    {
+      "keyword": "business home equity line of credit",
+      "vol": 10,
+      "cpc": 19.93,
+      "comp_idx": 43,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 4.63
+    },
+    {
+      "keyword": "cmhc commercial mortgage",
+      "vol": 50,
+      "cpc": 2.28,
+      "comp_idx": 25,
+      "cpc_low": 1.45,
+      "cpc_high": 4.28,
+      "priority": 4.56
+    },
+    {
+      "keyword": "small business loans for freelancers",
+      "vol": 10,
+      "cpc": 28.32,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 3.29
+    },
+    {
+      "keyword": "cmhc commercial mortgage rates",
+      "vol": 10,
+      "cpc": 9.74,
+      "comp_idx": 31,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 3.14
+    },
+    {
+      "keyword": "2nd mortgage for debt consolidation",
+      "vol": 10,
+      "cpc": 25.56,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 2.97
+    },
+    {
+      "keyword": "loans for self employed people",
+      "vol": 10,
+      "cpc": 24.04,
+      "comp_idx": 83,
+      "cpc_low": 7.77,
+      "cpc_high": 23.05,
+      "priority": 2.9
+    },
+    {
+      "keyword": "cash advance for self employed",
+      "vol": 10,
+      "cpc": 17.86,
+      "comp_idx": 62,
+      "cpc_low": 3.81,
+      "cpc_high": 11.96,
+      "priority": 2.88
+    },
+    {
+      "keyword": "emergency loans for self employed",
+      "vol": 10,
+      "cpc": 18.11,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 2.11
+    },
+    {
+      "keyword": "loans for sole proprietors",
+      "vol": 10,
+      "cpc": 16.54,
+      "comp_idx": 79,
+      "cpc_low": 8.75,
+      "cpc_high": 34.74,
+      "priority": 2.09
+    },
+    {
+      "keyword": "loans for self employed workers",
+      "vol": 10,
+      "cpc": 16.81,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.95
+    },
+    {
+      "keyword": "loans for self employed individuals",
+      "vol": 10,
+      "cpc": 14.68,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.71
+    },
+    {
+      "keyword": "quick loans for self employed",
+      "vol": 10,
+      "cpc": 12.34,
+      "comp_idx": 75,
+      "cpc_low": 7.07,
+      "cpc_high": 30.48,
+      "priority": 1.65
+    },
+    {
+      "keyword": "loans self employed poor credit",
+      "vol": 10,
+      "cpc": 13.55,
+      "comp_idx": 86,
+      "cpc_low": 3.65,
+      "cpc_high": 23.24,
+      "priority": 1.58
+    },
+    {
+      "keyword": "online loans for self employed",
+      "vol": 10,
+      "cpc": 11.98,
+      "comp_idx": 86,
+      "cpc_low": 7.97,
+      "cpc_high": 18.88,
+      "priority": 1.39
+    },
+    {
+      "keyword": "easy loans for self employed",
+      "vol": 10,
+      "cpc": 11.94,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.39
+    },
+    {
+      "keyword": "loans for independent contractors",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.17
+    },
+    {
+      "keyword": "self contractor loans",
+      "vol": 10,
+      "cpc": 10.02,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 1.17
+    },
+    {
+      "keyword": "loans for low credit score and self employed",
+      "vol": 10,
+      "cpc": 7.22,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.84
+    },
+    {
+      "keyword": "cmhc commercial",
+      "vol": 10,
+      "cpc": 1.15,
+      "comp_idx": 14,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.82
+    },
+    {
+      "keyword": "guaranteed loans for self employed",
+      "vol": 10,
+      "cpc": 7.01,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.82
+    },
+    {
+      "keyword": "self employed installment loans",
+      "vol": 10,
+      "cpc": 6.28,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.73
+    },
+    {
+      "keyword": "self employed loans no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp_idx": 86,
+      "cpc_low": 6.31,
+      "cpc_high": 15.01,
+      "priority": 0.69
+    },
+    {
+      "keyword": "loans for self employed no credit check",
+      "vol": 10,
+      "cpc": 5.96,
+      "comp_idx": 86,
+      "cpc_low": 6.31,
+      "cpc_high": 15.01,
+      "priority": 0.69
+    },
+    {
+      "keyword": "self employed payday loans no credit check",
+      "vol": 10,
+      "cpc": 4.94,
+      "comp_idx": 78,
+      "cpc_low": 2.52,
+      "cpc_high": 11.9,
+      "priority": 0.63
+    },
+    {
+      "keyword": "short term loans for self employed",
+      "vol": 10,
+      "cpc": 5.17,
+      "comp_idx": 86,
+      "cpc_low": 3.53,
+      "cpc_high": 13.87,
+      "priority": 0.6
+    },
+    {
+      "keyword": "personal loans for self employed bad credit",
+      "vol": 10,
+      "cpc": 4.91,
+      "comp_idx": 86,
+      "cpc_low": 0,
+      "cpc_high": 0,
+      "priority": 0.57
+    },
+    {
+      "keyword": "payday loan self employed bad credit",
+      "vol": 10,
+      "cpc": 1.94,
+      "comp_idx": 65,
+      "cpc_low": 2.04,
+      "cpc_high": 12.64,
+      "priority": 0.3
+    }
+  ]
+}

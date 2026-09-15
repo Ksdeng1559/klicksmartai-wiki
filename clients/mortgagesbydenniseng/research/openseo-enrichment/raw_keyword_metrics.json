@@ -1,0 +1,704 @@
+[
+  {
+    "keyword": "business loan",
+    "search_volume": 3600,
+    "keyword_difficulty": 34,
+    "main_intent": "commercial",
+    "cpc": 43.65,
+    "competition": 0.74,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "business loans",
+    "search_volume": 3600,
+    "keyword_difficulty": 34,
+    "main_intent": "commercial",
+    "cpc": 46.33,
+    "competition": 0.77,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "canada small business financing program",
+    "search_volume": 2900,
+    "keyword_difficulty": 23,
+    "main_intent": "commercial",
+    "cpc": 9.41,
+    "competition": 0.37,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "small business loan",
+    "search_volume": 2400,
+    "keyword_difficulty": 27,
+    "main_intent": "commercial",
+    "cpc": 28.92,
+    "competition": 0.72,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "small business loans",
+    "search_volume": 2400,
+    "keyword_difficulty": 27,
+    "main_intent": "commercial",
+    "cpc": 28.92,
+    "competition": 0.72,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "small business loan canada",
+    "search_volume": 1900,
+    "keyword_difficulty": 23,
+    "main_intent": "commercial",
+    "cpc": 26.74,
+    "competition": 0.65,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "small business loans canada",
+    "search_volume": 1900,
+    "keyword_difficulty": 25,
+    "main_intent": "commercial",
+    "cpc": 34.42,
+    "competition": 0.63,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business loans canada",
+    "search_volume": 1600,
+    "keyword_difficulty": 28,
+    "main_intent": "commercial",
+    "cpc": 47.7,
+    "competition": 0.8,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "cmhc mli select",
+    "search_volume": 1600,
+    "keyword_difficulty": 0,
+    "main_intent": "navigational",
+    "cpc": 2.6,
+    "competition": 0.03,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "commercial mortgage calculator",
+    "search_volume": 1600,
+    "keyword_difficulty": 12,
+    "main_intent": "informational",
+    "cpc": 2.7,
+    "competition": 0.48,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "small business grants",
+    "search_volume": 1300,
+    "keyword_difficulty": 22,
+    "main_intent": "commercial",
+    "cpc": 8.27,
+    "competition": 0.66,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business line of credit",
+    "search_volume": 1000,
+    "keyword_difficulty": 15,
+    "main_intent": "commercial",
+    "cpc": 53.12,
+    "competition": 0.61,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business grants",
+    "search_volume": 720,
+    "keyword_difficulty": 22,
+    "main_intent": "informational",
+    "cpc": 14.42,
+    "competition": 0.74,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "csbfp loan",
+    "search_volume": 720,
+    "keyword_difficulty": 21,
+    "main_intent": "informational",
+    "cpc": 11.42,
+    "competition": 0.69,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "bdc small business loan",
+    "search_volume": 590,
+    "keyword_difficulty": 35,
+    "main_intent": "commercial",
+    "cpc": 2.92,
+    "competition": 0.65,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business loan for startups",
+    "search_volume": 590,
+    "keyword_difficulty": 27,
+    "main_intent": "commercial",
+    "cpc": 13.71,
+    "competition": 0.68,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "commercial mortgage broker",
+    "search_volume": 590,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 11.26,
+    "competition": 0.53,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "equipment financing",
+    "search_volume": 590,
+    "keyword_difficulty": 29,
+    "main_intent": "commercial",
+    "cpc": 25.53,
+    "competition": 0.56,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "how to get a business loan",
+    "search_volume": 590,
+    "keyword_difficulty": 29,
+    "main_intent": "informational",
+    "cpc": 13.46,
+    "competition": 0.69,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "small business funding",
+    "search_volume": 590,
+    "keyword_difficulty": 25,
+    "main_intent": "commercial",
+    "cpc": 35.76,
+    "competition": 0.59,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "small business loan bdc",
+    "search_volume": 590,
+    "keyword_difficulty": 35,
+    "main_intent": "commercial",
+    "cpc": 4.81,
+    "competition": 0.62,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "self employed mortgage",
+    "search_volume": 480,
+    "keyword_difficulty": 26,
+    "main_intent": "commercial",
+    "cpc": 10.71,
+    "competition": 0.46,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "government grants canada",
+    "search_volume": 390,
+    "keyword_difficulty": 48,
+    "main_intent": "informational",
+    "cpc": 2.58,
+    "competition": 0.14,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "bridge financing canada",
+    "search_volume": 320,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 7.92,
+    "competition": 0.47,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business purchase loan",
+    "search_volume": 320,
+    "keyword_difficulty": 16,
+    "main_intent": "transactional",
+    "cpc": 15.63,
+    "competition": 0.65,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "commercial mortgage rates canada",
+    "search_volume": 320,
+    "keyword_difficulty": 16,
+    "main_intent": "commercial",
+    "cpc": 3.56,
+    "competition": 0.48,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "working capital loan",
+    "search_volume": 320,
+    "keyword_difficulty": 21,
+    "main_intent": "commercial",
+    "cpc": 115.68,
+    "competition": 0.36,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "bdc business loan",
+    "search_volume": 260,
+    "keyword_difficulty": 40,
+    "main_intent": "commercial",
+    "cpc": 7.31,
+    "competition": 0.66,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "commercial mortgage rates ontario",
+    "search_volume": 260,
+    "keyword_difficulty": 9,
+    "main_intent": "commercial",
+    "cpc": 3.73,
+    "competition": 0.62,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "small business line of credit",
+    "search_volume": 260,
+    "keyword_difficulty": 12,
+    "main_intent": "commercial",
+    "cpc": 71.09,
+    "competition": 0.36,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "unsecured business loan",
+    "search_volume": 260,
+    "keyword_difficulty": 8,
+    "main_intent": "commercial",
+    "cpc": 88.25,
+    "competition": 0.41,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "revolving line of credit",
+    "search_volume": 170,
+    "keyword_difficulty": 8,
+    "main_intent": "commercial",
+    "cpc": 8.01,
+    "competition": 0.15,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "bdc loan requirements",
+    "search_volume": 140,
+    "keyword_difficulty": 35,
+    "main_intent": "informational",
+    "cpc": 5.54,
+    "competition": 0.62,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "construction financing canada",
+    "search_volume": 140,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 5.87,
+    "competition": 0.49,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "invoice factoring canada",
+    "search_volume": 140,
+    "keyword_difficulty": 0,
+    "main_intent": "informational",
+    "cpc": 74.28,
+    "competition": 0.71,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "private mortgage lender canada",
+    "search_volume": 140,
+    "keyword_difficulty": 1,
+    "main_intent": "commercial",
+    "cpc": 12.44,
+    "competition": 0.48,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "short term business loan",
+    "search_volume": 140,
+    "keyword_difficulty": 26,
+    "main_intent": "commercial",
+    "cpc": 146.95,
+    "competition": 0.36,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business loan for restaurant",
+    "search_volume": 110,
+    "keyword_difficulty": 14,
+    "main_intent": "commercial",
+    "cpc": 14.27,
+    "competition": 0.75,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "construction to permanent financing",
+    "search_volume": 110,
+    "keyword_difficulty": 16,
+    "main_intent": "commercial",
+    "cpc": 6.05,
+    "competition": 0.06,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "factoring company canada",
+    "search_volume": 110,
+    "keyword_difficulty": 5,
+    "main_intent": "commercial",
+    "cpc": 48.63,
+    "competition": 0.81,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "small business financing",
+    "search_volume": 110,
+    "keyword_difficulty": 32,
+    "main_intent": "commercial",
+    "cpc": 48.62,
+    "competition": 0.4,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "accounts receivable financing",
+    "search_volume": 90,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 58.89,
+    "competition": 0.29,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "ar financing",
+    "search_volume": 90,
+    "keyword_difficulty": 6,
+    "main_intent": "commercial",
+    "cpc": 58.89,
+    "competition": 0.29,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "construction business loan",
+    "search_volume": 90,
+    "keyword_difficulty": 13,
+    "main_intent": "commercial",
+    "cpc": 8.24,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "medical practice loans",
+    "search_volume": 90,
+    "keyword_difficulty": 33,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "receivables financing",
+    "search_volume": 90,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 58.89,
+    "competition": 0.29,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "small business line of credit canada",
+    "search_volume": 90,
+    "keyword_difficulty": 15,
+    "main_intent": "commercial",
+    "cpc": 29.87,
+    "competition": 0.5,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business loan requirements",
+    "search_volume": 70,
+    "keyword_difficulty": 15,
+    "main_intent": "commercial",
+    "cpc": 9.5,
+    "competition": 0.36,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "retail business loans",
+    "search_volume": 70,
+    "keyword_difficulty": 19,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "business line of credit ontario",
+    "search_volume": 50,
+    "keyword_difficulty": 8,
+    "main_intent": "commercial",
+    "cpc": 227.06,
+    "competition": 0.76,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "cmhc commercial mortgage",
+    "search_volume": 50,
+    "keyword_difficulty": 26,
+    "main_intent": "commercial",
+    "cpc": 7.19,
+    "competition": 0.16,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "best business line of credit canada",
+    "search_volume": 40,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 15.04,
+    "competition": 0.63,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "business operating line of credit",
+    "search_volume": 40,
+    "keyword_difficulty": 44,
+    "main_intent": "commercial",
+    "cpc": 28.4,
+    "competition": 0.39,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "best business loans canada",
+    "search_volume": 30,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 84.64,
+    "competition": 0.79,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "factoring for trucking companies",
+    "search_volume": 30,
+    "keyword_difficulty": 40,
+    "main_intent": "commercial",
+    "cpc": 10.08,
+    "competition": 0.34,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "hard money lender canada",
+    "search_volume": 30,
+    "keyword_difficulty": 0,
+    "main_intent": "commercial",
+    "cpc": 9.33,
+    "competition": 0.77,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "commercial mortgage broker canada",
+    "search_volume": 20,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 4.03,
+    "competition": 0.25,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "long term business loan",
+    "search_volume": 20,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 180.84,
+    "competition": 0.56,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "stated income mortgage canada",
+    "search_volume": 20,
+    "keyword_difficulty": 6,
+    "main_intent": "informational",
+    "cpc": 7.39,
+    "competition": 0.88,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "auto repair shop loans",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": null,
+    "competition_level": null
+  },
+  {
+    "keyword": "best short term business loan",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0.36,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "best unsecured business loan",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 81.54,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "business loan for self employed",
+    "search_volume": 10,
+    "keyword_difficulty": 73,
+    "main_intent": "commercial",
+    "cpc": 76.38,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "business loan self employed",
+    "search_volume": 10,
+    "keyword_difficulty": 73,
+    "main_intent": "commercial",
+    "cpc": 76.38,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "cmhc self employed mortgage",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "informational",
+    "cpc": null,
+    "competition": 0,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "commercial mortgage refinance",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 15.88,
+    "competition": 0.03,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "ecommerce business loan",
+    "search_volume": 10,
+    "keyword_difficulty": 37,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": null,
+    "competition_level": null
+  },
+  {
+    "keyword": "import financing",
+    "search_volume": 10,
+    "keyword_difficulty": 37,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "mezzanine financing canada",
+    "search_volume": 10,
+    "keyword_difficulty": 36,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": null,
+    "competition_level": null
+  },
+  {
+    "keyword": "mixed use property mortgage",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "transactional",
+    "cpc": null,
+    "competition": 0.86,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "non recourse factoring",
+    "search_volume": 10,
+    "keyword_difficulty": 39,
+    "main_intent": "informational",
+    "cpc": null,
+    "competition": 0.75,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "salon business loans",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "small business factoring",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 7.46,
+    "competition": 0.57,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "tariff loan",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0,
+    "competition_level": "LOW"
+  },
+  {
+    "keyword": "tariff loan canada",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": 1.4,
+    "competition": 0.42,
+    "competition_level": "MEDIUM"
+  },
+  {
+    "keyword": "trucking company loans",
+    "search_volume": 10,
+    "keyword_difficulty": null,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": 0.73,
+    "competition_level": "HIGH"
+  },
+  {
+    "keyword": "bad credit business loans",
+    "search_volume": null,
+    "keyword_difficulty": 19,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": null,
+    "competition_level": null
+  },
+  {
+    "keyword": "best small business loan canada",
+    "search_volume": null,
+    "keyword_difficulty": 29,
+    "main_intent": "commercial",
+    "cpc": null,
+    "competition": null,
+    "competition_level": null
+  }
+]

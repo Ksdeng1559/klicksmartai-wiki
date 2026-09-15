@@ -1,0 +1,250 @@
+{
+  "play_group": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+  "total_terms": 22,
+  "total_vol": 10,
+  "avg_cpc": 0.06,
+  "terms": [
+    {
+      "kw": "tariff loan Canada",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 10,
+      "cpc": 1.4,
+      "comp": 0.1,
+      "regions": [],
+      "intent_score": 55,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "BDC tariff loan vs private lender",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "C \u2014 Informational (comparison)",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 35,
+      "intent_type": "comparison"
+    },
+    {
+      "kw": "tariff business loan",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff financing for small business",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff bridge loan",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "business loan for tariff costs",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "import tariff financing",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "A \u2014 Direct/transactional",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "cash flow loan tariff increase",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "B \u2014 Bridge/cash-flow",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "bridge loan for import costs",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "B \u2014 Bridge/cash-flow",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "working capital loan tariffs",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "B \u2014 Bridge/cash-flow",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "customs duty financing",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "B \u2014 Bridge/cash-flow",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff surcharge loan",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "B \u2014 Bridge/cash-flow",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff loan Ontario",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Geo modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff loan BC",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Geo modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff loan Alberta",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Geo modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff financing manufacturer",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Vertical modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "tariff financing importer small business",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Vertical modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "steel aluminum tariff loan",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "D \u2014 Vertical modifiers",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 30,
+      "intent_type": "transactional"
+    },
+    {
+      "kw": "business loan for import costs Canada",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "C \u2014 Informational",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 20,
+      "intent_type": "informational"
+    },
+    {
+      "kw": "tariff relief loan eligibility Canada",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "C \u2014 Informational",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 20,
+      "intent_type": "informational"
+    },
+    {
+      "kw": "how to finance tariff costs",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "C \u2014 Informational",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 5,
+      "intent_type": "informational"
+    },
+    {
+      "kw": "what to do if tariffs increase my costs",
+      "cluster": "Tariff Trigger (separate cluster \u2014 spike/news-anchored)",
+      "subcluster": "C \u2014 Informational",
+      "vol": 0,
+      "cpc": 0,
+      "comp": 0,
+      "regions": [],
+      "intent_score": 5,
+      "intent_type": "informational"
+    }
+  ]
+}
