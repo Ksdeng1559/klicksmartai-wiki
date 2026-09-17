@@ -6780,8 +6780,8 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1789535571.0088694,
-    "seen": 1789602197.2390027,
+    "mtime": 1789602259.8017776,
+    "seen": 1789618032.0200782,
     "ast_hash": "26a00f157c7a081d5aa02fc784010f07",
     "semantic_hash": ""
   },
@@ -19851,6 +19851,12 @@
     "mtime": 1789473656.3198097,
     "seen": 1789531481.8392777,
     "ast_hash": "a1277e4917a31382aad1ba74b969395b",
+    "semantic_hash": ""
+  },
+  "products/urban-mining-gold-channel.md": {
+    "mtime": 1789617708.2459483,
+    "seen": 1789618032.039228,
+    "ast_hash": "9be526e96825f03976e71ffa4037589c",
     "semantic_hash": ""
   }
 }
