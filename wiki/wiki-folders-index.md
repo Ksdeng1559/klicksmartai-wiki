@@ -148,7 +148,7 @@ HERMES AGENT (daily 6AM PT cron)
 | `gtm-engineer-resources/` | GTM engineering resources | TBD |
 | `wiki/` | Sub-wikis | TBD |
 | `SpectraHoldings/` | Spectra content (alt casing) | TBD |
-| `Spectraholdings/` | Spectra content (alt casing) | TBD |
+| `Spectraholdings/` | ~~Spectra content (alt casing)~~ consolidated into `SpectraHoldings/` 2026-09-20 | removed |
 | `_meta/` | Metadata (hook logs) | TBD |
 
 ---

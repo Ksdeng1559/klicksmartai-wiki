@@ -42,7 +42,7 @@ No output is complete unless it supports one of these decisions:
 ## Initial Wiki Map
 
 ```text
-Spectraholdings/
+SpectraHoldings/
 ├── README.md
 ├── SCHEMA.md
 ├── AGENTS.md

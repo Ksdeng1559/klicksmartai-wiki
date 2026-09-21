@@ -111,7 +111,7 @@ research/* (raw) → workflow/* (active) → wiki-llm review → master → Grap
 | `GrantFundingAI/` | Grant funding AI project |
 | `gtm-engineer-resources/` | GTM engineering resources |
 | `wiki/` | Sub-wikis |
-| `SpectraHoldings/` / `Spectraholdings/` | Spectra Holdings content |
+| `SpectraHoldings/` | Spectra Holdings content (canonical; `Spectraholdings/` consolidated into it 2026-09-20) |
 | `_meta/` | Metadata (hook logs, etc.) |
 
 ### Key Top-Level Files
