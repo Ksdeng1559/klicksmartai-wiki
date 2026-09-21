@@ -323,36 +323,6 @@
     "ast_hash": "9d14ba4c8bbc200a0a028dfcc53d6c4a",
     "semantic_hash": ""
   },
-  "Spectraholdings/AGENTS.md": {
-    "mtime": 1778468465.3329048,
-    "seen": 1788871160.5386653,
-    "ast_hash": "9c7a85370601ee41a4c26fbd31ad1482",
-    "semantic_hash": ""
-  },
-  "Spectraholdings/README.md": {
-    "mtime": 1778468465.3329048,
-    "seen": 1788871160.538666,
-    "ast_hash": "c42b18f1fb6c2dafa3c1eb28ac2d58ec",
-    "semantic_hash": ""
-  },
-  "Spectraholdings/SCHEMA.md": {
-    "mtime": 1778468465.3329048,
-    "seen": 1788871160.538667,
-    "ast_hash": "185a0581aae6bbe24a851bde87921f47",
-    "semantic_hash": ""
-  },
-  "Spectraholdings/index.md": {
-    "mtime": 1779037000.7200856,
-    "seen": 1788871160.538668,
-    "ast_hash": "1e546fb47c97e8a196879625faea243c",
-    "semantic_hash": ""
-  },
-  "Spectraholdings/log.md": {
-    "mtime": 1778468465.3329048,
-    "seen": 1788871160.5386696,
-    "ast_hash": "ee57e48499b90c21b6353498a3564c89",
-    "semantic_hash": ""
-  },
   "architecture/agents/division_based_architecture.md": {
     "mtime": 1777056635.9051678,
     "seen": 1788871160.538672,
@@ -6665,12 +6635,6 @@
     "ast_hash": "a1277e4917a31382aad1ba74b969395b",
     "semantic_hash": ""
   },
-  "C:\\Users\\denni\\AppData\\Local\\Temp\\\\bloat-scan.ps1": {
-    "mtime": 1788706319.4500525,
-    "seen": 1788871160.5385911,
-    "ast_hash": "98f4a27379ddd1f3cfed7499443eeb0f",
-    "semantic_hash": ""
-  },
   "clients/veritas-development/family-offices/2026-09-06-deck-peer-review.md": {
     "mtime": 1788710551.4621391,
     "seen": 1788871160.538818,
@@ -6780,9 +6744,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1789910723.158781,
-    "seen": 1789910772.9274158,
-    "ast_hash": "21dffdd09ec8476fdee250212722fc5c",
+    "mtime": 1789966517.3224344,
+    "seen": 1789967254.7163866,
+    "ast_hash": "2901804a3d55e55d3758bcbb3889df74",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -7644,9 +7608,9 @@
     "semantic_hash": ""
   },
   "wiki/SpectraHoldings/README.md": {
-    "mtime": 1789473655.1027296,
-    "seen": 1789531481.8362763,
-    "ast_hash": "c42b18f1fb6c2dafa3c1eb28ac2d58ec",
+    "mtime": 1789967078.2441134,
+    "seen": 1789967254.756375,
+    "ast_hash": "8844f32eb86389c7b64e540eef631bcc",
     "semantic_hash": ""
   },
   "wiki/SpectraHoldings/Research for Capital Formation - NotebookLM Prompt Stack.md": {
@@ -12018,9 +11982,9 @@
     "semantic_hash": ""
   },
   "wiki/klicksmartai-wiki-architecture.md": {
-    "mtime": 1789473655.36895,
-    "seen": 1789531481.8371894,
-    "ast_hash": "5f7c265407fbbd68ce929d9d28b3c6b3",
+    "mtime": 1789967081.322795,
+    "seen": 1789967254.7822626,
+    "ast_hash": "93589932f9240826deced0d509d580ad",
     "semantic_hash": ""
   },
   "wiki/lessons/verify-from-session-and-docker-state.md": {
@@ -19812,15 +19776,9 @@
     "semantic_hash": ""
   },
   "wiki/wiki-folders-index.md": {
-    "mtime": 1789473656.3129196,
-    "seen": 1789531481.8392694,
-    "ast_hash": "8b6880705443350d4bd354b05d3c255a",
-    "semantic_hash": ""
-  },
-  "wiki/wiki/raw/test-klicksmartai.md": {
-    "mtime": 1789473656.3134487,
-    "seen": 1789531481.8392704,
-    "ast_hash": "7d7b45c6d8716ef86ce6c1e6618ff156",
+    "mtime": 1789967078.2491684,
+    "seen": 1789967254.8360858,
+    "ast_hash": "bef296ce3f599dd859aecaede6a8f0f4",
     "semantic_hash": ""
   },
   "wiki/workflows/ncf-pilot-run-log.md": {
