@@ -6744,9 +6744,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1790163218.2249439,
-    "seen": 1790165064.3231726,
-    "ast_hash": "f9bc50cce2c9651e40313131922b3776",
+    "mtime": 1790259249.269453,
+    "seen": 1790259398.3238013,
+    "ast_hash": "960c4bb750d2ed6aa2bedc78f80aad81",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -19815,6 +19815,42 @@
     "mtime": 1789617708.2459483,
     "seen": 1789618032.039228,
     "ast_hash": "9be526e96825f03976e71ffa4037589c",
+    "semantic_hash": ""
+  },
+  "clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/NOTEBOOKLM-IMPORT.html": {
+    "mtime": 1790199100.5751638,
+    "seen": 1790259398.3341794,
+    "ast_hash": "f193a77fbc317e9c973a68c86c5fe2b8",
+    "semantic_hash": ""
+  },
+  "clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/NOTEBOOKLM-IMPORT.md": {
+    "mtime": 1790198708.9843955,
+    "seen": 1790259398.3341815,
+    "ast_hash": "480e6971849ba519056caf2bd7635726",
+    "semantic_hash": ""
+  },
+  "clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/README.md": {
+    "mtime": 1790198337.1936612,
+    "seen": 1790259398.3341835,
+    "ast_hash": "6c359899f55d96739569c97f76f3fd08",
+    "semantic_hash": ""
+  },
+  "clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/preliminary-pcb-to-credits.md": {
+    "mtime": 1790198273.2063494,
+    "seen": 1790259398.3341846,
+    "ast_hash": "47dddea6a23eb7fb046a9ae285bc7bcf",
+    "semantic_hash": ""
+  },
+  "clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/verra-vmr0008-eligibility.md": {
+    "mtime": 1790198330.1404624,
+    "seen": 1790259398.3341875,
+    "ast_hash": "8d3c6cb35c62083fdd3a3c4f2f2d85ff",
+    "semantic_hash": ""
+  },
+  "workspace/cron-logs/2026-09-23/chief-of-staff.md": {
+    "mtime": 1790175612.7533972,
+    "seen": 1790259398.5292044,
+    "ast_hash": "63d8c62ecddd068fd0b12a40a65c775a",
     "semantic_hash": ""
   }
 }
