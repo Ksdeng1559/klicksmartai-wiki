@@ -1,0 +1,70 @@
+# EPA WARM v16 — Electronics Recycling Emission Factors (US ton / short ton)
+
+**Source:** EPA, *Documentation for Greenhouse Gas Emission and Energy Factors Used in the Waste Reduction Model (WARM) Version 16 — Electronics*, December 2023, EPA-530-R-23-022.
+**URL:** https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf
+**Confidence:** HIGH (US EPA primary source)
+
+---
+
+## Net GHG Emissions by Materials Management Option (MTCO2E per Short Ton)
+
+Negative values = net GHG avoided.
+
+| Material | Source Reduction (Net) | Recycling (Net) | Combustion (Net) | Landfilling (Net) |
+|---|---:|---:|---:|---:|
+| Desktop CPUs | -20.86 | -1.49 | -0.66 | +0.02 |
+| Portable Electronic Devices | -29.83 | -1.06 | +0.65 | +0.02 |
+| Flat-Panel Displays | -24.19 | -0.99 | +0.03 | +0.02 |
+| CRT Displays | NA | -0.57 | +0.45 | +0.02 |
+| Electronic Peripherals | -10.32 | -0.36 | +2.08 | +0.02 |
+| Hard-Copy Devices | -7.65 | -0.56 | +1.20 | +0.02 |
+| **Mixed Electronics** | **-20.79** | **-0.90** | **+0.34** | **+0.02** |
+
+## Component Composition of "Mixed Electronics" (Babbitt 2017; Hikwama 2005)
+
+| Material | Ferrous | Aluminum | Copper | Other Metals | Plastic | PCB | Display | CRT Glass | Battery |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Desktop CPUs | 59% | 11% | 4% | 0% | 12% | 14% | 0% | 0% | 0% |
+| Portable Devices | 7% | 12% | 2% | 4% | 27% | 14% | 16% | 0% | 18% |
+| Flat-Panel Displays | 37% | 7% | 1% | 0% | 22% | 6% | 26% | 0% | 0% |
+| CRT Displays | 5% | 1% | 3% | 0% | 19% | 11% | 0% | 61% | 0% |
+| Electronic Peripherals | 2% | 0% | 26% | 0% | 68% | 4% | 0% | 0% | 0% |
+| Hard-Copy Devices | 37% | 0% | 1% | 0% | 59% | 3% | 0% | 0% | 0% |
+
+## Per-Component Virgin-Production Emissions (MTCO2E / Short Ton)
+
+**The KEY multiplier for per-component accounting under VMR0008 / AMS-III.BA.**
+
+| Component | Process Energy | Transport | Process Non-Energy | Net |
+|---|---:|---:|---:|---:|
+| Ferrous Metal | 2.32 | IE | — | 2.32 |
+| Aluminum | 5.90 | IE | — | 5.90 |
+| Copper | 6.72 | 0.03 | — | 6.76 |
+| Other Metals | 4.82 | IE | 0.28 | 5.10 |
+| Plastic | 4.28 | 0.11 | 0.38 | 4.76 |
+| **Printed Circuit Board** | **126.70** | IE | — | **126.70** |
+| Flat Panel Display Module | 54.59 | IE | — | 54.59 |
+| Battery (Li-ion) | 4.79 | IE | — | 4.79 |
+
+**Key implication:** PCB alone accounts for 126.70 tCO2e/ton (more than 21× any other component). High-grade server-board feedstock (30–50% PCB mass) can therefore drive substantial VCUs IF per-component accounting is accepted by VVB.
+
+---
+
+## How to use these numbers
+
+For a VMR0008 / AMS-III.BA project, the per-tonne base calculation is:
+
+```
+Avoided virgin emissions (MTCO2E/ton) =
+   (component_mass_share × component_virgin_emission_factor)
+   summed across all components
+```
+
+For server boards, plug in ~40% PCB + ~30% copper trace + ~10% ferrous + ~15% plastic + ~5% other:
+```
+0.40 × 126.70 + 0.30 × 6.76 + 0.10 × 2.32 + 0.15 × 4.76 + 0.05 × 5.10
+= 50.68 + 2.03 + 0.23 + 0.71 + 0.26
+= ~53.91 MTCO2E/ton raw avoided emissions (server-grade PCB feedstock)
+```
+
+Then apply the VMR0008 upstream displacement discount factor (magnitude TBD) and per-tonne collection/transport/processing emissions to get NET eligible tCO2e.

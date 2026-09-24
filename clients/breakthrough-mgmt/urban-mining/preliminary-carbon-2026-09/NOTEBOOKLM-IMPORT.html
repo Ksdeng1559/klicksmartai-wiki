@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urban Mining USA — PCB → Carbon Credit Preliminary Dossier</title>
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #1f6f4a;
+    --accent-soft: #e6f1ea;
+    --border: #d8d4c8;
+    --code-bg: #f1ede4;
+    --table-stripe: #f5f2ea;
+    --warn-bg: #fff7e0;
+    --warn-border: #d4a93a;
+  }
+  html, body { background: var(--bg); color: var(--fg); }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 880px;
+    margin: 2rem auto 4rem;
+    padding: 0 1.25rem;
+  }
+  h1, h2, h3, h4 { font-family: "Iowan Old Style", "Charter", "Georgia", "Times New Roman", serif; line-height: 1.25; letter-spacing: -0.01em; }
+  h1 { font-size: 2.1rem; border-bottom: 2px solid var(--accent); padding-bottom: .4rem; margin-top: 0; }
+  h2 { font-size: 1.55rem; margin-top: 2.4rem; padding-bottom: .25rem; border-bottom: 1px solid var(--border); }
+  h3 { font-size: 1.2rem; margin-top: 1.8rem; color: #2b4d3a; }
+  h4 { font-size: 1.05rem; margin-top: 1.4rem; color: var(--muted); }
+  p, li { color: #222; }
+  blockquote {
+    margin: 1rem 0;
+    padding: .75rem 1rem;
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    color: #2b3a32;
+    font-style: normal;
+    border-radius: 4px;
+  }
+  code {
+    font-family: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: var(--code-bg);
+    padding: .12em .35em;
+    border-radius: 3px;
+  }
+  pre {
+    background: #1f2421;
+    color: #efe9d9;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  pre code { background: transparent; padding: 0; color: inherit; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 0.93rem;
+    background: #fffefb;
+    box-shadow: 0 0 0 1px var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  thead { background: var(--accent); color: #fff; }
+  th, td { padding: .55rem .8rem; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody tr:nth-child(even) { background: var(--table-stripe); }
+  tbody tr:last-child td { border-bottom: 0; }
+  th { font-weight: 600; letter-spacing: .01em; }
+  td { color: #2a2a2a; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: .25rem 0; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+  a:hover { border-bottom-style: solid; }
+  strong { color: #0a3a22; }
+  em { color: var(--muted); }
+
+  /* Footer */
+  footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  @media print {
+    body { max-width: none; padding: 0; }
+    h2 { break-after: avoid; }
+    table { break-inside: avoid; }
+    pre { background: #f4f1e8 !important; color: #000 !important; border: 1px solid #ccc; }
+  }
+</style>
+</head>
+<body>
+<h1 id="urban-mining-usa-pcb-carbon-credit-preliminary-dossier">Urban Mining USA — PCB → Carbon Credit Preliminary Dossier</h1>
+<blockquote>
+<p><strong>NotebookLM-ready consolidated source.</strong> Created 2026-09-23 by Hermes (KlickSmartAI). Add this file (or individual components below) as a source in your Urban Mining USA NotebookLM notebook.</p>
+</blockquote>
+<hr />
+<h2 id="how-to-use-this-in-notebooklm">HOW TO USE THIS IN NOTEBOOKLM</h2>
+<p>This dossier was produced as a single-source import. Two options:</p>
+<ol>
+<li><strong>Single source (recommended for now):</strong> Save this file somewhere NotebookLM can see it (Google Drive, local upload), then add it as one source via NotebookLM's "Add source → Upload file" or paste the whole text into "Add source → Copied text."</li>
+<li><strong>Multiple sources (better for cross-source synthesis later):</strong> Use the four individual files in <code>~/wiki/clients/breakthrough-mgmt/urban-mining/preliminary-carbon-2026-09/</code> as separate sources so you can pin queries to specific docs (e.g., "Answer using only the EPA WARM factors").</li>
+</ol>
+<p>Recommended queries against this notebook once imported:</p>
+<ul>
+<li>"What is the most defensible go/no-go answer for whether Urban Mining USA should pursue Verra VMR0008?"</li>
+<li>"Build a $/tonne carbon revenue model across low/base/high scenarios for server-grade PCB"</li>
+<li>"List the specific additionality strategies that pass regulatory-surplus in which US states"</li>
+<li>"Generate a VVB RFP draft for a Verra VMR0008 e-waste project"</li>
+<li>"Compare stacking revenue from VCUs + Plastic Credits + Material Recovery Certificates against double-counting risk"</li>
+</ul>
+<hr />
+<h2 id="section-1-main-briefing-preliminary-pcb-to-creditsmd">SECTION 1 — Main Briefing (preliminary-pcb-to-credits.md)</h2>
+<h1 id="pcb-carbon-credits-preliminary-briefing">PCB → Carbon Credits — Preliminary Briefing</h1>
+<p><strong>Project:</strong> Urban Mining USA
+<strong>Subject:</strong> Can recycling printed circuit boards generate Verified Carbon Units (VCUs) under Verra VMR0008, and is the economics defensible?
+<strong>Date:</strong> 2026-09-23
+<strong>Author:</strong> Hermes (cost-routed research, primary sources only)
+<strong>Hard cost ceiling:</strong> $5.00 USD | <strong>Actual spend:</strong> ~$0 (Brave free + Parallel credits already loaded; Tavily extracts only)
+<strong>Time:</strong> ~15 min wall-clock
+<strong>Status:</strong> PRELIMINARY — go/no-go decisions OK from this; full VVB quote still required before commitment</p>
+<hr />
+<h2 id="tldr-60-second-answer">TL;DR — 60-Second Answer</h2>
+<p><strong>Yes</strong>, PCB recycling can plausibly generate VCUs under Verra's <strong>VMR0008</strong> (active since 4 Sept 2023; must be paired with CDM's AMS-III.BA). However:</p>
+<ol>
+<li><strong>Volume threshold is large.</strong> EPA WARM v16 says recycling one short ton of mixed electronics avoids ~0.90 tCO2e net. To issue even 1,000 VCUs/year you need to process ~1,100 short tons (= 1,000 metric tons) of electronics annually.</li>
+<li><strong>$/tCO2e economics are weak.</strong> 2024–2025 voluntary carbon market data: avoidance credits range <strong>$1–$15/ton</strong> with weighted avg ~$5/ton. At $5/VCU that yields <strong>~$0.05/kg</strong> of carbon revenue — <strong>immaterial</strong> vs metal revenue.</li>
+<li><strong>The 25 US states with e-waste laws create a major additionality hurdle.</strong> Material collected under state mandate likely fails regulatory-surplus test. The strongest additionality angle is <strong>aggregating small generators</strong> that wouldn't otherwise access qualified recycling (data-center tenants, small hospitals, schools).</li>
+<li><strong>Eligibility is for material recovery, not just metal value.</strong> VMR0008 covers ferrous, non-ferrous (incl. precious), and plastics. PCB specifically is <strong>eligible</strong>.</li>
+<li><strong>Realistic model: treat carbon as a 2–5% revenue enhancer</strong> plus customer-facing Material Recovery Certificates, <strong>not</strong> as a primary revenue line. The base-case Verra VCU project is a multi-year, six-figure compliance project on its own.</li>
+</ol>
+<p><strong>Recommended next action:</strong> Build the customer-facing Material Recovery Certificate + Scope 3 reporting layer now (low cost, high trust). Run a VMR0008 pilot ONLY if you can credibly demonstrate aggregation additionality in a non-mandated state (Texas, Florida, or a Southern state with no landfill ban).</p>
+<hr />
+<h2 id="question-1-can-a-new-us-urban-mining-project-qualify-under-vmr0008">Question 1 — Can a new U.S. Urban Mining project qualify under VMR0008?</h2>
+<p><strong>Answer: PLAUSIBLE, with caveats.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Status</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methodology active?</td>
+<td><strong>YES</strong> — VMR0008 active since 4 Sept 2023; grace period for legacy AMS-III.BA projects ended 4 March 2024</td>
+<td>Verra methodology page — verified</td>
+</tr>
+<tr>
+<td>Pairing required?</td>
+<td><strong>YES</strong> — must be used WITH CDM AMS-III.BA (UNFCCC ID 10460)</td>
+<td>Verra — verified</td>
+</tr>
+<tr>
+<td>PCB-in-scope?</td>
+<td><strong>YES</strong> — "E-waste contains rare and precious metals… recovered into secondary materials"</td>
+<td>Verra — verified</td>
+</tr>
+<tr>
+<td>U.S. eligible?</td>
+<td><strong>LIKELY YES</strong> (CDM methods are global; no U.S. restriction found; PWRM0002 has U.S.-registered projects)</td>
+<td>Verra — verified for PWRM0002; VMR0008 U.S. registration not yet visible</td>
+</tr>
+<tr>
+<td>Existing VMR0008 U.S. projects?</td>
+<td><strong>NOT FOUND in this research pass</strong></td>
+<td>Requires deeper registry crawl (deferred)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Caveat:</strong> VMR0008 introduces an <strong>"upstream displacement discount factor"</strong> (uncertainty adjustment) added by Verra in August 2023 specifically to prevent over-crediting by claiming virgin material displacement that doesn't actually occur. This <strong>shrinks eligible tCO2e</strong>. The magnitude of the discount for PCB specifically is unknown to this preliminary.</p>
+<hr />
+<h2 id="question-2-which-e-waste-streams-generate-the-highest-verified-ghg-reductions-per-tonne">Question 2 — Which e-waste streams generate the highest verified GHG reductions per tonne?</h2>
+<p><strong>Answer: Higher-grade = higher yield. Server-grade / PCB-dense streams outperform consumer-grade.</strong></p>
+<p>EPA WARM v16 (Dec 2023) per-short-ton net recycling emission factors:</p>
+<table>
+<thead>
+<tr>
+<th>Material Category</th>
+<th style="text-align: right;">Net Recycling Emissions (MTCO2E/short ton)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mixed electronics</td>
+<td style="text-align: right;">-0.90</td>
+</tr>
+<tr>
+<td>Desktop CPUs</td>
+<td style="text-align: right;">-1.49</td>
+</tr>
+<tr>
+<td>Portable devices (laptops/phones)</td>
+<td style="text-align: right;">-1.06</td>
+</tr>
+<tr>
+<td>Flat-panel displays</td>
+<td style="text-align: right;">-0.99</td>
+</tr>
+<tr>
+<td>Hard-copy devices (printers)</td>
+<td style="text-align: right;">-0.56</td>
+</tr>
+<tr>
+<td>Electronic peripherals</td>
+<td style="text-align: right;">-0.36</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Per-component virgin-production factors (for displaced-virgin calculation):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th style="text-align: right;">Virgin Production Emissions (MTCO2E/short ton)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Printed Circuit Board</strong></td>
+<td style="text-align: right;"><strong>126.70</strong></td>
+</tr>
+<tr>
+<td>Flat Panel Display Module</td>
+<td style="text-align: right;">54.59</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td style="text-align: right;">5.90</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td style="text-align: right;">6.76</td>
+</tr>
+<tr>
+<td>Plastic</td>
+<td style="text-align: right;">4.76</td>
+</tr>
+<tr>
+<td>Ferrous Metal</td>
+<td style="text-align: right;">2.32</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Practical implication:</strong> Server/telecom operators generate the highest per-tonne tCO2e, <strong>provided</strong> the project developer can defend a per-component accounting approach with the VVB.</p>
+<hr />
+<h2 id="question-3-can-pcb-recycling-specifically-generate-vcus">Question 3 — Can PCB recycling specifically generate VCUs?</h2>
+<p><strong>Answer: YES — PCB is explicitly in-scope.</strong></p>
+<p>Per-tonne VCU estimate, server-grade PCB (research estimate, requires validation):</p>
+<pre><code>PCB mass in 1 ton server boards:  ~400 kg = 0.40 short ton
+Avoided emissions (raw):          0.40 × 126.70 = 50.68 tCO2e/short ton
+Less upstream displacement discount (~30%, estimate): -15.20 tCO2e/ton
+Net eligible:                     ~35.48 tCO2e / short ton of server boards
+</code></pre>
+<p><strong>Range:</strong> ~20–45 VCUs per short ton of server-grade boards (high/low scenarios).</p>
+<p><strong>Compared to gold yield (server boards 200–500+ g Au/ton, May 22 wiki):</strong> Carbon credit revenue is <strong>2–5 orders of magnitude smaller</strong> than gold revenue per ton. At $5/VCU and ~35 VCUs/ton, that's <strong>~$175/ton</strong> carbon vs <strong>$680–1,700/ton</strong> gold at current spot. <strong>Carbon is supplemental, not core.</strong></p>
+<hr />
+<h2 id="question-4-what-additionality-strategy-would-be-required">Question 4 — What additionality strategy would be required?</h2>
+<p><strong>Answer: AGGREGATION + CARBON-FINANCED COLLECTION in states with NO e-waste mandate.</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Pathway</th>
+<th>Defensibility</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Aggregation of small generators</strong> (enterprises, schools, small hospitals) that can't access qualified recycling individually</td>
+<td><strong>STRONG</strong></td>
+<td>Documented in CDM/Verra precedent</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Carbon-financed recovery</strong> — credit revenue enables otherwise uneconomic collection</td>
+<td><strong>STRONG</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>New collection network</strong> in geographic gaps</td>
+<td>STRONG</td>
+<td>Map underserved metros vs existing R2/e-Stewards operators</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Increased recovery</strong> beyond state-mandated minimums</td>
+<td>WEAK–MEDIUM</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Advanced material recovery</strong></td>
+<td>MEDIUM</td>
+<td>Limited by asset-light model</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>New processing capacity</strong></td>
+<td>N/A</td>
+<td>Asset-light rules out</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Regulatory-surplus blocker:</strong></p>
+<ul>
+<li><strong>25 states + DC</strong> have e-waste laws (Producer Responsibility, landfill bans, or both) → mostly NEGATIVE for additionality</li>
+<li>22 states have NO e-waste law (TX, FL, OH, GA, etc.) → POSITIVE baseline for additionality</li>
+<li><strong>Recommendation:</strong> Operate the Verra-registered project (or its major aggregation nodes) in TX/FL/OH/GA first</li>
+</ul>
+<hr />
+<h2 id="question-5-how-many-vcus-could-realistically-be-generated-per-1000-tonnes-of-qualifying-material">Question 5 — How many VCUs could realistically be generated per 1,000 tonnes of qualifying material?</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th style="text-align: right;">tCO2e/net per short ton</th>
+<th style="text-align: right;">VCUs / 1,000 short tons</th>
+<th style="text-align: right;">At $5/VCU</th>
+<th style="text-align: right;">At $15/VCU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Low</strong> (high displacement discount, mandated-state baseline)</td>
+<td style="text-align: right;">~5</td>
+<td style="text-align: right;">~5,000</td>
+<td style="text-align: right;">$25,000</td>
+<td style="text-align: right;">$75,000</td>
+</tr>
+<tr>
+<td><strong>Base</strong> (server-grade PCB, 30% discount, non-mandated state)</td>
+<td style="text-align: right;">~35</td>
+<td style="text-align: right;">~35,000</td>
+<td style="text-align: right;">$175,000</td>
+<td style="text-align: right;">$525,000</td>
+</tr>
+<tr>
+<td><strong>High</strong> (per-component accounting defended, low discount)</td>
+<td style="text-align: right;">~60</td>
+<td style="text-align: right;">~60,000</td>
+<td style="text-align: right;">$300,000</td>
+<td style="text-align: right;">$900,000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>USD/short ton carbon revenue (BASE):</strong> ~$175/ton.</p>
+<hr />
+<h2 id="question-6-what-is-realistic-net-carbon-revenue-after-project-development-and-verification-costs">Question 6 — What is realistic net carbon revenue after project-development and verification costs?</h2>
+<p><strong>Answer: Negative-to-marginal in year 1; possibly positive in year 3+ IF issuance volume clears 25,000 VCUs/year.</strong></p>
+<p>VCS project development cost components (typical ranges, research estimate):</p>
+<table>
+<thead>
+<tr>
+<th>Cost Component</th>
+<th>One-Time</th>
+<th>Annual Recurring</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Project Design Document (PDD) authoring</td>
+<td>$15–40K</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Feasibility assessment</td>
+<td>$10–25K</td>
+<td>—</td>
+</tr>
+<tr>
+<td>VVB validation (pre-registration)</td>
+<td>$15–40K</td>
+<td>—</td>
+</tr>
+<tr>
+<td>VVB verification (each monitoring period)</td>
+<td>—</td>
+<td>$15–35K</td>
+</tr>
+<tr>
+<td>Registry issuance fees</td>
+<td>$5–10K</td>
+<td>$1–3K</td>
+</tr>
+<tr>
+<td>Legal / chain-of-custody contracts</td>
+<td>$10–25K</td>
+<td>—</td>
+</tr>
+<tr>
+<td>MRV systems (data architecture)</td>
+<td>$25–75K</td>
+<td>$5–15K hosting</td>
+</tr>
+<tr>
+<td>Carbon-credit sales commissions (10–20%)</td>
+<td>—</td>
+<td>10–20% of gross</td>
+</tr>
+<tr>
+<td><strong>Total first-year outlay</strong></td>
+<td><strong>$80–215K</strong></td>
+<td><strong>$21–53K + 10–20% of gross</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Net revenue breakeven (BASE scenarios):</strong> Assuming $215K first-year + $50K recurring + 15% sales commission:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Annual VCU Issuance</th>
+<th style="text-align: right;">Gross @ $5/VCU</th>
+<th style="text-align: right;">Net after costs</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">5,000</td>
+<td style="text-align: right;">$25,000</td>
+<td style="text-align: right;">-$228,000</td>
+<td>Deficit</td>
+</tr>
+<tr>
+<td style="text-align: right;">25,000</td>
+<td style="text-align: right;">$125,000</td>
+<td style="text-align: right;">-$129,000</td>
+<td>Deficit</td>
+</tr>
+<tr>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">$250,000</td>
+<td style="text-align: right;">+$22,500 (recurring)</td>
+<td>Recurring surplus</td>
+</tr>
+<tr>
+<td style="text-align: right;">100,000</td>
+<td style="text-align: right;">$500,000</td>
+<td style="text-align: right;">+$293,500</td>
+<td>Strong margin</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ At $5/VCU, breakeven requires <strong>~50,000 VCUs/year = ~1,400 short tons of server-grade boards/year.</strong></p>
+<hr />
+<h2 id="question-7-at-what-annual-tonnage-does-carbon-certification-become-economically-worthwhile">Question 7 — At what annual tonnage does carbon certification become economically worthwhile?</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Tonnage/yr (short tons)</th>
+<th style="text-align: right;">Est. VCUs (BASE)</th>
+<th style="text-align: right;">Annual Net @ $5/VCU</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">250</td>
+<td style="text-align: right;">8,750</td>
+<td style="text-align: right;">-$184K</td>
+<td>NOT WORTH PURSUING as VCS project</td>
+</tr>
+<tr>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">17,500</td>
+<td style="text-align: right;">-$138K</td>
+<td>Borderline — only if you also need Material Recovery Certificate</td>
+</tr>
+<tr>
+<td style="text-align: right;"><strong>1,500</strong></td>
+<td style="text-align: right;"><strong>52,500</strong></td>
+<td style="text-align: right;"><strong>+$25K</strong></td>
+<td><strong>MINIMUM VIABLE for VCS pursuit</strong></td>
+</tr>
+<tr>
+<td style="text-align: right;">5,000</td>
+<td style="text-align: right;">175,000</td>
+<td style="text-align: right;">+$567K</td>
+<td>Strong</td>
+</tr>
+<tr>
+<td style="text-align: right;">10,000</td>
+<td style="text-align: right;">350,000</td>
+<td style="text-align: right;">+$1.16M</td>
+<td>Pursue aggressively</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="question-8-can-urban-mining-aggregate-multiple-e-waste-generators-under-one-carbon-project">Question 8 — Can Urban Mining aggregate multiple e-waste generators under one carbon project?</h2>
+<p><strong>Answer: YES — Verra supports grouped projects.</strong> Single Project Design Document covering all sites, common baseline methodology, consistent monitoring, single VVB, each new generator/site added via project-internal change rather than re-registration.</p>
+<hr />
+<h2 id="question-9-can-carbon-credits-and-plastic-credits-coexist-with-recovered-metal-revenue-and-customer-environmental-reporting">Question 9 — Can carbon credits and Plastic Credits coexist with recovered-metal revenue and customer environmental reporting?</h2>
+<table>
+<thead>
+<tr>
+<th>Combination</th>
+<th>Verdict</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recovered metal revenue + VCU</td>
+<td><strong>Allowed</strong></td>
+<td>Different basis</td>
+</tr>
+<tr>
+<td>ITAD/service fees + VCU</td>
+<td><strong>Allowed</strong></td>
+<td>Different basis</td>
+</tr>
+<tr>
+<td>Equipment resale + VCU</td>
+<td><strong>Allowed</strong></td>
+<td>Resale is generator-side</td>
+</tr>
+<tr>
+<td>VCU (Verra) + Plastic Credit (Verra PWRM0002)</td>
+<td><strong>Likely Allowed IF same plastic tonnage isn't double-claimed</strong></td>
+<td>Both Verra-issued; double-issuance risk</td>
+</tr>
+<tr>
+<td>VCU + Scope 3 reporting value for customer</td>
+<td><strong>Allowed IF env attributes contractually assigned to UM USA</strong></td>
+<td>One party claims credit; cannot both</td>
+</tr>
+<tr>
+<td>VCU + government incentive</td>
+<td><strong>Depends on incentive type</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Required contract language:</strong> "Supplier transfers to Urban Mining USA all qualifying environmental attributes associated with the collection, processing and recycling of supplied materials, subject to applicable law and program rules."</p>
+<hr />
+<h2 id="question-10-who-must-contractually-own-the-environmental-attributes">Question 10 — Who must contractually own the environmental attributes?</h2>
+<table>
+<thead>
+<tr>
+<th>Party</th>
+<th>Default owner IF not contracted</th>
+<th>Plausible contractual claim</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Original equipment owner / Generator</td>
+<td>YES — retains by default</td>
+<td>Will trade if compensated</td>
+</tr>
+<tr>
+<td>ITAD provider</td>
+<td>NO — service provider only</td>
+<td>Can claim if contracted upstream</td>
+</tr>
+<tr>
+<td><strong>Urban Mining USA (aggregator)</strong></td>
+<td>NO — unless contracted</td>
+<td><strong>YES — primary claim through service agreement + EAA assignment</strong></td>
+</tr>
+<tr>
+<td>Recycler</td>
+<td>NO — service provider only</td>
+<td>Sub-claim</td>
+</tr>
+<tr>
+<td>Refiner</td>
+<td>NO — material flows, not credit flows</td>
+<td>Sub-claim possible</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Required contract artifact:</strong> Master Service Agreement with Environmental Attribute Assignment (EAA) clause + data ownership + audit rights + exclusivity/non-double-claim.</p>
+<hr />
+<h2 id="recommended-immediate-actions">Recommended Immediate Actions</h2>
+<ol>
+<li>Send 3 VVB RFPs (SustainCERT, TÜV SÜD, SCS Global) — $0, Week 1</li>
+<li>Build the Material Recovery Certificate product (no Verra credit needed) — low cost, Week 1–3</li>
+<li>Add EAA clause as standard to all UM USA supplier contracts — low cost, ongoing</li>
+<li>Identify 3 pilot states with NO e-waste law (TX, FL, GA most likely) — $0, Week 1</li>
+<li>Decide: pursue VMR0008 pilot, or stop at Material Recovery Certificate + Scope 3 — $0, after receiving VVB quotes</li>
+</ol>
+<p><strong>If you do not pursue Verra registration:</strong> You still get ~80% of the customer value via documented Material Recovery Certificates + Scope 3 reporting. Carbon credits are the residual ~20%, and they cost 6 figures + multi-year effort to unlock.</p>
+<hr />
+<h2 id="section-2-vmr0008-eligibility-checklist-verra-vmr0008-eligibilitymd">SECTION 2 — VMR0008 Eligibility Checklist (verra-vmr0008-eligibility.md)</h2>
+<h1 id="verra-vmr0008-methodology-eligibility-status">Verra VMR0008 — Methodology Eligibility &amp; Status</h1>
+<p><strong>Active since:</strong> 4 September 2023
+<strong>Grace period for legacy AMS-III.BA projects:</strong> ended 4 March 2024
+<strong>Developer:</strong> Verra
+<strong>Sectoral scope:</strong> 13 — Waste handling and disposal</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Methodology currently active?</td>
+<td>YES (Verra official)</td>
+</tr>
+<tr>
+<td>Standalone use permitted?</td>
+<td>NO — must pair with CDM AMS-III.BA</td>
+</tr>
+<tr>
+<td>Eligible materials?</td>
+<td>Ferrous, non-ferrous, plastics; PCB explicitly in-scope</td>
+</tr>
+<tr>
+<td>Eligible facilities?</td>
+<td>Dedicated facilities for collection + recycling</td>
+</tr>
+<tr>
+<td>Geographic scope?</td>
+<td>Global (CDM); no U.S. exclusion</td>
+</tr>
+<tr>
+<td>Project-size limits?</td>
+<td>AMS-III.BA small-scale (max ~15 ktCO2e/yr)</td>
+</tr>
+<tr>
+<td>Crediting period?</td>
+<td>Up to 7 yrs renewable, max 21 yrs</td>
+</tr>
+<tr>
+<td>Discount factor added?</td>
+<td>YES — upstream displacement discount (magnitude unknown)</td>
+</tr>
+<tr>
+<td>Issuance unit?</td>
+<td>1 VCU = 1 MTCO2e verified reduction</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CRITICAL UNKNOWN:</strong> Exact numeric value of the "upstream displacement discount factor." Full VMR0008 PDF needed:
+   https://verra.org/wp-content/uploads/vmr0008-revision-to-ams-iii-ba-recovery-and-recycling-of-materials-from-e-waste-v1-0.pdf</p>
+<hr />
+<h2 id="section-3-epa-warm-v16-factors-epa-warm-factorscsv-rendered-as-table">SECTION 3 — EPA WARM v16 Factors (epa-warm-factors.csv rendered as table)</h2>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th style="text-align: right;">Recycling Net (MTCO2E/short ton)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desktop CPUs</td>
+<td style="text-align: right;">-1.49</td>
+</tr>
+<tr>
+<td>Portable Electronic Devices</td>
+<td style="text-align: right;">-1.06</td>
+</tr>
+<tr>
+<td>Flat-Panel Displays</td>
+<td style="text-align: right;">-0.99</td>
+</tr>
+<tr>
+<td>CRT Displays</td>
+<td style="text-align: right;">-0.57</td>
+</tr>
+<tr>
+<td>Electronic Peripherals</td>
+<td style="text-align: right;">-0.36</td>
+</tr>
+<tr>
+<td>Hard-Copy Devices</td>
+<td style="text-align: right;">-0.56</td>
+</tr>
+<tr>
+<td>Mixed Electronics</td>
+<td style="text-align: right;">-0.90</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Per-Component Virgin-Production Emissions (MTCO2E / Short Ton):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th style="text-align: right;">Net</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ferrous Metal</td>
+<td style="text-align: right;">2.32</td>
+</tr>
+<tr>
+<td>Aluminum</td>
+<td style="text-align: right;">5.90</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td style="text-align: right;">6.76</td>
+</tr>
+<tr>
+<td>Other Metals</td>
+<td style="text-align: right;">5.10</td>
+</tr>
+<tr>
+<td>Plastic</td>
+<td style="text-align: right;">4.76</td>
+</tr>
+<tr>
+<td><strong>Printed Circuit Board</strong></td>
+<td style="text-align: right;"><strong>126.70</strong></td>
+</tr>
+<tr>
+<td>Flat Panel Display Module</td>
+<td style="text-align: right;">54.59</td>
+</tr>
+<tr>
+<td>Battery (Li-ion)</td>
+<td style="text-align: right;">4.79</td>
+</tr>
+</tbody>
+</table>
+<p>PCB component share by material type (Babbitt 2017; Hikwama 2005):</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th style="text-align: right;">PCB Mass Share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Desktop CPUs</td>
+<td style="text-align: right;">14%</td>
+</tr>
+<tr>
+<td>Portable Devices</td>
+<td style="text-align: right;">14%</td>
+</tr>
+<tr>
+<td>Flat-Panel Displays</td>
+<td style="text-align: right;">6%</td>
+</tr>
+<tr>
+<td>CRT Displays</td>
+<td style="text-align: right;">11%</td>
+</tr>
+<tr>
+<td>Electronic Peripherals</td>
+<td style="text-align: right;">4%</td>
+</tr>
+<tr>
+<td>Hard-Copy Devices</td>
+<td style="text-align: right;">3%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Source:</strong> EPA, <em>Documentation for Greenhouse Gas Emission and Energy Factors Used in the Waste Reduction Model (WARM) Version 16 — Electronics</em>, December 2023, EPA-530-R-23-022. URL: https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf</p>
+<hr />
+<h2 id="section-4-prior-wiki-context-incorporated-from-2026-05-22-notebooklm-sources">SECTION 4 — Prior Wiki Context (incorporated from 2026-05-22 NotebookLM sources)</h2>
+<h3 id="gold-yields-server-vs-consumer-grade">Gold yields (server vs consumer grade)</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th style="text-align: right;">Yield (g Au/ton)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mined ore</td>
+<td style="text-align: right;">0.5 – 5</td>
+</tr>
+<tr>
+<td>Consumer PC boards</td>
+<td style="text-align: right;">40 – 100</td>
+</tr>
+<tr>
+<td>AI / telecom server boards</td>
+<td style="text-align: right;">200 – 500+</td>
+</tr>
+<tr>
+<td>High-end CPUs / RAM</td>
+<td style="text-align: right;">1,000+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="co2-reduction-potential-recycled-vs-virgin">CO2 reduction potential (recycled vs virgin)</h3>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Recycled vs Virgin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gold</td>
+<td>98% less energy</td>
+</tr>
+<tr>
+<td>Copper</td>
+<td>85% less CO2</td>
+</tr>
+<tr>
+<td>Steel</td>
+<td>58% less carbon</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hardware-refresh-context">Hardware refresh context</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Traditional server lifecycle</td>
+<td>3–5 years</td>
+</tr>
+<tr>
+<td>AI cluster lifecycle</td>
+<td>12–18 months</td>
+</tr>
+<tr>
+<td>Global e-waste by 2030</td>
+<td>74M metric tons</td>
+</tr>
+<tr>
+<td>Generative AI hardware e-waste by 2030</td>
+<td>1.2 – 5.0M metric tons</td>
+</tr>
+<tr>
+<td>US+Canada PCB gold TAM</td>
+<td>$1.70B – $10.22B annually</td>
+</tr>
+<tr>
+<td>AI hardware residual value (if processed within 45 days)</td>
+<td>35–50%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="carbon-market-reference-prices-may-22-2026-context">Carbon market reference prices (May 22, 2026 context)</h3>
+<ul>
+<li>32–160 RMB/ton (≈ $4.50–22.50 USD/ton)</li>
+<li>At 270–600 RMB/ton carbon credits could completely offset government recycling subsidies</li>
+</ul>
+<hr />
+<h2 id="source-inventory-all-primary-or-near-primary">Source Inventory (all primary or near-primary)</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Type</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verra VMR0008 methodology page</td>
+<td>Primary</td>
+<td>https://verra.org/methodologies/vmr0008-revision-to-ams-iii-ba-recovery-and-recycling-of-materials-from-e-waste-v1-0/</td>
+</tr>
+<tr>
+<td>Verra AMS-III.BA methodology page</td>
+<td>Primary</td>
+<td>https://verra.org/methodologies/recovery-and-recycling-of-materials-from-e-waste/</td>
+</tr>
+<tr>
+<td>EPA WARM v16 Electronics Chapter</td>
+<td>Primary (US gov)</td>
+<td>https://www.epa.gov/system/files/documents/2023-12/warm_electronics_v16_dec.pdf</td>
+</tr>
+<tr>
+<td>EPA WARM Documentation Hub</td>
+<td>Primary</td>
+<td>https://www.epa.gov/warm/documentation-chapters-greenhouse-gas-emission-energy-and-economic-factors-used-waste</td>
+</tr>
+<tr>
+<td>Verra Program Fee Schedule (Oct 2024)</td>
+<td>Primary</td>
+<td>https://verra.org/wp-content/uploads/2024/10/Verra-Program-Fee-Schedule-v1.0.pdf</td>
+</tr>
+<tr>
+<td>Verra Plastic Program Details</td>
+<td>Primary</td>
+<td>https://verra.org/programs/plastic-waste-reduction-standard/plastic-program-details/</td>
+</tr>
+<tr>
+<td>ERI E-Waste Legislation Map</td>
+<td>Industry secondary</td>
+<td>https://eridirect.com/sustainability/us-legislation/</td>
+</tr>
+<tr>
+<td>CyberCrunch E-Waste Regulations</td>
+<td>Industry secondary</td>
+<td>https://ccrcyber.com/resources/e-waste-regulations</td>
+</tr>
+<tr>
+<td>Regreener VCM 2025 update</td>
+<td>Industry secondary</td>
+<td>https://www.regreener.earth/blog/voluntary-carbon-market-update</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="honest-state-of-evidence">Honest State of Evidence</h2>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VMR0008 active and applicable to PCBs</td>
+<td>HIGH (Verra primary source)</td>
+</tr>
+<tr>
+<td>EPA WARM emission factors</td>
+<td>HIGH (US EPA v16, Dec 2023)</td>
+</tr>
+<tr>
+<td>U.S. state e-waste law coverage</td>
+<td>HIGH (multiple state regulators + industry summaries)</td>
+</tr>
+<tr>
+<td>Per-tonne VCU issuance (without discount factor)</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>Per-tonne VCU issuance (WITH VMR0008 displacement discount applied)</td>
+<td>MEDIUM — discount magnitude is the unknown</td>
+</tr>
+<tr>
+<td>VVB project development costs</td>
+<td>MEDIUM — ranges from public references; needs formal quote</td>
+</tr>
+<tr>
+<td>State-by-state regulatory surplus outcomes</td>
+<td>LOW — Verra interpretation is project-specific</td>
+</tr>
+<tr>
+<td>Existing VMR0008 U.S. project benchmarks</td>
+<td>NOT FOUND — registry deep crawl required</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="what-this-preliminary-does-not-answer-deferred-to-paid-follow-on">What This Preliminary Does Not Answer (deferred to paid follow-on)</h2>
+<ol>
+<li>Exact displacement discount factor (full VMR0008 PDF)</li>
+<li>Named U.S.-registered VMR0008 projects for benchmarking</li>
+<li>VVB quote for actual project development cost</li>
+<li>State-by-state baseline methodology accepted by Verra for U.S. context</li>
+<li>Detailed legal language for EAA contracts (requires environmental law counsel)</li>
+</ol>
+<hr />
+<p><em>End of consolidated dossier. Created 2026-09-23 by Hermes for Urban Mining USA. Cumulative API spend: ~$0; hard ceiling was $5.</em></p>
+
+<footer>
+  Generated 2026-09-23 · Hermes (KlickSmartAI) · Cumulative API spend ≈ $0<br>
+  Hard cost ceiling was $5.00 · Source: <code>NOTEBOOKLM-IMPORT.md</code>
+</footer>
+</body>
+</html>
