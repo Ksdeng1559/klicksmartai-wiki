@@ -1,11 +1,11 @@
 # klicksmartai-wiki — Weekly Tech-Debt RFC
 
-**Run date:** 2026-09-19 (Sat)
+**Run date:** 2026-09-26 (Sat)
 **Local mirror:** ~/wiki/tech-debt/github/klicksmartai-wiki/ (rfc.md only — no rca.md, no source)
 **GitHub remote:** not yet public. Probed `KlickSmartAI/klicksmartai-wiki` → **404**.
 **Status:** stub. Same as last week.
 
-## What changed since 2026-09-12
+## What changed since 2026-09-19
 
 **Nothing.** Per memory (2026-08-29): "commercial GitHub org TBD". Wiki source remains at `~/wiki/` on WSL2 + `/mnt/c/AI - Coding Projects/wiki/` (Windows mirror). No public GitHub mirror.
 
