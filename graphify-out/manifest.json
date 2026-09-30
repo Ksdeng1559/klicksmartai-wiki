@@ -17752,5 +17752,11 @@
     "seen": 1790571956.308549,
     "ast_hash": "cbaedb400c51c16198d8553d4d51b9a4",
     "semantic_hash": ""
+  },
+  "lessons/wiki-sync-prompt-typo-github-wki.md": {
+    "mtime": 1790741156.560061,
+    "seen": 1790741312.435704,
+    "ast_hash": "25fee2b044743d51b7967f38af35caea",
+    "semantic_hash": ""
   }
 }
