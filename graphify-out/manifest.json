@@ -17758,5 +17758,281 @@
     "seen": 1790741312.435704,
     "ast_hash": "25fee2b044743d51b7967f38af35caea",
     "semantic_hash": ""
+  },
+  "clients/business-funding-canada/CONTEXT.md": {
+    "mtime": 1790992220.1217675,
+    "seen": 1791000289.7819924,
+    "ast_hash": "7ca5de509aca5525e1e7f4746d2889ca",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/IDENTITY.md": {
+    "mtime": 1790992774.0182464,
+    "seen": 1791000289.781995,
+    "ast_hash": "2f175263ba4696142c90d7c801d9d204",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/README.md": {
+    "mtime": 1790992840.1259508,
+    "seen": 1791000289.7819963,
+    "ast_hash": "866f254416544efec64e423ed09bec49",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/compliance.md": {
+    "mtime": 1790992798.4524548,
+    "seen": 1791000289.7819972,
+    "ast_hash": "ea75d83fccc5ce15f7eef2c475410a05",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/conventions.md": {
+    "mtime": 1790992296.5613263,
+    "seen": 1791000289.7819993,
+    "ast_hash": "c5d73eb9064ce84c535b7a4e479aa84d",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/deliverables.md": {
+    "mtime": 1790992296.7702236,
+    "seen": 1791000289.7820008,
+    "ast_hash": "0a00207b235b2c708dc5b27da569aeeb",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/glossary.md": {
+    "mtime": 1790992296.7023149,
+    "seen": 1791000289.7820022,
+    "ast_hash": "ceb1158620982d8979537419accfab2e",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/gtm-skills.md": {
+    "mtime": 1790992296.614433,
+    "seen": 1791000289.7820034,
+    "ast_hash": "5042ef9353d01132e2f1f3734fb57897",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/_config/voice.md": {
+    "mtime": 1790992296.6623685,
+    "seen": 1791000289.7820048,
+    "ast_hash": "335efc3753d4674e35d0b35b69cbd104",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/drafts/business-model/lead-sniper-ai-marketplace-os-2026-10-02.md": {
+    "mtime": 1790993831.956402,
+    "seen": 1791000289.7820065,
+    "ast_hash": "3147c62b904c162b3e79a6236a4aa51c",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/drafts/competitors/accord-financial-summary-2026-10-02.md": {
+    "mtime": 1790992296.8141644,
+    "seen": 1791000289.7820082,
+    "ast_hash": "9e11b379dda6216922bc0c65fd539656",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/00_homepage.md": {
+    "mtime": 1790992190.2604928,
+    "seen": 1791000289.7820091,
+    "ast_hash": "d71a1484382b594d6112771f6cbb4858",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/accordexpress-factoring.md": {
+    "mtime": 1790992190.2498481,
+    "seen": 1791000289.7820106,
+    "ast_hash": "07819aec22dbe605f515bc72cf74e36b",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/accounts-receivable-financing.md": {
+    "mtime": 1790992190.2499373,
+    "seen": 1791000289.782012,
+    "ast_hash": "60c96d10bf37989afb0846b2d006feb8",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/apply-now_.md": {
+    "mtime": 1790992190.250008,
+    "seen": 1791000289.7820132,
+    "ast_hash": "fb85c38924adab5954c77125a0b85376",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/asset-based-lending.md": {
+    "mtime": 1790992190.250077,
+    "seen": 1791000289.7820141,
+    "ast_hash": "cce853281f9964dd49e23ed45311870f",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_.md": {
+    "mtime": 1790992190.2501934,
+    "seen": 1791000289.7820153,
+    "ast_hash": "cbd0c3f734ef6c22dca696091e50314c",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_about_.md": {
+    "mtime": 1790992190.2502513,
+    "seen": 1791000289.7820168,
+    "ast_hash": "18dc7245512e09c23e650d02fae20785",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_careers_.md": {
+    "mtime": 1790992190.2503521,
+    "seen": 1791000289.7820187,
+    "ast_hash": "1284de0a9d34d11c2431b53fdf8048d6",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_investor-relations_.md": {
+    "mtime": 1790992190.2504103,
+    "seen": 1791000289.7820203,
+    "ast_hash": "c1b67d3eb017e6ad4b943c46994bb6f4",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_investor-relations_corporate-governance_.md": {
+    "mtime": 1790992190.250501,
+    "seen": 1791000289.782022,
+    "ast_hash": "ff1d87727a3562139f957893c0d3251a",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_investor-relations_financial-reports_.md": {
+    "mtime": 1790992190.2505732,
+    "seen": 1791000289.7820232,
+    "ast_hash": "ef53a12956fd1142623201e449eb7dca",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/company_team_.md": {
+    "mtime": 1790992190.2506344,
+    "seen": 1791000289.7820241,
+    "ast_hash": "362cd53efa6a2b0110a01a123d1df0ff",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/contact_.md": {
+    "mtime": 1790992190.2506962,
+    "seen": 1791000289.7820258,
+    "ast_hash": "eaa325664eda82cbbc8904667d03aa2b",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/equipment-financing.md": {
+    "mtime": 1790992190.2507577,
+    "seen": 1791000289.7820268,
+    "ast_hash": "7472cc9078af9f51f8b6159f4b0c2778",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_.md": {
+    "mtime": 1790992190.2508202,
+    "seen": 1791000289.782028,
+    "ast_hash": "979cb4102734a08bdc6d32b3f091fb45",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_apparel-garment-textile_.md": {
+    "mtime": 1790992190.2508798,
+    "seen": 1791000289.7820294,
+    "ast_hash": "f2355408cd94aa74ed352578862fb30f",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_construction_.md": {
+    "mtime": 1790992190.2509403,
+    "seen": 1791000289.7820303,
+    "ast_hash": "92f8ee014dd122e9756ac33794b718bb",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_food-beverage_.md": {
+    "mtime": 1790992190.251004,
+    "seen": 1791000289.782032,
+    "ast_hash": "f0cc9980442ff25fc7615e0e6b375704",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_import-export_.md": {
+    "mtime": 1790992190.2510622,
+    "seen": 1791000289.782034,
+    "ast_hash": "907ba7c514e2b2b2efdee1fb3a2a1686",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_lenders_.md": {
+    "mtime": 1790992190.2511725,
+    "seen": 1791000289.782035,
+    "ast_hash": "8210e2c5fa4b5e8453e688a00ee77906",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_manufacturing_.md": {
+    "mtime": 1790992190.2512424,
+    "seen": 1791000289.782037,
+    "ast_hash": "f50c7a21de85217f355c736872f79065",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_retail_.md": {
+    "mtime": 1790992190.251313,
+    "seen": 1791000289.7820385,
+    "ast_hash": "01666bf908d658fe0dc6b5d7bcbd7389",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_services-2_.md": {
+    "mtime": 1790992190.2513783,
+    "seen": 1791000289.7820399,
+    "ast_hash": "a82d32281be54f01b4a5370bb1f356de",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/expertise_wholesale_.md": {
+    "mtime": 1790992190.2514455,
+    "seen": 1791000289.7820408,
+    "ast_hash": "b0a0ddfde7458e45e37fe82ce7e22899",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/factoring.md": {
+    "mtime": 1790992190.251514,
+    "seen": 1791000289.7820423,
+    "ast_hash": "8ab0f15df253f3add656de40342600ce",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/latest_.md": {
+    "mtime": 1790992190.2515922,
+    "seen": 1791000289.7820437,
+    "ast_hash": "822f403face1ba383f96dbeba0c19edd",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/retail-inventory-financing.md": {
+    "mtime": 1790992190.2516572,
+    "seen": 1791000289.7820444,
+    "ast_hash": "489b64df68e080f3c6504fe25dea6e32",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/services.md": {
+    "mtime": 1790992190.2517235,
+    "seen": 1791000289.7820458,
+    "ast_hash": "6abe09d678553b4c7aadfc4ca2cd00dd",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/small-business-loans.md": {
+    "mtime": 1790992190.2518773,
+    "seen": 1791000289.782047,
+    "ast_hash": "08ab11249624c3e097ed9f2d5c9505d5",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_.md": {
+    "mtime": 1790992190.2519612,
+    "seen": 1791000289.7820485,
+    "ast_hash": "020f938477bda69aa29ec938f7f20c14",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_buyouts-and-acquisitions_.md": {
+    "mtime": 1790992190.252025,
+    "seen": 1791000289.7820494,
+    "ast_hash": "21f94bdde1da5f2ed13dc21431c2b351",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_growth_.md": {
+    "mtime": 1790992190.2521365,
+    "seen": 1791000289.782051,
+    "ast_hash": "e172758f6d9044ff35ba70ac985e4e9a",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_restructuring-and-turnaround_.md": {
+    "mtime": 1790992190.2523217,
+    "seen": 1791000289.7820525,
+    "ast_hash": "5dd7d65db3e9f0066c5a769d943d5931",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_slow-receivables-turnover-and-bad-debt-loss_.md": {
+    "mtime": 1790992190.2526753,
+    "seen": 1791000289.7820542,
+    "ast_hash": "bf3a8e3af1fe453fab7cc0372cfa12de",
+    "semantic_hash": ""
+  },
+  "clients/business-funding-canada/research/competitors/accord-financial/2026-10-02/solutions_unexpected-events_.md": {
+    "mtime": 1790992190.252859,
+    "seen": 1791000289.7820551,
+    "ast_hash": "4ae03fab5625012e53b940b86b927af2",
+    "semantic_hash": ""
   }
 }
