@@ -9,10 +9,10 @@
 
 Kingsmen is the **broker-friendly private lender** we've been looking for. deBanked article (Nov 2023) confirms: "Most business loan brokers in Canada are actually mortgage brokers working with mortgage clients that happen to own a business. Such has been the case for Kingsmen Capital Investments, a Canadian small business lender that gets roughly half of its deal flow from mortgage brokers."
 
-**Key differentiator from Glasslake + Triple Queens:**
-- **Asset-based LOC** ($50K-$10M) — fills the gap between Glasslake's $200K min and Triple Queens' $2M min
+**Key differentiator from Glasslake + ~~Triple Queens~~ ⛔:**
+- **Asset-based LOC** ($50K-$10M) — fills the gap between Glasslake's $200K min and the vacated Triple Queens $2M min slot
 - **Government-backed** (CSBFP / BDC partnership implied) — different from B-lender positioning
-- **1-2 years in business minimum** (vs Glasslake's standard, Triple Queens' deal-by-deal)
+- **1-2 years in business minimum** (vs Glasslake's standard, ~~Triple Queens' deal-by-deal — inactive 2026-10-03~~)
 - **No minimum credit score** — fits self-employed / thin-credit borrowers
 - **Corporate Financing Division** handles $2-30M middle-market deals (debt advisory + acquisition financing)
 - **Partner with Kingsmen page exists** — "competitive commission structure," "earn commission once funded"
@@ -52,11 +52,11 @@ Kingsmen is the **broker-friendly private lender** we've been looking for. deBan
 - Industries: wholesale, manufacturing, construction, medical, aviation, transportation & logistics
 - Stages: growing, matured, distressed (3+ years financial history)
 
-### What they do NOT do (vs Glasslake + Triple Queens)
-- ❌ Construction draw schedules (that's Triple Queens)
-- ❌ Factoring / invoice purchase (that's Triple Queens)
+### What they do NOT do (vs Glasslake + ~~Triple Queens~~ ⛔)
+- ❌ Construction draw schedules (that's ~~Triple Queens~~ / multi — TQ inactive 2026-10-03)
+- ❌ Factoring / invoice purchase (that's ~~Triple Queens~~ — Kingsmen now offers factoring)
 - ❌ Residential mortgages (that's Glasslake)
-- ❌ Single-property bridge loans $5M+ (that's Triple Queens / private funds)
+- ❌ Single-property bridge loans $5M+ (that's ~~Triple Queens~~ / private funds — TQ inactive)
 - ❌ True long-term mortgage (5-7 yr term — that's Glasslake)
 
 ### What they uniquely do
@@ -89,12 +89,12 @@ Kingsmen is the **broker-friendly private lender** we've been looking for. deBan
 |---|---|---|---|---|---|
 | **Kingsmen Capital** | SMB asset-based LOC, term loans | All Canada (HQ Toronto) | $25K | $10M (SMB), $30M (Corp) | Bank-rejected, self-employed, startups, CEBA consolidation |
 | **Glasslake Funding** | Owner-occupied commercial mortgage | All Canada (BC contact) | $200K | $5M | Property buyers, refinance, last-renewal rejections |
-| **Triple Queens** | Bridge, construction, factoring, mezzanine | BC/AB/ON/QC | $2M | $5M+ | Time-critical acquisitions, developers, A/R-heavy businesses |
+| ~~Triple Queens~~ ⛔ | ~~Bridge, construction, factoring, mezzanine~~ | ~~BC/AB/ON/QC~~ | ~~$2M~~ | ~~$5M+~~ | **INACTIVE 2026-10-03** — vacated from anchor roster |
 
 **Coverage now extends across the entire Canadian business lending spectrum:**
 - $25K-100K (Kingsmen) — startup / micro
 - $100K-$2M (Kingsmen + Glasslake) — established SMB, owner-occupied
-- $2M-$5M (Glasslake + Triple Queens) — mid-market property + bridge
+- $2M-$5M (Glasslake + ~~Triple Queens~~) — mid-market property + bridge (TQ vacated 2026-10-03; absorbed into Glasslake + multi)
 - $5M-$30M (Kingsmen Corporate) — upper mid-market acquisitions + debt advisory
 
 ## Tariff financing — where it fits
@@ -117,7 +117,7 @@ Kingsmen does NOT have a dedicated tariff page, BUT they fit the tariff cluster 
 **Featured deal examples:** Importer who needs $200K for 60 days to pay duties + keep inventory flowing
 
 ### Page 6: `/business-loans-canada/asset-based-line-of-credit-canada/` (Tier 6, REVISED)
-**Anchors:** Kingsmen (featured, $50K-$10M) + Glasslake (for RE-backed ABL) + Triple Queens (factoring as A/R-backed)
+**Anchors:** Kingsmen (featured, $50K-$10M) + Glasslake (for RE-backed ABL) + multi-lender (Triple Queens ⛔ inactive 2026-10-03 — vacated)
 **Replaces:** The old "asset-based financing" slot in T6
 **Why this is a real page:** $10M ABL is the most accessible large-size product for SMBs
 
@@ -150,7 +150,7 @@ Kingsmen does NOT have a dedicated tariff page, BUT they fit the tariff cluster 
 
 ## Total lender roster after this addition
 - **Glasslake Funding** — owner-occupied commercial mortgage + emergency (Bayview subsidiary, $200K-$5M, all Canada)
-- **Triple Queens** — bridge, construction, factoring, mezzanine (private lender, $2M+, BC/AB/ON/QC)
+- **~~Triple Queens~~** — ~~bridge, construction, factoring, mezzanine~~ (private lender, $2M+, BC/AB/ON/QC) — ⛔ INACTIVE 2026-10-03
 - **Kingsmen Capital** — SMB asset-based LOC, term loans, corporate financing (B-lender, $25K-$10M SMB, $2-30M Corp, all Canada)
 
 **Combined coverage: $25K to $30M across 3 lender anchors spanning all product types.**

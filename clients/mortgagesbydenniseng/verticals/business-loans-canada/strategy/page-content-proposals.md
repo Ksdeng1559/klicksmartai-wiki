@@ -1,7 +1,9 @@
 # Page Content Proposals — Priority Commercial Lending Pages
 
 **Date:** 2026-09-14
-**Purpose:** Draft full content outlines for the 4 highest-leverage pages in the sitemap, using verified data from Glasslake Funding and Triple Queens as named lender anchors.
+**Purpose:** Draft full content outlines for the 4 highest-leverage pages in the sitemap, using verified data from Glasslake Funding and (formerly) Triple Queens as named lender anchors.
+
+> **⚠️ STATUS: PARTIALLY SUPERSEDED 2026-10-03** — Triple Queens inactivated (public site offline; broker channel unreachable). The bridge-financing page anchor moved to Glasslake + multi-lender; the invoice-factoring and operating-LOC anchors moved to Kingsmen. Retained on disk for content-tone reference. Do not regenerate Triple Queens-as-anchor copy in any new page without Dennis's explicit instruction.
 **Status:** Outline only — not yet built. Each outline is ready to be handed to a writer (or used as the writing brief for outsourced content).
 
 ---
@@ -11,7 +13,7 @@
 **Word count target:** 2,500-3,000
 **Target keyword:** bridge financing canada (320 vol/mo @ $7.92 CPC, 0.47 comp)
 **Secondary keywords:** commercial bridge loan, bridge loan commercial property, bridge financing commercial real estate, bridge loan canada, short term commercial loan
-**Lender anchor:** Triple Queens (featured, $2M+, <10 day close) + Glasslake (secondary, $200K-$5M, 30-90 day)
+**Lender anchor:** Glasslake (featured, $200K-$5M, owner-occupied) + Kingsmen ($25K-$10M ABL + operating LOC) + multi-lender comparison. (Triple Queens ⛔ inactive 2026-10-03 — vacated from primary anchor.)
 
 ### Outline
 
@@ -41,7 +43,7 @@ Explain the concept:
 **Section 3: When to Use Bridge Financing (400-500 words, H2)**
 
 Five use cases, each with example:
-1. **Acquisition deadline** — "10 days from losing our $6M deposit when the bank backed out" (Daniel Roy / Triple Queens testimonial)
+1. **Acquisition deadline** — "10 days from losing our $6M deposit when the bank backed out" (formerly Daniel Roy / Triple Queens testimonial; verbatim reuse acceptable for historical case study since Dennis has the source)
 2. **Construction takeout** — finished project, permanent lender not ready
 3. **Maturing loan / renewal failure** — bank said no, need new capital
 4. **Equity extraction** — pull cash from one property to fund another
@@ -60,7 +62,8 @@ Step-by-step process:
 
 | Lender | Min deal | Max LTV | Speed | Geography | Best for |
 |---|---|---|---|---|---|
-| **Triple Queens** | $2M | 75% | 5-10 days | BC/AB/ON/QC | Speed-critical acquisitions, $2M+ deals |
+| **Glasslake** | $200K | 75% | 30-90 days | All Canada | Owner-occupied commercial mortgage, BC/AB/ON/IT/priority deals |
+| **Kingsmen Corp** | $2M | 70% | 1-3 wks | All Canada | Debt advisory, acquisitions, upper mid-market |
 | **Glasslake Funding** | $200K | 80% | 30-90 days | All Canada | Smaller deals, owner-occupied, full-doc |
 | Trez Capital (private fund) | $5M | 75% | 2-4 weeks | All Canada | Larger institutional deals |
 | Romspen | $3M | 75% | 2-4 weeks | All Canada | Larger bridge deals |
@@ -94,7 +97,7 @@ Step-by-step process:
 **Section 9: Lead form**
 - "Get a 15-min call with a bridge financing specialist"
 - Fields: name, email, phone, deal summary (textarea)
-- Routing: email to Dennis + Glasslake BDM (with permission) + Triple Queens (with permission)
+- Routing: email to Dennis + Glasslake BDM (with permission) + Kingsmen Corp (with permission)
 
 **Section 10: Related guides (sidebar, internal links)**
 - `/business-loans-canada/private-mortgage-lender-canada/`
@@ -105,7 +108,7 @@ Step-by-step process:
 ---
 
 **Disclosure (footer of every page):**
-> Dennis is a licensed mortgage broker (Mortgage Architects / Verico, BC license #XXXXX). When you submit a deal through this site, Dennis may refer your application to one or more of the lenders listed on this page, including Glasslake Funding and Triple Queens, and may earn a broker commission on funded loans. Commission rates vary by lender and loan size. This site does not provide tax, legal, or investment advice.
+> Dennis is a licensed mortgage broker (Mortgage Architects / Verico, BC license #XXXXX). When you submit a deal through this site, Dennis may refer your application to one or more of the lenders listed on this page, including Glasslake Funding and Kingsmen Capital, and may earn a broker commission on funded loans. Commission rates vary by lender and loan size. This site does not provide tax, legal, or investment advice.
 
 ---
 
@@ -114,7 +117,7 @@ Step-by-step process:
 **Word count target:** 2,500-3,000
 **Target keyword:** invoice factoring canada (140 vol/mo @ $74.28 CPC, 0.71 comp)
 **Secondary keywords:** accounts receivable financing (90/mo @ $103.12), ar financing (90/mo @ $58.89), receivables financing (90/mo @ $58.89), factoring company canada (110/mo @ $48.63), small business factoring, non-recourse factoring
-**Lender anchor:** Triple Queens (featured, 90% advance in 2 days) + multi-lender comparison
+**Lender anchor:** Kingsmen (factoring + ABL, 90% advance, 24-48 hr) + multi-lender comparison (BFS, Versapay, online factoring)
 
 ### Outline
 
@@ -122,7 +125,7 @@ Step-by-step process:
 
 **Meta title:** Invoice Factoring Canada | Accounts Receivable Financing | 2026
 
-**Meta description:** Invoice factoring Canada — turn unpaid invoices into working capital. Get up to 90% of invoice value within 2 days. Compare factoring companies. Triple Queens, BFS, Versapay.
+**Meta description:** Invoice factoring Canada — turn unpaid invoices into working capital. Get up to 90% of invoice value within 48 hours. Compare factoring companies. Kingsmen, BFS, Versapay.
 
 ---
 
@@ -160,7 +163,7 @@ Step-by-step process:
 
 | Funder | Advance rate | Speed | Best for |
 |---|---|---|---|
-| **Triple Queens** | Up to 90% | 2 days | B2B with slow-paying clients, $2M+ |
+| **Kingsmen factoring** | Up to 90% | 24-48 hrs | B2B with slow-paying clients, $25K-$10M |
 | BFS (Business Finance Solutions) | 80-90% | 1-3 days | Established B2B, larger invoices |
 | Versapay | 80-90% | 1-2 days | Tech-forward, integration |
 | Accord Financial | 80-90% | 1-3 days | Manufacturing, distribution |
@@ -201,7 +204,7 @@ Step-by-step process:
 **Section 10: Lead form**
 - "Get a 15-min call with a factoring specialist"
 - Fields: name, business name, monthly revenue, average invoice size, industry
-- Routing: Triple Queens + multi-lender comparison
+- Routing: Kingsmen + multi-lender comparison
 
 ---
 
@@ -209,7 +212,7 @@ Step-by-step process:
 
 **Word count target:** 2,500-3,000
 **Target keywords:** business line of credit canada (1,000 vol/mo @ $53.12 CPC, plus 320 vol/mo @ $58.15), small business line of credit (260 vol/mo @ $71.09), business operating line of credit (40 vol/mo @ $28.40), revolving line of credit business (10 vol/mo @ $8.96), business line of credit ontario (50/mo @ $227)
-**Lender anchor:** Triple Queens (operating LOC, asset-based, flexible) + multi-lender comparison (banks + B-lenders + Glasslake)
+**Lender anchor:** Kingsmen (operating LOC, asset-based, flexible) + multi-lender comparison (banks + B-lenders + Glasslake)
 
 ### Outline
 
@@ -217,13 +220,13 @@ Step-by-step process:
 
 **Meta title:** Business Line of Credit Canada | Compare $50K-$5M LOC Options
 
-**Meta description:** Business line of credit Canada — compare $50K-$5M LOC options from banks, credit unions, and private lenders. Operating LOC vs term loan. Triple Queens + Glasslake.
+**Meta description:** Business line of credit Canada — compare $50K-$5M LOC options from banks, credit unions, and private lenders. Operating LOC vs term loan. Kingsmen + Glasslake.
 
 ---
 
 **Section 1: Direct Answer (~80 words)**
 
-> A **business line of credit (LOC) in Canada** is revolving working capital that businesses draw as needed, paying interest only on the amount used. Typical limits range from $50,000 to $5 million, with variable rates (Prime + 0.5% to Prime + 6%). Banks require 2+ years in business + strong revenue + collateral; private lenders like Triple Queens and Glasslake offer LOCs with more flexible underwriting for self-employed, startup, or bank-rejected borrowers.
+> A **business line of credit (LOC) in Canada** is revolving working capital that businesses draw as needed, paying interest only on the amount used. Typical limits range from $50,000 to $5 million, with variable rates (Prime + 0.5% to Prime + 6%). Banks require 2+ years in business + strong revenue + collateral; private lenders like Kingsmen and Glasslake offer LOCs with more flexible underwriting for self-employed, startup, or bank-rejected borrowers.
 
 ---
 
@@ -245,7 +248,7 @@ Step-by-step process:
 
 **Section 4: Who Qualifies for a Business LOC in Canada (400 words, H2)**
 - Bank requirements (traditional)
-- Private lender requirements (Triple Queens, Glasslake)
+- Private lender requirements (Kingsmen, Glasslake)
 - Self-employed (T1 generals vs incorporated)
 - Start-up businesses
 - Bank-rejected borrowers
@@ -256,14 +259,14 @@ Step-by-step process:
 |---|---|---|---|---|---|
 | Big 6 banks (RBC, TD, BMO, Scotia, CIBC, NBC) | $25K | $5M | Prime + 0.5% to Prime + 4% | 2-6 weeks | Established, strong revenue |
 | Credit unions | $25K | $2M | Prime + 1% to Prime + 4% | 3-8 weeks | Local businesses |
-| **Triple Queens (operating LOC)** | TBD | TBD | TBD | TBD | Self-employed, fast draw, no covenants |
+| **Kingsmen (operating LOC)** | $50K | TBD | TBD | TBD | SMB, 1-2 yr in business, no min credit |
 | **Glasslake Funding** | $200K | $5M | TBD | 30-90 days | Owner-occupied, alt-to-bank |
 | B-lenders (Community Trust, etc.) | $50K | $1M | Prime + 4% to Prime + 8% | 1-3 weeks | Bank-rejected, established |
 | Online lenders (FundThrough, Clearco) | $10K | $500K | 8-15% effective | 1-3 days | Tech, fast funding |
 
-**Section 6: Operating LOC from Triple Queens — Detailed (400 words, H2)**
+**Section 6: Operating LOC from Kingsmen — Detailed (400 words, H2)**
 
-Use Triple Queens' actual product positioning:
+Use Kingsmen's actual product positioning:
 - "Flexible Capital. On Demand."
 - No long approval cycles
 - No restrictive covenants
@@ -292,7 +295,7 @@ Use Triple Queens' actual product positioning:
 **Section 9: Lead form**
 - "Get matched with a business line of credit lender"
 - Fields: name, business name, time in business, monthly revenue, amount needed, purpose
-- Routing: multi-lender matching + Triple Queens + Glasslake
+- Routing: multi-lender matching + Kingsmen + Glasslake
 
 ---
 
@@ -438,6 +441,6 @@ Live rate table (updated quarterly):
 
 ## Next steps
 1. Approve the content outlines
-2. Get the Glasslake rate sheet + Triple Queens rate sheet (need actual numbers for the rate tables)
+2. Get the Glasslake rate sheet + Kingsmen rate sheet (need actual numbers for the rate tables). Triple Queens rate sheet no longer pursued (inactive 2026-10-03).
 3. Hire a writer or write the first page yourself (the bridge financing pillar — highest volume + clearest data)
 4. Build the cornerstone page first (links TO all 4 of these)

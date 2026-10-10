@@ -31,7 +31,7 @@ But the **content, brand, and lead routing** on mortgagesbydenniseng.ca are Denn
 
 - WordPress site is being rebuilt (current returns 404 — currently on Wix)
 - Vertical expansion in progress: business lending marketplace as first new subdirectory
-- 4 lender anchors onboarded (Glasslake ✅, Triple Queens ✅, Kingsmen ✅, AFN ✅ Dennis signed up 2026-09-14)
+- 3 lender anchors currently active (Glasslake ✅, Kingsmen ✅, AFN ✅ Dennis signed up 2026-09-14). Triple Queens ⛔ **inactive** as of 2026-10-03 (site is HostGator placeholder) — see [Inactive anchors](#inactive-anchors) below
 - 88-page business-lending sitemap + wireframe + executive summary ready for review
 - 5th lender anchor (Advance Funds Network) awaiting partner-agreement email with commission tier
 
@@ -80,7 +80,7 @@ This folder holds **everything for the brokerage** as a whole:
 | `tariff-loan-batch/` | Original 124-term commercial keyword set + tariff cluster |
 | `mortgage-lens-vector6/` | Vector 6A self-employed research (28 terms) |
 | `commercial-mortgage-renewal/` | Vector 6B + LendCity SERP audit + Glasslake partner profile |
-| `triplequeens-bridge/` | Triple Queens partner profile + 13 indexed URLs |
+| `triplequeens-bridge/` | Triple Queens partner profile (⛔ inactive) + 13 indexed URLs (historical) |
 | `operating-loc-factoring/` | Highest-CPC cluster (factoring + LOC, 8 terms @ $48-103 CPC) |
 | `kingsmen-capital/` | Kingsmen partner profile + 19 industries |
 | `openseo-enrichment/` | KD + intent + competition data (78 keywords enriched) |
@@ -137,6 +137,16 @@ These are the lenders Dennis has broker agreements with — anchor source for co
 - 13 verified products: Small Business Loan ($100K-$350K), Commercial Real Estate Loan, Equipment Loan, Purchase Order Financing, Working Capital Loan, Technology Equipment Loan, Loan for Tech Companies, Business Purchase or Transfer Loan, Start-up Financing, Certified Green Building Loan, etc.
 - Featured in comparison pages (BDC vs Private Lender, BDC vs Swoop, etc.) — provides trust signal without commission
 
+### Inactive anchors (paused — do not reactivate without Dennis's explicit confirmation)
+
+**Triple Queens** (triplequeens.com) — bridge + private lender — ⛔ **INACTIVE 2026-10-03**
+- Was the second primary anchor for: bridge financing, construction financing, land acquisition, invoice factoring, A/R financing, operating LOC, private mortgage lender, mezzanine, construction-to-permanent (bridge phase)
+- **Why inactive:** Public site is the default HostGator "Coming Soon" WordPress placeholder — no products, no team, no contact form, last real upload June 2025. No way to onboard new broker partnerships or pull rate sheets.
+- **What this means for content:** All pages that used Triple Queens as primary anchor have been re-anchored to multi-lender comparison + Glasslake (for owner-occupied / bridge-adjacent) or Kingsmen (for factoring / LOC) in `verticals/business-loans-canada/sitemap.md`.
+- **Comeback conditions:** Site republishes product pages AND Dennis confirms renewed broker-of-record partnership AND broker agreement is in writing.
+- **Historical analysis preserved:** `research/triplequeens-bridge/` (12KB partner profile + 6KB industries + STATUS.md)
+- **Disclosure requirements (anywhere still mentioned):** Same broker-commission disclosure rules apply if reactivated.
+
 ### Future anchors (Phase 4 outreach, month 10+)
 
 - Trez Capital (institutional bridge, $5M+)
@@ -167,8 +177,8 @@ mortgagesbydenniseng.ca/
     ├── /business-line-of-credit/  ← T2 product pillars
     ├── /bdc-vs-private-lender/    ← T3 government comparison
     ├── /commercial-mortgage-broker-canada/  ← T6 anchor (Glasslake)
-    ├── /bridge-financing-canada/  ← T6 anchor (Triple Queens)
-    ├── /invoice-factoring-canada/  ← T6 anchor (Triple Queens)
+    ├── /bridge-financing-canada/  ← T6 anchor (was Triple Queens — inactive; now Glasslake + multi)
+    ├── /invoice-factoring-canada/  ← T6 anchor (was Triple Queens — inactive; now Kingsmen + multi)
     ├── /best-business-loans-canada/  ← T4 best-X
     ├── /business-loan-for-restaurant/  ← T4 vertical (Kingsmen industry)
     ├── /retail-business-loans/    ← T4 vertical (Kingsmen NEW)
@@ -204,7 +214,7 @@ mortgagesbydenniseng.ca/
 **License #** (open question — confirm before launch)
 
 **Required footer disclosure on every page:**
-> Dennis is a licensed mortgage broker. When you submit a deal through this site, Dennis may refer your application to one or more of the lenders listed, including Glasslake Funding, Triple Queens, Kingsmen Capital, and Advance Funds Network, and may earn a broker commission on funded loans. Commission rates vary by lender and loan size. This site does not provide tax, legal, or investment advice.
+> Dennis is a licensed mortgage broker. When you submit a deal through this site, Dennis may refer your application to one or more of the lenders listed, including Glasslake Funding, Kingsmen Capital, and Advance Funds Network, and may earn a broker commission on funded loans. Commission rates vary by lender and loan size. This site does not provide tax, legal, or investment advice.
 
 ---
 

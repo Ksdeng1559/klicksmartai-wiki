@@ -4,7 +4,7 @@
 **Site root:** `mortgagesbydenniseng.ca/business-loans/`
 **Total pages planned:** 80 (Phase 1-4 + utility)
 **Inputs to this sitemap:**
-1. Triple Queens product surface (7 products, $2M+, BC/AB/ON/QC) — verified via sitemap
+1. Triple Queens product surface (7 products, $2M+, BC/AB/ON/QC) — verified via sitemap 2026-09-14, ⛔ inactive 2026-10-03 (public site offline)
 2. Glasslake Funding product surface (commercial mortgage, $200K-$5M, all of Canada) — verified
 3. Original 124-term commercial keyword set (10 play groups, 31,830 vol/mo)
 4. Vector 6 mortgage-lens cluster (3,770 vol/mo, 28+15 terms)
@@ -12,7 +12,7 @@
 
 **Lender anchor mapping:**
 - **Glasslake** = owner-occupied commercial mortgage + emergency content ($200K-$5M, all Canada)
-- **Triple Queens** = bridge + construction + land + private mortgage + factoring + mezzanine ($2M+, BC/AB/ON/QC)
+- **Triple Queens** = bridge + construction + land + private mortgage + factoring + mezzanine ($2M+, BC/AB/ON/QC) — ⛔ **INACTIVE 2026-10-03** (public site is HostGator "Coming Soon" placeholder; broker channel offline; all 9 anchor slots reassigned to Glasslake/Kingsmen/multi-lender)
 - **Multi-lender comparison** = head terms + product pillars (Swoop-style)
 - **Educational/informational** = no specific lender anchor (builds trust, captures FAQ traffic)
 
@@ -63,8 +63,8 @@
 
 **Note:** The original `business-line-of-credit/` pillar from T2 is being split:
 - `business-line-of-credit/` (general, multi-lender comparison) stays in T2
-- `business-line-of-credit-canada/` (Triple Queens + multi-lender) moves to T6 as a Triple Queens anchor page
-- Reason: the Triple Queens operating LOC has enough differentiation ($2M+, asset-based) to warrant a dedicated comparison page
+- `business-line-of-credit-canada/` (Kingsmen operating LOC + multi-lender) moves to T6 — was Triple Queens anchor page (reassigned 2026-10-03 after TQ inactivation)
+- Reason: Kingsmen's asset-based operating LOC ($50K–$10M, 1-2 yr in business, no min credit score) has enough differentiation to warrant a dedicated comparison page
 
 | URL | Target term cluster | Vol/mo | Avg CPC |
 |---|---|---:|---:|
@@ -114,15 +114,15 @@
 
 | URL | Target term | Vol/mo | CPC | Lender anchor |
 |---|---|---:|---:|---|
-| `/business-loans-canada/business-loan-for-restaurant/` | restaurant business loan | 170 | $45 | Glasslake + Triple Queens + **Kingsmen** |
-| `/business-loans-canada/construction-business-loan/` | construction business loan | 320 | $58 | Triple Queens (draw schedule) + **Kingsmen** |
+| `/business-loans-canada/business-loan-for-restaurant/` | restaurant business loan | 170 | $45 | Glasslake + **Kingsmen** (was Triple Queens; reassigned) |
+| `/business-loans-canada/construction-business-loan/` | construction business loan | 320 | $58 | **Kingsmen** (draw schedule) — was Triple Queens |
 | `/business-loans-canada/trucking-company-loans/` | trucking company loans | 110 | $62 | **Kingsmen** (transport agency funding example) |
 | `/business-loans-canada/manufacturing-business-loan/` | manufacturing business loan | 90 | $55 | **Kingsmen Corp** + Glasslake (tariff exposure) |
 | `/business-loans-canada/ecommerce-business-loan/` | ecommerce business loan | 260 | $48 | **Kingsmen** (A/R from marketplaces) |
 | `/business-loans-canada/business-loan-for-self-employed/` | business loan self employed | 320 | $76 | Vector 6A + multi-lender |
 | `/business-loans-canada/business-loan-for-startups/` | business loan for startups | 590 | TBD | **Kingsmen** (1-2 yr in business) + multi-lender |
-| `/business-loans-canada/business-loan-for-real-estate-investors/` | real estate investor loan | TBD | TBD | Triple Queens (private first) |
-| `/business-loans-canada/business-purchase-loan/` | business purchase loan | 320 | $11 | Triple Queens (acquisition) |
+| `/business-loans-canada/business-loan-for-real-estate-investors/` | real estate investor loan | TBD | TBD | **Glasslake** (was Triple Queens private first) |
+| `/business-loans-canada/business-purchase-loan/` | business purchase loan | 320 | $11 | **Multi-lender** (was Triple Queens acquisition) |
 | `/business-loans-canada/small-business-loan-bdc/` | small business loan bdc | 590 | $3 | Government comparison |
 
 **New verticals from Kingsmen industry surface (7):**
@@ -138,7 +138,7 @@
 | `/business-loans-canada/coffee-shop-business-loans/` | coffee shop business loan, cafe financing | **Kingsmen** (coffee shop tile) | Kingsmen has explicit coffee shop tile |
 
 **Total T4 volume:** ~4,200+ vol/mo (existing) + estimated ~150-300 vol/mo (new) = ~4,400-4,500 vol/mo across 24 pages
-**Lender anchor:** Mixed. Glasslake for restaurant/automotive/owner-occupied verticals. Triple Queens for real estate / construction / business purchase. **Kingsmen for all new verticals + the SMB service industries** (trucking, construction, ecom, retail, salon, etc.).
+**Lender anchor:** Mixed. Glasslake for restaurant/automotive/owner-occupied verticals. **Kingsmen** for all new verticals + the SMB service industries (trucking, construction, ecom, retail, salon, etc.). Triple Queens slots vacated 2026-10-03 (inactive — see parent README).
 
 ---
 
@@ -156,7 +156,7 @@
 
 ## T6 — Vector 6 Mortgage-Lens / Commercial Mortgage (22 pages, Month 3-8)
 
-This is the **highest-revenue tier** because of the lender anchors (Glasslake + Triple Queens) and the per-funded-deal commission economics.
+This is the **highest-revenue tier** because of the lender anchors (Glasslake + Kingsmen, per-funded-deal) and the multi-lender comparison economics. Triple Queens was originally part of this tier (8 pages) but has been **demoted to multi-lender comparison** following 2026-10-03 inactivation; those 8 pages stay in T6 but with Glasslake/Kingsmen/multi-lender anchors per the row updates below.
 
 ### Vector 6A — Self-employed (1 page, Month 6)
 
@@ -174,35 +174,36 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 | `/business-loans-canada/commercial-mortgage-ontario/` | vs LendCity | 260 | Glasslake |
 | `/business-loans-canada/restaurant-commercial-mortgage/` | Property type | TBD | Glasslake |
 | `/business-loans-canada/gas-station-commercial-mortgage/` | Property type | TBD | Glasslake |
-| `/business-loans-canada/auto-dealership-financing/` | Property type | TBD | Glasslake + Triple Queens |
-| `/business-loans-canada/mixed-use-property-mortgage/` | Property type | TBD | Glasslake + Triple Queens |
+| `/business-loans-canada/auto-dealership-financing/` | Property type | TBD | Glasslake + Kingsmen (was Glasslake + Triple Queens) |
+| `/business-loans-canada/mixed-use-property-mortgage/` | Property type | TBD | Glasslake + Kingsmen (was Glasslake + Triple Queens) |
 | `/business-loans-canada/commercial-mortgage-not-renewing/` | Emergency content | 0 (panic search) | **Glasslake as named solution** |
 | `/business-loans-canada/commercial-mortgage-declined/` | Emergency content | 0 (panic search) | **Glasslake as named solution** |
 
-### Vector 6B — Triple Queens as anchor (8 pages, Month 5-8)
+### Vector 6B — Re-anchored from Triple Queens (8 pages, Month 5-8) — Triple Queens ⛔ inactive 2026-10-03
 
-| URL | Target | Vol/mo | Lender anchor |
-|---|---|---:|---|
-| `/business-loans-canada/bridge-financing-canada/` | bridge financing canada | 320 @ $7.92 | **Triple Queens featured** |
-| `/business-loans-canada/private-mortgage-lender-canada/` | private mortgage lender canada | 140 @ $12.44 | Triple Queens + Glasslake |
-| `/business-loans-canada/construction-financing-canada/` | construction financing canada | TBD | Triple Queens (draw schedule) |
-| `/business-loans-canada/land-acquisition-financing-canada/` | land acquisition financing canada | TBD | Triple Queens (raw → entitled) |
-| `/business-loans-canada/invoice-factoring-canada/` | invoice factoring canada | 140 @ $74.28 | **Triple Queens factoring** |
-| `/business-loans-canada/accounts-receivable-financing-canada/` | A/R financing | 90 @ $103.12 | **Triple Queens factoring** (HIGHEST CPC in dataset) |
-| `/business-loans-canada/business-line-of-credit-canada/` | business line of credit canada | 1,000 @ $53.12 (from T2) + 260 small business LOC @ $71.09 | **Triple Queens operating LOC + multi-lender** |
-| `/business-loans-canada/mezzanine-financing-canada/` | mezzanine financing canada | TBD | Triple Queens |
+|| URL | Target | Vol/mo | Lender anchor |
+||---|---|---:|---|
+|| `/business-loans-canada/bridge-financing-canada/` | bridge financing canada | 320 @ $7.92 | **Glasslake (private + multi)** — was Triple Queens |
+|| `/business-loans-canada/private-mortgage-lender-canada/` | private mortgage lender canada | 140 @ $12.44 | Glasslake + multi (was TQ + Glasslake) |
+|| `/business-loans-canada/construction-financing-canada/` | construction financing canada | TBD | Kingsmen (draw schedule) + multi — was TQ |
+|| `/business-loans-canada/land-acquisition-financing-canada/` | land acquisition financing canada | TBD | Multi-lender (was TQ raw → entitled) |
+|| `/business-loans-canada/invoice-factoring-canada/` | invoice factoring canada | 140 @ $74.28 | **Kingsmen factoring** + multi (was TQ featured) |
+|| `/business-loans-canada/accounts-receivable-financing-canada/` | A/R financing | 90 @ $103.12 | **Kingsmen factoring** + multi — HIGHEST CPC in dataset |
+|| `/business-loans-canada/business-line-of-credit-canada/` | business line of credit canada | 1,000 @ $53.12 (from T2) + 260 small business LOC @ $71.09 | Kingsmen operating LOC + multi (was TQ + multi) |
+|| `/business-loans-canada/mezzanine-financing-canada/` | mezzanine financing canada | TBD | Multi-lender (was TQ) |
 
 **Why invoice factoring + A/R financing jumped up the build order:**
 - 90 vol/mo @ **$103.12 CPC** = highest single CPC in the entire dataset
 - 140 vol/mo for `invoice factoring canada` @ $74.28 CPC
 - 490 vol/mo total factoring cluster
-- Triple Queens has a dedicated factoring product page (90% advance in 2 days, Cargo Nord Laval testimonial = QC reach)
+- Kingsmen covers factoring + asset-based LOC ($25K–$10M, A/R + inventory + equipment + RE collateral)
+- Triple Queens previously cited a dedicated factoring product (90% advance in 2 days, Cargo Nord Laval testimonial = QC reach); QC reach now covered by Kingsmen's bilingual EN/FR intake
 - The factoring cluster serves small businesses that don't have property to pledge (more accessible than commercial mortgages)
 - Combined with factoring-by-vertical (trucking 10/mo, construction 10/mo), this is a real pillar opportunity
 
 **Why business LOC jumped up the build order:**
 - 260 vol/mo for `small business line of credit` @ **$71.09 CPC** — second highest CPC in dataset
-- Triple Queens has operating LOC product (flexible, no long approval cycles)
+- Kingsmen operating LOC: $50K–$10M asset-based, 1-2 yr in business, no min credit score
 - 370 vol/mo total LOC cluster
 - LOC is the gateway product (businesses start with LOC, then graduate to term loans)
 
@@ -210,12 +211,12 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 
 | URL | Target | Lender anchor |
 |---|---|---|
-| `/business-loans-canada/construction-to-permanent-financing/` | Two-lender sequence | Triple Queens (bridge) → Glasslake (takeout) |
+| `/business-loans-canada/construction-to-permanent-financing/` | Two-lender sequence | Glasslake (bridge + takeout) — was Triple Queens bridge → Glasslake takeout |
 | `/business-loans-canada/cmhc-mli-select-guide/` | CMHC deep dive | Multi-lender (CMHC is government) |
 | `/business-loans-canada/hotel-commercial-mortgage/` | Property type | Glasslake |
 
 **Total T6 volume:** ~3,770 vol/mo across 20 pages
-**Total T6 revenue projection at month 12:** $50K-200K/mo (Glasslake + Triple Queens, commission per funded deal)
+**Total T6 revenue projection at month 12:** $50K-200K/mo (Glasslake + Kingsmen, commission per funded deal)
 
 ---
 
@@ -268,7 +269,7 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 
 **Lender coverage by vertical:**
 - Glasslake: restaurant, automotive, owner-occupied verticals (5 pages)
-- Triple Queens: construction, real estate, business purchase (4 pages)
+- Triple Queens previously held the T6 bridge/construction/A&R/LOC/mezzanine slots; reassigned to Glasslake/Kingsmen/multi-lender as listed above (inactive 2026-10-03)
 - **Kingsmen: ALL new verticals (7 pages) + 4 existing verticals reinforced (restaurant, construction, trucking, ecom, manufacturing, startups)**
 
 **7 new Kingsmen-anchored verticals unlocked by the industry scrape:**
@@ -304,15 +305,15 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 8. Owner-occupied commercial mortgage pillar T6 (1)
 9. Emergency articles T6 (2)
 
-### Month 5-6 — Best X + Triple Queens (10 pages)
-10. Best X T4 (7)
-11. Bridge financing pillar T6 (1) — Triple Queens featured
+### Month 5-6 — Best X + Multi-Lender T6 (10 pages)
+
+11. Bridge financing pillar T6 (1) — **Glasslake** featured (was Triple Queens)
 12. Self-employed pillar T6A (1)
 13. Tariff triggers T5 (2 — stub at launch)
 
 ### Month 7-8 — Vertical + Private Lender + Province (12 pages)
 14. Vertical T4 (10)
-15. Private mortgage lender T6 (1) — Triple Queens + Glasslake
+15. Private mortgage lender T6 (1) — Glasslake + multi (was Triple Queens + Glasslake)
 16. Province pages T6 (3)
 
 ### Month 9-10 — Construction + Property Type + Mezzanine (10 pages)
@@ -356,7 +357,7 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 **Authority flow:**
 - Root domain mortgagesbydenniseng.ca → /business-loans-canada/ → all pages
 - /business-loans-canada/ → individual pillars (topical authority)
-- T6 pages (Glasslake + Triple Queens) link to each other and to T2/T3 (creates topical cluster around commercial lending)
+- T6 pages (Glasslake + Kingsmen) link to each other and to T2/T3 (creates topical cluster around commercial lending)
 
 **Anchor text strategy:**
 - Use exact match keywords as anchor text where natural (`business loans canada`, `bridge financing canada`, `unsecured business loan`)
@@ -369,6 +370,6 @@ This is the **highest-revenue tier** because of the lender anchors (Glasslake + 
 - `sitemap.md` — this document
 - `~/wiki/clients/business-loans-canada/README.md` — client workspace overview
 - `~/wiki/clients/business-loans-canada/strategy/` — executive summary, organic strategy, swoop analysis
-- `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` — Triple Queens partner profile
+- `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` — Triple Queens partner profile (⛔ inactive 2026-10-03)
 - `../../research/commercial-mortgage-renewal/` — Glasslake partner profile + LendCity SERP audit
 - `../../research/tariff-loan-batch/consolidated_keyword_set.json` — 124 terms, 10 play groups

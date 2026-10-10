@@ -104,8 +104,8 @@
 | 1-2 | Foundation: cornerstone + 3 pillars + 6 educational articles + 9 geo pages | 5,000 sessions/mo | 5 leads/mo |
 | 3 | **Vector 6B-1: Owner-occupied commercial mortgage pillar (Glasslake named in lender table)** | 8,000-12,000 | 8-15 |
 | 4 | 3 commercial mortgage province pages + 3 working-capital/BDC/equipment pillars | 10,000-15,000 | 12-22 |
-| 5 | Bridge financing pillar (NEW, Triple Queens featured) + 4 property-type verticals | 12,000-18,000 | 18-35 |
-| 6 | 2 emergency articles (Glasslake) + private mortgage lender pillar (Glasslake + Triple Queens) + Vector 2 best-X + Vector 6A self-employed | 14,000-22,000 | 25-55 |
+| 5 | Bridge financing pillar (Glasslake featured, post-TQ reassignment) + 4 property-type verticals | 12,000-18,000 | 18-35 |
+| 6 | 2 emergency articles (Glasslake) + private mortgage lender pillar (Glasslake + multi) + Vector 2 best-X + Vector 6A self-employed | 14,000-22,000 | 25-55 |
 | 7-9 | 3 adjacent verticals + 5-6 industry verticals + 3 lead magnets | 15,000-25,000 | 50-100 |
 | 10-12 | Lender comparison marketplace + lender partnerships + conversion optimization | 20,000-40,000 | 100-200 |
 

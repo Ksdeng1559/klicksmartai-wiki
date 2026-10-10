@@ -49,7 +49,7 @@ A dedicated OpenSEO project was created for the business-funding vertical so fut
 ### What was written
 
 **Business overview:**
-> Canadian business-lending comparison marketplace at mortgagesbydenniseng.ca/business-loans/. Subdirectory of independent BC-licensed mortgage broker Mortgages by Dennis Eng (broker-of-record via Dare2Dream group). Site: WordPress rebuild. Target: Canadian small-business owners (sub-$50K micro-SMB to $30M upper-mid-market). 88 pages across 9 tiers. Mortgage-broker differentiator (HELOC / refi-for-business / CMHC MLI Select vs credit-broker competitors). 5 lender anchors: BDC (trust), Glasslake ($200K-$5M owner-occupied), Triple Queens ($2M+ bridge), Kingsmen ($25K-$30M SMB/Corp), AFN (same-day sub-$500K).
+> Canadian business-lending comparison marketplace at mortgagesbydenniseng.ca/business-loans/. Subdirectory of independent BC-licensed mortgage broker Mortgages by Dennis Eng (broker-of-record via Dare2Dream group). Site: WordPress rebuild. Target: Canadian small-business owners (sub-$50K micro-SMB to $30M upper-mid-market). 88 pages across 9 tiers. Mortgage-broker differentiator (HELOC / refi-for-business / CMHC MLI Select vs credit-broker competitors). 5 lender anchors: BDC (trust), Glasslake ($200K-$5M owner-occupied), Kingsmen ($25K-$30M SMB/Corp), AFN (same-day sub-$500K). Triple Queens (was $2M+ bridge) ⛔ **INACTIVE 2026-10-03** — public site offline, broker channel unreachable.
 
 **Current goal:**
 > Capture 41,580 vol/mo of Canadian business-lending search demand. Month-12 lead volume 84-139/mo. Month-12 revenue $8K-17K/mo baseline, $25K-80K/mo upside with Vector 6B commercial mortgage + AFN sub-$50K emergency + bad-credit segments. Year-1 ROI 3-20x.
@@ -379,7 +379,7 @@ For each top-15 SERP target, account for these competitors:
 
 | Competitor | Strategy |
 |---|---|
-| Innovation Canada (ised-isde.ca) #2 | Differentiate on multi-lender + mortgage lens + specific lender names (BDC, Glasslake, Triple Queens, Kingsmen, AFN) |
+| Innovation Canada (ised-isde.ca) #2 | Differentiate on multi-lender + mortgage lens + specific lender names (BDC, Glasslake, Kingsmen, AFN — Triple Queens inactive 2026-10-03) |
 | BDC #4 | We are comparison-anchor partner, not rival — feature BDC products freely + link out |
 | RBC / Scotia / CIBC / BMO / TD | Differentiate on speed (same-day vs 2-4 weeks) + bad-credit (500+ vs 680+) + alternative products (MCA, bridge, mezzanine) |
 | Reddit | Out-rank with long-form, expert byline, schema markup |

@@ -175,7 +175,7 @@ Build this as a **hub page** that links to:
 | 5-6 | 14 | T4 best-X + verticals + T6 emergency + T5 tariff |
 | 7 | 6 | T4 vertical Kingsmen + T6 Vector 6B-3 + 6A |
 | 8-9 | 14 | T4 vertical Kingsmen + Vector 6B-4 + lead magnets |
-| 10-12 | 5 | T6 Triple Queens adjacents + T8 marketplace |
+| 10-12 | 5 | T6 re-anchored: Glasslake + Kingsmen adjacents + T8 marketplace |
 
 ### Updated plan (88 → 94 pages)
 

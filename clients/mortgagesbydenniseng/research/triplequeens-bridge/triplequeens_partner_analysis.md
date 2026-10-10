@@ -1,5 +1,7 @@
 # Triple Queens — Second Lender Partner Analysis (REVISED 2026-09-14 with indexed sitemap data)
 
+> **⚠️ STATUS: INACTIVE as of 2026-10-03.** See `STATUS.md` in this folder. Triple Queens' public site is the HostGator "Coming Soon" placeholder. All primary-anchor pages have been re-anchored to multi-lender comparison + Glasslake/Kingsmen in `verticals/business-loans-canada/sitemap.md`. This analysis is preserved on disk for historical reference per Dennis's convention. Do not reactivate without Dennis's explicit instruction.
+
 **Date:** 2026-09-14
 **Purpose:** Document Triple Queens (triplequeens.com) as the **second lender anchor** for the comparison site, complementing Glasslake Funding.
 **Source:** Live review of triplequeens.com sitemap + 7 product pages + DataForSEO bridge financing keyword pull ($0.01 spend)

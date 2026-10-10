@@ -3,16 +3,16 @@
 **Date:** 2026-09-14
 **Site root:** mortgagesbydenniseng.ca/business-loans/
 **Total pages:** 88 (from sitemap.md)
-**Lender anchors:** Glasslake Funding, Triple Queens, Kingsmen Capital + BDC comparison + Swoop-style multi-lender
+**Lender anchors:** Glasslake Funding, Kingsmen Capital + BDC comparison + Swoop-style multi-lender (Triple Queens ⛔ inactive 2026-10-03)
 **Target keyword universe:** ~41,580 vol/mo across 9 tiers
 
 ---
 
 ## Design principles
 
-1. **Comparison-site architecture, not broker-site.** Swoop dominates on "business loan" head terms with 757 indexed URLs. We compete by being the **honest multi-lender comparison site** with named anchors (BDC + Glasslake + Triple Queens + Kingsmen) and clear editorial bias disclosure.
+1. **Comparison-site architecture, not broker-site.** Swoop dominates on "business loan" head terms with 757 indexed URLs. We compete by being the **honest multi-lender comparison site** with named anchors (BDC + Glasslake + Kingsmen) and clear editorial bias disclosure. (Triple Queens was previously a 4th private anchor but is ⛔ inactive 2026-10-03.)
 2. **BDC as the trust anchor.** Government-backed, 100,000+ clients, $58.6B committed, 82% client satisfaction. BDC is the only lender the entire Canadian market trusts — feature them prominently on every "how to qualify" page.
-3. **Honest lender positioning.** BDC = cheapest but most restrictive. Glasslake = owner-occupied specialty. Triple Queens = speed. Kingsmen = SMB accessibility. Multi-lender Swoop/online = convenience. The wireframe must show all five tiers, not just one.
+3. **Honest lender positioning.** BDC = cheapest but most restrictive. Glasslake = owner-occupied specialty. Kingsmen = SMB accessibility + speed. Multi-lender Swoop/online = convenience. The wireframe must show all tiers, not just one. (Triple Queens was previously positioned as "speed-critical" — vacated 2026-10-03; absorbed into Glasslake + Kingsmen + multi-lender coverage.)
 4. **Mortgage-lens as differentiator.** Every commercial-lending page should have a "Mortgage Lens" section: "Before you borrow on the business, consider HELOC or refinance on the property." This is structurally impossible for credit brokers like Swoop.
 5. **Lead capture at intent moments, not random CTAs.** Lead forms appear when the user is clearly choosing a product (after the rate table, before the FAQ).
 
@@ -47,13 +47,13 @@ mortgagesbydenniseng.ca/
     ├── /canada-small-business-financing-program/ ← T3 (CSBFP)
     ├── /government-grants-canada/      ← T3 (lead magnet, 1,800 vol/mo)
     │
-    ├── /bridge-financing-canada/       ← T6 Triple Queens anchor
-    ├── /private-mortgage-lender-canada/ ← T6
-    ├── /construction-financing-canada/ ← T6 Triple Queens
-    ├── /land-acquisition-financing-canada/ ← T6
-    ├── /invoice-factoring-canada/      ← T6 Triple Queens
-    ├── /accounts-receivable-financing-canada/ ← T6 (highest CPC)
-    ├── /business-line-of-credit-canada/ ← T6 Triple Queens + multi
+    ├── /bridge-financing-canada/       ← T6 Glasslake + multi (was Triple Queens)
+    ├── /private-mortgage-lender-canada/ ← T6 Glasslake + multi
+    ├── /construction-financing-canada/ ← T6 Kingsmen + multi (was Triple Queens)
+    ├── /land-acquisition-financing-canada/ ← T6 Multi-lender
+    ├── /invoice-factoring-canada/      ← T6 Kingsmen factoring (was Triple Queens)
+    ├── /accounts-receivable-financing-canada/ ← T6 Kingsmen + multi (was Triple Queens)
+    ├── /business-line-of-credit-canada/ ← T6 Kingsmen + multi (was Triple Queens + multi)
     ├── /mezzanine-financing-canada/    ← T6
     ├── /commercial-mortgage-broker-canada/ ← T6 Glasslake anchor
     ├── /commercial-mortgage-alberta/   ← T6 Vector 6B-2
@@ -165,8 +165,8 @@ The cornerstone targets **25,400 vol/mo of head terms** and serves as the naviga
 │                                                         │
 │ [See your options →]                                    │
 │                                                         │
-│ Output: 4 lender matches (BDC, Glasslake, Kingsmen,     │
-│ Triple Queens) with their ranges, rates, and CTAs       │
+│ Output: lender matches (BDC, Glasslake, Kingsmen +     │
+│ multi) with their ranges, rates, and CTAs               │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
@@ -190,14 +190,15 @@ The cornerstone targets **25,400 vol/mo of head terms** and serves as the naviga
 │                                                         │
 │ 4-column comparison:                                    │
 │ ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐            │
-│ │ BDC    │ │ Glass- │ │ Triple │ │ Kings- │            │
-│ │        │ │ lake   │ │ Queens │ │ men    │            │
-│ │ $58B   │ │ $200K- │ │ $2M+   │ │ $25K-  │            │
-│ │ commit │ │ $5M    │ │ speed  │ │ $10M   │            │
-│ │ Cheapest│ │ Owner- │ │ Bridge │ │ SMB    │            │
-│ │ Restr- │ │ occup. │ │ ABL    │ │ ABL    │            │
-│ │ ictive │ │         │ │         │ │         │            │
-│ └────────┘ └────────┘ └────────┘ └────────┘            │
+│ │ BDC    │ │ Glass- │ │ Kings- │            │
+│ │        │ │ lake   │ │ men    │            │
+│ │ $58B   │ │ $200K- │ │ $25K-  │            │
+│ │ commit │ │ $5M    │ │ $10M   │            │
+│ │ Cheapest│ │ Owner- │ │ SMB    │            │
+│ │ Restr- │ │ occup. │ │ ABL    │            │
+│ │ ictive │ │ + speed │ │ + speed│            │
+│ │        │ │         │ │         │            │
+│ └────────┘ └────────┘ └────────┘            │
 │                                                         │
 │ + 50+ other lenders (banks, B-lenders, credit unions,   │
 │   online lenders, factoring, equipment financers)       │
@@ -338,7 +339,7 @@ T2 pages target 660-2,680 vol/mo clusters each. This is the template used for th
 │ | BDC | 100K | 350K | Floating base + variance | <30 days | 24+ mo in biz |       │
 │ | Glasslake | 200K | 5M | TBD | 30-90 days | Owner-occupied |       │
 │ | Kingsmen | 50K | 10M | TBD | 3-5 days | 1-2 yr in biz |       │
-│ | Triple Queens | 2M+ | 5M+ | TBD | 5-10 days | Asset-based |       │
+│ | Kingsmen Corp | 2M+ | 30M | TBD | 1-3 wks | Debt advisory |       │
 │ | B-lenders | 50K | 1M | Prime + 4-8% | 1-3 wks | Bank-rejected |       │
 │ | Online | 10K | 500K | 8-15% | 1-3 days | Fast funding |       │
 │                                                         │
@@ -368,7 +369,7 @@ T2 pages target 660-2,680 vol/mo clusters each. This is the template used for th
 │ • Bank path (24+ mo, strong revenue, collateral)        │
 │ • BDC path (24+ mo, $100K+ revenue, good credit)        │
 │ • Private path (Kingsmen, Glasslake — alt criteria)     │
-│ • Bridge path (Triple Queens — asset-based)             │
+│ • Bridge path (Glasslake private lender / Kingsmen ABL)  │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
@@ -434,7 +435,7 @@ T3 pages are the comparison site moat — Swoop can't publish this content becau
 ┌─────────────────────────────────────────────────────────┐
 │ PRIVATE LENDER COMPARISON                               │
 │ ┌──────────┐ ┌──────────┐ ┌──────────┐                 │
-│ │ Glasslake│ │ Triple   │ │ Kingsmen │                 │
+│ │ Glasslake│ │ Kingsmen │                                 │
 │ │ $200K-$5M│ │ Queens   │ │ $25K-    │                 │
 │ │ Owner-   │ │ $2M+     │ │ $10M     │                 │
 │ │ occupied │ │ Speed    │ │ SMB      │                 │
@@ -592,7 +593,7 @@ T5 is event-driven — gets a traffic spike during tariff news. Lead form is Kin
 │ 1. Term loan (3-5 days, Kingsmen)                       │
 │ 2. Asset-based LOC (revolving, A/R-based)               │
 │ 3. BDC tariff loan (if applicable — confirm)            │
-│ 4. Factoring / A/R financing (Triple Queens)            │
+│ 4. Factoring / A/R financing (Kingsmen factoring)        │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
@@ -613,7 +614,7 @@ T5 is event-driven — gets a traffic spike during tariff news. Lead form is Kin
 ## T8 utility page wireframes
 
 ### `/business-loans/lenders/` (Lender Directory)
-Alphabetized grid of 50+ lenders with logo, name, range, best for, link to dedicated page (where exists) or external site (where not). BDC, Glasslake, Triple Queens, Kingsmen featured at top.
+Alphabetized grid of 50+ lenders with logo, name, range, best for, link to dedicated page (where exists) or external site (where not). BDC, Glasslake, Kingsmen featured at top. (Triple Queens was previously featured at top but is ⛔ inactive 2026-10-03.)
 
 ### `/business-loans/lender-comparison/` (Marketplace)
 Filterable table: amount, property type, time in business, geography, product type. JS-powered (faceted search).
@@ -700,7 +701,7 @@ About          → about, disclosure, privacy, contact
 | 5-6 | 14 | T4 Best X (7) + T4 vertical existing (4) + T6 emergency (2) + T5 tariff (1) | 15K-22K sessions/mo |
 | 7 | 6 | T4 vertical Kingsmen (3) + T6 Vector 6B-3 (2) + T6 Vector 6A (1) | 18K-28K sessions/mo |
 | 8-9 | 14 | T4 vertical Kingsmen remaining (4) + T6 Vector 6B-4 (3) + T6 Kingsmen special (3) + lead magnets (4) | 22K-32K sessions/mo |
-| 10-12 | 5 | T6 Triple Queens adjacents (3) + T8 marketplace (2) | 28K-45K sessions/mo |
+| 10-12 | 5 | T6 (re-anchored: Glasslake + Kingsmen) + T8 marketplace (2) | 28K-45K sessions/mo |
 
 ---
 
@@ -709,7 +710,7 @@ About          → about, disclosure, privacy, contact
 - This document: `~/wiki/clients/business-loans-canada/wireframe.md`
 - Source data: `~/wiki/clients/business-loans-canada/sitemap.md`
 - Strategy: `~/wiki/clients/business-loans-canada/strategy/*.md`
-- Lender analyses: `../../research/glasslake-funding/`, `../../research/triplequeens-bridge/`, `../../research/kingsmen-capital/`
+- Lender analyses: `../../research/commercial-mortgage-renewal/` (Glasslake), `../../research/triplequeens-bridge/` (Triple Queens ⛔ inactive 2026-10-03), `../../research/kingsmen-capital/`
 
 ---
 

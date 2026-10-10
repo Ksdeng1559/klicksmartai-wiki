@@ -9,7 +9,7 @@
 
 ## TL;DR
 
-Build a comparison site at `mortgagesbydenniseng.ca/business-loans/` that captures 41,580 vol/mo of Canadian business-lending search demand through SEO. **88 pages across 9 tiers**, anchored by 5 lenders (BDC + Glasslake + Triple Queens + Kingsmen Capital + Advance Funds Network) with a structural moat (mortgage-lens content) that credit brokers like Swoop cannot replicate.
+Build a comparison site at `mortgagesbydenniseng.ca/business-loans/` that captures 41,580 vol/mo of Canadian business-lending search demand through SEO. **88 pages across 9 tiers**, anchored by 4 active lenders (BDC + Glasslake + Kingsmen Capital + Advance Funds Network) with a structural moat (mortgage-lens content) that credit brokers like Swoop cannot replicate. Triple Queens was previously a 5th anchor; ⛔ **inactive 2026-10-03** (public site offline; see parent README + `research/triplequeens-bridge/STATUS.md`).
 
 **Investment:** $7K-13K year-1
 **Realistic month-12 revenue:** $7K-12.5K/mo (baseline) to **$20K-65K/mo** (upside with commercial mortgage focus)
@@ -68,13 +68,13 @@ Every commercial-lending page includes a **"Mortgage Lens" callout**:
 
 ## 3. The 5 Lender Anchors
 
-The business lending market in Canada is fragmented between traditional banks (TD, RBC, BMO, Scotiabank), B2B government lenders (BDC, CSBFP), credit brokers (Swoop, LendCity), and private/alternative lenders (Glasslake, Triple Queens, Kingsmen, Advance Funds Network). For comparison purposes, we focus on the **5 lender anchors** where Dennis has direct broker relationships or, for BDC, where we offer uncommissioned educational comparison content. Each anchor covers a specific deal-size band + funding-speed combination that lets us route any lead to the right partner.
+The business lending market in Canada is fragmented between traditional banks (TD, RBC, BMO, Scotiabank), B2B government lenders (BDC, CSBFP), credit brokers (Swoop, LendCity), and private/alternative lenders (Glasslake, Triple Queens, Kingsmen, Advance Funds Network). For comparison purposes, we focus on the **4 active lender anchors** where Dennis has direct broker relationships or, for BDC, where we offer uncommissioned educational comparison content. (Triple Queens was previously a 5th anchor but is ⛔ inactive 2026-10-03.) Each active anchor covers a specific deal-size band + funding-speed combination that lets us route any lead to the right partner.
 
 | Lender | Range | Geography | Differentiator | Status |
 |---|---|---|---|---|
 | **BDC** | Up to $350K (SBL) / $5M+ (CRE) | All Canada | Government-backed, 25-yr amortization, 36-mo IO | Trust anchor (no commission) |
 | **Glasslake Funding** | $200K-$5M | All Canada | Bayview Asset Management subsidiary; owner-occupied specialty | ✅ Dennis onboarded |
-| **Triple Queens** | $2M+ | BC/AB/ON/QC | Private lender; 5-10 day close; bridge + construction + factoring + mezzanine | ✅ Confirmed broker-friendly |
+| **Triple Queens** ⛔ | $2M+ | BC/AB/ON/QC | Private lender; 5-10 day close; bridge + construction + factoring + mezzanine | ❌ **INACTIVE 2026-10-03** — public site offline |
 | **Kingsmen Capital** | $25K-$10M SMB / $2-30M Corp | All Canada | B-lender; 1-2 yr in business; no min credit; bilingual EN/FR | ✅ All-pay-commission confirmed |
 | **Advance Funds Network** | $10K-$500K typical / $5M equipment | USA + Canada | **Same-day funding**; 500+ credit; up to 50% revenue share; 6 products (MCA / LOC / TL / Equipment / Working Capital / Debt Consolidation) | ✅ Dennis signed up |
 
@@ -84,19 +84,19 @@ The business lending market in Canada is fragmented between traditional banks (T
 - Kingsmen term loans: 3-5 day, but minimum $25K
 - BDC: 2-4 week process, minimum $100K + 24 mo in business + 600+ credit
 - Glasslake: $200K+ commercial mortgage, not term loans
-- Triple Queens: $2M+ minimum for bridge
+- ~~Triple Queens: $2M+ minimum for bridge~~ (inactive — vacated)
 - **AFN: only anchor that funds under $25K AND on same day** — fills the sub-$50K emergency / bad-credit / MCA gap
 
 **Source documents:**
 - Glasslake: `../../research/commercial-mortgage-renewal/glasslake_partner_analysis.md`
-- Triple Queens: `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` + `triplequeens_industries.md`
+- Triple Queens (historical reference, inactive 2026-10-03): `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` + `triplequeens_industries.md`
 - Kingsmen: `../../research/kingsmen-capital/kingsmen_partner_analysis.md` + `kingsmen_industries.md`
 - AFN: `../../research/advance-funds-network/advancefundsnetwork_partner_analysis.md`
 
 **Verified lender URLs:**
 - BDC: https://www.bdc.ca/en/financing/business-loans + 13 product pages [4]
 - Glasslake: https://glasslake.ca + /commercial-funding + /products + /about [5]
-- Triple Queens: https://triplequeens.com (13 indexed URLs) [6]
+- Triple Queens (historical, inactive 2026-10-03): https://triplequeens.com (13 indexed URLs) [6] — site now HostGator "Coming Soon" placeholder
 - Kingsmen Capital: https://kingsmencapital.ca (SMB) + https://kingsmen-capital.com (Corporate) [7]
 - Advance Funds Network: https://advancefundsnetwork.ca/ (617 indexed URLs, partner signup at /become-a-partner/sign-up/) [11a]
 
@@ -121,7 +121,7 @@ The business lending market in Canada is fragmented between traditional banks (T
 | 5-6 | 14 | T4 best-X + verticals + T6 emergency + T5 tariff | 15K-22K sessions/mo |
 | 7 | 6 | T4 vertical Kingsmen + T6 Vector 6B-3 + Vector 6A | 18K-28K sessions/mo |
 | 8-9 | 14 | T4 vertical Kingsmen remaining + Vector 6B-4 + lead magnets | 22K-32K sessions/mo |
-| 10-12 | 5 | T6 Triple Queens adjacents + T8 marketplace | 28K-45K sessions/mo |
+| 10-12 | 5 | T6 (re-anchored post-TQ: Glasslake + Kingsmen) + T8 marketplace | 28K-45K sessions/mo |
 
 ### Tier breakdown
 
@@ -147,15 +147,15 @@ The business lending market in Canada is fragmented between traditional banks (T
 | # | URL | Vol/mo | KD | CPC | Anchor | Why publish first |
 |---|---|---:|---:|---:|---|---|
 | 1 | `/commercial-mortgage-broker-canada/` | 590 | **0** | $11.26 | Glasslake | Zero competition + Glasslake anchor + 3,200-word pillar |
-| 2 | `/bridge-financing-canada/` | 320 | **0** | $7.92 | Triple Queens | KD 0 + Triple Queens anchor + unique SERP |
-| 3 | `/invoice-factoring-canada/` | 140 | **0** | **$74.28** | Triple Queens | Highest CPC cluster + KD 0 |
-| 4 | `/accounts-receivable-financing-canada/` | 90 | **0** | **$58.89** | Triple Queens | $103.12 CPC variant in dataset, KD 0 |
-| 5 | `/construction-financing-canada/` | 140 | **0** | $5.87 | Triple Queens | KD 0 + draw-schedule anchor |
+| 2 | `/bridge-financing-canada/` | 320 | **0** | $7.92 | Glasslake + multi | KD 0 + Glasslake anchor (was TQ; reassigned 2026-10-03) |
+| 3 | `/invoice-factoring-canada/` | 140 | **0** | **$74.28** | Kingsmen + multi | Highest CPC cluster + KD 0 (was TQ) |
+| 4 | `/accounts-receivable-financing-canada/` | 90 | **0** | **$58.89** | Kingsmen + multi | $103.12 CPC variant in dataset, KD 0 (was TQ) |
+| 5 | `/construction-financing-canada/` | 140 | **0** | $5.87 | Kingsmen + multi | KD 0 + draw-schedule anchor (was TQ) |
 | 6 | `/small-business-line-of-credit/` | 260 | **0** | **$71.09** | Kingsmen | KD 0 + second-highest CPC |
-| 7 | `/private-mortgage-lender-canada/` | 140 | 1 | $12.44 | Triple Queens + Glasslake | KD 1 + lender overlap |
+| 7 | `/private-mortgage-lender-canada/` | 140 | 1 | $12.44 | Glasslake + multi | KD 1 + lender overlap (was TQ + Glasslake) |
 | 8 | `/unsecured-business-loans/` | 260 | 8 | **$88.25** | Kingsmen / multi | KD 8 + 88 CPC |
 | 9 | `/commercial-mortgage-rates-ontario/` | 260 | 9 | $3.73 | Glasslake | KD 9 + province-modified |
-| 10 | `/factoring-company-canada/` | 110 | 5 | **$48.63** | Triple Queens | KD 5 + factoring cluster |
+| 10 | `/factoring-company-canada/` | 110 | 5 | **$48.63** | Kingsmen + multi | KD 5 + factoring cluster (was TQ) |
 
 **Combined volume:** 2,050/mo
 **Combined per-conversion CPC value:** $1,008
@@ -205,7 +205,7 @@ Loans → LOC → Unsecured → By Industry → By Province → Lenders → Mort
 | Self-employed Vector 6A | 5-8% | $500-1,000 | $360-540 |
 | **Commercial mortgage Vector 6B (Glasslake)** | 2-5% | **min $5K OR 1.5-2%** (per Dennis) | **$3,600-6,750** |
 | **Kingsmen term loan / ABL** | 5-10% | TBD (~$3K avg assumed) | $1,680-3,150 |
-| **Triple Queens bridge / factoring** | 5-10% | TBD (~$5K avg assumed) | $1,050-1,750 |
+| **Triple Queens bridge / factoring** (historical — inactive 2026-10-03) | 5-10% | TBD (~$5K avg assumed) | $1,050-1,750 (vacated; reassigned to Kingsmen factoring) |
 | **AFN micro-LOC / MCA / debt consolidation** | 5-10% | Up to 50% revenue share (~$1K avg per funded deal) | $1,000-5,000 |
 | **Realistic total month-12** | — | — | **$8K-17K/mo** |
 | **Upside (if commercial mortgage converts higher)** | — | — | **$25K-80K/mo** |
@@ -226,7 +226,7 @@ This is what makes the comparison site worth building — a single commercial mo
 ## 8. Risks
 
 1. **Glasslake lender relationship** — Dennis is onboarded but rate sheet + commission agreement still pending. If Glasslake's broker terms are worse than expected, Vector 6B economics change.
-2. **Triple Queens + Kingsmen commission verification** — neither rate is confirmed in writing. Both are inferred from "all pay commissions" + broker program marketing copy.
+2. **Triple Queens (inactive) + Kingsmen commission verification** — Kingsmen all-pay-confirmed (2026-09-14). Triple Queens rate cannot be verified (inactive 2026-10-03).
 3. **BDC comparison risk** — BDC doesn't pay broker commission. We must be careful to disclose this clearly.
 4. **Swoop competition** — 757 URLs + 3 years authority. We compete on long-tail + depth, not head terms.
 5. **LendCity commercial mortgage competition** — 3,200+ word articles, 136 reviews, Top 1% agent. We differentiate on owner-occupied + emergency.
@@ -256,7 +256,7 @@ This is what makes the comparison site worth building — a single commercial mo
 
 ### High-leverage questions (in priority order)
 
-1. **Lender mix validation** — is the 5-anchor mix (BDC + Glasslake + Triple Queens + Kingsmen + **AFN**) the right one? Any critical gap?
+1. **Lender mix validation** — is the 4-anchor mix (BDC + Glasslake + Kingsmen + **AFN**) the right one? Any critical gap? (Triple Queens was previously a 5th anchor but is ⛔ inactive 2026-10-03.)
 2. **Build sequence validation** — 88 pages / 12 months. Right pace?
 3. **Vector 6B (commercial mortgage) prioritization** — should we shift build order to publish this cluster earlier, given the $5K+ commission per deal?
 4. **Mortgage Lens differentiator** — is this the right framing?
@@ -292,7 +292,7 @@ This is what makes the comparison site worth building — a single commercial mo
 | `../../research/tariff-loan-batch/` | 25KB | 124-term original commercial keyword set |
 | `../../research/mortgage-lens-vector6/` | 12KB | Vector 6A self-employed research |
 | `../../research/commercial-mortgage-renewal/` | 22KB | Vector 6B + LendCity SERP audit + Glasslake profile |
-| `../../research/triplequeens-bridge/` | 12KB | Triple Queens partner + industries (13 indexed URLs) |
+| `../../research/triplequeens-bridge/` | 12KB | Triple Queens partner + industries (13 indexed URLs) — ⛔ INACTIVE 2026-10-03; preserved as historical reference per STATUS.md |
 | `../../research/operating-loc-factoring/` | TBD | Highest-CPC cluster data |
 | `../../research/kingsmen-capital/` | 18KB | Kingsmen partner + 19 industries |
 | `../../research/advance-funds-network/` | 22KB | **AFN partner + 17 citations + 12 proposed sitemap additions** |
@@ -313,7 +313,7 @@ This is what makes the comparison site worth building — a single commercial mo
 
 [5] **Glasslake Funding.** https://glasslake.ca + /commercial-funding + /products + /about + /resources + /contact (accessed 2026-09-14). Verified: Bayview Asset Management subsidiary (institutional lender), $200K-$5M, 1-7 yr terms, up to 80% LTV, 40-yr amortization or interest-only. Eligible property types: mixed-use, multi-family, industrial, automotive (gas stations, dealerships), office, light industrial, self-storage, daycares, restaurants, bars. BC contact: Russell Veronelly, Western Canada RSM, 587-847-5361.
 
-[6] **Triple Queens.** Sitemap. https://triplequeens.com/sitemap_index.xml (accessed 2026-09-14). 13 indexed URLs verified: /, /bridge-financing/, /commercial-mortgages/, /construction-financing/, /land-acquisition-development/, /operating-lines-of-credit/, /factoring/, /mezzanine-gap-financing/, /contact-us/, /apply-now/, /about/, /privacy/, /image-credits/. Verified facts: bridge financing $2M+ minimum, 5-10 day close, up to 75% LTV, 6-24 months IO. Coverage: BC/AB/ON/QC.
+[6] **Triple Queens.** Sitemap. https://triplequeens.com/sitemap_index.xml (accessed 2026-09-14; site went offline to HostGator "Coming Soon" placeholder by 2026-10-03). 13 indexed URLs verified while active: /, /bridge-financing/, /commercial-mortgages/, /construction-financing/, /land-acquisition-development/, /operating-lines-of-credit/, /factoring/, /mezzanine-gap-financing/, /contact-us/, /apply-now/, /about/, /privacy/, /image-credits/. Verified facts: bridge financing $2M+ minimum, 5-10 day close, up to 75% LTV, 6-24 months IO. Coverage: BC/AB/ON/QC. **⛔ INACTIVE 2026-10-03 — do not rely on for current campaigns.**
 
 [7] **Kingsmen Capital Investments.** https://kingsmencapital.ca/partner-with-kingsmen-capital/ + https://kingsmen-capital.com/what-we-do/corporate-financing/ (accessed 2026-09-14). Verified products (SMB): Term Loans ($25K-$500K, non-collateralized, 3-5 day funding), Asset-Based LOC ($50K-$10M, A/R + inventory + equipment + RE, 1-2 yr in business, no min credit, government-backed), Revolving LOC, Revenue-Based LOC, Equipment Financing. Verified products (Corporate): Debt Financing ($2-30M), Commercial Real Estate Financing, Acquisition Financing. Industries: wholesale, manufacturing, construction, medical, aviation, transportation & logistics (Corp); retail, coffee shop, auto repair, grocery, equipment, liquor store, delivery services, restaurant, construction, salon, trucking, warehouse (SMB) = 17 industries total. HQ Toronto, all Canada, bilingual EN/FR intake.
 
@@ -323,7 +323,7 @@ This is what makes the comparison site worth building — a single commercial mo
 
 [10] **DataForSEO.** Market 2124 / Canada / English. ~11 API calls across 5 sessions (2026-09-13 to 2026-09-14). Total spend: ~$0.56. Pulled volume + CPC + competition density for 147 commercial-intent keywords across 10 play groups.
 
-[11] **Dennis Eng, mortgage broker.** Verbal confirmation 2026-09-14: Glasslake onboarded ✅, all-pay-commission broker model confirmed for Kingsmen ✅, Triple Queens broker-friendly ✅. Commercial mortgage broker commission minimum $5,000 or 1.5-2% (whichever higher).
+[11] **Dennis Eng, mortgage broker.** Verbal confirmation 2026-09-14: Glasslake onboarded ✅, all-pay-commission broker model confirmed for Kingsmen ✅, Triple Queens broker-friendly ✅ (later inactivated 2026-10-03 — see `research/triplequeens-bridge/STATUS.md`). Commercial mortgage broker commission minimum $5,000 or 1.5-2% (whichever higher).
 
 [11a] **Advance Funds Network.** https://advancefundsnetwork.ca (accessed 2026-09-14). Verified: 18+ years operating since 2008, 617 indexed URLs (53 pages + 539 blog posts + 25 guides + ~55 team bios), Canadian + US coverage, same-day funding on accepted deals, 6 product surfaces (Equipment Financing $5M max, Business Term Loans, Business Line of Credit, Working Capital Loans, Merchant Cash Advance, Business Debt Consolidation), partner program pays up to 50% of net revenue per funded deal for top-tier partners, sign-up form has "Broker - Commercial Mortgage" as an explicit industry category in two fields. Full partner analysis at `../../research/advance-funds-network/advancefundsnetwork_partner_analysis.md` (20KB, 16 citations).
 
@@ -334,7 +334,7 @@ This is what makes the comparison site worth building — a single commercial mo
 This proposal synthesizes:
 - 147 commercial-intent keywords across 10 play groups (DataForSEO, $0.56)
 - 78 keywords enriched with KD + intent + competition (OpenSEO, $0)
-- **5** lender product surfaces (BDC + Glasslake + Triple Queens + Kingsmen + **Advance Funds Network**)
+- **4** active lender product surfaces (BDC + Glasslake + Kingsmen + **Advance Funds Network**); Triple Queens historical only (⛔ inactive 2026-10-03)
 - Swoop sitemap audit (757 URLs)
 - LendCity SERP audit (commercial mortgage renewal)
 - BDC product catalog (13 products)

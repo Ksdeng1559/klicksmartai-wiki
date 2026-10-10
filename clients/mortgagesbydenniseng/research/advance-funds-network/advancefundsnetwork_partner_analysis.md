@@ -13,7 +13,7 @@ Advance Funds Network is a **Canadian-American alternative small-business lender
 
 **Fit verdict: STRONG — fill a sub-$250K + same-day emergency gap that none of our current 4 lender anchors cover.**
 
-| | AFN | Kingsmen | BDC | Glasslake | Triple Queens |
+| | AFN | Kingsmen | BDC | Glasslake | ~~Triple Queens~~ ⛔ |
 |---|---|---|---|---|---|
 | Min deal size | ~$10K | $25K | $100K | $200K (mortgage) | $2M |
 | Funding speed | **SAME DAY** | 3-5 days | 2-4 weeks | 1-4 weeks | 5-10 days |
@@ -145,7 +145,7 @@ Asks for:
 ```
 Deal size ↦ Funding speed         5-LENDER LADDER (our proposed)
 ───────────────────────────────── ───────────────────────────────
-$2M+     ↦ days to weeks    → Triple Queens (bridge, $2M+ min)
+$2M+     ↦ days to weeks    → Glasslake private + multi (was Triple Queens; inactive 2026-10-03)
 $5M+     ↦ 2-4 weeks        → Glasslake (mortgage, owner-occupied)
 $1M-$10M ↦ 3-5 days         → Kingsmen (ABL)
 $100K+   ↦ 2-4 weeks        → BDC (cheap, restrictive, trust anchor)
@@ -265,7 +265,7 @@ If we onboard AFN as a lender anchor, **add 12 pages to existing sitemap (88 →
 
 ### Within first month
 
-6. **Update vertical workspace** with AFN lender profile (parallel to Glasslake/Triple Queens/Kingsmen analysis files)
+6. **Update vertical workspace** with AFN lender profile (parallel to Glasslake/Kingsmen analysis files). Triple Queens slot vacated 2026-10-03 — see `../../research/triplequeens-bridge/STATUS.md`.
 7. **Update executive summary with citations** (AFN as 5th citation, full coverage)
 8. **Update Notion** with new child doc: "September 14b — Advance Funds Network analysis"
 9. **Recompute lead economics** with AFN revenue stream
@@ -284,7 +284,7 @@ If we onboard AFN as a lender anchor, **add 12 pages to existing sitemap (88 →
 | Lead can wait 5-7 days | Kingsmen | Lower-cost term loan available |
 | Lead is established (24+ months) and needs $100K+ | BDC | Cheapest rate, but slowest |
 | Lead wants equity takeout / mortgage refinance | Glasslake | Only mortgage-broker product |
-| Lead needs fast $2M+ bridge | Triple Queens | Only $2M+ anchor |
+| Lead needs fast $2M+ bridge | Glasslake + multi | Only $2M+ anchor — reassigned 2026-10-03 from Triple Queens |
 
 ### When the others beat AFN (exclusion)
 
@@ -293,7 +293,7 @@ If we onboard AFN as a lender anchor, **add 12 pages to existing sitemap (88 →
 | Pre-revenue startup | "AFN does not provide funding for startups" |
 | Established SMB wants bank-rate term loan ($100K+) | BDC cheaper even with 2-4 week timeline |
 | Owner-occupied commercial mortgage | Glasslake is mortgage lender, AFN is not |
-| $2M+ acquisition bridge | Triple Queens / Glasslake have asset-based bridge, AFN doesn't |
+| $2M+ acquisition bridge | Glasslake + Kingsmen Corp; AFN doesn't serve |
 | Customer refuses to pay factor rates | AFN MCAs can hit 40-150% effective APR |
 
 ---

@@ -90,11 +90,11 @@ Based on the asset types they accept (A/R + inventory + equipment + RE) and the 
 - Nonprofits (most alt-lenders exclude, except mission-driven lenders)
 - Pure real estate speculation (not a business)
 
-## Cross-reference with Glasslake + Triple Queens
+## Cross-reference with Glasslake + ~~Triple Queens~~ ⛔
 
 **Where Kingsmen overlaps with the other two lenders:**
 
-| Industry | Kingsmen | Glasslake | Triple Queens |
+| Industry | Kingsmen | Glasslake | ~~Triple Queens~~ ⛔ (inactive 2026-10-03) |
 |---|---|---|---|
 | Restaurant | ✅ SMB | ✅ Listed property type | ❌ |
 | Construction | ✅ SMB | ❌ | ✅ Construction financing |
@@ -123,7 +123,7 @@ Based on the asset types they accept (A/R + inventory + equipment + RE) and the 
 |---|---|---|
 | **Kingsmen** | retail, coffee shop, auto repair, grocery, equipment, liquor store, delivery services, restaurant, construction, salon, trucking, warehouse, healthcare, wholesale, manufacturing, aviation, transportation & logistics | **17** |
 | **Glasslake** | mixed-use, multi-family, industrial, automotive, office, light industrial, self-storage, daycares, restaurants, bars | **10** |
-| **Triple Queens** | developers, investors (commercial real estate) | **2** (focused) |
+| ~~Triple Queens~~ ⛔ | ~~developers, investors (commercial real estate)~~ | **INACTIVE 2026-10-03** — vacated from anchor roster; bridge/construction/factoring slots reassigned to Glasslake + multi |
 
 **Total unique industry coverage across all 3 lenders: ~25+ industries**
 

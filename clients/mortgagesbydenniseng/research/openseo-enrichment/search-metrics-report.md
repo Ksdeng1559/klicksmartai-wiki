@@ -122,12 +122,12 @@ These are the **first pages to publish** — they rank fast and convert well:
 |---|---:|---:|---:|---|
 | cmhc mli select | 1,600 | 0 | $2.60 | Cornerstone-adjacent / Vector 6B-4 |
 | commercial mortgage broker | 590 | 0 | $11.26 | T6 anchor — Glasslake page targets |
-| bridge financing canada | 320 | 0 | $7.92 | T6 Triple Queens anchor |
-| construction financing canada | 140 | 0 | $5.87 | T6 Triple Queens anchor |
-| invoice factoring canada | 140 | 0 | $74.28 | T6 Triple Queens factoring anchor |
+| bridge financing canada | 320 | 0 | $7.92 | T6 Glasslake + multi (was Triple Queens; inactive 2026-10-03) |
+| construction financing canada | 140 | 0 | $5.87 | T6 Kingsmen + multi (was Triple Queens; inactive 2026-10-03) |
+| invoice factoring canada | 140 | 0 | $74.28 | T6 Kingsmen factoring (was Triple Queens; inactive 2026-10-03) |
 | accounts receivable financing | 90 | 0 | $58.89 | T6 — highest CPC in dataset |
 | small business line of credit | 260 | 0 | $71.09 | T2 split / T6 Kingsmen |
-| private mortgage lender canada | 140 | 1 | $12.44 | T6 Triple Queens + Glasslake |
+| private mortgage lender canada | 140 | 1 | $12.44 | T6 Glasslake + multi (was Triple Queens + Glasslake; inactive 2026-10-03) |
 | factoring company canada | 110 | 5 | $48.63 | T6 — high-CPC pillar candidate |
 | construction financing | TBD | TBD | TBD | (deeper pull needed) |
 
@@ -235,7 +235,7 @@ These are the **second wave** — competitive but winnable with depth + internal
 | cmhc mli select | 1,600 | 0 | Vector 6B-4 |
 | cmhc self employed mortgage | 10 | null | Vector 6A |
 
-### Cluster E: Bridge + Private Lender (Tier 6 Triple Queens) — 5 terms, ~620 vol/mo
+### Cluster E: Bridge + Private Lender (Tier 6 — Glasslake + Kingsmen post-TQ) — 5 terms, ~620 vol/mo
 
 | Keyword | Vol/mo | KD |
 |---|---:|---:|
@@ -267,10 +267,10 @@ These are the **second wave** — competitive but winnable with depth + internal
 |---|---:|---:|---|
 | ecommerce business loan | 260 | 22 | Kingsmen |
 | business loan for restaurant | 110 | 14 | Kingsmen / Glasslake |
-| business purchase loan | 320 | 16 | Triple Queens |
+| business purchase loan | 320 | 16 | Glasslake + Kingsmen (was Triple Queens; inactive 2026-10-03) |
 | bad credit business loans | 110 | 26 | Kingsmen |
 | retail business loans | 70 | 19 | Kingsmen |
-| hard money lender canada | 90 | 19 | Triple Queens |
+| hard money lender canada | 90 | 19 | Glasslake + Kingsmen (was Triple Queens; inactive 2026-10-03) |
 | medical practice loans | 90 | 33 | Kingsmen |
 | small business financing | 110 | 32 | BDC |
 | ... | ... | ... | ... |
@@ -304,7 +304,7 @@ Sorted by CPC descending. These are the **highest-value conversion terms**.
 | best business loans canada | 30 | $84.64 | null | Multi-lender |
 | best unsecured business loan | 10 | $81.54 | null | Multi-lender |
 | business loan for self employed | 320 | $76.04 | 28 | Multi-lender |
-| invoice factoring canada | 140 | $74.28 | 0 | Triple Queens |
+| invoice factoring canada | 140 | $74.28 | 0 | Kingsmen (was Triple Queens; inactive 2026-10-03) |
 | small business line of credit | 260 | $71.09 | 0 | Kingsmen / T6 |
 | business line of credit | 1,000 | $53.12 | 15 | Multi-lender |
 

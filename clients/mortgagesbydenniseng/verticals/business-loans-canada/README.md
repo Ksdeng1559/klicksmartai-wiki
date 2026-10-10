@@ -10,7 +10,7 @@
 
 **Parent workspace:** [`/home/denni/wiki/clients/mortgagesbydenniseng/`](../../) holds the brokerage identity + site architecture + lender roster. This folder is vertical #1.
 
-**Brand context:** Dennis's affiliation with the Dare2Dream mortgage group gives him broker-of-record access to Glasslake, Triple Queens, Kingsmen Capital, and Advance Funds Network. But this site (mortgagesbydenniseng.ca) is Dennis's personal proprietor practice — content, brand, and lead routing belong to Dennis, not Dare2Dream corporate. See parent README for full context.
+**Brand context:** Dennis's affiliation with the Dare2Dream mortgage group gives him broker-of-record access to Glasslake, Kingsmen Capital, and Advance Funds Network. (Triple Queens was previously a partner but is ⛔ **inactive as of 2026-10-03** — see parent README.) But this site (mortgagesbydenniseng.ca) is Dennis's personal proprietor practice — content, brand, and lead routing belong to Dennis, not Dare2Dream corporate. See parent README for full context.
 
 ## Status: 🟡 STRATEGY PHASE (2026-09-14)
 
@@ -31,19 +31,25 @@ Keyword research and play-group consolidation done. Build plan defined. Site arc
   3. Ask Glasslake BDM if they'll co-author or link to the emergency articles (backlink + content)
   4. Get 2-3 case studies of broker-submitted deals (with permission) for the owner-occupied pillar
 
-**Triple Queens (triplequeens.com)** — primary anchor for bridge financing + private mortgage lender content
-- Canadian private lender (not broker, not bank)
-- Funds private first + second mortgages, bridge financing up to $5M
-- **<10 business day closing** (differentiated speed)
-- Featured testimonial: "$4.2M acquisition funded in under three weeks"
-- BC testimonial: Karen Doyle, Doyle Commercial Advisory, Burnaby
-- Transparent fee-refund commitment, waived processing fees for $100K+ deals
-- Targets: developers + investors who need fast capital, bank-rejected borrowers
-- **Onboarding status: TBD (verify with Dennis whether broker agreement is active or needs setup)**
-- **Action items for Triple Queens launch readiness:**
-  1. Confirm broker agreement status
-  2. Get Triple Queens rate sheet + commission terms (bridge rates 8-14%, points 2-5%, broker commission ~1-2%)
-  3. Get BC broker partnership contact (Karen Doyle in Burnaby is public-facing; need internal contact)
+**Triple Queens (triplequeens.com)** — ⛔ **INACTIVE 2026-10-03** (HostGator "Coming Soon" placeholder; no public broker channel)
+- ~~Canadian private lender (not broker, not bank)~~
+- ~~Funds private first + second mortgages, bridge financing up to $5M~~
+- ~~<10 business day closing (differentiated speed)~~
+- ~~Featured testimonial: "$4.2M acquisition funded in under three weeks"~~
+- ~~BC testimonial: Karen Doyle, Doyle Commercial Advisory, Burnaby~~
+- ~~Transparent fee-refund commitment, waived processing fees for $100K+ deals~~
+- ~~Targets: developers + investors who need fast capital, bank-rejected borrowers~~
+- ~~Onboarding status: TBD (verify with Dennis whether broker agreement is active or needs setup)~~
+- ~~Action items for Triple Queens launch readiness:~~
+  - ~~Confirm broker agreement status~~
+  - ~~Get Triple Queens rate sheet + commission terms (bridge rates 8-14%, points 2-5%, broker commission ~1-2%)~~
+  - ~~Get BC broker partnership contact (Karen Doyle in Burnaby is public-facing; need internal contact)~~
+- **Re-anchoring:** All pages that used Triple Queens as primary anchor have been reassigned (see `sitemap.md`):
+  - Bridge → Glasslake + multi-lender
+  - Invoice factoring / A/R → Kingsmen + multi-lender
+  - Construction + land acquisition → multi-lender (or Glasslake for owner-occupied)
+  - Operating LOC + private mortgage lender + mezzanine → multi-lender
+  - Construction-to-permanent (bridge phase) → multi-bridge sequence (Glasslake interim → take-out)
 
 **Kingsmen Capital Investments (kingsmencapital.ca + kingsmen-capital.com)** — primary anchor for SMB asset-based LOC + term loans + tariff financing
 - Two operating sites: `kingsmencapital.ca` (SMB) + `kingsmen-capital.com` (Corporate Financing Division)
@@ -86,7 +92,7 @@ Keyword research and play-group consolidation done. Build plan defined. Site arc
 | $25K-$100K (startup / micro) | Kingsmen | AFN | Term loans, micro ABL |
 | $100K-$2M (established SMB) | Kingsmen | Glasslake | ABL, owner-occupied property |
 | $200K-$5M (commercial mortgage) | Glasslake | Kingsmen | Owner-occupied, emergency |
-| $2M-$5M (bridge / construction) | Triple Queens | — | Fast capital, draw schedules |
+| $2M-$5M (bridge / construction) | Glasslake | — | Fast capital, draw schedules (was Triple Queens; reassigned) |
 | $2M-$30M (upper mid-market) | Kingsmen Corp | — | Acquisitions, debt advisory |
 | $5M+ (institutional) | Multi-lender | — | Trez, Romspen, etc. |
 | **Same-day emergency (any deal size)** | **AFN** ★ NEW | Kingsmen 3-5 day | When speed > cost |
@@ -107,7 +113,7 @@ All research runs moved to parent workspace at `../../research/`:
 - `../../research/commercial-mortgage-renewal/commercial_mortgage_renewal_research.md` — Vector 6B commercial mortgage
 - `../../research/commercial-mortgage-renewal/competitive_serp_analysis.md` — LendCity SERP audit + 13-page plan
 - `../../research/commercial-mortgage-renewal/glasslake_partner_analysis.md` — lender anchor profile
-- `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` — second lender anchor profile
+- `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` — second lender anchor profile (⛔ inactive 2026-10-03; see `../../research/triplequeens-bridge/STATUS.md`)
 - `../../research/kingsmen-capital/kingsmen_partner_analysis.md` — third lender anchor profile (added 2026-09-14)
 - `../../research/advance-funds-network/advancefundsnetwork_partner_analysis.md` — fourth lender anchor profile (added 2026-09-14, signed up)
 - `../../research/operating-loc-factoring/` — operating LOC + factoring keyword research

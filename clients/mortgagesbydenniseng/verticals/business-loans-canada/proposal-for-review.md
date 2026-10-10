@@ -17,7 +17,7 @@
 **The anchors:** Three broker-friendly private lenders + one government anchor:
 - **BDC** (Business Development Bank of Canada) — trust + comparison anchor
 - **Glasslake Funding** — owner-occupied commercial mortgage ($200K-$5M, all Canada) — Dennis onboarded ✅
-- **Triple Queens** — bridge / construction / factoring ($2M+, BC/AB/ON/QC) — confirmed broker-friendly ✅
+- **Triple Queens** — bridge / construction / factoring ($2M+, BC/AB/ON/QC) — ⛔ **INACTIVE 2026-10-03** (previously confirmed broker-friendly)
 - **Kingsmen Capital** — SMB asset-based LOC + term loans ($25K-$10M, all Canada) — Dennis confirmed all-pay-commission ✅
 
 **The size:** 88 pages across 9 tiers targeting ~41,580 vol/mo addressable search demand. Year-1 investment: $7K-13K. Realistic month-12 lead volume: 84-139/mo.
@@ -62,7 +62,7 @@ This is the most important strategic question for review. We have **4 anchors** 
 |---|---|---|---|---|---|
 | **BDC** | Government-backed, established | All Canada | Up to $350K (SBL) / $5M+ (CRE) | Cheapest rate, longest amortization (25 yr), 36 mo IO | Trust anchor + comparison |
 | **Glasslake Funding** | Owner-occupied commercial mortgage | All Canada (BC contact) | $200K-$5M | Bayview Asset Management subsidiary (institutional); "move beyond box-ticking" underwriting | ✅ Dennis onboarded |
-| **Triple Queens** | Bridge, construction, factoring, mezzanine | BC/AB/ON/QC | $2M+ | Private lender, 5-10 day close, $5M+ bridge | ✅ Confirmed broker-friendly |
+| **Triple Queens** ⛔ | Bridge, construction, factoring, mezzanine | BC/AB/ON/QC | $2M+ | Private lender, 5-10 day close, $5M+ bridge | ❌ **INACTIVE 2026-10-03** |
 | **Kingsmen Capital** | SMB asset-based LOC, term loans | All Canada (Toronto HQ) | $25K-$10M (SMB) / $2-30M (Corp) | B-lender, 1-2 yr in business, no min credit, government-backed, bilingual EN/FR | ✅ Dennis confirmed all-pay-commission |
 
 **Coverage matrix:**
@@ -72,7 +72,7 @@ This is the most important strategic question for review. We have **4 anchors** 
 | $25K-$100K (startup/micro) | Kingsmen | Multi-lender | Term loans, micro ABL |
 | $100K-$2M (established SMB) | Kingsmen | Glasslake | ABL, owner-occupied property |
 | $200K-$5M (commercial mortgage) | Glasslake | Kingsmen | Owner-occupied, emergency |
-| $2M-$5M (bridge/construction) | Triple Queens | — | Fast capital, draw schedules |
+| $2M-$5M (bridge/construction) | Glasslake + multi | — | Fast capital, draw schedules (was Triple Queens) |
 | $2M-$30M (upper mid-market) | Kingsmen Corp | — | Acquisitions, debt advisory |
 | $5M+ (institutional) | Multi-lender | — | Trez, Romspen, etc. |
 
@@ -160,7 +160,7 @@ Full sitemap on disk: `~/wiki/clients/business-loans-canada/sitemap.md` (88 URLs
 | 5-6 | 14 | T4 Best X (7) + T4 vertical existing (4) + T6 emergency (2) + T5 tariff (1) | 15K-22K sessions/mo |
 | 7 | 6 | T4 vertical Kingsmen (3) + T6 Vector 6B-3 (2) + T6 Vector 6A (1) | 18K-28K sessions/mo |
 | 8-9 | 14 | T4 vertical Kingsmen remaining (4) + T6 Vector 6B-4 (3) + T6 Kingsmen special (3) + lead magnets (4) | 22K-32K sessions/mo |
-| 10-12 | 5 | T6 Triple Queens adjacents (3) + T8 marketplace (2) | 28K-45K sessions/mo |
+| 10-12 | 5 | T6 (re-anchored: Glasslake + Kingsmen) + T8 marketplace (2) | 28K-45K sessions/mo |
 
 ### 7 new Kingsmen-anchored verticals (added 2026-09-14)
 
@@ -214,14 +214,14 @@ Swoop is a credit broker. Their commission model only includes unsecured / term-
 | Self-employed Vector 6A lead | 5-8% | $500-1,000 commission |
 | **Commercial mortgage Vector 6B lead (Glasslake)** | 2-5% | **min $5K OR 1.5-2% (per Dennis) = $7,500-$30,000+** |
 | Kingsmen term loan lead | 5-10% | TBD (commission rate TBC with Kingsmen) |
-| Triple Queens bridge / factoring lead | 5-10% | TBD (commission rate TBC with Triple Queens) |
+| ~~Triple Queens bridge / factoring lead~~ (inactive 2026-10-03) | 5-10% | TBD (commission rate not verified — site offline) |
 
 ### Month-12 lead volume projection
 
 Realistic: **84-139 leads/mo** across all categories
 - ~60% from Swoop-vulnerable SERPs (28 SERPs, 9,780 vol/mo)
 - ~30% from new long-tail terms (T3 government, T4 vertical, T6 anchor)
-- ~10% from branded search (Dennis, Glasslake, Triple Queens, Kingsmen)
+- ~10% from branded search (Dennis, Glasslake, Kingsmen) — Triple Queens dropped from branded cohort 2026-10-03
 
 ### Revenue projection (month 12)
 
@@ -229,7 +229,7 @@ Realistic: **84-139 leads/mo** across all categories
 - Self-employed Vector 6A leads: 8-12/mo × 6% × $750 = **$360-540/mo**
 - **Commercial mortgage Vector 6B leads: 8-15/mo × 3% × $15K avg = $3,600-6,750/mo**
 - **Kingsmen leads: 8-15/mo × 7% × $3K avg = $1,680-3,150/mo**
-- Triple Queens leads: 3-5/mo × 7% × $5K avg = $1,050-1,750/mo
+- ~~Triple Queens leads: 3-5/mo × 7% × $5K avg = $1,050-1,750/mo~~ (inactive 2026-10-03 — vacated)
 - **Total realistic month-12 revenue: $7K-12.5K/mo**
 
 If Vector 6B converts higher (Glasslake is high-intent, $5K minimum commission): **$20K-65K/mo** total realistic upside.
@@ -252,7 +252,7 @@ If Vector 6B converts higher (Glasslake is high-intent, $5K minimum commission):
 ### Risks
 
 1. **Glasslake lender relationship risk** — Dennis is onboarded but rate sheet + commission agreement still pending. If Glasslake's broker agreement terms are worse than expected, the entire Vector 6B economics change.
-2. **Triple Queens + Kingsmen commission verification** — neither commission rate is confirmed in writing. Both are inferred from "all pay commissions" + broker program marketing copy.
+2. **Kingsmen commission verification** — all-pay-confirmed 2026-09-14 by Dennis. Triple Queens rate cannot be verified (⛔ inactive 2026-10-03).
 3. **BDC comparison risk** — BDC is included as trust anchor, but BDC doesn't pay broker commission. We must be careful to disclose this clearly to avoid implying BDC referral.
 4. **SEO competition from Swoop** — 757 indexable URLs + 3 years authority. We need to compete on long-tail and depth, not head terms.
 5. **LendCity commercial mortgage competition** — 3,200+ word articles, 136 reviews, Top 1% agent. We need to differentiate on owner-occupied + emergency content.
@@ -278,7 +278,7 @@ If Vector 6B converts higher (Glasslake is high-intent, $5K minimum commission):
 
 ### High-leverage questions
 
-1. **Lender mix** — is the 4-anchor mix (BDC + Glasslake + Triple Queens + Kingsmen) the right one? Any critical gap?
+1. **Lender mix** — is the 4-anchor mix (BDC + Glasslake + Kingsmen + **AFN**) the right one? Any critical gap? (Triple Queens was previously a 4th private-lender anchor but is ⛔ inactive 2026-10-03.)
 2. **Page count & prioritization** — 88 pages across 9 tiers in 12 months — too aggressive? Too conservative?
 3. **Vector 6B (commercial mortgage) prioritization** — should we shift the build order to publish this cluster earlier given the $5K+ commission per deal?
 4. **Mortgage Lens differentiator** — is this the right framing? Should it be more prominent?
@@ -317,8 +317,8 @@ If you want to deep-dive on any section:
 | Lender | File | Size |
 |---|---|---|
 | Glasslake Funding | `../../research/commercial-mortgage-renewal/glasslake_partner_analysis.md` | 12KB |
-| Triple Queens | `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` | 12KB |
-| Triple Queens indexed URLs | `../../research/triplequeens-bridge/triplequeens_industries.md` | 6KB |
+| Triple Queens | `../../research/triplequeens-bridge/triplequeens_partner_analysis.md` | 12KB (⛔ inactive 2026-10-03) |
+| Triple Queens indexed URLs | `../../research/triplequeens-bridge/triplequeens_industries.md` | 6KB (⛔ inactive 2026-10-03) |
 | Kingsmen Capital partner | `../../research/kingsmen-capital/kingsmen_partner_analysis.md` | 10KB |
 | Kingsmen Capital industries | `../../research/kingsmen-capital/kingsmen_industries.md` | 8KB |
 
@@ -343,7 +343,7 @@ This proposal is the cumulative output of a full research sprint (2026-09-13 →
 - 124 commercial-intent keywords identified and consolidated
 - Swoop Funding sitemap audited (757 indexable URLs)
 - LendCity SERP audit (commercial mortgage cluster)
-- 3 private lender anchors profiled (Glasslake + Triple Queens + Kingsmen)
+- 2 active private lender anchors profiled (Glasslake + Kingsmen); Triple Queens historical only (⛔ inactive 2026-10-03)
 - BDC product surface scraped (5 products)
 - 88-page sitemap across 9 tiers built
 - Page-by-page wireframe (cornerstone + T2/T3/T5/T6/T8 templates)
