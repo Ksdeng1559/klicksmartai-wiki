@@ -18190,5 +18190,11 @@
     "seen": 1791623882.4970798,
     "ast_hash": "28fa65a2795677d3d5d3565b7d6aca8c",
     "semantic_hash": ""
+  },
+  "clients/veritas-development/lenders/beekman-wilshire-report.html": {
+    "mtime": 1791624342.5152688,
+    "seen": 1791646452.98133,
+    "ast_hash": "ede653d2234858b5d0f2cb35f9667a4d",
+    "semantic_hash": ""
   }
 }
