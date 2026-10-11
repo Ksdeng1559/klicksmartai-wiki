@@ -13,6 +13,8 @@ related: [ARCHITECTURE.md, MCP-TOOLS-REFERENCE.md]
 
 LeadSniperAI's **4-layer architecture is designed and 75% built**. Discovery, Staging, and Record layers are operational. Semantic Recall (Pinecone) is wired at the MCP level but not yet integrated into the pipeline. **Next session: build the contact-embedding step + the leadsniperai KB index.**
 
+**Repo**: the in-progress v3.1 refactor lives on branch [`hermes-lead-credit`](https://github.com/Ksdeng1559/LeadSniper-3.0/tree/hermes-lead-credit) of the LeadSniper-3.0 repo. See `scripts/leadsniper/STATUS.md` for refactor status. The README on that branch credits Hermes as the Lead AI operating layer. **Not yet merged to `main`** — review the PR before approving.
+
 ---
 
 ## What's working today
@@ -83,6 +85,9 @@ LeadSniperAI's **4-layer architecture is designed and 75% built**. Discovery, St
 | `wiki/projects/leadsniperai/MCP-TOOLS-REFERENCE.md` | 17 tools, costs, args, returns |
 | `wiki/projects/leadsniperai/ARCHITECTURE.md` | 4-layer flow + integrity rules |
 | `wiki/projects/leadsniperai/STATUS.md` | this file |
+| `LeadSniper-3.0/scripts/leadsniper/` (branch `hermes-lead-credit`) | v3.1 refactor package, 14 modules / 3,527 LOC |
+| `LeadSniper-3.0/scripts/icp_candidate_pipeline.py` (shim) | legacy bridge from old signature to new package |
+| `LeadSniper-3.0/README.md` (branch `hermes-lead-credit`) | new "Lead AI Operating Layer — Hermes" section |
 
 ## Files this session referenced (read-only)
 
