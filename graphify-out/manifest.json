@@ -3558,9 +3558,9 @@
     "semantic_hash": ""
   },
   "hermes/skills/icm-client-workspace-setup/SKILL.md": {
-    "mtime": 1788028266.8233895,
-    "seen": 1788871160.5390894,
-    "ast_hash": "03ed2df99507eacf69591fc067e757ea",
+    "mtime": 1791655014.4284105,
+    "seen": 1791691537.0792587,
+    "ast_hash": "1be9c105b44b3c560d8d089ec852e983",
     "semantic_hash": ""
   },
   "hermes/skills/icm-client-workspace-setup/references/backporting-existing-clients.md": {
@@ -7944,9 +7944,9 @@
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/CONTEXT.md": {
-    "mtime": 1789473655.2681837,
-    "seen": 1789531481.836784,
-    "ast_hash": "08343a071186e210e1c2aa38c9a05106",
+    "mtime": 1791677046.3213959,
+    "seen": 1791691537.1014638,
+    "ast_hash": "2570e80be1644afe4dfbcbdc976e0b41",
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/IDENTITY.md": {
@@ -8166,9 +8166,9 @@
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/drafts/VALIDATION_QUEUE.md": {
-    "mtime": 1789473655.2835164,
-    "seen": 1789531481.8368213,
-    "ast_hash": "adc6219eb13eefc4318697bf981ad3ba",
+    "mtime": 1791677076.0659916,
+    "seen": 1791691537.1025891,
+    "ast_hash": "077ed87376890a80a2f8a5df48b39c18",
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/drafts/ad-creative/README.md": {
@@ -8259,12 +8259,6 @@
     "mtime": 1789473655.2849765,
     "seen": 1789531481.8368382,
     "ast_hash": "fad8ee576f41bcd463cbab8372b2f9e3",
-    "semantic_hash": ""
-  },
-  "wiki/clients/veritas-developments/drafts/veritas-development-os/JOB.md": {
-    "mtime": 1789473655.2865376,
-    "seen": 1789531481.8368394,
-    "ast_hash": "1fa5a4848e9991af22ba9efebad0f77f",
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/drafts/video-ad/README.md": {
@@ -8418,15 +8412,15 @@
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/projects/prime-lees-summit.md": {
-    "mtime": 1789473655.3025208,
-    "seen": 1789531481.8368807,
-    "ast_hash": "483dc4dcec31b42bff66c43518265c0e",
+    "mtime": 1791677054.3520026,
+    "seen": 1791691537.103934,
+    "ast_hash": "865c14a547faa2a8aebfbcbfe041a3db",
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/projects/stonehaven-estates.md": {
-    "mtime": 1789473655.3025208,
-    "seen": 1789531481.8368816,
-    "ast_hash": "8ee71eee4126382bc2cda27de243bc10",
+    "mtime": 1791677061.738264,
+    "seen": 1791691537.1039352,
+    "ast_hash": "14ac06d213289863a2c405d4c3a895da",
     "semantic_hash": ""
   },
   "wiki/clients/veritas-developments/projects/video-ad/README.md": {
@@ -18195,6 +18189,234 @@
     "mtime": 1791624342.5152688,
     "seen": 1791646452.98133,
     "ast_hash": "ede653d2234858b5d0f2cb35f9667a4d",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/CONTEXT.md": {
+    "mtime": 1791654657.4536784,
+    "seen": 1791691537.067749,
+    "ast_hash": "3017cb83df8373596d58bf3fc84d59c1",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/IDENTITY.md": {
+    "mtime": 1791654648.8592694,
+    "seen": 1791691537.0677512,
+    "ast_hash": "3a04d11acffe259b604ffd01e331a99a",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/README.md": {
+    "mtime": 1791654954.9186246,
+    "seen": 1791691537.0677521,
+    "ast_hash": "17fd0547f8926c04c4073d4f25577350",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/STATUS.md": {
+    "mtime": 1791654948.3012407,
+    "seen": 1791691537.0677533,
+    "ast_hash": "4034de67e550395cb883c925e3212dd2",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/_config/compliance.md": {
+    "mtime": 1791654639.447611,
+    "seen": 1791691537.0677545,
+    "ast_hash": "056fe2732af1a0600f2028110303fa35",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/_config/conventions.md": {
+    "mtime": 1791654621.1676362,
+    "seen": 1791691537.0677552,
+    "ast_hash": "b7a217af64aef8f47949a3a4d5a58255",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/_config/glossary.md": {
+    "mtime": 1791654629.2736657,
+    "seen": 1791691537.0677562,
+    "ast_hash": "44c2fa504121f480bf65b5e2be9ee75a",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/_config/voice.md": {
+    "mtime": 1791654615.1938455,
+    "seen": 1791691537.0677578,
+    "ast_hash": "c4048f698574a12df27fe27fee409d6a",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/deliverables/README.md": {
+    "mtime": 1791654689.9236848,
+    "seen": 1791691537.067759,
+    "ast_hash": "5cb720df8815d4599a37aab791b74fbb",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/drafts/README.md": {
+    "mtime": 1791654679.4344895,
+    "seen": 1791691537.067761,
+    "ast_hash": "c5904bf0bed7fa7e7a962942271db7f6",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/drafts/VALIDATION_QUEUE.md": {
+    "mtime": 1791654684.810068,
+    "seen": 1791691537.0677626,
+    "ast_hash": "d66b7fc04c90bd2b4ba92917a1e0b467",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/entities/README.md": {
+    "mtime": 1791654663.7909002,
+    "seen": 1791691537.0677638,
+    "ast_hash": "c57ecf75f533b27535efe77c7e8ce20c",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/entities/_template-entity.md": {
+    "mtime": 1791654668.0184782,
+    "seen": 1791691537.0677655,
+    "ast_hash": "96794b4ff1d32db4c16bfbaa73ff7eb5",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/capital-stack/README.md": {
+    "mtime": 1791654717.5267901,
+    "seen": 1791691537.0677676,
+    "ast_hash": "4da1e89920d1f14d8b600e79ac5b49b6",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/capital-stack/_capital-stack-template.md": {
+    "mtime": 1791654724.8439922,
+    "seen": 1791691537.067769,
+    "ast_hash": "274dcd2b4e9bb4473b559431cf332f9f",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/capital-stack/_stack-layer-coverage.md": {
+    "mtime": 1791654738.6916878,
+    "seen": 1791691537.0677707,
+    "ast_hash": "ea792fd946545363d4c9556e3f36aba3",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/lenders/README.md": {
+    "mtime": 1791654698.7850986,
+    "seen": 1791691537.067772,
+    "ast_hash": "cad7e04ec32e0b1711f805a3a76b7918",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/lenders/_template-lender-profile.md": {
+    "mtime": 1791654705.7004447,
+    "seen": 1791691537.0677733,
+    "ast_hash": "67673eb5aa318627ff6d0f986ceacf62",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/01-intake.md": {
+    "mtime": 1791654754.1218486,
+    "seen": 1791691537.0677748,
+    "ast_hash": "1dd80f2f57cfd6b3b0c04ac27f9f0cf9",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/02-tam-tiering.md": {
+    "mtime": 1791654764.0766764,
+    "seen": 1791691537.067776,
+    "ast_hash": "6f43af03ead7f9fd9836cd1d47beb6cf",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/03-scorecard.md": {
+    "mtime": 1791654773.6078637,
+    "seen": 1791691537.0677776,
+    "ast_hash": "cec8d31fd8c4152d18ccefa90dbdc473",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/04-outreach-playbook.md": {
+    "mtime": 1791654909.518917,
+    "seen": 1791691537.0677788,
+    "ast_hash": "1ef8f9fcdcb0b4d49b461f59e317efaf",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/05-compliance-routing.md": {
+    "mtime": 1791654921.551546,
+    "seen": 1791691537.06778,
+    "ast_hash": "9c43aece5a8e46295707bb12ee9d12e3",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/06-referral-channels.md": {
+    "mtime": 1791654931.5595167,
+    "seen": 1791691537.0677814,
+    "ast_hash": "624c229eade4a7ea754cb0f9cb3f9bdd",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/07-deliverables.md": {
+    "mtime": 1791654941.1934395,
+    "seen": 1791691537.0677829,
+    "ast_hash": "3ddbe00a857c5e3de9fbb89f00bf62c7",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/library/methodology/README.md": {
+    "mtime": 1791654745.1136868,
+    "seen": 1791691537.0677845,
+    "ast_hash": "58a645b213a7d92928972820069141ed",
+    "semantic_hash": ""
+  },
+  "clients/property-developer-lender-sourcing/projects/README.md": {
+    "mtime": 1791654673.7155132,
+    "seen": 1791691537.0677855,
+    "ast_hash": "f7ff47c18f02c7cabe6d1d40761fdd9d",
+    "semantic_hash": ""
+  },
+  "hermes/skills/icm-client-workspace-setup/references/methodology-template-workspace.md": {
+    "mtime": 1791654999.6039484,
+    "seen": 1791691537.0794396,
+    "ast_hash": "41c9641e4ad5d0712b2872306f5e2bba",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/STATUS.md": {
+    "mtime": 1791677196.4452484,
+    "seen": 1791691537.1015177,
+    "ast_hash": "53c604a7ceda79977b51fb77769f5c4d",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/_archive/veritas-development-os-frappe-2026-08-29/JOB.md": {
+    "mtime": 1789473655.2865376,
+    "seen": 1791691537.1015186,
+    "ast_hash": "1fa5a4848e9991af22ba9efebad0f77f",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/_archive/veritas-development-os-frappe-2026-08-29/STATUS.md": {
+    "mtime": 1791676944.6716785,
+    "seen": 1791691537.10152,
+    "ast_hash": "f7614ee017b9165c5223b16a9adb7538",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/notion-mirror/capital-relationship-os-2026-10-08.md": {
+    "mtime": 1791676966.7622101,
+    "seen": 1791691537.102966,
+    "ast_hash": "baa40977f3ee9c3841ef40ead90c5cf3",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/notion-mirror/dev-os-architecture-2026-10-01.md": {
+    "mtime": 1791676997.687239,
+    "seen": 1791691537.1029673,
+    "ast_hash": "1d0866c1160f85034f218cce417927af",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/notion-mirror/investor-white-paper-2026-09-08.md": {
+    "mtime": 1791677037.1155367,
+    "seen": 1791691537.1029692,
+    "ast_hash": "4162fdc13a56283bf2da62fa4f021f64",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/notion-mirror/real-estate-capital-os-pilot-2026-09-20.md": {
+    "mtime": 1791677021.0959973,
+    "seen": 1791691537.1029704,
+    "ast_hash": "32704388324a1138cd370b3893260102",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/notion-sync-2026-10-10.md": {
+    "mtime": 1791676338.0817583,
+    "seen": 1791691537.1029713,
+    "ast_hash": "a840416713ed2fe69b7503285b80835a",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/white-paper-program/wp1-claim-register-2026-10-10.md": {
+    "mtime": 1791690453.5763645,
+    "seen": 1791691537.1035364,
+    "ast_hash": "5405b2116a916032b66baf0f6dfa31db",
+    "semantic_hash": ""
+  },
+  "wiki/clients/veritas-developments/drafts/white-paper-program/wp1-research-plan-2026-10-10.md": {
+    "mtime": 1791690439.5959613,
+    "seen": 1791691537.1035373,
+    "ast_hash": "fbba0a6d5da7303b5756115af9e3aa70",
     "semantic_hash": ""
   }
 }
