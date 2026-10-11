@@ -226,6 +226,35 @@ For ad-hoc pasting into ChatGPT/Grok, the following one-page briefs are the high
 - **"What is Hermes doing today"** → `hermes/config-and-health-baseline.md` + `index.md`
 - **"What was the last research output for client X"** → `clients/<slug>/STATUS.md` then most recent dated draft under `clients/<slug>/drafts/`
 
+### Retrieval & Storage Stack (Pinecone + DuckDB)
+
+KlickSmartAI uses a two-layer retrieval + storage design. Agents must know which layer to read from and write to.
+
+| layer | tool | role | what lives here | when to use |
+|---|---|---|---|---|
+| **Vector memory (cloud)** | **Pinecone** | semantic retrieval across the whole wiki | embeddings of every approved memory artifact | when the agent needs to find semantically related prior work, entities, or context that isn't known by name |
+| **Local analytics + LLM processing** | **DuckDB** | structured data + offline LLM/embedding generation | per-client `.duckdb` files (e.g. `.local_tier/clients/<slug>.duckdb`), audit data, scoring, research staging | when the agent needs to query structured data, run analytics, score entities, or generate embeddings locally before sync |
+| **Operational layer** | this wiki (markdown) | source of truth, human-readable | the markdown files in this repo | when the agent needs canonical text, governance, or to write a new artifact |
+| **Session/memory** | `~/.hermes/state.db` + Mnemosyne | runtime conversation + episodic memory | live sessions, telegram DMs, episodic episodes | when the agent needs to recall prior conversation turns or inject context |
+
+**Read path (cold start):**
+1. Wiki markdown → identity, governance, current task context
+2. DuckDB → structured data for the active client (`.local_tier/clients/<slug>.duckdb`)
+3. Pinecone → semantic recall of prior related work across all clients
+4. `state.db` / Mnemosyne → recent conversation context (if same session)
+
+**Write path (artifact production):**
+1. Author/transform locally in DuckDB
+2. Materialize the canonical artifact as markdown in this wiki
+3. Embed → Pinecone production namespace (sourced from `master` only)
+4. Optional: copy structured rows into the per-client Supabase project (when Supabase is the system of record for that client)
+
+**Rules:**
+- Pinecone production ingestion reads from `master` only — never from a `workflow/*` or `research/*` branch.
+- DuckDB files are local per-client; they do not sync to other agents' machines. Treat as ephemeral staging unless explicitly published.
+- Do **not** put large embeddings or raw model outputs into the wiki — that is what Pinecone + DuckDB are for. The wiki stays human-readable.
+- When asked "do we have anything on X" — try Pinecone first (semantic), DuckDB second (structured), wiki last (canonical).
+
 ### Anti-patterns (don't do these)
 
 - ❌ `find . -name "*.md" | xargs cat` — pulls drafts, mirror, archive, raw research
