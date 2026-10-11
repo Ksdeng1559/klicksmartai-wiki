@@ -4,6 +4,16 @@
 **Location:** Hwy 291 & (NEC) Lee's Summit, MO
 **Status:** Active development
 
+## Notion sync (2026-10-10)
+
+- **Notion Capital Radar record:** `Veritas Opportunity & Capital Radar` DB → "Prime Lee's Summit — Multifamily & Mixed-Use Development", Opportunity Score **84**, Stage: Capital Match, Last Reviewed 2026-09-03
+- **Notion Capital OS pilot project:** Pilot A — "institutional / JV investor matching case" (per `real-estate-capital-os-pilot-2026-09-20.md` §"Initial Veritas Project Pilots")
+- **Notion MITs touching this project:**
+  - Dennis: "Finalize Prime Lee's Summit underwriting package" (priority: MIT, In Progress)
+  - Dennis: "Complete online capital-raising presentation" (priority: MIT, In Progress)
+- **Wiki deliverables:** `projects/prime-lees-summit-co-sponsor-brief.md` (capital structure), `drafts/jv-partner-summary-2026-08-10.md` (JV structure), `drafts/tam-co-sponsor-capital-2026-08-22.md` (53-org KC TAM)
+- **Mirror reference:** `drafts/notion-mirror/capital-relationship-os-2026-10-08.md` (table schemas), `dev-os-architecture-2026-10-01.md` §"Capital Markets OS" (operating sequence + 4-wave outreach)
+
 ## Site Summary (from owner site plan, 2026-08-10)
 
 | Element | Detail |

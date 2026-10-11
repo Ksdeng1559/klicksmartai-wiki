@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beekman Wilshire — Lender Vetting Report</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161922;
+    --panel-2: #1c2030;
+    --border: #262b3d;
+    --text: #e6e8ef;
+    --muted: #9aa1b8;
+    --accent: #6ea8ff;
+    --red: #ff5c5c;
+    --amber: #f7b955;
+    --green: #4ec38b;
+    --grid: rgba(255,255,255,0.04);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 32px 80px;
+  }
+  header.mast {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    letter-spacing: -0.005em;
+  }
+  h3 {
+    font-size: 15px;
+    margin: 24px 0 8px;
+    color: var(--text);
+  }
+  .sub {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 24px 0 8px;
+  }
+  .meta div {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .meta .k {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .meta .v {
+    font-size: 13px;
+    color: var(--text);
+  }
+  .verdict {
+    margin: 28px 0;
+    padding: 18px 22px;
+    background: linear-gradient(180deg, rgba(255,92,92,0.10), rgba(255,92,92,0.04));
+    border: 1px solid rgba(255,92,92,0.35);
+    border-left: 4px solid var(--red);
+    border-radius: 6px;
+  }
+  .verdict .label {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--red);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .verdict p { margin: 6px 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 24px;
+    font-size: 13px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  thead th {
+    text-align: left;
+    background: var(--panel-2);
+    color: var(--muted);
+    font-size: 11px;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 600;
+  }
+  tbody td {
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:nth-child(even) td { background: rgba(255,255,255,0.015); }
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .pill.red   { background: rgba(255,92,92,0.15);  color: var(--red);   border: 1px solid rgba(255,92,92,0.4); }
+  .pill.amber { background: rgba(247,185,85,0.15); color: var(--amber); border: 1px solid rgba(247,185,85,0.4); }
+  .pill.green { background: rgba(78,195,139,0.15); color: var(--green); border: 1px solid rgba(78,195,139,0.4); }
+  .pill.gray  { background: rgba(154,161,184,0.10); color: var(--muted); border: 1px solid var(--border); }
+  ol.steps, ul.steps {
+    counter-reset: step;
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+  }
+  ol.steps > li {
+    counter-increment: step;
+    position: relative;
+    padding: 12px 14px 12px 50px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  ol.steps > li::before {
+    content: counter(step);
+    position: absolute;
+    left: 14px;
+    top: 11px;
+    width: 26px;
+    height: 26px;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    color: var(--accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  ol.steps > li strong { color: var(--text); }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin: 12px 0 24px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+  .card h4 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  .card p { margin: 0; font-size: 13px; }
+  code, .mono {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12.5px;
+    background: var(--panel-2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    color: var(--accent);
+  }
+  .quote {
+    margin: 14px 0;
+    padding: 12px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--panel);
+    font-style: italic;
+    color: var(--text);
+    border-radius: 0 6px 6px 0;
+  }
+  .quote cite {
+    display: block;
+    margin-top: 6px;
+    font-style: normal;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .sources {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+  .sources ul { padding-left: 18px; }
+  .sources li { margin: 4px 0; word-break: break-word; }
+  .sources a { color: var(--accent); text-decoration: none; }
+  .sources a:hover { text-decoration: underline; }
+  footer.foot {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">Lender Vetting Report</div>
+  <h1>Beekman Wilshire</h1>
+  <div class="sub">For Veritas Development · Counterparty due-diligence · Advance-fee concern flagged</div>
+
+  <div class="meta">
+    <div><div class="k">Subject</div><div class="v">Beekman Wilshire LLC</div></div>
+    <div><div class="k">Address</div><div class="v">30 Wall Street, 8th Fl, NY 10005</div></div>
+    <div><div class="k">Contact</div><div class="v">byron@beekmanwilshire.com</div></div>
+    <div><div class="k">Verdict</div><div class="v"><span class="pill red">Do Not Pay</span></div></div>
+  </div>
+</header>
+
+<section class="verdict">
+  <div class="label">Bottom Line</div>
+  <p><strong>Beekman Wilshire matches the FTC/SEC/FinCEN advance-fee fraud signature for CRE financing.</strong> The firm is a recently formed (2025) debt-placement broker — not a lender — with no captive capital, no NYDFS or NMLS registration, and a principal with no commercial real estate lending background. An advance fee collected before a lender commitment is the exact pattern the FTC names as a scam, and the largest CRE financing frauds reported to FinCEN in recent years have taken this form.</p>
+  <p><strong>Recommendation:</strong> Do not pay any further amount. If a wire has already been sent, initiate a wire recall with your bank immediately (same-day window). Treat any further contact as a potential scam and report to the FTC, NY AG, and BBB Scam Tracker.</p>
+</section>
+
+<h2>1 · Firm Identification</h2>
+
+<table>
+  <tbody>
+    <tr><td width="35%">Entity</td><td>Beekman Wilshire LLC (LLC; registration status unconfirmed — NY DOS lookup recommended)</td></tr>
+    <tr><td>Stated address</td><td>30 Wall Street, 8th Floor, New York, NY 10005 (virtual / serviced-office style)</td></tr>
+    <tr><td>Phone</td><td>646-222-0821</td></tr>
+    <tr><td>Web</td><td><span class="mono">beekmanwilshire.com</span></td></tr>
+    <tr><td>Founded</td><td><strong>2025</strong> (per LinkedIn company page)</td></tr>
+    <tr><td>Headcount (LinkedIn)</td><td>1 employee, size 2</td></tr>
+    <tr><td>LinkedIn followers</td><td>24</td></tr>
+    <tr><td>Public contact</td><td><span class="mono">marc@beekmanwilshire.com</span> — Byron contact comes through Marc</td></tr>
+  </tbody>
+</table>
+
+<h2>2 · Negative Reviews &amp; Adverse Coverage</h2>
+
+<table>
+  <thead><tr><th>Source</th><th>Result</th></tr></thead>
+  <tbody>
+    <tr><td>Better Business Bureau (Scam Tracker + business profile)</td><td><span class="pill green">No complaints found</span></td></tr>
+    <tr><td>Ripoff Report</td><td><span class="pill green">No reports</span></td></tr>
+    <tr><td>Trustpilot</td><td><span class="pill green">No reviews</span></td></tr>
+    <tr><td>Google Reviews</td><td><span class="pill green">No business profile</span></td></tr>
+    <tr><td>Sitejabber / Pissed Consumer</td><td><span class="pill green">No listings</span></td></tr>
+    <tr><td>SEC litigation / EDGAR</td><td><span class="pill green">No filings</span></td></tr>
+    <tr><td>NYDFS enforcement actions</td><td><span class="pill green">None found</span></td></tr>
+    <tr><td>CFPB Consumer Complaint Database</td><td><span class="pill green">No complaints</span></td></tr>
+  </tbody>
+</table>
+<p class="sub">No public complaints yet. This is not protective — the firm is &lt;1 year old with a 1-person LinkedIn footprint and no public customer base. There simply isn't a body of complaint data to surface.</p>
+
+<h2>3 · Direct Balance Sheet Lender? <span class="pill red">No</span></h2>
+
+<p>Beekman Wilshire is <strong>not</strong> a direct balance sheet lender. It is a debt placement broker / capital advisory shop. The evidence is unambiguous:</p>
+
+<table>
+  <thead><tr><th>Test</th><th>Finding</th><th>Status</th></tr></thead>
+  <tbody>
+    <tr><td>Self-description</td><td>"We structure and place debt." Sources capital from banks, funds, private lenders. Describes portfolio lenders" in the third person.</td><td><span class="pill amber">Broker</span></td></tr>
+    <tr><td>Captive fund</td><td>No fund, no warehouse line, no SEC registration. No "Beekman Wilshire Capital" or affiliated credit vehicle surfaces anywhere.</td><td><span class="pill red">None</span></td></tr>
+    <tr><td>NYDFS Licensed Lender record</td><td>None found. Not licensed to make loans in its own state.</td><td><span class="pill red">Not registered</span></td></tr>
+    <tr><td>NMLS Consumer Access</td><td>No institutional record or individual MLO record found.</td><td><span class="pill red">Not registered</span></td></tr>
+    <tr><td>LinkedIn company description</td><td>"Beekman Wilshire is a commercial real estate finance and capital advisory firm focused on structuring and placing debt for acquisitions, refinancings, and recapitalizations across the U.S."</td><td><span class="pill amber">Broker</span></td></tr>
+    <tr><td>Byron Scott's LinkedIn title</td><td>"Managing Director — Leads a team of commercial mortgage brokers, focusing on complex debt and equity placements."</td><td><span class="pill amber">Broker</span></td></tr>
+  </tbody>
+</table>
+
+<div class="quote">
+  "At Beekman Wilshire, we make financing the easiest part of your deal. With the relationships we've built and the experience we bring, we can move quickly, solve problems early, and open doors to loan options most borrowers never get to see. … we source the right capital — whether that's bridge, mezz, preferred equity, or long-term permanent financing."
+  <cite>— beekmanwilshire.com homepage</cite>
+</div>
+
+<h2>4 · Principals</h2>
+
+<div class="grid-2">
+  <div class="card">
+    <h4>Byron Scott — Managing Director (Oct 2025–present)</h4>
+    <p>BBA Finance, Baruch College. 30+ years of CRE capital markets experience. Previously Co-Managing Director at Real Propert Advantages (Feb 2016–Sep 2025). His title explicitly describes leading a team of mortgage brokers. <strong>His credentials are real.</strong></p>
+  </div>
+  <div class="card">
+    <h4>"Marc" — Principal / Public Contact</h4>
+    <p>The site's contact email is <span class="mono">marc@beekmanwilshire.com</span>. Marc's LinkedIn background is Northwestern Mutual financial planning → Magnus Financial Group RIA ops → Smart Bets Coaching LLC (sports arbitrage). <strong>No CRE lending experience.</strong> This is a meaningful principal-level red flag.</p>
+  </div>
+</div>
+
+<h2>5 · Advance-Fee Concern — Detailed Analysis</h2>
+
+<h3>5.1 What makes an advance fee problematic in CRE financing</h3>
+
+<p>The U.S. Federal Trade Commission publishes a clear list — "Six Sure Signs of an Advance-Fee Loan Scam." The pattern this firm matches is:</p>
+
+<table>
+  <thead><tr><th>FTC red flag</th><th>Applies here?</th></tr></thead>
+  <tbody>
+    <tr><td><strong>(1)</strong> Lender not interested in your credit history — "Bad credit? No problem"</td><td>Unconfirmed — needs verification of term sheet</td></tr>
+    <tr><td><strong>(2)</strong> Fees not disclosed clearly / up-front fee for "processing" or "insurance"</td><td><span class="pill red">Yes — match</span></td></tr>
+    <tr><td><strong>(3)</strong> Lender doesn't give you a written application / disclosure</td><td>Unconfirmed — request the application package</td></tr>
+    <tr><td><strong>(4)</strong> Lender uses a P.O. box or non-physical address</td><td>30 Wall Street is a virtual-office tower; matches the pattern in spirit</td></tr>
+    <tr><td><strong>(5)</strong> Lender not registered in your state</td><td><span class="pill red">Yes — not registered with NYDFS / NMLS</span></td></tr>
+    <tr><td><strong>(6)</strong> Asks you to wire money or pay an individual</td><td>Unconfirmed — confirm wire instructions</td></tr>
+  </tbody>
+</table>
+
+<h3>5.2 Why an up-front fee is not industry standard</h3>
+
+<p>Legitimate CRE lending and broker practice:</p>
+<ul>
+  <li><strong>Borrower-paid loan fees</strong> (origination, processing, application) are typically deducted from the loan proceeds at closing or collected only after a <em>firm</em> approval. They are <em>never</em> required before a lender commitment exists.</li>
+  <li><strong>Third-party fees</strong> (appraisal, environmental, title) are paid directly to the third party — not to the broker or "lender."</li>
+  <li><strong>Broker placement fees</strong> are typically paid by the lender at closing (0.5–2 points), not by the borrower.</li>
+  <li><strong>If a fee is collected and the deal does not close</strong>, a legitimate firm refunds it. A scam firm disappears.</li>
+</ul>
+
+<h3>5.3 FinCEN data on CRE advance-fee fraud</h3>
+
+<div class="quote">
+  "Advance Fee Schemes: Filers described various forms of advance fee schemes targeting borrowers, lenders, and companies unable to obtain CRE financing. These schemes involved fraudulent business proposals and financial instruments. … A filer reported that an individual generated over a million dollars in an advance fee scheme by targeting CRE developers unable to secure financing during the economic downturn. … The highest amounts reported involved advance fee schemes. Two filers regulated by the OCC reported advance fee schemes for $780 million and another filer regulated by the Federal Reserve reported an advance fee scheme for $500 million."
+  <cite>— FinCEN, Commercial Real Estate Financing Fraud advisory</cite>
+</div>
+
+<h2>6 · What To Do Now</h2>
+
+<ol class="steps">
+  <li><strong>Stop payment.</strong> Do not pay any further amount. If a wire was sent today, contact your bank immediately and request a wire recall — same-day recall is the realistic recovery window.</li>
+  <li><strong>Document everything.</strong> Save every email, especially the message that described the fee, the wire instructions received, the name on the receiving account, any term sheet or commitment letter, and who initiated contact (cold call, referral, LinkedIn DM).</li>
+  <li><strong>Verify NY entity.</strong> Run a search at <span class="mono">apps.dos.ny.gov/publicInquiry/</span> for "Beekman Wilshire." Confirm the LLC exists, who the registered agent is, when it was formed, and whether any fund entity is also registered.</li>
+  <li><strong>Test the refund.</strong> Ask them in writing: "If the loan does not close, is this fee refundable, and on what terms?" A legitimate firm will answer in writing with a clear refund policy. A scam firm will not.</li>
+  <li><strong>If you wired money:</strong>
+    <ul>
+      <li>Call your bank's fraud / wire recall team now.</li>
+      <li>File an <strong>IC3 complaint (ic3.gov)</strong> if criminal fraud is suspected.</li>
+      <li>File with the <strong>FTC (ReportFraud.ftc.gov)</strong> and <strong>CFPB (consumerfinance.gov/complaint)</strong>.</li>
+      <li>File with the <strong>NY Attorney General (ag.ny.gov)</strong> and <strong>BBB Scam Tracker</strong>.</li>
+    </ul>
+  </li>
+  <li><strong>If only verbal and no payment yet:</strong> simply stop responding. Block the email and phone number. Do not engage further.</li>
+</ol>
+
+<h2>7 · Recommendation for Veritas</h2>
+
+<div class="verdict">
+  <div class="label">Do Not Engage</div>
+  <p>Walk away from Beekman Wilshire regardless of whether the advance fee is recoverable. The firm has:</p>
+  <ul>
+    <li>No captive capital and no direct-lender registration</li>
+    <li>No track record (founded 2025; 1-person LinkedIn footprint)</li>
+    <li>A principal (Marc) without CRE lending experience</li>
+    <li>No verifiable lender relationships that respond to a credible broker</li>
+    <li>An ask (advance fee) that matches the FTC's named scam signature</li>
+  </ul>
+  <p><strong>For Veritas's actual CRE financing,</strong> use a registered, tenured broker or NMLS-licensed lender with verifiable closed deals. Brokers who earn at closing on a placement fee (paid by the lender) do not need to ask the borrower for an up-front fee — and that is the cleanest single test of legitimacy.</p>
+</div>
+
+<h2>8 · Sources</h2>
+<div class="sources">
+<ul>
+  <li><a href="https://beekmanwilshire.com" target="_blank" rel="noopener">beekmanwilshire.com</a> — firm website, product pages, contact page</li>
+  <li><a href="https://www.linkedin.com/company/beekman-wilshire" target="_blank" rel="noopener">linkedin.com/company/beekman-wilshire</a> — company page (founded 2025, 1 employee, 24 followers)</li>
+  <li><a href="https://www.linkedin.com/in/byron-scott-0bb1a9385" target="_blank" rel="noopener">linkedin.com/in/byron-scott-0bb1a9385</a> — Byron Scott, Managing Director (Oct 2025–present), prior Real Propert Advantages</li>
+  <li><a href="https://consumer.ftc.gov/articles/what-know-about-advance-fee-loans" target="_blank" rel="noopener">consumer.ftc.gov/articles/what-know-about-advance-fee-loans</a> — FTC, "What To Know About Advance-Fee Loans"</li>
+  <li><a href="https://www.bulkorder.ftc.gov/system/files/publications/pdf-0076-advance-fee-loans.pdf" target="_blank" rel="noopener">FTC, Advance-Fee Loans PDF (PDF-0076)</a> — "Six Sure Signs of an Advance-Fee Loan Scam"</li>
+  <li><a href="https://www.fincen.gov/system/files/shared/Commercial%20Real%20Estate%20Financing%20Fraud%20FINAL%20508.pdf" target="_blank" rel="noopener">fincen.gov — Commercial Real Estate Financing Fraud advisory</a></li>
+  <li><a href="https://www.bbb.org/article/news-releases/16919-bbb-tip-advance-fee-loan-scams" target="_blank" rel="noopener">bbb.org — BBB Tip: Advance-Fee Loan Scams</a></li>
+  <li><a href="https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud" target="_blank" rel="noopener">investor.gov — Advance Fee Fraud</a></li>
+  <li><a href="https://apps.dos.ny.gov/publicInquiry/" target="_blank" rel="noopener">apps.dos.ny.gov/publicInquiry/</a> — NY Secretary of State corporate entity lookup (recommended verification step)</li>
+  <li><a href="https://nmlsconsumeraccess.org" target="_blank" rel="noopener">nmlsconsumeraccess.org</a> — NMLS Consumer Access (no record found for Beekman Wilshire)</li>
+</ul>
+</div>
+
+<footer class="foot">
+  Prepared for Veritas Development · Lender vetting · Subject: Beekman Wilshire LLC · Report dated 2026-10-10 · Research via parallel.ai web_search + web_fetch, FTC/FinCEN/BBB/LinkedIn primary sources
+</footer>
+
+</div>
+</body>
+</html>

@@ -46,6 +46,9 @@ Works for **both Hermes Agent** (auto-loads `CLAUDE.md`/`AGENTS.md`/`CONTEXT.md`
 | "Where do I put work for a new client?" | ✅ (point to this skill + the template) |
 | "Just create a folder called X" (generic) | ❌ use plain `mkdir` |
 | "Set up a project under existing client X" | ❌ use that client's IDENTITY.md + CONTEXT.md |
+| "Build me a template for sourcing [X] for future [Y] projects" | ✅ as **methodology template** — see `references/methodology-template-workspace.md` |
+| "Create a workspace for our [X] process / playbook / library" | ✅ as **methodology template** — see `references/methodology-template-workspace.md` |
+| "I want a library of [X] we can re-use" | ✅ as **methodology template** — see `references/methodology-template-workspace.md` |
 
 ## Client Intake (read this first when the user says "new client")
 
@@ -411,6 +414,8 @@ Treat "we will get that later" / "parked" / "paid, defer" as the canonical user 
     - "the ICM pattern" ✓ (colloquial for the 3-layer pattern)
     Cite ICM when you mean the methodology; cite the layer names when you mean the artifacts.
 
+21. **A workspace can be a methodology template, not a client engagement.** When the user says "for future [X] projects," "template / playbook / library," or "we'll re-use this for...", they want a **methodology template workspace** — same ICM skeleton, but `library/` is the reusable core and `projects/<engagement-slug>/` holds per-engagement sub-folders. See `references/methodology-template-workspace.md`. Don't conflate with client workspaces: a methodology template is owned by KlickSmartAI; per-engagement sub-folders will have their own sponsor. Don't auto-port cross-workspace data into the library — reference with citation. Don't pre-populate `library/lenders/` / `library/icps/` / etc. with synthetic data — "no data" is a valid answer until a real engagement validates the entry.
+
 ## Discovery setup (wiki-scoped skills)
 
 If this skill is being published from a wiki repo (e.g. `/home/denni/wiki/hermes/skills/`), Hermes needs to know to look there. Two pieces:
@@ -470,6 +475,7 @@ See the `references/` folder for copy-able templates:
 - `references/skill-collision-diagnostic.md` — recovery procedure for the silent-truncation bug when a wiki skill is also in `~/.hermes/skills/` (see pitfall #7)
 - `references/backporting-existing-clients.md` — procedure for layering new verticals / GTM / compliance onto an already-scaffolded client workspace without disturbing legacy validated artifacts
 - `references/client-brain-standard.md` — the **canonical contract** for the knowledge layer of a client workspace (`CLIENT-BRAIN.md` + `context/{BRAND-VOICE,FACTS-AND-CLAIMS,COMPLIANCE,SERVICES-AND-OFFERS,SOURCES,DECISIONS}.md`, 8-tier authority order, Green/Yellow/Red action taxonomy, Notion↔markdown sync). New clients built after 2026-08-28 use this pattern; existing clients migrate on next touch.
+- `references/methodology-template-workspace.md` — pattern for a workspace whose purpose is **the methodology itself** rather than a single client engagement (e.g. a "lender sourcing for future property developers" workspace). Adds `library/` as the reusable core; per-engagement sub-folders live under `projects/`. Use when the user says "build a template for future [X]" or "create a workspace for our [X] process."
 - `references/okf-schema.md` — the **OKF v0.2 profile** (Open Knowledge Format, Google Cloud Platform). Makes every workspace a portable knowledge bundle any LLM can ingest without installing a skill. Type vocabulary, actor conventions, source-of-truth↔lifecycle mapping, and the "any skill becomes a callable function" pattern (Playbook + parameters + executor + attester). See Step 2.5.
 
 ## Worked example — First client (text-only deliverables)

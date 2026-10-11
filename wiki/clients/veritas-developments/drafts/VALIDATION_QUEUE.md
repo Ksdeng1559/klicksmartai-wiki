@@ -166,6 +166,79 @@ hitl_contact_secondary: Daniel Bailey (Co-Founder & RE Advisor) — required for
 ## Status tracking
 
 - 2026-08-22: Validation queue created. 5 drafts moved from projects/ → drafts/. No commits made. Awaiting David + Daniel feedback.
+- 2026-10-10: Notion sync — architecture pivot recorded (see `drafts/notion-sync-2026-10-10.md`). 4 read-only Notion mirrors added under `drafts/notion-mirror/`. Stale Frappe build plan archived. New gate items below.
+
+---
+
+## New gate items (added 2026-10-10)
+
+### 6. Atomic CRM Capital OS — 5-sprint build plan
+
+| Field | Value |
+|---|---|
+| File (source) | `drafts/notion-mirror/capital-relationship-os-2026-10-08.md` |
+| Type | Build plan (canonical source: Notion) |
+| Validation owner | **Dennis** (architecture approval) + **David** (sponsor sign-off) |
+| Required approvers | Dennis + David + David-Daniel for any compliance override |
+| Status | ⏳ Awaiting — staging Supabase project not yet provisioned |
+
+**Assumption validation:**
+- [ ] **Staging Supabase project** created in a new account (per 2026-10-08 ADR §"Reason")
+- [ ] **Two-tenant isolation test** written and passing before any Veritas data in shared project
+- [ ] **Clerk Organizations** provisioned (Veritas = 2nd org)
+- [ ] **Securities counsel** confirmed for investor eligibility / solicitation / data-room / verification rules
+- [ ] **E-signature provider** selected (open ADR §24)
+- [ ] **Investor data-room implementation** selected (open ADR §24)
+- [ ] **Open**: merged role list, Veritas stage list, whether the live `goals` table exists, which three projects are live (currently 3: Prime Lee's Summit, Stonehaven, plus the 3 seed projects in SQL: Evermont, Brookstone, Grandview/Green Acres)
+
+**HITL question for Dennis + David:**
+> "The 2026-10-08 ADR converts Veritas to Atomic CRM + Supabase with a 5-sprint build plan. Before Sprint 1 (Data Model), we need: (1) staging Supabase project in a new account, (2) two-tenant isolation test, (3) Clerk Organizations provisioning, (4) securities counsel sign-off. Which one do you want to start with?"
+
+### 7. Investor White Paper — Paper 1 (Manufacturing Development Certainty)
+
+| Field | Value |
+|---|---|
+| File (source) | `drafts/notion-mirror/investor-white-paper-2026-09-08.md` §"Paper 1 Brief" |
+| Type | Research brief → Claim register → Draft v1 → Draft v2 → Final |
+| Validation owner | **Dennis** (evidence quality) + **David** (primary) + **Daniel** (secondary) |
+| Required approvers | David + Daniel jointly for final publication |
+| Status | ⏳ Awaiting — Hermes research plan + claim register not yet drafted |
+
+**Assumption validation (per Notion HITL workflow):**
+- [ ] **Hermes research plan** — proposed sources per lane, source quality thresholds, OPEN ITEM rules
+- [ ] **Claim register** built before drafting (per Hermes Research Protocol step 2)
+- [ ] **No fabricated data** — every quantitative, legal, tax, market, project claim must carry a source and date
+- [ ] **Project facts separated from regional context** (per Hermes Research Protocol step 9)
+- [ ] **David review** of strategy, operating capabilities, intended positioning, development process, project descriptions, land control logic, sponsor representations
+- [ ] **Daniel review** of RE/brokerage language, landowner/builder/buyer assumptions, comparable-property relevance, sourcing/disposition pathways, pricing/demand/liquidity claims, CTA support
+- [ ] **Specialist triggers** evaluated (attorney, CPA, engineer, appraiser, licensed financing professional)
+- [ ] **No Reg D 506(b) solicitation** without legal review
+
+**HITL question for Dennis:**
+> "Per the 2026-09-08 Notion program spec, Paper 1 (Manufacturing Development Certainty) is the priority. Should I (a) draft the Hermes research plan + claim register first for your evidence-quality review, or (b) wait until you can confirm source priorities? Per CLAUDE.md, AI-generated material lands in `drafts/` first — so I can prep the research plan now if you say go."
+
+### 8. Real Estate Capital OS Pilot — Frappe-pivot conflict resolution
+
+| Field | Value |
+|---|---|
+| File (source) | `drafts/notion-mirror/real-estate-capital-os-pilot-2026-09-20.md` |
+| Type | Notion page requires update to reflect 2026-10-08 Atomic CRM pivot |
+| Validation owner | **Dennis** (Notion edit authority) |
+| Status | ⏳ Awaiting — page still says "Frappe" throughout |
+
+**Conflict summary:**
+The 2026-09-20 page positions Veritas as a Frappe Growth OS vertical. The 2026-10-08 ADR in `Veritas Capital Relationship OS` converts Veritas to Atomic CRM + Supabase. The vertical concept and DocType list survive, but the implementation platform changed.
+
+**Required updates to the Notion page (in priority order):**
+- [ ] **REC-ADR-001** — change "Frappe Growth OS" to "Atomic CRM Growth OS"
+- [ ] **Core Product Statement** — change "Frappe stores the investor relationship" to "Atomic CRM stores the investor relationship"
+- [ ] **"Reusable Vertical Product"** section — change "Frappe Real Estate Capital OS" to "Atomic CRM Real Estate Capital OS"
+- [ ] **All Frappe references throughout** — annotate as LEGACY with pointer to 2026-10-08 ADR
+- [ ] **Pilot A / Pilot B references** — unchanged (Prime Lee's Summit + Stonehaven still the pilots)
+- [ ] **DocType list** — unchanged (still valid; only the platform that hosts them changed)
+
+**HITL question for Dennis:**
+> "Three options for the Frappe-pilot conflict: (a) update the Notion page now with all Frappe→Atomic renames, (b) add a single ADR callout at the top of the page pointing to 2026-10-08, or (c) leave it as-is with the conflict note in the mirror. (a) is cleanest; (b) preserves the original text; (c) is current state. Your call?"
 
 ---
 

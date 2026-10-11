@@ -33,6 +33,34 @@
 
 ---
 
+## Architecture pivot — 2026-10-08 (canonical)
+
+**Source of truth:** Notion → `Veritas Capital Relationship OS` (page `3ec9e94c-f0a4-81e6-bca7-c8e6aaa2c375`), change log 2026-10-08 entry, approver Dennis Eng.
+
+**Decision:** Veritas is converting to **Atomic CRM + Supabase as the primary CRM and operational system of record**. Frappe/ERPNext designs are **legacy architecture references only** and must not drive new CRM feature development unless explicitly re-approved.
+
+| Aspect | Old (Frappe plan) | New (Atomic CRM) |
+|---|---|---|
+| Primary CRM | Frappe + ERPNext | Atomic CRM + Supabase |
+| Code repo | Astro v2 standalone | `Ksdeng1559/atomic-crm` fork |
+| Multi-tenant | Single-tenant | Clerk Organizations (Veritas = 2nd org) |
+| Schema | Numbered migrations | Declarative files in `supabase/schemas/` |
+| Build order | Phase 0 → 4 (sequential) | Sprint 1 → 5 (Data → UI → Workflow → AI → Governance) |
+
+**Superseded:** `drafts/veritas-development-os/JOB.md` (5-phase Frappe/ERPNext build) → archived at `_archive/veritas-development-os-frappe-2026-08-29/` with STATUS.md. See `drafts/notion-sync-2026-10-10.md` for the full delta.
+
+**Read-only Notion mirrors** (in `drafts/notion-mirror/`):
+- `capital-relationship-os-2026-10-08.md` — canonical CRM implementation source
+- `dev-os-architecture-2026-10-01.md` — 13-layer architecture + M&A Radar + Capital Markets OS
+- `real-estate-capital-os-pilot-2026-09-20.md` — reusable vertical concept (NB: predates pivot, marked CONFLICT)
+- `investor-white-paper-2026-09-08.md` — 6-paper portfolio with HITL workflow
+
+**Open conflict:** `real-estate-capital-os-pilot-2026-09-20.md` still says "Frappe" in its body. Per the 2026-10-08 ADR, all "Frappe" references in that page are legacy. Do not cite as current architecture without the conflict note.
+
+**Staging rule:** Build and test first in a separate staging Supabase project in a new account. Merge into shared project only after two-tenant isolation tests pass. No production Veritas data in shared project until then.
+
+---
+
 ## Session Start Protocol
 
 1. Read `IDENTITY.md` — workspace map, stage map, rules.

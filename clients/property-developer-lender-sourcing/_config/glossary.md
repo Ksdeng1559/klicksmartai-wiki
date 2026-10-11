@@ -1,0 +1,31 @@
+# Glossary
+
+- **Sponsor** — the property developer / project owner (e.g. Veritas Development Group LLC)
+- **GP / Sponsor equity** — general partner capital the sponsor commits (cash + promote)
+- **LP / Co-sponsor equity** — limited partner capital from a third-party equity provider
+- **JV** — joint venture, the legal vehicle for shared ownership
+- **Promote** — the GP's share of profits above a preferred-return hurdle
+- **Preferred return (pref)** — minimum LP yield before GP earns promote
+- **Waterfall** — order in which cash distributions are split between LP and GP
+- **Capital stack** — full layered structure of a deal: senior debt → mezz → pref equity → JV equity → sponsor equity
+- **Senior debt** — first-lien construction or permanent loan
+- **Mezzanine** — subordinated debt that sits between senior debt and equity
+- **Bridge loan** — short-term financing, often for value-add or transitional assets
+- **Construction loan** — senior debt drawn over the build period, converted to permanent at stabilization
+- **Permanent loan** — long-term takeout financing once asset is stabilized
+- **LIHTC** — Low-Income Housing Tax Credit (federal + state); requires 9% or 4% allocation + syndication
+- **NMTC** — New Markets Tax Credit; for projects in low-income census tracts
+- **CDFI** — Community Development Financial Institution; mission-driven lender
+- **CRA credit** — Community Reinvestment Act incentive for banks to lend in LMI areas
+- **Reg D 506(b)** — private placement, no general solicitation, pre-existing relationship required
+- **Reg D 506(c)** — private placement, general solicitation OK, all-accredited verified
+- **FFO** — Family Foundation Office / Family Office
+- **SFO** — Single Family Office
+- **MFO** — Multi-Family Office
+- **MLO** — Mortgage Loan Originator (state-licensed)
+- **MLS** — Multiple Listing Service (real estate)
+- **AUM** — Assets Under Management
+- **LTV / LTC** — Loan-to-Value / Loan-to-Cost
+- **DSCR** — Debt Service Coverage Ratio
+- **NOI** — Net Operating Income
+- **SPE** — Special Purpose Entity (borrower shell)

@@ -4,6 +4,13 @@
 **Location:** Cyclone School Road, Lee's Summit, Missouri
 **Status:** Active development
 
+## Notion sync (2026-10-10)
+
+- **Notion Capital Radar record:** `Veritas Opportunity & Capital Radar` DB → "Stonehaven Estates — 57-Lot Residential Development", Opportunity Score **81**, Stage: Capital Match, Last Reviewed 2026-09-03
+- **Notion Capital OS pilot project:** Pilot B — "simpler residential / land-development capital case" (per `real-estate-capital-os-pilot-2026-09-20.md` §"Initial Veritas Project Pilots")
+- **Notion MITs touching this project:** David: "Finalize Stonehaven development economics" (priority: High, In Progress)
+- **Mirror reference:** `drafts/notion-mirror/capital-relationship-os-2026-10-08.md` (Project Brain + Project Gates schemas, with Green Acres gate model: Control → Fatal Flaws → Municipal Signal → Application → Entitlement/Close → Horizontal NTP)
+
 ## Site Data (from owner site plan, 2026-08-10)
 
 | Metric | Value |
