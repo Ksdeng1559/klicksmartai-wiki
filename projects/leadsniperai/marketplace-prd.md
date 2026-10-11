@@ -1,12 +1,16 @@
 ---
 title: LeadSniperAI Marketplace PRD
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-10-11
 type: summary
 tags: [technology, research, how-to]
 sources: [notion: LeadSniperAI Marketplace PRD]
-related: [lead-sniperai-cli-os, lead-sniperai-signal-cold-email-sop, deepline]
+related: [lead-sniperai-cli-os, lead-sniperai-signal-cold-email-sop, deepline, projects/leadsniperai/ARCHITECTURE.md, projects/leadsniperai/STATUS.md]
 ---
+
+> **DEPRECATION NOTE (2026-10-11)**: This PRD was written 2026-08-05 and references **Qdrant** as the semantic retrieval layer ("specialized large-scale semantic retrieval"). LeadSniperAI's semantic layer was switched to **Pinecone** on 2026-10-11 (MCP-integrated, `llama-text-embed-v2`, serverless). Qdrant is **not in use**. The reference below is kept for historical context only.
+>
+> **Current architecture (2026-10-11)**: see `projects/leadsniperai/ARCHITECTURE.md` and `projects/leadsniperai/STATUS.md`.
 
 # Executive Summary
 LeadSniperAI will use **Convex as the real-time operational backend** for a multi-tenant marketplace that generates, qualifies, packages, prices, distributes, and tracks leads produced by rank-and-rent web assets.

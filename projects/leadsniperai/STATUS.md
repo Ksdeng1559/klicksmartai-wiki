@@ -102,15 +102,12 @@ LeadSniperAI's **4-layer architecture is designed and 75% built**. Discovery, St
 
 ---
 
-## Open questions for user
+## Open questions for user — RESOLVED 2026-10-11
 
-1. **Contact-embedding trigger**: should it run (a) automatically on every pipeline promotion to Supabase, (b) as a separate cron job, or (c) manually when needed? Default recommendation: **(a) automatic, but with a `dry_run` flag** like the rest of the pipeline.
-
-2. **Pinecone namespace convention**: one namespace per workspace (`veritas-developments`, `spectra-holdings`) or a single `production` namespace with `workspace_slug` in metadata? Default recommendation: **one namespace per workspace** — easier to delete a workspace's data when offboarding.
-
-3. **Qdrant PRDs cleanup**: do you want `cli-prd.md` and `marketplace-prd.md` updated to remove Qdrant references (and add Pinecone), or leave them as historical record? Default: **update in place with a note "Qdrant deprecated 2026-10-11 in favor of Pinecone"**.
-
-4. **MotherDuck enablement**: any multi-machine need today? Default: **no, skip until needed**.
+1. **Contact-embedding trigger** — **automatic on Supabase promotion, with `dry_run` flag** (mirrors `run_pipeline`).
+2. **Pinecone namespace convention** — **one namespace per workspace** (e.g. `veritas-developments`, `spectra-holdings`). Easier offboarding.
+3. **Qdrant PRDs cleanup** — **update in place** with a "Qdrant deprecated 2026-10-11 in favor of Pinecone" note. `cli-prd.md` and `marketplace-prd.md` to be patched this session.
+4. **MotherDuck enablement** — **skipped**, no multi-machine need today. Re-evaluate when second laptop joins the work.
 
 ---
 

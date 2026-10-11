@@ -1,12 +1,16 @@
 ---
 title: LeadSniperAI CLI PRD
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-10-11
 type: summary
 tags: [technology, research, how-to]
 sources: [notion: LeadSniperAI CLI PRD]
-related: [lead-sniperai-cli-os, lead-sniperai-signal-cold-email-sop, deepline]
+related: [lead-sniperai-cli-os, lead-sniperai-signal-cold-email-sop, deepline, projects/leadsniperai/ARCHITECTURE.md, projects/leadsniperai/STATUS.md]
 ---
+
+> **DEPRECATION NOTE (2026-10-11)**: This PRD was written 2026-08-05 and references **Qdrant** as the semantic store. LeadSniperAI's semantic layer was switched to **Pinecone** on 2026-10-11 (MCP-integrated, `llama-text-embed-v2`, serverless). Qdrant is **not in use**. The Qdrant references below are kept for historical context only.
+>
+> **Current architecture (2026-10-11)**: see `projects/leadsniperai/ARCHITECTURE.md` and `projects/leadsniperai/STATUS.md`. Four layers: Gemini/Maps discovery → DuckDB + Parquet staging → Pinecone semantic recall → Supabase system of record. The `mcp__leadsniper__*` MCP server (17 tools) is the operational interface.
 
 # Executive Summary
 Build a production-ready `leadsniper` command-line interface that turns LeadSniperAI 3.0 into an agent-native local business opportunity intelligence system.
