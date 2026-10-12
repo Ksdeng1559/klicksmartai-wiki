@@ -90,9 +90,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1779208375.6401367,
-    "seen": 1788871160.5386276,
-    "ast_hash": "e7d1b03eadaafabc2a6a2e4185a8171d",
+    "mtime": 1791727049.472782,
+    "seen": 1791777880.2370148,
+    "ast_hash": "e839d58a14e00567d7df89fb4a236f6a",
     "semantic_hash": ""
   },
   "SCHEMA.md": {
@@ -2262,9 +2262,9 @@
     "semantic_hash": ""
   },
   "projects/leadsniperai/cli-prd.md": {
-    "mtime": 1785900976.819812,
-    "seen": 1788871160.5391555,
-    "ast_hash": "11b48d419d1a763e9c4c3199dd7504c1",
+    "mtime": 1791728761.3108048,
+    "seen": 1791777880.2575533,
+    "ast_hash": "5334d3b1c532ac252792f1f4ab473b86",
     "semantic_hash": ""
   },
   "projects/leadsniperai/index.md": {
@@ -2286,9 +2286,9 @@
     "semantic_hash": ""
   },
   "projects/leadsniperai/marketplace-prd.md": {
-    "mtime": 1785900976.8184502,
-    "seen": 1788871160.5391588,
-    "ast_hash": "67d343bbbfc9dead5516c8bbead2b4c7",
+    "mtime": 1791728761.314595,
+    "seen": 1791777880.2576272,
+    "ast_hash": "fddbbe81cda39dea8a2d7ce32bfeeec7",
     "semantic_hash": ""
   },
   "projects/leadsniperai/venture-os.md": {
@@ -4596,9 +4596,9 @@
     "semantic_hash": ""
   },
   "clients/open-seo/.local_tier/sync-manifest.json": {
-    "mtime": 1790434229.077003,
-    "seen": 1790481690.27097,
-    "ast_hash": "cdc32ce9352ae83924999f60e7a0cd30",
+    "mtime": 1791739509.491341,
+    "seen": 1791777880.236327,
+    "ast_hash": "3e2cdf8475a519028c1a33ab4c1c1d66",
     "semantic_hash": ""
   },
   "drafts/cowork-mcp-config.json": {
@@ -18417,6 +18417,24 @@
     "mtime": 1791690439.5959613,
     "seen": 1791691537.1035373,
     "ast_hash": "fbba0a6d5da7303b5756115af9e3aa70",
+    "semantic_hash": ""
+  },
+  "projects/leadsniperai/ARCHITECTURE.md": {
+    "mtime": 1791728639.9668472,
+    "seen": 1791777880.2575235,
+    "ast_hash": "5ed9c6814a98be108c52be133494e8f7",
+    "semantic_hash": ""
+  },
+  "projects/leadsniperai/MCP-TOOLS-REFERENCE.md": {
+    "mtime": 1791728639.9679239,
+    "seen": 1791777880.257525,
+    "ast_hash": "3e7ddb1ce2ed039a220e631a09f84023",
+    "semantic_hash": ""
+  },
+  "projects/leadsniperai/STATUS.md": {
+    "mtime": 1791734048.6789863,
+    "seen": 1791777880.257526,
+    "ast_hash": "21e181ea98d05445a614a9b7b854fbee",
     "semantic_hash": ""
   }
 }
