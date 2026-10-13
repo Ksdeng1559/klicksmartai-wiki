@@ -1,9 +1,9 @@
 ---
 type: CONCEPT
 created: 2026-08-18
-updated: 2026-08-18
-confidence: 0.85
-sources: [session 20260817_073210, session 20260817_151154, Hermes agent governance]
+updated: 2026-10-12
+confidence: 0.7
+sources: [session 20260817_073210, session 20260817_151154, session 20261012_094156_1cbec4, Hermes agent governance]
 related: [[hermes-chief-of-staff-os]], [[business-context-md]]
 tags: [hermes, memory, architecture, honcho, obsidian, graphify, github-wiki, supabase]
 status: active
@@ -62,3 +62,29 @@ For each candidate item from session sweeps:
 6. **Report** — tight owner summary: items extracted, promoted (list notes), skipped, graph node count, sync status.
 
 See [[hermes-chief-of-staff-os]] for the broader CoS operating layer this memory architecture serves.
+
+## Corrections & Updates
+
+### 2026-10-12 — Mnemosyne external-storage audit (verified)
+
+The "Honcho = primary" framing above is **stale**. Verified during session `20261012_094156_1cbec4`:
+
+| claim in earlier Key Facts | actual state (2026-10-12) |
+|---|---|
+| "Honcho = primary memory, self-hosted, REST + Postgres" | Honcho MCP server still runs (`wrangler dev` :44547) but **no `HONCHO_API_KEY` configured** — the API is exposed locally, nothing is written off-box. |
+| "Mnemosyne external storage exists" | **Never provisioned.** `mnemosyne_sync_status` → `remote: (unconfigured)`. All 20,044 episodic + 49 working memories live in local SQLite at `~/.hermes/mnemosyne/data/mnemosyne.db` (37 MB). |
+| "QDRANT_URL not used (superseded)" | `QDRANT_URL` env var was found in `~/.hermes/cache/scratch/hermes-snap-*.sh` (a shell snapshot from earlier experiments) — not in active config. No Qdrant connection ever existed. |
+
+**Implication for layer model:** drop the "5 layers with external Honcho" framing. The honest model is **3 active layers + 2 dormant**:
+- Active: **Obsidian** (curated wiki), **Graphify** (derived graph), **GitHub Wiki** (versioned source)
+- Dormant: **Mnemosyne** (local-only SQLite, sync_remote unset), **Honcho** (MCP alive, no key)
+
+**To wire external memory** (when Dennis decides it's worth it):
+1. Pick a sync target (Turbopuffer / Qdrant Cloud / a VPS running Mnemosyne sync server).
+2. Set `MNEMOSYNE_SYNC_REMOTE` in `~/.hermes/mnemosyne/mnemosyne.env`.
+3. `mnemosyne_sync_push` / `mnemosyne_sync_pull`.
+4. Optionally re-enable Honcho with a real `HONCHO_API_KEY`.
+
+**Memory OS stack spec** (Qdrant + Redis + ARQ worker) was designed but never deployed. Treat as future work, not current infrastructure.
+
+— recorded by brain-closing 2026-10-12

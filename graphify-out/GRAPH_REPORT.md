@@ -1,16 +1,16 @@
-# Graph Report - wiki  (2026-10-11)
+# Graph Report - wiki  (2026-10-12)
 
 ## Corpus Check
-- 3002 files · ~4,604,182 words
+- 3003 files · ~4,605,045 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 53004 nodes · 51456 edges · 4052 communities (3822 shown, 157 thin omitted)
+- 53015 nodes · 51466 edges · 4054 communities (3824 shown, 157 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2154f1fd`
+- Built from commit: `7252eaab`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -95,10 +95,10 @@
 - SEO Audit & Recommendations — veritasdevelopmentgroupllc.com
 - Marketing Carousel Growth Engine
 - China Market Localization Strategist
-- 3. Priority Build Sequence
+- Wiki Log
 - Core Product Features
 - Frequently Asked Questions
-- Enterprise Workstreams
+- Clay
 - Spectra Holdings Group × Whatcom County — Strategic Alignment Brief
 - LeadSniper-3.0 Operational Runbook
 - Business Loan Comparison Site — Strategy
@@ -132,12 +132,12 @@
 - Frequently Asked Questions
 - [MIRROR] Veritas Development Intelligence OS
 - LeadSniperAI — Project Status (2026-10-11)
-- Hermes Agent Research — Brave Search Results
+- wiki-knowledge/entities/dataforseo.md
 - Frequently Asked Questions
 - Census Data API Resource for Spectra Holdings
 - 7. 12-Month GTM Roadmap
 - SEO Audit + Recommendations — veritasdevelopmentgroupllc.com
-- wiki-knowledge/agency-agents/README.md
+- wiki-knowledge/agency-agents/integrations/README.md
 - regenerate-project-settings.py
 - Pipeline — Default Client Deliverable (Virtual Stages)
 - SEO Skill Catalog
@@ -163,11 +163,11 @@
 - Frequently Asked Questions
 - Wiki-Sync Cron Prompt Contains Typo: `github-wki` (Should Be `github-wiki`)
 - [MIRROR] Veritas Capital Relationship OS
-- GTM Strategies for Mortgage Clients — Extended Research
+- Claude Code + AgentSource: GTM Automation in Production (2026)
 - Veritas Developments — Notion Sync Report
 - Capital Stack Design Worksheet
 - Per-deliverable schema
-- LinkedIn Content Creator
+- Phantombuster
 - Frequently Asked Questions
 - Frequently Asked Questions
 - TAM Build #1 — Co-Sponsor Capital TAM
@@ -226,23 +226,23 @@
 - Implementation Roadmap
 - Stage 13 — Submission and Decision Tracking
 - Stage 7 — Human Quality Assurance
-- 15. Billing and Entitlements
-- 17. Compliance, Privacy, and Trust
+- n8n
+- Section 6B — Capital Formation: Landowner Partnership
 - Methodology-Template Workspaces
 - Veritas Development OS — Build & Deploy Job
 - Step 05 — Compliance Routing
 - Stack Layer → Lender Type Coverage Map
-- Apify
+- Telegram chat — 2026-10-12 — Atomic CRM via Supabase CLI
 - LeadSniperAI Architecture
 - 3. Priority Build Sequence
 - expertise_.md
 - Frequently Asked Questions
 - Frequently Asked Questions
 - Frequently Asked Questions
-- 3. Why Convex
+- Paid Media Ad Creative Strategist Agent
 - Step 02 — TAM Tiering
 - wiki-knowledge/README.md
-- 3. Search Architecture
+- Paid Media Paid Social Strategist Agent
 - 2.2.5 Providence Health — Kodiak Workforce Housing
 - Paid Media PPC Campaign Strategist Agent
 - company_investor-relations_financial-reports_.md
@@ -256,7 +256,7 @@
 - Conventions
 - services.md
 - Frequently Asked Questions
-- Paid Media Search Query Analyst Agent
+- 2.1.2 University Health Network (UHN) Toronto — Dunn House
 - Bizcap — Partner / Broker Analysis
 - GTM Skills (per-client binding)
 - deliverables/video-ad/ — Veritas Client-Ready video-ad Exports
@@ -286,7 +286,7 @@
 - projects/leadsniperai/venture-os.md
 - 19. Compliance Boundaries (locked)
 - Business Funding Canada
-- 2.2.5 Providence Health — Kodiak Workforce Housing
+- 2.2.4 Stanford Health Care — The Cardinal Apartments
 - Enterprise Workstreams
 - accord_investor.md
 - Lender Name
@@ -298,10 +298,10 @@
 - 25. The 48-Hour Market Validation Protocol (gating before any vertical scale)
 - Financing Solutions That Meet You Where You Are
 - company_investor-relations_corporate-governance_.md
-- Paid Media Auditor Agent
+- wiki-knowledge/agency-agents/README.md
 - Paid Media Paid Social Strategist Agent
 - Paper 1 — Claim Register (empty)
-- Swan GTM Skills Library
+- **PROCEED WITH CAUTION**
 - Deliverables Map (Vertical Artifact Map)
 - 16. The Reverse Buyer Funnel (LOCKED governing GTM method)
 - contact_.md
@@ -321,11 +321,11 @@
 - 18. Incremental Improvement Addendum — v1.1
 - Frontend Developer Agent Personality
 - Marketing Livestream Commerce Coach
-- Paid Media Tracking & Measurement Specialist Agent
+- Section 3 — Market Feasibility
 - Section 4 — Development Scenarios
-- Section 4 — Development Scenarios
+- Verify From Session Records + Docker State, Not Config Alone
 - Accord Financial — Style Capture for Mortgages by Dennis Eng
-- Marketing Growth Hacker Agent
+- Stage 3 — Initial Qualification and Triage
 - OpenSEO Content Categorization — Business Funding Vertical
 - Bucket 4 — Speed / Same-Day / Emergency
 - China Labor Law Compliance
@@ -363,13 +363,13 @@
 - apply-now_.md
 - Client Access
 - Day-N over-bump reference (Oct 3 2026 third instance, fire-3 correction surface)
-- XR Cockpit Interaction Specialist Agent Personality
-- XR Immersive Developer Agent Personality
+- Stage 9 — Marketplace Matching and Offer Creation
+- Separation of Rights
 - Bucket 3 — Government Programs (BDC + CSBFP + Grants)
 - Bucket 5 — Bad Credit / Unsecured / "Easiest Loan"
 - Bucket 6 — Product Pillars (LOC + Factoring + Bridge + Commercial Mortgage)
 - Bucket 7 — Start-up / No Revenue / LLC
-- XR Interface Architect Agent Personality
+- Section 6 — Financial Feasibility
 - Bucket 1 — Calculator / Quote Engine
 - Bucket 2 — "$X business loan" Specific-Amount Queries
 - Recoverable Grant Framework
@@ -435,7 +435,7 @@
 - Strategic Venture Declaration
 - Advanced Capabilities
 - Employer Brand Building
-- Paid Media Ad Creative Strategist Agent
+- Verify From Session Records + Docker State, Not Config Alone
 - Compliance
 - Spectra Relationship Asset Management (RAM)
 - Org Profile Intelligence Workflow
@@ -571,6 +571,8 @@
 - KlickSmartAI OS — Dennis's Personal Agent Squad
 - SMS & MMS Sales Outreach — Effectiveness Research Brief
 - Bundled Skills Catalog (71)
+- Stage 4 — Contact Verification and Discovery Scheduling
+- Stage 11 — Advisor Introduction and Contact SLA
 - property-developer-lender-sourcing/_config/glossary.md
 - property-developer-lender-sourcing/_config/voice.md
 - Wiki Log
@@ -596,6 +598,11 @@
 - 7. Version 1 Command Catalogue
 - WealthWireRadar Content Calendar for WattBricks
 - SIP Intake — Live Discovery Fields
+- Stage 10 — Reservation, Purchase, and Access Grant
+- Stage 14 — Outcome Capture and Learning Loop
+- 3. DEVELOPMENT OPPORTUNITY
+- 6. MARKET CONDITIONS
+- Section 5 — Land Assembly Potential
 - PCB → Carbon Credits — Preliminary Briefing
 - Subscriber Injection Profile (SIP) Framework
 - Housing Community Sentiment Report
@@ -980,7 +987,6 @@
 - Example lead tiers
 - Revenue Streams
 - Frontend Surfaces
-- Strategic Venture Declaration
 - 📋 TODAY'S DECISIONS — 3 Items Need Your Response
 - Dubb Case Study — Kinsta
 - 14. Veritas Advantage
@@ -1048,8 +1054,6 @@
 - Stage 5 — AI Discovery Interview
 - Personalized Checklist Examples
 - Stage 2 — One-Minute Funding Assessment
-- 18. Analytics and KPI Framework
-- 19. MVP Scope
 - 6. Multi-Tenant Model
 - Recommended Implementation Steps
 - Monetization Models
@@ -1674,7 +1678,7 @@
 - JACKSON COUNTY, MO (KANSAS CITY) — COUNTY INTELLIGENCE REPORT
 - Per-keyword content gaps + SERP observations
 - Review Intelligence Engine — Core Design
-- 2.1.2 University Health Network (UHN) Toronto — Dunn House
+- 2.1.3 SickKids — Alan Brown Building
 - WattBricks HNWI/Investor Persona & Outreach Playbook
 - AI Engineer Agent
 - Marketing Private Domain Operator
@@ -1717,7 +1721,7 @@
 - JOINT VENTURE PROPOSAL: GARRETT HEALTH DISTRICT RESIDENCES
 - ICM Implementation Plan — KlickSmartAI Wiki + Hermes
 - 1.1 Royal Columbian Hospital (RCH)
-- 2.2.4 Stanford Health Care — The Cardinal Apartments
+- 2.2.5 Providence Health — Kodiak Workforce Housing
 - Spectra Holdings — San Antonio / Bexar County
 - Marketing TikTok Strategist
 - Marketing Twitter Engager
@@ -2880,7 +2884,6 @@
 - seo-topic-shaping/SKILL.md
 - dev-tool-pricing/SKILL.md
 - [County Name, ST] — The Housing Crisis and the Harvest
-- GitHub Repository Strategy
 - Security Policy
 - 15. Quick-Start Activation Guide
 - WWR Signal Pipeline
@@ -3533,7 +3536,6 @@
 - {{title}}
 - {{title}}
 - Chief-of-Staff Morning Briefing — 2026-09-02
-- Commercial Brand Hierarchy — [Klick2Client.com](http://Klick2Client.com)
 - wiki/agency-agents/.github/PULL_REQUEST_TEMPLATE.md
 - Advanced Capabilities
 - Your Architecture Deliverables
@@ -4013,15 +4015,15 @@
 ## Import Cycles
 - None detected.
 
-## Communities (4052 total, 157 thin omitted)
+## Communities (4054 total, 157 thin omitted)
 
 ### Community 0 - "PCB → Carbon Credits — Preliminary Briefing"
 Cohesion: 0.07
 Nodes (27): Carbon market reference prices (May 22, 2026 context), CO2 reduction potential (recycled vs virgin), Gold yields (server vs consumer grade), Hardware refresh context, Honest State of Evidence, HOW TO USE THIS IN NOTEBOOKLM, PCB → Carbon Credits — Preliminary Briefing, Question 10 — Who must contractually own the environmental attributes? (+19 more)
 
 ### Community 1 - "Hermes Memory Architecture (Layer Model)"
-Cohesion: 0.11
-Nodes (15): Brain Closing Routine (daily cron), Classification Rules (brain closing), Hermes Memory Architecture (Layer Model), Key Facts, PARA Structure (Obsidian), Re-index + Sync (Step 4-5), The 5 Layers, Correct verification order (+7 more)
+Cohesion: 0.22
+Nodes (9): 2026-10-12 — Mnemosyne external-storage audit (verified), Brain Closing Routine (daily cron), Classification Rules (brain closing), Corrections & Updates, Hermes Memory Architecture (Layer Model), Key Facts, PARA Structure (Obsidian), Re-index + Sync (Step 4-5) (+1 more)
 
 ### Community 2 - "Census & Housing Brief"
 Cohesion: 0.04
@@ -4245,7 +4247,7 @@ Nodes (10): 1. The Opportunity, Precisely Stated, 2. Verified Legal Mechanics (H
 
 ### Community 57 - "wiki/agency-agents/README.md"
 Cohesion: 0.02
-Nodes (67): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Core Capabilities, Decision Framework, Marketing Content Creator Agent (+59 more)
+Nodes (70): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Core Capabilities, Decision Framework, Marketing Content Creator Agent (+62 more)
 
 ### Community 58 - "manifest.json"
 Cohesion: 0.13
@@ -4281,7 +4283,7 @@ Nodes (33): 18.10 Versioning and Compatibility, 18.11 Delivery Plan as Independe
 
 ### Community 66 - "projects/leadsniperai/workflow-improvement.md"
 Cohesion: 0.04
-Nodes (46): 10. QA Gates, 11. Provider Failover and Search Reliability, 12. Campaign Profiles, 13. Search Results Data Model, 14. Search Quality Metrics, 15. Search Optimization Loop, 16. Convex Workflow Recommendation, 17. Implementation Phases (+38 more)
+Nodes (50): 10. QA Gates, 11. Provider Failover and Search Reliability, 12. Campaign Profiles, 13. Search Results Data Model, 14. Search Quality Metrics, 15. Search Optimization Loop, 16. Convex Workflow Recommendation, 17. Implementation Phases (+42 more)
 
 ### Community 67 - "Glossary"
 Cohesion: 0.12
@@ -4335,9 +4337,9 @@ Nodes (31): Advanced Capabilities, Analytics & Learning Output (`learnings.json`
 Cohesion: 0.06
 Nodes (31): 1. Real-Time Trend Intelligence & Signal Detection, 2. Market Opportunity Extraction (Trend → Action), 3. Cross-Platform Localization Strategy, 4. GTM Execution & Lifecycle Management, 🚀 Advanced Capabilities, China-Global Bridge Strategy, China Market Localization Strategist, Crisis & Sentiment Management (+23 more)
 
-### Community 80 - "3. Priority Build Sequence"
-Cohesion: 0.22
-Nodes (9): 1. Executive Command Center, 2. Operating Databases, 3. Priority Build Sequence, Dashboard Sections, Phase 1 — Intake and Qualification, Phase 2 — Opportunity Packaging, Phase 3 — Marketplace Distribution, Phase 4 — Compact Keyword Content Engine (+1 more)
+### Community 80 - "Wiki Log"
+Cohesion: 0.13
+Nodes (15): [2026-04-15] create | Initial pages, [2026-04-15] create | Wiki initialized, [2026-04-15] doc | WWR PRD v2.0 Relationship Manager Node Architecture, [2026-04-15] ingest | Hermes Agent research, [2026-04-15] ingest | Hermes Agent setup guide, [2026-04-15] plan | WWR Implementation Plan Rev 4, [2026-04-16] create | Alexander Eng Toy Nissan GT-R, [2026-04-16] create | Client Onboarding SOP (+7 more)
 
 ### Community 81 - "Core Product Features"
 Cohesion: 0.22
@@ -4347,9 +4349,9 @@ Nodes (9): 1. Org Chart, 2. Goal Alignment, 3. Heartbeats, 4. Cost Control, 5. G
 Cohesion: 0.12
 Nodes (16): Accounts Receivable Financing, Asset-Based Lending, Client Access, Do you offer growth financing solutions to small businesses?, Do you offer solutions to support business expansion across Canada?, Equipment Financing, Frequently Asked Questions, GROWTH FINANCING IS A CRITICAL TOOL TOWARDS ACHIEVING YOUR GOALS. (+8 more)
 
-### Community 83 - "Enterprise Workstreams"
-Cohesion: 0.25
-Nodes (8): 1. Acquisition, 2. Discovery and Consent, 3. Intelligence and Qualification, 4. Marketplace and Commerce, 5. Buyer Success, 6. Vertical Factory, 7. Governance, Enterprise Workstreams
+### Community 83 - "Clay"
+Cohesion: 0.14
+Nodes (13): Activation & Orchestration, At a Glance, Clay, Complimentary Stack, Core Features, Data & Enrichment, GTM Engineering Fit, Key Insight from Customer Quotes (+5 more)
 
 ### Community 84 - "Spectra Holdings Group × Whatcom County — Strategic Alignment Brief"
 Cohesion: 0.11
@@ -4483,9 +4485,9 @@ Nodes (30): 10. Due Diligence & Closing Control, 11. Term Sheet Comparison, 12. 
 Cohesion: 0.17
 Nodes (11): Architecture decisions (locked), Files this session created, Files this session referenced (read-only), LeadSniperAI — Project Status (2026-10-11), Open questions for user — RESOLVED 2026-10-11, Re-run instructions (next session), Sign-off, TL;DR (+3 more)
 
-### Community 117 - "Hermes Agent Research — Brave Search Results"
-Cohesion: 0.17
-Nodes (11): Hermes Agent Research — Brave Search Results, Result 10: NxCode Complete Guide, Result 1: Official Site, Result 2: GitHub, Result 3: AIToolly Article, Result 4: Odaily Guide, Result 5: Bitcoin Ethereum News, Result 6: Petronella Cybersecurity News (+3 more)
+### Community 117 - "wiki-knowledge/entities/dataforseo.md"
+Cohesion: 0.14
+Nodes (13): AI Optimization (unique differentiator), Backlinks, Content & Technologies, Credentials, Key Tools, Keyword Research, MCP Server, Pricing (+5 more)
 
 ### Community 118 - "Frequently Asked Questions"
 Cohesion: 0.14
@@ -4503,9 +4505,9 @@ Nodes (5): 7. 12-Month GTM Roadmap, Months 10–12 — Validation and Expansion,
 Cohesion: 0.11
 Nodes (18): 1. Thin content (High — render-gap root cause), 2. Missing H1 (High), 3. No outgoing internal links (High), 4. Meta description too long (Medium), 5. Title too long (Medium), Authority & Local SEO (Stage 1 prerequisites), 🔴 Critical (blocking indexation — do first), Executive Summary (+10 more)
 
-### Community 122 - "wiki-knowledge/agency-agents/README.md"
-Cohesion: 0.03
-Nodes (64): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Activate an Agent, Aider Integration, Install (+56 more)
+### Community 122 - "wiki-knowledge/agency-agents/integrations/README.md"
+Cohesion: 0.04
+Nodes (46): Activate an Agent, Aider Integration, Install, Manual Usage, Regenerate, Activate a Skill, Antigravity Integration, File Format (+38 more)
 
 ### Community 123 - "regenerate-project-settings.py"
 Cohesion: 0.15
@@ -4603,9 +4605,9 @@ Nodes (5): Rule, The fix, Why this could become blocking, Why this is non-blocki
 Cohesion: 0.07
 Nodes (27): Acceptance Criteria (10), AI / Agent Requirements, Architecture Decision (2026-10-08, Dennis approval), Build Sprint (5), Capital Relationship Coverage Formula, Capital Relationship Pipeline (14 stages), Change Log, Code Structure (+19 more)
 
-### Community 148 - "GTM Strategies for Mortgage Clients — Extended Research"
-Cohesion: 0.09
-Nodes (20): GTM Strategies for Mortgage Clients — Extended Research, Quick Reference: Tool Stack for Modern Mortgage GTM, Strategy 10: Referral Network Systematization (Not Random Lunches), Strategy 11: ICP Expansion via GTM Motions Matrix, Strategy 5: Signal-First Outbound (Not List-First), Strategy 6: Omnichannel Orchestration (The 3-Channel Sequence), Strategy 7: Content Depth Over Volume (The 1-Pillar Model), Strategy 8: Revenue OS Thinking (Not Tool Stack Thinking) (+12 more)
+### Community 148 - "Claude Code + AgentSource: GTM Automation in Production (2026)"
+Cohesion: 0.18
+Nodes (11): AgentSource: The Infrastructure Layer, At a Glance, Claude Code + AgentSource: GTM Automation in Production (2026), For KlickSmartAI, Key Finding: The Failure Point Problem, Key Quote, Production Code Pattern, Reasoning vs. Routing (+3 more)
 
 ### Community 149 - "Veritas Developments — Notion Sync Report"
 Cohesion: 0.12
@@ -4619,9 +4621,9 @@ Nodes (14): Capital Stack Design Worksheet, Compliance routing, Equity sizing as
 Cohesion: 0.13
 Nodes (14): Capital stack map (Stage 30), Closing memo (Stage 90), Compliance-routed outreach package (Stage 60), Fit-scorecard (Stage 40), Intake confirmation memo (Stage 20), Outreach sequence (Stage 50), Per-deliverable schema, Reference (+6 more)
 
-### Community 152 - "LinkedIn Content Creator"
-Cohesion: 0.18
-Nodes (10): 🚀 Advanced Capabilities, 🚨 Critical Rules You Must Follow, 🔄 Learning & Memory, LinkedIn Content Creator, 💭 Your Communication Style, 🎯 Your Core Mission, 🧠 Your Identity & Memory, 🎯 Your Success Metrics (+2 more)
+### Community 152 - "Phantombuster"
+Cohesion: 0.20
+Nodes (9): At a Glance, Complimentary Stack, GTM Engineering Fit, Key Specs, Phantombuster, Phantoms (Pre-built Automations), Pipeline Position, Spectra Holdings Use Case (+1 more)
 
 ### Community 153 - "Frequently Asked Questions"
 Cohesion: 0.15
@@ -4855,13 +4857,13 @@ Nodes (4): Agent Assistance, Decision Data, Required Statuses, Stage 13 — Subm
 Cohesion: 0.50
 Nodes (4): Exit Criteria, Reviewer Checklist, Reviewer Decisions, Stage 7 — Human Quality Assurance
 
-### Community 211 - "15. Billing and Entitlements"
-Cohesion: 0.50
-Nodes (4): 15. Billing and Entitlements, Convex billing records, Stripe objects, Webhook handling
+### Community 211 - "n8n"
+Cohesion: 0.20
+Nodes (9): At a Glance, Complimentary Stack, GTM Engineering Fit, Key Features, Key Specs, n8n, Pipeline Position, Spectra Holdings Use Case (+1 more)
 
-### Community 212 - "17. Compliance, Privacy, and Trust"
-Cohesion: 0.50
-Nodes (4): 17. Compliance, Privacy, and Trust, Marketplace disclosure, Required controls, Sensitive documents
+### Community 212 - "Section 6B — Capital Formation: Landowner Partnership"
+Cohesion: 0.22
+Nodes (9): Developer Economics, How Dennis's Background Applies, Key Negotiation Points, Land Contribution Mechanics, Landowner Economics, Section 6B — Capital Formation: Landowner Partnership, Simpler Alternative: Land Value + Profit Participation, Structure: Development LP (Limited Partnership) (+1 more)
 
 ### Community 213 - "Methodology-Template Workspaces"
 Cohesion: 0.15
@@ -4879,9 +4881,9 @@ Nodes (11): Disclaimers, Lane 1 (CRE debt), Lane 2 (residential MLO), Lane 3 (me
 Cohesion: 0.18
 Nodes (10): Canadian capital (cross-border), KC community banks (special case — multiple roles), Layer 1 — Senior debt (50-70% of TPC), Layer 2 — Mezzanine debt (5-15% of TPC), Layer 3 — Preferred equity (5-10% of TPC), Layer 4 — JV equity (LP / co-sponsor) (10-25% of TPC), Layer 5 — Sponsor equity (GP) (5-15% of TPC), LIHTC / NMTC overlays (subordinate stack) (+2 more)
 
-### Community 217 - "Apify"
-Cohesion: 0.20
-Nodes (9): Apify, At a Glance, Complimentary Stack, Featured Actors (Top Use Cases), How KlickSmartAI Uses Apify, Key Stats, Pricing Note, Signal Intelligence Layer (+1 more)
+### Community 217 - "Telegram chat — 2026-10-12 — Atomic CRM via Supabase CLI"
+Cohesion: 0.22
+Nodes (8): Atomic CRM cwd / commands reference, Evidence — messages in order (UTC-7), Hits / misses, Related prior sessions, Telegram chat — 2026-10-12 — Atomic CRM via Supabase CLI, TL;DR, Tooling path that won, What got delivered to the user
 
 ### Community 218 - "LeadSniperAI Architecture"
 Cohesion: 0.20
@@ -4907,17 +4909,17 @@ Nodes (11): Client Access, Financial solutions built for the manufacturing indus
 Cohesion: 0.18
 Nodes (10): ASSET-BASED FINANCING IS THE OPTIMAL WORKING CAPITAL SOLUTION FOR BUSINESSES ACROSS CANADA, Client Access, Frequently Asked Questions, How does asset-based lending work?, What are asset-based loan interest rates?, What assets can be used for asset backed loans?, What do you look at during the asset-based lending due diligence?, What is asset-based lending? (+2 more)
 
-### Community 224 - "3. Why Convex"
-Cohesion: 0.50
-Nodes (4): 3. Why Convex, Convex responsibilities, Required backend capabilities, Systems Convex complements
+### Community 224 - "Paid Media Ad Creative Strategist Agent"
+Cohesion: 0.25
+Nodes (7): Core Capabilities, Decision Framework, Paid Media Ad Creative Strategist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
 
 ### Community 225 - "Step 02 — TAM Tiering"
 Cohesion: 0.18
 Nodes (10): How to build each tier, Output, Reference, Step 02 — TAM Tiering, Tier 1 — Local, Tier 2 — Regional / FFO, Tier 3 — Institutional / national, Tier 4 — International / cross-border (+2 more)
 
-### Community 227 - "3. Search Architecture"
-Cohesion: 0.50
-Nodes (4): 3.1 Discovery Layer, 3.2 Identity Resolution, 3.3 Duplicate Prevention, 3. Search Architecture
+### Community 227 - "Paid Media Paid Social Strategist Agent"
+Cohesion: 0.25
+Nodes (7): Core Capabilities, Decision Framework, Paid Media Paid Social Strategist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
 
 ### Community 228 - "2.2.5 Providence Health — Kodiak Workforce Housing"
 Cohesion: 0.25
@@ -4971,9 +4973,9 @@ Nodes (8): Accounts Receivable Financing, Asset-Based Lending, Client Access, Eq
 Cohesion: 0.22
 Nodes (8): Acquiring funding can be a critical step in the growth of a small business., Are interest rates the most important consideration?, Client Access, Frequently Asked Questions, Why is a relationship with a lender important?, Why is flexibility necessary in a loan agreement?, Why should I consider a revolving line of credit?, Why should I consider an independent finance company?
 
-### Community 241 - "Paid Media Search Query Analyst Agent"
+### Community 241 - "2.1.2 University Health Network (UHN) Toronto — Dunn House"
 Cohesion: 0.25
-Nodes (7): Core Capabilities, Decision Framework, Paid Media Search Query Analyst Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
+Nodes (8): 2.1.2 University Health Network (UHN) Toronto — Dunn House, Development Partners, Employer Participation Model, Financing Structure, Ownership Structure, Rental Model, Source URL, Status
 
 ### Community 242 - "Bizcap — Partner / Broker Analysis"
 Cohesion: 0.12
@@ -5076,8 +5078,8 @@ Cohesion: 0.07
 Nodes (26): 1. Grant Intelligence Reference Sources, 2. Primary Federal Funding Portals, 3. Federal Agencies to Monitor, 4. State, County, and Local Sources, 5. Tribal Funding Sources, 6. Foundation and Impact Capital Sources, 7. Funding Source Classification, 8. Example Source-to-Project Match (+18 more)
 
 ### Community 268 - "projects/leadsniperai/venture-os.md"
-Cohesion: 0.05
-Nodes (39): Analytical Tables, Audit Outputs, Contribution, Control, Core Design Principle, Data Flow, Decision Record Format, DuckDB Local Analytics Layer (+31 more)
+Cohesion: 0.04
+Nodes (49): Analytical Tables, Audit Outputs, Central Repository, Commercial Brand Hierarchy — [Klick2Client.com](http://Klick2Client.com), Core Design Principle, Data Flow, Decision Record Format, DuckDB Local Analytics Layer (+41 more)
 
 ### Community 269 - "19. Compliance Boundaries (locked)"
 Cohesion: 0.25
@@ -5087,9 +5089,9 @@ Nodes (8): 19. Compliance Boundaries (locked), Always distinguish, Always follow
 Cohesion: 0.25
 Nodes (7): Business Funding Canada, Compliance (PPL — pay-per-lead model), Folder layout, Open — awaiting Dennis, Status: 🟡 SCAFFOLD + NOTION DOC INCOMING (2026-10-02), Vertical map (subject), What this workspace is for
 
-### Community 271 - "2.2.5 Providence Health — Kodiak Workforce Housing"
+### Community 271 - "2.2.4 Stanford Health Care — The Cardinal Apartments"
 Cohesion: 0.25
-Nodes (8): 2.2.5 Providence Health — Kodiak Workforce Housing, Development Partners, Employer Participation Model, Financing Structure, Ownership Structure, Rental Model, Source URL, Status
+Nodes (8): 2.2.4 Stanford Health Care — The Cardinal Apartments, Development Partners, Employer Participation Model, Financing Structure, Ownership Structure, Rental Model, Source URL, Status
 
 ### Community 272 - "Enterprise Workstreams"
 Cohesion: 0.25
@@ -5135,9 +5137,9 @@ Nodes (5): Client Access, Financing Solutions That Meet You Where You Are, Integ
 Cohesion: 0.33
 Nodes (5): Client Access, Committees, Corporate Governance Guidelines, Responsibilities, The Board
 
-### Community 283 - "Paid Media Auditor Agent"
-Cohesion: 0.25
-Nodes (7): Core Capabilities, Decision Framework, Paid Media Auditor Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
+### Community 283 - "wiki-knowledge/agency-agents/README.md"
+Cohesion: 0.02
+Nodes (67): Communication Style, Core Mission, Critical Rules, 🗄️ Database Optimizer, Identity & Memory, Core Capabilities, Decision Framework, Marketing Content Creator Agent (+59 more)
 
 ### Community 284 - "Paid Media Paid Social Strategist Agent"
 Cohesion: 0.25
@@ -5147,9 +5149,9 @@ Nodes (7): Core Capabilities, Decision Framework, Paid Media Paid Social Strateg
 Cohesion: 0.20
 Nodes (9): Claim class quick reference (locked), Claim register (empty), Confidence rubric (locked), How to read this register, Open questions blocking population (per research plan §"Open questions for Dennis"), Paper 1 — Claim Register (empty), Population workflow, Reviewer assignment (locked) (+1 more)
 
-### Community 286 - "Swan GTM Skills Library"
-Cohesion: 0.20
-Nodes (10): Adoption recommendation, Convex implementation, Initial pilot skills, Installed locally (2026-08-06), KlickSmartAI relevance, Recommended architecture (6 layers), Recommended curated structure, Strategic role (+2 more)
+### Community 286 - "**PROCEED WITH CAUTION**"
+Cohesion: 0.33
+Nodes (6): 90-Day Action Plan, Highest and Best Use, **PROCEED WITH CAUTION**, Rationale, Recommended Capital Structure, Recommended Development Strategy
 
 ### Community 287 - "Deliverables Map (Vertical Artifact Map)"
 Cohesion: 0.40
@@ -5191,25 +5193,25 @@ Nodes (25): Accessibility and Inclusive Design, Accessibility Leadership, 🚀 A
 Cohesion: 0.08
 Nodes (25): Communication Style, Compliance Guardrails, Core Mission, Critical Rules, Data Analysis & Review, Host Management Principles, Host Talent Development, Live Room Data Review Dashboard (+17 more)
 
-### Community 306 - "Paid Media Tracking & Measurement Specialist Agent"
-Cohesion: 0.25
-Nodes (7): Core Capabilities, Decision Framework, Paid Media Tracking & Measurement Specialist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
+### Community 306 - "Section 3 — Market Feasibility"
+Cohesion: 0.33
+Nodes (6): Healthcare Worker Housing Demand, Market Demand Assessment: **HIGH**, Nearby Developments, Rental Demand, Section 3 — Market Feasibility, Vacancy Rate
 
 ### Community 307 - "Section 4 — Development Scenarios"
 Cohesion: 0.29
 Nodes (7): Scenario A — 4–6 Unit Multiplex, Scenario B — Townhouse Development, Scenario C — 8-Storey Healthcare Housing (Master Planned), Scenario Comparison Table, Scenario D — 6 Storey Market Rental Building, Scenario E — 8 Storey Market Rental Building, Section 4 — Development Scenarios
 
-### Community 308 - "Section 4 — Development Scenarios"
-Cohesion: 0.29
-Nodes (7): Scenario A — 4–6 Unit Multiplex, Scenario B — Townhouse Development, Scenario C — 8-Storey Healthcare Housing (Master Planned), Scenario Comparison Table, Scenario D — 6 Storey Market Rental Building, Scenario E — 8 Storey Market Rental Building, Section 4 — Development Scenarios
+### Community 308 - "Verify From Session Records + Docker State, Not Config Alone"
+Cohesion: 0.40
+Nodes (4): Correct verification order, Rule, Verify From Session Records + Docker State, Not Config Alone, Why it matters
 
 ### Community 309 - "Accord Financial — Style Capture for Mortgages by Dennis Eng"
 Cohesion: 0.15
 Nodes (12): 10. Anti-AI-slop quick checklist, 11. Files written, 1. Brand voice in one paragraph, 2. Page architecture (the 6-section rhythm), 3. Typography & layout signals, 4. Headline & title formulas (lifted from real pages), 5. CTA vocabulary (lift verbatim), 6. Trust signals (the institutional-banker stack) (+4 more)
 
-### Community 310 - "Marketing Growth Hacker Agent"
-Cohesion: 0.29
-Nodes (6): Core Capabilities, Decision Framework, Marketing Growth Hacker Agent, Role Definition, Specialized Skills, Success Metrics
+### Community 310 - "Stage 3 — Initial Qualification and Triage"
+Cohesion: 0.40
+Nodes (5): Exit Criteria, Outputs, Qualification Dimensions, Routing Rules, Stage 3 — Initial Qualification and Triage
 
 ### Community 311 - "OpenSEO Content Categorization — Business Funding Vertical"
 Cohesion: 0.25
@@ -5275,13 +5277,13 @@ Nodes (24): 10. Open Questions (resolve before Phase 2 start), 11. Next 5 Concre
 Cohesion: 0.18
 Nodes (10): Day-N over-bump reference (Oct 3 2026 third instance, fire-3 correction surface), Documented instances (3 total as of 2026-10-03), Failure mode avoided, Implementation pattern (verified working, Oct 3 13:05Z), Oct 4 morning carry-forward check (predicted), Pattern, Skill-library hygiene, The dual-correction-surface insight (+2 more)
 
-### Community 348 - "XR Cockpit Interaction Specialist Agent Personality"
-Cohesion: 0.33
-Nodes (5): Build cockpit-based immersive interfaces for XR users, 🛠️ What You Can Do, XR Cockpit Interaction Specialist Agent Personality, 🎯 Your Core Mission, 🧠 Your Identity & Memory
+### Community 348 - "Stage 9 — Marketplace Matching and Offer Creation"
+Cohesion: 0.40
+Nodes (5): Exit Criteria, Marketplace Preview, Matching Inputs, Offer Types, Stage 9 — Marketplace Matching and Offer Creation
 
-### Community 349 - "XR Immersive Developer Agent Personality"
-Cohesion: 0.33
-Nodes (5): Build immersive XR experiences across browsers and headsets, 🛠️ What You Can Do, XR Immersive Developer Agent Personality, 🎯 Your Core Mission, 🧠 Your Identity & Memory
+### Community 349 - "Separation of Rights"
+Cohesion: 0.40
+Nodes (5): Contribution, Control, Economic Entitlement, Ownership, Separation of Rights
 
 ### Community 350 - "Bucket 3 — Government Programs (BDC + CSBFP + Grants)"
 Cohesion: 0.29
@@ -5299,9 +5301,9 @@ Nodes (7): Bucket 6 — Product Pillars (LOC + Factoring + Bridge + Commercial M
 Cohesion: 0.29
 Nodes (7): Bucket 7 — Start-up / No Revenue / LLC, Content block (FAQ for startup pages), Demand signature, Lender anchor, Page assignment, SERP competitor, Source signals
 
-### Community 354 - "XR Interface Architect Agent Personality"
-Cohesion: 0.33
-Nodes (5): Design spatially intuitive user experiences for XR platforms, 🛠️ What You Can Do, XR Interface Architect Agent Personality, 🎯 Your Core Mission, 🧠 Your Identity & Memory
+### Community 354 - "Section 6 — Financial Feasibility"
+Cohesion: 0.40
+Nodes (5): Assembled Land Value (with assembly premium), Current Land Value, Development Feasibility Notes, Land Value Uplift, Section 6 — Financial Feasibility
 
 ### Community 355 - "Bucket 1 — Calculator / Quote Engine"
 Cohesion: 0.33
@@ -5555,9 +5557,9 @@ Nodes (4): Advanced Capabilities, Professional Talent Assessment, Recruitment Op
 Cohesion: 0.50
 Nodes (4): Best Employer Awards, Employee Reputation Management, Employer Brand Building, Recruitment Short Videos & Content Marketing
 
-### Community 420 - "Paid Media Ad Creative Strategist Agent"
-Cohesion: 0.25
-Nodes (7): Core Capabilities, Decision Framework, Paid Media Ad Creative Strategist Agent, Role Definition, Specialized Skills, Success Metrics, Tooling & Automation
+### Community 420 - "Verify From Session Records + Docker State, Not Config Alone"
+Cohesion: 0.40
+Nodes (4): Correct verification order, Rule, Verify From Session Records + Docker State, Not Config Alone, Why it matters
 
 ### Community 421 - "Compliance"
 Cohesion: 0.29
@@ -5624,8 +5626,8 @@ Cohesion: 0.10
 Nodes (21): 30 / 60 / 90 Day Implementation, Content Growth Strategies — 1:many Demand-Generation Workflow, Core KPI Framework, Days 31–60 — Distribution + Pipeline, Days 61–90 — Optimization + Scale, Executive Objective, First 30 Days — Foundation, Governance Rules (+13 more)
 
 ### Community 437 - "projects/leadsniperai/marketplace-prd.md"
-Cohesion: 0.09
-Nodes (21): 10. Workpool and API Controls, 12. SEO, AEO, and Content Intelligence, 21. Repository Structure, 22. Engineering Standards, 24. Success Criteria, 25. Working Assumptions and Decisions Required, 26. Recommended Initial Decision, 27. Immediate Next Actions (+13 more)
+Cohesion: 0.04
+Nodes (45): 10. Workpool and API Controls, 12. SEO, AEO, and Content Intelligence, 15. Billing and Entitlements, 17. Compliance, Privacy, and Trust, 18. Analytics and KPI Framework, 19. MVP Scope, 21. Repository Structure, 22. Engineering Standards (+37 more)
 
 ### Community 438 - "RIOS LeadSniperAI — Inspection & AI Website Opportunity Engine"
 Cohesion: 0.09
@@ -5944,8 +5946,8 @@ Cohesion: 0.11
 Nodes (18): Affordability, CDFI and Patient Capital as a Complement, [County Name, ST] — Constituent Housing Briefing, Current Investment vs. What's Needed, Data Sources, Eviction and Displacement, Existing County and Community Efforts, Homelessness (+10 more)
 
 ### Community 520 - "Enterprise Build-Out — Multi-Tenant Marketplace"
-Cohesion: 0.11
-Nodes (19): Acquisition, AI Discovery and Intelligence Workflow, Architectural Decision, Buyer success, Change Log, Clarifying Questions and Working Assumptions, Definition of Done, Enterprise Build-Out — Multi-Tenant Marketplace (+11 more)
+Cohesion: 0.07
+Nodes (27): 1. Acquisition, 2. Discovery and Consent, 3. Intelligence and Qualification, 4. Marketplace and Commerce, 5. Buyer Success, 6. Vertical Factory, 7. Governance, Acquisition (+19 more)
 
 ### Community 521 - "20. Phased Implementation Plan"
 Cohesion: 0.11
@@ -6091,6 +6093,14 @@ Nodes (17): B2B SMS Best Practices, Channel Comparison — All Outreach Channels
 Cohesion: 0.11
 Nodes (17): apple (4), autonomous-ai-agents (5), Bundled but NOT installed locally (10), Bundled Skills Catalog (71), creative (16), email (1), github (6), Hermes Agent Skills Hub (+9 more)
 
+### Community 557 - "Stage 4 — Contact Verification and Discovery Scheduling"
+Cohesion: 0.50
+Nodes (4): Automation, Exit Criteria, Stage 4 — Contact Verification and Discovery Scheduling, Verification Actions
+
+### Community 558 - "Stage 11 — Advisor Introduction and Contact SLA"
+Cohesion: 0.50
+Nodes (4): Buyer Package, Lead Communication, Service-Level Rules, Stage 11 — Advisor Introduction and Contact SLA
+
 ### Community 561 - "Wiki Log"
 Cohesion: 0.11
 Nodes (18): [2026-04-15] create | Initial pages, [2026-04-15] create | Wiki initialized, [2026-04-15] doc | WWR PRD v2.0 Relationship Manager Node Architecture, [2026-04-15] ingest | Hermes Agent research, [2026-04-15] ingest | Hermes Agent setup guide, [2026-04-15] plan | WWR Implementation Plan Rev 4, [2026-04-16] create | Alexander Eng Toy Nissan GT-R, [2026-04-16] create | Client Onboarding SOP (+10 more)
@@ -6182,6 +6192,26 @@ Nodes (16): Calendar Architecture, Distribution Channels, PILLAR 1: Portable Pow
 ### Community 583 - "SIP Intake — Live Discovery Fields"
 Cohesion: 0.12
 Nodes (16): 1. Vertical, 2. Compliance Mode, 3. ICP — Target Client Profile, 4. Pain Vocabulary, 5. Tone Rules, 6. Offer Map — Minimum 5 Offers, 7. Signal Patterns — Per State, 8. Conversation State Preferences (+8 more)
+
+### Community 584 - "Stage 10 — Reservation, Purchase, and Access Grant"
+Cohesion: 0.50
+Nodes (4): Commerce Sequence, Controls, Exit Criteria, Stage 10 — Reservation, Purchase, and Access Grant
+
+### Community 585 - "Stage 14 — Outcome Capture and Learning Loop"
+Cohesion: 0.50
+Nodes (4): Learning Actions, Monthly Review Questions, Outcome Taxonomy, Stage 14 — Outcome Capture and Learning Loop
+
+### Community 586 - "3. DEVELOPMENT OPPORTUNITY"
+Cohesion: 0.50
+Nodes (4): 3. DEVELOPMENT OPPORTUNITY, Concept, Target Demographics, Why This Site
+
+### Community 587 - "6. MARKET CONDITIONS"
+Cohesion: 0.50
+Nodes (4): 6. MARKET CONDITIONS, Comparable Developments, Healthcare Worker Housing Demand, New Westminster Rental Market (Q1 2026)
+
+### Community 588 - "Section 5 — Land Assembly Potential"
+Cohesion: 0.50
+Nodes (4): Assembly Recommendation, Assessment, Minimum Viable Assembly, Section 5 — Land Assembly Potential
 
 ### Community 591 - "PCB → Carbon Credits — Preliminary Briefing"
 Cohesion: 0.12
@@ -6320,8 +6350,8 @@ Cohesion: 0.13
 Nodes (14): 1. Market Overview, 2. The Affordability Crisis, 3. Impact Metrics, 4. CDFI / Financing Landscape, 5. Spectra Holdings MCF Opportunity, 6. Risk Factors, 7. Appendix — Data Sources, Cost vs. Earnings (+6 more)
 
 ### Community 643 - "projects/leadsniperai/marketplace-os.md"
-Cohesion: 0.13
-Nodes (13): LeadSniperAI Project Docs, Core Outcomes, Friday — Marketplace Review, Lead Product Definition, Lead Tiers, Mission, Monday — Pipeline Review, Monthly — /Loop Review (+5 more)
+Cohesion: 0.08
+Nodes (22): LeadSniperAI Project Docs, 1. Executive Command Center, 2. Operating Databases, 3. Priority Build Sequence, Core Outcomes, Dashboard Sections, Friday — Marketplace Review, Lead Product Definition (+14 more)
 
 ### Community 644 - "28 Dispatch Delegation Frameworks That Replace a $150K Executive Hire"
 Cohesion: 0.14
@@ -6861,7 +6891,7 @@ Nodes (4): required, $schema, title, type
 
 ### Community 811 - "gtm-engineer-resources/index.md"
 Cohesion: 0.02
-Nodes (88): Apollo, At a Glance, Complimentary Stack, Core Modules, GTM Engineering Fit, Key Stats, Pipeline Position, Spectra Holdings Use Case (+80 more)
+Nodes (85): GTM Strategies for Mortgage Clients — Extended Research, Quick Reference: Tool Stack for Modern Mortgage GTM, Strategy 10: Referral Network Systematization (Not Random Lunches), Strategy 11: ICP Expansion via GTM Motions Matrix, Strategy 5: Signal-First Outbound (Not List-First), Strategy 6: Omnichannel Orchestration (The 3-Channel Sequence), Strategy 7: Content Depth Over Volume (The 1-Pillar Model), Strategy 8: Revenue OS Thinking (Not Tool Stack Thinking) (+77 more)
 
 ### Community 812 - "4. Canonical CLI Command Taxonomy"
 Cohesion: 0.18
@@ -6872,8 +6902,8 @@ Cohesion: 0.18
 Nodes (11): 5. Component Inventory, CTA Button, Footer, Form Input, Hero Badge, Metric Counter, Navigation Bar, Pipeline Stage Indicator (+3 more)
 
 ### Community 814 - "End-to-End Business Funding Lead Workflow"
-Cohesion: 0.05
-Nodes (37): Automation, Buyer Package, Change Log, Commerce Sequence, Controls, End-to-End Business Funding Lead Workflow, Exit Criteria, Exit Criteria (+29 more)
+Cohesion: 0.18
+Nodes (11): Change Log, End-to-End Business Funding Lead Workflow, Stage 8 — Opportunity Tier Assignment, System Responsibility Matrix, Tier Rules, Versioning Rule, Workflow Events, Workflow Goal (+3 more)
 
 ### Community 815 - "Proposal A: Lead-to-Funded Automation System"
 Cohesion: 0.18
@@ -7456,8 +7486,8 @@ Cohesion: 0.15
 Nodes (12): Content specs common to all 4 pages, File on disk, Next steps, Outline, Outline, Outline, Outline, Page 1: `/business-loans-canada/bridge-financing-canada/` (+4 more)
 
 ### Community 1006 - "HERMES AGENT FEASIBILITY STUDY"
-Cohesion: 0.05
-Nodes (42): 417 & 419 Garrett Street, Sapperton, New Westminster, 90-Day Action Plan, Addresses& Lot Data, Appendix: Key Data Sources, Assembled Land Value (with assembly premium), Assembly Recommendation, Assessment, Current Land Value (+34 more)
+Cohesion: 0.11
+Nodes (19): 417 & 419 Garrett Street, Sapperton, New Westminster, Addresses& Lot Data, Appendix: Key Data Sources, Executive Summary, Garrett Street Land Assembly, GO / PROCEED WITH CAUTION / NO GO, HERMES AGENT FEASIBILITY STUDY, Location Analysis (+11 more)
 
 ### Community 1007 - "Product Solution Document — GrantFundingAI"
 Cohesion: 0.05
@@ -7682,10 +7712,6 @@ Nodes (7): 2. Business Model, Lead Monetization Rules, Lead sales, Rank-and-rent
 ### Community 1071 - "Frontend Surfaces"
 Cohesion: 0.29
 Nodes (7): 5. Product Architecture, Buyer marketplace, Frontend Surfaces, High-Level Architecture, Operator console, Partner portal, Public rank-and-rent websites
-
-### Community 1072 - "Strategic Venture Declaration"
-Cohesion: 0.29
-Nodes (7): Formal Operating Principle, New Business Model, Strategic Assets Being Created, Strategic Position of the Funding Marketplace, Strategic Venture Declaration, Venture-Level Success Definition, Why This Venture Matters
 
 ### Community 1073 - "📋 TODAY'S DECISIONS — 3 Items Need Your Response"
 Cohesion: 0.29
@@ -7950,14 +7976,6 @@ Nodes (6): Application-Ready Criteria, Equipment Financing, General Business Fin
 ### Community 1151 - "Stage 2 — One-Minute Funding Assessment"
 Cohesion: 0.33
 Nodes (6): Consent Requirements, Exit Criteria, Failure Routes, Required Fields, Stage 2 — One-Minute Funding Assessment, System Actions
-
-### Community 1152 - "18. Analytics and KPI Framework"
-Cohesion: 0.33
-Nodes (6): 18. Analytics and KPI Framework, Acquisition metrics, Lead metrics, Marketplace metrics, North-star metric, Outcome metrics
-
-### Community 1153 - "19. MVP Scope"
-Cohesion: 0.33
-Nodes (6): 19. MVP Scope, Explicit MVP exclusions, MVP backend, MVP public experience, MVP vertical, MVP workflows
 
 ### Community 1154 - "6. Multi-Tenant Model"
 Cohesion: 0.33
@@ -8684,8 +8702,8 @@ Cohesion: 0.05
 Nodes (36): Advanced Capabilities, Advanced Prompt Patterns, Cinematic Portrait, Critical Rules You Must Follow, Environment & Setting Layer, Environmental Portrait, Example Prompt Templates, Fashion Photography (+28 more)
 
 ### Community 1390 - "Swan GTM Skills Library"
-Cohesion: 0.05
-Nodes (34): AI Optimization (unique differentiator), Backlinks, Content & Technologies, Credentials, Key Tools, Keyword Research, MCP Server, Pricing (+26 more)
+Cohesion: 0.09
+Nodes (21): 5.1 Domain Audit, 5.2 Keyword Demand Discovery, Initial Viable Offer — Organic Gap Sprint, LeadSniper SGI — PRD Summary, Major modules, Product objective, Related, Six business questions it answers (+13 more)
 
 ### Community 1391 - "Insurance Direct Canada — Life Insurance Lead Research Report"
 Cohesion: 0.05
@@ -9080,8 +9098,8 @@ Cohesion: 0.07
 Nodes (30): alairhomes.com, anthemproperties.com, beedie.ca, bosa.com, cedarcoast.com, clayconstruction.ca, cressey.com, goodmanreport.com (+22 more)
 
 ### Community 1515 - "DEVELOPER OPPORTUNITY MEMORANDUM"
-Cohesion: 0.07
-Nodes (30): 10. CONTACT, 1. INVESTMENT THESIS, 2. SITE SUMMARY, 3. DEVELOPMENT OPPORTUNITY, 4. FINANCIAL OVERVIEW, 5. APPROVAL PATHWAY, 6. MARKET CONDITIONS, 7. CAPITAL STRUCTURE OPTIONS (+22 more)
+Cohesion: 0.09
+Nodes (22): 10. CONTACT, 1. INVESTMENT THESIS, 2. SITE SUMMARY, 4. FINANCIAL OVERVIEW, 5. APPROVAL PATHWAY, 7. CAPITAL STRUCTURE OPTIONS, 8. REQUESTED ACTION, 9. CONFIDENTIALITY (+14 more)
 
 ### Community 1516 - "Core Mission"
 Cohesion: 0.07
@@ -10221,7 +10239,7 @@ Nodes (24): Advanced Capabilities, Answer Excellence & Authority, Business Integ
 
 ### Community 1800 - "wiki/log.md"
 Cohesion: 0.02
-Nodes (82): 24/7 Service, Cost Comparison, Hardware Recommendation, Hermes Agent Setup Guide, Install Commands, Model Selection, Overview, Related (+74 more)
+Nodes (78): 24/7 Service, Cost Comparison, Hardware Recommendation, Hermes Agent Setup Guide, Install Commands, Model Selection, Overview, Related (+70 more)
 
 ### Community 1801 - "Honcho Multi-Agent Wiring"
 Cohesion: 0.08
@@ -10427,9 +10445,9 @@ Nodes (23): 1. `multifamily contractors` (90/mo, KD 0), 2. `kansas city corporat
 Cohesion: 0.08
 Nodes (23): 1. Why this is the core, 2. Architecture, 3.1 Theme taxonomy (the service-need categories), 3.2 Sentiment scoring, 3. Sentiment Layer, 4. Phase Detection, 5.1 Phase → primary service, 5.2 Theme → service mapping (the "what to sell") (+15 more)
 
-### Community 1852 - "2.1.2 University Health Network (UHN) Toronto — Dunn House"
-Cohesion: 0.08
-Nodes (24): 2.1.2 University Health Network (UHN) Toronto — Dunn House, 2.1.3 SickKids — Alan Brown Building, 2.1.4 Calgary Healthcare Worker Housing, 2.1.5 Edmonton Healthcare Worker Housing — Capital Health Nurse Residence (Historical), 2.1 Canadian Examples, Current Status, Development Partners, Development Partners (+16 more)
+### Community 1852 - "2.1.3 SickKids — Alan Brown Building"
+Cohesion: 0.12
+Nodes (16): 2.1.3 SickKids — Alan Brown Building, 2.1.4 Calgary Healthcare Worker Housing, 2.1.5 Edmonton Healthcare Worker Housing — Capital Health Nurse Residence (Historical), 2.1 Canadian Examples, Current Status, Development Partners, Employer Participation Model, Employer Participation Model (+8 more)
 
 ### Community 1853 - "WattBricks HNWI/Investor Persona & Outreach Playbook"
 Cohesion: 0.08
@@ -10599,9 +10617,9 @@ Nodes (22): 1. What ICM actually is (research summary), 2. Gap analysis: KlickSm
 Cohesion: 0.09
 Nodes (23): 1.1 Royal Columbian Hospital (RCH), 1.2 Fraser Health Authority, 1.3 Specific Questions, Active Recruitment (Open Positions), Allied Health Recruitment, Current Employee Count, Evidence Quality Summary, Growth Projections (+15 more)
 
-### Community 1896 - "2.2.4 Stanford Health Care — The Cardinal Apartments"
+### Community 1896 - "2.2.5 Providence Health — Kodiak Workforce Housing"
 Cohesion: 0.09
-Nodes (23): 2.2.4 Stanford Health Care — The Cardinal Apartments, 2.2 United States Examples, 2.3 Comparative Analysis, 2.4 Key Patterns, Canadian Precedents Summary Table, Development Partners, Employer Participation Levels, Employer Participation Model (+15 more)
+Nodes (23): 2.2.5 Providence Health — Kodiak Workforce Housing, 2.2 United States Examples, 2.3 Comparative Analysis, 2.4 Key Patterns, Canadian Precedents Summary Table, Development Partners, Employer Participation Levels, Employer Participation Model (+15 more)
 
 ### Community 1897 - "Spectra Holdings — San Antonio / Bexar County"
 Cohesion: 0.09
@@ -11584,7 +11602,7 @@ Cohesion: 0.12
 Nodes (16): Agent Activation Sequence, 📊 Analytics Reporter — Data Landscape Assessment, Convergence Point (Day 5-7), 💬 Feedback Synthesizer — User Needs Analysis, Gate Decision, Handoff to Phase 1, ⚖️ Legal Compliance Checker — Regulatory Scan, Objective (+8 more)
 
 ### Community 2143 - "SIP Intake — Live Discovery Fields"
-Cohesion: 0.11
+Cohesion: 0.12
 Nodes (16): 1. Vertical, 2. Compliance Mode, 3. ICP — Target Client Profile, 4. Pain Vocabulary, 5. Tone Rules, 6. Offer Map — Minimum 5 Offers, 7. Signal Patterns — Per State, 8. Conversation State Preferences (+8 more)
 
 ### Community 2144 - "Bexar County, TX — MCF Pilot Pro Forma"
@@ -11952,7 +11970,7 @@ Cohesion: 0.12
 Nodes (15): Agent Roster, Compliance & Governance, Core Team, Execution Plan, Phase 1: Requirements & Architecture (Week 1-2), Phase 2: Foundation (Week 3), Phase 3: Build (Week 4-9), Phase 4: Hardening (Week 10-11) (+7 more)
 
 ### Community 2237 - "SIP Intake — Live Discovery Fields"
-Cohesion: 0.11
+Cohesion: 0.12
 Nodes (16): 1. Vertical, 2. Compliance Mode, 3. ICP — Target Client Profile, 4. Pain Vocabulary, 5. Tone Rules, 6. Offer Map — Minimum 5 Offers, 7. Signal Patterns — Per State, 8. Conversation State Preferences (+8 more)
 
 ### Community 2238 - "KlickSmartAI Knowledge Wiki"
@@ -13608,8 +13626,8 @@ Cohesion: 0.18
 Nodes (9): Example: Enhancing the Backend Architect, Example: Memory-Powered Workflow, How to Add Memory to Any Agent, MCP Memory Integration, Setup, The Pattern, Tips, What It Does (+1 more)
 
 ### Community 2656 - "LinkedIn Content Creator"
-Cohesion: 0.10
-Nodes (17): 🚀 Advanced Capabilities, 🚨 Critical Rules You Must Follow, 🔄 Learning & Memory, LinkedIn Content Creator, 💭 Your Communication Style, 🎯 Your Core Mission, 🧠 Your Identity & Memory, 🎯 Your Success Metrics (+9 more)
+Cohesion: 0.18
+Nodes (10): 🚀 Advanced Capabilities, 🚨 Critical Rules You Must Follow, 🔄 Learning & Memory, LinkedIn Content Creator, 💭 Your Communication Style, 🎯 Your Core Mission, 🧠 Your Identity & Memory, 🎯 Your Success Metrics (+2 more)
 
 ### Community 2657 - "Report Distribution Agent"
 Cohesion: 0.18
@@ -15250,10 +15268,6 @@ Nodes (7): Are you ready to price?, Finding the number, Rules, The free-to-paid 
 ### Community 3078 - "[County Name, ST] — The Housing Crisis and the Harvest"
 Cohesion: 0.25
 Nodes (7): [County Name, ST] — The Housing Crisis and the Harvest, The Harvest, The Harvest Is Ready, The Opportunity to Act, The People Behind the Numbers, What It Looks Like to Lose Housing Here, Why the Church? Why Now?
-
-### Community 3079 - "GitHub Repository Strategy"
-Cohesion: 0.50
-Nodes (4): Central Repository, GitHub Repository Strategy, Product Manifest, Suggested Structure
 
 ### Community 3081 - "Security Policy"
 Cohesion: 0.25
@@ -17863,10 +17877,6 @@ Nodes (4): Key Extracts, Next Action, Summary, {{title}}
 Cohesion: 0.40
 Nodes (4): Chief-of-Staff Morning Briefing — 2026-09-02, Cleanup actions taken, Inputs sampled, Notable follow-ups
 
-### Community 3749 - "Commercial Brand Hierarchy — [Klick2Client.com](http://Klick2Client.com)"
-Cohesion: 0.50
-Nodes (4): Commercial Brand Hierarchy — [Klick2Client.com](http://Klick2Client.com), Established Product Relationship, Recommended Commercial Record Structure, System-of-Record Consequence
-
 ### Community 3752 - "wiki/agency-agents/.github/PULL_REQUEST_TEMPLATE.md"
 Cohesion: 0.50
 Nodes (3): Agent Information (if adding/modifying an agent), Checklist, What does this PR do?
@@ -19304,24 +19314,24 @@ Cohesion: 0.67
 Nodes (3): 9.1 Active Agents (Ongoing), 9.2 Continuous Improvement Cycle, 9. Phase 6 — Operate & Evolve
 
 ## Knowledge Gaps
-- **40440 isolated node(s):** `$schema`, `title`, `type`, `type`, `type` (+40435 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 42271 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **40448 isolated node(s):** `$schema`, `title`, `type`, `type`, `type` (+40443 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 42280 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **157 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `🎭 The Agency: AI Specialists Ready to Transform Your Workflow` connect `🎭 The Agency: AI Specialists Ready to Transform Your Workflow` to `🎨 The Agency Roster`, `🤝 Contributing`, `⚡ Quick Start`, `🎁 What Makes This Special?`, `🎯 Real-World Use Cases`, `🔌 Multi-Tool Integrations`, `wiki-knowledge/agency-agents/README.md`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `$schema`, `title`, `type` to the rest of the system?**
-  _40440 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _40448 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `PCB → Carbon Credits — Preliminary Briefing` be split into smaller, more focused modules?**
   _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
-- **Should `Hermes Memory Architecture (Layer Model)` be split into smaller, more focused modules?**
-  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Census & Housing Brief` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `leadsniperai-cli-commercial-plan.md` be split into smaller, more focused modules?**
   _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+- **Should `Part 5 — Competitors` be split into smaller, more focused modules?**
+  _Cohesion score 0.06666666666666667 - nodes in this community are weakly interconnected._
+- **Should `00_homepage.md` be split into smaller, more focused modules?**
+  _Cohesion score 0.010752688172043012 - nodes in this community are weakly interconnected._

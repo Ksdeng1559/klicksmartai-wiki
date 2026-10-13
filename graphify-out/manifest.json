@@ -3126,9 +3126,9 @@
     "semantic_hash": ""
   },
   "concepts/hermes-memory-architecture.md": {
-    "mtime": 1787198518.8723402,
-    "seen": 1788871160.538932,
-    "ast_hash": "3d9784fcb40272a8db7eb5e247449a88",
+    "mtime": 1791864177.8363292,
+    "seen": 1791864270.1360946,
+    "ast_hash": "b993b58822cc872d3a48e4ae680fb54a",
     "semantic_hash": ""
   },
   "frameworks/agency-agents-agent-building.md": {
@@ -18435,6 +18435,12 @@
     "mtime": 1791734048.6789863,
     "seen": 1791777880.257526,
     "ast_hash": "21e181ea98d05445a614a9b7b854fbee",
+    "semantic_hash": ""
+  },
+  "wiki/raw/drafts/telegram-atomic-crm-2026-10-12.md": {
+    "mtime": 1791824347.5693169,
+    "seen": 1791864270.1753154,
+    "ast_hash": "ad68565c31e56ba6d06edd449f752bbe",
     "semantic_hash": ""
   }
 }
