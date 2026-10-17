@@ -1,0 +1,167 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "method": "get_serp_results (SERP endpoint, locationCode=20114=BC) - organic results only",
+  "batch_name": "Highest-opportunity blue ocean: private lender bc + private lender vancouver",
+  "queries": 2,
+  "per_keyword": [
+    {
+      "keyword": "private lender bc",
+      "metrics": {
+        "search_volume": 210,
+        "cpc": 18.99,
+        "keyword_difficulty": 0,
+        "main_intent": "commercial"
+      },
+      "opportunity_score": 3988.0,
+      "top10_classification": {
+        "other": 6,
+        "broker": 2,
+        "news/social": 2
+      },
+      "top_10": [
+        {
+          "rank": 1,
+          "domain": "opendoorlaw.com",
+          "type": "other",
+          "note": "law firm content"
+        },
+        {
+          "rank": 2,
+          "domain": "shelterlending.ca",
+          "type": "other",
+          "note": "BC private lender, beatable"
+        },
+        {
+          "rank": 7,
+          "domain": "wowa.ca",
+          "type": "broker",
+          "note": "Private Mortgage Lenders BC page"
+        },
+        {
+          "rank": 8,
+          "domain": "bcprivateloans.ca",
+          "type": "other",
+          "note": "BC lender directory, beatable"
+        },
+        {
+          "rank": 9,
+          "domain": "landmarkmortgages.ca",
+          "type": "other",
+          "note": "Private Mortgages in BC guide"
+        },
+        {
+          "rank": 10,
+          "domain": "equityloansbc.ca",
+          "type": "other",
+          "note": "Vancouver private lender, thin content"
+        },
+        {
+          "rank": 11,
+          "domain": "versaplatinum.ca",
+          "type": "other",
+          "note": "2025 trends article, beat with 2026"
+        },
+        {
+          "rank": 12,
+          "domain": "yourequity.ca",
+          "type": "broker",
+          "note": "BC broker content"
+        },
+        {
+          "rank": 15,
+          "domain": "reddit.com",
+          "type": "news/social",
+          "note": "reddit thread"
+        },
+        {
+          "rank": 16,
+          "domain": "facebook.com",
+          "type": "news/social",
+          "note": "facebook group"
+        }
+      ],
+      "verdict": "HIGHEST-VALUE BLUE OCEAN \u2014 210/mo, $19 CPC, KD 0, 0 BC credit unions, 0 lenders in top 10, 2 brokers, mostly small BC private lenders with thin content"
+    },
+    {
+      "keyword": "private lender vancouver",
+      "metrics": {
+        "search_volume": 50,
+        "cpc": 2.56,
+        "keyword_difficulty": 0,
+        "main_intent": "commercial"
+      },
+      "opportunity_score": 128.0,
+      "top10_classification": {
+        "other": 7,
+        "news/social": 1,
+        "lender": 2
+      },
+      "top_10": [
+        {
+          "rank": 2,
+          "domain": "ipotekacanada.com",
+          "type": "other",
+          "note": "2 pages, content about private mortgages in BC/Vancouver"
+        },
+        {
+          "rank": 3,
+          "domain": "myprivatelender.com",
+          "type": "other",
+          "note": "national platform"
+        },
+        {
+          "rank": 4,
+          "domain": "ipotekacanada.com",
+          "type": "other",
+          "note": "pre-sale Vancouver content"
+        },
+        {
+          "rank": 6,
+          "domain": "revenuebase.ai",
+          "type": "other",
+          "note": "Top 25 Vancouver private lenders list"
+        },
+        {
+          "rank": 7,
+          "domain": "facebook.com",
+          "type": "news/social",
+          "note": "Private Lending Queen page"
+        },
+        {
+          "rank": 8,
+          "domain": "syndicatelending.com",
+          "type": "lender",
+          "note": "high net worth financing Vancouver"
+        },
+        {
+          "rank": 9,
+          "domain": "grantpowell.ca",
+          "type": "other",
+          "note": "BC private mortgage broker"
+        },
+        {
+          "rank": 10,
+          "domain": "wattsmortgages.ca",
+          "type": "other",
+          "note": "B-lending debt consolidation Vancouver"
+        },
+        {
+          "rank": 11,
+          "domain": "mortgagebrokerbc.com",
+          "type": "lender",
+          "note": "BC mortgage broker"
+        },
+        {
+          "rank": 13,
+          "domain": "yelp.ca",
+          "type": "other",
+          "note": "Yelp top 10 list"
+        }
+      ],
+      "verdict": "BLUE OCEAN \u2014 50/mo, $2.56 CPC, KD 0, syndicate lending + ipoteka + brokers only"
+    }
+  ],
+  "strategic_implication": "The 'private lender bc' keyword alone, if ranked #1 organic, would deliver ~210 monthly visitors with high commercial intent to a single landing page. At $19 CPC, that traffic is worth ~$3,990/month in equivalent ad spend \u2014 and the SERP is wide open for KommercialConnect to win with a 2026 + BC-specific comprehensive guide."
+}

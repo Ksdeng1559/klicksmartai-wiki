@@ -1,0 +1,814 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "niche": "multifamily + purpose-built-rental construction financing (BC)",
+  "location_code": 20114,
+  "language": "en",
+  "seed_pool": 102,
+  "metrics_with_volume": 8,
+  "queries_scanned": 10,
+  "per_keyword": [
+    {
+      "keyword": "multifamily construction loans",
+      "dataforseo_metrics": {
+        "keyword": "multifamily construction loans",
+        "search_volume": 10,
+        "keyword_difficulty": null,
+        "main_intent": "commercial",
+        "cpc": 12.9,
+        "competition": 0.86,
+        "competition_level": "HIGH"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 3,
+        "lender": 5,
+        "govt/edu/social/news": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.firstnational.ca",
+          "type": "lender",
+          "title": "Construction financing - funds for building or rehabilitating ...",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/multi-family/development-construction"
+        },
+        {
+          "rank": 3,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 4,
+          "domain": "www.peakhillcapital.com",
+          "type": "lender",
+          "title": "Conventional Financing",
+          "url": "https://www.peakhillcapital.com/conventional-financing/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.multifamily.loans",
+          "type": "lender",
+          "title": "Multifamily Construction Loans | Janover",
+          "url": "https://www.multifamily.loans/multifamily-construction-loans/"
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "Find related products & services",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "www.rbcroyalbank.com",
+          "type": "lender",
+          "title": "RBC Multi-Unit Construction Mortgage Program",
+          "url": "https://www.rbcroyalbank.com/mortgages/multi-units-construction-program.html"
+        },
+        {
+          "rank": 8,
+          "domain": "www.youtube.com",
+          "type": "govt/edu/social/news",
+          "title": "How to get a HUD Construction Loan to Build Multifamily",
+          "url": "https://www.youtube.com/watch?v=ja0e1XUZzM8"
+        },
+        {
+          "rank": 9,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 10,
+          "domain": "rockfordconstruction.net",
+          "type": "lender",
+          "title": "3 Types of Multifamily Construction Loans",
+          "url": "https://rockfordconstruction.net/construction-news/3-types-of-multifamily-construction-loans/"
+        }
+      ]
+    },
+    {
+      "keyword": "purpose built rental construction financing loans",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "govt/edu/social/news": 6,
+        "lender": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program: Seniors Rental ...",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/rental-housing-seniors"
+        },
+        {
+          "rank": 3,
+          "domain": "onpha.on.ca",
+          "type": "other",
+          "title": "CMHC's Rental Construction Financing initiative",
+          "url": "https://onpha.on.ca/be-funding-ready-for-the-rental-construction-financing-initiative/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.connectcre.ca",
+          "type": "lender",
+          "title": "Oxford Secures Record $650M CMHC Apartment ...",
+          "url": "https://www.connectcre.ca/stories/oxford-secures-record-650m-cmhc-apartment-construction-loan/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Application Portal for Affordable Housing Fund Closed",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/affordable-housing-fund"
+        },
+        {
+          "rank": 6,
+          "domain": "www.firstnational.ca",
+          "type": "lender",
+          "title": "Development and construction loans for mixed-use ...",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/mixed-use/development-construction"
+        },
+        {
+          "rank": 7,
+          "domain": "www.facebook.com",
+          "type": "govt/edu/social/news",
+          "title": "Cranson Capital's purpose-built rental fund accesses ...",
+          "url": "https://www.facebook.com/CransonCapital/posts/financing-is-an-important-part-of-the-economics-of-developing-purpose-built-rent/1477730557740067/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.cbc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Federal government promises $2.55B in low-cost loans to ...",
+          "url": "https://www.cbc.ca/news/canada/toronto/rental-homes-toronto-loans-federal-government-1.7487409"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Funding for new construction projects on-reserve",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/indigenous/new-construction/on-reserve"
+        },
+        {
+          "rank": 10,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "CMHC Income Property",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/income-property"
+        }
+      ]
+    },
+    {
+      "keyword": "purpose built rental construction financing",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 3,
+        "govt/edu/social/news": 4,
+        "lender": 3
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program: Student Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/student-housing"
+        },
+        {
+          "rank": 3,
+          "domain": "www.gta-homes.com",
+          "type": "lender",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.gta-homes.com/real-estate-info/apartment-construction-loan-program/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.connectcre.ca",
+          "type": "lender",
+          "title": "Oxford Secures Record $650M CMHC Apartment ...",
+          "url": "https://www.connectcre.ca/stories/oxford-secures-record-650m-cmhc-apartment-construction-loan/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program: Seniors Rental ...",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/rental-housing-seniors"
+        },
+        {
+          "rank": 6,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Co-op Housing Development Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/co-op-housing-development-program"
+        },
+        {
+          "rank": 7,
+          "domain": "www.buildcanada.com",
+          "type": "lender",
+          "title": "Build Rental Housing Again",
+          "url": "https://www.buildcanada.com/memos/rental-housing"
+        },
+        {
+          "rank": 8,
+          "domain": "www.instagram.com",
+          "type": "other",
+          "title": "Welcome to Cranson Capital's Purpose-Built Rental Fund video ...",
+          "url": "https://www.instagram.com/reel/DW9PPeXkXMl/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.reddit.com",
+          "type": "other",
+          "title": "Purpose built rentals to the moon! : r/TorontoRealEstate",
+          "url": "https://www.reddit.com/r/TorontoRealEstate/comments/1i5z0z6/purpose_built_rentals_to_the_moon/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Project Funding and Mortgage Financing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing"
+        }
+      ]
+    },
+    {
+      "keyword": "purpose built rental construction loan",
+      "dataforseo_metrics": {},
+      "results_count": 0,
+      "top10_classification": {},
+      "top10": []
+    },
+    {
+      "keyword": "aclp cmhc",
+      "dataforseo_metrics": {
+        "keyword": "aclp cmhc",
+        "search_volume": 320,
+        "keyword_difficulty": 1,
+        "main_intent": "navigational",
+        "cpc": 11.46,
+        "competition": 0.03,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 4,
+        "lender": 2,
+        "govt/edu/social/news": 4
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.reddit.com",
+          "type": "other",
+          "title": "Anyone have experience with ACLP to buy and convert a ...",
+          "url": "https://www.reddit.com/r/canadahousing/comments/1mnr5v8/anyone_have_experience_with_aclp_to_buy_and/"
+        },
+        {
+          "rank": 3,
+          "domain": "scionadvisory.com",
+          "type": "lender",
+          "title": "Canada Mortgage and Housing Corporation (CMHC) ...",
+          "url": "https://scionadvisory.com/news/enhancements-to-the-affordable-housing-fund-and-apartment-construction-loan-program/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Co-op Housing Development Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/co-op-housing-development-program"
+        },
+        {
+          "rank": 5,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 6,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Mortgage Loan Insurance for Multi-Unit & Rental Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance"
+        },
+        {
+          "rank": 7,
+          "domain": "sett.ca",
+          "type": "lender",
+          "title": "apartment-construction-loan-program-highlight-sheet-en. ...",
+          "url": "https://sett.ca/wp-content/uploads/2024/07/apartment-construction-loan-program-highlight-sheet-en.pdf"
+        },
+        {
+          "rank": 8,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Housing research, finance and mortgage insurance in ...",
+          "url": "https://www.cmhc-schl.gc.ca/professionals"
+        },
+        {
+          "rank": 9,
+          "domain": "x.com",
+          "type": "other",
+          "title": "the MLI Select or Apartment Construction Loan Program ...",
+          "url": "https://x.com/tony_kwan/status/1888738830972514770"
+        },
+        {
+          "rank": 10,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "CMHC Improvement",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs/improvement"
+        }
+      ]
+    },
+    {
+      "keyword": "cmhc aclp",
+      "dataforseo_metrics": {
+        "keyword": "cmhc aclp",
+        "search_volume": 260,
+        "keyword_difficulty": 0,
+        "main_intent": "navigational",
+        "cpc": null,
+        "competition": 0,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 4,
+        "govt/edu/social/news": 4,
+        "lender": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 3,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 4,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program | Highlight Sheet",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/apartment-construction-loan-program-highlight-sheet-standard-rental-housing-en.pdf"
+        },
+        {
+          "rank": 5,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Required Documentation Checklist",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/apartment-construction-loan-program-required-documentation-checklist-en.pdf"
+        },
+        {
+          "rank": 6,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "CMHC ACLP: Apartment Construction Loan Program Guide",
+          "url": "https://lendcity.ca/blog/cmhc-apartment-construction-loan-program-aclp-guide/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.altusgroup.com",
+          "type": "lender",
+          "title": "Building Solutions - The Impact Of CMHC Loans On ...",
+          "url": "https://www.altusgroup.com/insights/cmhc-apartment-construction-loan-housing-crisis/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Funding programs",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs"
+        },
+        {
+          "rank": 9,
+          "domain": "www.missingmiddleinitiative.ca",
+          "type": "other",
+          "title": "How the $55B ACLP Housing Program Might Actually ...",
+          "url": "https://www.missingmiddleinitiative.ca/p/how-the-55b-aclp-housing-program"
+        },
+        {
+          "rank": 10,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "keyword": "apartment construction loan program",
+      "dataforseo_metrics": {
+        "keyword": "apartment construction loan program",
+        "search_volume": 260,
+        "keyword_difficulty": 16,
+        "main_intent": "informational",
+        "cpc": 13.66,
+        "competition": 0.05,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 1,
+        "lender": 5,
+        "govt/edu/social/news": 4
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "newhomesalberta.ca",
+          "type": "lender",
+          "title": "MLI Select vs Apartment Construction Loan Program Guide",
+          "url": "https://newhomesalberta.ca/mli-select-vs-apartment-construction-loan-program-guide/"
+        },
+        {
+          "rank": 3,
+          "domain": "hellodarwin.com",
+          "type": "lender",
+          "title": "Apartment Construction Loan Program: Student Housing",
+          "url": "https://hellodarwin.com/business-aid/programs/apchq-apartment-construction-loan-program-student-housing"
+        },
+        {
+          "rank": 4,
+          "domain": "www.theglobeandmail.com",
+          "type": "govt/edu/social/news",
+          "title": "Federal budget will include $15-billion boost to apartment ...",
+          "url": "https://www.theglobeandmail.com/politics/article-trudeau-housing-apartment-construction-loan/"
+        },
+        {
+          "rank": 5,
+          "domain": "housing-infrastructure.canada.ca",
+          "type": "govt/edu/social/news",
+          "title": "Reference Material on Signature Initiatives: Programs Placemat",
+          "url": "https://housing-infrastructure.canada.ca/pd-dp/transition/2025/min/8/book-cahier-8-eng.html"
+        },
+        {
+          "rank": 6,
+          "domain": "www.connectcre.ca",
+          "type": "lender",
+          "title": "Oxford Secures Record $650M CMHC Apartment ...",
+          "url": "https://www.connectcre.ca/stories/oxford-secures-record-650m-cmhc-apartment-construction-loan/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Co-op Housing Development Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/co-op-housing-development-program"
+        },
+        {
+          "rank": 8,
+          "domain": "swmw.ca",
+          "type": "lender",
+          "title": "A Guide to Financing Your Multi-Unit Residential Project",
+          "url": "https://swmw.ca/blog/unlocking-cmhc-program-funding-a-guide-to-financing-your-multi-unit-residential-project/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Mortgage Loan Insurance for Multi-Unit & Rental Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance"
+        },
+        {
+          "rank": 10,
+          "domain": "www.roblough.com",
+          "type": "lender",
+          "title": "Canada's Apartment Construction Loan Program (ACLP)",
+          "url": "https://www.roblough.com/news/1379296/canadas-apartment-construction-loan-program-aclp"
+        }
+      ]
+    },
+    {
+      "keyword": "cmhc apartment construction loan program",
+      "dataforseo_metrics": {
+        "keyword": "cmhc apartment construction loan program",
+        "search_volume": 90,
+        "keyword_difficulty": 4,
+        "main_intent": "informational",
+        "cpc": 1.33,
+        "competition": 0.08,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "govt/edu/social/news": 5,
+        "other": 3,
+        "lender": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Funding programs",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs"
+        },
+        {
+          "rank": 3,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program | Highlight Sheet",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/apartment-construction-loan-program-highlight-sheet-standard-rental-housing-en.pdf"
+        },
+        {
+          "rank": 4,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 5,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "CMHC ACLP: Apartment Construction Loan Program Guide",
+          "url": "https://lendcity.ca/blog/cmhc-apartment-construction-loan-program-aclp-guide/"
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "www.altusgroup.com",
+          "type": "lender",
+          "title": "Building Solutions - The Impact Of CMHC Loans On ...",
+          "url": "https://www.altusgroup.com/insights/cmhc-apartment-construction-loan-housing-crisis/"
+        },
+        {
+          "rank": 8,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Required Documentation Checklist",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/apartment-construction-loan-program-required-documentation-checklist-en.pdf"
+        },
+        {
+          "rank": 9,
+          "domain": "www.missingmiddleinitiative.ca",
+          "type": "other",
+          "title": "How the $55B ACLP Housing Program Might Actually ...",
+          "url": "https://www.missingmiddleinitiative.ca/p/how-the-55b-aclp-housing-program"
+        },
+        {
+          "rank": 10,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Expanding Housing Supply: Rental Construction Financing ...",
+          "url": "https://www.cmhc-schl.gc.ca/observer/2023/expanding-housing-supply-rental-construction-financing-initiative"
+        }
+      ]
+    },
+    {
+      "keyword": "rental construction financing initiative",
+      "dataforseo_metrics": {
+        "keyword": "rental construction financing initiative",
+        "search_volume": 20,
+        "keyword_difficulty": 2,
+        "main_intent": "informational",
+        "cpc": null,
+        "competition": 0.18,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "lender": 4,
+        "other": 1,
+        "govt/edu/social/news": 5
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "canadacommons.ca",
+          "type": "lender",
+          "title": "Evaluation of the Rental Construction Financing Initiative ...",
+          "url": "https://canadacommons.ca/artifacts/28597436/evaluation-of-the-rental-construction-financing-initiative-rcfi/29497289/"
+        },
+        {
+          "rank": 2,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 3,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Canada announces the construction of 152 new rental ...",
+          "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2025/canada-announces-construction-152-new-rental-housing-units-saint-john"
+        },
+        {
+          "rank": 4,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program: Student Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/student-housing"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "NHS: SUPPORT FOR RENTERS AND RENT TO OWN",
+          "url": "https://www.cmhc-schl.gc.ca/-/media/sites/cmhc/about-cmhc/corporate-reporting/transparency/briefing-materials/question-period-notes/2023/july/qp-card-renters-2023-08-10-en.ashx"
+        },
+        {
+          "rank": 6,
+          "domain": "www.youtube.com",
+          "type": "govt/edu/social/news",
+          "title": "Update* New Construction Only $1 Million+ For 5-Unit+ CMHC ...",
+          "url": "https://www.youtube.com/watch?v=Waj61AIMFI8"
+        },
+        {
+          "rank": 7,
+          "domain": "www.reminetwork.com",
+          "type": "lender",
+          "title": "Be part of Canada's next generation of affordable rental housing",
+          "url": "https://www.reminetwork.com/articles/next-generation-affordable-housing-cam/"
+        },
+        {
+          "rank": 8,
+          "domain": "hellodarwin.com",
+          "type": "lender",
+          "title": "Canada Mortgage and Housing Corporation (CMHC) ...",
+          "url": "https://hellodarwin.com/business-aid/organizations/cmhc"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cbc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Federal fund for rental units won't fix housing crisis, ...",
+          "url": "https://www.cbc.ca/news/canada/ottawa/rental-construction-money-not-enough-1.5064619"
+        },
+        {
+          "rank": 10,
+          "domain": "www.altusgroup.com",
+          "type": "lender",
+          "title": "Building Solutions - The Impact Of CMHC Loans On ...",
+          "url": "https://www.altusgroup.com/insights/cmhc-apartment-construction-loan-housing-crisis/"
+        }
+      ]
+    },
+    {
+      "keyword": "cmhc rental construction financing initiative",
+      "dataforseo_metrics": {
+        "keyword": "cmhc rental construction financing initiative",
+        "search_volume": 10,
+        "keyword_difficulty": null,
+        "main_intent": "informational",
+        "cpc": null,
+        "competition": null,
+        "competition_level": null
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "govt/edu/social/news": 8,
+        "other": 1,
+        "lender": 1
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Apartment Construction Loan Program: Seniors Rental ...",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/rental-housing-seniors"
+        },
+        {
+          "rank": 2,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 3,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "CMHC ACLP: Apartment Construction Loan Program Guide",
+          "url": "https://lendcity.ca/blog/cmhc-apartment-construction-loan-program-aclp-guide/"
+        },
+        {
+          "rank": 4,
+          "domain": "dailyhive.com",
+          "type": "govt/edu/social/news",
+          "title": "$500 million in new federal financing for 1100 rental ...",
+          "url": "https://dailyhive.com/vancouver/vancouver-cmhc-rental-housing-construction-financing-august-2023"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Affordable Housing Innovation Fund",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/affordable-housing-innovation-fund"
+        },
+        {
+          "rank": 6,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Homeowner and Small Rental Mortgage Loan Insurance",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/mortgage-loan-insurance-homeownership-programs"
+        },
+        {
+          "rank": 7,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Mortgage Loan Insurance for Standard Rental Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance/standard-rental-housing"
+        },
+        {
+          "rank": 8,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Funding for new construction projects on-reserve",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/indigenous/new-construction/on-reserve"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt/edu/social/news",
+          "title": "Modular Rental Housing Construction",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance/modular-rental-housing-construction"
+        },
+        {
+          "rank": 10,
+          "domain": "www.youtube.com",
+          "type": "govt/edu/social/news",
+          "title": "Update* New Construction Only $1 Million+ For 5-Unit+ CMHC ...",
+          "url": "https://www.youtube.com/watch?v=Waj61AIMFI8"
+        }
+      ]
+    }
+  ]
+}

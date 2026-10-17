@@ -1,0 +1,629 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "method": "get_serp_results (SERP endpoint, locationCode=20114=BC)",
+  "batch_name": "BC gap terms where find_serp_competitors returned 0",
+  "queries": 10,
+  "queries_with_results": 7,
+  "queries_empty": 3,
+  "per_keyword": [
+    {
+      "keyword": "vancouver purpose built rental financing",
+      "results_count": 0,
+      "reason": "no SERP data returned (likely 0 search volume or filtered by DataForSEO)",
+      "dataforseo_metrics": {},
+      "top10_classification": {},
+      "top10": []
+    },
+    {
+      "keyword": "vancouver purpose built rental loan",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 1,
+        "news/social": 5,
+        "lender": 4
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.reminetwork.com",
+          "type": "news/social",
+          "title": "New affordable rental project underway in Vancouver",
+          "url": "https://www.reminetwork.com/articles/new-affordable-rental-project-underway-in-vancouver/"
+        },
+        {
+          "rank": 3,
+          "domain": "dailyhive.com",
+          "type": "news/social",
+          "title": "$15 billion in new federal financing for apartment ...",
+          "url": "https://dailyhive.com/vancouver/canada-housing-fall-economic-update-2023"
+        },
+        {
+          "rank": 4,
+          "domain": "sett.ca",
+          "type": "lender",
+          "title": "apartment-construction-loan-program-highlight-sheet-en. ...",
+          "url": "https://sett.ca/wp-content/uploads/2024/07/apartment-construction-loan-program-highlight-sheet-en.pdf"
+        },
+        {
+          "rank": 5,
+          "domain": "www.facebook.com",
+          "type": "news/social",
+          "title": "What first time rent subsidy programs are available in ...",
+          "url": "https://www.facebook.com/groups/648527369300498/posts/1093789058107658/"
+        },
+        {
+          "rank": 6,
+          "domain": "experience.arcgis.com",
+          "type": "news/social",
+          "title": "New Purpose-Built Rental Housing map - Experience",
+          "url": "https://experience.arcgis.com/experience/bc789ee3e50c4a0d961753af2dc1f894"
+        },
+        {
+          "rank": 7,
+          "domain": "building.ca",
+          "type": "lender",
+          "title": "Government of Canada Provides 119 Units of Rental Housing ...",
+          "url": "https://building.ca/government-of-canada-provides-119-units-of-rental-housing-in-vancouver/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.youtube.com",
+          "type": "news/social",
+          "title": "BC Funding Almost $2M for Housing for Middle-Income ...",
+          "url": "https://www.youtube.com/shorts/hQKuW1vRI2o"
+        },
+        {
+          "rank": 9,
+          "domain": "welovekits.ca",
+          "type": "lender",
+          "title": "A Guide to Utilizing Construction Loans in Vancouver, Canada",
+          "url": "https://welovekits.ca/real-estate-blog/maximizing-your-investment-a-guide-to-utilizing-construction-loans-in-vancouver-canada/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.vancouverisawesome.com",
+          "type": "lender",
+          "title": "Government loans should finance massive rental build-out ...",
+          "url": "https://www.vancouverisawesome.com/business/government-loans-finance-rental-build-out-vancouver-economist-1958984"
+        }
+      ]
+    },
+    {
+      "keyword": "multifamily loan",
+      "dataforseo_metrics": {
+        "keyword": "multifamily loan",
+        "search_volume": 10,
+        "keyword_difficulty": null,
+        "main_intent": "commercial",
+        "cpc": null,
+        "competition": 0.1,
+        "competition_level": "LOW"
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 3,
+        "lender": 5,
+        "news/social": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.sunlitemortgage.ca",
+          "type": "lender",
+          "title": "Multi-Family Residential Mortgage Canada",
+          "url": "https://www.sunlitemortgage.ca/commercial-mortgage/multi-family/"
+        },
+        {
+          "rank": 3,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Multifamily Financing \u2014 Mortgage & Real Estate Glossary ...",
+          "url": "https://lendcity.ca/glossary/multifamily-financing/"
+        },
+        {
+          "rank": 4,
+          "domain": "cpicapital.ca",
+          "type": "lender",
+          "title": "Multi-family financing explained",
+          "url": "https://cpicapital.ca/multi-family-financing-explained/"
+        },
+        {
+          "rank": 5,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "Discussions and forums",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "www.youtube.com",
+          "type": "news/social",
+          "title": "Financing a Multi-family Building in Canada",
+          "url": "https://www.youtube.com/watch?v=KLDg8tCigyc"
+        },
+        {
+          "rank": 8,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Multifamily Investing for Beginners",
+          "url": "https://lendcity.ca/blog/multifamily-investing-beginners-guide/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.openfinancial.ca",
+          "type": "lender",
+          "title": "Multifamily & Rental Housing Financing - Open Financial",
+          "url": "https://www.openfinancial.ca/multifamily-financing"
+        },
+        {
+          "rank": 10,
+          "domain": "www.westerninvestor.com",
+          "type": "news/social",
+          "title": "Multi-family financing",
+          "url": "https://www.westerninvestor.com/how-to-invest/multi-family-financing-3830494"
+        }
+      ]
+    },
+    {
+      "keyword": "apartment construction loan vancouver",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 3,
+        "govt": 2,
+        "bc-credit": 1,
+        "lender": 4
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 3,
+          "domain": "www.vancity.com",
+          "type": "bc-credit",
+          "title": "Construction Mortgage",
+          "url": "https://www.vancity.com/borrow/mortgages/construction-mortgage"
+        },
+        {
+          "rank": 4,
+          "domain": "www.rbcroyalbank.com",
+          "type": "lender",
+          "title": "Mortgages for Building Your Own Home - RBC Royal Bank",
+          "url": "https://www.rbcroyalbank.com/mortgages/building-your-own-house.html"
+        },
+        {
+          "rank": 5,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "Apartment Construction Loan Program | Highlight Sheet",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program/apartment-construction-loan-program-highlight-sheet-standard-rental-housing-en.pdf"
+        },
+        {
+          "rank": 6,
+          "domain": "wowa.ca",
+          "type": "lender",
+          "title": "Guide to Construction Loans in Canada 2026",
+          "url": "https://wowa.ca/construction-loans"
+        },
+        {
+          "rank": 7,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "CMHC ACLP: Apartment Construction Loan Program Guide",
+          "url": "https://lendcity.ca/blog/cmhc-apartment-construction-loan-program-aclp-guide/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.citifund.com",
+          "type": "other",
+          "title": "Apartment",
+          "url": "https://www.citifund.com/en/recent-projects/apartment/"
+        },
+        {
+          "rank": 9,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 10,
+          "domain": "www.altusgroup.com",
+          "type": "lender",
+          "title": "Building Solutions - The Impact Of CMHC Loans On ...",
+          "url": "https://www.altusgroup.com/insights/cmhc-apartment-construction-loan-housing-crisis/"
+        }
+      ]
+    },
+    {
+      "keyword": "multifamily construction loan vancouver",
+      "results_count": 0,
+      "reason": "no SERP data returned (likely 0 search volume or filtered by DataForSEO)",
+      "dataforseo_metrics": {},
+      "top10_classification": {},
+      "top10": []
+    },
+    {
+      "keyword": "construction financing vancouver",
+      "dataforseo_metrics": {
+        "keyword": "construction financing vancouver",
+        "search_volume": 10,
+        "keyword_difficulty": null,
+        "main_intent": "commercial",
+        "cpc": null,
+        "competition": null,
+        "competition_level": null
+      },
+      "results_count": 20,
+      "top10_classification": {
+        "other": 1,
+        "lender": 8,
+        "news/social": 1
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.ratehub.ca",
+          "type": "lender",
+          "title": "New Construction Mortgages",
+          "url": "https://www.ratehub.ca/blog/new-construction-mortgages/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.bmo.com",
+          "type": "lender",
+          "title": "Mortgage Builder Program - BMO Canada",
+          "url": "https://www.bmo.com/en-ca/main/personal/mortgages/special-offers/builder-program/"
+        },
+        {
+          "rank": 4,
+          "domain": "satbirbhullar.ca",
+          "type": "lender",
+          "title": "Construction Mortgages in BC | How Building Financing ...",
+          "url": "https://satbirbhullar.ca/blog/construction-mortgages-in-bc-how-financing-works-when-youre-building-from-the-ground-up/"
+        },
+        {
+          "rank": 5,
+          "domain": "swoopfunding.com",
+          "type": "lender",
+          "title": "Construction loans and finance | Swoop CA",
+          "url": "https://swoopfunding.com/ca/sectors/construction-loans-and-finance/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.corevalhomes.com",
+          "type": "lender",
+          "title": "What is a construction mortgage in Canad...",
+          "url": "https://www.corevalhomes.com/answers/what-is-a-construction-mortgage-in-canada-and-how-does-it-work/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.vanplex.ca",
+          "type": "lender",
+          "title": "Credit Union Multiplex Financing in BC",
+          "url": "https://www.vanplex.ca/credit-union-multiplex-financing-bc/"
+        },
+        {
+          "rank": 8,
+          "domain": "themortgageprofessionals.ca",
+          "type": "lender",
+          "title": "Construction Financing in BC | The Mortgage Professionals",
+          "url": "https://themortgageprofessionals.ca/construction-financing-bc/"
+        },
+        {
+          "rank": 9,
+          "domain": "www.reddit.com",
+          "type": "news/social",
+          "title": "Construction Mortgage in Metro Van New Build - Qualifying",
+          "url": "https://www.reddit.com/r/MortgagesCanada/comments/1fkwvjo/construction_mortgage_in_metro_van_new_build/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.springfinancial.ca",
+          "type": "lender",
+          "title": "Spring Financial",
+          "url": "https://www.springfinancial.ca/"
+        }
+      ]
+    },
+    {
+      "keyword": "construction loan vancouver",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "bc-credit": 2,
+        "other": 1,
+        "lender": 6,
+        "govt": 1
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "www.vancity.com",
+          "type": "bc-credit",
+          "title": "Construction Mortgage",
+          "url": "https://www.vancity.com/borrow/mortgages/construction-mortgage"
+        },
+        {
+          "rank": 2,
+          "domain": "cccu.ca",
+          "type": "bc-credit",
+          "title": "Construction Financing",
+          "url": "https://cccu.ca/business/financing/construction-financing/"
+        },
+        {
+          "rank": 3,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 4,
+          "domain": "www.rbcroyalbank.com",
+          "type": "lender",
+          "title": "Mortgages for Building Your Own Home - RBC Royal Bank",
+          "url": "https://www.rbcroyalbank.com/mortgages/building-your-own-house.html"
+        },
+        {
+          "rank": 5,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 6,
+          "domain": "yourequity.ca",
+          "type": "lender",
+          "title": "Your Equity Mortgage",
+          "url": "https://yourequity.ca/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.levelupmortgages.com",
+          "type": "lender",
+          "title": "Level Up Mortgages",
+          "url": "https://www.levelupmortgages.com/"
+        },
+        {
+          "rank": 8,
+          "domain": "geoffleemortgage.com",
+          "type": "lender",
+          "title": "GLM Mortgage Group",
+          "url": "https://geoffleemortgage.com/?utm_campaign=gmb"
+        },
+        {
+          "rank": 9,
+          "domain": "www.syndicatelending.com",
+          "type": "lender",
+          "title": "Construction Financing Services",
+          "url": "https://www.syndicatelending.com/construction-financing"
+        },
+        {
+          "rank": 10,
+          "domain": "www.firstnational.ca",
+          "type": "lender",
+          "title": "Development and construction loans for land",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/land/development-construction"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial construction loan vancouver",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "bc-credit": 2,
+        "lender": 5,
+        "govt": 1
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "cccu.ca",
+          "type": "bc-credit",
+          "title": "Construction Financing",
+          "url": "https://cccu.ca/business/financing/construction-financing/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.vancity.com",
+          "type": "bc-credit",
+          "title": "Construction Mortgage",
+          "url": "https://www.vancity.com/borrow/mortgages/construction-mortgage"
+        },
+        {
+          "rank": 4,
+          "domain": "www.syndicatelending.com",
+          "type": "lender",
+          "title": "Construction Financing Services",
+          "url": "https://www.syndicatelending.com/construction-financing"
+        },
+        {
+          "rank": 5,
+          "domain": "www.bdc.ca",
+          "type": "govt",
+          "title": "Commercial Real Estate Loan Get extra space to grow",
+          "url": "https://www.bdc.ca/en/financing/commercial-real-estate-loan"
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "www.firstnational.ca",
+          "type": "lender",
+          "title": "Development and construction loans for retail properties",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/retail/development-construction"
+        },
+        {
+          "rank": 8,
+          "domain": "www.rbcroyalbank.com",
+          "type": "lender",
+          "title": "Commercial Mortgage - RBC Royal Bank",
+          "url": "https://www.rbcroyalbank.com/business/loans/commercial-mortgage.html"
+        },
+        {
+          "rank": 9,
+          "domain": "selectcommercial.com",
+          "type": "lender",
+          "title": "Vancouver Commercial Mortgages in 2026",
+          "url": "https://selectcommercial.com/vancouver-commercial-mortgage.php"
+        },
+        {
+          "rank": 10,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Mortgage BC: Vancouver & BC Financing Guide",
+          "url": "https://lendcity.ca/blog/commercial-mortgage-bc-vancouver-guide/"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial construction financing vancouver",
+      "results_count": 0,
+      "reason": "no SERP data returned (likely 0 search volume or filtered by DataForSEO)",
+      "dataforseo_metrics": {},
+      "top10_classification": {},
+      "top10": []
+    },
+    {
+      "keyword": "purpose built rental vancouver",
+      "dataforseo_metrics": {},
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "lender": 6,
+        "news/social": 2
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.hollyburn.com",
+          "type": "lender",
+          "title": "Apartment Rentals Across Canada | Search 3000+ Suites",
+          "url": "https://www.hollyburn.com/"
+        },
+        {
+          "rank": 3,
+          "domain": "www.livabl.com",
+          "type": "lender",
+          "title": "5 new Vancouver rental buildings you can move into in 2020",
+          "url": "https://www.livabl.com/articles/news/new-vancouver-rental-buildings-move-into-2020"
+        },
+        {
+          "rank": 4,
+          "domain": "www.youtube.com",
+          "type": "news/social",
+          "title": "What unlocked purpose\u2011built rental in Vancouver | Tim Grant ...",
+          "url": "https://www.youtube.com/watch?v=XpEAF2dWCUc"
+        },
+        {
+          "rank": 5,
+          "domain": "www.aptrentals.net",
+          "type": "lender",
+          "title": "aptrentals.net: Vancouver's Largest Apartment Rental Guide",
+          "url": "https://www.aptrentals.net/"
+        },
+        {
+          "rank": 6,
+          "domain": "vancouver.ca",
+          "type": "other",
+          "title": "City-owned market rental housing",
+          "url": "https://vancouver.ca/people-programs/city-owned-market-rental-housing.aspx"
+        },
+        {
+          "rank": 7,
+          "domain": "experience.arcgis.com",
+          "type": "news/social",
+          "title": "New Purpose-Built Rental Housing map - Experience",
+          "url": "https://experience.arcgis.com/experience/bc789ee3e50c4a0d961753af2dc1f894"
+        },
+        {
+          "rank": 8,
+          "domain": "www.falsecreekresidences.com",
+          "type": "lender",
+          "title": "Modern Rental Living in Vancouver | False Creek Residences ...",
+          "url": "http://www.falsecreekresidences.com/"
+        },
+        {
+          "rank": 9,
+          "domain": "zajphymytdhm.cyou",
+          "type": "lender",
+          "title": "Rental purpose building vancouver",
+          "url": "https://zajphymytdhm.cyou/dcnpugboxkokbuisidimuhtbuqxhzt"
+        },
+        {
+          "rank": 10,
+          "domain": "wesgroup.ca",
+          "type": "lender",
+          "title": "Welcome to River District - Vancouver",
+          "url": "https://wesgroup.ca/river-district/"
+        }
+      ]
+    }
+  ]
+}

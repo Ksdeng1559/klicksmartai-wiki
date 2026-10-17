@@ -1,0 +1,5323 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "method": "get_serp_results (SERP endpoint, locationCode=20114=BC) - organic results only (AI Overview excluded)",
+  "batch_name": "Broader commercial mortgage + bridge + private + CMHC + mezzanine",
+  "queries": 10,
+  "per_keyword": [
+    {
+      "keyword": "commercial mortgage",
+      "metrics": {
+        "keyword": "commercial mortgage",
+        "search_volume": 880,
+        "keyword_difficulty": 9,
+        "main_intent": "commercial",
+        "cpc": 11.53,
+        "competition": 0.39,
+        "competition_level": "MEDIUM",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 3600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 720
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 1000
+          }
+        ]
+      },
+      "results_count": 17,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "broker": 5,
+        "news/social": 1,
+        "lender": 3,
+        "other": 1
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "themortgageadvisors.ca",
+          "type": "broker",
+          "title": "Commercial Mortgages Ottawa",
+          "url": "https://themortgageadvisors.ca/solutions/commercial-mortgages/"
+        },
+        {
+          "rank": 3,
+          "domain": "themortgageadvisors.ca",
+          "type": "broker",
+          "title": "Everything You Need to Know About Commercial Mortgages",
+          "url": "https://themortgageadvisors.ca/blog/everything-you-need-to-know-about-commercial-mortgages/"
+        },
+        {
+          "rank": 4,
+          "domain": "hillmount.ca",
+          "type": "news/social",
+          "title": "Commercial Mortgages",
+          "url": "https://hillmount.ca/mortgage-lending/commercial-mortgages/"
+        },
+        {
+          "rank": 6,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Types of Commercial Mortgages in Canada: Find the Best ...",
+          "url": "https://www.commercialmortgagescanada.com/insights/types-of-commercial-mortgages-in-canada/"
+        },
+        {
+          "rank": 7,
+          "domain": "canadalend.com",
+          "type": "lender",
+          "title": "Different Types of Commercial Mortgages",
+          "url": "https://canadalend.com/blog/different-types-of-commercial-mortgages"
+        },
+        {
+          "rank": 8,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Mortgage Ontario: Complete Investor Guide ...",
+          "url": "https://lendcity.ca/blog/commercial-mortgage-ontario-guide/"
+        },
+        {
+          "rank": 9,
+          "domain": "amansadfinancial.com",
+          "type": "broker",
+          "title": "Commercial Mortgages in Manitoba: Important Facts",
+          "url": "https://amansadfinancial.com/manitoba/commercial-mortgages/"
+        },
+        {
+          "rank": 10,
+          "domain": "gnemortgages.com",
+          "type": "broker",
+          "title": "What is A Commercial Mortgage and Its Top 7 Benefits",
+          "url": "https://www.gnemortgages.com/post/what-is-a-commercial-mortgage-and-its-top-7-benefits"
+        },
+        {
+          "rank": 11,
+          "domain": "ishoprates.ca",
+          "type": "other",
+          "title": "Commercial Mortgage Calculator Canada 2026 | iShopRates.ca",
+          "url": "https://ishoprates.ca/calculators/commercial-mortgage"
+        },
+        {
+          "rank": 13,
+          "domain": "amansadfinancial.com",
+          "type": "broker",
+          "title": "Commercial Mortgages in Alberta: How They Function",
+          "url": "https://amansadfinancial.com/how-commercial-mortgages-in-alberta-function/"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial mortgage broker",
+      "metrics": {
+        "keyword": "commercial mortgage broker",
+        "search_volume": 590,
+        "keyword_difficulty": 0,
+        "main_intent": "commercial",
+        "cpc": 11.97,
+        "competition": 0.55,
+        "competition_level": "MEDIUM",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 390
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 590
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 390
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 320
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 320
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 320
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 260
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 390
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 260
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 480
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 320
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 390
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 390
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 320
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 480
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 390
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 480
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 320
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 260
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 260
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 390
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 390
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 480
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 390
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 390
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 320
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 320
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 320
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 320
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 260
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 320
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 320
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 210
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 260
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 260
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 260
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 320
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 320
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 210
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 170
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 210
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 320
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 210
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 210
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 140
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 110
+          }
+        ]
+      },
+      "results_count": 14,
+      "first_organic_rank": 5,
+      "top10_classification": {
+        "broker": 5,
+        "news/social": 1,
+        "other": 3,
+        "lender": 1
+      },
+      "top10": [
+        {
+          "rank": 5,
+          "domain": "capitalwest.ca",
+          "type": "broker",
+          "title": "Commercial Brokerage - Vancouver",
+          "url": "https://capitalwest.ca/commercial-brokerage"
+        },
+        {
+          "rank": 7,
+          "domain": "impactcommercial.ca",
+          "type": "broker",
+          "title": "Impact Commercial: Commercial Financing Solutions ...",
+          "url": "https://www.impactcommercial.ca/"
+        },
+        {
+          "rank": 8,
+          "domain": "ratehub.ca",
+          "type": "news/social",
+          "title": "Commercial Mortgages Explained | Types, Criteria & More",
+          "url": "https://www.ratehub.ca/commercial-mortgages"
+        },
+        {
+          "rank": 9,
+          "domain": "themortgageworld.ca",
+          "type": "broker",
+          "title": "Commercial Mortgages in Ontario | Toronto, Ottawa, GTA & ...",
+          "url": "https://themortgageworld.ca/service-areas/ontario"
+        },
+        {
+          "rank": 10,
+          "domain": "mortgagecapitalinvestment.com",
+          "type": "broker",
+          "title": "What Is a Commercial Mortgage Broker in Canada",
+          "url": "https://mortgagecapitalinvestment.com/what-is-a-commercial-mortgage-broker-in-canada/"
+        },
+        {
+          "rank": 11,
+          "domain": "supermortgageteam.ca",
+          "type": "other",
+          "title": "Commercial & Leasing - Joe Bondy Dominion Lending Centres",
+          "url": "https://supermortgageteam.ca/commercial-leasing/"
+        },
+        {
+          "rank": 12,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Moncton Commercial Mortgages for Commercial Real Estate",
+          "url": "https://www.commercialmortgagescanada.com/moncton-commercial-mortgages/"
+        },
+        {
+          "rank": 13,
+          "domain": "omj.ca",
+          "type": "other",
+          "title": "How a Toronto commercial mortgage broker helps you",
+          "url": "https://omj.ca/blog/toronto-commercial-mortgage-broker-tips-for-financing-a-business/"
+        },
+        {
+          "rank": 14,
+          "domain": "mortgagecapitalinvestment.ca",
+          "type": "broker",
+          "title": "Commercial Mortgage Brokerage \u2013 Partner with MCInvest for ...",
+          "url": "https://mortgagecapitalinvestment.ca/commercial-mortgage-brokerage-partner-with-mcinvest-for-business-success/"
+        },
+        {
+          "rank": 16,
+          "domain": "firstavefinancial.com",
+          "type": "other",
+          "title": "Commercial Mortgages",
+          "url": "https://firstavefinancial.com/commercial-mortgages/"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial mortgage rates",
+      "metrics": {
+        "keyword": "commercial mortgage rates",
+        "search_volume": 720,
+        "keyword_difficulty": 16,
+        "main_intent": "commercial",
+        "cpc": 4.39,
+        "competition": 0.46,
+        "competition_level": "MEDIUM",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 590
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 720
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 720
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 390
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 480
+          }
+        ]
+      },
+      "results_count": 17,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "news/social": 3,
+        "govt": 1,
+        "lender": 5,
+        "bc-credit": 1
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "moneysupermarket.com",
+          "type": "news/social",
+          "title": "Commercial Mortgage Comparison - Rates from 6.0%",
+          "url": "https://www.moneysupermarket.com/business-finance/commercial-mortgages/"
+        },
+        {
+          "rank": 4,
+          "domain": "bdc.ca",
+          "type": "govt",
+          "title": "Business loan calculator and amortization schedule",
+          "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/financial-tools/business-loan-calculator"
+        },
+        {
+          "rank": 5,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Mortgage Ontario: Complete Investor Guide ...",
+          "url": "https://lendcity.ca/blog/commercial-mortgage-ontario-guide/"
+        },
+        {
+          "rank": 6,
+          "domain": "vancity.com",
+          "type": "bc-credit",
+          "title": "Canadian mortgage rates",
+          "url": "https://www.vancity.com/rates/mortgages"
+        },
+        {
+          "rank": 7,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Get the Best Commercial Mortgages for Small Businesses ...",
+          "url": "https://www.commercialmortgagescanada.com/insights/commercial-mortgages-for-small-businesses-in-canada-a-comprehensive-guide/"
+        },
+        {
+          "rank": 8,
+          "domain": "ratehub.ca",
+          "type": "news/social",
+          "title": "Compare Canada Mortgage Rates",
+          "url": "https://www.ratehub.ca/mortgages"
+        },
+        {
+          "rank": 9,
+          "domain": "canadalend.com",
+          "type": "lender",
+          "title": "Different Types of Commercial Mortgages",
+          "url": "https://canadalend.com/blog/different-types-of-commercial-mortgages"
+        },
+        {
+          "rank": 10,
+          "domain": "youtube.com",
+          "type": "news/social",
+          "title": "How Commercial Mortgage Rates Actually Work (Canada)",
+          "url": "https://www.youtube.com/watch?v=q2Op5NRKLdM"
+        },
+        {
+          "rank": 11,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Mortgage Toronto & GTA: Financing Guide ...",
+          "url": "https://lendcity.ca/blog/commercial-mortgage-toronto-gta-guide/"
+        },
+        {
+          "rank": 13,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Get the Best Commercial Mortgages for Small Businesses ...",
+          "url": "https://www.commercialmortgagescanada.com/insights/commercial-mortgages-for-small-businesses-in-canada-a-comprehensive-guide/"
+        }
+      ]
+    },
+    {
+      "keyword": "bridge loan",
+      "metrics": {
+        "keyword": "bridge loan",
+        "search_volume": 1000,
+        "keyword_difficulty": 23,
+        "main_intent": "commercial",
+        "cpc": 7.98,
+        "competition": 0.19,
+        "competition_level": "LOW",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 880
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 480
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 720
+          }
+        ]
+      },
+      "results_count": 17,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "lender": 6,
+        "govt": 1,
+        "news/social": 2,
+        "other": 1
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "rbcroyalbank.com",
+          "type": "lender",
+          "title": "How Bridge Financing Can Help You Buy First and Sell Later",
+          "url": "https://www.rbcroyalbank.com/mortgages/product-advice/bridge-financing.html"
+        },
+        {
+          "rank": 4,
+          "domain": "td.com",
+          "type": "lender",
+          "title": "Bridge Financing | TD Canada Trust",
+          "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/financing-between-homes"
+        },
+        {
+          "rank": 5,
+          "domain": "en.wikipedia.org",
+          "type": "govt",
+          "title": "Bridge loan",
+          "url": "https://en.wikipedia.org/wiki/Bridge_loan"
+        },
+        {
+          "rank": 6,
+          "domain": "investopedia.com",
+          "type": "lender",
+          "title": "Bridge Loans: How They Work and Key Benefits Explained",
+          "url": "https://www.investopedia.com/terms/b/bridgeloan.asp"
+        },
+        {
+          "rank": 7,
+          "domain": "reddit.com",
+          "type": "news/social",
+          "title": "Please explain to me how a Bridge loan works. : r/Mortgages",
+          "url": "https://www.reddit.com/r/Mortgages/comments/1jahn46/please_explain_to_me_how_a_bridge_loan_works/"
+        },
+        {
+          "rank": 8,
+          "domain": "nesto.ca",
+          "type": "news/social",
+          "title": "Bridge Financing in Canada? How Does It Work",
+          "url": "https://www.nesto.ca/mortgage-basics/what-is-bridge-financing-in-canada/"
+        },
+        {
+          "rank": 9,
+          "domain": "manulifebank.ca",
+          "type": "lender",
+          "title": "Bridge financing \u2013 a definition",
+          "url": "https://www.manulifebank.ca/personal-banking/plan-and-learn/home-ownership/what-is-bridge-financing.html"
+        },
+        {
+          "rank": 10,
+          "domain": "firstnational.ca",
+          "type": "lender",
+          "title": "Short-term (bridge) financing",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/retirement/short-term-(bridge)-financing"
+        },
+        {
+          "rank": 11,
+          "domain": "olympiabenefits.com",
+          "type": "lender",
+          "title": "What is Bridge Financing in Canada and how does it work?",
+          "url": "https://www.olympiabenefits.com/blog/what-is-bridge-financing-in-canada-and-how-does-it-work"
+        },
+        {
+          "rank": 13,
+          "domain": "rocketmortgage.com",
+          "type": "other",
+          "title": "What is a bridge loan & how does it work?",
+          "url": "https://www.rocketmortgage.com/learn/bridge-loan"
+        }
+      ]
+    },
+    {
+      "keyword": "bridge financing",
+      "metrics": {
+        "keyword": "bridge financing",
+        "search_volume": 1000,
+        "keyword_difficulty": 0,
+        "main_intent": "commercial",
+        "cpc": 6.98,
+        "competition": 0.16,
+        "competition_level": "LOW",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 1300
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 2900
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 2900
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 3600
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 1900
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 2900
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 2400
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 2400
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 2400
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 2400
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 2900
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 2900
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 4400
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 5400
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 6600
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 4400
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 5400
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 5400
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 4400
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 4400
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 6600
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 8100
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 12100
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 40500
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 1900
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 4400
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 2900
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 1900
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 1900
+          }
+        ]
+      },
+      "results_count": 15,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "lender": 7,
+        "news/social": 1,
+        "other": 2
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "rbcroyalbank.com",
+          "type": "lender",
+          "title": "How Bridge Financing Can Help You Buy First and Sell Later",
+          "url": "https://www.rbcroyalbank.com/mortgages/product-advice/bridge-financing.html"
+        },
+        {
+          "rank": 4,
+          "domain": "td.com",
+          "type": "lender",
+          "title": "Bridge Financing | TD Canada Trust",
+          "url": "https://www.td.com/ca/en/personal-banking/products/mortgages/financing-between-homes"
+        },
+        {
+          "rank": 5,
+          "domain": "reddit.com",
+          "type": "news/social",
+          "title": "Can you explain bridge financing when buying a new ...",
+          "url": "https://www.reddit.com/r/PersonalFinanceCanada/comments/1ecn6bh/can_you_explain_bridge_financing_when_buying_a/"
+        },
+        {
+          "rank": 6,
+          "domain": "manulifebank.ca",
+          "type": "lender",
+          "title": "Bridge financing \u2013 a definition",
+          "url": "https://www.manulifebank.ca/personal-banking/plan-and-learn/home-ownership/what-is-bridge-financing.html"
+        },
+        {
+          "rank": 7,
+          "domain": "investopedia.com",
+          "type": "lender",
+          "title": "Bridge Loans: How They Work and Key Benefits Explained",
+          "url": "https://www.investopedia.com/terms/b/bridgeloan.asp"
+        },
+        {
+          "rank": 9,
+          "domain": "chip.ca",
+          "type": "lender",
+          "title": "Bridge Financing Canada | HomeEquity Bank",
+          "url": "https://www.chip.ca/reverse-mortgage-resources/retirement-planning/bridge-financing-canada/"
+        },
+        {
+          "rank": 10,
+          "domain": "olympiabenefits.com",
+          "type": "lender",
+          "title": "What is Bridge Financing in Canada and how does it work?",
+          "url": "https://www.olympiabenefits.com/blog/what-is-bridge-financing-in-canada-and-how-does-it-work"
+        },
+        {
+          "rank": 11,
+          "domain": "truenorthmortgage.ca",
+          "type": "lender",
+          "title": "Bridge Financing: Closing the Gap for Home Buyers",
+          "url": "https://www.truenorthmortgage.ca/mortgage-solutions/bridge-financing"
+        },
+        {
+          "rank": 13,
+          "domain": "mannlawyers.com",
+          "type": "other",
+          "title": "Bridge Financing",
+          "url": "https://www.mannlawyers.com/resources/bridge-financing/"
+        },
+        {
+          "rank": 14,
+          "domain": "cmls.ca",
+          "type": "other",
+          "title": "Bridge Loan Calculator",
+          "url": "https://www.cmls.ca/brokers/bridge-loan-calculator"
+        }
+      ]
+    },
+    {
+      "keyword": "private lender",
+      "metrics": {
+        "keyword": "private lender",
+        "search_volume": 1300,
+        "keyword_difficulty": 0,
+        "main_intent": "commercial",
+        "cpc": 14.8,
+        "competition": 0.77,
+        "competition_level": "HIGH",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 2400
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 1900
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 1900
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 2400
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 2900
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 1600
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 1000
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 1300
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 1300
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 880
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2018,
+            "month": 10,
+            "search_volume": 1300
+          }
+        ]
+      },
+      "results_count": 14,
+      "first_organic_rank": 6,
+      "top10_classification": {
+        "other": 8,
+        "news/social": 1,
+        "lender": 1
+      },
+      "top10": [
+        {
+          "rank": 6,
+          "domain": "jasonanbara.com",
+          "type": "other",
+          "title": "Private Mortgage Lenders in Ottawa",
+          "url": "https://jasonanbara.com/services/private-mortgage-lending/"
+        },
+        {
+          "rank": 7,
+          "domain": "burkefinancial.ca",
+          "type": "other",
+          "title": "Private Mortgage Lenders in Ontario | Full Guide",
+          "url": "https://burkefinancial.ca/private-mortgage-lenders-ontario-blog/"
+        },
+        {
+          "rank": 8,
+          "domain": "uptownfinancial.ca",
+          "type": "other",
+          "title": "Uptown Financial: Private Mortgage Lenders in Toronto",
+          "url": "https://www.uptownfinancial.ca/"
+        },
+        {
+          "rank": 9,
+          "domain": "cooperpacific.ca",
+          "type": "other",
+          "title": "How Do Private Mortgages Work?",
+          "url": "https://cooperpacific.ca/2019/03/how-do-private-mortgages-work/"
+        },
+        {
+          "rank": 10,
+          "domain": "ca.linkedin.com",
+          "type": "news/social",
+          "title": "Private Lender Inc",
+          "url": "https://ca.linkedin.com/company/private-lender-inc"
+        },
+        {
+          "rank": 11,
+          "domain": "lendworth.ca",
+          "type": "other",
+          "title": "Lendworth: Private Mortgage Lender in Ontario | First & Second",
+          "url": "https://www.lendworth.ca/"
+        },
+        {
+          "rank": 12,
+          "domain": "aarea.ca",
+          "type": "other",
+          "title": "Working with a Private Mortgage Lender | AAREA",
+          "url": "https://aarea.ca/working-private-mortgage-lender"
+        },
+        {
+          "rank": 13,
+          "domain": "canadalend.com",
+          "type": "lender",
+          "title": "8 Reasons to Consider Using a Private Lender",
+          "url": "https://canadalend.com/blog/8-reasons-to-consider-using-a-private-lender"
+        },
+        {
+          "rank": 15,
+          "domain": "ecpl.ca",
+          "type": "other",
+          "title": "For the investor",
+          "url": "https://www.ecpl.ca/for-the-investor"
+        },
+        {
+          "rank": 16,
+          "domain": "maplemoney.com",
+          "type": "other",
+          "title": "How Private Mortgage Loans Work in Canada",
+          "url": "https://maplemoney.com/private-mortgage-lenders/"
+        }
+      ]
+    },
+    {
+      "keyword": "cmhc mli select",
+      "metrics": {
+        "keyword": "cmhc mli select",
+        "search_volume": 1600,
+        "keyword_difficulty": 0,
+        "main_intent": "navigational",
+        "cpc": 3.46,
+        "competition": 0.06,
+        "competition_level": "LOW",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 1000
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 1300
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 1600
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 1600
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 1900
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 2400
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 2900
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 2900
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 2400
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 3600
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 1900
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 1600
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 1300
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 1000
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 1000
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 480
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 260
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 0
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 0
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 0
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 0
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 0
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 0
+          }
+        ]
+      },
+      "results_count": 16,
+      "first_organic_rank": 1,
+      "top10_classification": {
+        "govt": 3,
+        "other": 4,
+        "lender": 3
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "MLI Select",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance/mliselect"
+        },
+        {
+          "rank": 3,
+          "domain": "assets.cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "Multi-unit CMHC MLI Select",
+          "url": "https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance/mliselect/mli-select.pdf"
+        },
+        {
+          "rank": 5,
+          "domain": "cmhc-schl.gc.ca",
+          "type": "govt",
+          "title": "Mortgage Loan Insurance for Multi-Unit & Rental Housing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/mortgage-loan-insurance/multi-unit-insurance"
+        },
+        {
+          "rank": 7,
+          "domain": "buildingexpert.ca",
+          "type": "other",
+          "title": "MLI Select | Energy efficiency",
+          "url": "https://buildingexpert.ca/efficiency/mli-select/"
+        },
+        {
+          "rank": 8,
+          "domain": "mcap.com",
+          "type": "lender",
+          "title": "Understanding MLI Select: Construction Process",
+          "url": "https://www.mcap.com/blog/understanding-mli-select-construction-process"
+        },
+        {
+          "rank": 9,
+          "domain": "sb-llp.com",
+          "type": "other",
+          "title": "CMHC MLI Select Financing",
+          "url": "https://sb-llp.com/knowledge-bank/cmhc-mli-select-financing-what-developers-investors-need-to-know"
+        },
+        {
+          "rank": 10,
+          "domain": "peakhillcapital.com",
+          "type": "lender",
+          "title": "CMHC Financing",
+          "url": "https://www.peakhillcapital.com/cmhc-financing/"
+        },
+        {
+          "rank": 11,
+          "domain": "newhomesalberta.ca",
+          "type": "other",
+          "title": "MLI Select Alberta FAQ: Common Questions Answered",
+          "url": "https://newhomesalberta.ca/common-questions-about-the-mli-select-program-in-alberta/"
+        },
+        {
+          "rank": 13,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "CMHC MLI Select (2026): Points, Premiums & 95% LTV ...",
+          "url": "https://lendcity.ca/blog/cmhc-mli-select-multifamily-guide/"
+        },
+        {
+          "rank": 14,
+          "domain": "lendsimpl.ca",
+          "type": "other",
+          "title": "CMHC MLI Select Ontario | Points, LTV & Amortization",
+          "url": "https://lendsimpl.ca/commercial/cmhc-mli-select-ontario"
+        }
+      ]
+    },
+    {
+      "keyword": "mezzanine financing",
+      "metrics": {
+        "keyword": "mezzanine financing",
+        "search_volume": 320,
+        "keyword_difficulty": 7,
+        "main_intent": "commercial",
+        "cpc": 13.35,
+        "competition": 0.14,
+        "competition_level": "LOW",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 260
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 320
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 390
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 480
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 390
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 590
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 480
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 480
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 590
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 390
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 480
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 480
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 590
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 720
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 590
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 720
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 880
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 720
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 880
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 590
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 720
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 590
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 720
+          },
+          {
+            "year": 2018,
+            "month": 10,
+            "search_volume": 720
+          }
+        ]
+      },
+      "results_count": 16,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "other": 5,
+        "lender": 1,
+        "news/social": 4
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "wise.com",
+          "type": "other",
+          "title": "What is Mezzanine Finance and is It Right for Your Business?",
+          "url": "https://wise.com/gb/blog/mezzanine-finance"
+        },
+        {
+          "rank": 4,
+          "domain": "ccbjournal.com",
+          "type": "other",
+          "title": "Understanding Mezzanine Financing",
+          "url": "https://ccbjournal.com/articles/understanding-mezzanine-financing"
+        },
+        {
+          "rank": 5,
+          "domain": "cedarcommercial.ca",
+          "type": "other",
+          "title": "Mezzanine Financing in Canada - Cedar Commercial",
+          "url": "https://cedarcommercial.ca/solutions/mezzanine-financing-canada/"
+        },
+        {
+          "rank": 6,
+          "domain": "pilot.com",
+          "type": "other",
+          "title": "What is mezzanine financing? | Pilot Glossary",
+          "url": "https://pilot.com/glossary/mezzanine-financing"
+        },
+        {
+          "rank": 7,
+          "domain": "sofi.com",
+          "type": "other",
+          "title": "Guide to Mezzanine Financing",
+          "url": "https://www.sofi.com/learn/content/mezzanine-financing/"
+        },
+        {
+          "rank": 8,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Mezzanine Financing for Commercial Real Estate in Canada",
+          "url": "https://lendcity.ca/blog/mezzanine-financing-commercial-real-estate-canada/"
+        },
+        {
+          "rank": 9,
+          "domain": "linkedin.com",
+          "type": "news/social",
+          "title": "Understanding Mezzanine Financing",
+          "url": "https://www.linkedin.com/pulse/understanding-mezzanine-financing-harrison-law-ljgye"
+        },
+        {
+          "rank": 10,
+          "domain": "ca.practicallaw.thomsonreuters.com",
+          "type": "news/social",
+          "title": "Mezzanine Loans: Commercial Real Estate | Practical Law",
+          "url": "https://ca.practicallaw.thomsonreuters.com/Document/I31e04ade6fdd11ec9f24ec7b211d8087/View/FullText.html?ppcid=cff9576ac8614401b421326d60826691&originationContext=knowHow&transitionType=KnowHowItem&contextData=%28sc.Default%29"
+        },
+        {
+          "rank": 13,
+          "domain": "linkedin.com",
+          "type": "news/social",
+          "title": "Understanding Mezzanine Financing",
+          "url": "https://www.linkedin.com/pulse/understanding-mezzanine-financing-harrison-law-ljgye"
+        },
+        {
+          "rank": 14,
+          "domain": "reddit.com",
+          "type": "news/social",
+          "title": "ELI5: What is mezzanine financing/capital?",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/2p33te/eli5_what_is_mezzanine_financingcapital/"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial mortgage canada",
+      "metrics": {
+        "keyword": "commercial mortgage canada",
+        "search_volume": 140,
+        "keyword_difficulty": 3,
+        "main_intent": "commercial",
+        "cpc": 10.51,
+        "competition": 0.38,
+        "competition_level": "MEDIUM",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 9,
+            "search_volume": 90
+          },
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 70
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 90
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 50
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 90
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 170
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 110
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 320
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 390
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 90
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 140
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 110
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 210
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 140
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 210
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 140
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 140
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 140
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 110
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 110
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 110
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 140
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 170
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 110
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 170
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 90
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 110
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 140
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 110
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 140
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 90
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 90
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 140
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 140
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 110
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 90
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 140
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 70
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 140
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 140
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 140
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 140
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 110
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 90
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 140
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 90
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 140
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 110
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 70
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 110
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 70
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 70
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 70
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 90
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 70
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 90
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 50
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 70
+          }
+        ]
+      },
+      "results_count": 17,
+      "first_organic_rank": 2,
+      "top10_classification": {
+        "bc-credit": 1,
+        "lender": 4,
+        "news/social": 1,
+        "broker": 2,
+        "other": 2
+      },
+      "top10": [
+        {
+          "rank": 2,
+          "domain": "vancity.com",
+          "type": "bc-credit",
+          "title": "Commercial Mortgage",
+          "url": "https://www.vancity.com/business/financing/commercial-mortgage"
+        },
+        {
+          "rank": 4,
+          "domain": "canadalend.com",
+          "type": "lender",
+          "title": "Different Types of Commercial Mortgages",
+          "url": "https://canadalend.com/blog/different-types-of-commercial-mortgages"
+        },
+        {
+          "rank": 5,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Lending Guide | Real Estate Investing",
+          "url": "https://lendcity.ca/guides/commercial-lending/"
+        },
+        {
+          "rank": 6,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Calgary Commercial Mortgages for Commercial Real Estate",
+          "url": "https://www.commercialmortgagescanada.com/calgary-commercial-mortgages/"
+        },
+        {
+          "rank": 7,
+          "domain": "reddit.com",
+          "type": "news/social",
+          "title": "[ON] Commercial Mortgages : r/SmallBusinessCanada",
+          "url": "https://www.reddit.com/r/SmallBusinessCanada/comments/18062gj/on_commercial_mortgages/"
+        },
+        {
+          "rank": 8,
+          "domain": "satbirbhullar.ca",
+          "type": "broker",
+          "title": "Latest Commercial Mortgage Rates 2024 in Canada",
+          "url": "https://satbirbhullar.ca/blog/latest-commercial-mortgage-rates-2024-in-canada/"
+        },
+        {
+          "rank": 9,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Qualify for a Commercial Mortgage Canada | Apply Now",
+          "url": "https://lendcity.ca/blog/how-to-qualify-for-commercial-mortgage-canada/"
+        },
+        {
+          "rank": 10,
+          "domain": "desjardins.com",
+          "type": "other",
+          "title": "Business and Commercial Mortgages",
+          "url": "https://www.desjardins.com/en/business/financing-loans/commercial-mortgage.html"
+        },
+        {
+          "rank": 11,
+          "domain": "levelupmortgages.com",
+          "type": "broker",
+          "title": "Commercial Mortgages in Canada: A Comprehensive Guide",
+          "url": "https://www.levelupmortgages.com/blog-posts/commercial-mortgages-newcomers-guide"
+        },
+        {
+          "rank": 13,
+          "domain": "ishoprates.ca",
+          "type": "other",
+          "title": "Commercial Mortgage Calculator Canada 2026 | iShopRates.ca",
+          "url": "https://ishoprates.ca/calculators/commercial-mortgage"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial mortgage broker vancouver",
+      "metrics": {
+        "keyword": "commercial mortgage broker vancouver",
+        "search_volume": 20,
+        "keyword_difficulty": null,
+        "main_intent": "commercial",
+        "cpc": 10.18,
+        "competition": 0.7,
+        "competition_level": "HIGH",
+        "monthly_searches": [
+          {
+            "year": 2026,
+            "month": 8,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 7,
+            "search_volume": 20
+          },
+          {
+            "year": 2026,
+            "month": 6,
+            "search_volume": 10
+          },
+          {
+            "year": 2026,
+            "month": 5,
+            "search_volume": 10
+          },
+          {
+            "year": 2026,
+            "month": 4,
+            "search_volume": 10
+          },
+          {
+            "year": 2026,
+            "month": 3,
+            "search_volume": 30
+          },
+          {
+            "year": 2026,
+            "month": 2,
+            "search_volume": 10
+          },
+          {
+            "year": 2026,
+            "month": 1,
+            "search_volume": 10
+          },
+          {
+            "year": 2025,
+            "month": 12,
+            "search_volume": 10
+          },
+          {
+            "year": 2025,
+            "month": 11,
+            "search_volume": 20
+          },
+          {
+            "year": 2025,
+            "month": 10,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 9,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 8,
+            "search_volume": 50
+          },
+          {
+            "year": 2025,
+            "month": 7,
+            "search_volume": 10
+          },
+          {
+            "year": 2025,
+            "month": 6,
+            "search_volume": 40
+          },
+          {
+            "year": 2025,
+            "month": 5,
+            "search_volume": 50
+          },
+          {
+            "year": 2025,
+            "month": 4,
+            "search_volume": 70
+          },
+          {
+            "year": 2025,
+            "month": 3,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 2,
+            "search_volume": 30
+          },
+          {
+            "year": 2025,
+            "month": 1,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 12,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 11,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 10,
+            "search_volume": 70
+          },
+          {
+            "year": 2024,
+            "month": 9,
+            "search_volume": 30
+          },
+          {
+            "year": 2024,
+            "month": 8,
+            "search_volume": 50
+          },
+          {
+            "year": 2024,
+            "month": 7,
+            "search_volume": 30
+          },
+          {
+            "year": 2024,
+            "month": 6,
+            "search_volume": 20
+          },
+          {
+            "year": 2024,
+            "month": 5,
+            "search_volume": 70
+          },
+          {
+            "year": 2024,
+            "month": 4,
+            "search_volume": 40
+          },
+          {
+            "year": 2024,
+            "month": 3,
+            "search_volume": 70
+          },
+          {
+            "year": 2024,
+            "month": 2,
+            "search_volume": 50
+          },
+          {
+            "year": 2024,
+            "month": 1,
+            "search_volume": 40
+          },
+          {
+            "year": 2023,
+            "month": 12,
+            "search_volume": 70
+          },
+          {
+            "year": 2023,
+            "month": 11,
+            "search_volume": 50
+          },
+          {
+            "year": 2023,
+            "month": 10,
+            "search_volume": 20
+          },
+          {
+            "year": 2023,
+            "month": 9,
+            "search_volume": 20
+          },
+          {
+            "year": 2023,
+            "month": 8,
+            "search_volume": 20
+          },
+          {
+            "year": 2023,
+            "month": 7,
+            "search_volume": 20
+          },
+          {
+            "year": 2023,
+            "month": 6,
+            "search_volume": 30
+          },
+          {
+            "year": 2023,
+            "month": 5,
+            "search_volume": 50
+          },
+          {
+            "year": 2023,
+            "month": 4,
+            "search_volume": 30
+          },
+          {
+            "year": 2023,
+            "month": 3,
+            "search_volume": 50
+          },
+          {
+            "year": 2023,
+            "month": 2,
+            "search_volume": 70
+          },
+          {
+            "year": 2023,
+            "month": 1,
+            "search_volume": 30
+          },
+          {
+            "year": 2022,
+            "month": 12,
+            "search_volume": 10
+          },
+          {
+            "year": 2022,
+            "month": 11,
+            "search_volume": 20
+          },
+          {
+            "year": 2022,
+            "month": 10,
+            "search_volume": 20
+          },
+          {
+            "year": 2022,
+            "month": 9,
+            "search_volume": 10
+          },
+          {
+            "year": 2022,
+            "month": 8,
+            "search_volume": 50
+          },
+          {
+            "year": 2022,
+            "month": 7,
+            "search_volume": 20
+          },
+          {
+            "year": 2022,
+            "month": 6,
+            "search_volume": 30
+          },
+          {
+            "year": 2022,
+            "month": 5,
+            "search_volume": 40
+          },
+          {
+            "year": 2022,
+            "month": 4,
+            "search_volume": 50
+          },
+          {
+            "year": 2022,
+            "month": 3,
+            "search_volume": 30
+          },
+          {
+            "year": 2022,
+            "month": 2,
+            "search_volume": 20
+          },
+          {
+            "year": 2022,
+            "month": 1,
+            "search_volume": 40
+          },
+          {
+            "year": 2021,
+            "month": 12,
+            "search_volume": 30
+          },
+          {
+            "year": 2021,
+            "month": 11,
+            "search_volume": 30
+          },
+          {
+            "year": 2021,
+            "month": 10,
+            "search_volume": 30
+          },
+          {
+            "year": 2021,
+            "month": 9,
+            "search_volume": 40
+          },
+          {
+            "year": 2021,
+            "month": 8,
+            "search_volume": 40
+          },
+          {
+            "year": 2021,
+            "month": 7,
+            "search_volume": 40
+          },
+          {
+            "year": 2021,
+            "month": 6,
+            "search_volume": 20
+          },
+          {
+            "year": 2021,
+            "month": 5,
+            "search_volume": 70
+          },
+          {
+            "year": 2021,
+            "month": 4,
+            "search_volume": 20
+          },
+          {
+            "year": 2021,
+            "month": 3,
+            "search_volume": 40
+          },
+          {
+            "year": 2021,
+            "month": 2,
+            "search_volume": 50
+          },
+          {
+            "year": 2021,
+            "month": 1,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 12,
+            "search_volume": 20
+          },
+          {
+            "year": 2020,
+            "month": 11,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 10,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 9,
+            "search_volume": 20
+          },
+          {
+            "year": 2020,
+            "month": 8,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 7,
+            "search_volume": 20
+          },
+          {
+            "year": 2020,
+            "month": 6,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 5,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 4,
+            "search_volume": 30
+          },
+          {
+            "year": 2020,
+            "month": 3,
+            "search_volume": 40
+          },
+          {
+            "year": 2020,
+            "month": 2,
+            "search_volume": 90
+          },
+          {
+            "year": 2020,
+            "month": 1,
+            "search_volume": 50
+          },
+          {
+            "year": 2019,
+            "month": 12,
+            "search_volume": 40
+          },
+          {
+            "year": 2019,
+            "month": 11,
+            "search_volume": 40
+          },
+          {
+            "year": 2019,
+            "month": 10,
+            "search_volume": 40
+          },
+          {
+            "year": 2019,
+            "month": 9,
+            "search_volume": 30
+          },
+          {
+            "year": 2019,
+            "month": 8,
+            "search_volume": 50
+          },
+          {
+            "year": 2019,
+            "month": 7,
+            "search_volume": 30
+          },
+          {
+            "year": 2019,
+            "month": 6,
+            "search_volume": 30
+          },
+          {
+            "year": 2019,
+            "month": 5,
+            "search_volume": 40
+          },
+          {
+            "year": 2019,
+            "month": 4,
+            "search_volume": 40
+          },
+          {
+            "year": 2019,
+            "month": 3,
+            "search_volume": 20
+          },
+          {
+            "year": 2019,
+            "month": 2,
+            "search_volume": 30
+          },
+          {
+            "year": 2019,
+            "month": 1,
+            "search_volume": 50
+          },
+          {
+            "year": 2018,
+            "month": 12,
+            "search_volume": 40
+          },
+          {
+            "year": 2018,
+            "month": 11,
+            "search_volume": 50
+          }
+        ]
+      },
+      "results_count": 15,
+      "first_organic_rank": 4,
+      "top10_classification": {
+        "other": 6,
+        "lender": 4
+      },
+      "top10": [
+        {
+          "rank": 4,
+          "domain": "groupeorbis.com",
+          "type": "other",
+          "title": "Commercial - Orbis Group",
+          "url": "https://groupeorbis.com/en/commercial/"
+        },
+        {
+          "rank": 5,
+          "domain": "syndicatelending.com",
+          "type": "lender",
+          "title": "How to Secure Commercial Financing in Vancouver",
+          "url": "https://www.syndicatelending.com/post/how-to-secure-commercial-financing-in-vancouver-a-business-owner-s-guide-to-growth-loans-construct"
+        },
+        {
+          "rank": 6,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Commercial Mortgage BC: Vancouver & BC Financing Guide",
+          "url": "https://lendcity.ca/blog/commercial-mortgage-bc-vancouver-guide/"
+        },
+        {
+          "rank": 7,
+          "domain": "commercialmortgagescanada.com",
+          "type": "lender",
+          "title": "Burnaby Commercial Mortgages for Commercial Real Estate",
+          "url": "https://www.commercialmortgagescanada.com/burnaby-commercial-mortgages/"
+        },
+        {
+          "rank": 8,
+          "domain": "revenuebase.ai",
+          "type": "other",
+          "title": "Top 21 Commercial mortgage services based in ...",
+          "url": "https://revenuebase.ai/companies/commercial-mortgage-services/canada/vancouver"
+        },
+        {
+          "rank": 9,
+          "domain": "ziprecruiter.com",
+          "type": "other",
+          "title": "Commercial Mortgage Jobs in Vancouver, BC (NOW HIRING)",
+          "url": "https://www.ziprecruiter.com/Jobs/Commercial-Mortgage/-in-Vancouver,BC"
+        },
+        {
+          "rank": 11,
+          "domain": "bcfsa.ca",
+          "type": "other",
+          "title": "Impact Commercial Group Inc.",
+          "url": "https://www.bcfsa.ca/mortgage-broker/fe47eff3-3913-ec11-b6e6-000d3a09ea20"
+        },
+        {
+          "rank": 12,
+          "domain": "yelp.ca",
+          "type": "other",
+          "title": "THE BEST 10 Mortgage Brokers in VANCOUVER, BC",
+          "url": "https://www.yelp.ca/search?cflt=mortgagebrokers&find_loc=Vancouver%2C+BC"
+        },
+        {
+          "rank": 13,
+          "domain": "themortgageprofessionals.ca",
+          "type": "other",
+          "title": "Commercial Mortgages Vancouver",
+          "url": "https://themortgageprofessionals.ca/commercial-loans/"
+        },
+        {
+          "rank": 15,
+          "domain": "lendcity.ca",
+          "type": "lender",
+          "title": "Mortgage Broker in Vancouver, BC | LendCity\u2122",
+          "url": "https://lendcity.ca/mortgage-broker-vancouver/"
+        }
+      ]
+    }
+  ],
+  "all_orgs": [],
+  "domain_freq": {
+    "lendcity.ca": 9,
+    "commercialmortgagescanada.com": 6,
+    "canadalend.com": 4,
+    "reddit.com": 4,
+    "themortgageadvisors.ca": 2,
+    "amansadfinancial.com": 2,
+    "ishoprates.ca": 2,
+    "ratehub.ca": 2,
+    "vancity.com": 2,
+    "rbcroyalbank.com": 2,
+    "td.com": 2,
+    "investopedia.com": 2,
+    "manulifebank.ca": 2,
+    "olympiabenefits.com": 2,
+    "cmhc-schl.gc.ca": 2,
+    "linkedin.com": 2,
+    "hillmount.ca": 1,
+    "gnemortgages.com": 1,
+    "capitalwest.ca": 1,
+    "impactcommercial.ca": 1,
+    "themortgageworld.ca": 1,
+    "mortgagecapitalinvestment.com": 1,
+    "supermortgageteam.ca": 1,
+    "omj.ca": 1,
+    "mortgagecapitalinvestment.ca": 1,
+    "firstavefinancial.com": 1,
+    "moneysupermarket.com": 1,
+    "bdc.ca": 1,
+    "youtube.com": 1,
+    "en.wikipedia.org": 1,
+    "nesto.ca": 1,
+    "firstnational.ca": 1,
+    "rocketmortgage.com": 1,
+    "chip.ca": 1,
+    "truenorthmortgage.ca": 1,
+    "mannlawyers.com": 1,
+    "cmls.ca": 1,
+    "jasonanbara.com": 1,
+    "burkefinancial.ca": 1,
+    "uptownfinancial.ca": 1,
+    "cooperpacific.ca": 1,
+    "ca.linkedin.com": 1,
+    "lendworth.ca": 1,
+    "aarea.ca": 1,
+    "ecpl.ca": 1,
+    "maplemoney.com": 1,
+    "assets.cmhc-schl.gc.ca": 1,
+    "buildingexpert.ca": 1,
+    "mcap.com": 1,
+    "sb-llp.com": 1
+  }
+}

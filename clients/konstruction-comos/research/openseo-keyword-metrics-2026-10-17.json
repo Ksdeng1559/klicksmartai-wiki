@@ -1,0 +1,147 @@
+{
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "ran_at": "2026-10-17",
+  "location_code": 2124,
+  "language": "en",
+  "submitted_keywords": 34,
+  "metrics_returned": 15,
+  "keywords_with_volume": 14,
+  "keywords": [
+    {
+      "keyword": "bc loans",
+      "search_volume": 1300,
+      "keyword_difficulty": 6,
+      "main_intent": "commercial",
+      "cpc": 9.01,
+      "competition": 0.53,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "vancouver commercial property for sale",
+      "search_volume": 480,
+      "keyword_difficulty": 8,
+      "main_intent": "commercial",
+      "cpc": 1.01,
+      "competition": 0.35,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "construction financing canada",
+      "search_volume": 140,
+      "keyword_difficulty": 1,
+      "main_intent": "commercial",
+      "cpc": 10.16,
+      "competition": 0.52,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "commercial construction financing",
+      "search_volume": 110,
+      "keyword_difficulty": 8,
+      "main_intent": "commercial",
+      "cpc": 13.69,
+      "competition": 0.57,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "construction loan canada",
+      "search_volume": 110,
+      "keyword_difficulty": 8,
+      "main_intent": "commercial",
+      "cpc": 4.86,
+      "competition": 0.55,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "construction to permanent financing",
+      "search_volume": 110,
+      "keyword_difficulty": 0,
+      "main_intent": "commercial",
+      "cpc": 6.05,
+      "competition": 0.06,
+      "competition_level": "LOW"
+    },
+    {
+      "keyword": "commercial construction loan",
+      "search_volume": 90,
+      "keyword_difficulty": 8,
+      "main_intent": "commercial",
+      "cpc": 7.62,
+      "competition": 0.2,
+      "competition_level": "LOW"
+    },
+    {
+      "keyword": "construction mortgage bc",
+      "search_volume": 90,
+      "keyword_difficulty": 0,
+      "main_intent": "commercial",
+      "cpc": 13.53,
+      "competition": 0.56,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "cmhc construction financing",
+      "search_volume": 70,
+      "keyword_difficulty": 35,
+      "main_intent": "navigational",
+      "cpc": 8.43,
+      "competition": 0.17,
+      "competition_level": "LOW"
+    },
+    {
+      "keyword": "construction business loan",
+      "search_volume": 70,
+      "keyword_difficulty": 13,
+      "main_intent": "commercial",
+      "cpc": 7.36,
+      "competition": 0.6,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "construction financing bc",
+      "search_volume": 50,
+      "keyword_difficulty": 9,
+      "main_intent": "commercial",
+      "cpc": 6.81,
+      "competition": 0.5,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "construction loan bc",
+      "search_volume": 50,
+      "keyword_difficulty": 9,
+      "main_intent": "commercial",
+      "cpc": 6.81,
+      "competition": 0.5,
+      "competition_level": "MEDIUM"
+    },
+    {
+      "keyword": "vancouver land assembly",
+      "search_volume": 50,
+      "keyword_difficulty": 0,
+      "main_intent": "navigational",
+      "cpc": null,
+      "competition": 0.13,
+      "competition_level": "LOW"
+    },
+    {
+      "keyword": "construction financing vancouver",
+      "search_volume": 10,
+      "keyword_difficulty": null,
+      "main_intent": "commercial",
+      "cpc": null,
+      "competition": null,
+      "competition_level": null
+    },
+    {
+      "keyword": "townhouse development financing",
+      "search_volume": null,
+      "keyword_difficulty": null,
+      "main_intent": "commercial",
+      "cpc": null,
+      "competition": null,
+      "competition_level": null
+    }
+  ]
+}

@@ -1,0 +1,1382 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "method": "find_serp_competitors (DataForSEO Labs, locationCode=2124=Canada)",
+  "queries_used": [
+    "apartment construction loan program",
+    "purpose built rental construction financing loans",
+    "multifamily construction loans",
+    "construction financing vancouver",
+    "construction loan vancouver",
+    "commercial construction loan",
+    "construction mortgage bc",
+    "construction financing canada",
+    "commercial construction financing"
+  ],
+  "queries_with_competitors": [
+    "apartment construction loan program",
+    "construction financing canada",
+    "construction mortgage bc",
+    "commercial construction loan",
+    "commercial construction financing"
+  ],
+  "queries_zero_competitors": [
+    "purpose built rental construction financing loans",
+    "multifamily construction loans",
+    "construction financing vancouver",
+    "construction loan vancouver"
+  ],
+  "why_zero": "find_serp_competitors is Labs-only, Labs only returns data for keywords with measurable volume in the index. The PBR + Vancouver-specific terms have 0-10/mo volume \u2192 Labs filters them out. Use get_serp_results (SERP endpoint) for these.",
+  "n_competitors": 69,
+  "by_type": {
+    "government": [
+      "www.cmhc-schl.gc.ca",
+      "housing-infrastructure.canada.ca",
+      "onpha.on.ca",
+      "www.pm.gc.ca",
+      "www.bdc.ca",
+      "www.cbc.ca",
+      "ised-isde.canada.ca",
+      "cmfg.ca",
+      "www.citifund.com",
+      "vancouver.pathwaysbc.ca",
+      "ontarioconstructionnews.com",
+      "www.subsidyfinder.ca",
+      "ontariobusinessgrants.com",
+      "www.lendingtreecanada.ca"
+    ],
+    "content/blog": [
+      "www.missingmiddleinitiative.ca",
+      "canadianbuildings.ca",
+      "wowa.ca",
+      "www.gta-homes.com",
+      "www.exitrealtymatrix.com",
+      "hellodarwin.com",
+      "www.sysconverge.com",
+      "www.heliourbandevelopment.com",
+      "goodearthbuilders.ca",
+      "www.rochstgeorges.ca",
+      "www.roblough.com",
+      "www.ratehub.ca",
+      "www.tekamar.ca"
+    ],
+    "lender": [
+      "www.rbcroyalbank.com",
+      "www.firstnational.ca",
+      "www.mcap.com",
+      "lendcity.ca",
+      "www.td.com",
+      "www.hkcconstruction.com",
+      "www.altusgroup.com",
+      "satbirbhullar.ca",
+      "octopusrenovationgroup.ca",
+      "smart-capital.ca",
+      "graysbrookcapital.ca",
+      "www.syndicatelending.com",
+      "geoffleemortgage.com",
+      "thegenesisgroup.ca",
+      "amansadfinancial.com",
+      "ky.scotiabank.com",
+      "swoopfunding.com",
+      "www.safebridgefinancial.com",
+      "e7mortgages.ca",
+      "www.axiumcap.ca",
+      "mortgagecapitalinvestment.com",
+      "www.sunlitemortgage.ca",
+      "themortgageworld.ca",
+      "asimali.ca"
+    ],
+    "news/social": [
+      "www.reddit.com",
+      "www.youtube.com",
+      "www.facebook.com",
+      "www.newswire.ca"
+    ],
+    "bc-credit-union": [
+      "www.vancity.com",
+      "www.firstfoundation.ca",
+      "www.northerncu.com",
+      "www.meridiancu.ca",
+      "cccu.ca"
+    ],
+    "broker": [
+      "dominionlending.ca"
+    ],
+    "other": [
+      "ca.practicallaw.thomsonreuters.com",
+      "www.bcbuildshomes.ca",
+      "canadacommons.ca",
+      "swmw.ca",
+      "grantcompass.ca",
+      "invsty.ca",
+      "sett.ca",
+      "housing.fnhssm.com"
+    ]
+  },
+  "competitors": [
+    {
+      "domain": "www.cmhc-schl.gc.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          1
+        ],
+        "construction mortgage bc": [
+          8
+        ],
+        "construction financing canada": [
+          1
+        ],
+        "commercial construction loan": [
+          6
+        ]
+      },
+      "etv_total": 206.13099999999997,
+      "visibility_total": 3.8,
+      "kws_total": 4,
+      "rating_total": 384,
+      "appearances": 2,
+      "type": "government",
+      "best_position": 1,
+      "opp": 783.2977999999998
+    },
+    {
+      "domain": "www.missingmiddleinitiative.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          3
+        ]
+      },
+      "etv_total": 50.596,
+      "visibility_total": 1.6,
+      "kws_total": 1,
+      "rating_total": 97,
+      "appearances": 2,
+      "type": "content/blog",
+      "best_position": 3,
+      "opp": 80.9536
+    },
+    {
+      "domain": "www.rbcroyalbank.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          1
+        ],
+        "construction financing canada": [
+          3
+        ],
+        "commercial construction loan": [
+          13
+        ],
+        "apartment construction loan program": [
+          49
+        ]
+      },
+      "etv_total": 42.177,
+      "visibility_total": 1.85,
+      "kws_total": 4,
+      "rating_total": 334,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 1,
+      "opp": 78.02745
+    },
+    {
+      "domain": "www.firstnational.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          18
+        ],
+        "construction financing canada": [
+          2
+        ],
+        "commercial construction loan": [
+          2
+        ],
+        "apartment construction loan program": [
+          37
+        ]
+      },
+      "etv_total": 41.342999999999996,
+      "visibility_total": 1.85,
+      "kws_total": 4,
+      "rating_total": 341,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 2,
+      "opp": 76.48455
+    },
+    {
+      "domain": "housing-infrastructure.canada.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          4
+        ]
+      },
+      "etv_total": 34.268,
+      "visibility_total": 1.4,
+      "kws_total": 1,
+      "rating_total": 96,
+      "appearances": 2,
+      "type": "government",
+      "best_position": 4,
+      "opp": 47.9752
+    },
+    {
+      "domain": "www.mcap.com",
+      "keywords_positions": {
+        "commercial construction loan": [
+          1
+        ]
+      },
+      "etv_total": 33.44,
+      "visibility_total": 1,
+      "kws_total": 1,
+      "rating_total": 99,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 1,
+      "opp": 33.44
+    },
+    {
+      "domain": "onpha.on.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          5
+        ]
+      },
+      "etv_total": 24.387999999999998,
+      "visibility_total": 1.2,
+      "kws_total": 1,
+      "rating_total": 95,
+      "appearances": 2,
+      "type": "government",
+      "best_position": 5,
+      "opp": 29.265599999999996
+    },
+    {
+      "domain": "www.pm.gc.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          6
+        ]
+      },
+      "etv_total": 17.575999999999997,
+      "visibility_total": 1.0,
+      "kws_total": 1,
+      "rating_total": 94,
+      "appearances": 2,
+      "type": "government",
+      "best_position": 6,
+      "opp": 17.575999999999997
+    },
+    {
+      "domain": "lendcity.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          8
+        ],
+        "construction financing canada": [
+          7
+        ]
+      },
+      "etv_total": 13.828,
+      "visibility_total": 1.0,
+      "kws_total": 2,
+      "rating_total": 185,
+      "appearances": 2,
+      "type": "lender",
+      "best_position": 7,
+      "opp": 13.828
+    },
+    {
+      "domain": "www.td.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          2
+        ]
+      },
+      "etv_total": 14.58,
+      "visibility_total": 0.9,
+      "kws_total": 1,
+      "rating_total": 98,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 2,
+      "opp": 13.122
+    },
+    {
+      "domain": "www.bdc.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          31
+        ],
+        "commercial construction loan": [
+          3
+        ]
+      },
+      "etv_total": 10.892,
+      "visibility_total": 0.8,
+      "kws_total": 2,
+      "rating_total": 166,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 3,
+      "opp": 8.7136
+    },
+    {
+      "domain": "www.reddit.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          21
+        ],
+        "construction mortgage bc": [
+          4
+        ],
+        "construction financing canada": [
+          9
+        ]
+      },
+      "etv_total": 9.227000000000002,
+      "visibility_total": 0.8999999999999999,
+      "kws_total": 3,
+      "rating_total": 266,
+      "appearances": 2,
+      "type": "news/social",
+      "best_position": 4,
+      "opp": 8.304300000000001
+    },
+    {
+      "domain": "www.vancity.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          3
+        ],
+        "construction financing canada": [
+          27
+        ],
+        "commercial construction loan": [
+          52
+        ]
+      },
+      "etv_total": 9.282,
+      "visibility_total": 0.8,
+      "kws_total": 3,
+      "rating_total": 218,
+      "appearances": 1,
+      "type": "bc-credit-union",
+      "best_position": 3,
+      "opp": 7.4256
+    },
+    {
+      "domain": "www.hkcconstruction.com",
+      "keywords_positions": {
+        "construction financing canada": [
+          8
+        ],
+        "commercial construction loan": [
+          5
+        ]
+      },
+      "etv_total": 7.917,
+      "visibility_total": 0.8999999999999999,
+      "kws_total": 2,
+      "rating_total": 187,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 5,
+      "opp": 7.125299999999999
+    },
+    {
+      "domain": "dominionlending.ca",
+      "keywords_positions": {
+        "commercial construction loan": [
+          4
+        ]
+      },
+      "etv_total": 7.249,
+      "visibility_total": 0.7,
+      "kws_total": 1,
+      "rating_total": 96,
+      "appearances": 1,
+      "type": "broker",
+      "best_position": 4,
+      "opp": 5.074299999999999
+    },
+    {
+      "domain": "ca.practicallaw.thomsonreuters.com",
+      "keywords_positions": {
+        "construction financing canada": [
+          5
+        ]
+      },
+      "etv_total": 6.566,
+      "visibility_total": 0.6,
+      "kws_total": 1,
+      "rating_total": 95,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 5,
+      "opp": 3.9395999999999995
+    },
+    {
+      "domain": "www.altusgroup.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          9
+        ]
+      },
+      "etv_total": 7.8,
+      "visibility_total": 0.4,
+      "kws_total": 1,
+      "rating_total": 91,
+      "appearances": 2,
+      "type": "lender",
+      "best_position": 9,
+      "opp": 3.12
+    },
+    {
+      "domain": "satbirbhullar.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          5
+        ]
+      },
+      "etv_total": 4.221,
+      "visibility_total": 0.6,
+      "kws_total": 1,
+      "rating_total": 95,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 5,
+      "opp": 2.5326
+    },
+    {
+      "domain": "www.firstfoundation.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          6
+        ],
+        "commercial construction loan": [
+          58
+        ]
+      },
+      "etv_total": 4.962999999999999,
+      "visibility_total": 0.5,
+      "kws_total": 2,
+      "rating_total": 136,
+      "appearances": 1,
+      "type": "bc-credit-union",
+      "best_position": 6,
+      "opp": 2.4814999999999996
+    },
+    {
+      "domain": "www.youtube.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          28
+        ],
+        "construction mortgage bc": [
+          21
+        ],
+        "construction financing canada": [
+          10
+        ],
+        "commercial construction loan": [
+          8
+        ]
+      },
+      "etv_total": 5.048,
+      "visibility_total": 0.4,
+      "kws_total": 4,
+      "rating_total": 333,
+      "appearances": 2,
+      "type": "news/social",
+      "best_position": 8,
+      "opp": 2.0192
+    },
+    {
+      "domain": "www.northerncu.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          6
+        ],
+        "construction financing canada": [
+          45
+        ]
+      },
+      "etv_total": 3.336,
+      "visibility_total": 0.5,
+      "kws_total": 2,
+      "rating_total": 149,
+      "appearances": 1,
+      "type": "bc-credit-union",
+      "best_position": 6,
+      "opp": 1.668
+    },
+    {
+      "domain": "www.cbc.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          10
+        ]
+      },
+      "etv_total": 5.8759999999999994,
+      "visibility_total": 0.2,
+      "kws_total": 1,
+      "rating_total": 90,
+      "appearances": 2,
+      "type": "government",
+      "best_position": 10,
+      "opp": 1.1752
+    },
+    {
+      "domain": "octopusrenovationgroup.ca",
+      "keywords_positions": {
+        "commercial construction loan": [
+          7
+        ]
+      },
+      "etv_total": 2.8160000000000003,
+      "visibility_total": 0.4,
+      "kws_total": 1,
+      "rating_total": 93,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 7,
+      "opp": 1.1264
+    },
+    {
+      "domain": "www.bcbuildshomes.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          7
+        ]
+      },
+      "etv_total": 2.3040000000000003,
+      "visibility_total": 0.4,
+      "kws_total": 1,
+      "rating_total": 93,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 7,
+      "opp": 0.9216000000000002
+    },
+    {
+      "domain": "smart-capital.ca",
+      "keywords_positions": {
+        "commercial construction loan": [
+          9
+        ]
+      },
+      "etv_total": 1.65,
+      "visibility_total": 0.2,
+      "kws_total": 1,
+      "rating_total": 91,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 9,
+      "opp": 0.33
+    },
+    {
+      "domain": "canadianbuildings.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          9
+        ],
+        "construction financing canada": [
+          33
+        ]
+      },
+      "etv_total": 1.644,
+      "visibility_total": 0.2,
+      "kws_total": 2,
+      "rating_total": 158,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 9,
+      "opp": 0.3288
+    },
+    {
+      "domain": "ised-isde.canada.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          14
+        ],
+        "commercial construction loan": [
+          10
+        ]
+      },
+      "etv_total": 2.027,
+      "visibility_total": 0.15000000000000002,
+      "kws_total": 2,
+      "rating_total": 176,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 10,
+      "opp": 0.30405000000000004
+    },
+    {
+      "domain": "www.facebook.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          17
+        ],
+        "construction mortgage bc": [
+          29
+        ],
+        "construction financing canada": [
+          84
+        ]
+      },
+      "etv_total": 2.7190000000000003,
+      "visibility_total": 0.1,
+      "kws_total": 3,
+      "rating_total": 170,
+      "appearances": 2,
+      "type": "news/social",
+      "best_position": 17,
+      "opp": 0.27190000000000003
+    },
+    {
+      "domain": "wowa.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          15
+        ],
+        "construction financing canada": [
+          12
+        ],
+        "commercial construction loan": [
+          23
+        ],
+        "apartment construction loan program": [
+          38
+        ]
+      },
+      "etv_total": 2.286,
+      "visibility_total": 0.1,
+      "kws_total": 4,
+      "rating_total": 312,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 12,
+      "opp": 0.22860000000000003
+    },
+    {
+      "domain": "www.meridiancu.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          12
+        ],
+        "construction financing canada": [
+          11
+        ],
+        "commercial construction loan": [
+          43
+        ]
+      },
+      "etv_total": 2.1799999999999997,
+      "visibility_total": 0.1,
+      "kws_total": 3,
+      "rating_total": 234,
+      "appearances": 1,
+      "type": "bc-credit-union",
+      "best_position": 11,
+      "opp": 0.21799999999999997
+    },
+    {
+      "domain": "www.gta-homes.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          11
+        ]
+      },
+      "etv_total": 2.366,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 89,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 11,
+      "opp": 0.11830000000000002
+    },
+    {
+      "domain": "cccu.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          10
+        ]
+      },
+      "etv_total": 1.017,
+      "visibility_total": 0.1,
+      "kws_total": 1,
+      "rating_total": 90,
+      "appearances": 1,
+      "type": "bc-credit-union",
+      "best_position": 10,
+      "opp": 0.1017
+    },
+    {
+      "domain": "canadacommons.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          12
+        ]
+      },
+      "etv_total": 1.95,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 88,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 12,
+      "opp": 0.0975
+    },
+    {
+      "domain": "swmw.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          14
+        ]
+      },
+      "etv_total": 1.456,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 86,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 14,
+      "opp": 0.0728
+    },
+    {
+      "domain": "grantcompass.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          15
+        ]
+      },
+      "etv_total": 1.326,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 85,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 15,
+      "opp": 0.06630000000000001
+    },
+    {
+      "domain": "invsty.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          16
+        ],
+        "apartment construction loan program": [
+          45
+        ]
+      },
+      "etv_total": 1.148,
+      "visibility_total": 0.05,
+      "kws_total": 2,
+      "rating_total": 139,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 16,
+      "opp": 0.0574
+    },
+    {
+      "domain": "graysbrookcapital.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          59
+        ],
+        "construction financing canada": [
+          15
+        ],
+        "commercial construction loan": [
+          61
+        ]
+      },
+      "etv_total": 1.134,
+      "visibility_total": 0.05,
+      "kws_total": 3,
+      "rating_total": 165,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 15,
+      "opp": 0.0567
+    },
+    {
+      "domain": "sett.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          16
+        ]
+      },
+      "etv_total": 1.118,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 84,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 16,
+      "opp": 0.055900000000000005
+    },
+    {
+      "domain": "www.syndicatelending.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          19
+        ],
+        "commercial construction loan": [
+          19
+        ]
+      },
+      "etv_total": 0.54,
+      "visibility_total": 0.1,
+      "kws_total": 2,
+      "rating_total": 162,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 19,
+      "opp": 0.054000000000000006
+    },
+    {
+      "domain": "housing.fnhssm.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          18
+        ]
+      },
+      "etv_total": 0.858,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 82,
+      "appearances": 1,
+      "type": "other",
+      "best_position": 18,
+      "opp": 0.0429
+    },
+    {
+      "domain": "cmfg.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          49
+        ],
+        "commercial construction loan": [
+          15
+        ]
+      },
+      "etv_total": 0.855,
+      "visibility_total": 0.05,
+      "kws_total": 2,
+      "rating_total": 136,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 15,
+      "opp": 0.04275
+    },
+    {
+      "domain": "geoffleemortgage.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          11
+        ]
+      },
+      "etv_total": 0.8190000000000001,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 89,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 11,
+      "opp": 0.04095000000000001
+    },
+    {
+      "domain": "www.exitrealtymatrix.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          19
+        ]
+      },
+      "etv_total": 0.7020000000000001,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 81,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 19,
+      "opp": 0.035100000000000006
+    },
+    {
+      "domain": "hellodarwin.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          20
+        ]
+      },
+      "etv_total": 0.624,
+      "visibility_total": 0.05,
+      "kws_total": 1,
+      "rating_total": 80,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 20,
+      "opp": 0.031200000000000002
+    },
+    {
+      "domain": "thegenesisgroup.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          24
+        ],
+        "construction financing canada": [
+          19
+        ]
+      },
+      "etv_total": 0.567,
+      "visibility_total": 0.05,
+      "kws_total": 2,
+      "rating_total": 157,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 19,
+      "opp": 0.02835
+    },
+    {
+      "domain": "www.sysconverge.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          22
+        ]
+      },
+      "etv_total": 0.5720000000000001,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 78,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 22,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.heliourbandevelopment.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          23
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 77,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 23,
+      "opp": 0.0
+    },
+    {
+      "domain": "goodearthbuilders.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          24
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 76,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 24,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.newswire.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          25
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 75,
+      "appearances": 1,
+      "type": "news/social",
+      "best_position": 25,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.citifund.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          26
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 74,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 26,
+      "opp": 0.0
+    },
+    {
+      "domain": "vancouver.pathwaysbc.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          30
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 70,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 30,
+      "opp": 0.0
+    },
+    {
+      "domain": "ontarioconstructionnews.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          31
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 69,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 31,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.subsidyfinder.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          33
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 67,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 33,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.rochstgeorges.ca",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          34
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 66,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 34,
+      "opp": 0.0
+    },
+    {
+      "domain": "ontariobusinessgrants.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          35
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 65,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 35,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.roblough.com",
+      "keywords_positions": {
+        "apartment construction loan program": [
+          36
+        ]
+      },
+      "etv_total": 0.5459999999999999,
+      "visibility_total": 0,
+      "kws_total": 1,
+      "rating_total": 64,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 36,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.ratehub.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          41
+        ],
+        "construction financing canada": [
+          46
+        ],
+        "commercial construction loan": [
+          50
+        ]
+      },
+      "etv_total": 0.714,
+      "visibility_total": 0,
+      "kws_total": 3,
+      "rating_total": 163,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 41,
+      "opp": 0.0
+    },
+    {
+      "domain": "amansadfinancial.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          27
+        ],
+        "construction financing canada": [
+          67
+        ],
+        "commercial construction loan": [
+          45
+        ]
+      },
+      "etv_total": 0.714,
+      "visibility_total": 0,
+      "kws_total": 3,
+      "rating_total": 161,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 27,
+      "opp": 0.0
+    },
+    {
+      "domain": "ky.scotiabank.com",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          23
+        ],
+        "construction financing canada": [
+          28
+        ]
+      },
+      "etv_total": 0.483,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 149,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 23,
+      "opp": 0.0
+    },
+    {
+      "domain": "swoopfunding.com",
+      "keywords_positions": {
+        "construction financing canada": [
+          32
+        ],
+        "commercial construction loan": [
+          26
+        ]
+      },
+      "etv_total": 0.5249999999999999,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 142,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 26,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.safebridgefinancial.com",
+      "keywords_positions": {
+        "construction financing canada": [
+          36
+        ],
+        "commercial construction loan": [
+          22
+        ]
+      },
+      "etv_total": 0.536,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 142,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 22,
+      "opp": 0.0
+    },
+    {
+      "domain": "e7mortgages.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          39
+        ],
+        "construction financing canada": [
+          22
+        ]
+      },
+      "etv_total": 0.497,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 139,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 22,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.axiumcap.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          33
+        ],
+        "construction financing canada": [
+          35
+        ]
+      },
+      "etv_total": 0.483,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 132,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 33,
+      "opp": 0.0
+    },
+    {
+      "domain": "mortgagecapitalinvestment.com",
+      "keywords_positions": {
+        "construction financing canada": [
+          47
+        ],
+        "commercial construction loan": [
+          21
+        ]
+      },
+      "etv_total": 0.5469999999999999,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 132,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 21,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.sunlitemortgage.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          41
+        ],
+        "commercial construction loan": [
+          32
+        ]
+      },
+      "etv_total": 0.5249999999999999,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 127,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 32,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.tekamar.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          52
+        ],
+        "construction financing canada": [
+          30
+        ]
+      },
+      "etv_total": 0.483,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 118,
+      "appearances": 1,
+      "type": "content/blog",
+      "best_position": 30,
+      "opp": 0.0
+    },
+    {
+      "domain": "themortgageworld.ca",
+      "keywords_positions": {
+        "construction financing canada": [
+          56
+        ],
+        "commercial construction loan": [
+          28
+        ]
+      },
+      "etv_total": 0.5249999999999999,
+      "visibility_total": 0,
+      "kws_total": 2,
+      "rating_total": 116,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 28,
+      "opp": 0.0
+    },
+    {
+      "domain": "asimali.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          45
+        ],
+        "construction financing canada": [
+          70
+        ],
+        "commercial construction loan": [
+          72
+        ]
+      },
+      "etv_total": 0.714,
+      "visibility_total": 0,
+      "kws_total": 3,
+      "rating_total": 113,
+      "appearances": 1,
+      "type": "lender",
+      "best_position": 45,
+      "opp": 0.0
+    },
+    {
+      "domain": "www.lendingtreecanada.ca",
+      "keywords_positions": {
+        "construction mortgage bc": [
+          69
+        ],
+        "construction financing canada": [
+          65
+        ],
+        "commercial construction loan": [
+          60
+        ]
+      },
+      "etv_total": 0.714,
+      "visibility_total": 0,
+      "kws_total": 3,
+      "rating_total": 106,
+      "appearances": 1,
+      "type": "government",
+      "best_position": 60,
+      "opp": 0.0
+    }
+  ]
+}

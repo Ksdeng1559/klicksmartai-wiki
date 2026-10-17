@@ -1,0 +1,412 @@
+{
+  "ran_at": "2026-10-17",
+  "project_id": "7f4bbe03-f30f-4eeb-b648-d64985be70a1",
+  "project_name": "KommercialConnect",
+  "location_code": 20114,
+  "language": "en",
+  "tool": "get_serp_results",
+  "queries": 5,
+  "per_keyword": [
+    {
+      "keyword": "bc loans",
+      "results_count": 20,
+      "top10_classification": {
+        "govt/edu": 7,
+        "other": 2,
+        "commercial": 1
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "studentaidbc.ca",
+          "type": "govt/edu",
+          "title": "StudentAid BC: SABC home page",
+          "url": "https://studentaidbc.ca/sabc-home-page"
+        },
+        {
+          "rank": 2,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 3,
+          "domain": "studentaidbc.ca",
+          "type": "govt/edu",
+          "title": "StudentAidBC - Dashboard Login",
+          "url": "https://studentaidbc.ca/dashboard/login"
+        },
+        {
+          "rank": 4,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 5,
+          "domain": "students.ubc.ca",
+          "type": "govt/edu",
+          "title": "Loans for full-time students from British Columbia",
+          "url": "https://students.ubc.ca/finances/student-loans/loans-full-time-british-columbia/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.bcit.ca",
+          "type": "govt/edu",
+          "title": "StudentAid BC Loans & Grants",
+          "url": "https://www.bcit.ca/financial-aid/student-loans-grants/"
+        },
+        {
+          "rank": 7,
+          "domain": "billing-and-payment.revenueservicesbc.gov.bc.ca",
+          "type": "govt/edu",
+          "title": "BC Student Loans - Billing & Payment Services",
+          "url": "https://billing-and-payment.revenueservicesbc.gov.bc.ca/bc-student-loans"
+        },
+        {
+          "rank": 8,
+          "domain": "studentaidbc.ca",
+          "type": "govt/edu",
+          "title": "StudentAid BC \u2013 Full-time student funding",
+          "url": "https://studentaidbc.ca/explore/full-time"
+        },
+        {
+          "rank": 9,
+          "domain": "www.ufv.ca",
+          "type": "govt/edu",
+          "title": "StudentAid BC Student Loan Program",
+          "url": "https://www.ufv.ca/fineaid/student-loans-and-grants/studentaid-bc-student-loan-program/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.loanbeaver.io",
+          "type": "commercial",
+          "title": "British Columbia Loans - Beautiful BC Financing",
+          "url": "https://www.loanbeaver.io/british-columbia-loans"
+        }
+      ]
+    },
+    {
+      "keyword": "commercial construction financing",
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "commercial": 8
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.bdc.ca",
+          "type": "commercial",
+          "title": "What is a commercial mortgage? | Definition + Calculator",
+          "url": "https://www.bdc.ca/en/articles-tools/entrepreneur-toolkit/templates-business-guides/glossary/commercial-mortgage"
+        },
+        {
+          "rank": 3,
+          "domain": "swoopfunding.com",
+          "type": "commercial",
+          "title": "Construction loans and finance | Swoop CA",
+          "url": "https://swoopfunding.com/ca/sectors/construction-loans-and-finance/"
+        },
+        {
+          "rank": 4,
+          "domain": "brickflow.com",
+          "type": "commercial",
+          "title": "What Is A Commercial Construction Loan? Types, Tips & ...",
+          "url": "https://brickflow.com/brickflow-thinks/what-is-a-commercial-construction-loan"
+        },
+        {
+          "rank": 5,
+          "domain": "www.sunlitemortgage.ca",
+          "type": "commercial",
+          "title": "Commercial Financing In Ontario: What You Need To Know",
+          "url": "https://www.sunlitemortgage.ca/all-you-need-to-know-about-commercial-financing-in-ontario/"
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "Find related products & services",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "lendcity.ca",
+          "type": "commercial",
+          "title": "The Investor's Commercial Financing Options Companion",
+          "url": "https://lendcity.ca/blog/commercial-financing-options-guide/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.bdc.ca",
+          "type": "commercial",
+          "title": "Top financing options for commercial real estate",
+          "url": "https://www.bdc.ca/en/articles-tools/money-finance/buy-lease-commercial-real-estate/top-financing-options-for-commercial-real-estate"
+        },
+        {
+          "rank": 9,
+          "domain": "www.greenboxcapital.ca",
+          "type": "commercial",
+          "title": "6 Popular Types of Construction Company Loans for Contractors",
+          "url": "https://www.greenboxcapital.ca/guides/6-popular-construction-company-loans-for-contractors/"
+        },
+        {
+          "rank": 10,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "commercial",
+          "title": "Project Funding and Mortgage Financing",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing"
+        }
+      ]
+    },
+    {
+      "keyword": "construction financing canada",
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "commercial": 8
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "ca.practicallaw.thomsonreuters.com",
+          "type": "commercial",
+          "title": "Construction Financing: Overview - Practical Law",
+          "url": "https://ca.practicallaw.thomsonreuters.com/w-001-8974?transitionType=Default&contextData=(sc.Default)"
+        },
+        {
+          "rank": 3,
+          "domain": "perlaw.ca",
+          "type": "commercial",
+          "title": "Construction financing: The lender's role & priority under ...",
+          "url": "https://perlaw.ca/2022/11/08/construction-financing-the-lenders-role-priority-under-the-construction-act/"
+        },
+        {
+          "rank": 4,
+          "domain": "www.sunlitemortgage.ca",
+          "type": "commercial",
+          "title": "Construction Mortgage & Draws",
+          "url": "https://www.sunlitemortgage.ca/construction-mortgage/"
+        },
+        {
+          "rank": 5,
+          "domain": "www.facebook.com",
+          "type": "commercial",
+          "title": "How construction financing works in Canada",
+          "url": "https://www.facebook.com/canadalend/posts/%EF%B8%8Funlike-a-traditional-mortgage-construction-financing-typically-doesnt-provide-a/1956172095821933/"
+        },
+        {
+          "rank": 6,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 7,
+          "domain": "thegenesisgroup.ca",
+          "type": "commercial",
+          "title": "Build Your Dream Home with a Construction Mortgage",
+          "url": "https://thegenesisgroup.ca/construction-mortgage-canada/"
+        },
+        {
+          "rank": 8,
+          "domain": "calgaryhomes.ca",
+          "type": "commercial",
+          "title": "What is a Construction Mortgage? How They Work in Canada",
+          "url": "https://calgaryhomes.ca/blog/construction-mortgage-canada.html"
+        },
+        {
+          "rank": 9,
+          "domain": "invsty.ca",
+          "type": "commercial",
+          "title": "CMHC Construction Financing Ontario",
+          "url": "https://invsty.ca/insights/cmhc-construction-financing-ontario"
+        },
+        {
+          "rank": 10,
+          "domain": "www.forbes.com",
+          "type": "commercial",
+          "title": "Guide to Construction Mortgages in Canada",
+          "url": "https://www.forbes.com/advisor/ca/mortgages/construction-morgages/"
+        }
+      ]
+    },
+    {
+      "keyword": "construction mortgage bc",
+      "results_count": 20,
+      "top10_classification": {
+        "other": 4,
+        "commercial": 6
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.axiumcap.ca",
+          "type": "commercial",
+          "title": "Construction and Land Financing",
+          "url": "https://www.axiumcap.ca/construction-financing-options"
+        },
+        {
+          "rank": 3,
+          "domain": "satbirbhullar.ca",
+          "type": "commercial",
+          "title": "How Do Construction Mortgage Works in British Columbia?",
+          "url": "https://satbirbhullar.ca/blog/how-do-construction-mortgage-works-in-british-columbia/"
+        },
+        {
+          "rank": 4,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 5,
+          "domain": "www.facebook.com",
+          "type": "commercial",
+          "title": "Private lenders for construction mortgages in BC?",
+          "url": "https://www.facebook.com/groups/mortgagebrokersincanada/posts/3079462938867429/"
+        },
+        {
+          "rank": 6,
+          "domain": "www.sandhusranmortgages.com",
+          "type": "commercial",
+          "title": "Build or Wait? 2026 Construction Mortgage Strategy Guide ...",
+          "url": "https://www.sandhusranmortgages.com/blog/build-or-wait-construction-mortgage-strategies-while-rates-hold-but-housing-costs-start-climbing-again/"
+        },
+        {
+          "rank": 7,
+          "domain": "www.rowansmith.ca",
+          "type": "commercial",
+          "title": "Construction Mortgage Vancouver BC | 2026 Guide",
+          "url": "https://www.rowansmith.ca/blog/construction-mortgage-vancouver-bc-2026"
+        },
+        {
+          "rank": 8,
+          "domain": "www.bmo.com",
+          "type": "other",
+          "title": "Mortgage Builder Program - BMO Canada",
+          "url": "https://www.bmo.com/en-ca/main/personal/mortgages/special-offers/builder-program/"
+        },
+        {
+          "rank": 9,
+          "domain": "satbirbhullar.ca",
+          "type": "commercial",
+          "title": "6 Things to Know Before Applying a Construction Mortgage",
+          "url": "https://satbirbhullar.ca/blog/6-things-to-know-before-applying-a-construction-mortgage/"
+        },
+        {
+          "rank": 10,
+          "domain": "?",
+          "type": "other",
+          "title": "Discussions and forums",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "keyword": "commercial construction loan",
+      "results_count": 20,
+      "top10_classification": {
+        "other": 2,
+        "commercial": 8
+      },
+      "top10": [
+        {
+          "rank": 1,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 2,
+          "domain": "www.mcap.com",
+          "type": "commercial",
+          "title": "Construction Loans and Commercial Mortgages",
+          "url": "https://www.mcap.com/blog/construction-loans-and-commercial-mortgages"
+        },
+        {
+          "rank": 3,
+          "domain": "www.firstnational.ca",
+          "type": "commercial",
+          "title": "Development and construction loans for retail properties",
+          "url": "https://www.firstnational.ca/commercial/mortgage-solutions/retail/development-construction"
+        },
+        {
+          "rank": 4,
+          "domain": "?",
+          "type": "other",
+          "title": "",
+          "url": ""
+        },
+        {
+          "rank": 5,
+          "domain": "www.bdc.ca",
+          "type": "commercial",
+          "title": "Commercial Real Estate Loan Get extra space to grow",
+          "url": "https://www.bdc.ca/en/financing/commercial-real-estate-loan"
+        },
+        {
+          "rank": 6,
+          "domain": "dominionlending.ca",
+          "type": "commercial",
+          "title": "Construction Financing",
+          "url": "https://dominionlending.ca/commercial/construction"
+        },
+        {
+          "rank": 7,
+          "domain": "octopusrenovationgroup.ca",
+          "type": "commercial",
+          "title": "How to Get a Commercial Construction Loan in Ontario",
+          "url": "https://octopusrenovationgroup.ca/how-to-get-a-commercial-construction-loan-in-ontario/"
+        },
+        {
+          "rank": 8,
+          "domain": "www.hkcconstruction.com",
+          "type": "commercial",
+          "title": "Construction Financing in Ontario: Capital Structuring & ...",
+          "url": "https://www.hkcconstruction.com/blogs/construction-financing-in-ontario"
+        },
+        {
+          "rank": 9,
+          "domain": "www.cmhc-schl.gc.ca",
+          "type": "commercial",
+          "title": "Apartment Construction Loan Program",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/project-funding-and-mortgage-financing/funding-programs/all-funding-programs/apartment-construction-loan-program"
+        },
+        {
+          "rank": 10,
+          "domain": "www.prospera.ca",
+          "type": "commercial",
+          "title": "Project Financing - Business Borrowing",
+          "url": "https://www.prospera.ca/Business/Borrowing/Project+financing"
+        }
+      ]
+    }
+  ]
+}
