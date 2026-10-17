@@ -18442,5 +18442,197 @@
     "seen": 1791864270.1753154,
     "ast_hash": "ad68565c31e56ba6d06edd449f752bbe",
     "semantic_hash": ""
+  },
+  "clients/konstruction-comos/drafts/bc-mortgage-marketplace/keyword-research-2026-10-17.json": {
+    "mtime": 1792184422.5118284,
+    "seen": 1792209842.1683176,
+    "ast_hash": "a496ca66a391cbb9092e00b9c65ca920",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/_render_project_file.py": {
+    "mtime": 1792188902.8212562,
+    "seen": 1792209842.1683195,
+    "ast_hash": "ec2807310bbca0d839abc465961c8d75",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/keyword-research-2026-10-17.json": {
+    "mtime": 1792187889.8725398,
+    "seen": 1792209842.1683207,
+    "ast_hash": "a496ca66a391cbb9092e00b9c65ca920",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-bc-gap-serp-2026-10-17.json": {
+    "mtime": 1792192737.94908,
+    "seen": 1792209842.1683223,
+    "ast_hash": "65c71f1e37e2f3d4f172214773258cd8",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-broader-keyword-metrics-2026-10-17.json": {
+    "mtime": 1792193944.916732,
+    "seen": 1792209842.1683235,
+    "ast_hash": "dc790eba98911cfe0ff3bbe28ffbbff9",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-broader-serp-2026-10-17.json": {
+    "mtime": 1792193803.7993448,
+    "seen": 1792209842.1683247,
+    "ast_hash": "11b4e0a0bc618746d20560a9b422461f",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-keyword-metrics-2026-10-17.json": {
+    "mtime": 1792191970.6047745,
+    "seen": 1792209842.168326,
+    "ast_hash": "5664d8ad3448a0fc64d989317bdf32af",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-multifamily-serp-2026-10-17.json": {
+    "mtime": 1792192372.0697882,
+    "seen": 1792209842.1683269,
+    "ast_hash": "af0aec0f29d4a9fe5169e702317112ce",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-pbr-serp-2026-10-17.json": {
+    "mtime": 1792192493.8105419,
+    "seen": 1792209842.168328,
+    "ast_hash": "d7eb3f0807c5008e64cee9d93ee0c23c",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-private-lender-bc-serp-2026-10-17.json": {
+    "mtime": 1792194001.1245897,
+    "seen": 1792209842.168329,
+    "ast_hash": "909f453ae2482b2cbf1d0455fed7eb5d",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-project-file-2026-10-17.json": {
+    "mtime": 1792188744.6181986,
+    "seen": 1792209842.1683302,
+    "ast_hash": "6e4514701c5a9965ccd8de635e36772d",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-serp-competitors-2026-10-17.json": {
+    "mtime": 1792192654.5173745,
+    "seen": 1792209842.1683311,
+    "ast_hash": "9bf7becd349d71b4e231593d8a4a30b4",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-serp-scans-2026-10-17.json": {
+    "mtime": 1792192281.1472564,
+    "seen": 1792209842.168332,
+    "ast_hash": "9e1c23f3d338ccf6dcc8e49a3f1f0e29",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/README.md": {
+    "mtime": 1792193430.8243992,
+    "seen": 1792209842.1770327,
+    "ast_hash": "df87cfd4fbbb696b0b32e7327c6b7b93",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/_config/project-context.md": {
+    "mtime": 1792194949.0583837,
+    "seen": 1792209842.177034,
+    "ast_hash": "56511fac22127b38054b4fa408b05856",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/drafts/bc-mortgage-marketplace/keyword-research-2026-10-17.md": {
+    "mtime": 1792184422.5142043,
+    "seen": 1792209842.177035,
+    "ast_hash": "ba20a71b928ca236d5143f5606383943",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/README.md": {
+    "mtime": 1792194650.3584814,
+    "seen": 1792209842.1770363,
+    "ast_hash": "a03f93f8fffff0e4aa2da792916bf863",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/brokers/commercial-mortgage-broker-vancouver.html": {
+    "mtime": 1792194562.0579567,
+    "seen": 1792209842.1770372,
+    "ast_hash": "3a1da531786509fcf7a589ab42d233e5",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/brokers/join-as-broker.html": {
+    "mtime": 1792194597.7951665,
+    "seen": 1792209842.1770737,
+    "ast_hash": "0d5f534d01a4613087c25b0c5ecf3163",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/financing/apartment-construction-loan-program-bc.html": {
+    "mtime": 1792194518.2903614,
+    "seen": 1792209842.1770756,
+    "ast_hash": "f29e34f53c470c52d520eff1759b974a",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/financing/commercial-construction-financing-vancouver.html": {
+    "mtime": 1792194457.7503426,
+    "seen": 1792209842.1770766,
+    "ast_hash": "a5b58c6d4d3be1d330a838da2e9eb3c1",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/financing/private-lender-bc.html": {
+    "mtime": 1792194323.2856464,
+    "seen": 1792209842.1770773,
+    "ast_hash": "cd87c0ad4ee1c311317ae0dc4dfd1b90",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/landing-pages/financing/vancouver-purpose-built-rental-loan.html": {
+    "mtime": 1792194486.8848586,
+    "seen": 1792209842.177078,
+    "ast_hash": "7d7cbca48ccebe7273d5abc05da6579d",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/bc-gap-serp-analysis-2026-10-17.md": {
+    "mtime": 1792192788.000063,
+    "seen": 1792209842.177079,
+    "ast_hash": "ce4dc8d958fdf7fe78fbe38d0490c81d",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/broader-serp-analysis-2026-10-17.md": {
+    "mtime": 1792193825.4623652,
+    "seen": 1792209842.17708,
+    "ast_hash": "648d9ddc5aa649f24112190e2b71afa5",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/keyword-research-2026-10-17.md": {
+    "mtime": 1792187889.8728666,
+    "seen": 1792209842.177081,
+    "ast_hash": "ba20a71b928ca236d5143f5606383943",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/multifamily-serp-analysis-2026-10-17.md": {
+    "mtime": 1792192389.125475,
+    "seen": 1792209842.177082,
+    "ast_hash": "8e15023392ed1d208ef00c8be8295df4",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/openseo-project-file-2026-10-17.md": {
+    "mtime": 1792188907.1222038,
+    "seen": 1792209842.1770833,
+    "ast_hash": "c2bdf554dfa4fd3172a824e81f99d202",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/pbr-serp-analysis-2026-10-17.md": {
+    "mtime": 1792192518.7155964,
+    "seen": 1792209842.1770844,
+    "ast_hash": "16049b96d0a389e8625c7f2931e55806",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/private-lender-bc-blue-ocean.md": {
+    "mtime": 1792194029.567381,
+    "seen": 1792209842.1770854,
+    "ast_hash": "9b5dd246d63e13ddac0a98798d430df6",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/serp-analysis-2026-10-17.md": {
+    "mtime": 1792192301.3792388,
+    "seen": 1792209842.1770864,
+    "ast_hash": "dac6a72d52f869d27186d0d191cb0bb5",
+    "semantic_hash": ""
+  },
+  "clients/konstruction-comos/research/serp-competitor-analysis-2026-10-17.md": {
+    "mtime": 1792192678.8490856,
+    "seen": 1792209842.1770878,
+    "ast_hash": "fa1de07bd530d57ffff1ad7774aa12e0",
+    "semantic_hash": ""
   }
 }
